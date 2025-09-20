@@ -1,0 +1,914 @@
+Ministerio de Fomento
+Secretaría de Estado de Infraestructuras, Transporte y Vivienda
+Dirección General de Arquitectura, Vivienda y Suelo
+1 de 19
+Documento de Apoyo al Documento Básico
+DB-HE Ahorro de energía
+Código Técnico de la Edificación
+DA DB-HE / 1
+Cálculo de parámetros característicos de la envolvente
+Febrero 2015
+Índice
+1 Objeto 2
+2 Cálculo de los parámetros característicos de la envolvente 2
+2.1 Transmitancia térmica 2
+2.2 Factor solar modificado de huecos y lucernarios 12
+3 Resistencia térmica total de un elemento de edificación constituido por capas
+homogéneas y heterogéneas. 15
+3.1 Límite superior de la resistencia térmica total R’T 16
+3.2 Límite inferior de la resistencia térmica total R’’T 16
+3.3 Resistencia térmica de cavidades de aire sin ventilar Rg 17
+Notaciones y unidades 18
+Otros documentos relacionados 19
+Documento de Apoyo al DB HE DA DB HE / 1
+2 de 19
+1 Objeto
+Este documento describe varios métodos simplificados que se pueden emplear para el cálculo de los
+parámetros característicos de los diferentes elementos que componen la envolvente térmica del
+edificio, lo que no impide el uso de otros métodos contrastados, sean simplificados o detallados.
+2 Cálculo de los parámetros característicos de la envolvente
+2.1 Transmitancia térmica
+2.1.1 Cerramientos en contacto con el aire exterior
+Este cálculo es aplicable a la parte opaca de todos los cerramientos en contacto con el aire exterior
+tales como muros de fachada, cubiertas y suelos en contacto con el aire exterior.
+La transmitancia térmica U (W/m2
+·K) viene dada por la siguiente expresión:
+RT
+U =
+1
+ (1)
+siendo,
+
+RT la resistencia térmica total del componente constructivo [m2
+·K/ W].
+La resistencia térmica total RT de un componente constituido por capas térmicamente homogéneas se
+calcula mediante la expresión:
+RT = Rsi + R1 + R2 + + Rn + Rse ... (2)
+siendo,
+R1, R2...Rn las resistencias térmicas de cada capa definidas según la expresión (3) [m2
+·K/ W];
+Rsi y Rse las resistencias térmicas superficiales correspondientes al aire interior y exterior
+respectivamente, tomadas de la tabla 1 de acuerdo a la posición del cerramiento,
+dirección del flujo de calor y su situación en el edificio [m2
+·K/ W].
+En caso de un componente constituido por capas homogéneas y heterogéneas la resistencia térmica
+total RT se calcula mediante el procedimiento descrito en el apartado 3.
+La resistencia térmica de una capa térmicamente homogénea viene definida por la expresión:
+λ
+e
+R = (3)
+siendo,
+e el espesor de la capa [m]. En caso de una capa de espesor variable se considera el
+espesor medio;
+λ la conductividad térmica de diseño del material que compone la capa, que se puede
+calcular a partir de los valores térmicos declarados según la norma UNEEN 10456:2012.
+Documento de Apoyo al DB HE DA DB HE / 1
+3 de 19
+Tabla 1 Resistencias térmicas superficiales de cerramientos en contacto con el aire exterior en m2
+·K/ W
+Posición del cerramiento y sentido del flujo de calor Rse Rsi
+Cerramientos verticales o
+con pendiente sobre la
+horizontal >60° y flujo
+Horizontal
+0,04 0,13
+Cerramientos horizontales
+o con pendiente sobre la
+horizontal ≤60° y
+flujo ascendente (Techo)
+0,04 0,10
+Cerramientos horizontales
+y flujo descendente
+(Suelo)
+0,04 0,17
+Las cámaras de aire pueden ser caracterizadas por su resistencia térmica, según las siguientes
+tipologías:
+a) cámara de aire sin ventilar: aquella en la que no existe ningún sistema específico para el flujo
+del aire a través de ella. Una cámara de aire que no tenga aislamiento entre ella y el ambiente
+exterior pero con pequeñas aberturas al exterior puede también considerarse como cámara
+de aire sin ventilar, si esas aberturas no permiten el flujo de aire a través de la cámara y no
+exceden:
+ i) 500 mm2
+ por m de longitud contado horizontalmente para cámaras de aire verticales;
+ ii) 500 mm2
+ por m2
+ de superficie para cámaras de aire horizontales.
+La resistencia térmica de las cámaras de aires sin ventilar viene definida en la tabla 2 en
+función de su espesor. Los valores intermedios se pueden obtener por interpolación lineal.
+Los valores son aplicables cuando la cámara:
+- esté limitada por dos superficies paralelas entre sí y perpendiculares a la dirección del
+flujo de calor y cuyas emisividades sean superiores a 0,8;
+- tengan un espesor menor a 0,1 veces cada una de las otras dos dimensiones y no
+mayor a 0,3 m;
+- no tenga intercambio de aire con el ambiente interior.
+Tabla 2 Resistencias térmicas de cámaras de aire en m2
+·K/ W
+e (cm) Sin ventilar
+horizontal vertical
+1 0,15 0,15
+2 0,16 0,17
+ 5 0,16 0,18
+b) cámara de aire ligeramente ventilada: aquella en la que no existe un dispositivo para el flujo
+de aire limitado a través de ella desde el ambiente exterior pero con aberturas dentro de los
+siguientes rangos:
+i) 500 mm2 < Saberturas ≤ 1500 mm2
+ por m de longitud contado horizontalmente para cámaras
+de aire verticales;
+ii) 500 mm2 < Saberturas ≤ 1500 mm2
+ por m2
+ de superficie para cámaras de aire horizontales.
+
+Documento de Apoyo al DB HE DA DB HE / 1
+4 de 19
+La resistencia térmica de una cámara de aire ligeramente ventilada es la mitad de los valores
+de la tabla 2.
+c) cámara de aire muy ventilada: aquella en que los valores de las aberturas exceden:
+i) 1500 mm2
+ por m de longitud contado horizontalmente para cámaras de aire verticales;
+ii) 1500 mm2
+ por m2
+ de superficie para cámaras de aire horizontales.
+Para cámaras de aire muy ventiladas, la resistencia térmica total del cerramiento se obtiene
+despreciando la resistencia térmica de la cámara de aire y las de las demás capas entre la cámara de
+aire y el ambiente exterior, e incluyendo una resistencia superficial exterior correspondiente al aire en
+calma, igual a la resistencia superficial interior del mismo elemento.
+La transmitancia térmica UMD (W/m2
+·K) de las medianerías se calcula como un cerramiento en
+contacto con el exterior pero considerando las resistencias superficiales como interiores.
+2.1.2 Cerramientos en contacto con el terreno
+2.1.2.1 Suelos en contacto con el terreno
+Para el cálculo de la transmitancia US (W/m2
+·K) se consideran en este apartado:
+CASO 1 soleras o losas apoyadas sobre el nivel del terreno o como máximo 0,50 m por debajo
+de éste;
+CASO 2 soleras o losas a una profundidad superior a 0,5 m respecto al nivel del terreno.
+CASO 1
+La transmitancia térmica Us (W/m2
+·K) se obtiene de la tabla 3 en función del ancho D de la banda de
+aislamiento perimétrico, de la resistencia térmica del aislante Ra calculada mediante la expresión (3) y
+la longitud característica B’ de la solera o losa.
+Los valores intermedios se pueden obtener por interpolación lineal.
+Banda de aislamiento horizontal Banda de aislamiento vertical
+Figura 1 Soleras con aislamiento perimetral
+Se define la longitud característica B’ como el cociente entre la superficie del suelo y la longitud de su
+semiperímetro expuesto, según la expresión:
+P
+A
+B'=
+2
+1
+ (4)
+siendo,
+P la longitud del perímetro expuesto de la solera [m];
+A el área de la solera [m2
+].
+Para soleras o losas sin aislamiento térmico, la transmitancia térmica Us se toma de la columna Ra =
+0 m2
+·K/W en función de su longitud característica B’.
+Documento de Apoyo al DB HE DA DB HE / 1
+5 de 19
+Para soleras o losas con aislamiento continuo en toda su superficie se toman los valores de la
+columna D ≥ 1,5 m.
+La transmitancia térmica del primer metro de losa o solera se obtiene de la fila B’ = 1.
+Tabla 3 Transmitancia térmica US en W/m2
+·K
+D = 0.5 m D = 1.0 m D ≥ 1.5 m
+Ra Ra (m²·K/ W) Ra (m²·K/ W) Ra (m²·K/ W)
+B' 0,00 0,50 1,00 1,50 2,00 2,50 0,50 1,00 1,50 2,00 2,50 0,50 1,00 1,50 2,00 2,50
+1 2,35 1,57 1,30 1,16 1,07 1,01 1,39 1,01 0,80 0,66 0,57 - - - - -
+2 1,56 1,17 1,04 0,97 0,92 0,89 1,08 0,89 0,79 0,72 0,67 1,04 0,83 0,70 0,61 0,55
+3 1,20 0,94 0,85 0,80 0,78 0,76 0,88 0,76 0,69 0,64 0,61 0,85 0,71 0,63 0,57 0,53
+4 0,99 0,79 0,73 0,69 0,67 0,65 0,75 0,65 0,60 0,57 0,54 0,73 0,62 0,56 0,51 0,48
+5 0,85 0,69 0,64 0,61 0,59 0,58 0,65 0,58 0,54 0,51 0,49 0,64 0,55 0,50 0,47 0,44
+6 0,74 0,61 0,57 0,54 0,53 0,52 0,58 0,52 0,48 0,46 0,44 0,57 0,50 0,45 0,43 0,41
+7 0,66 0,55 0,51 0,49 0,48 0,47 0,53 0,47 0,44 0,42 0,41 0,51 0,45 0,42 0,39 0,37
+8 0,60 0,50 0,47 0,45 0,44 0,43 0,48 0,43 0,41 0,39 0,38 0,47 0,42 0,38 0,36 0,35
+9 0,55 0,46 0,43 0,42 0,41 0,40 0,44 0,40 0,38 0,36 0,35 0,43 0,39 0,36 0,34 0,33
+10 0,51 0,43 0,40 0,39 0,38 0,37 0,41 0,37 0,35 0,34 0,33 0,40 0,36 0,34 0,32 0,31
+12 0,44 0,38 0,36 0,34 0,34 0,33 0,36 0,33 0,31 0,30 0,29 0,36 0,32 0,30 0,28 0,27
+14 0,39 0,34 0,32 0,31 0,30 0,30 0,32 0,30 0,28 0,27 0,27 0,32 0,29 0,27 0,26 0,25
+16 0,35 0,31 0,29 0,28 0,27 0,27 0,29 0,27 0,26 0,25 0,24 0,29 0,26 0,25 0,24 0,23
+18 0,32 0,28 0,27 0,26 0,25 0,25 0,27 0,25 0,24 0,23 0,22 0,27 0,24 0,23 0,22 0,21
+≥20 0,30 0,26 0,25 0,24 0,23 0,23 0,25 0,23 0,22 0,21 0,21 0,25 0,22 0,21 0,20 0,20
+CASO 2
+La transmitancia térmica Us (W/m2
+·K) se obtiene de la tabla 4 en función de la profundidad z de la
+solera o losa respecto el nivel del terreno, de su resistencia térmica Rf
+ calculada mediante la
+expresión (2), despreciando las resistencias térmicas superficiales, y la longitud característica B’
+calculada mediante la expresión (4).
+Los valores intermedios se pueden obtener por interpolación lineal.
+Figura 2 Solera enterrada
+Documento de Apoyo al DB HE DA DB HE / 1
+6 de 19
+Tabla 4 Transmitancia térmica US en W/m2
+·K
+ 0,5 m < z ≤ 1,0 m 1,0 m < z ≤ 2,0 m 2,0 m < z ≤ 3,0 m z > 3,0 m
+Rf (m²·K/W) Rf (m²·K/W) Rf (m²·K/W) Rf (m²·K/W)
+B' 0,00 0,50 1,00 1,50 0,00 0,50 1,00 1,50 0,00 0,50 1,00 1,50 0,00 0,50 1,00 1,50
+1 1,51 1,07 0,84 0,69 1,14 0,88 0,72 0,61 0,78 0,65 0,56 0,49 0,59 0,51 0,46 0,41
+2 1,09 0,82 0,67 0,57 0,87 0,70 0,59 0,51 0,63 0,54 0,47 0,42 0,50 0,44 0,40 0,36
+3 0,87 0,68 0,57 0,49 0,71 0,59 0,50 0,44 0,53 0,47 0,41 0,37 0,43 0,39 0,35 0,32
+4 0,74 0,59 0,49 0,43 0,61 0,51 0,44 0,39 0,47 0,41 0,37 0,34 0,39 0,35 0,32 0,29
+5 0,64 0,52 0,44 0,39 0,54 0,45 0,40 0,36 0,42 0,37 0,34 0,31 0,35 0,32 0,29 0,27
+6 0,57 0,46 0,40 0,35 0,48 0,41 0,36 0,33 0,38 0,34 0,31 0,28 0,32 0,29 0,27 0,25
+7 0,52 0,42 0,37 0,33 0,44 0,38 0,33 0,30 0,35 0,31 0,29 0,26 0,30 0,27 0,25 0,24
+8 0,47 0,39 0,34 0,30 0,40 0,35 0,31 0,28 0,33 0,29 0,27 0,25 0,28 0,26 0,24 0,22
+9 0,43 0,36 0,32 0,28 0,37 0,32 0,29 0,26 0,30 0,27 0,25 0,23 0,26 0,24 0,22 0,21
+10 0,40 0,34 0,30 0,27 0,35 0,30 0,27 0,25 0,29 0,26 0,24 0,22 0,25 0,23 0,21 0,20
+12 0,36 0,30 0,27 0,24 0,31 0,27 0,24 0,22 0,26 0,23 0,21 0,20 0,22 0,21 0,19 0,18
+14 0,32 0,27 0,24 0,22 0,28 0,25 0,22 0,20 0,23 0,21 0,20 0,18 0,20 0,19 0,18 0,17
+16 0,29 0,25 0,22 0,20 0,25 0,23 0,20 0,19 0,21 0,20 0,18 0,17 0,19 0,17 0,16 0,16
+18 0,26 0,23 0,20 0,19 0,23 0,21 0,19 0,18 0,20 0,18 0,17 0,16 0,17 0,16 0,15 0,15
+≥20 0,24 0,21 0,19 0,17 0,22 0,19 0,18 0,16 0,18 0,17 0,16 0,15 0,16 0,15 0,14 0,14
+2.1.2.2 Muros en contacto con el terreno
+La transmitancia térmica UT (W/m2
+·K) de los muros o pantallas en contacto con el terreno se obtiene
+de la tabla 5 en función de su profundidad z, y de la resistencia térmica del muro Rm calculada
+mediante la expresión (2) despreciando las resistencias térmicas superficiales.
+Los valores intermedios se pueden obtener por interpolación lineal.
+
+ Figura 3 Muro en contacto con el terreno Figura 4 Muro enterrado
+Documento de Apoyo al DB HE DA DB HE / 1
+7 de 19
+ Tabla 5 Transmitancia térmica de muros enterrados UT en W/m2
+·K
+Profundidad z de la parte enterrada del
+muro (m)
+Rm
+(m² K/W) 0,5 1 2 3 4 ≥ 6
+0,00 3,05 2,20 1,48 1,15 0,95 0,71
+0,10 2,29 1,74 1,22 0,97 0,81 0,62
+0,20 1,84 1,45 1,06 0,85 0,72 0,56
+0,30 1,55 1,25 0,93 0,76 0,65 0,51
+0,40 1,33 1,10 0,84 0,69 0,60 0,47
+0,50 1,17 0,99 0,77 0,64 0,55 0,44
+0,60 1,05 0,90 0,71 0,59 0,52 0,42
+0,70 0,95 0,82 0,66 0,56 0,49 0,39
+0,80 0,87 0,76 0,61 0,52 0,46 0,38
+0,90 0,80 0,70 0,58 0,49 0,44 0,36
+1,00 0,74 0,65 0,54 0,47 0,42 0,34
+1,10 0,69 0,61 0,51 0,45 0,40 0,33
+1,20 0,64 0,58 0,49 0,42 0,38 0,32
+1,30 0,60 0,55 0,46 0,41 0,36 0,30
+1,40 0,57 0,52 0,44 0,39 0,35 0,29
+1,50 0,54 0,49 0,42 0,37 0,34 0,28
+1,60 0,51 0,47 0,40 0,36 0,32 0,28
+1,70 0,49 0,45 0,39 0,35 0,31 0,27
+1,80 0,46 0,43 0,37 0,33 0,30 0,26
+1,90 0,44 0,41 0,36 0,32 0,29 0,25
+2,00 0,42 0,39 0,35 0,31 0,28 0,24
+En el caso de muros cuya composición varíe con la profundidad, como muestra la figura 4, la
+transmitancia térmica UT se obtiene de la expresión:
+2
+1 1 2 12 1
+z
+U z +U z U z
+U =
+2
+T
+⋅ ⋅ − ⋅
+ (5)
+siendo,
+z1 y z2 la profundidad del primer y el segundo tramo respectivamente [m];
+U1 la transmitancia térmica del primer tramo del muro, obtenida de la tabla 5 para una
+profundidad z = z1 y una resistencia térmica Rm= R1 [W/m2
+·K];
+U2 la transmitancia térmica obtenida de la tabla 5 de un muro hipotético de profundidad
+z=z2 y resistencia térmica Rm= R2 [W/m2
+·K];
+U12 la transmitancia térmica obtenida de la tabla 5 de un muro hipotético de profundidad
+z=z1 y resistencia térmica Rm= R2 [W/m2
+·K];
+2.1.2.3 Cubiertas enterradas
+La transmitancia térmica UT (W/m2
+·K) de las cubiertas enterradas se obtiene mediante el
+procedimiento descrito en el apartado 2.1.1 “Cerramientos en contacto con el aire exterior”,
+considerando el terreno como otra capa térmicamente homogénea de conductividad λ = 2 W/m·K.
+Documento de Apoyo al DB HE DA DB HE / 1
+8 de 19
+
+Figura 5 Cubierta enterrada
+2.1.3 Particiones interiores en contacto con espacios no habitables
+Para el cálculo de la transmitancia U (W/m2
+·K) se consideran en este apartado el caso de cualquier
+partición interior en contacto con un espacio no habitable que a su vez esté en contacto con el
+exterior.
+2.1.3.1 Particiones interiores (excepto suelos en contacto con cámaras sanitarias)
+Se excluyen de este apartado los vacíos o cámaras sanitarias.
+La transmitancia térmica U (W/m2
+·K) viene dada por la siguiente expresión:
+U = UP
+⋅b (6)
+siendo,
+UP la transmitancia térmica de la partición interior en contacto con el espacio no
+habitable, calculada según el apartado 2.1.1, tomando como resistencias superficiales
+los valores de la tabla 6. [m2
+·K/ W];
+b el coeficiente de reducción de temperatura (relacionado al espacio no habitable)
+obtenido por la tabla 7 para los casos concretos que se citan o mediante el
+procedimiento descrito.
+Tabla 6 Resistencias térmicas superficiales de particiones interiores en m2K/W
+Posición de la partición interior y sentido del flujo de
+calor Rse Rsi
+Particiones interiores
+verticales o con
+pendiente sobre la
+horizontal >60° y flujo
+horizontal
+0,13 0,13
+Particiones interiores
+horizontales o con
+pendiente sobre la
+horizontal ≤60° y flujo
+ascendente (Techo)
+0,10 0,10
+Particiones interiores
+horizontales y flujo
+descendente (Suelo)
+0,17 0,17
+El coeficiente de reducción de temperatura b para espacios adyacentes no habitables (trasteros,
+despensas, garajes adyacentes...) y espacios no acondicionados bajo cubierta inclinada se puede
+obtener de la tabla 7 en función de la situación del aislamiento térmico (véase figura 6), del grado de
+ventilación del espacio y de la relación de áreas entre la partición interior y el cerramiento (Ah-nh/ Anh-e),
+donde el subíndice nh-e se refiere al cerramiento entre el espacio no habitable y el exterior; el
+subíndice h-nh se refiere a la partición interior entre el espacio habitable y el espacio no habitable
+(véase figura 6). Los valores intermedios se pueden obtener por interpolación lineal.
+Documento de Apoyo al DB HE DA DB HE / 1
+9 de 19
+Se distinguen dos grados de ventilación en función del nivel de estanqueidad del espacio definido en
+la tabla 8:
+CASO 1 espacio ligeramente ventilado, que comprende aquellos espacios con un nivel de
+estanqueidad 1, 2 o 3;
+CASO 2 espacio muy ventilado, que comprende aquellos espacios con un nivel de
+estanqueidad 4 o 5.
+Tabla 7 Coeficiente de reducción de temperatura b
+No aisladonh-e- Aisladoh-nh No aisladonh-e-No aisladoh-nh Aisladonh-e-No aisladoh-nh
+Ah-nh/Anh-e CASO 1 CASO 2 CASO 1 CASO 2 CASO 1 CASO 2
+<0,25 0,99 1,00 0,94 0,97 0,91 0,96
+0,25 ≤0,50 0,97 0,99 0,85 0,92 0,77 0,90
+0,50 ≤0,75 0,96 0,98 0,77 0,87 0,67 0,84
+0,75 ≤1,00 0,94 0,97 0,70 0,83 0,59 0,79
+1,00 ≤1,25 0,92 0,96 0,65 0,79 0,53 0,74
+1,25 ≤2,00 0,89 0,95 0,56 0,73 0,44 0,67
+2,00 ≤2,50 0,86 0,93 0,48 0,66 0,36 0,59
+2,50 ≤3,00 0,83 0,91 0,43 0,61 0,32 0,54
+>3,00 0,81 0,90 0,39 0,57 0,28 0,50
+Figura 6 Espacios habitables en contacto con espacios no habitables
+NOTA: El subíndice nh-e se refiere al cerramiento entre el espacio no habitable y el exterior; el subíndice h-nh
+se refiere a la partición interior entre el espacio habitable y el espacio no habitable.
+Alternativamente, el coeficiente de reducción de temperatura b puede calcularse mediante la
+siguiente expresión:
+nhh enh
+enh
+H + H
+H
+=b
+− −
+−
+ (7)
+siendo,
+H nh-e es el coeficiente de pérdida del espacio no habitable hacia el exterior [W/m];
+H h-nh es el coeficiente de pérdida del espacio habitable hacia el espacio no habitable [W/m].
+Documento de Apoyo al DB HE DA DB HE / 1
+10 de 19
+Los coeficientes Hnh-e y Hh-nh incluyen las pérdidas por transmisión y por renovación de aire. Se
+calculan mediante las fórmulas siguientes:
+H −enh =∑ U −enh A −enh +0,34Q −nhe
+ (8)
+H −nhh =∑ U −nhh A −nhh +0,34Q −hnh
+ (9)
+siendo,
+Unh-e la transmitancia térmica del cerramiento del espacio no habitable en contacto con el
+ambiente exterior, calculado mediante la expresión (1) si está en contacto con el aire
+o mediante la metodología descrita en el apartado 2.1.2 si está en contacto con el
+terreno [W/m2
+·K];
+Uh-nh la transmitancia térmica del cerramiento del espacio habitable en contacto con el no
+habitable calculado mediante la expresión (1) [W/m2
+·K];
+Anh-e el área del cerramiento del espacio no habitable en contacto con el ambiente exterior;
+Ah-nh el área del cerramiento del espacio habitable en contacto con el no habitable;
+Qe-nh el caudal de aire entre el exterior y el espacio no habitable [m3
+/h];
+Qnh-h el caudal de aire entre el espacio no habitable y el espacio habitable [m3
+/h].
+Para el cálculo del caudal de aire Qe-nh se pueden utilizar los valores del apartado 2 de la Sección
+HS3 del DB “Salubridad”. En ausencia de datos se pueden utilizar los valores de renovaciones hora
+(h-1) contenidos en la tabla 8 multiplicados por el volumen del espacio no habitable.
+Tabla 8 Tasa de renovación de aire entre espacios no habitables y el exterior (h-1 )
+Nivel de estanqueidad h
+-1
+Ni puertas, ni ventanas, ni aberturas de ventilación 0
+Todos los componentes sellados, sin aberturas de ventilación 0,5
+Todos los componentes bien sellados, pequeñas aberturas de ventilación 1
+Poco estanco, a causa de juntas abiertas o presencia de aberturas de ventilación permanentes 5
+Poco estanco, con numerosas juntas abiertas o aberturas de ventilación permanentes grandes o numerosas 10
+2.1.3.2 Suelos en contacto con cámaras sanitarias
+Este apartado es aplicable para cámaras de aire ventiladas por el exterior que cumplan
+simultáneamente las siguientes condiciones:
+a) que tengan una altura h inferior o igual a 1 m;
+b) que tengan una profundidad z respecto al nivel del terreno inferior o igual a 0,5 m.
+En caso de no cumplirse la condición a), pero sí la b), la transmitancia del cerramiento en contacto
+con la cámara se puede calcular mediante el procedimiento descrito en el apartado 2.1.1
+En caso de no cumplirse la condición b), la transmitancia del cerramiento se puede calcular mediante
+la definición general del coeficiente b descrito en el apartado 2.1.3.1.
+Figura 7 Cámaras sanitarias
+Documento de Apoyo al DB HE DA DB HE / 1
+11 de 19
+La transmitancia térmica del suelo sanitario US viene dada por la tabla 9, en función longitud
+característica B’ del suelo en contacto con la cámara y su resistencia térmica Rf
+ calculada mediante la
+expresión (2) despreciando las resistencias térmicas superficiales.
+Los valores intermedios se pueden obtener por interpolación lineal.
+Tabla 9 Transmitancia térmica US en W/m2
+ K
+Rf (m²K/W)
+B' 0,0 0,5 1,0 1,5 2,0 2,5 3,0
+1 9,38 1,65 0,90 0,62 0,47 0,38 0,29
+2 5,35 1,46 0,84 0,59 0,46 0,37 0,28
+3 3,88 1,32 0,80 0,57 0,44 0,36 0,28
+4 3,11 1,22 0,76 0,55 0,43 0,35 0,27
+5 2,63 1,14 0,72 0,53 0,42 0,35 0,27
+6 2,30 1,07 0,70 0,52 0,41 0,34 0,27
+7 2,06 1,01 0,67 0,50 0,40 0,33 0,26
+8 1,87 0,97 0,65 0,49 0,39 0,33 0,26
+9 1,73 0,93 0,63 0,48 0,39 0,32 0,26
+10 1,61 0,89 0,62 0,47 0,38 0,32 0,26
+12 1,43 0,83 0,59 0,45 0,37 0,31 0,25
+14 1,30 0,79 0,57 0,44 0,36 0,31 0,25
+16 1,20 0,75 0,55 0,43 0,35 0,30 0,25
+18 1,12 0,72 0,53 0,42 0,35 0,29 0,25
+20 1,06 0,69 0,51 0,41 0,34 0,29 0,25
+22 1,00 0,67 0,50 0,40 0,33 0,29 0,25
+24 0,96 0,65 0,49 0,39 0,33 0,28 0,24
+26 0,92 0,63 0,48 0,39 0,32 0,28 0,24
+28 0,89 0,61 0,47 0,38 0,32 0,28 0,24
+30 0,86 0,60 0,46 0,38 0,32 0,27 0,24
+32 0,83 0,59 0,45 0,37 0,31 0,27 0,23
+34 0,81 0,58 0,45 0,37 0,31 0,27 0,23
+≥36 0,79 0,57 0,44 0,36 0,31 0,27 0,23
+2.1.4 Huecos y lucernarios
+2.1.4.1 Transmitancia térmica de huecos
+Para el cálculo de la transmitancia térmica de huecos (ventana, lucernario o puerta) UH (W/m2
+·K) se
+empleará la norma UNE EN ISO 10077.
+vH mH pH
+vH mH mH vv pH pH p p
+H
+A A A
+A U A U l A U l
+U =
+, , ,
+vH, , , , , ,
++ +
++ + ψ + + ψ
+siendo,
+UH la transmitancia térmica del hueco (ventana, lucernario o puerta) [W/m2
+·K];
+UH,v la transmitancia térmica del acristalamiento [W/m2
+·K];
+UH,m la transmitancia térmica del marco [W/m2
+·K];
+Documento de Apoyo al DB HE DA DB HE / 1
+12 de 19
+UH,p la transmitancia térmica de la zona con panel opaco [W/m2
+·K];
+Ψv la transmitancia térmica lineal debida al acoplamiento entre marco y acristalamiento
+[W/m·K];
+Ψp la transmitancia térmica lineal debida al acoplamiento entre marco y paneles opacos
+[W/m·K];
+AH,v el área de la parte acristalada [m2
+];
+AH,m el área del marco [m2
+];
+AH,p el área de la parte con panel opaco [m2
+];
+lv la longitud de contacto entre marco y acristalamiento [m];
+lp la longitud de contacto entre marco y paneles opacos [m];
+Los valores de las transmitancias térmicas lineales se pueden calcular o tomar de la siguiente tabla:
+Tabla 10 Transmitancia térmica lineal Ψp y Ψg en huecos*
+Material del marco Acristalamiento o
+empanelado simple
+Acristalamiento o
+empanelado doble o triple
+Acristalamiento doble con
+baja emisividad o triple con
+dos capas de baja emisividad
+Madera y plástico 0,00 0,06 / 0,05 0,08 / 0,06
+Metálico con rotura de
+puente térmico 0,00 0,08 / 0,06 0,11 / 0,08
+Metálico sin rotura de
+puente térmico 0,00 0,02 / 0,01 0,05 / 0,04
+* Valores para elementos separadores convencionales y para elementos de prestaciones térmicas mejoradas.
+En el caso de paneles opacos con juntas más aislantes que el propio panel se puede tomar Ψp = 0.
+2.2 Factor solar modificado de huecos y lucernarios
+El factor solar modificado en el hueco FH o en el lucernario FL se determina utilizando la siguiente
+expresión:
+F = F [( FM ) g + FM U α] S m
+⋅ 1− ⋅ ⋅ 0,04 ⋅ ⋅ (11)
+siendo,
+FS el factor de sombra del hueco o lucernario obtenido de las tablas 11 a 15 en función
+del dispositivo de sombra o mediante simulación. En caso de que no se justifique
+adecuadamente el valor de Fs se debe considerar igual a la unidad;
+FM la fracción del hueco ocupada por el marco en el caso de ventanas o la fracción de
+parte maciza en el caso de puertas;
+g┴ el factor solar de la parte semitransparente del hueco o lucernario a incidencia
+normal.
+Um la transmitancia térmica del marco del hueco o lucernario [W/m2
+·K];
+α la absortividad del marco obtenida de la tabla 10 en función de su color.
+Tabla 11 Absortividad del marco para radiación solar α
+Color Claro Medio Oscuro
+Blanco 0,20 0,30 -
+Amarillo 0,30 0,50 0,70
+Beige 0,35 0,55 0,75
+Marrón 0,50 0,75 0,92
+Rojo 0,65 0,80 0,90
+Verde 0,40 0,70 0,88
+Azul 0,50 0,80 0,95
+Gris 0.40 0,65 -
+Negro - 0,96 -
+Documento de Apoyo al DB HE DA DB HE / 1
+13 de 19
+Tabla 12 Factor de sombra para obstáculos de fachada: Voladizo
+NOTA: En caso de que exista un
+retranqueo, la longitud L se medirá
+desde el centro del acristalamiento.
+ORIENTACIÓNES DE FACHADAS
+ 0,2 < L / H ≤ 0,5 0,5 < L / H ≤ 1 1 < L / H ≤ 2 L / H > 2 S
+0 < D / H ≤ 0,2 0,82 0,50 0,28 0,16
+0,2 < D / H ≤ 0,5 0,87 0,64 0,39 0,22
+D / H > 0,5 0,93 0,82 0,60 0,39
+SE/SO
+0 < D / H ≤ 0,2 0,90 0,71 0,43 0,16
+0,2 < D / H ≤ 0,5 0,94 0,82 0,60 0,27
+D / H > 0,5 0,98 0,93 0,84 0,65
+E/O
+0 < D / H ≤ 0,2 0,92 0,77 0,55 0,22
+0,2 < D / H ≤ 0,5 0,96 0,86 0,70 0,43
+D / H > 0,5 0,99 0,96 0,89 0,75
+Tabla 13 Factor de sombra para obstáculos de fachada: Retranqueo ORIENTACIÓNES DE FACHADAS
+ 0,05 < R/W ≤0,1 0,1< R/W ≤ 0,2 0,2< R/W ≤ 0,5 R/W > 0,5
+S
+0,05 < R/H ≤ 0,1 0,82 0,74 0,62 0,39
+0,1 < R/H ≤ 0,2 0,76 0,67 0,56 0,35
+0,2 < R/H ≤ 0,5 0,56 0,51 0,39 0,27
+RH > 0,5 0,35 0,32 0,27 0,17
+SE/SO
+0,05 < R/H ≤ 0,1 0,86 0,81 0,72 0,51
+0,1 < R/H ≤ 0,2 0,79 0,74 0,66 0,47
+0,2 < R/H ≤ 0,5 0,59 0,56 0,47 0,36
+RH > 0,5 0,38 0,36 0,32 0,23
+E/O
+0,05 < R/H ≤ 0,1 0,91 0,87 0,81 0,65
+0,1 < R/H ≤ 0,2 0,86 0,82 0,76 0,61
+0,2 < R/H ≤ 0,5 0,71 0,68 0,61 0,51
+R/H > 0,5 0,53 0,51 0,48 0,39
+
+Tabla 14 Factor de sombra para obstáculos de fachada: lamas
+LAMAS HORIZONTALES ANGULO DE INCLINACIÓN (β)
+0 30 60
+ORIENTACIÓN
+SUR 0,49 0,42 0,26
+SURESTE/
+SUROESTE 0,54 0,44 0,26
+ESTE/
+OESTE 0,57 0,45 0,27
+Documento de Apoyo al DB HE DA DB HE / 1
+14 de 19
+LAMAS VERTICALES ANGULO DE INCLINACIÓN (σ)
+-60 -45 -30 0 30 45 60
+ORIENTACIÓN
+SUR 0,37 0,44 0,49 0,53 0,47 0,41 0,32
+SURESTE 0,46 0,53 0,56 0,56 0,47 0,40 0,30
+ESTE 0,39 0,47 0,54 0,63 0,55 0,45 0,32
+OESTE 0,44 0,52 0,58 0,63 0,50 0,41 0,29
+SUROESTE 0,38 0,44 0,50 0,56 0,53 0,48 0,38
+NOTAS Los valores de factor de sombra que se indican en estas tablas han sido calculados para una relación D/L igual
+o inferior a 1. El ángulo σ debe ser medido desde la normal a la fachada hacia el plano de las lamas,
+considerándose positivo en dirección horaria.
+Tabla 15 Factor de sombra para obstáculos de fachada: toldos
+CASO A Tejidos opacos
+τ=0
+Tejidos translúcidos
+τ=0,2
+α SE/S/SO E/O SE/S/SO E/O
+30 0,02 0,04 0,22 0,24
+45 0,05 0,08 0,25 0,28
+60 0,22 0,28 0,42 0,48
+CASO B Tejidos opacos
+τ=0
+Tejidos translúcidos
+τ=0,2
+α S SE/SO E/O S SE/SO E/O
+30 0,43 0,61 0,67 0,63 0,81 0,87
+45 0,20 0,30 0,40 0,40 0,50 0,60
+60 0,14 0,39 0,28 0,34 0,42 0,48
+Tabla 16 Factor de sombra para lucernarios
+ Y / Z
+ 0,1 0,5 1,0 2,0 5,0 10,0 X / Z
+0,1 0,42 0,43 0,43 0,43 0,44 0,44
+0,5 0,43 0,46 0,48 0,50 0,51 0,52
+1,0 0,43 0,48 0,52 0,55 0,58 0,59
+2,0 0,43 0,50 0,55 0,60 0,66 0,68
+5,0 0,44 0,51 0,58 0,66 0,75 0,79
+10,0 0,44 0,52 0,59 0,68 0,79 0,85
+NOTAS Los valores de factor de sombra que se indican en esta tabla son válidos para lucernarios sensiblemente
+horizontales. En caso de lucernarios de planta elíptica o circular podrán tomarse como dimensiones
+características equivalentes los ejes mayor y menor o el diámetro.
+Documento de Apoyo al DB HE DA DB HE / 1
+15 de 19
+3 Resistencia térmica total de un elemento de edificación
+constituido por capas homogéneas y heterogéneas.
+La resistencia térmica total RT, de un elemento constituido por capas térmicamente homogéneas y
+heterogéneas paralelas a la superficie, es la media aritmética de los valores límite superior e inferior de
+la resistencia:
+ (12)
+siendo,
+R’T el límite superior de la resistencia térmica total calculada mediante el procedimiento
+descrito en el apartado 3.1 [m2
+·K/ W];
+R’’T el límite inferior de la resistencia térmica total calculada mediante el procedimiento
+descrito en el apartado 3.2 [m2
+·K/ W].
+Si la proporción entre el límite superior e inferior es mayor de 1,5, la expresión anterior no resulta de
+aplicación y habría que utilizar otros métodos contrastados.
+Para realizar el cálculo de los valores límite superior e inferior, el elemento se divide en rebanadas
+horizontales (figura 1b) y verticales (figura 1c) como se muestra en la figura 8, de tal manera que las
+capas que se generan sean térmicamente homogéneas.
+
+Figura 8
+La rebanada horizontal m (m = a, b, c, ...q) tiene un área fraccional fm.
+La rebanada vertical j (j = 1, 2, ...n) tiene un espesor dj
+.
+La capa mj
+ tiene una conductividad térmica λmj, un espesor dj
+, un área fraccional fm y una resistencia
+térmica Rmj.
+El área fraccional de una sección es su proporción del área total. Entonces fa + fb +... + fq = 1.
+2
+''
+T T
+T
+R' +R R =
+Documento de Apoyo al DB HE DA DB HE / 1
+16 de 19
+3.1 Límite superior de la resistencia térmica total R’T
+El límite superior de la resistencia térmica total se determina suponiendo que el flujo de calor es
+unidimensional y perpendicular a las superficies del componente. Viene dado por la siguiente expresión:
+
+ (13)
+donde,
+RTa, RTb, ...RTq las resistencias térmicas totales de cada rebanada horizontal, calculada
+ mediante la expresión (2) [m2
+·K/ W];
+fa, fb, ..., fq las áreas fraccionales de cada rebanada horizontal.
+3.2 Límite inferior de la resistencia térmica total R’’T
+El límite inferior se determina suponiendo que todos los planos paralelos a la superficie del componente
+son superficies isotermas.
+La resistencia térmica equivalente Rj
+, para cada rebanada vertical térmicamente heterogénea se calcula
+utilizando la siguiente expresión:
+
+ (14)
+siendo,
+Raj, Rbj, ...Rqj las resistencias térmicas de cada capa de cada rebanada vertical, calculadas
+mediante la expresión (3) [m2
+·K/ W];
+fa, fb, ..., fq las áreas fraccionales de cada rebanada vertical.
+El límite inferior se determina entonces según la siguiente expresión:
+
+(15)
+siendo,
+Rj1, Rj2,... Rjn las resistencias térmicas equivalentes de cada rebanada vertical, obtenida de la
+ expresión (3) [m2
+·K/ W];
+Rsi y Rse las resistencias térmicas superficiales correspondientes al aire interior y exterior
+respectivamente, tomadas de la tabla 1 de acuerdo a la posición del elemento,
+dirección del flujo de calor [m2
+·K/ W].
+Si una de las capas que constituyen la rebanada heterogénea es una cavidad de aire sin ventilar, se
+puede considerar como un material de conductividad térmica equivalente λ”j
+ definida mediante la
+expresión:
+
+ (16)
+siendo,
+dj
+ el espesor de la rebanada vertical [m];
+Rg la resistencia térmica de la cavidad de aire sin ventilar calculada mediante el apartado
+3.3 [m2
+·K/ W].
+Tq
+q
+Tb
+b
+Ta
+a
+T R
+f
++ +
+R
+f
++
+R
+f
+=
+R'
+...
+1
+qj
+q
+bj
+b
+aj
+a
+j R
+f
++ +
+R
+f
++
+R
+f
+=
+R
+...
+1
+R T = Rsi + Rj1 + Rj2 + + Rjn + Rse '' ...
+j j Rg
+λ = d /
+Documento de Apoyo al DB HE DA DB HE / 1
+17 de 19
+3.3 Resistencia térmica de cavidades de aire sin ventilar Rg
+Se consideran cavidades de aire sin ventilar los pequeños espacios de aire cuyo largo y ancho es inferior
+a 10 veces su espesor en dirección al flujo de calor.
+La resistencia térmica Rg de una cavidad de aire sin ventilar se calcula mediante la siguiente expresión:
+
+
+
+
+
+
+
+
+−
+
+
+
+
+
+
+
+−
+b
+d
+b
+d
++ +
++
+E
+h
+h +
+R =
+r0
+a
+g
+2
+2
+12 1 1
+1
+1
+1
+1
+ (17)
+siendo,
+d el espesor del hueco en la dirección del flujo de calor;
+b la anchura del hueco;
+E el factor de emisividad entre las superficies calculada mediante la expresión (18);
+ha el coeficiente de conducción convección cuyo valor viene dado en función de la dirección
+del flujo de calor:
+- para flujo de calor horizontal: el mayor de 1,25 W/m2
+·K y 0,025/d W/m2
+·K;
+- para flujo de calor hacia arriba: el mayor de 1,95 W/m2
+·K y 0,025/d W/m2
+·K;
+- para flujo de calor hacia abajo: el mayor de 0,12d
+-0,44 W/m2
+·K y 0,025/d W/m2
+·K;
+hro es el coeficiente de radiación para una superficie negra obtenido de la tabla 16.
+El factor de emisividad entre las superficies E viene dado por la siguiente expresión:
+
+ (18)
+siendo,
+є1 y є2 las emisividades corregidas de las superficies que rodean el hueco.
+Tabla 17 coeficiente de radiación para una superficie negra
+Temperatura Hro en W/m2
+ K
+-10 4,1
+0 4,6
+10 5,1
+20 5,7
+30 6,3
+1
+1 1
+1
+1 2
+−
+ε
++
+ε
+E =
+Documento de Apoyo al DB HE DA DB HE / 1
+18 de 19
+Notaciones y unidades
+α Absortividad, adimensional
+β Angulo de inclinación de lamas horizontales, en grados sexagesimales
+є Emisividad de una superficie, adimensional
+λ Conductividad térmica, en W/m.K
+σ Angulo de orientación de lamas verticales, en grados sexagesimales
+τ Transmitancia de tejido en toldos, adimensional
+Ψv Transmitancia térmica lineal debida al acoplamiento entre marco y acristalamiento, en W/m·K
+Ψp Transmitancia térmica lineal debida al acoplamiento entre marco y paneles opacos, en W/m·K
+e Espesor de una capa, en m
+g⊥ Factor solar de la parte transparente de un hueco, para radiación solar a incidencia normal,
+adimensional
+ha Coeficiente de conducción convección, en W/m2
+·K
+hro Coeficiente de radiación para una superficie negra, en W/m2
+·K
+lv Longitud de contacto entre marco y acristalamiento del hueco, en m
+lp Longitud de contacto entre marco y paneles opacos del hueco, en m
+n Tasa de renovación de aire, en h-1
+u Coeficiente de transmisión térmica lineal para soleras y losas, en W/m2
+·K
+A Área de la solera o losa, en m2
+AH,v el área de la parte acristalada del hueco, en m2
+AH,m el área del marco del hueco, en m2
+AH,p el área de la parte con panel opaco del hueco, en m2
+D Ancho de banda de aislamiento, en m
+E Factor de emisividad entre las superficies, adimensional
+F Factor solar modificado
+FS Factor de sombra, adimensional
+FH Factor solar modificado de huecos
+FL Factor solar modificado de lucernarios
+FM Fracción de marco
+Rn Resistencia térmica de la capa n de un cerramiento, en m2 K/ W
+Rm Resistencia térmica del muro enterrado, en m2 K/ W
+Ra Resistencia térmica del aislante en soleras o losas, en m2 K/ W
+Rse Resistencia térmica superficial exterior, en m2 K/ W
+Rsi Resistencia térmica superficial interior, en m2 K/ W
+Ru Resistencia térmica para espacios no habitables, en m2 K/ W
+RT Resistencia térmica total, en m2 K/ W
+Rg Resistencia térmica de una cavidad de aire sin ventilar, en m2 K/ W
+U Transmitancia térmica, en W/m2
+·K
+UM Transmitancia térmica de muros, en W/m2
+·K
+UC Transmitancia térmica de cubiertas, en W/m2
+·K
+UL Transmitancia térmica de lucernarios, en W/m2
+·K
+UF Transmitancia térmica de fachadas con un porcentaje de huecos >60%, en W/m2
+·K
+UH Transmitancia térmica del hueco, en W/m2
+·K
+UH,v Transmitancia térmica de la parte acristalada del hueco, en W/m2
+·K
+Documento de Apoyo al DB HE DA DB HE / 1
+19 de 19
+UH,m Transmitancia térmica del marco del hueco, en W/m2
+·K
+UH,p Transmitancia térmica de la zona con panel opaco del hueco, en W/m2
+·K
+UT Transmitancia térmica de cerramientos en contacto con el terreno, en W/m2
+·K
+US Transmitancia térmica de suelos, en W/m2
+·K
+Uf
+ Transmitancia térmica de cerramientos en contacto con la cámara de aire, en W/m2
+·K
+UP Transmitancia térmica de particiones interiores, en W/m2
+·K
+Otros documentos relacionados
+UNE EN ISO 6946:2012 Componentes y elementos para la edificación. Resistencia y
+transmitancia térmica. Método de cálculo.
+UNE EN ISO 13370:2010 Prestaciones térmicas de edificios. Transmisión de calor por el terreno.
+Métodos de cálculo.
+UNE EN 673:2011 Vidrio en la construcción. Determinación del coeficiente de transmisión
+térmica (valor U). Método de cálculo.
+UNE EN ISO 10077-1:2010 Comportamiento térmico de ventanas, puertas y persianas. Cálculo de la
+transmitancia. Parte 1. Generalidades.
+UNE EN ISO 10077-2:2012 Comportamiento térmico de ventanas, puertas y persianas. Cálculo del
+coeficiente de transmisión térmica. Parte 2. Método numérico para los
+marcos.
+UNE EN 410:2011 Vidrio para la edificación. Determinación de las características luminosas
+y solares de los acristalamientos
+UNE EN 410:2011 ERRATUM Vidrio para la edificación. Determinación de las características luminosas
+y solares de los acristalamientos.
+UNE EN ISO 10456:2012 Materiales y productos para la edificación. Propiedades higrotérmicas.
+Valores tabulados de diseño y procedimientos para la determinación de
+los valores térmicos declarados y de diseño 
