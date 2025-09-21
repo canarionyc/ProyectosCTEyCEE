@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2025 rel. 2 (x64) (https://www.altova.com) by tomas gonzalez (student) -->
 <DatosEnergeticosDelEdificio version="2.0">
 	<DatosDelCertificador>
 		<NombreyApellidos>Iago Pazos Torreira</NombreyApellidos>
@@ -11,7 +12,7 @@
 		<Provincia>A Coruña</Provincia>
 		<ComunidadAutonoma>Galicia</ComunidadAutonoma>
 		<Email>pedro.p.l@ppla.info</Email>
-        <Telefono>+34981947038</Telefono>
+		<Telefono>+34981947038</Telefono>
 		<Titulacion>Arquitecto</Titulacion>
 		<Fecha>12/03/2015</Fecha>
 	</DatosDelCertificador>
@@ -48,7 +49,7 @@
 		<DensidadFuentesInternas>5.77</DensidadFuentesInternas>
 		<VentilacionUsoResidencial>0.63</VentilacionUsoResidencial>
 		<VentilacionTotal>0.63</VentilacionTotal>
-        <DemandaDiariaACS>150</DemandaDiariaACS>
+		<DemandaDiariaACS>150</DemandaDiariaACS>
 	</DatosGeneralesyGeometria>
 	<DatosEnvolventeTermica>
 		<CerramientosOpacos>
@@ -103,7 +104,8 @@
 			</Elemento>
 			<Elemento>
 				<Nombre>Tabiques</Nombre>
-				<Tipo>Fachada</Tipo><!-- XXX: podría haber InteriorVertical -->
+				<Tipo>Fachada</Tipo>
+				<!-- XXX: podría haber InteriorVertical -->
 				<Superficie>90.78</Superficie>
 				<Transmitancia>2.54</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
@@ -193,7 +195,8 @@
 			</Elemento>
 			<Elemento>
 				<Nombre>Forjado interno</Nombre>
-				<Tipo>Suelo</Tipo><!-- XXX: Podría haber InteriorHorizontal -->
+				<Tipo>Suelo</Tipo>
+				<!-- XXX: Podría haber InteriorHorizontal -->
 				<Superficie>157.86</Superficie>
 				<Transmitancia>0.59</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
@@ -283,7 +286,8 @@
 			</Elemento>
 			<Elemento>
 				<Nombre>Medianera</Nombre>
-				<Tipo>Fachada</Tipo><!-- Podría haber Medianera -->
+				<Tipo>Fachada</Tipo>
+				<!-- Podría haber Medianera -->
 				<Superficie>160.89</Superficie>
 				<Transmitancia>1.01</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
@@ -361,7 +365,7 @@
 			</Elemento>
 			<Elemento>
 				<Nombre>Puerta de madera</Nombre>
-                <Tipo>Hueco</Tipo>
+				<Tipo>Hueco</Tipo>
 				<Superficie>2.10</Superficie>
 				<Transmitancia>2.20</Transmitancia>
 				<FactorSolar>0.04</FactorSolar>
@@ -369,58 +373,58 @@
 				<ModoDeObtencionFactorSolar>Usuario</ModoDeObtencionFactorSolar>
 			</Elemento>
 		</HuecosyLucernarios>
-        <PuentesTermicos>
-            <Elemento>
-                <Nombre>Frente de Forjado tipo I</Nombre>
-                <Tipo>Frente de forjado</Tipo>
-                <Longitud>12.5</Longitud>
-                <Transmitancia>1.2</Transmitancia>
-                <ModoDeObtencion>Usuario</ModoDeObtencion>
-            </Elemento>
-            <Elemento>
-                <Nombre>Esquina entrante</Nombre>
-                <Tipo>Esquina</Tipo>
-                <Longitud>22.5</Longitud>
-                <Transmitancia>-0.05</Transmitancia>
-                <ModoDeObtencion>Usuario</ModoDeObtencion>
-            </Elemento>
-        </PuentesTermicos>
-    </DatosEnvolventeTermica>
-    <InstalacionesTermicas>
-	<GeneradoresDeCalefaccion>
-		<Generador>
-			<Nombre>Caldera eléctrica</Nombre>
-			<Tipo>EQ_Caldera-Electrica-Defecto</Tipo>
-			<PotenciaNominal>10.00</PotenciaNominal>
-			<RendimientoNominal>0.90</RendimientoNominal>
-			<RendimientoEstacional>0.61</RendimientoEstacional>
-			<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
-			<ModoDeObtencion>PorDefecto</ModoDeObtencion>
-		</Generador>
-	</GeneradoresDeCalefaccion>
-	<GeneradoresDeRefrigeracion>
-		<Generador>
-			<Nombre>Equipo Aire Acondicionado</Nombre>
-			<Tipo>EQ_Bomba_calor</Tipo>
-			<PotenciaNominal>10.00</PotenciaNominal>
-			<RendimientoNominal>0.90</RendimientoNominal>
-			<RendimientoEstacional>0.71</RendimientoEstacional>
-			<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
-			<ModoDeObtencion>Usuario</ModoDeObtencion>
-		</Generador>
-	</GeneradoresDeRefrigeracion>
-	<InstalacionesACS>
-		<Instalacion>
-			<Nombre>Caldera eléctrica</Nombre>
-            <Tipo>EQ_Caldera-Electrica-Defecto</Tipo>
-			<PotenciaNominal>10.00</PotenciaNominal>
-			<RendimientoNominal>0.90</RendimientoNominal>
-			<RendimientoEstacional>0.87</RendimientoEstacional>
-			<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
-			<ModoDeObtencion>PorDefecto</ModoDeObtencion>
-		</Instalacion>
-	</InstalacionesACS>
-    </InstalacionesTermicas>
+		<PuentesTermicos>
+			<Elemento>
+				<Nombre>Frente de Forjado tipo I</Nombre>
+				<Tipo>Frente de forjado</Tipo>
+				<Longitud>12.5</Longitud>
+				<Transmitancia>1.2</Transmitancia>
+				<ModoDeObtencion>Usuario</ModoDeObtencion>
+			</Elemento>
+			<Elemento>
+				<Nombre>Esquina entrante</Nombre>
+				<Tipo>Esquina</Tipo>
+				<Longitud>22.5</Longitud>
+				<Transmitancia>-0.05</Transmitancia>
+				<ModoDeObtencion>Usuario</ModoDeObtencion>
+			</Elemento>
+		</PuentesTermicos>
+	</DatosEnvolventeTermica>
+	<InstalacionesTermicas>
+		<GeneradoresDeCalefaccion>
+			<Generador>
+				<Nombre>Caldera eléctrica</Nombre>
+				<Tipo>EQ_Caldera-Electrica-Defecto</Tipo>
+				<PotenciaNominal>10.00</PotenciaNominal>
+				<RendimientoNominal>0.90</RendimientoNominal>
+				<RendimientoEstacional>0.61</RendimientoEstacional>
+				<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
+				<ModoDeObtencion>PorDefecto</ModoDeObtencion>
+			</Generador>
+		</GeneradoresDeCalefaccion>
+		<GeneradoresDeRefrigeracion>
+			<Generador>
+				<Nombre>Equipo Aire Acondicionado</Nombre>
+				<Tipo>EQ_Bomba_calor</Tipo>
+				<PotenciaNominal>10.00</PotenciaNominal>
+				<RendimientoNominal>0.90</RendimientoNominal>
+				<RendimientoEstacional>0.71</RendimientoEstacional>
+				<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
+				<ModoDeObtencion>Usuario</ModoDeObtencion>
+			</Generador>
+		</GeneradoresDeRefrigeracion>
+		<InstalacionesACS>
+			<Instalacion>
+				<Nombre>Caldera eléctrica</Nombre>
+				<Tipo>EQ_Caldera-Electrica-Defecto</Tipo>
+				<PotenciaNominal>10.00</PotenciaNominal>
+				<RendimientoNominal>0.90</RendimientoNominal>
+				<RendimientoEstacional>0.87</RendimientoEstacional>
+				<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
+				<ModoDeObtencion>PorDefecto</ModoDeObtencion>
+			</Instalacion>
+		</InstalacionesACS>
+	</InstalacionesTermicas>
 	<InstalacionesIluminacion>
 		<PotenciaTotalInstalada>52.80</PotenciaTotalInstalada>
 		<Espacio>
@@ -491,26 +495,26 @@
 			<PerfilDeUso>residencial-24h-baja</PerfilDeUso>
 		</Espacio>
 	</CondicionesFuncionamientoyOcupacion>
-    <EnergiasRenovables>
-      <Termica>
-        <Sistema>
-          <Nombre>Panel termosolar</Nombre>
-          <ConsumoFinalACS>40.00</ConsumoFinalACS>
-          <DemandaACS>40.00</DemandaACS>
-        </Sistema>
-      </Termica>
-      <ReduccionGlobalEnergiaPrimariaNoRenovable>4.2</ReduccionGlobalEnergiaPrimariaNoRenovable>
-      <ReduccionGlobalEmisionesCO2>23.34</ReduccionGlobalEmisionesCO2>
-    </EnergiasRenovables>
+	<EnergiasRenovables>
+		<Termica>
+			<Sistema>
+				<Nombre>Panel termosolar</Nombre>
+				<ConsumoFinalACS>40.00</ConsumoFinalACS>
+				<DemandaACS>40.00</DemandaACS>
+			</Sistema>
+		</Termica>
+		<ReduccionGlobalEnergiaPrimariaNoRenovable>4.2</ReduccionGlobalEnergiaPrimariaNoRenovable>
+		<ReduccionGlobalEmisionesCO2>23.34</ReduccionGlobalEmisionesCO2>
+	</EnergiasRenovables>
 	<EmisionesCO2>
 		<Global>8.47</Global>
 		<Calefaccion>2.71</Calefaccion>
 		<Refrigeracion>4.19</Refrigeracion>
 		<ACS>1.58</ACS>
-        <ConsumoElectrico>5.35</ConsumoElectrico>
-        <ConsumoOtros>2.12</ConsumoOtros>
-        <TotalConsumoElectrico>5350</TotalConsumoElectrico>
-        <TotalConsumoOtros>2120</TotalConsumoOtros>
+		<ConsumoElectrico>5.35</ConsumoElectrico>
+		<ConsumoOtros>2.12</ConsumoOtros>
+		<TotalConsumoElectrico>5350</TotalConsumoElectrico>
+		<TotalConsumoOtros>2120</TotalConsumoOtros>
 	</EmisionesCO2>
 	<Calificacion>
 		<EmisionesCO2>
@@ -518,33 +522,33 @@
 			<Calefaccion>A</Calefaccion>
 			<Refrigeracion>B</Refrigeracion>
 			<ACS>B</ACS>
-            <EscalaGlobal>
+			<EscalaGlobal>
 				<A>32.10</A>
-                <B>53.35</B>
-                <C>75.56</C>
-                <D>97.89</D>
-                <E>126.12</E>
-                <F>140.23</F>
-            </EscalaGlobal>
+				<B>53.35</B>
+				<C>75.56</C>
+				<D>97.89</D>
+				<E>126.12</E>
+				<F>140.23</F>
+			</EscalaGlobal>
 		</EmisionesCO2>
 		<Demanda>
 			<Calefaccion>A</Calefaccion>
 			<Refrigeracion>A</Refrigeracion>
-            <EscalaCalefaccion>
+			<EscalaCalefaccion>
 				<A>2.10</A>
-                <B>13.35</B>
-                <C>25.56</C>
-                <D>47.89</D>
-                <E>66.12</E>
-                <F>82.23</F>
+				<B>13.35</B>
+				<C>25.56</C>
+				<D>47.89</D>
+				<E>66.12</E>
+				<F>82.23</F>
 			</EscalaCalefaccion>
 			<EscalaRefrigeracion>
 				<A>2.00</A>
-                <B>5.35</B>
-                <C>8.56</C>
-                <D>14.89</D>
-                <E>23.12</E>
-                <F>35.23</F>
+				<B>5.35</B>
+				<C>8.56</C>
+				<D>14.89</D>
+				<E>23.12</E>
+				<F>35.23</F>
 			</EscalaRefrigeracion>
 		</Demanda>
 		<EnergiaPrimariaNoRenovable>
@@ -552,14 +556,14 @@
 			<Calefaccion>A</Calefaccion>
 			<Refrigeracion>B</Refrigeracion>
 			<ACS>B</ACS>
-           <EscalaGlobal>
+			<EscalaGlobal>
 				<A>12.10</A>
-                <B>23.35</B>
-                <C>45.56</C>
-                <D>67.89</D>
-                <E>96.12</E>
-                <F>120.23</F>
-            </EscalaGlobal>
+				<B>23.35</B>
+				<C>45.56</C>
+				<D>67.89</D>
+				<E>96.12</E>
+				<F>120.23</F>
+			</EscalaGlobal>
 		</EnergiaPrimariaNoRenovable>
 	</Calificacion>
 	<Demanda>
@@ -603,13 +607,13 @@
 			</FinalAEmisiones>
 		</FactoresdePaso>
 		<EnergiaFinalVectores>
-          <GasNatural>
-			<Calefaccion>13.48</Calefaccion>
-			<ACS>5.00</ACS>
-          </GasNatural>
-          <ElectricidadPeninsular>
-			<Refrigeracion>5.13</Refrigeracion>
-          </ElectricidadPeninsular>
+			<GasNatural>
+				<Calefaccion>13.48</Calefaccion>
+				<ACS>5.00</ACS>
+			</GasNatural>
+			<ElectricidadPeninsular>
+				<Refrigeracion>5.13</Refrigeracion>
+			</ElectricidadPeninsular>
 		</EnergiaFinalVectores>
 		<EnergiaPrimariaNoRenovable>
 			<Global>32.04</Global>
@@ -622,9 +626,9 @@
 		</Exigencias>
 	</Consumo>
 	<PruebasComprobacionesInspecciones>
-      <Visita>
-        <FechaVisita>24/02/2015</FechaVisita>
-        <Datos><![CDATA[data:text/html,Información obtenida en la visita <b>primera</b>]]></Datos>
-      </Visita>
-    </PruebasComprobacionesInspecciones>
+		<Visita>
+			<FechaVisita>24/02/2015</FechaVisita>
+			<Datos><![CDATA[data:text/html,Información obtenida en la visita <b>primera</b>]]></Datos>
+		</Visita>
+	</PruebasComprobacionesInspecciones>
 </DatosEnergeticosDelEdificio>
