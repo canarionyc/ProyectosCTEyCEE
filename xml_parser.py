@@ -43,8 +43,21 @@ def _element_to_dict(element: etree._Element) -> Dict[str, Any]:
 	for key, value in element.attrib.items():
 		result[f"@{key}"] = value
 
-	# Process child elements
-	for child in element:
+	# Process child elements - using multiple methods for compatibility
+	children = []
+	# Try different methods to get children, as lxml has changed these APIs over versions
+	try:
+		# Method 1: Direct iteration (works in some versions)
+		children = list(element)
+	except TypeError:
+		try:
+			# Method 2: getchildren() method (deprecated but might work)
+			children = element.getchildren()
+		except AttributeError:
+			# Method 3: XPath method (most compatible)
+			children = element.xpath("./*")
+
+	for child in children:
 		child_dict = _element_to_dict(child)
 		child_tag = child.tag
 
