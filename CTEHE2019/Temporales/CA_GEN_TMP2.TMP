@@ -1,0 +1,31 @@
+"P01_E02_CA_GEN" = TROZO-BDL
+$ +++++++++++++++++++++++++++++++++++++++++++++++++++++
+$    CAPACIDADES ADICIONALES GENERICAS PARA ESPACIOS
+$ +++++++++++++++++++++++++++++++++++++++++++++++++++++
+$ 
+    "P01_E02" = SPACE-VENTILATION
+	    AIR-FLOW-FROM = ( "EXTERIOR", "P01_E01" )
+		AIR-FLOW-RATE = ( "P01_E02-EXTERIOR_CA_GEN_Caudales", "P01_E02-P01_E01_CA_GEN_Caudales" )
+		AIR-FLOW-TEMP = ( "P01_E02-EXTERIOR_CA_GEN_Temperaturas", "P01_E02-P01_E01_CA_GEN_Temperaturas" )
+	..
+	    "P01_E02-EXTERIOR_CA_GEN_Caudales" = CAPACIDAD-ADICIONAL
+		    TYPE = FILE
+		    VARIABLE = FLOW
+		    VALUE = "P01_E02-EXTERIOR_CA_GEN_Caudales.CSV"
+		..
+		"P01_E02-EXTERIOR_CA_GEN_Temperaturas" = CAPACIDAD-ADICIONAL
+		    TYPE = FILE
+		    VARIABLE = TEMP
+		    VALUE = "P01_E02-EXTERIOR_CA_GEN_Temperaturas.CSV"
+		..
+		"P01_E02-P01_E01_CA_GEN_Caudales" = CAPACIDAD-ADICIONAL
+		    TYPE = FILE
+		    VARIABLE = FLOW
+		    VALUE = "P01_E02-P01_E01_CA_GEN_Caudales.CSV"
+		..
+	    "P01_E02-P01_E01_CA_GEN_Temperaturas" = CAPACIDAD-ADICIONAL
+		    TYPE = FILE
+		    VARIABLE = TEMP
+		    VALUE = "P01_E02-P01_E01_CA_GEN_Temperaturas.CSV"
+		..
+..FIN-TROZO-BDL

@@ -1,0 +1,117 @@
+flowchart TD
+    %% Start and Initial Analysis
+    Start([Project Start]) --> Analysis[Preliminary Building Analysis]
+    
+    Analysis --> DataCollection[Data Collection Phase]
+    
+    DataCollection --> Climate[Determine Climate Zone<br/>Anejo B DB-HE]
+    DataCollection --> Geometry[Analyze Building Geometry]
+    DataCollection --> Materials[Collect Material Properties]
+    DataCollection --> Classification[Classify Spaces per DB-HE1]
+    
+    %% HULC Project Setup
+    DataCollection --> HULCStart[HULC Tool Initialization]
+    
+    HULCStart --> NewProject[Create New Project]
+    NewProject --> GeneralData[Datos Generales - 6 Tabs]
+    
+    GeneralData --> Admin[Administrative Data]
+    GeneralData --> BuildingType[Building Type & Location]
+    GeneralData --> EnergyFactors[Energy Conversion Factors]
+    GeneralData --> EnergyProduction[Renewable Energy Production]
+    GeneralData --> BuildingOptions[Building Options]
+    GeneralData --> Images[Images & Additional Data]
+    
+    %% Geometric Definition Phase
+    GeneralData --> GeoPhase[Geometric Definition Phase]
+    
+    GeoPhase --> DatabaseSetup[Database Configuration]
+    DatabaseSetup --> MaterialsDB[Define Materials]
+    DatabaseSetup --> Constructions[Define Constructions]
+    DatabaseSetup --> Windows[Define Windows & Glazing]
+    DatabaseSetup --> ThermalBridges[Define Thermal Bridges]
+    
+    DatabaseSetup --> GeometryDefinition[3D Geometry Definition]
+    
+    GeometryDefinition --> FloorByFloor[Define Floor by Floor]
+    FloorByFloor --> LoadPlans[Load DXF/BMP Plans]
+    FloorByFloor --> CreateFloors[Create Floor Polygons]
+    FloorByFloor --> DefineSpaces[Define Spaces]
+    FloorByFloor --> AuxiliaryLines[Use Auxiliary Lines]
+    
+    DefineSpaces --> SpaceTypes[Set Space Types<br/>Acondicionado/No Acondicionado/No Habitable]
+    
+    GeometryDefinition --> Partitions[Define Horizontal Partitions]
+    GeometryDefinition --> VerticalWalls[Generate Vertical Enclosures]
+    GeometryDefinition --> Openings[Define Windows & Doors]
+    GeometryDefinition --> Roofs[Define Roofs & Special Elements]
+    
+    GeometryDefinition --> Shading[Define Shading Elements]
+    Shading --> Obstacles[Remote Obstacles]
+    Shading --> BuildingElements[Building Shadow Elements]
+    
+    %% Operational Conditions
+    GeometryDefinition --> OpConditions[Operational Conditions]
+    OpConditions --> ResidentialOps{Is Building Type?}
+    ResidentialOps -->|Residential| FixedResidential[Fixed Residential Profiles]
+    ResidentialOps -->|Tertiary| DetailedTertiary[Detailed Tertiary Profiles]
+    
+    DetailedTertiary --> InternalLoads[Internal Loads]
+    DetailedTertiary --> Ventilation[Ventilation/Infiltration]
+    DetailedTertiary --> HVACSchedule[HVAC Operation Schedule]
+    
+    %% Special Envelope Elements
+    OpConditions --> SpecialElements[Special Envelope Elements]
+    SpecialElements --> VentilatedFacade[Ventilated Facades]
+    SpecialElements --> SolarWall[Solar Walls]
+    SpecialElements --> TrombeWall[Trombe Walls]
+    SpecialElements --> SpecialGlazing[Special Glazing]
+    
+    %% Verification Phase
+    SpecialElements --> HE1Verification[HE1 Verification Phase]
+    
+    HE1Verification --> HE1Calc[Calculate HE1 Indicators]
+    HE1Calc --> CheckHE1{HE1 Compliant?}
+    CheckHE1 -->|No| AdjustGeometry[Adjust Geometry/Envelope]
+    AdjustGeometry --> GeometryDefinition
+    CheckHE1 -->|Yes| SystemsDefinition[Define Building Systems]
+    
+    %% Systems Definition
+    SystemsDefinition --> HVACSystems[HVAC Systems]
+    SystemsDefinition --> DHWSystems[DHW Systems]
+    SystemsDefinition --> VentilationSys[Ventilation Systems]
+    SystemsDefinition --> Lighting[Lighting Systems - Tertiary]
+    
+    %% Final Verification
+    SystemsDefinition --> HE0Verification[HE0 Verification Phase]
+    
+    HE0Verification --> HE0Calc[Calculate HE0 Indicators]
+    HE0Calc --> CheckHE0{HE0 Compliant?}
+    CheckHE0 -->|No| AdjustSystems[Adjust Systems]
+    AdjustSystems --> SystemsDefinition
+    CheckHE0 -->|Yes| Documentation[Generate Documentation]
+    
+    %% Documentation Phase
+    Documentation --> VerificationReport[Verification Report]
+    Documentation --> EnergyCertificate[Energy Efficiency Certificate]
+    Documentation --> XMLFile[XML File for Registry]
+    Documentation --> FinalCheck{Final Validation}
+    
+    FinalCheck -->|Issues Found| ReviewData[Review Input Data]
+    ReviewData --> GeneralData
+    FinalCheck -->|All Correct| ProjectEnd([Project Complete])
+    
+    %% Styling for different phases
+    classDef analysis fill:#e1f5fe
+    classDef data fill:#f3e5f5
+    classDef geometry fill:#e8f5e8
+    classDef verification fill:#fff3e0
+    classDef systems fill:#ffebee
+    classDef documentation fill:#f1f8e9
+    
+    class Analysis,DataCollection analysis
+    class HULCStart,NewProject,GeneralData data
+    class GeoPhase,DatabaseSetup,GeometryDefinition geometry
+    class HE1Verification,HE0Verification verification
+    class SystemsDefinition,HVACSystems systems
+    class Documentation,documentation

@@ -1,0 +1,23 @@
+$
+"Ocupación de sala" = DESCRIPTION-CONDICTION
+    TYPE                = "Ocupación"
+    FRACTION-LATENT     =           0.65
+    FRACTION-SENSIBLE   =            0.4
+    FRACTION-CONVECTIVE =            0.3
+    FRACTION-RADIANT    =            0.1
+..
+"Descripción de equipos" = DESCRIPTION-CONDICTION
+    TYPE                = "Equipo"
+    FRACTION-LATENT     =             21
+    FRACTION-SENSIBLE   =          91.17
+    FRACTION-CONVECTIVE =          22.57
+    FRACTION-RADIANT    =           68.6
+..
+"Descripción iluminación" = DESCRIPTION-CONDICTION
+    TYPE                = "Iluminación"
+    FRACTION-LATENT     =          45.42
+    FRACTION-SENSIBLE   =          71.79
+    FRACTION-CONVECTIVE =          40.79
+    FRACTION-RADIANT    =             31
+..
+
