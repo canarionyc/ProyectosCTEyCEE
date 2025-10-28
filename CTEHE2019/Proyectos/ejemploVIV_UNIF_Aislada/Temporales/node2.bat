@@ -1,0 +1,1 @@
+  "C:\ProgramasCTEyCEE\CTEHE2019\CTEEPBD\cteepbd.exe" -c "c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\Documentacion\DATOS_CTEEPBD.TXT" -l PENINSULA --xml "c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\Temporales\SALIDA_AUX.XML" 

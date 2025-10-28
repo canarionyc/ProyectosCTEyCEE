@@ -1,0 +1,27 @@
+** Datos de entrada
+Componentes energéticos: "c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\Documentacion\DATOS_CTEEPBD.TXT"
+Factores de paso (usuario): PENINSULA
+Área de referencia (metadatos) [m2]: 212.84
+Factor de exportación (metadatos) [-]: 0.0
+** Balance energético
+Area_ref = 212.84 [m2]
+k_exp = 0.00
+C_ep [kWh/m2.an]: ren = 34.4, nren = 5.0, tot = 39.4, RER = 0.87
+E_CO2 [kg_CO2e/m2.an]: 0.97
+
+** Energía final (todos los vectores) [kWh/m2.an]:
+ACS: 18.13
+CAL: 14.86
+REF: 0.80
+VEN: 3.10
+
+** Energía primaria (ren, nren) [kWh/m2.an] y emisiones [kg_CO2e/m2.an] por servicios:
+ACS: ren 18.64, nren 1.54, co2: 0.33
+CAL: ren 15.27, nren 1.26, co2: 0.27
+REF: ren 0.10, nren 0.46, co2: 0.08
+VEN: ren 0.38, nren 1.77, co2: 0.30
+
+** Indicadores adicionales
+Demanda total de ACS: 3087.6 [kWh]
+Porcentaje renovable de la demanda de ACS (perímetro próximo): 92.4 [%]
+

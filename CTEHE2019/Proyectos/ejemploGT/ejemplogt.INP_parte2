@@ -1,0 +1,244 @@
+$              Materials / Layers / Constructions
+$ ---------------------------------------------------------
+
+"MTRLDLTRRN" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.3
+   CONDUCTIVITY     = 1
+   DENSITY          = 1200
+   SPECIFIC-HEAT    = 1200
+   ..
+"MTRLBS" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 1
+   DENSITY          = 1400
+   SPECIFIC-HEAT    = 800
+   ..
+"MTRLSLNT" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.05
+   CONDUCTIVITY     = 0.03
+   DENSITY          = 50
+   SPECIFIC-HEAT    = 800
+   ..
+"Mortero cemento" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 1.4
+   DENSITY          = 2000
+   SPECIFIC-HEAT    = 1050
+   ..
+"Ladrillo hueco" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 0.49
+   DENSITY          = 1200
+   SPECIFIC-HEAT    = 920
+   ..
+"Poliestireno exp II" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 0.04
+   DENSITY          = 12
+   SPECIFIC-HEAT    = 1590
+   ..
+"Enlucido de yeso" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 0.3
+   DENSITY          = 800
+   SPECIFIC-HEAT    = 920
+   ..
+"Suelo coherente con humedad" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 2.1
+   DENSITY          = 1800
+   SPECIFIC-HEAT    = 920
+   ..
+"Forjado ceramico" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 0.4
+   DENSITY          = 1250
+   SPECIFIC-HEAT    = 880
+   ..
+"Terrazo" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 1.16
+   DENSITY          = 2000
+   SPECIFIC-HEAT    = 1050
+   ..
+"Baldosin catalan" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 1.05
+   DENSITY          = 2000
+   SPECIFIC-HEAT    = 840
+   ..
+"Poliestireno extrusionado" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 0.03
+   DENSITY          = 33
+   SPECIFIC-HEAT    = 1590
+   ..
+"Laminas bituminosas" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 0.19
+   DENSITY          = 1100
+   SPECIFIC-HEAT    = 1680
+   ..
+"Hormigon celular sin aridos" = MATERIAL        
+   TYPE             = PROPERTIES
+   THICKNESS        = 0.1
+   CONDUCTIVITY     = 0.09
+   DENSITY          = 305
+   SPECIFIC-HEAT    = 1050
+   ..
+
+"Muro Exterior" = LAYERS          
+   MATERIAL         = ( "Mortero cemento", "Ladrillo hueco", 
+         "Mortero cemento", "Poliestireno exp II", "Ladrillo hueco", 
+         "Enlucido de yeso" )
+   THICKNESS        = ( 0.02, 0.11, 0.01, 0.04, 0.03, 0.01 )
+   ..
+"I_Muro Exterior" = LAYERS          
+   MATERIAL         = ( "Enlucido de yeso", "Ladrillo hueco", 
+         "Poliestireno exp II", "Mortero cemento", "Ladrillo hueco", 
+         "Mortero cemento" )
+   THICKNESS        = ( 0.01, 0.03, 0.04, 0.01, 0.11, 0.02 )
+   ..
+"T_Muro Exterior" = LAYERS          
+   MATERIAL         = ( "Enlucido de yeso", "Ladrillo hueco", 
+         "Poliestireno exp II", "Mortero cemento", "Ladrillo hueco", 
+         "Mortero cemento" )
+   THICKNESS        = ( 0.01, 0.03, 0.04, 0.01, 0.11, 0.02 )
+   ..
+"Cubierta" = LAYERS          
+   MATERIAL         = ( "Baldosin catalan", "Mortero cemento", 
+         "Poliestireno extrusionado", "Laminas bituminosas", 
+         "Mortero cemento", "Hormigon celular sin aridos", 
+         "Forjado ceramico", "Enlucido de yeso" )
+   THICKNESS        = ( 0.02, 0.01, 0.04, 0.01, 0.01, 0.02, 0.21, 0.01 )
+   ..
+"I_Cubierta" = LAYERS          
+   MATERIAL         = ( "Enlucido de yeso", "Forjado ceramico", 
+         "Hormigon celular sin aridos", "Mortero cemento", 
+         "Laminas bituminosas", "Poliestireno extrusionado", 
+         "Mortero cemento", "Baldosin catalan" )
+   THICKNESS        = ( 0.01, 0.21, 0.02, 0.01, 0.01, 0.04, 0.01, 0.02 )
+   ..
+"T_Cubierta" = LAYERS          
+   MATERIAL         = ( "Enlucido de yeso", "Forjado ceramico", 
+         "Hormigon celular sin aridos", "Mortero cemento", 
+         "Laminas bituminosas", "Poliestireno extrusionado", 
+         "Mortero cemento", "Baldosin catalan" )
+   THICKNESS        = ( 0.01, 0.21, 0.02, 0.01, 0.01, 0.04, 0.01, 0.02 )
+   ..
+"Tabique" = LAYERS          
+   MATERIAL         = ( "Ladrillo hueco" )
+   THICKNESS        = ( 0.07 )
+   ..
+"I_Tabique" = LAYERS          
+   MATERIAL         = ( "Ladrillo hueco" )
+   THICKNESS        = ( 0.07 )
+   ..
+"T_Tabique" = LAYERS          
+   MATERIAL         = ( "MTRLDLTRRN", "Ladrillo hueco" )
+   THICKNESS        = ( 0.3, 0.07 )
+   ..
+"Suelo contacto terreno" = LAYERS          
+   MATERIAL         = ( "MTRLBS", "MTRLSLNT", "MTRLBS" )
+   THICKNESS        = ( 0.1, 0.025, 0.1 )
+   ..
+"I_Suelo contacto terreno" = LAYERS          
+   MATERIAL         = ( "MTRLBS", "MTRLSLNT", "MTRLBS" )
+   THICKNESS        = ( 0.1, 0.025, 0.1 )
+   ..
+"T_Suelo contacto terreno" = LAYERS          
+   MATERIAL         = ( "MTRLBS", "MTRLSLNT", "MTRLBS" )
+   THICKNESS        = ( 0.1, 0.025, 0.1 )
+   ..
+
+"Muro Exterior-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "Muro Exterior"
+   ..
+"I_Muro Exterior-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "I_Muro Exterior"
+   ..
+"T_Muro Exterior-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "T_Muro Exterior"
+   ..
+"Cubierta-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "Cubierta"
+   ..
+"I_Cubierta-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "I_Cubierta"
+   ..
+"T_Cubierta-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "T_Cubierta"
+   ..
+"Tabique-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "Tabique"
+   ..
+"I_Tabique-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "I_Tabique"
+   ..
+"T_Tabique-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "T_Tabique"
+   ..
+"Suelo contacto terreno-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "Suelo contacto terreno"
+   ..
+"I_Suelo contacto terreno-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "I_Suelo contacto terreno"
+   ..
+"T_Suelo contacto terreno-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "T_Suelo contacto terreno"
+   ..
+"Muro Exterior0.70-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   ABSORPTANCE      = 0.7
+   LAYERS           = "Muro Exterior"
+   ..
+"Cubierta0.70-C" = CONSTRUCTION    
+   TYPE             = LAYERS
+   ABSORPTANCE      = 0.7
+   LAYERS           = "Cubierta"
+   ..
+
+
+$ ---------------------------------------------------------
+$              Glass Types
+$ ---------------------------------------------------------
+
+"VER_DC_4-12-6" = GLASS-TYPE      
+   TYPE             = SHADING-COEF
+   SHADING-COEF     = 0.75
+   GLASS-CONDUCT    = 2.8
+   ..
+
+
+$ ---------------------------------------------------------
+$              Window Layers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------

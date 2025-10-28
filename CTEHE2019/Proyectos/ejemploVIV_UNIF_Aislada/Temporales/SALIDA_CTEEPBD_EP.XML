@@ -1,0 +1,76 @@
+<BalanceEPB>
+    <FactoresDePaso>
+        <Metadatos>
+          <Metadato><Clave>CTE_FUENTE</Clave><Valor>RITE2014</Valor></Metadato>
+      <Metadato><Clave>CTE_FUENTE_COMENTARIO</Clave><Valor>Factores de paso (kWh/kWh_f,kWh/kWh_f,kg_CO2/kWh_f) del documento reconocido del RITE de 20/07/2014</Valor></Metadato>
+      <Metadato><Clave>CTE_LOCALIZACION</Clave><Valor>PENINSULA</Valor></Metadato>
+        </Metadatos>
+        <Datos>
+          <Dato><Vector>BIOMASADENSIFICADA</Vector><Origen>RED</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>1.028</ren><nren>0.085</nren><co2>0.018</co2><Comentario>Recursos usados para suministrar el vector desde la red</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>COGENERACION</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>0.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para suministrar la energía (0 porque se contabiliza el vector que alimenta el cogenerador)</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>RED</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>0.414</ren><nren>1.954</nren><co2>0.331</co2><Comentario>Recursos usados para el suministro desde la red</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>COGENERACION</Origen><Destino>A_RED</Destino><Paso>A</Paso><ren>0.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Factor de usuario</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>COGENERACION</Origen><Destino>A_RED</Destino><Paso>B</Paso><ren>0.414</ren><nren>1.954</nren><co2>0.331</co2><Comentario>Recursos ahorrados a la red por la energía producida in situ y exportada a la red</Comentario></Dato>
+        </Datos>
+    </FactoresDePaso>
+    <Componentes>
+        <Metadatos>
+          <Metadato><Clave>CTE_AREAREF</Clave><Valor>212.84</Valor></Metadato>
+      <Metadato><Clave>CTE_LOCALIZACION</Clave><Valor>PENINSULA</Valor></Metadato>
+      <Metadato><Clave>CTE_KEXP</Clave><Valor>0.0</Valor></Metadato>
+      <Metadato><Clave>CTE_RED1</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
+      <Metadato><Clave>CTE_RED2</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
+      <Metadato><Clave>CTE_COGEN</Clave><Valor>0.000, 0.000, 0.000</Valor></Metadato>
+      <Metadato><Clave>CTE_ACS_DEMANDA_ANUAL</Clave><Valor>3087.59</Valor></Metadato>
+      <Metadato><Clave>CTE_DEMANDA_ACS_PCT_BIOMASADENSIFICADA</Clave><Valor>100.00</Valor></Metadato>
+        </Metadatos>
+        <Datos>
+          <Dato>
+            <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>1047.42,648.67,280.16,7.06,10.53,0.00,0.00,0.00,0.00,4.49,200.64,962.87</Valores>
+            <Comentario>CALDERA  SIS2_EQ2_EQ_Caldera-Biomasa-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ACS</Servicio>
+            <Valores>354.07,313.54,347.14,328.90,326.00,302.08,298.29,298.29,295.37,319.42,329.24,347.14</Valores>
+            <Comentario>CALDERA  SIS2_EQ2_EQ_Caldera-Biomasa-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>0.00,0.00,0.00,0.00,0.00,6.42,21.31,18.88,10.70,0.00,0.00,0.00</Valores>
+            <Comentario>AUTONOMO SOLO FRIO  SIS_EQ1_EQ_ED_AireAire_SF-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>0.00,0.00,0.00,0.00,0.00,11.91,32.74,34.56,17.65,0.00,0.00,0.00</Valores>
+            <Comentario>AUTONOMO SOLO FRIO  SIS1_EQ2_EQ_ED_AireAire_SF-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>0.00,0.00,0.00,0.00,0.00,1.18,5.84,3.10,3.80,0.00,0.00,0.00</Valores>
+            <Comentario>AUTONOMO SOLO FRIO  SIS3_EQ1_EQ_ED_AireAire_SF-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>0.00,0.00,0.00,0.00,0.00,1.27,0.63,0.00,1.32,0.00,0.00,0.00</Valores>
+            <Comentario>Consumo sistemas de complemento por potencia insuficiente (P02_E01) (REF)</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>VEN</Servicio>
+            <Valores>62.99,56.89,62.99,60.96,62.99,40.64,41.99,41.99,40.64,62.99,60.96,62.99</Valores>
+            <Comentario>Consumo ventiladores</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>PRODUCCION</Tipo><Subtipo>COGENERACION</Subtipo><Servicio>NDEF</Servicio>
+            <Valores>60.00,60.00,60.00,60.00,50.00,30.00,30.00,30.00,30.00,60.00,60.00,60.00</Valores>
+            <Comentario>PRODUCCIÓN ELECTRICIDAD Cogeneración de biomasa pellets</Comentario>
+        </Dato>
+        </Datos>
+    </Componentes>
+    <kexp>0.00</kexp>
+    <AreaRef>212.84</AreaRef><!-- área de referencia [m2] -->
+    <Epm2><!-- C_ep [kWh/m2.an] -->
+        <tot>39.4</tot>
+        <nren>5.0</nren>
+    </Epm2>
+</BalanceEPB>

@@ -1,0 +1,439 @@
+$              Polygons
+$ ---------------------------------------------------------
+
+"P01_Poligono001" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 30, 0 )
+   V3               = ( 30, 30 )
+   V4               = ( 0, 30 )
+   ..
+"P01_E01_Poligono002" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 30, 0 )
+   V3               = ( 24, 6 )
+   V4               = ( 6, 6 )
+   ..
+"P01_E02_Poligono003" = POLYGON         
+   V1               = ( 30, 0 )
+   V2               = ( 30, 30 )
+   V3               = ( 24, 24 )
+   V4               = ( 24, 6 )
+   ..
+"P01_E03_Poligono004" = POLYGON         
+   V1               = ( 6, 24 )
+   V2               = ( 24, 24 )
+   V3               = ( 30, 30 )
+   V4               = ( 0, 30 )
+   ..
+"P01_E04_Poligono005" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 6, 6 )
+   V3               = ( 6, 24 )
+   V4               = ( 0, 30 )
+   ..
+"P01_E05_Poligono006" = POLYGON         
+   V1               = ( 6, 6 )
+   V2               = ( 24, 6 )
+   V3               = ( 24, 24 )
+   V4               = ( 6, 24 )
+   ..
+"P01_E02_Poligono003 - Mirror" = POLYGON         
+   V1               = ( 0, 30 )
+   V2               = ( 6, 24 )
+   V3               = ( 24, 24 )
+   V4               = ( 30, 30 )
+   ..
+"P01_E03_Poligono004 - Mirror" = POLYGON         
+   V1               = ( 24, 6 )
+   V2               = ( 30, 0 )
+   V3               = ( 30, 30 )
+   V4               = ( 24, 24 )
+   ..
+"P01_E05_Poligono006 - Mirror" = POLYGON         
+   V1               = ( 6, 6 )
+   V2               = ( 24, 6 )
+   V3               = ( 24, 24 )
+   V4               = ( 6, 24 )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Wall Parameters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Fixed and Building Shades
+$ ---------------------------------------------------------
+
+
+
+
+$ ---------------------------------------------------------
+$              Misc Cost Related Objects
+$ ---------------------------------------------------------
+
+
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **      Floors / Spaces / Walls / Windows / Doors      **
+$ **                                                     **
+$ *********************************************************
+
+"P01" = FLOOR           
+   MULTIPLIER       = 1
+   Z                = 0
+   POLYGON          = "P01_Poligono001"
+   FLOOR-HEIGHT     = 3.5
+   ..
+"P01_E01" = SPACE           
+   X                = 0
+   Y                = 0
+   Z                = 0
+   AZIMUTH          = 0
+   HEIGHT           = 3.17
+   MULTIPLIER       = 1
+   FURN-FRACTION    = 0.5
+   ZONE-TYPE        = CONDITIONED
+   TEMPERATURE      = ( 22.5 )
+   PEOPLE-SCHEDULE  = "UsoEspacio-8h"
+   LIGHTING-SCHEDUL = ( "UsoEspacio-8h" )
+   EQUIP-SCHEDULE   = ( "UsoEspacio-8h" )
+   INF-SCHEDULE     = "UsoEspacio-8h_vent"
+   LIGHTING-TYPE    = ( SUS-FLUOR )
+   AIR-CHANGES/HR   = 0.5
+   PEOPLE-HG-LAT    = 45.42
+   PEOPLE-HG-SENS   = 62
+   EQUIP-LATENT     = ( 0.1 )
+   EQUIP-SENSIBLE   = ( 0.9 )
+   LIGHTING-W/AREA  = ( 1.5 )
+   EQUIPMENT-W/AREA = ( 1.5 )
+   FURN-WEIGHT      = 30
+   AREA/PERSON      = 36
+   POLYGON          = "P01_E01_Poligono002"
+   C-AREA           = 7
+   C-C-REND-LUM     = 3
+   ..
+"P01_E01_PE001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Muro Exterior0.70-C"
+   LOCATION         = SPACE-V1
+   ..
+"P01_E01_PE001_V" = WINDOW          
+   GLASS-TYPE       = "VER_DC_4-12-6"
+   SHADING-SCHEDULE = "b9f902c096_FS"
+   FRAME-WIDTH      = 0.153388
+   X                = 0.153388
+   Y                = 1.15339
+   HEIGHT           = 1.29322
+   WIDTH            = 29.6932
+   SETBACK          = 0.2
+   OVERHANG-A       = 0
+   OVERHANG-B       = 0.1
+   OVERHANG-W       = 30
+   OVERHANG-D       = 2
+   OVERHANG-ANGLE   = 90
+   LEFT-FIN-A       = 0
+   LEFT-FIN-B       = 0
+   LEFT-FIN-H       = 0
+   LEFT-FIN-D       = 0
+   RIGHT-FIN-A      = 0
+   RIGHT-FIN-B      = 0
+   RIGHT-FIN-H      = 0
+   RIGHT-FIN-D      = 0
+   FRAME-CONDUCT    = 2.2
+   C-FRAMEAREA      = 27
+   ..
+"P01_E01_CUB001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Cubierta0.70-C"
+   LOCATION         = TOP
+   ..
+"P01_E01_Med001" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E02"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V2
+   ..
+"P01_E01_Med002" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E05"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V3
+   ..
+"P01_E01_Med003" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E04"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V4
+   ..
+"P01_E01Suelo_001" = UNDERGROUND-WALL
+   CONSTRUCTION     = "T_Suelo contacto terreno-C"
+   LOCATION         = BOTTOM
+   ..
+"P01_E02" = SPACE           
+   X                = 0
+   Y                = 0
+   Z                = 0
+   AZIMUTH          = 0
+   HEIGHT           = 3.17
+   MULTIPLIER       = 1
+   FURN-FRACTION    = 0.5
+   ZONE-TYPE        = CONDITIONED
+   TEMPERATURE      = ( 22.5 )
+   PEOPLE-SCHEDULE  = "UsoEspacio-8h"
+   LIGHTING-SCHEDUL = ( "UsoEspacio-8h" )
+   EQUIP-SCHEDULE   = ( "UsoEspacio-8h" )
+   INF-SCHEDULE     = "UsoEspacio-8h_vent"
+   LIGHTING-TYPE    = ( SUS-FLUOR )
+   AIR-CHANGES/HR   = 0.5
+   PEOPLE-HG-LAT    = 45.42
+   PEOPLE-HG-SENS   = 62
+   EQUIP-LATENT     = ( 0.1 )
+   EQUIP-SENSIBLE   = ( 0.9 )
+   LIGHTING-W/AREA  = ( 1.5 )
+   EQUIPMENT-W/AREA = ( 1.5 )
+   FURN-WEIGHT      = 30
+   AREA/PERSON      = 36
+   POLYGON          = "P01_E02_Poligono003"
+   C-AREA           = 7
+   C-C-REND-LUM     = 3
+   ..
+"P01_E02_PE002" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Muro Exterior0.70-C"
+   LOCATION         = SPACE-V1
+   ..
+"P01_E02_PE002_V" = WINDOW          
+   GLASS-TYPE       = "VER_DC_4-12-6"
+   SHADING-SCHEDULE = "54ff22791d_FS"
+   FRAME-WIDTH      = 0.153388
+   X                = 0.153388
+   Y                = 1.15339
+   HEIGHT           = 1.29322
+   WIDTH            = 29.6932
+   SETBACK          = 0.2
+   OVERHANG-A       = 0
+   OVERHANG-B       = 0.1
+   OVERHANG-W       = 30
+   OVERHANG-D       = 2
+   OVERHANG-ANGLE   = 90
+   LEFT-FIN-A       = 0
+   LEFT-FIN-B       = 0
+   LEFT-FIN-H       = 0
+   LEFT-FIN-D       = 0
+   RIGHT-FIN-A      = 0
+   RIGHT-FIN-B      = 0
+   RIGHT-FIN-H      = 0
+   RIGHT-FIN-D      = 0
+   FRAME-CONDUCT    = 2.2
+   C-FRAMEAREA      = 27
+   ..
+"P01_E02_CUB001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Cubierta0.70-C"
+   LOCATION         = TOP
+   ..
+"P01_E02_Med004" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E03"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V2
+   ..
+"P01_E02_Med005" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E05"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V3
+   ..
+"P01_E02Suelo_002" = UNDERGROUND-WALL
+   CONSTRUCTION     = "T_Suelo contacto terreno-C"
+   LOCATION         = BOTTOM
+   ..
+"P01_E03" = SPACE           
+   X                = 0
+   Y                = 0
+   Z                = 0
+   AZIMUTH          = 0
+   HEIGHT           = 3.17
+   MULTIPLIER       = 1
+   FURN-FRACTION    = 0.5
+   ZONE-TYPE        = CONDITIONED
+   TEMPERATURE      = ( 22.5 )
+   PEOPLE-SCHEDULE  = "UsoEspacio-8h"
+   LIGHTING-SCHEDUL = ( "UsoEspacio-8h" )
+   EQUIP-SCHEDULE   = ( "UsoEspacio-8h" )
+   INF-SCHEDULE     = "UsoEspacio-8h_vent"
+   LIGHTING-TYPE    = ( SUS-FLUOR )
+   AIR-CHANGES/HR   = 0.5
+   PEOPLE-HG-LAT    = 45.42
+   PEOPLE-HG-SENS   = 62
+   EQUIP-LATENT     = ( 0.1 )
+   EQUIP-SENSIBLE   = ( 0.9 )
+   LIGHTING-W/AREA  = ( 1.5 )
+   EQUIPMENT-W/AREA = ( 1.5 )
+   FURN-WEIGHT      = 30
+   AREA/PERSON      = 36
+   POLYGON          = "P01_E03_Poligono004"
+   C-AREA           = 7
+   C-C-REND-LUM     = 3
+   ..
+"P01_E03_PE001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Muro Exterior0.70-C"
+   LOCATION         = SPACE-V3
+   ..
+"P01_E03_PE001_V" = WINDOW          
+   GLASS-TYPE       = "VER_DC_4-12-6"
+   FRAME-WIDTH      = 0.153388
+   X                = 0.153388
+   Y                = 1.15339
+   HEIGHT           = 1.29322
+   WIDTH            = 29.6932
+   SETBACK          = 0.2
+   OVERHANG-A       = 0
+   OVERHANG-B       = 0
+   OVERHANG-W       = 0
+   OVERHANG-D       = 0
+   OVERHANG-ANGLE   = 0
+   LEFT-FIN-A       = 0
+   LEFT-FIN-B       = 0
+   LEFT-FIN-H       = 0
+   LEFT-FIN-D       = 0
+   RIGHT-FIN-A      = 0
+   RIGHT-FIN-B      = 0
+   RIGHT-FIN-H      = 0
+   RIGHT-FIN-D      = 0
+   FRAME-CONDUCT    = 2.2
+   C-FRAMEAREA      = 27
+   ..
+"P01_E03_CUB001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Cubierta0.70-C"
+   LOCATION         = TOP
+   ..
+"P01_E03_Med001" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E05"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V1
+   ..
+"P01_E03_Med003" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E04"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V4
+   ..
+"P01_E03Suelo_003" = UNDERGROUND-WALL
+   CONSTRUCTION     = "T_Suelo contacto terreno-C"
+   LOCATION         = BOTTOM
+   ..
+"P01_E04" = SPACE           
+   X                = 0
+   Y                = 0
+   Z                = 0
+   AZIMUTH          = 0
+   HEIGHT           = 3.17
+   MULTIPLIER       = 1
+   FURN-FRACTION    = 0.5
+   ZONE-TYPE        = CONDITIONED
+   TEMPERATURE      = ( 22.5 )
+   PEOPLE-SCHEDULE  = "UsoEspacio-8h"
+   LIGHTING-SCHEDUL = ( "UsoEspacio-8h" )
+   EQUIP-SCHEDULE   = ( "UsoEspacio-8h" )
+   INF-SCHEDULE     = "UsoEspacio-8h_vent"
+   LIGHTING-TYPE    = ( SUS-FLUOR )
+   AIR-CHANGES/HR   = 0.5
+   PEOPLE-HG-LAT    = 45.42
+   PEOPLE-HG-SENS   = 62
+   EQUIP-LATENT     = ( 0.1 )
+   EQUIP-SENSIBLE   = ( 0.9 )
+   LIGHTING-W/AREA  = ( 1.5 )
+   EQUIPMENT-W/AREA = ( 1.5 )
+   FURN-WEIGHT      = 30
+   AREA/PERSON      = 36
+   POLYGON          = "P01_E04_Poligono005"
+   C-AREA           = 7
+   C-C-REND-LUM     = 3
+   ..
+"P01_E04_PE001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Muro Exterior0.70-C"
+   LOCATION         = SPACE-V4
+   ..
+"P01_E04_PE001_V" = WINDOW          
+   GLASS-TYPE       = "VER_DC_4-12-6"
+   SHADING-SCHEDULE = "8100883930_FS"
+   FRAME-WIDTH      = 0.153388
+   X                = 0.153388
+   Y                = 1.15339
+   HEIGHT           = 1.29322
+   WIDTH            = 29.6932
+   SETBACK          = 0.2
+   OVERHANG-A       = 0
+   OVERHANG-B       = 0.1
+   OVERHANG-W       = 30
+   OVERHANG-D       = 2
+   OVERHANG-ANGLE   = 90
+   LEFT-FIN-A       = 0
+   LEFT-FIN-B       = 0
+   LEFT-FIN-H       = 0
+   LEFT-FIN-D       = 0
+   RIGHT-FIN-A      = 0
+   RIGHT-FIN-B      = 0
+   RIGHT-FIN-H      = 0
+   RIGHT-FIN-D      = 0
+   FRAME-CONDUCT    = 2.2
+   C-FRAMEAREA      = 27
+   ..
+"P01_E04_CUB001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Cubierta0.70-C"
+   LOCATION         = TOP
+   ..
+"P01_E04_Med002" = INTERIOR-WALL   
+   NEXT-TO          = "P01_E05"
+   CONSTRUCTION     = "Tabique-C"
+   INT-WALL-TYPE    = STANDARD
+   LOCATION         = SPACE-V2
+   ..
+"P01_E04Suelo_004" = UNDERGROUND-WALL
+   CONSTRUCTION     = "T_Suelo contacto terreno-C"
+   LOCATION         = BOTTOM
+   ..
+"P01_E05" = SPACE           
+   X                = 0
+   Y                = 0
+   Z                = 0
+   AZIMUTH          = 0
+   HEIGHT           = 3.17
+   MULTIPLIER       = 1
+   FURN-FRACTION    = 0.5
+   ZONE-TYPE        = CONDITIONED
+   TEMPERATURE      = ( 22.5 )
+   PEOPLE-SCHEDULE  = "UsoEspacio-8h"
+   LIGHTING-SCHEDUL = ( "UsoEspacio-8h" )
+   EQUIP-SCHEDULE   = ( "UsoEspacio-8h" )
+   INF-SCHEDULE     = "UsoEspacio-8h_vent"
+   LIGHTING-TYPE    = ( SUS-FLUOR )
+   AIR-CHANGES/HR   = 0.5
+   PEOPLE-HG-LAT    = 45.42
+   PEOPLE-HG-SENS   = 62
+   EQUIP-LATENT     = ( 0.1 )
+   EQUIP-SENSIBLE   = ( 0.9 )
+   LIGHTING-W/AREA  = ( 1.5 )
+   EQUIPMENT-W/AREA = ( 1.5 )
+   FURN-WEIGHT      = 30
+   AREA/PERSON      = 36
+   POLYGON          = "P01_E05_Poligono006"
+   C-AREA           = 7
+   C-C-REND-LUM     = 3
+   ..
+"P01_E05_CUB001" = EXTERIOR-WALL   
+   CONSTRUCTION     = "Cubierta0.70-C"
+   LOCATION         = TOP
+   ..
+"P01_E05Suelo_005" = UNDERGROUND-WALL
+   CONSTRUCTION     = "T_Suelo contacto terreno-C"
+   LOCATION         = BOTTOM
+   ..
+
+
+$ *********************************************************
+$ **                                                     **

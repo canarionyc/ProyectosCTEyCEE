@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESTO2xml nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\newbdl_ds.xml">
+	<Edificio nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\newbdl_ds.xml">
+		<pathLider>"c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\"</pathLider>
+		<pathMeteo>"c:\programascteycee\datosclimaticos\genericos\"</pathMeteo>
+		<pathSalida>"c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\"</pathSalida>
+		<Contenedor nombre="TiposEnergia">
+			<TipoEnergia nombre="RED2">
+				<precioEnergia>0.000</precioEnergia>
+				<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="RED1">
+				<precioEnergia>0.000</precioEnergia>
+				<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="Biomasa densificada (pelets)">
+				<precioEnergia>0.060</precioEnergia>
+				<conversionEnergiaPrimaria>0.085</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>0.018</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="Biomasa no densificada">
+				<precioEnergia>0.060</precioEnergia>
+				<conversionEnergiaPrimaria>0.034</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>0.018</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="Carbon">
+				<precioEnergia>0.060</precioEnergia>
+				<conversionEnergiaPrimaria>1.082</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>0.472</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="Gas Natural">
+				<precioEnergia>0.060</precioEnergia>
+				<conversionEnergiaPrimaria>1.190</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>0.252</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="GLP">
+				<precioEnergia>0.060</precioEnergia>
+				<conversionEnergiaPrimaria>1.201</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>0.254</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="Gasoleo calefaccion / Fuel-oil">
+				<precioEnergia>0.060</precioEnergia>
+				<conversionEnergiaPrimaria>1.179</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>0.311</conversionEmisionesCO2>
+			</TipoEnergia>
+			<TipoEnergia nombre="Electricidad">
+				<precioEnergia>0.085</precioEnergia>
+				<conversionEnergiaPrimaria>1.954</conversionEnergiaPrimaria>
+				<conversionEmisionesCO2>0.331</conversionEmisionesCO2>
+			</TipoEnergia>
+		</Contenedor>
+		<Contenedor nombre="FactoresCorreccion">
+			<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
+				<tipoObjeto>EQ_Caldera</tipoObjeto>
+				<tipoPropiedad>ren_T</tipoPropiedad>
+				<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+				<nombreVI_1>Temperatura impulsion</nombreVI_1>
+				<minVI_1>0</minVI_1>
+				<maxVI_1>1</maxVI_1>
+				<coeficientes>"1;0"</coeficientes>
+				<exponentes>"1"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
+				<tipoObjeto>EQ_Caldera</tipoObjeto>
+				<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
+				<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+				<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+				<minVI_1>0</minVI_1>
+				<maxVI_1>1</maxVI_1>
+				<coeficientes>"1;0"</coeficientes>
+				<exponentes>"1"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
+				<tipoObjeto>EQ_Caldera</tipoObjeto>
+				<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
+				<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+				<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+				<minVI_1>0</minVI_1>
+				<maxVI_1>1</maxVI_1>
+				<coeficientes>"0.7159;0.2841"</coeficientes>
+				<exponentes>"1"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
+				<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+				<tipoPropiedad>conRef_T</tipoPropiedad>
+				<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
+				<nombreVI_1>Temperatura humeda interior</nombreVI_1>
+				<nombreVI_2>Temperatura seca exterior</nombreVI_2>
+				<minVI_1>5</minVI_1>
+				<minVI_2>5</minVI_2>
+				<maxVI_1>30</maxVI_1>
+				<maxVI_2>50</maxVI_2>
+				<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
+				<exponentes>"1/0;2/0;0/1;0/2;1/1"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
+				<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+				<tipoPropiedad>conRef_FCP</tipoPropiedad>
+				<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+				<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+				<minVI_1>0</minVI_1>
+				<maxVI_1>1</maxVI_1>
+				<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
+				<exponentes>"1;2;3"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="con_T-EQ_ED_AireAgua_BDC-ACS-Defecto">
+				<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
+				<tipoPropiedad>con_T</tipoPropiedad>
+				<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
+				<nombreVI_1>Temperatura de impulsion</nombreVI_1>
+				<nombreVI_2>Temperatura humeda exterior</nombreVI_2>
+				<minVI_1>0</minVI_1>
+				<minVI_2>-15</minVI_2>
+				<maxVI_1>100</maxVI_1>
+				<maxVI_2>30</maxVI_2>
+				<coeficientes>"0.9496;0.009;-0.0001"</coeficientes>
+				<exponentes>"0/1;0/2"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="con_FCP-EQ_ED_AireAgua_BDC-ACS-Defecto">
+				<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
+				<tipoPropiedad>con_FCP</tipoPropiedad>
+				<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+				<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+				<minVI_1>0</minVI_1>
+				<maxVI_1>1</maxVI_1>
+				<coeficientes>"0.0856522;0.938814;-0.183436;0.15897"</coeficientes>
+				<exponentes>"1;2;3"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
+				<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+				<tipoPropiedad>capTotRef_T</tipoPropiedad>
+				<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
+				<nombreVI_1>Temperatura humeda interior</nombreVI_1>
+				<nombreVI_2>Temperatura seca exterior</nombreVI_2>
+				<minVI_1>5</minVI_1>
+				<minVI_2>5</minVI_2>
+				<maxVI_1>30</maxVI_1>
+				<maxVI_2>50</maxVI_2>
+				<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
+				<exponentes>"1/0;2/0;0/1;0/2;1/1"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
+				<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+				<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
+				<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+				<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+				<minVI_1>0</minVI_1>
+				<maxVI_1>1</maxVI_1>
+				<coeficientes>"0;1"</coeficientes>
+				<exponentes>"1"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="capSenRef_T-EQ_ED_AireAire_SF-Defecto">
+				<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+				<tipoPropiedad>capSenRef_T</tipoPropiedad>
+				<numeroVariablesIndependientes>3</numeroVariablesIndependientes>
+				<nombreVI_1>Temperatura humeda interior</nombreVI_1>
+				<nombreVI_2>Temperatura seca interior</nombreVI_2>
+				<nombreVI_3>Temperatura seca exterior</nombreVI_3>
+				<minVI_1>5</minVI_1>
+				<minVI_2>5</minVI_2>
+				<minVI_3>5</minVI_3>
+				<maxVI_1>30</maxVI_1>
+				<maxVI_2>35</maxVI_2>
+				<maxVI_3>35</maxVI_3>
+				<coeficientes>"0.500602;-0.0464383;-0.000324724;0.0699578;-3.42756e-05;-0.0132021;7.93065e-05"</coeficientes>
+				<exponentes>"1/0/0;2/0/0;0/1/0;0/2/0;0/0/1;0/0/2"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="cap_T-EQ_ED_AireAgua_BDC-ACS-Defecto">
+				<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
+				<tipoPropiedad>cap_T</tipoPropiedad>
+				<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
+				<nombreVI_1>Temperatura de impulsion</nombreVI_1>
+				<nombreVI_2>Temperatura humeda exterior</nombreVI_2>
+				<minVI_1>0</minVI_1>
+				<minVI_2>-15</minVI_2>
+				<maxVI_1>100</maxVI_1>
+				<maxVI_2>30</maxVI_2>
+				<coeficientes>"0.8232;0.0281;0.0002"</coeficientes>
+				<exponentes>"0/1;0/2"</exponentes>
+			</CurvaComportamiento>
+			<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
+				<tipoObjeto>EQ_Caldera</tipoObjeto>
+				<tipoPropiedad>cap_T</tipoPropiedad>
+				<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+				<nombreVI_1>Temperatura impulsion</nombreVI_1>
+				<minVI_1>0</minVI_1>
+				<maxVI_1>1</maxVI_1>
+				<coeficientes>"1;0"</coeficientes>
+				<exponentes>"1"</exponentes>
+			</CurvaComportamiento>
+		</Contenedor>
+		<Contenedor nombre="PerfilesDiarios">
+			<Perfil_Diario nombre="Demanda_Hor">
+				<fHoraria_0>0.01</fHoraria_0>
+				<fHoraria_1>0.00</fHoraria_1>
+				<fHoraria_2>0.00</fHoraria_2>
+				<fHoraria_3>0.00</fHoraria_3>
+				<fHoraria_4>0.00</fHoraria_4>
+				<fHoraria_5>0.01</fHoraria_5>
+				<fHoraria_6>0.03</fHoraria_6>
+				<fHoraria_7>0.10</fHoraria_7>
+				<fHoraria_8>0.07</fHoraria_8>
+				<fHoraria_9>0.07</fHoraria_9>
+				<fHoraria_10>0.06</fHoraria_10>
+				<fHoraria_11>0.06</fHoraria_11>
+				<fHoraria_12>0.05</fHoraria_12>
+				<fHoraria_13>0.05</fHoraria_13>
+				<fHoraria_14>0.04</fHoraria_14>
+				<fHoraria_15>0.03</fHoraria_15>
+				<fHoraria_16>0.04</fHoraria_16>
+				<fHoraria_17>0.04</fHoraria_17>
+				<fHoraria_18>0.05</fHoraria_18>
+				<fHoraria_19>0.07</fHoraria_19>
+				<fHoraria_20>0.06</fHoraria_20>
+				<fHoraria_21>0.06</fHoraria_21>
+				<fHoraria_22>0.05</fHoraria_22>
+				<fHoraria_23>0.05</fHoraria_23>
+			</Perfil_Diario>
+		</Contenedor>
+		<Contenedor nombre="Localidades">
+			<Meteo_DOE2 nombre="bilbao" fichero="zonaC1.bin"/>
+		</Contenedor>
+		<ordenESTO2>cargarZonasLider("ResumenRCC_NewBDL_O.bin")</ordenESTO2>
+		<Contenedor nombre="Sistemas">
+			<SIS_MIXTO nombre="SIS2_Mixto_calefaccion_y_ACS">
+				<DemandaACS nombre="SIS2_ACS1_Demanda_de_ACS">
+					<perfilDiario>Demanda_Hor</perfilDiario>
+					<conACSDiario>154</conACSDiario>
+					<multiplicador>1</multiplicador>
+					<TUso>60</TUso>
+					<TRed>12.6929407119751</TRed>
+					<TRed_01>8.90</TRed_01>
+					<TRed_02>9.90</TRed_02>
+					<TRed_03>9.90</TRed_03>
+					<TRed_04>10.95</TRed_04>
+					<TRed_05>12.95</TRed_05>
+					<TRed_06>14.95</TRed_06>
+					<TRed_07>16.95</TRed_07>
+					<TRed_08>16.95</TRed_08>
+					<TRed_09>15.95</TRed_09>
+					<TRed_10>13.90</TRed_10>
+					<TRed_11>10.90</TRed_11>
+					<TRed_12>9.90</TRed_12>
+				</DemandaACS>
+				<UT_AguaCaliente nombre="SIS_UT1">
+					<zona>"P03_E03"</zona>
+					<capNom>5</capNom>
+					<multiplicador>1</multiplicador>
+				</UT_AguaCaliente>
+				<UT_AguaCaliente nombre="SIS_UT2">
+					<zona>"P02_E01"</zona>
+					<capNom>5</capNom>
+					<multiplicador>1</multiplicador>
+				</UT_AguaCaliente>
+				<UT_AguaCaliente nombre="SIS_UT3">
+					<zona>"P01_E02"</zona>
+					<capNom>5</capNom>
+					<multiplicador>1</multiplicador>
+				</UT_AguaCaliente>
+				<EQ_Caldera nombre="SIS2_EQ2_EQ_Caldera-Biomasa-Defecto">
+					<capNom>15.00</capNom>
+					<renNom>0.80</renNom>
+					<tipoEnergia>"Biomasa densificada (pelets)"</tipoEnergia>
+					<cap_T>"cap_T-EQ_Caldera-unidad"</cap_T>
+					<ren_T>"ren_T-EQ_Caldera-unidad"</ren_T>
+					<ren_FCP_Potencia>"ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto"</ren_FCP_Potencia>
+					<ren_FCP_Tiempo>"ren_FCP_Tiempo-EQ_Caldera-unidad"</ren_FCP_Tiempo>
+				</EQ_Caldera>
+				<porcentajeES>0.00</porcentajeES>
+				<multiplicador>1</multiplicador>
+				<tImpulsionACS>50.00</tImpulsionACS>
+				<tImpulsionCal>80.00</tImpulsionCal>
+				<porcentajeES_01>0.00</porcentajeES_01>
+				<porcentajeES_02>0.00</porcentajeES_02>
+				<porcentajeES_03>0.00</porcentajeES_03>
+				<porcentajeES_04>0.00</porcentajeES_04>
+				<porcentajeES_05>0.00</porcentajeES_05>
+				<porcentajeES_06>0.00</porcentajeES_06>
+				<porcentajeES_07>0.00</porcentajeES_07>
+				<porcentajeES_08>0.00</porcentajeES_08>
+				<porcentajeES_09>0.00</porcentajeES_09>
+				<porcentajeES_10>0.00</porcentajeES_10>
+				<porcentajeES_11>0.00</porcentajeES_11>
+				<porcentajeES_12>0.00</porcentajeES_12>
+			</SIS_MIXTO>
+			<SIS_UNIZONA nombre="SIS_Climatizacion_unizona">
+				<EQ_ED_AireAire_SF nombre="SIS_EQ1_EQ_ED_AireAire_SF-Defecto">
+					<capTotRefNom>2.09999990463257</capTotRefNom>
+					<capSenRefNom>1.79999995231628</capSenRefNom>
+					<conRefNom>0.699999988079071</conRefNom>
+					<vImpulsionNom>500</vImpulsionNom>
+					<dtTermostato>1</dtTermostato>
+					<capTotRef_T>"capTotRef_T-EQ_ED_AireAire_SF-Defecto"</capTotRef_T>
+					<capTotRef_FCP>"capTotRef_FCP-EQ_ED_AireAire_SF-Defecto"</capTotRef_FCP>
+					<capSenRef_T>"capSenRef_T-EQ_ED_AireAire_SF-Defecto"</capSenRef_T>
+					<conRef_T>"conRef_T-EQ_ED_AireAire_SF-Defecto"</conRef_T>
+					<conRef_FCP>"conRef_FCP-EQ_ED_AireAire_SF-Defecto"</conRef_FCP>
+				</EQ_ED_AireAire_SF>
+				<zona>"P01_E02"</zona>
+				<vVentilacion>0</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="SIS1_Climatizacion_unizona">
+				<EQ_ED_AireAire_SF nombre="SIS1_EQ2_EQ_ED_AireAire_SF-Defecto">
+					<capTotRefNom>2.09999990463257</capTotRefNom>
+					<capSenRefNom>1.79999995231628</capSenRefNom>
+					<conRefNom>0.699999988079071</conRefNom>
+					<vImpulsionNom>500</vImpulsionNom>
+					<dtTermostato>1</dtTermostato>
+					<capTotRef_T>"capTotRef_T-EQ_ED_AireAire_SF-Defecto"</capTotRef_T>
+					<capTotRef_FCP>"capTotRef_FCP-EQ_ED_AireAire_SF-Defecto"</capTotRef_FCP>
+					<capSenRef_T>"capSenRef_T-EQ_ED_AireAire_SF-Defecto"</capSenRef_T>
+					<conRef_T>"conRef_T-EQ_ED_AireAire_SF-Defecto"</conRef_T>
+					<conRef_FCP>"conRef_FCP-EQ_ED_AireAire_SF-Defecto"</conRef_FCP>
+				</EQ_ED_AireAire_SF>
+				<zona>"P02_E01"</zona>
+				<vVentilacion>0</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="SIS3_Climatizacion_unizona">
+				<EQ_ED_AireAire_SF nombre="SIS3_EQ1_EQ_ED_AireAire_SF-Defecto">
+					<capTotRefNom>2.09999990463257</capTotRefNom>
+					<capSenRefNom>1.79999995231628</capSenRefNom>
+					<conRefNom>0.699999988079071</conRefNom>
+					<vImpulsionNom>500</vImpulsionNom>
+					<dtTermostato>1</dtTermostato>
+					<capTotRef_T>"capTotRef_T-EQ_ED_AireAire_SF-Defecto"</capTotRef_T>
+					<capTotRef_FCP>"capTotRef_FCP-EQ_ED_AireAire_SF-Defecto"</capTotRef_FCP>
+					<capSenRef_T>"capSenRef_T-EQ_ED_AireAire_SF-Defecto"</capSenRef_T>
+					<conRef_T>"conRef_T-EQ_ED_AireAire_SF-Defecto"</conRef_T>
+					<conRef_FCP>"conRef_FCP-EQ_ED_AireAire_SF-Defecto"</conRef_FCP>
+				</EQ_ED_AireAire_SF>
+				<zona>"P03_E03"</zona>
+				<vVentilacion>0</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+		</Contenedor>
+	</Edificio>
+	<ordenESTO2>simular("bilbao")</ordenESTO2>
+	<ordenESTO2>escribirInforme("NewBDL_DS_OBJ.Res")</ordenESTO2>
+	<ordenESTO2>escribirPostCALENER("c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\ejemploviv_unif_aislada.csv")</ordenESTO2>
+	<ordenESTO2>escribirPostCALENERDH("c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\ejemploviv_unif_aislada.pcxml")</ordenESTO2>
+</ESTO2xml>

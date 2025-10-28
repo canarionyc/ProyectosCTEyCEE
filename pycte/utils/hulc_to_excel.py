@@ -904,7 +904,7 @@ if __name__ == "__main__":
         # Process single file
         file_ext = os.path.splitext(input_path)[1].lower()
 
-        if file_ext == '.ctedbxml':
+        if file_ext == '.ctehexml':
             # Process .ctedbxml file
             process_single_file(input_path)
         else:

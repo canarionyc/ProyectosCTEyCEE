@@ -1,0 +1,28 @@
+$ Programa de Capacidades Adicionales tipo Espacio Tampón (Elementos Especiales de la Envuelta)
+$ Fichero opcional de datos de entrada al programa EEE
+$ Los datos que aparezcan no se solicitan al usuario
+$ 
+$ (c) Grupo de TERMOTECNIA desde 1979
+$ Versión 11-Jun-2014
+$ 
+    Nombre_caso="ejemploviv_unif_aislada" 
+    Nombre_fichero_met="zonaC1.bin" 
+    Nombre_fichero_inicial_muro="P01_E02_PE003_CA_GEN_ICF.CSV" 
+    Nombre_fichero_modificado_muro="P01_E02_PE003_CA_GEN_MCF.CSV" 
+    Nombre_fichero_inicial_ventana="NINGUNO" 
+    Nombre_fichero_modificado_ventana="NINGUNO" 
+    Carpeta_dat="c:\proyectoscteycee\ctehe2019\proyectos\ejemploviv_unif_aislada\Datos_CA_GEN" 
+    Carpeta_met="C:\ProgramasCTEyCEE\DatosClimaticos\GENERICOS" 
+    Carpeta_lib="C:\ProgramasCTEyCEE\CTEHE2019\Libreria" 
+$ 
+    WF="9.71"
+    HF="2.70"
+    WW="0.00"
+    HW="0.00"
+    YW="0.00"
+    XW="0.00"
+    Absortividad_F="0.60"
+    Absortividad_W="0.86"
+    U_Value_F="0.40"
+    U_Value_W="5.70"
+    Orientacion="47,7"

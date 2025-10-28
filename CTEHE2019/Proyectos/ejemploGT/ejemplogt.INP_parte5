@@ -1,0 +1,436 @@
+$ **                Performance Curves                   **
+$ **                                                     **
+$ *********************************************************
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **              Electric & Fuel Meters                 **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Electric Meters
+$ ---------------------------------------------------------
+
+"Electricidad" = ELEC-METER      
+   TYPE             = UTILITY
+   ..
+
+
+$ ---------------------------------------------------------
+$              Fuel Meters
+$ ---------------------------------------------------------
+
+"Gas Natural" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 2
+   C-C-COSTE        = 0.06
+   ..
+"Gasóleo" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 3
+   C-C-COSTE        = 0.06
+   ..
+"Fuel-oil" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 4
+   C-C-COSTE        = 0.06
+   ..
+"Carbón" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 5
+   C-C-COSTE        = 0.06
+   ..
+"GLP" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 6
+   C-C-COSTE        = 0.06
+   ..
+"Biomasa" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 7
+   C-C-COSTE        = 0.06
+   ..
+"Biomasa densificada" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 8
+   C-C-COSTE        = 0.06
+   ..
+"RED1" = FUEL-METER
+   TYPE             = NATURAL-GAS
+   C-C-COEF-CO2     = 9
+   C-C-COSTE        = 0.06
+   ..
+
+
+
+$ ---------------------------------------------------------
+$              Master Meters
+$ ---------------------------------------------------------
+
+"Contador Central" = MASTER-METERS   
+   MSTR-ELEC-METER  = "Electricidad"
+   MSTR-FUEL-METER  = "Gas Natural"
+   ..
+
+
+$ *********************************************************
+$ **                                                     **
+$ **      HVAC Circulation Loops / Plant Equipment       **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Pumps
+$ ---------------------------------------------------------
+
+"Bomba CAF" = PUMP            
+   HEAD             = 26
+   MECH-EFF         = 0.98
+   MOTOR-EFF        = 0.98
+   CAP-CTRL         = VAR-SPEED-PUMP
+   C-C-FLOW         = 10320
+   ..
+"Bomba CAC" = PUMP            
+   HEAD             = 15
+   MECH-EFF         = 0.98
+   MOTOR-EFF        = 0.98
+   CAP-CTRL         = VAR-SPEED-PUMP
+   C-C-FLOW         = 1720
+   ..
+"Bomba CCD" = PUMP            
+   HEAD             = 29
+   MECH-EFF         = 0.98
+   MOTOR-EFF        = 0.98
+   CAP-CTRL         = VAR-SPEED-PUMP
+   C-C-FLOW         = 12900
+   ..
+
+
+$ ---------------------------------------------------------
+$              Heat Exchangers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Circulation Loops
+$ ---------------------------------------------------------
+
+"Circuito agua fria" = CIRCULATION-LOOP
+   TYPE             = CHW
+   ..
+"Circuito agua caliente" = CIRCULATION-LOOP
+   TYPE             = HW
+   LOOP-DESIGN-DT   = 10
+   HEAT-SETPT-T     = 70
+   ..
+"Circuito ACS" = CIRCULATION-LOOP
+   TYPE             = DHW
+   PROCESS-SCH      = ( "UsoEspacio-8h" )
+   DHW-INLET-T      = 17.333
+   C-C-PROCESS-FLOW = 30
+   ..
+"Circuito Agua Condensacion" = CIRCULATION-LOOP
+   TYPE             = CW
+   LOOP-PUMP        = "Bomba CCD"
+   ..
+
+
+$ ---------------------------------------------------------
+$              Chillers
+$ ---------------------------------------------------------
+
+"Enfriadora" = CHILLER         
+   TYPE             = ELEC-HERM-REC
+   CHW-LOOP         = "Circuito agua fria"
+   CHW-PUMP         = "Bomba CAF"
+   CHW-DT           = 6
+   CONDENSER-TYPE   = WATER-COOLED
+   CW-LOOP          = "Circuito Agua Condensacion"
+   CW-DT            = 6
+   C-NUM-OF-UNITS   = 5
+   C-C-CAPACITY     = 30
+   ..
+
+
+$ ---------------------------------------------------------
+$              Boilers
+$ ---------------------------------------------------------
+
+"Caldera" = BOILER          
+   TYPE             = HW-BOILER-W/DRAFT
+   HW-LOOP          = "Circuito agua caliente"
+   HW-PUMP          = "Bomba CAC"
+   C-THERM-EFF-MAX  = 0.75
+   C-C-CAPACITY     = 20
+   C-C-SUBTYPE      = 4
+   ..
+
+
+$ ---------------------------------------------------------
+$              Domestic Water Heaters
+$ ---------------------------------------------------------
+
+"Caldera ACS" = DW-HEATER       
+   TYPE             = GAS
+   TANK-VOLUME      = 60
+   HIR-FPLR         = "Cald-HIR-Biomasa-FPLR"
+   TANK-UA          = 0.5
+   FUEL-METER       = "Biomasa"
+   DHW-LOOP         = "Circuito ACS"
+   HP-SUPP-CAPACITY = 1
+   C-CATEGORY       = 1
+   C-C-CAPACITY     = 20
+   ..
+
+
+$ ---------------------------------------------------------
+$              Heat Rejection
+$ ---------------------------------------------------------
+
+"Torre de enfriamiento" = HEAT-REJECTION  
+   TYPE             = OPEN-TWR
+   FAN-KW/CELL      = 0.5
+   DESIGN-APPROACH  = 5
+   DESIGN-WETBULB   = 25
+   CW-LOOP          = "Circuito Agua Condensacion"
+   C-C-CAPACITY     = 55
+   C-C-CAPAC-CTRL   = 3
+   ..
+
+
+$ ---------------------------------------------------------
+$              Tower Free Cooling
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Electric Generators
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Thermal Storage
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Ground Loop Heat Exchangers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Compliance DHW (residential dwelling units)
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **            Steam & Chilled Water Meters             **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Steam Meters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Chilled Water Meters
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **               HVAC Systems / Zones                  **
+$ **                                                     **
+$ *********************************************************
+
+"FC_P01_E01" = SYSTEM          
+   TYPE             = FC
+   FAN-SCHEDULE     = "UsoEspacio-8h_eq"
+   CHW-LOOP         = "Circuito agua fria"
+   ZONE-HW-LOOP     = "Circuito agua caliente"
+   C-C-COOL-CAP     = 15
+   C-C-COOL-SH-CAP  = 12
+   C-C-HEAT-CAP     = 4
+   C-C-ZONE-H-SOUR  = 2
+   C-C-SUPPLY-FLOW  = 4500
+   ..
+"Z_P01_E01" = ZONE            
+   TYPE             = CONDITIONED
+   SPACE            = "P01_E01"
+   C-C-OA-FLOW/PER  = 45
+   ..
+"FC_P01_E02" = SYSTEM          
+   TYPE             = FC
+   FAN-SCHEDULE     = "UsoEspacio-8h_eq"
+   CHW-LOOP         = "Circuito agua fria"
+   ZONE-HW-LOOP     = "Circuito agua caliente"
+   C-C-COOL-CAP     = 15
+   C-C-COOL-SH-CAP  = 12
+   C-C-HEAT-CAP     = 4
+   C-C-ZONE-H-SOUR  = 2
+   C-C-SUPPLY-FLOW  = 4500
+   ..
+"Z_P01_E02" = ZONE            
+   TYPE             = CONDITIONED
+   SPACE            = "P01_E02"
+   C-C-OA-FLOW/PER  = 45
+   ..
+"FC_P01_E03" = SYSTEM          
+   TYPE             = FC
+   FAN-SCHEDULE     = "UsoEspacio-8h_eq"
+   CHW-LOOP         = "Circuito agua fria"
+   ZONE-HW-LOOP     = "Circuito agua caliente"
+   C-C-COOL-CAP     = 15
+   C-C-COOL-SH-CAP  = 10
+   C-C-HEAT-CAP     = 4
+   C-C-ZONE-H-SOUR  = 2
+   C-C-SUPPLY-FLOW  = 4500
+   ..
+"Z_P01_E03" = ZONE            
+   TYPE             = CONDITIONED
+   SPACE            = "P01_E03"
+   C-C-OA-FLOW/PER  = 45
+   ..
+"FC_P01_E04" = SYSTEM          
+   TYPE             = FC
+   FAN-SCHEDULE     = "UsoEspacio-8h_eq"
+   CHW-LOOP         = "Circuito agua fria"
+   ZONE-HW-LOOP     = "Circuito agua caliente"
+   C-C-COOL-CAP     = 15
+   C-C-COOL-SH-CAP  = 12
+   C-C-HEAT-CAP     = 4
+   C-C-ZONE-H-SOUR  = 2
+   C-C-SUPPLY-FLOW  = 4500
+   ..
+"Z_P01_E04" = ZONE            
+   TYPE             = CONDITIONED
+   SPACE            = "P01_E04"
+   C-C-OA-FLOW/PER  = 45
+   ..
+"FC_P01_E05" = SYSTEM          
+   TYPE             = FC
+   FAN-SCHEDULE     = "UsoEspacio-8h_eq"
+   CHW-LOOP         = "Circuito agua fria"
+   ZONE-HW-LOOP     = "Circuito agua caliente"
+   C-C-COOL-CAP     = 15
+   C-C-COOL-SH-CAP  = 12
+   C-C-HEAT-CAP     = 4
+   C-C-ZONE-H-SOUR  = 2
+   C-C-SUPPLY-FLOW  = 4500
+   ..
+"Z_P01_E05" = ZONE            
+   TYPE             = CONDITIONED
+   SPACE            = "P01_E05"
+   C-C-OA-FLOW/PER  = 45
+   ..
+
+
+$ *********************************************************
+$ **                                                     **
+$ **                Metering & Misc HVAC                 **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Equipment Controls
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Load Management
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **                    Utility Rates                    **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Ratchets
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Block Charges
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Utility Rates
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **                 Output Reporting                    **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Loads Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+LOADS-REPORT    
+   HOURLY-DATA-SAVE = FORMATTED
+   ..
+
+
+$ ---------------------------------------------------------
+$              Systems Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+SYSTEMS-REPORT  
+   HOURLY-DATA-SAVE = FORMATTED
+   ..
+
+
+$ ---------------------------------------------------------
+$              Plant Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+PLANT-REPORT    
+   HOURLY-DATA-SAVE = FORMATTED
+   ..
+
+
+$ ---------------------------------------------------------
+$              Economics Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Hourly Reporting
+$ ---------------------------------------------------------
+
+
+
+
+$ ---------------------------------------------------------
+$              THE END
+$ ---------------------------------------------------------
+
+END ..
+COMPUTE ..
+STOP ..
+STOP ..

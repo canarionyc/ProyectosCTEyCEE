@@ -1,0 +1,65 @@
+INPUT BDL INPUT-UNITS=METRIC OUTPUT-UNITS=METRIC ..
+
+
+$ ---------------------------------------------------------
+$              Abort, Diagnostics
+$ ---------------------------------------------------------
+
+
+
+
+$ ---------------------------------------------------------
+$              Global Parameters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Title, Run Periods, Design Days, Holidays
+$ ---------------------------------------------------------
+
+
+"Periodo Simulación" = RUN-PERIOD-PD
+   ..
+
+
+
+
+$ ---------------------------------------------------------
+$              Compliance Data
+$ ---------------------------------------------------------
+
+"Datos generales" = COMPLIANCE      
+   C-PROJ-NAME      = *Oficinas_CALENERGT*
+   C-PROJ-ADDRESS   = **
+   C-DOCU-AUTHOR    = *-*
+   C-DOCU-AUTHOR-PH = *-*
+   C-NR-DHW-INCL    = 60
+   C-CODE-VERSION   = 348
+   C-C-AUTOR-PROY   = *-*
+   C-C-AUTOR-E-MAIL = *-*
+   C-C-EL-COEF-CO2  = 1
+   C-C-PORC-AUTOG   = 1
+   C-C-EL-COSTE     = 0
+   ..
+
+
+$ ---------------------------------------------------------
+$              Site and Building Data
+$ ---------------------------------------------------------
+
+"Localización" = SITE-PARAMETERS 
+   C-REGION         = 5
+   C-LOCATION       = 15
+   C-CLIMATE-ZONE   = 15
+   ..
+
+"Datos Edificio" = BUILD-PARAMETERS
+   AZIMUTH          = 0
+   X-REF            = 0
+   Y-REF            = 0
+   ..
+
+
+
+$ ---------------------------------------------------------

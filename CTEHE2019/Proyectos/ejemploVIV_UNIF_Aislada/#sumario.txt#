@@ -1,0 +1,225 @@
+
+GESTOR DE CAPACIDADES ADICIONALES GENERICAS DE LA HERRAMIENTA UNIFICADA LIDER - CALENER
+
+Ahora debe usar un programa EXTERNO de caracterización del fenómeno que desea estudiar
+Posteriormente, debe volver a este punto y seguir, opcionalmente, con la importación y
+cálculo del efecto sobre las demandas.
+
+El programa le ofrece la siguiente información para facilitarle el proceso:
+
+Nombre caso                   = ejemploviv_unif_aislada
+Nombre fichero meteorológico  = zonaC1.bin
+Carpeta datos del caso        = C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemploviv_unif_aislada
+Carpeta datos auxiliares      = C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemploviv_unif_aislada\Datos_CA_GEN
+Carpeta datos meteorológicos  = C:\ProgramasCTEyCEE\DatosClimaticos\GENERICOS
+Carpeta datos de librería     = C:\ProgramasCTEyCEE\CTEHE2019\Libreria
+
+
+ESPACIO: P01_E01
+
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E01_PE001
+      Nombre archivo inicial      = P01_E01_PE001_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E01_PE001_CA_GEN_MCF.CSV
+    Nombre de Ventana:P01_E01_PE001_V1
+      Nombre archivo inicial    = P01_E01_PE001_V1_CA_GEN_ICF.CSV
+      Nombre archivo modificado = P01_E01_PE001_V1_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E01_PE002
+      Nombre archivo inicial      = P01_E01_PE002_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E01_PE002_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E01_PE003
+      Nombre archivo inicial      = P01_E01_PE003_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E01_PE003_CA_GEN_MCF.CSV
+    Nombre de Ventana:P01_E01_PE003_V1
+      Nombre archivo inicial    = P01_E01_PE003_V1_CA_GEN_ICF.CSV
+      Nombre archivo modificado = P01_E01_PE003_V1_CA_GEN_MCF.CSV
+
+  En este espacio se han identificado Capacidades Adicionales de tipo Zona o Multizona: 
+
+  Se proporcionan los nombres de los archivos de condiciones iniciales y modificadas. 
+  Su programa debe generar los archivos de condiciones modificadas. 
+
+    Nombre archivo inicial                  = P01_E01_CA_GEN_ICF.CSV
+    Nombre archivo modificado               = P01_E01_CA_GEN_MCF.CSV
+    Nombre archivo modificado incremental   = P01_E01_CA_GEN_MICF.CSV
+
+    Si su programa calcula los caudales de aire entre zonas, debe suministrar el caudal
+    de aire desde los espacios que se indican en los archivos siguientes:
+    ESPACIO                   ARCHIVO
+    -------                   -------
+    EXTERIOR                  P01_E01-EXTERIOR_CA_GEN_Caudales.CSV
+    EXTERIOR                  P01_E01-EXTERIOR_CA_GEN_Temperaturas.CSV
+    P01_E02                   P01_E01-P01_E02_CA_GEN_Caudales.CSV
+
+  Resto de datos del espacio: 
+
+    Dispone de las excitaciones sobre los elementos exteriores del espacio en los archivos siguientes:
+    ELEMENTO                  ARCHIVO
+    -------                   -------
+    P01_E01_PE001             P01_E01_PE001_CA_GEN_ICF.CSV
+    P01_E01_PE001_V1          P01_E01_PE001_V1_CA_GEN_ICF.CSV
+    P01_E01_PE002             P01_E01_PE002_CA_GEN_ICF.CSV
+    P01_E01_PE003             P01_E01_PE003_CA_GEN_ICF.CSV
+    P01_E01_PE003_V1          P01_E01_PE003_V1_CA_GEN_ICF.CSV
+
+
+ESPACIO: P01_E02
+
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE001
+      Nombre archivo inicial      = P01_E02_PE001_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE001_CA_GEN_MCF.CSV
+    Nombre de Ventana:P01_E02_PE001_V1
+      Nombre archivo inicial    = P01_E02_PE001_V1_CA_GEN_ICF.CSV
+      Nombre archivo modificado = P01_E02_PE001_V1_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE002
+      Nombre archivo inicial      = P01_E02_PE002_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE002_CA_GEN_MCF.CSV
+    Nombre de Ventana:P01_E02_PE002_V1
+      Nombre archivo inicial    = P01_E02_PE002_V1_CA_GEN_ICF.CSV
+      Nombre archivo modificado = P01_E02_PE002_V1_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE003
+      Nombre archivo inicial      = P01_E02_PE003_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE003_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE004
+      Nombre archivo inicial      = P01_E02_PE004_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE004_CA_GEN_MCF.CSV
+    Nombre de Ventana:P01_E02_PE004_V2
+      Nombre archivo inicial    = P01_E02_PE004_V2_CA_GEN_ICF.CSV
+      Nombre archivo modificado = P01_E02_PE004_V2_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE005
+      Nombre archivo inicial      = P01_E02_PE005_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE005_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE006
+      Nombre archivo inicial      = P01_E02_PE006_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE006_CA_GEN_MCF.CSV
+    Nombre de Ventana:P01_E02_PE006_V1
+      Nombre archivo inicial    = P01_E02_PE006_V1_CA_GEN_ICF.CSV
+      Nombre archivo modificado = P01_E02_PE006_V1_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE007
+      Nombre archivo inicial      = P01_E02_PE007_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE007_CA_GEN_MCF.CSV
+
+  Se han identificado los siguientes Elementos de la Envolvente con Capacidades Adicionales: 
+
+  Se proporcionan los nombres de los archivos de excitaciones iniciales y modificadas. 
+  Su programa debe generar los archivos de excitaciones modificadas. 
+
+    Nombre de Muro:P01_E02_PE008
+      Nombre archivo inicial      = P01_E02_PE008_CA_GEN_ICF.CSV
+      Nombre archivo modificado   = P01_E02_PE008_CA_GEN_MCF.CSV
+    Nombre de Ventana:P01_E02_PE008_V1
+      Nombre archivo inicial    = P01_E02_PE008_V1_CA_GEN_ICF.CSV
+      Nombre archivo modificado = P01_E02_PE008_V1_CA_GEN_MCF.CSV
+
+  En este espacio se han identificado Capacidades Adicionales de tipo Zona o Multizona: 
+
+  Se proporcionan los nombres de los archivos de condiciones iniciales y modificadas. 
+  Su programa debe generar los archivos de condiciones modificadas. 
+
+    Nombre archivo inicial                  = P01_E02_CA_GEN_ICF.CSV
+    Nombre archivo modificado               = P01_E02_CA_GEN_MCF.CSV
+    Nombre archivo modificado incremental   = P01_E02_CA_GEN_MICF.CSV
+
+    Si su programa calcula los caudales de aire entre zonas, debe suministrar el caudal
+    de aire desde los espacios que se indican en los archivos siguientes:
+    ESPACIO                   ARCHIVO
+    -------                   -------
+    EXTERIOR                  P01_E02-EXTERIOR_CA_GEN_Caudales.CSV
+    EXTERIOR                  P01_E02-EXTERIOR_CA_GEN_Temperaturas.CSV
+    P01_E01                   P01_E02-P01_E01_CA_GEN_Caudales.CSV
+
+  Resto de datos del espacio: 
+
+    Dispone de las excitaciones sobre los elementos exteriores del espacio en los archivos siguientes:
+    ELEMENTO                  ARCHIVO
+    -------                   -------
+    P01_E02_PE001             P01_E02_PE001_CA_GEN_ICF.CSV
+    P01_E02_PE001_V1          P01_E02_PE001_V1_CA_GEN_ICF.CSV
+    P01_E02_PE002             P01_E02_PE002_CA_GEN_ICF.CSV
+    P01_E02_PE002_V1          P01_E02_PE002_V1_CA_GEN_ICF.CSV
+    P01_E02_PE002_V2          P01_E02_PE002_V2_CA_GEN_ICF.CSV
+    P01_E02_PE002_V5          P01_E02_PE002_V5_CA_GEN_ICF.CSV
+    P01_E02_PE002_V6          P01_E02_PE002_V6_CA_GEN_ICF.CSV
+    P01_E02_PE003             P01_E02_PE003_CA_GEN_ICF.CSV
+    P01_E02_PE004             P01_E02_PE004_CA_GEN_ICF.CSV
+    P01_E02_PE004_V2          P01_E02_PE004_V2_CA_GEN_ICF.CSV
+    P01_E02_PE005             P01_E02_PE005_CA_GEN_ICF.CSV
+    P01_E02_PE006             P01_E02_PE006_CA_GEN_ICF.CSV
+    P01_E02_PE006_V1          P01_E02_PE006_V1_CA_GEN_ICF.CSV
+    P01_E02_PE007             P01_E02_PE007_CA_GEN_ICF.CSV
+    P01_E02_PE008             P01_E02_PE008_CA_GEN_ICF.CSV
+    P01_E02_PE008_V1          P01_E02_PE008_V1_CA_GEN_ICF.CSV
+
+
+ESPACIO: P02_E01
+
+
+
+ESPACIO: P03_E01
+
+
+
+ESPACIO: P03_E02
+
+
+
+ESPACIO: P03_E03
