@@ -1,0 +1,5 @@
+CALDERA,CALDERA,CALDERA
+SIS2_EQ1_EQ_Caldera-Biomasa-Defecto,SIS2_EQ1_EQ_Caldera-Biomasa-Defecto,SIS2_EQ1_EQ_Caldera-Biomasa-Defecto
+ConsumoACS,ConsumoCAL,Energía Suministrada
+Consumo horario en W asociado a ACS (prorrateando con la demanda),Consumo horario en W asociado a la calefacción (prorrateando con la demanda),Energía Suministrada en W
+Biomasa no densificada,Biomasa no densificada,Biomasa no densificada
