@@ -1082,8 +1082,8 @@ $          TYPE-OPER = "Acondicionado"
             POLYGON           = "P01_E01_Pol2"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
-            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_3"
-            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_3"
+            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
+            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_1"
             FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
@@ -1097,44 +1097,44 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-REF  = 10.000000
             ..
             "P01_E01_PCT001" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V1  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_PCT002" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V2  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_PCT003" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V3  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_PCT004" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V4  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_FTER001" = UNDERGROUND-WALL
                   Z-GROUND      =      -1.000001
@@ -1476,8 +1476,8 @@ $ +---------------------------+
 $ | CONDICIONES OPERACIONALES |
 $ +---------------------------+
 $
-"NIVEL_ESTANQUEIDAD_3" = SPACE-CONDITIONS
-    NAME               = "NIVEL_ESTANQUEIDAD_3"
+"NIVEL_ESTANQUEIDAD_1" = SPACE-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_1"
     TEMPERATURE        = 22.5
     PEOPLE-SCHEDULE    = "Anual-No-Habitable"
     PEOPLE-HG-LAT      =              0
@@ -1497,13 +1497,13 @@ $
     FURN-WEIGHT           =              0
     FRACCION-SOLAR-SUELO  =              0
     INF-SCHEDULE          = "Anual-No-habitable-Inf"
-    INF-FLOW/AREA         =              1
+    INF-FLOW/AREA         =              0
     INF-METHOD            = AIR-CHANGE
     PEAK-LOAD-TYPE        = CONDITIONED
     MET-LEVEL           = 1
       ..
-"NIVEL_ESTANQUEIDAD_3" = SYSTEM-CONDITIONS
-    NAME               = "NIVEL_ESTANQUEIDAD_3"
+"NIVEL_ESTANQUEIDAD_1" = SYSTEM-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_1"
     ZONAL-ZONE-METHOD  = FULLY-MIXED
     HEAT-TEMP-SCH      = "Horario-Calefaccion"
     COOL-TEMP-SCH      = "Horario-Refrigeracion"
@@ -1561,53 +1561,6 @@ $
     COOLING-SCHEDULE   = "Funcionam-Residencia"
     FLOW/AREA          = 0
     FAN-SCHEDULE       = "Funcionam-Residencia"
-    SEASON-SCH         = "SSHA"
-    SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
-    OUTSIDE-AIR-FLOW   = 0
-    RECOV-TEMP         = 0
-    RECOV-KW           = 0
-    RECOV-EFF          = 0
-    THROTTLING-RANGE   = 0
-    OA-CONTROL         = TEMP
-            ..
-"NIVEL_ESTANQUEIDAD_1" = SPACE-CONDITIONS
-    NAME               = "NIVEL_ESTANQUEIDAD_1"
-    TEMPERATURE        = 22.5
-    PEOPLE-SCHEDULE    = "Anual-No-Habitable"
-    PEOPLE-HG-LAT      =              0
-    PEOPLE-HG-SENS     =              0
-    PEOPLE-SPLIT-CR    = 0
-    LIGHTING-SCHEDULE  = "Anual-No-Habitable"
-    AREA/PERSON        =              0
-    LIGHTING-TYPE      = SUS-FLUOR
-    LIGHTING-W/AREA    =              0
-    LIGHTING-SPLIT-CR =             0.5
-    EQUIP-SCHEDULE        = "Anual-No-Habitable"
-    EQUIP-SENSIBLE        =             90
-    EQUIP-LATENT          =             10
-    EQUIPMENT-SPLIT-CR    =              0
-    EQUIPMENT-W/AREA      =              0
-    FURN-FRACTION         =              0
-    FURN-WEIGHT           =              0
-    FRACCION-SOLAR-SUELO  =              0
-    INF-SCHEDULE          = "Anual-No-habitable-Inf"
-    INF-FLOW/AREA         =              0
-    INF-METHOD            = AIR-CHANGE
-    PEAK-LOAD-TYPE        = CONDITIONED
-    MET-LEVEL           = 1
-      ..
-"NIVEL_ESTANQUEIDAD_1" = SYSTEM-CONDITIONS
-    NAME               = "NIVEL_ESTANQUEIDAD_1"
-    ZONAL-ZONE-METHOD  = FULLY-MIXED
-    HEAT-TEMP-SCH      = "Horario-Calefaccion"
-    COOL-TEMP-SCH      = "Horario-Refrigeracion"
-    TYPE               = UNHABITED
-    MAX-HEAT-RATE      = 0
-    MAX-COOL-RATE      = 0
-    HEATING-SCHEDULE   = "Anual-No-habitable-Func"
-    COOLING-SCHEDULE   = "Anual-No-habitable-Func"
-    FLOW/AREA          = 0
-    FAN-SCHEDULE       = "Anual-No-habitable-Func"
     SEASON-SCH         = "SSHA"
     SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
     OUTSIDE-AIR-FLOW   = 0

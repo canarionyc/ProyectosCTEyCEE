@@ -115,12 +115,12 @@
 		<recEFC>0.000</recEFC>
 		<cambios>NO</cambios>
 		<cambioscalener>NO</cambioscalener>
-		<RED1>RED1    <precioEnergia>0.0</precioEnergia>
+		<RED1>RED1  <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
 		</RED1>
-		<RED2>RED2    <precioEnergia>0.0</precioEnergia>
+		<RED2>RED2  <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
@@ -471,6 +471,168 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  NO
     OBSOLETE      = NO
     ..
+"Material_Base" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =          0.075
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =              1
+    DENSITY           =           3000
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             10
+    NAME          = "Material_Base"
+    GROUP         = "Otro"
+    IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2019\Imagenes\Ladrillo.bmp"
+    NAME_CALENER   = ""
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"Teja cerámica-porcelana" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.02
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =            1.3
+    DENSITY           =           2300
+    SPECIFIC-HEAT     =            840
+    VAPOUR-DIFFUSIVITY-FACTOR =             30
+    NAME          = "Teja cerámica-porcelana"
+    GROUP         = "Cerámicos"
+    IMAGE          = "arcilla.bmp"
+    NAME_CALENER   = "Teja cerámica-porcelana"
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 250 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.25
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.1760563
+    DENSITY           =            710
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 250 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 250 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.3
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =            0.2
+    DENSITY           =            670
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 300 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 30 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.35
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.2229299
+    DENSITY           =            640
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 350 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 35 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.3
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.3571429
+    DENSITY           =           1330
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 300 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 300 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.35
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4022988
+    DENSITY           =           1310
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 350 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 350 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 400 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.4
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4395604
+    DENSITY           =           1290
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 400 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 400 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 450 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.45
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4787234
+    DENSITY           =           1280
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 450 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 450 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
 $ ++++++++++++++++++++++++++++++
 $         CERRAMIENTOS
 $ ++++++++++++++++++++++++++++++
@@ -699,6 +861,33 @@ $ ++++++++++++++++++++++++++++++
       FRAME-WIDTH   =            0.1
       FRAME-CONDUCT =            5.6
       FRAME-ABS     =            0.9
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Met - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            5.7
+      FRAME-ABS     =            0.4
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Mrpt - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            3.2
+      FRAME-ABS     =            0.4
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Mpvc o mad - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            2.2
+      FRAME-ABS     =            0.4
       NAME_CALENER  = ""
                 LIBRARY       = NO
     UTIL          =  NO
@@ -1244,44 +1433,44 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-REF  = 10.000000
             ..
             "P01_E01_PCT001" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V1  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_PCT002" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V2  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_PCT003" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V3  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_PCT004" = UNDERGROUND-WALL
-                  Z-GROUND      =              0
+                  Z-GROUND      =             -1
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO CAM SANIT"  
                   LOCATION      = SPACE-V4  
                         ..
-                  "MURO EXTERIOR" =  CONSTRUCTION
+                  "MURO CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
+                        LAYERS = "MURO CAM SANIT" 
                         ..
             "P01_E01_FTER001" = UNDERGROUND-WALL
                   Z-GROUND      =      -1.000001
@@ -1604,7 +1793,7 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 0
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
                   Z             =              4
@@ -1612,9 +1801,9 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =       41.18592
                   POLYGON       = "P03_E02C001_Poligono1"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
             "P03_E02C002" = ROOF
                   ABSORPTANCE   =            0.6
@@ -1622,7 +1811,7 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
                   Z             =              4
@@ -1630,9 +1819,9 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =       41.18592
                   POLYGON       = "P03_E02C002_Poligono2"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
             "P03_E02C003" = ROOF
                   ABSORPTANCE   =            0.6
@@ -1640,7 +1829,7 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
                   Z             =              4
@@ -1648,9 +1837,9 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =       41.18592
                   POLYGON       = "P03_E02C003_Poligono3"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
             "P03_E02C004" = ROOF
                   ABSORPTANCE   =            0.6
@@ -1658,7 +1847,7 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 0
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
                   Z             =              4
@@ -1666,9 +1855,9 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =       41.18592
                   POLYGON       = "P03_E02C004_Poligono4"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
 $
 $ +---------------------------+
@@ -2774,21 +2963,54 @@ $ +-----------------------------------------------------------------+
 	<Definicion_Sistema>
 		<elementos>
 			<FactoresDeCorreccion>
-				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
+					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>cap_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
+					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
+					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
-					<exponentes>"0;1;2;3"</exponentes>
+					<coeficientes>"0.7159;0.2841"</coeficientes>
+					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
+					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_T</tipoPropiedad>
+					<tipoPropiedad>capTotRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -2796,8 +3018,19 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
+					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0;1"</coeficientes>
+					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 				<CurvaComportamiento nombre="capSenRef_T-EQ_ED_AireAire_SF-Defecto">
 					<nombre_usuario>capSenRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
@@ -2816,21 +3049,10 @@ $ +-----------------------------------------------------------------+
 					<coeficientes>"0.500602;-0.0464383;-0.000324724;0.0699578;-3.42756e-05;-0.0132021;7.93065e-05"</coeficientes>
 					<exponentes>"0;0;0;1;0;0;2;0;0;0;1;0;0;2;0;0;0;1;0;0;2"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0;1"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_T</tipoPropiedad>
+					<tipoPropiedad>conRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -2838,52 +3060,19 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
+					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
-					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
+				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>conRef_FCP</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
-					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.7159;0.2841"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
-					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
-					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>cap_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
+					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
+					<exponentes>"0;1;2;3"</exponentes>
 				</CurvaComportamiento>
 			</FactoresDeCorreccion>
 			<Sistemas>
