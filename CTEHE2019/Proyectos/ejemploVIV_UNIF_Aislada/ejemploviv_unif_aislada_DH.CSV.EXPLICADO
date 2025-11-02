@@ -1,0 +1,5 @@
+CALDERA,CALDERA,CALDERA,AUTONOMOSF,AUTONOMOSF,AUTONOMOSF,AUTONOMOSF,AUTONOMOSF,AUTONOMOSF
+SIS2_EQ2_EQ_Caldera-Biomasa-Defecto,SIS2_EQ2_EQ_Caldera-Biomasa-Defecto,SIS2_EQ2_EQ_Caldera-Biomasa-Defecto,SIS_EQ1_EQ_ED_AireAire_SF-Defecto,SIS_EQ1_EQ_ED_AireAire_SF-Defecto,SIS1_EQ2_EQ_ED_AireAire_SF-Defecto,SIS1_EQ2_EQ_ED_AireAire_SF-Defecto,SIS3_EQ1_EQ_ED_AireAire_SF-Defecto,SIS3_EQ1_EQ_ED_AireAire_SF-Defecto
+ConsumoACS,ConsumoCAL,Energía Suministrada,conRef,potTotRef,conRef,potTotRef,conRef,potTotRef
+Consumo horario en W asociado a ACS (prorrateando con la demanda),Consumo horario en W asociado a la calefacción (prorrateando con la demanda),Energía Suministrada en W,Consumo horario eléctrico en W para producir refrigeración,Potencia horaria entregada W para refrigeración,Consumo horario eléctrico en W para producir refrigeración,Potencia horaria entregada W para refrigeración,Consumo horario eléctrico en W para producir refrigeración,Potencia horaria entregada W para refrigeración
+Biomasa densificada (pelets),Biomasa densificada (pelets),Biomasa densificada (pelets),Electricidad,Electricidad,Electricidad,Electricidad,Electricidad,Electricidad
