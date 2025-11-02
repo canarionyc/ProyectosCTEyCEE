@@ -261,8 +261,8 @@ CAMBIO-CALENER = NO
    LAMAS-REFLECTIVITY  =              0
    ETAncho  =             20
    ETAlto  =             20
-   RadioEsferas  =           0.25
-   RadioSeleccion  =           0.25
+   RadioEsferas  =            0.1
+   RadioSeleccion  =            0.1
      ..
 $
 $ ----------------------
@@ -875,8 +875,19 @@ $
            Z0   = 4.500000
            X1   = 4.000000
            Y1   = 4.000000
-           Z1   = 9.500000
+           Z1   = 8.500000
            OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea4" = AUX-LINE
+           TYPE = 0
+           X0   = 2.000000
+           Y0   = 2.000000
+           Z0   = 0.000000
+           X1   = 6.000000
+           Y1   = 2.000000
+           Z1   = 0.000000
+           OWNERF = "P01"
            OWNERS = "(null)"
            ..
 $ ------
@@ -918,31 +929,31 @@ $
     V3   =( 8, 8 )
     V4   =( 0, 8 )
     ..
-"P03_E02_Pol5" = POLYGON
+"P03_E01_Pol5" = POLYGON
     V1   =( 0, 0 )
     V2   =( 8, 0 )
     V3   =( 8, 8 )
     V4   =( 0, 8 )
     ..
-"P03_E02C001_Poligono1" = POLYGON
+"P03_E01C001_Poligono1" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -6.403124 )
-    V3   =( 4, -6.403124 )
+    V2   =( -4, -5.656854 )
+    V3   =( 4, -5.656854 )
     ..
-"P03_E02C002_Poligono2" = POLYGON
+"P03_E01C002_Poligono2" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -6.403124 )
-    V3   =( 4, -6.403124 )
+    V2   =( -4, -5.656854 )
+    V3   =( 4, -5.656854 )
     ..
-"P03_E02C003_Poligono3" = POLYGON
+"P03_E01C003_Poligono3" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -6.403124 )
-    V3   =( 4, -6.403124 )
+    V2   =( -4, -5.656854 )
+    V3   =( 4, -5.656854 )
     ..
-"P03_E02C004_Poligono4" = POLYGON
+"P03_E01C005_Poligono4" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -6.403124 )
-    V3   =( 4, -6.403124 )
+    V2   =( -4, -5.656854 )
+    V3   =( 4, -5.656854 )
     ..
 $
 $ +-------------------+
@@ -1288,11 +1299,11 @@ $          TYPE-OPER = "Acondicionado"
       SHAPE         =  POLYGON
       PREVIOUS      =  "P02"
       ..
-    "P03_E02" = SPACE
+    "P03_E01" = SPACE
         nCompleto = "P03_E01"
               HEIGHT        =            0.5
             SHAPE             = POLYGON 
-            POLYGON           = "P03_E02_Pol5"
+            POLYGON           = "P03_E01_Pol5"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
             SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
@@ -1309,7 +1320,7 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E02_PE001" = EXTERIOR-WALL
+            "P03_E01_PE001" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1324,7 +1335,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02_PE002" = EXTERIOR-WALL
+            "P03_E01_PE002" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1339,7 +1350,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02_PE003" = EXTERIOR-WALL
+            "P03_E01_PE003" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1354,7 +1365,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02_PE004" = EXTERIOR-WALL
+            "P03_E01_PE004" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1369,77 +1380,77 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02C001" = ROOF
+            "P03_E01C001" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
-                  Z             =            5.5
+                  Z             =            4.5
                   AZIMUTH       =            180
-                  TILT          =       51.34019
-                  POLYGON       = "P03_E02C001_Poligono1"
+                  TILT          =             45
+                  POLYGON       = "P03_E01C001_Poligono1"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
-            "P03_E02C002" = ROOF
+            "P03_E01C002" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
-                  Z             =            5.5
+                  Z             =            4.5
                   AZIMUTH       =             90
-                  TILT          =       51.34019
-                  POLYGON       = "P03_E02C002_Poligono2"
+                  TILT          =             45
+                  POLYGON       = "P03_E01C002_Poligono2"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
-            "P03_E02C003" = ROOF
+            "P03_E01C003" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
-                  Z             =            5.5
+                  Z             =            4.5
                   AZIMUTH       =              0
-                  TILT          =       51.34019
-                  POLYGON       = "P03_E02C003_Poligono3"
+                  TILT          =             45
+                  POLYGON       = "P03_E01C003_Poligono3"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
-            "P03_E02C004" = ROOF
+            "P03_E01C004" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
+                  TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              4
                   Y             =              4
-                  Z             =            5.5
+                  Z             =            4.5
                   AZIMUTH       =            270
-                  TILT          =       51.34019
-                  POLYGON       = "P03_E02C004_Poligono4"
+                  TILT          =             45
+                  POLYGON       = "P03_E01C005_Poligono4"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
 $
 $ +---------------------------+
