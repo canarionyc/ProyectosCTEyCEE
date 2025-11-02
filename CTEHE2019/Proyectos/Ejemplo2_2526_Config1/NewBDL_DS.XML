@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ESTO2xml nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplo1_2526\newbdl_ds.xml">
-	<Edificio nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplo1_2526\newbdl_ds.xml">
-		<pathLider>"c:\proyectoscteycee\ctehe2019\proyectos\ejemplo1_2526\"</pathLider>
+<ESTO2xml nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\newbdl_ds.xml">
+	<Edificio nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\newbdl_ds.xml">
+		<pathLider>"c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\"</pathLider>
 		<pathMeteo>"c:\programascteycee\datosclimaticos\genericos\"</pathMeteo>
-		<pathSalida>"c:\proyectoscteycee\ctehe2019\proyectos\ejemplo1_2526\"</pathSalida>
+		<pathSalida>"c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\"</pathSalida>
 		<Contenedor nombre="TiposEnergia">
 			<TipoEnergia nombre="RED2">
 				<precioEnergia>0.000</precioEnergia>
@@ -251,6 +251,6 @@
 	</Edificio>
 	<ordenESTO2>simular("albarracín")</ordenESTO2>
 	<ordenESTO2>escribirInforme("NewBDL_DS_OBJ.Res")</ordenESTO2>
-	<ordenESTO2>escribirPostCALENER("c:\proyectoscteycee\ctehe2019\proyectos\ejemplo1_2526\ejemplo1_2526.csv")</ordenESTO2>
-	<ordenESTO2>escribirPostCALENERDH("c:\proyectoscteycee\ctehe2019\proyectos\ejemplo1_2526\ejemplo1_2526.pcxml")</ordenESTO2>
+	<ordenESTO2>escribirPostCALENER("c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\ejemplo2_2526_config1.csv")</ordenESTO2>
+	<ordenESTO2>escribirPostCALENERDH("c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\ejemplo2_2526_config1.pcxml")</ordenESTO2>
 </ESTO2xml>

@@ -134,7 +134,7 @@ $
 $ PROGRAM = LIDER
 $
 $
-CAMBIO = NO
+CAMBIO = SI
 CAMBIO-CALENER = NO
      EEGeneradaAutoconsumida        = "0"
      PANELFOTOVOLTAICOAUTOCONSUMIDO =              0
@@ -846,17 +846,6 @@ $ -----------------
 $ Lineas Auxiliares
 $ -----------------
 $
-"Linea5" = AUX-LINE
-           TYPE = 1
-           X0   = 4.000000
-           Y0   = 4.000000
-           Z0   = 4.000000
-           X1   = 4.000000
-           Y1   = 4.000000
-           Z1   = 8.000000
-           OWNERF = "P01"
-           OWNERS = "(null)"
-           ..
 "Linea1" = AUX-LINE
            TYPE = 1
            X0   = 0.000000
@@ -876,6 +865,17 @@ $
            X1   = 8.000000
            Y1   = 8.000000
            Z1   = 4.500000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea2" = AUX-LINE
+           TYPE = 1
+           X0   = 4.000000
+           Y0   = 4.000000
+           Z0   = 4.500000
+           X1   = 4.000000
+           Y1   = 4.000000
+           Z1   = 8.500000
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
@@ -918,36 +918,11 @@ $
     V3   =( 8, 8 )
     V4   =( 0, 8 )
     ..
-"P03_E02_Pol5" = POLYGON
+"P03_E01_Pol5" = POLYGON
     V1   =( 0, 0 )
     V2   =( 8, 0 )
     V3   =( 8, 8 )
     V4   =( 0, 8 )
-    ..
-"_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
-    ..
-"P03_E02C001_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
-    ..
-"P03_E02C002_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
-    ..
-"P03_E02C003_Poligono3" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
-    ..
-"P03_E02C004_Poligono4" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
     ..
 $
 $ +-------------------+
@@ -1005,8 +980,8 @@ $          TYPE-OPER = "Acondicionado"
             POLYGON           = "P01_E01_Pol2"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
-            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
-            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_1"
+            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_3"
+            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_3"
             FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
@@ -1293,11 +1268,11 @@ $          TYPE-OPER = "Acondicionado"
       SHAPE         =  POLYGON
       PREVIOUS      =  "P02"
       ..
-    "P03_E02" = SPACE
+    "P03_E01" = SPACE
         nCompleto = "P03_E01"
               HEIGHT        =            0.5
             SHAPE             = POLYGON 
-            POLYGON           = "P03_E02_Pol5"
+            POLYGON           = "P03_E01_Pol5"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
             SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
@@ -1314,7 +1289,7 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E02_PE001" = EXTERIOR-WALL
+            "P03_E01_PE001" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1329,7 +1304,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02_PE002" = EXTERIOR-WALL
+            "P03_E01_PE002" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1344,7 +1319,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02_PE003" = EXTERIOR-WALL
+            "P03_E01_PE003" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1359,7 +1334,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02_PE004" = EXTERIOR-WALL
+            "P03_E01_PE004" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1374,85 +1349,13 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              4
-                  Y             =              4
-                  Z             =              4
-                  AZIMUTH       =            180
-                  TILT          =       41.18592
-                  POLYGON       = "P03_E02C001_Poligono1"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
-            "P03_E02C002" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              4
-                  Y             =              4
-                  Z             =              4
-                  AZIMUTH       =             90
-                  TILT          =       41.18592
-                  POLYGON       = "P03_E02C002_Poligono2"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
-            "P03_E02C003" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              4
-                  Y             =              4
-                  Z             =              4
-                  AZIMUTH       =              0
-                  TILT          =       41.18592
-                  POLYGON       = "P03_E02C003_Poligono3"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
-            "P03_E02C004" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              4
-                  Y             =              4
-                  Z             =              4
-                  AZIMUTH       =            270
-                  TILT          =       41.18592
-                  POLYGON       = "P03_E02C004_Poligono4"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
 $
 $ +---------------------------+
 $ | CONDICIONES OPERACIONALES |
 $ +---------------------------+
 $
-"NIVEL_ESTANQUEIDAD_1" = SPACE-CONDITIONS
-    NAME               = "NIVEL_ESTANQUEIDAD_1"
+"NIVEL_ESTANQUEIDAD_3" = SPACE-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_3"
     TEMPERATURE        = 22.5
     PEOPLE-SCHEDULE    = "Anual-No-Habitable"
     PEOPLE-HG-LAT      =              0
@@ -1472,13 +1375,13 @@ $
     FURN-WEIGHT           =              0
     FRACCION-SOLAR-SUELO  =              0
     INF-SCHEDULE          = "Anual-No-habitable-Inf"
-    INF-FLOW/AREA         =              0
+    INF-FLOW/AREA         =              1
     INF-METHOD            = AIR-CHANGE
     PEAK-LOAD-TYPE        = CONDITIONED
     MET-LEVEL           = 1
       ..
-"NIVEL_ESTANQUEIDAD_1" = SYSTEM-CONDITIONS
-    NAME               = "NIVEL_ESTANQUEIDAD_1"
+"NIVEL_ESTANQUEIDAD_3" = SYSTEM-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_3"
     ZONAL-ZONE-METHOD  = FULLY-MIXED
     HEAT-TEMP-SCH      = "Horario-Calefaccion"
     COOL-TEMP-SCH      = "Horario-Refrigeracion"
@@ -1536,6 +1439,53 @@ $
     COOLING-SCHEDULE   = "Funcionam-Residencia"
     FLOW/AREA          = 0
     FAN-SCHEDULE       = "Funcionam-Residencia"
+    SEASON-SCH         = "SSHA"
+    SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
+    OUTSIDE-AIR-FLOW   = 0
+    RECOV-TEMP         = 0
+    RECOV-KW           = 0
+    RECOV-EFF          = 0
+    THROTTLING-RANGE   = 0
+    OA-CONTROL         = TEMP
+            ..
+"NIVEL_ESTANQUEIDAD_1" = SPACE-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_1"
+    TEMPERATURE        = 22.5
+    PEOPLE-SCHEDULE    = "Anual-No-Habitable"
+    PEOPLE-HG-LAT      =              0
+    PEOPLE-HG-SENS     =              0
+    PEOPLE-SPLIT-CR    = 0
+    LIGHTING-SCHEDULE  = "Anual-No-Habitable"
+    AREA/PERSON        =              0
+    LIGHTING-TYPE      = SUS-FLUOR
+    LIGHTING-W/AREA    =              0
+    LIGHTING-SPLIT-CR =             0.5
+    EQUIP-SCHEDULE        = "Anual-No-Habitable"
+    EQUIP-SENSIBLE        =             90
+    EQUIP-LATENT          =             10
+    EQUIPMENT-SPLIT-CR    =              0
+    EQUIPMENT-W/AREA      =              0
+    FURN-FRACTION         =              0
+    FURN-WEIGHT           =              0
+    FRACCION-SOLAR-SUELO  =              0
+    INF-SCHEDULE          = "Anual-No-habitable-Inf"
+    INF-FLOW/AREA         =              0
+    INF-METHOD            = AIR-CHANGE
+    PEAK-LOAD-TYPE        = CONDITIONED
+    MET-LEVEL           = 1
+      ..
+"NIVEL_ESTANQUEIDAD_1" = SYSTEM-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_1"
+    ZONAL-ZONE-METHOD  = FULLY-MIXED
+    HEAT-TEMP-SCH      = "Horario-Calefaccion"
+    COOL-TEMP-SCH      = "Horario-Refrigeracion"
+    TYPE               = UNHABITED
+    MAX-HEAT-RATE      = 0
+    MAX-COOL-RATE      = 0
+    HEATING-SCHEDULE   = "Anual-No-habitable-Func"
+    COOLING-SCHEDULE   = "Anual-No-habitable-Func"
+    FLOW/AREA          = 0
+    FAN-SCHEDULE       = "Anual-No-habitable-Func"
     SEASON-SCH         = "SSHA"
     SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
     OUTSIDE-AIR-FLOW   = 0
@@ -2550,54 +2500,21 @@ $ +-----------------------------------------------------------------+
 	<Definicion_Sistema>
 		<elementos>
 			<FactoresDeCorreccion>
-				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
-					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>cap_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
-					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
-					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.7159;0.2841"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
-					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_T</tipoPropiedad>
+					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
+					<exponentes>"0;1;2;3"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>conRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -2605,19 +2522,8 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
+					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0;1"</coeficientes>
-					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 				<CurvaComportamiento nombre="capSenRef_T-EQ_ED_AireAire_SF-Defecto">
 					<nombre_usuario>capSenRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
@@ -2636,10 +2542,21 @@ $ +-----------------------------------------------------------------+
 					<coeficientes>"0.500602;-0.0464383;-0.000324724;0.0699578;-3.42756e-05;-0.0132021;7.93065e-05"</coeficientes>
 					<exponentes>"0;0;0;1;0;0;2;0;0;0;1;0;0;2;0;0;0;1;0;0;2"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_T</tipoPropiedad>
+					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0;1"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>capTotRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -2647,19 +2564,52 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
+					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
+					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
-					<exponentes>"0;1;2;3"</exponentes>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
+					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.7159;0.2841"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
+					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
+					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>cap_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 			</FactoresDeCorreccion>
 			<Sistemas>
