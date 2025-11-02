@@ -209,7 +209,7 @@ $ ++++++++++++++++++++++++++++++
     IMAGE          = "plastico.bmp"
     NAME_CALENER   = "Poliestireno Expandido [XPS]"
     LIBRARY       = NO
-    UTIL          =  NO
+    UTIL          =  YES
     OBSOLETE      = NO
     ..
 $ ++++++++++++++++++++++++++++++
@@ -732,17 +732,6 @@ $
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
-"Linea4" = AUX-LINE
-           TYPE = 0
-           X0   = 2.000000
-           Y0   = 2.000000
-           Z0   = 0.000000
-           X1   = 6.000000
-           Y1   = 2.000000
-           Z1   = 0.000000
-           OWNERF = "P01"
-           OWNERS = "(null)"
-           ..
 $ ------
 $ Planos
 $ ------
@@ -823,7 +812,7 @@ $          NOMBRE    = "V-Adosada"
            ALTITUDE  = 500.000000
            ISPENINSULAR  = YES
            AZIMUTH   = 0.000000
-$          LOCALIDAD = "Ninguna"
+$          LOCALIDAD = "Albarracín"
 $          FILE_MET  = "C:\ProgramasCTEyCEE\DatosClimaticos\GENERICOS\zonaE1.bin"
 $          ZONE      = "-- Todas --"
            CLASE-HIGROMETRIA  = 3
@@ -984,17 +973,17 @@ $          TYPE-OPER = "Acondicionado"
                         INF-COEF       =              9
                         OVERHANG-A     =              0
                         OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
+                        OVERHANG-W     =              5
+                        OVERHANG-D     =            0.5
+                        OVERHANG-ANGLE =             90
                         LEFT-FIN-A     =              0
                         LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
+                        LEFT-FIN-H     =            2.2
+                        LEFT-FIN-D     =            0.5
                         RIGHT-FIN-A    =              0
                         RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
+                        RIGHT-FIN-H    =            2.2
+                        RIGHT-FIN-D    =            0.5
                         ..
             "P02_E01_PE002" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
@@ -1123,6 +1112,17 @@ $          TYPE-OPER = "Acondicionado"
                   "I_FOR INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_FOR INT" 
+                        ..
+            "P02_E01_FI002" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P03_E01"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "FOR INT AC-NH"  
+                  LOCATION      = TOP  
+                        ..
+                  "FOR INT AC-NH" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "FOR INT AC-NH" 
                         ..
 "P03" = FLOOR
       Z             =               4
@@ -2171,7 +2171,7 @@ $
     TYPE  = "FRACTION"
     GROUP = "Ventilación"
     INDEX = 1
-    VALUES  = ( 17.69, 17.69, 17.69, 17.69, 17.69, 17.69, 17.69, 17.69, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
+    VALUES  = ( 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
     ..
   "HA21_HS0_SS_" = WEEK-SCHEDULE-PD
     TYPE  = FRACTION
