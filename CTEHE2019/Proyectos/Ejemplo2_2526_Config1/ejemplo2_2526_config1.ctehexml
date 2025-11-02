@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2026 (x64) (https://www.altova.com) by Tomas Gonzalez (student) -->
 <CTE-HE-XML>
 	<DatosGenerales>
 		<refCatastral>ninguno</refCatastral>
@@ -23,7 +24,7 @@
 		<vent_p2>25.00</vent_p2>
 		<vent_p3>25.00</vent_p3>
 		<vent_p4>25.00</vent_p4>
-		<nomPro>Ejemplo1_2526_Config1</nomPro>
+		<nomPro>Ejemplo2_2526_Config1</nomPro>
 		<usoPro>viviendas unifamiliares de distintos tipos</usoPro>
 		<usoProOtros/>
 		<comunidadPro>Aragón</comunidadPro>
@@ -157,7 +158,7 @@ CAMBIO-CALENER = NO
      VENTILACION-POR-DEFECTO = "NO"
      VALORES-VENTILACION = ( "14.00", "1.00", "1.00", "2.00" )
      VALORES-PORCENTAJES = ( 25.000000, 25.000000, 25.000000, 25.000000 )
-     NAME-PROJECT        	= "Ejemplo1_2526_Config1"
+     NAME-PROJECT        	= "Ejemplo2_2526_Config1"
      USE-PROJECT         	= "viviendas unifamiliares de distintos tipos"
      USE-PROJECT-OTHER      	= ""
      COMUNITY-PROJECT    	= "Aragón"
@@ -2603,54 +2604,21 @@ $ +-----------------------------------------------------------------+
 	<Definicion_Sistema>
 		<elementos>
 			<FactoresDeCorreccion>
-				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
-					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>cap_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
-					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
-					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.7159;0.2841"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
-					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_T</tipoPropiedad>
+					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
+					<exponentes>"0;1;2;3"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>conRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -2658,19 +2626,8 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
+					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0;1"</coeficientes>
-					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 				<CurvaComportamiento nombre="capSenRef_T-EQ_ED_AireAire_SF-Defecto">
 					<nombre_usuario>capSenRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
@@ -2689,10 +2646,21 @@ $ +-----------------------------------------------------------------+
 					<coeficientes>"0.500602;-0.0464383;-0.000324724;0.0699578;-3.42756e-05;-0.0132021;7.93065e-05"</coeficientes>
 					<exponentes>"0;0;0;1;0;0;2;0;0;0;1;0;0;2;0;0;0;1;0;0;2"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_T</tipoPropiedad>
+					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0;1"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>capTotRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -2700,19 +2668,52 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
+					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
+					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
-					<exponentes>"0;1;2;3"</exponentes>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
+					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.7159;0.2841"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
+					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
+					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>cap_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 			</FactoresDeCorreccion>
 			<Sistemas>
