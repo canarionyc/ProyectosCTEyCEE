@@ -962,22 +962,6 @@ $
     V3   =( 4, 2.5 )
     V4   =( 0, 2.5 )
     ..
-"P03_E02C001_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
-"P03_E04_Poligono3" = POLYGON
-    V1   =( 6, 2 )
-    V2   =( 6, 6 )
-    V3   =( 4, 4 )
-    ..
-"P03_E05_Poligono4" = POLYGON
-    V1   =( 6, 2 )
-    V2   =( 6, 6 )
-    V3   =( 4, 4 )
-    ..
 "P03_E01C002_Poligono2" = POLYGON
     V1   =( 0, 0 )
     V2   =( 4, 0 )
@@ -1016,6 +1000,26 @@ $
     V1   =( 0, 0 )
     V2   =( 4, 0 )
     V3   =( 2, 2.828427 )
+    ..
+"P01_E01C002_Poligono1" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 6, -2.828427 )
+    V3   =( 4, 0 )
+    ..
+"P01_E01C001_Poligono2" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( -2, -2.828427 )
+    V3   =( 6, -2.828427 )
+    ..
+"P01_E01C004_Poligono3" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 6, -2.828427 )
+    V3   =( 4, 0 )
+    ..
+"P01_E01C003_Poligono4" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( -2, -2.828427 )
+    V3   =( 6, -2.828427 )
     ..
 $
 $ +-------------------+
@@ -1138,6 +1142,36 @@ $          TYPE-OPER = "Acondicionado"
                   "I_SOL CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_SOL CAM SANIT" 
+                        ..
+            "P01_E01C001" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              6
+                  Y             =              2
+                  Z             =            7.5
+                  AZIMUTH       =             90
+                  TILT          =             45
+                  POLYGON       = "P01_E01C001_Poligono2"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P01_E01C002" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              6
+                  Y             =              2
+                  Z             =            7.5
+                  AZIMUTH       =             90
+                  TILT          =             45
+                  POLYGON       = "P01_E01C002_Poligono1"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
                         ..
 "P02" = FLOOR
       POLYGON       =  "P02_Poligono1"
@@ -1424,7 +1458,7 @@ $          TYPE-OPER = "Acondicionado"
                   X             =              2
                   Y             =              6
                   Z             =              0
-                  AZIMUTH       =       270.8511
+                  AZIMUTH       =            270
                   TILT          =             90
                   POLYGON       = "P03_E01C004_Poligono1"
                         ..
@@ -1497,10 +1531,10 @@ $          TYPE-OPER = "Acondicionado"
               HEIGHT        =            0.5
             SHAPE             = POLYGON 
             POLYGON           = "P03_E02_Poligono1"
-            TYPE              = CONDITIONED
+            TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
-            SYSTEM-CONDITIONS = "Residencial"
-            SPACE-CONDITIONS  = "Residencial"
+            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
+            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_1"
             FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
@@ -1542,21 +1576,6 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
                         ..
-            "P03_E02C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              8
-                  Y             =              0
-                  Z             =            0.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P03_E02C001_Poligono2"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
             "P03_E02_CUB005" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
@@ -1577,10 +1596,10 @@ $          TYPE-OPER = "Acondicionado"
               HEIGHT        =            0.5
             SHAPE             = POLYGON 
             POLYGON           = "P03_E03_Poligono2"
-            TYPE              = CONDITIONED
+            TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
-            SYSTEM-CONDITIONS = "Residencial"
-            SPACE-CONDITIONS  = "Residencial"
+            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
+            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_1"
             FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
@@ -1625,7 +1644,7 @@ $          TYPE-OPER = "Acondicionado"
             "P03_E03C001" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              8
                   Y             =              8
                   Z             =            0.5
@@ -1633,14 +1652,14 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =             45
                   POLYGON       = "P03_E03C001_Poligono1"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
             "P03_E03C002" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              0
                   Y             =              8
                   Z             =            0.5
@@ -1648,50 +1667,10 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =             45
                   POLYGON       = "P03_E03C002_Poligono1"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
-    "P03_E04" = SPACE
-        nCompleto = "P03_E04"
-              HEIGHT        =            0.5
-            SHAPE             = POLYGON 
-            POLYGON           = "P03_E04_Poligono3"
-            TYPE              = CONDITIONED
-            SPACE-TYPE        = "Residencial"
-            SYSTEM-CONDITIONS = "Residencial"
-            SPACE-CONDITIONS  = "Residencial"
-            FLOOR-WEIGHT      =              0
-            MULTIPLIER        = 1
-            MULTIPLIED        = 0
-            PILLARS-NUMBERS   = 0
-       FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = SI
-           INTERIOR-RADIATION  = FIXED
-           POWER     = 4.4
-           VEEI-OBJ  = 7.000000
-           VEEI-REF  = 10.000000
-            ..
-    "P03_E05" = SPACE
-        nCompleto = "P03_E05"
-              HEIGHT        =            0.5
-            SHAPE             = POLYGON 
-            POLYGON           = "P03_E05_Poligono4"
-            TYPE              = CONDITIONED
-            SPACE-TYPE        = "Residencial"
-            SYSTEM-CONDITIONS = "Residencial"
-            SPACE-CONDITIONS  = "Residencial"
-            FLOOR-WEIGHT      =              0
-            MULTIPLIER        = 1
-            MULTIPLIED        = 0
-            PILLARS-NUMBERS   = 0
-       FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = SI
-           INTERIOR-RADIATION  = FIXED
-           POWER     = 4.4
-           VEEI-OBJ  = 7.000000
-           VEEI-REF  = 10.000000
-            ..
 $
 $ +---------------------------+
 $ | CONDICIONES OPERACIONALES |
@@ -1782,6 +1761,53 @@ $
     COOLING-SCHEDULE   = "Funcionam-Residencia"
     FLOW/AREA          = 0
     FAN-SCHEDULE       = "Funcionam-Residencia"
+    SEASON-SCH         = "SSHA"
+    SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
+    OUTSIDE-AIR-FLOW   = 0
+    RECOV-TEMP         = 0
+    RECOV-KW           = 0
+    RECOV-EFF          = 0
+    THROTTLING-RANGE   = 0
+    OA-CONTROL         = TEMP
+            ..
+"NIVEL_ESTANQUEIDAD_1" = SPACE-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_1"
+    TEMPERATURE        = 22.5
+    PEOPLE-SCHEDULE    = "Anual-No-Habitable"
+    PEOPLE-HG-LAT      =              0
+    PEOPLE-HG-SENS     =              0
+    PEOPLE-SPLIT-CR    = 0
+    LIGHTING-SCHEDULE  = "Anual-No-Habitable"
+    AREA/PERSON        =              0
+    LIGHTING-TYPE      = SUS-FLUOR
+    LIGHTING-W/AREA    =              0
+    LIGHTING-SPLIT-CR =             0.5
+    EQUIP-SCHEDULE        = "Anual-No-Habitable"
+    EQUIP-SENSIBLE        =             90
+    EQUIP-LATENT          =             10
+    EQUIPMENT-SPLIT-CR    =              0
+    EQUIPMENT-W/AREA      =              0
+    FURN-FRACTION         =              0
+    FURN-WEIGHT           =              0
+    FRACCION-SOLAR-SUELO  =              0
+    INF-SCHEDULE          = "Anual-No-habitable-Inf"
+    INF-FLOW/AREA         =              0
+    INF-METHOD            = AIR-CHANGE
+    PEAK-LOAD-TYPE        = CONDITIONED
+    MET-LEVEL           = 1
+      ..
+"NIVEL_ESTANQUEIDAD_1" = SYSTEM-CONDITIONS
+    NAME               = "NIVEL_ESTANQUEIDAD_1"
+    ZONAL-ZONE-METHOD  = FULLY-MIXED
+    HEAT-TEMP-SCH      = "Horario-Calefaccion"
+    COOL-TEMP-SCH      = "Horario-Refrigeracion"
+    TYPE               = UNHABITED
+    MAX-HEAT-RATE      = 0
+    MAX-COOL-RATE      = 0
+    HEATING-SCHEDULE   = "Anual-No-habitable-Func"
+    COOLING-SCHEDULE   = "Anual-No-habitable-Func"
+    FLOW/AREA          = 0
+    FAN-SCHEDULE       = "Anual-No-habitable-Func"
     SEASON-SCH         = "SSHA"
     SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
     OUTSIDE-AIR-FLOW   = 0
@@ -2563,7 +2589,7 @@ $
     TYPE  = "FRACTION"
     GROUP = "Ventilación"
     INDEX = 1
-    VALUES  = ( 17.41, 17.41, 17.41, 17.41, 17.41, 17.41, 17.41, 17.41, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
+    VALUES  = ( 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
     ..
   "HA21_HS0_SS_" = WEEK-SCHEDULE-PD
     TYPE  = FRACTION
