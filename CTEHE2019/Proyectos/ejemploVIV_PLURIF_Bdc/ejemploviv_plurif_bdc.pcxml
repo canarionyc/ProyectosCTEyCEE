@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archivoXmljEner aplicacion="AplicacionPostCALENER" version="1.000">
+	<proyecto id="ejemploviv_plurif_bdc" clase="ProyectoPostCALENER">
+		<entidad id="DatoHorario52" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario53" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario54" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS4_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS4_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario55" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS4_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS4_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario56" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS5_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS5_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario57" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS5_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS5_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario58" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS6_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS6_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario59" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS6_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS6_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario60" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS7_EQ5_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS7_EQ5_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario61" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS7_EQ5_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS7_EQ5_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario62" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS8_EQ6_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS8_EQ6_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario63" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS8_EQ6_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS8_EQ6_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario64" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS9_EQ7_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS9_EQ7_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario65" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS9_EQ7_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS9_EQ7_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario66" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS10_EQ8_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS10_EQ8_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario67" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS10_EQ8_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS10_EQ8_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario68" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS11_EQ10_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS11_EQ10_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario69" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS11_EQ10_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS11_EQ10_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario70" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS12_EQ11_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS12_EQ11_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario71" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS12_EQ11_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS12_EQ11_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario72" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS13_EQ9_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS13_EQ9_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario73" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS13_EQ9_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS13_EQ9_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario74" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS14_EQ12_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS14_EQ12_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario75" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS14_EQ12_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS14_EQ12_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario76" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario77" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario78" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoREF"/>
+			<propString id="nombreComponente" valor="SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoREF"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario79" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="Energía Suministrada"/>
+			<propString id="nombreComponente" valor="SIS15_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="Energía Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario80" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario81" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario82" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoREF"/>
+			<propString id="nombreComponente" valor="SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoREF"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario83" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="Energía Suministrada"/>
+			<propString id="nombreComponente" valor="SIS16_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="Energía Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario84" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario85" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario86" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoREF"/>
+			<propString id="nombreComponente" valor="SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoREF"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario87" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="Energía Suministrada"/>
+			<propString id="nombreComponente" valor="SIS_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="Energía Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario88" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario89" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario90" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoREF"/>
+			<propString id="nombreComponente" valor="SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoREF"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario91" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="Energía Suministrada"/>
+			<propString id="nombreComponente" valor="SIS1_EQ2_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="Energía Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario92" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS16_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS16_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario93" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS16_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS16_EQ1_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario94" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS17_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS17_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario95" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS17_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS17_EQ2_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario96" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS18_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS18_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario97" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS18_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS18_EQ3_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario98" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS19_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS19_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario99" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS19_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS19_EQ4_EQ_ED_AireAire_SF-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario100" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario101" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario102" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoREF"/>
+			<propString id="nombreComponente" valor="SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoREF"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario103" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_plurif_bdc»SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="Energía Suministrada"/>
+			<propString id="nombreComponente" valor="SIS20_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="Energía Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+	</proyecto>
+</archivoXmljEner>

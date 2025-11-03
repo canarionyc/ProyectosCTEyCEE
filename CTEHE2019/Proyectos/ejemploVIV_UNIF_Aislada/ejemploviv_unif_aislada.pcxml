@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archivoXmljEner aplicacion="AplicacionPostCALENER" version="1.000">
 	<proyecto id="ejemploviv_unif_aislada" clase="ProyectoPostCALENER">
-		<entidad id="DatoHorario0" clase="DatoHorario">
+		<entidad id="DatoHorario9" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS2_EQ2_EQ_Caldera-Biomasa-Defecto"/>
 			<propList id="variable" valor="ConsumoACS"/>
 			<propString id="nombreComponente" valor="SIS2_EQ2_EQ_Caldera-Biomasa-Defecto"/>
@@ -9,7 +9,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario1" clase="DatoHorario">
+		<entidad id="DatoHorario10" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS2_EQ2_EQ_Caldera-Biomasa-Defecto"/>
 			<propList id="variable" valor="ConsumoCAL"/>
 			<propString id="nombreComponente" valor="SIS2_EQ2_EQ_Caldera-Biomasa-Defecto"/>
@@ -17,7 +17,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario2" clase="DatoHorario">
+		<entidad id="DatoHorario11" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS2_EQ2_EQ_Caldera-Biomasa-Defecto"/>
 			<propList id="variable" valor="Energía Suministrada"/>
 			<propString id="nombreComponente" valor="SIS2_EQ2_EQ_Caldera-Biomasa-Defecto"/>
@@ -25,7 +25,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario3" clase="DatoHorario">
+		<entidad id="DatoHorario12" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS_EQ1_EQ_ED_AireAire_SF-Defecto"/>
 			<propList id="variable" valor="conRef"/>
 			<propString id="nombreComponente" valor="SIS_EQ1_EQ_ED_AireAire_SF-Defecto"/>
@@ -33,7 +33,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario4" clase="DatoHorario">
+		<entidad id="DatoHorario13" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS_EQ1_EQ_ED_AireAire_SF-Defecto"/>
 			<propList id="variable" valor="potTotRef"/>
 			<propString id="nombreComponente" valor="SIS_EQ1_EQ_ED_AireAire_SF-Defecto"/>
@@ -41,7 +41,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario5" clase="DatoHorario">
+		<entidad id="DatoHorario14" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS1_EQ2_EQ_ED_AireAire_SF-Defecto"/>
 			<propList id="variable" valor="conRef"/>
 			<propString id="nombreComponente" valor="SIS1_EQ2_EQ_ED_AireAire_SF-Defecto"/>
@@ -49,7 +49,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario6" clase="DatoHorario">
+		<entidad id="DatoHorario15" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS1_EQ2_EQ_ED_AireAire_SF-Defecto"/>
 			<propList id="variable" valor="potTotRef"/>
 			<propString id="nombreComponente" valor="SIS1_EQ2_EQ_ED_AireAire_SF-Defecto"/>
@@ -57,7 +57,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario7" clase="DatoHorario">
+		<entidad id="DatoHorario16" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
 			<propList id="variable" valor="conRef"/>
 			<propString id="nombreComponente" valor="SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
@@ -65,7 +65,7 @@
 			<propInt id="idVariable" valor="0"/>
 			<propInt id="idVariableDev" valor="0"/>
 		</entidad>
-		<entidad id="DatoHorario8" clase="DatoHorario">
+		<entidad id="DatoHorario17" clase="DatoHorario">
 			<propRefencia id="componente" valor="ejemploviv_unif_aislada»SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
 			<propList id="variable" valor="potTotRef"/>
 			<propString id="nombreComponente" valor="SIS3_EQ1_EQ_ED_AireAire_SF-Defecto"/>
