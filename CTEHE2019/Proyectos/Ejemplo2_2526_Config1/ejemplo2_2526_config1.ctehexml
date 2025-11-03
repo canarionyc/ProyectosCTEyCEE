@@ -1645,7 +1645,7 @@ $          TYPE-OPER = "Acondicionado"
                   X             =              2
                   Y             =              6
                   Z             =              0
-                  AZIMUTH       =       270.8511
+                  AZIMUTH       =       270.0
                   TILT          =             90
                   POLYGON       = "P03_E01C004_Poligono1"
                         ..
