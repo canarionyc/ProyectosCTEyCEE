@@ -212,15 +212,357 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
     OBSOLETE      = NO
     ..
+"EPS Poliestireno Expandido Examp" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.14
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =         0.0375
+    DENSITY           =           1370
+    SPECIFIC-HEAT     =            800
+    VAPOUR-DIFFUSIVITY-FACTOR =              1
+    NAME          = "EPS Poliestireno Expandido Examp"
+    GROUP         = "Aislantes"
+    IMAGE          = "Ladrillo.bmp"
+    NAME_CALENER   = "PS Poliestireno Expandido Ex"
+    LIBRARY       = NO
+    UTIL          =  YES
+    OBSOLETE      = NO
+    ..
+"Material_Base" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =          0.075
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =              1
+    DENSITY           =           3000
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             10
+    NAME          = "Material_Base"
+    GROUP         = "Otro"
+    IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2019\Imagenes\Ladrillo.bmp"
+    NAME_CALENER   = ""
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"Teja cerámica-porcelana" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.02
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =            1.3
+    DENSITY           =           2300
+    SPECIFIC-HEAT     =            840
+    VAPOUR-DIFFUSIVITY-FACTOR =             30
+    NAME          = "Teja cerámica-porcelana"
+    GROUP         = "Cerámicos"
+    IMAGE          = "arcilla.bmp"
+    NAME_CALENER   = "Teja cerámica-porcelana"
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 250 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.25
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.1760563
+    DENSITY           =            710
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 250 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 250 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.3
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =            0.2
+    DENSITY           =            670
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 300 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 30 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.35
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.2229299
+    DENSITY           =            640
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 350 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 35 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.3
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.3571429
+    DENSITY           =           1330
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 300 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 300 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.35
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4022988
+    DENSITY           =           1310
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 350 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 350 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 400 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.4
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4395604
+    DENSITY           =           1290
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 400 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 400 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 450 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.45
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4787234
+    DENSITY           =           1280
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 450 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 450 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"Material_Base" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =          0.075
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =              1
+    DENSITY           =           3000
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             10
+    NAME          = "Material_Base"
+    GROUP         = "Otro"
+    IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2019\Imagenes\Ladrillo.bmp"
+    NAME_CALENER   = ""
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"Teja cerámica-porcelana" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.02
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =            1.3
+    DENSITY           =           2300
+    SPECIFIC-HEAT     =            840
+    VAPOUR-DIFFUSIVITY-FACTOR =             30
+    NAME          = "Teja cerámica-porcelana"
+    GROUP         = "Cerámicos"
+    IMAGE          = "arcilla.bmp"
+    NAME_CALENER   = "Teja cerámica-porcelana"
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 250 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.25
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.1760563
+    DENSITY           =            710
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 250 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 250 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.3
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =            0.2
+    DENSITY           =            670
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 300 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 30 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FU Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.35
+    THICKNESS_CHANGE         = NO
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.2229299
+    DENSITY           =            640
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 350 mm"
+    GROUP         = "Forjados unidireccionales"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 35 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.3
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.3571429
+    DENSITY           =           1330
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 300 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 300 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.35
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4022988
+    DENSITY           =           1310
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 350 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 350 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 400 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =            0.4
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4395604
+    DENSITY           =           1290
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 400 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 400 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
+"FR Entrevigado de EPS moldeado descolgado -Canto 450 mm" = MATERIAL
+    TYPE              = PROPERTIES
+    THICKNESS         =           0.45
+    THICKNESS_CHANGE         = YES
+    THICKNESS_MAX         =              2
+    THICKNESS_MIN         =          0.001
+    CONDUCTIVITY      =      0.4787234
+    DENSITY           =           1280
+    SPECIFIC-HEAT     =           1000
+    VAPOUR-DIFFUSIVITY-FACTOR =             60
+    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 450 mm"
+    GROUP         = "Forjados reticulares"
+    IMAGE          = "ladrillo.bmp"
+    NAME_CALENER   = "oldeado descolgado -Canto 450 "
+    LIBRARY       = NO
+    UTIL          =  NO
+    OBSOLETE      = NO
+    ..
 $ ++++++++++++++++++++++++++++++
 $         CERRAMIENTOS
 $ ++++++++++++++++++++++++++++++
 "MURO EXTERIOR" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "MURO EXTERIOR"
     TYPE-DEFINITION = 1
-    MATERIAL     = ("Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Poliestireno [PS]","1 pie LP métrico o catalán 80 mm< G < 100 mm","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Cámara de aire sin ventilar vertical 5 cm","Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900")
+    MATERIAL     = ("Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","EPS Poliestireno Expandido Examp","1 pie LP métrico o catalán 40 mm< G < 60 mm","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Cámara de aire sin ventilar vertical 5 cm","Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900")
     THICKNESS = ( 0.030000, 0.140000, 0.240000, 0.010000, 0.050000, 0.015000,          0.015)
     LIBRARY       =  NO
     UTIL          =  YES
@@ -234,15 +576,15 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_MURO EXTERIOR" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
-    MATERIAL     = ("Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900","Cámara de aire sin ventilar vertical 5 cm","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","1 pie LP métrico o catalán 80 mm< G < 100 mm","Poliestireno [PS]","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250")
+    MATERIAL     = ("Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900","Cámara de aire sin ventilar vertical 5 cm","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","1 pie LP métrico o catalán 40 mm< G < 60 mm","EPS Poliestireno Expandido Examp","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250")
     THICKNESS = ( 0.015000, 0.015000, 0.050000, 0.010000, 0.240000, 0.140000,           0.03)
     LIBRARY       =  NO
     UTIL          =  YES
 ..
 "MURO CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "MURO CAM SANIT"
     TYPE-DEFINITION = 1
@@ -260,7 +602,7 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_MURO CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
     MATERIAL     = ("1 pie LP métrico o catalán 40 mm< G < 60 mm","Betún fieltro o lámina")
     THICKNESS = ( 0.240000,          0.009)
@@ -268,7 +610,7 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
 ..
 "TAB INT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "TAB INT"
     TYPE-DEFINITION = 1
@@ -286,7 +628,7 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_TAB INT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
     MATERIAL     = ("Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900","MW Lana mineral [0.04 W/[mK]]","Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900")
     THICKNESS = ( 0.013000, 0.013000, 0.040000, 0.013000,          0.013)
@@ -294,7 +636,7 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
 ..
 "FOR INT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "FOR INT"
     TYPE-DEFINITION = 1
@@ -312,7 +654,7 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_FOR INT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
     MATERIAL     = ("Placa de yeso laminado [PYL] 750 < d < 900","Cámara de aire sin ventilar horizontal 5 cm","FU Entrevigado cerámico -Canto 250 mm","XPS Expandido con dióxido de carbono CO3 [ 0.038 W/[mK]]","Mortero de cemento de difusion","Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600","Plaqueta o baldosa de gres")
     THICKNESS = ( 0.015000, 0.050000, 0.250000, 0.060000, 0.065000, 0.050000,           0.01)
@@ -320,7 +662,7 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
 ..
 "FOR INT AC-NH" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "FOR INT AC-NH"
     TYPE-DEFINITION = 1
@@ -338,7 +680,7 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_FOR INT AC-NH" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
     MATERIAL     = ("Placa de yeso laminado [PYL] 750 < d < 900","Cámara de aire sin ventilar horizontal 5 cm","FU Entrevigado cerámico -Canto 250 mm","Poliestireno Expandido XPS","Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600","Plaqueta o baldosa de gres")
     THICKNESS = ( 0.015000, 0.050000, 0.250000, 0.120000, 0.055000,           0.01)
@@ -346,7 +688,7 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
 ..
 "FOR CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "FOR CAM SANIT"
     TYPE-DEFINITION = 1
@@ -364,7 +706,7 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_FOR CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
     MATERIAL     = ("Cloruro de polivinilo [PVC]","FR Entrevigado de EPS mecanizado enrasado -Canto 300 mm ","Poliestireno Expandido XPS","Mortero de cemento de difusion","Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600","Plaqueta o baldosa de gres")
     THICKNESS = ( 0.005000, 0.300000, 0.100000, 0.060000, 0.025000,           0.01)
@@ -372,7 +714,7 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
 ..
 "SOL CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "SOL CAM SANIT"
     TYPE-DEFINITION = 1
@@ -390,7 +732,7 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_SOL CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
     MATERIAL     = ("Arena y grava [1700 < d < 2200]","Cloruro de polivinilo [PVC]","Hormigón en masa 2000 < d < 2300")
     THICKNESS = ( 0.120000, 0.003000,           0.08)
@@ -398,7 +740,7 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
 ..
 "CUB IN TEJA" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = ""
     NAME-INTERNAL = "CUB IN TEJA"
     TYPE-DEFINITION = 1
@@ -416,7 +758,7 @@ $ ++++++++++++++++++++++++++++++
     AISLANTE-POSITION = Exterior
 ..
 "I_CUB IN TEJA" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "CERR CABANA"
     NAME_CALENER = "I_"
     MATERIAL     = ("Placa de yeso laminado [PYL] 750 < d < 900","FReps250_mec","Betún fieltro o lámina","XPS Expandido con dióxido de carbono CO3 [ 0.038 W/[mK]]","cv_hor_asc","Teja de arcilla cocida")
     THICKNESS = ( 0.015000, 0.250000, 0.010000, 0.160000, 0.050000,          0.015)
@@ -552,6 +894,60 @@ $ ++++++++++++++++++++++++++++++
       FRAME-WIDTH   =            0.1
       FRAME-CONDUCT =            5.6
       FRAME-ABS     =            0.9
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Met - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            5.7
+      FRAME-ABS     =            0.4
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Mrpt - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            3.2
+      FRAME-ABS     =            0.4
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Mpvc o mad - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            2.2
+      FRAME-ABS     =            0.4
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Met - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            5.7
+      FRAME-ABS     =            0.4
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Mrpt - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            3.2
+      FRAME-ABS     =            0.4
+      NAME_CALENER  = ""
+                LIBRARY       = NO
+    UTIL          =  NO
+..
+ "Mpvc o mad - Gris claro" = NAME-FRAME
+      GROUP         = "Marcos"
+      FRAME-WIDTH   =            0.1
+      FRAME-CONDUCT =            2.2
+      FRAME-ABS     =            0.4
       NAME_CALENER  = ""
                 LIBRARY       = NO
     UTIL          =  NO
@@ -809,7 +1205,7 @@ $
     "V-Adosada" = BUILD-PARAMETERS
 $          NOMBRE    = "V-Adosada"
            LATITUDE  = 36.500000
-           ALTITUDE  = 500.000000
+           ALTITUDE  = 1200.000000
            ISPENINSULAR  = YES
            AZIMUTH   = 0.000000
 $          LOCALIDAD = "Albarracín"
@@ -834,7 +1230,7 @@ $          TYPE-OPER = "Acondicionado"
            RA-AISLAMIENTO-PERIMETRAL = 1.000000
            STOP-AFTER-MINIMUM-REQUIREMENTS = "NO"
            LONGITUD-DE-REFERENCIA = 15.000000
-           ALTITUD = 500.000000
+           ALTITUD = 1200.000000
            EXTINFO            = "SI"
            controlAutSombrasMoviles = 0
            ..

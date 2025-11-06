@@ -124,7 +124,7 @@ def write_materials_to_excel(properties_materials, resistance_materials, output_
 
 if __name__ == "__main__":
 
-    input_file = sys.argv[1] if len(sys.argv) > 1 else r'C:\dev\pyCTE\data\Materials_Catalog\BDCatalogo_bdc.txt'
+    input_file = sys.argv[1] if len(sys.argv) > 1 else r'C:\ProgramasCTEyCEE\CTEHE2019\Libreria\BDCatalogo.bdc'
     output_file =  f"{os.path.splitext(input_file)[0]}_results.xlsx"
     
     try:
@@ -134,7 +134,7 @@ if __name__ == "__main__":
         print(f"Found {len(properties_materials)} PROPERTIES materials")
         pprint(properties_materials)
         print(f"Found {len(resistance_materials)} RESISTANCE materials")
-        
+        pprint(resistance_materials)
         print("Writing to Excel file...")
         write_materials_to_excel(properties_materials, resistance_materials, output_file)
         
