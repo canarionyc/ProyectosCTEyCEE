@@ -1,3 +1,3 @@
-Volumen Total Acondicionado: 227.199997
-Ventilación en renovaciones hora: 0.254835
-Ventilación e infiltración en renovaciones hora: 0.572513
+Volumen Total Acondicionado: 228.000000
+Ventilación en renovaciones hora: 3.999412
+Ventilación e infiltración en renovaciones hora: 3.999412
