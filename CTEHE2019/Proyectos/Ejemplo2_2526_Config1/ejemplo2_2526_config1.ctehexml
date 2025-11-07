@@ -9,7 +9,7 @@
 		<provincia>Teruel</provincia>
 		<poblacion>Albarracín</poblacion>
 		<zonaClimatica>E1</zonaClimatica>
-		<altitud>500</altitud>
+		<altitud>1200</altitud>
 		<tipoUso>Residencial</tipoUso>
 		<claseHigrometria>3</claseHigrometria>
 		<numRenovacionesHS3>1</numRenovacionesHS3>
@@ -148,7 +148,7 @@ CAMBIO-CALENER = NO
      CITY                = "Teruel"
      TOWN                = "Albarracín"
      ZONE                = "E1"
-     ALTITUDE            =            500
+     ALTITUDE            =           1200
      ArchivoMetSel       = "C:\ProgramasCTEyCEE\DatosClimaticos\GENERICOS\zonaE1.bin"
      TIPOUSO             = "Residencial"
      CLASEHIGROMETRIA    = "3"
@@ -227,7 +227,7 @@ CAMBIO-CALENER = NO
      ..
  "Defectos" = DEFECTOS
      PEConstruccionV = "MURO EXTERIOR"
-     VTIPO           = "Sur Ejemplo1_2526"
+     VTIPO           = "S_O"
      VX              =              0
      VY              =              0
      VAnchura        =              3
@@ -437,11 +437,11 @@ $ ++++++++++++++++++++++++++++++
     ..
 "Mortero de cemento de difusion" = MATERIAL
     TYPE              = PROPERTIES
-    THICKNESS         =            0.1
+    THICKNESS         =          0.065
     THICKNESS_CHANGE         = YES
     THICKNESS_MAX         =              2
     THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            0.6
+    CONDUCTIVITY      =           0.55
     DENSITY           =           1500
     SPECIFIC-HEAT     =            800
     VAPOUR-DIFFUSIVITY-FACTOR =              1
@@ -475,11 +475,11 @@ $ ++++++++++++++++++++++++++++++
 $         CERRAMIENTOS
 $ ++++++++++++++++++++++++++++++
 "MURO EXTERIOR" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "MURO EXTERIOR"
     TYPE-DEFINITION = 1
-    MATERIAL     = ("Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Poliestireno [PS]","1 pie LP métrico o catalán 80 mm< G < 100 mm","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Cámara de aire sin ventilar vertical 5 cm","Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900")
+    MATERIAL     = ("Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","EPS Poliestireno Expandido [ 0.037 W/[mK]]","1 pie LP métrico o catalán 40 mm< G < 60 mm","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Cámara de aire sin ventilar vertical 5 cm","Placa de yeso laminado [PYL] 750 < d < 900","Placa de yeso laminado [PYL] 750 < d < 900")
     THICKNESS = (           0.03,           0.14,           0.24,           0.01,           0.05,          0.015,          0.015)
     LIBRARY       =  NO
     UTIL          =  YES
@@ -487,7 +487,7 @@ $ ++++++++++++++++++++++++++++++
     DEFAULT = NO
 ..
 "MURO CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "MURO CAM SANIT"
     TYPE-DEFINITION = 1
@@ -499,7 +499,7 @@ $ ++++++++++++++++++++++++++++++
     DEFAULT = NO
 ..
 "TAB INT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "TAB INT"
     TYPE-DEFINITION = 1
@@ -511,11 +511,11 @@ $ ++++++++++++++++++++++++++++++
     DEFAULT = NO
 ..
 "FOR INT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "FOR INT"
     TYPE-DEFINITION = 1
-    MATERIAL     = ("Plaqueta o baldosa de gres","Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600","Mortero de cemento de difusion","XPS Expandido con dióxido de carbono CO3 [ 0.038 W/[mK]]","FU Entrevigado cerámico -Canto 250 mm","Cámara de aire sin ventilar horizontal 5 cm","Placa de yeso laminado [PYL] 750 < d < 900")
+    MATERIAL     = ("Plaqueta o baldosa de gres","Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600","Mortero de cemento de difusion","XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]","FU Entrevigado cerámico -Canto 250 mm","Cámara de aire sin ventilar horizontal 5 cm","Placa de yeso laminado [PYL] 750 < d < 900")
     THICKNESS = (           0.01,           0.05,          0.065,           0.06,           0.25,           0.05,          0.015)
     LIBRARY       =  NO
     UTIL          =  YES
@@ -523,11 +523,11 @@ $ ++++++++++++++++++++++++++++++
     DEFAULT = NO
 ..
 "FOR INT AC-NH" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "FOR INT AC-NH"
     TYPE-DEFINITION = 1
-    MATERIAL     = ("Plaqueta o baldosa de gres","Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600","Poliestireno Expandido XPS","FU Entrevigado cerámico -Canto 250 mm","Cámara de aire sin ventilar horizontal 5 cm","Placa de yeso laminado [PYL] 750 < d < 900")
+    MATERIAL     = ("Plaqueta o baldosa de gres","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Poliestireno Expandido XPS","FU Entrevigado cerámico -Canto 250 mm","Cámara de aire sin ventilar horizontal 5 cm","Placa de yeso laminado [PYL] 750 < d < 900")
     THICKNESS = (           0.01,          0.055,           0.12,           0.25,           0.05,          0.015)
     LIBRARY       =  NO
     UTIL          =  YES
@@ -535,11 +535,11 @@ $ ++++++++++++++++++++++++++++++
     DEFAULT = NO
 ..
 "FOR CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "FOR CAM SANIT"
     TYPE-DEFINITION = 1
-    MATERIAL     = ("Plaqueta o baldosa de gres","Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600","Mortero de cemento de difusion","Poliestireno Expandido XPS","FR Entrevigado de EPS mecanizado enrasado -Canto 300 mm ","Cloruro de polivinilo [PVC]")
+    MATERIAL     = ("Plaqueta o baldosa de gres","Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250","Mortero de cemento de difusion","Poliestireno Expandido XPS","FU Entrevigado de EPS mecanizado enrasado -Canto 300 mm","Cloruro de polivinilo [PVC]")
     THICKNESS = (           0.01,          0.025,           0.06,            0.1,            0.3,          0.005)
     LIBRARY       =  NO
     UTIL          =  YES
@@ -547,7 +547,7 @@ $ ++++++++++++++++++++++++++++++
     DEFAULT = NO
 ..
 "SOL CAM SANIT" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "SOL CAM SANIT"
     TYPE-DEFINITION = 1
@@ -559,11 +559,11 @@ $ ++++++++++++++++++++++++++++++
     DEFAULT = NO
 ..
 "CUB IN TEJA" = LAYERS
-    GROUP        = "zzz"
+    GROUP        = "Ejemplo1_2526"
     NAME_CALENER = ""
     NAME         = "CUB IN TEJA"
     TYPE-DEFINITION = 1
-    MATERIAL     = ("Teja de arcilla cocida","cv_hor_asc","XPS Expandido con dióxido de carbono CO3 [ 0.038 W/[mK]]","Betún fieltro o lámina","FReps250_mec","Placa de yeso laminado [PYL] 750 < d < 900")
+    MATERIAL     = ("Teja de arcilla cocida","cv_hor_asc","XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]","Betún fieltro o lámina","FU Entrevigado de EPS mecanizado enrasado -Canto 250 mm","Placa de yeso laminado [PYL] 750 < d < 900")
     THICKNESS = (          0.015,           0.05,           0.16,           0.01,           0.25,          0.015)
     LIBRARY       =  NO
     UTIL          =  YES
@@ -573,16 +573,6 @@ $ ++++++++++++++++++++++++++++++
 $ ++++++++++++++++++++++++++++++
 $  ACRISTALAMIENTOS - VIDRIOS
 $ ++++++++++++++++++++++++++++++
-"VER_DB3_4-12-331" = GLASS-TYPE
-    GROUP             = "Dobles bajo emisivos <0.03 en posición vertical"
-    TYPE              = SHADING-COEF
-    SHADING-COEF      =      0.7093023
-    GLASS-CONDUCTANCE =            1.6
-    NAME_CALENER      = ""
-    LIBRARY       =  NO
-    UTIL          =  YES
-    CHANGE          =  NO
-    ..
 "Vidrio Sur" = GLASS-TYPE
     GROUP             = "Dobles bajo emisivos <0.03 en posición vertical"
     TYPE              = SHADING-COEF
@@ -590,7 +580,7 @@ $ ++++++++++++++++++++++++++++++
     GLASS-CONDUCTANCE =              1
     NAME_CALENER      = ""
     LIBRARY       =  NO
-    UTIL          =  NO
+    UTIL          =  YES
     ..
 "Vidrio Norte" = GLASS-TYPE
     GROUP             = "Dobles bajo emisivos <0.03 en posición vertical"
@@ -602,28 +592,10 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  YES
     ..
 "Ventanas SO, SE" = GLASS-TYPE
-    GROUP             = "zzz"
+    GROUP             = "Ejemplo1_2526"
     TYPE              = SHADING-COEF
     SHADING-COEF      =      0.4883721
     GLASS-CONDUCTANCE =              1
-    NAME_CALENER      = ""
-    LIBRARY       =  NO
-    UTIL          =  YES
-    ..
-"Ventana Norte" = GLASS-TYPE
-    GROUP             = "zzz"
-    TYPE              = SHADING-COEF
-    SHADING-COEF      =      0.7093023
-    GLASS-CONDUCTANCE =              1
-    NAME_CALENER      = ""
-    LIBRARY       =  NO
-    UTIL          =  NO
-    ..
-"triple glazing South and West" = GLASS-TYPE
-    GROUP             = "zzz"
-    TYPE              = SHADING-COEF
-    SHADING-COEF      =      0.4767442
-    GLASS-CONDUCTANCE =           0.76
     NAME_CALENER      = ""
     LIBRARY       =  NO
     UTIL          =  NO
@@ -685,15 +657,6 @@ $ ++++++++++++++++++++++++++++++
                 LIBRARY       = NO
     UTIL          =  NO
 ..
- "Marco SO" = NAME-FRAME
-      GROUP         = "zzz"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            1.5
-      FRAME-ABS     =            0.3
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
  "VER_Madera dens.media alta Blanc" = NAME-FRAME
       GROUP         = "Otro"
       FRAME-WIDTH   =            0.1
@@ -709,11 +672,11 @@ $ ++++++++++++++++++++++++++++++
 "S_O" = GAP
      NAME           = "S_O"
      TYPE           = 1
-     GROUP          = "Ventanas"
-     GROUP-GLASS         = "zzz"
-     GLASS-TYPE          = "Ventanas SO, SE"
-     GROUP-FRAME       = "zzz"
-     NAME-FRAME        = "Marco SO"
+     GROUP          = "Ejemplo1_2526 Ventanas"
+     GROUP-GLASS         = "Dobles bajo emisivos <0.03 en posición vertical"
+     GLASS-TYPE          = "Vidrio Sur"
+     GROUP-FRAME       = "De PVC en posición vertical"
+     NAME-FRAME        = "VER_PVC Ejemplo1_2526"
      PORCENTAGE        = 25.000000
      INF-COEF          = 9.000000
      porcentajeIncrementoU = 0.000000
@@ -728,14 +691,14 @@ $ ++++++++++++++++++++++++++++++
      MARKER-SUMMER       =              1
      MARKER-WINTER       =              1
      LIBRARY           =  NO
-     UTIL              =  NO
+     UTIL              =  YES
      ISDOOR            = NO
      DEFAULT           = NO
     ..
 "N_E" = GAP
      NAME           = "N_E"
      TYPE           = 1
-     GROUP          = "Ventanas"
+     GROUP          = "Ejemplo1_2526 Ventanas"
      GROUP-GLASS         = "Dobles bajo emisivos <0.03 en posición vertical"
      GLASS-TYPE          = "Vidrio Norte"
      GROUP-FRAME       = "De PVC en posición vertical"
@@ -761,9 +724,9 @@ $ ++++++++++++++++++++++++++++++
 "PTA" = GAP
      NAME           = "PTA"
      TYPE           = 1
-     GROUP          = "Puertas"
+     GROUP          = "Ejemplo1_2526 Puertas"
      GROUP-GLASS         = "Dobles bajo emisivos <0.03 en posición vertical"
-     GLASS-TYPE          = "VER_DB3_4-12-331"
+     GLASS-TYPE          = "Vidrio Norte"
      GROUP-FRAME       = "De Madera en posición vertical"
      NAME-FRAME        = "Marco Puerta"
      PORCENTAGE        = 100.000000
@@ -782,32 +745,6 @@ $ ++++++++++++++++++++++++++++++
      LIBRARY           =  NO
      UTIL              =  YES
      ISDOOR            = YES
-     DEFAULT           = NO
-    ..
-"Sur Ejemplo1_2526" = GAP
-     NAME           = "Sur Ejemplo1_2526"
-     TYPE           = 1
-     GROUP          = "Ventanas"
-     GROUP-GLASS         = "zzz"
-     GLASS-TYPE          = "Ventanas SO, SE"
-     GROUP-FRAME       = "De PVC en posición vertical"
-     NAME-FRAME        = "VER_PVC Ejemplo1_2526"
-     PORCENTAGE        = 25.000000
-     INF-COEF          = 9.000000
-     porcentajeIncrementoU = 10.000000
-     NAME_CALENER      = ""
-     TransmisividadJulio = 0.050000
-    VIGENCIA = ( "A", "B", "C", "D", "E", "F")
-    IMAGE = ""
-     TRANSMITANCIA       =            5.7
-     SHADING-COEF        =           0.86
-     SHADE-COEF-SUMMER   =              1
-     SHADE-COEF-WINTER   =              1
-     MARKER-SUMMER       =              1
-     MARKER-WINTER       =              1
-     LIBRARY           =  NO
-     UTIL              =  YES
-     ISDOOR            = NO
      DEFAULT           = NO
     ..
 $ -------------------------
@@ -1011,6 +948,50 @@ $
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
+"Linea16" = AUX-LINE
+           TYPE = 1
+           X0   = 3.500000
+           Y0   = 0.000000
+           Z0   = 4.500000
+           X1   = 4.500000
+           Y1   = 0.000000
+           Z1   = 4.500000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea17" = AUX-LINE
+           TYPE = 1
+           X0   = 3.500000
+           Y0   = 0.707100
+           Z0   = 5.207100
+           X1   = 4.500000
+           Y1   = 0.710000
+           Z1   = 5.207100
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea18" = AUX-LINE
+           TYPE = 1
+           X0   = 3.500000
+           Y0   = 8.000000
+           Z0   = 4.500000
+           X1   = 4.500000
+           Y1   = 8.000000
+           Z1   = 4.500000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea19" = AUX-LINE
+           TYPE = 1
+           X0   = 4.500000
+           Y0   = 7.290000
+           Z0   = 5.210000
+           X1   = 3.500000
+           Y1   = 7.290000
+           Z1   = 5.210000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
 $ ------
 $ Planos
 $ ------
@@ -1072,32 +1053,6 @@ $
     V3   =( 4, 2.5 )
     V4   =( 0, 2.5 )
     ..
-"P03_E02_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 8, 4 )
-    V4   =( 6, 4 )
-    V5   =( 6, 2 )
-    V6   =( 2, 2 )
-    V7   =( 2, 4 )
-    V8   =( 0, 4 )
-    ..
-"P03_E03_Poligono2" = POLYGON
-    V1   =( 0, 4 )
-    V2   =( 2, 4 )
-    V3   =( 2, 6 )
-    V4   =( 6, 6 )
-    V5   =( 6, 4 )
-    V6   =( 8, 4 )
-    V7   =( 8, 8 )
-    V8   =( 0, 8 )
-    ..
-"P03_E02C001_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
 "P03_E01C001_Poligono1" = POLYGON
     V1   =( 0, 0 )
     V2   =( 4, 0 )
@@ -1120,12 +1075,6 @@ $
     V3   =( 4, 2.5 )
     V4   =( 0, 2.5 )
     ..
-"P03_E03C001_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
 "P03_E01C003_Poligono2" = POLYGON
     V1   =( 0, 0 )
     V2   =( 4, 0 )
@@ -1137,26 +1086,10 @@ $
     V3   =( 4, 2.5 )
     V4   =( 0, 2.5 )
     ..
-"P03_E03C002_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
 "P03_E01C004_Poligono2" = POLYGON
     V1   =( 0, 0 )
     V2   =( 4, 0 )
     V3   =( 2, 2.828427 )
-    ..
-"P01_E01C002_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 6, -2.828427 )
-    V3   =( 4, 0 )
-    ..
-"P01_E01C001_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -2, -2.828427 )
-    V3   =( 6, -2.828427 )
     ..
 "P01_E01C004_Poligono3" = POLYGON
     V1   =( 0, 0 )
@@ -1168,15 +1101,53 @@ $
     V2   =( -2, -2.828427 )
     V3   =( 6, -2.828427 )
     ..
-"P03_E02C002_Poligono1" = POLYGON
+"P03_E02_Poligono1" = POLYGON
     V1   =( 0, 0 )
-    V2   =( 6, -2.828427 )
-    V3   =( 4, 0 )
+    V2   =( 8, 0 )
+    V3   =( 6, 2 )
+    V4   =( 2, 2 )
     ..
-"P03_E02C001_Poligono2" = POLYGON
+"P03_E03_Poligono2" = POLYGON
+    V1   =( 8, 0 )
+    V2   =( 8, 8 )
+    V3   =( 6, 6 )
+    V4   =( 6, 2 )
+    ..
+"P03_E04_Poligono3" = POLYGON
+    V1   =( 8, 8 )
+    V2   =( 0, 8 )
+    V3   =( 2, 6 )
+    V4   =( 6, 6 )
+    ..
+"P03_E05_Poligono4" = POLYGON
+    V1   =( 0, 8 )
+    V2   =( 0, 0 )
+    V3   =( 2, 2 )
+    V4   =( 2, 6 )
+    ..
+"P03_E02C001_Poligono1" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -2, -2.828427 )
-    V3   =( 6, -2.828427 )
+    V2   =( 8, 0 )
+    V3   =( 6, 2.828427 )
+    V4   =( 2, 2.828427 )
+    ..
+"P03_E03C001_Poligono1" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 6, 2.828427 )
+    V4   =( 2, 2.828427 )
+    ..
+"P03_E04C002_Poligono2" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 6, 2.828427 )
+    V4   =( 2, 2.828427 )
+    ..
+"P03_E05C003_Poligono3" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 6, 2.828427 )
+    V4   =( 2, 2.828427 )
     ..
 $
 $ +-------------------+
@@ -1190,7 +1161,7 @@ $
     "V-Adosada" = BUILD-PARAMETERS
 $          NOMBRE    = "V-Adosada"
            LATITUDE  = 36.500000
-           ALTITUDE  = 500.000000
+           ALTITUDE  = 1200.000000
            ISPENINSULAR  = YES
            AZIMUTH   = 0.000000
 $          LOCALIDAD = "Ninguna"
@@ -1207,15 +1178,11 @@ $          TYPE-OPER = "Acondicionado"
            INTERNAL-PARTITIONS = CUSTOM
            TYPE-CASE          = Nuevo
            TYPE-BUILD         = Unifamiliar
-           INF-FLOW  = ( -50.400002, -230.399994 )
-           PERCENTAGE-AIR-CHANGES  = ( 23, 1 )
-           VENTILACION-NOCTURNA = SI 
-           RENOVACIONES-HORA-VERANO-NOCHE = 4.0 
            D-AISLAMIENTO-PERIMETRAL  = 1.000000
            RA-AISLAMIENTO-PERIMETRAL = 1.000000
            STOP-AFTER-MINIMUM-REQUIREMENTS = "NO"
            LONGITUD-DE-REFERENCIA = 15.000000
-           ALTITUD = 500.000000
+           ALTITUD = 1200.000000
            EXTINFO            = "SI"
            controlAutSombrasMoviles = 0
            ..
@@ -1303,34 +1270,10 @@ $          TYPE-OPER = "Acondicionado"
             "P01_E01C001" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
+                  TYPE_ABSORPTANCE    = 0
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
                   CONSTRUCTION  = "TAB INT"  
-                  X             =              6
-                  Y             =              2
-                  Z             =            7.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P01_E01C001_Poligono2"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P01_E01C002" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              6
-                  Y             =              2
-                  Z             =            7.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P01_E01C002_Poligono1"
                         ..
                   "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
@@ -1384,13 +1327,13 @@ $          TYPE-OPER = "Acondicionado"
                         SETBACK        =            0.5
                         HEIGHT         =            2.2
                         WIDTH          =              5
-                        GAP            = "Sur Ejemplo1_2526"
+                        GAP            = "S_O"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
-            transmisividadJulio        = 0.050000
+            transmisividadJulio        = 0.170000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Ventanas SO, SE"
+                        GLASS-TYPE     = "Vidrio Sur"
                         FRAME-WIDTH   =      0.2023455
-                        FRAME-CONDUCT =          2.445
+                        FRAME-CONDUCT =            1.5
                         FRAME-ABS     =            0.3
                         INF-COEF       =              9
                         OVERHANG-A     =              0
@@ -1520,7 +1463,7 @@ $          TYPE-OPER = "Acondicionado"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.050000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "VER_DB3_4-12-331"
+                        GLASS-TYPE     = "Vidrio Norte"
                         FRAME-WIDTH   =              1
                         FRAME-CONDUCT =            2.2
                         FRAME-ABS     =            0.3
@@ -1649,6 +1592,50 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "TAB INT" 
                         ..
+            "P03_E01_Med001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P03_E02"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  LOCATION      = SPACE-V1  
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P03_E01_Med002" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P03_E03"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  LOCATION      = SPACE-V2  
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P03_E01_Med003" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P03_E04"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  LOCATION      = SPACE-V3  
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P03_E01_Med004" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P03_E05"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  LOCATION      = SPACE-V4  
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
             "P03_E01C001" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
@@ -1737,6 +1724,7 @@ $          TYPE-OPER = "Acondicionado"
        FactorSuperficieUtil   = 1.0
        perteneceALaEnvolventeTermica   = SI
            INTERIOR-RADIATION  = FIXED
+           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
@@ -1756,37 +1744,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ABSORPTANCE = 0.600000
                         ..
-            "P03_E02_PE002" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V2  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E02_PE003" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V8  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E02_CUB005" = ROOF
+            "P03_E02C001" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 1
@@ -1799,42 +1757,6 @@ $          TYPE-OPER = "Acondicionado"
                   AZIMUTH       =            180
                   TILT          =             45
                   POLYGON       = "P03_E02C001_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E02C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              6
-                  Y             =              2
-                  Z             =            2.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P03_E02C001_Poligono2"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E02C002" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              6
-                  Y             =              2
-                  Z             =            2.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P03_E02C002_Poligono1"
                         ..
                   "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
@@ -1860,45 +1782,15 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E03_PE006" = EXTERIOR-WALL
+            "P03_E03_PE001" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
+                  TYPE_ABSORPTANCE    = 0
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
                   CONSTRUCCION_MURO  = "MURO EXTERIOR"  
                   CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V6  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E03_PE007" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V7  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E03_PE008" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V8  
+                  LOCATION      = SPACE-V1  
                         ..
                   "MURO EXTERIOR0.60" =  CONSTRUCTION
                         TYPE   = LAYERS  
@@ -1908,38 +1800,126 @@ $          TYPE-OPER = "Acondicionado"
             "P03_E03C001" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
+                  TYPE_ABSORPTANCE    = 1
+                  COLOR_ABSORPTANCE   = 0
+                  DEGREE_ABSORPTANCE   = 2
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              8
+                  Y             =              0
+                  Z             =            0.5
+                  AZIMUTH       =             90
+                  TILT          =             45
+                  POLYGON       = "P03_E03C001_Poligono1"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+    "P03_E04" = SPACE
+        nCompleto = "P03_E04"
+              HEIGHT        =            0.5
+            SHAPE             = POLYGON 
+            POLYGON           = "P03_E04_Poligono3"
+            TYPE              = UNHABITED
+            SPACE-TYPE        = "Residencial"
+            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
+            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_1"
+            FLOOR-WEIGHT      =              0
+            MULTIPLIER        = 1
+            MULTIPLIED        = 0
+            PILLARS-NUMBERS   = 0
+       FactorSuperficieUtil   = 1.0
+       perteneceALaEnvolventeTermica   = SI
+           INTERIOR-RADIATION  = FIXED
+           POWER     = 4.4
+           VEEI-OBJ  = 7.000000
+           VEEI-REF  = 10.000000
+            ..
+            "P03_E04_PE001" = EXTERIOR-WALL
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
                   TYPE_ABSORPTANCE    = 0
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
+                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
+                  LOCATION      = SPACE-V1  
+                        ..
+                  "MURO EXTERIOR0.60" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "MURO EXTERIOR" 
+                        ABSORPTANCE = 0.600000
+                        ..
+            "P03_E04C002" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  TYPE_ABSORPTANCE    = 0
+                  COLOR_ABSORPTANCE   = 0
+                  DEGREE_ABSORPTANCE   = 2
+                  CONSTRUCTION  = "TAB INT"  
                   X             =              8
                   Y             =              8
                   Z             =            0.5
                   AZIMUTH       =              0
                   TILT          =             45
-                  POLYGON       = "P03_E03C001_Poligono1"
+                  POLYGON       = "P03_E04C002_Poligono2"
                         ..
-                  "CUB IN TEJA" =  CONSTRUCTION
+                  "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
+                        LAYERS = "TAB INT" 
                         ..
-            "P03_E03C002" = ROOF
+    "P03_E05" = SPACE
+        nCompleto = "P03_E05"
+              HEIGHT        =            0.5
+            SHAPE             = POLYGON 
+            POLYGON           = "P03_E05_Poligono4"
+            TYPE              = UNHABITED
+            SPACE-TYPE        = "Residencial"
+            SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
+            SPACE-CONDITIONS  = "NIVEL_ESTANQUEIDAD_1"
+            FLOOR-WEIGHT      =              0
+            MULTIPLIER        = 1
+            MULTIPLIED        = 0
+            PILLARS-NUMBERS   = 0
+       FactorSuperficieUtil   = 1.0
+       perteneceALaEnvolventeTermica   = SI
+           INTERIOR-RADIATION  = FIXED
+           POWER     = 4.4
+           VEEI-OBJ  = 7.000000
+           VEEI-REF  = 10.000000
+            ..
+            "P03_E05_PE001" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
+                  TYPE_ABSORPTANCE    = 0
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
+                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
+                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
+                  LOCATION      = SPACE-V1  
+                        ..
+                  "MURO EXTERIOR0.60" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "MURO EXTERIOR" 
+                        ABSORPTANCE = 0.600000
+                        ..
+            "P03_E05C003" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  TYPE_ABSORPTANCE    = 0
+                  COLOR_ABSORPTANCE   = 0
+                  DEGREE_ABSORPTANCE   = 2
+                  CONSTRUCTION  = "TAB INT"  
                   X             =              0
                   Y             =              8
                   Z             =            0.5
                   AZIMUTH       =            270
                   TILT          =             45
-                  POLYGON       = "P03_E03C002_Poligono1"
+                  POLYGON       = "P03_E05C003_Poligono3"
                         ..
-                  "CUB IN TEJA" =  CONSTRUCTION
+                  "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
+                        LAYERS = "TAB INT" 
                         ..
 $
 $ +---------------------------+
@@ -2859,7 +2839,7 @@ $
     TYPE  = "FRACTION"
     GROUP = "Ventilación"
     INDEX = 1
-    VALUES  = ( 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 15.47, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
+    VALUES  = ( 4.00, 4.00, 4.00, 4.00, 4.00, 4.00, 4.00, 4.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
     ..
   "HA21_HS0_SS_" = WEEK-SCHEDULE-PD
     TYPE  = FRACTION
@@ -3092,21 +3072,54 @@ $ +-----------------------------------------------------------------+
 	<Definicion_Sistema>
 		<elementos>
 			<FactoresDeCorreccion>
-				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
+					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>cap_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
+					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
+					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
-					<exponentes>"0;1;2;3"</exponentes>
+					<coeficientes>"0.7159;0.2841"</coeficientes>
+					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
+					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_T</tipoPropiedad>
+					<tipoPropiedad>capTotRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -3114,8 +3127,19 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
+					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0;1"</coeficientes>
+					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 				<CurvaComportamiento nombre="capSenRef_T-EQ_ED_AireAire_SF-Defecto">
 					<nombre_usuario>capSenRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
@@ -3134,21 +3158,10 @@ $ +-----------------------------------------------------------------+
 					<coeficientes>"0.500602;-0.0464383;-0.000324724;0.0699578;-3.42756e-05;-0.0132021;7.93065e-05"</coeficientes>
 					<exponentes>"0;0;0;1;0;0;2;0;0;0;1;0;0;2;0;0;0;1;0;0;2"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0;1"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_T</tipoPropiedad>
+					<tipoPropiedad>conRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -3156,52 +3169,19 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
+					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
-					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
+				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>conRef_FCP</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
-					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.7159;0.2841"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
-					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
-					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>cap_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
+					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
+					<exponentes>"0;1;2;3"</exponentes>
 				</CurvaComportamiento>
 			</FactoresDeCorreccion>
 			<Sistemas>
@@ -3243,7 +3223,7 @@ $ +-----------------------------------------------------------------+
 							<perfilDiario>Demanda_Hor</perfilDiario>
 							<conACSDiario>42</conACSDiario>
 							<TUso>60</TUso>
-							<TRed>13.229320526123</TRed>
+							<TRed>9.76748275756836</TRed>
 							<nombre_usuario>SIS2_ACS1_Demanda_de_ACS</nombre_usuario>
 						</DemandaACS>
 					</demandas>
