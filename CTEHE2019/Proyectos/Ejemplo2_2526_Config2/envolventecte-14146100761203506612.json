@@ -1,0 +1,4050 @@
+{
+  "meta": {
+    "name": "Ejemplo1_2526",
+    "is_new_building": true,
+    "is_dwelling": true,
+    "num_dwellings": 1,
+    "climate": "E1",
+    "global_ventilation_l_s": 14.0,
+    "d_perim_insulation": 1.0,
+    "rn_perim_insulation": 1.0
+  },
+  "spaces": [
+    {
+      "id": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "name": "P01_E01",
+      "kind": "UNINHABITED",
+      "inside_tenv": false,
+      "height": 1.0,
+      "z": -1.0,
+      "loads": "3f4cb0fe-47bb-4140-0add-0ab45a707599",
+      "thermostat": "abd7425c-d64b-2e26-9487-8a82ebd75b82",
+      "n_v": 0.1,
+      "illuminance": 62.86
+    },
+    {
+      "id": "e0176984-0b98-9412-c0e5-4c99efca7790",
+      "name": "P02_E01",
+      "height": 4.0,
+      "loads": "64fa40f4-8875-8abe-b1f8-f181235bb0d4",
+      "thermostat": "ea752eba-8811-7f1b-5a89-3e6a5e43b4d4",
+      "illuminance": 62.86
+    },
+    {
+      "id": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "name": "P03_E02",
+      "kind": "UNINHABITED",
+      "height": 0.5,
+      "z": 4.0,
+      "loads": "3f4cb0fe-47bb-4140-0add-0ab45a707599",
+      "thermostat": "abd7425c-d64b-2e26-9487-8a82ebd75b82",
+      "n_v": 0.1,
+      "illuminance": 62.86
+    }
+  ],
+  "walls": [
+    {
+      "id": "e19754bd-7c2a-083f-b76c-ecf7ec1b8352",
+      "name": "P01_E01_PCT001",
+      "bounds": "GROUND",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "space": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": 0.0,
+        "position": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "27a3fa57-3be5-fa6c-d53a-728bc1e047bf",
+      "name": "P01_E01_PCT002",
+      "bounds": "GROUND",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "space": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": 90.0,
+        "position": [
+          8.0,
+          0.0,
+          -1.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c8ec96c0-3d88-5e9c-dd96-eb93a4ed9475",
+      "name": "P01_E01_PCT003",
+      "bounds": "GROUND",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "space": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": -180.0,
+        "position": [
+          8.0,
+          8.0,
+          -1.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b87d6cd2-4f5b-f801-3d6b-4b20c3ca5aa3",
+      "name": "P01_E01_PCT004",
+      "bounds": "GROUND",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "space": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": -90.0,
+        "position": [
+          0.0,
+          8.0,
+          -1.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "4bc0471a-bed1-8009-0234-99122ced010e",
+      "name": "P01_E01_FTER001",
+      "bounds": "GROUND",
+      "cons": "e38b6f73-34e0-e2d5-d507-8926287ee4b0",
+      "space": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "geometry": {
+        "tilt": 180.0,
+        "azimuth": 0.0,
+        "position": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            -8.0
+          ],
+          [
+            8.0,
+            -8.0
+          ],
+          [
+            8.0,
+            -0.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "387e39a1-8404-b0bb-abe0-1c2cbd904872",
+      "name": "P02_E01_PE001",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "e0176984-0b98-9412-c0e5-4c99efca7790",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": 0.0,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            4.0
+          ],
+          [
+            0.0,
+            4.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "79f0d822-c490-6089-d633-eb3964a496bb",
+      "name": "P02_E01_PE002",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "e0176984-0b98-9412-c0e5-4c99efca7790",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": 90.0,
+        "position": [
+          8.0,
+          0.0,
+          0.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            4.0
+          ],
+          [
+            0.0,
+            4.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "dff32026-bd9c-aad4-1392-f37750d88321",
+      "name": "P02_E01_PE003",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "e0176984-0b98-9412-c0e5-4c99efca7790",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": -180.0,
+        "position": [
+          8.0,
+          8.0,
+          0.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            4.0
+          ],
+          [
+            0.0,
+            4.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1a539d1d-97bb-54e8-97dc-7bb679c8a7d9",
+      "name": "P02_E01_PE004",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "e0176984-0b98-9412-c0e5-4c99efca7790",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": -90.0,
+        "position": [
+          0.0,
+          8.0,
+          0.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            4.0
+          ],
+          [
+            0.0,
+            4.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1433bfb6-4863-0976-89d6-3db18f17ff87",
+      "name": "P02_E01_FI001",
+      "bounds": "INTERIOR",
+      "cons": "582506f6-3d59-5eaa-00f2-d4f1af6a09a7",
+      "space": "e0176984-0b98-9412-c0e5-4c99efca7790",
+      "next_to": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "geometry": {
+        "tilt": 180.0,
+        "azimuth": 0.0,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            -0.0
+          ],
+          [
+            0.0,
+            -8.0
+          ],
+          [
+            8.0,
+            -8.0
+          ],
+          [
+            8.0,
+            -0.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "93ab7e32-8fab-5514-c602-b9d79fac20c7",
+      "name": "P03_E02_PE001",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": 0.0,
+        "position": [
+          0.0,
+          0.0,
+          4.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.5
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f62afd16-ea2c-26ea-99e0-57f2ceb2e0cf",
+      "name": "P03_E02_PE002",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": 90.0,
+        "position": [
+          8.0,
+          0.0,
+          4.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.5
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e61f3f67-95ff-633b-09ce-525f86f79d77",
+      "name": "P03_E02_PE003",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": -180.0,
+        "position": [
+          8.0,
+          8.0,
+          4.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.5
+          ]
+        ]
+      }
+    },
+    {
+      "id": "20695cb4-4ca9-2037-81e1-8340deba14fa",
+      "name": "P03_E02_PE004",
+      "bounds": "EXTERIOR",
+      "cons": "997adbb5-7efd-95bd-7849-d5302a96f028",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 90.0,
+        "azimuth": -90.0,
+        "position": [
+          0.0,
+          8.0,
+          4.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.0
+          ],
+          [
+            8.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.5
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b93fb5dc-840b-1984-91cf-4c90dc471a43",
+      "name": "P03_E02C001",
+      "bounds": "EXTERIOR",
+      "cons": "647b9347-3bc4-04d9-0567-9b053448f056",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 41.19,
+        "azimuth": 0.0,
+        "position": [
+          4.0,
+          4.0,
+          8.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -4.0,
+            -5.315073
+          ],
+          [
+            4.0,
+            -5.315073
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6bd35946-2a3d-f60d-48be-f75bc62b4b10",
+      "name": "P03_E02C002",
+      "bounds": "EXTERIOR",
+      "cons": "647b9347-3bc4-04d9-0567-9b053448f056",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 41.19,
+        "azimuth": 90.0,
+        "position": [
+          4.0,
+          4.0,
+          8.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -4.0,
+            -5.315073
+          ],
+          [
+            4.0,
+            -5.315073
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6fa69ce6-fbce-03df-0a05-3f1eebd808e6",
+      "name": "P03_E02C003",
+      "bounds": "EXTERIOR",
+      "cons": "647b9347-3bc4-04d9-0567-9b053448f056",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 41.19,
+        "azimuth": -180.0,
+        "position": [
+          4.0,
+          4.0,
+          8.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -4.0,
+            -5.315073
+          ],
+          [
+            4.0,
+            -5.315073
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f99af00f-0991-ce90-5d1d-def873b249d4",
+      "name": "P03_E02C004",
+      "bounds": "EXTERIOR",
+      "cons": "647b9347-3bc4-04d9-0567-9b053448f056",
+      "space": "6a3287b2-a509-34a3-b394-4fe03f08faa2",
+      "geometry": {
+        "tilt": 41.19,
+        "azimuth": -90.0,
+        "position": [
+          4.0,
+          4.0,
+          8.0
+        ],
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -4.0,
+            -5.315073
+          ],
+          [
+            4.0,
+            -5.315073
+          ]
+        ]
+      }
+    }
+  ],
+  "windows": [
+    {
+      "id": "f10649a7-9504-de25-40a5-7940634c5f36",
+      "name": "P02_E01_PE001_V",
+      "cons": "b8b07fce-305c-5ff0-140f-c3da669b2dfe",
+      "wall": "387e39a1-8404-b0bb-abe0-1c2cbd904872",
+      "geometry": {
+        "position": [
+          3.0,
+          0.0
+        ],
+        "height": 2.2,
+        "width": 5.0,
+        "setback": 0.5
+      }
+    },
+    {
+      "id": "cefdefd6-35ad-7f77-1b7a-ea417e38482a",
+      "name": "P02_E01_PE002_V",
+      "cons": "a30e2428-6f65-e70f-d3bd-303e1f771636",
+      "wall": "79f0d822-c490-6089-d633-eb3964a496bb",
+      "geometry": {
+        "position": [
+          5.0,
+          0.0
+        ],
+        "height": 2.2,
+        "width": 3.0,
+        "setback": 0.5
+      }
+    },
+    {
+      "id": "fecad710-92e4-7848-3250-694e32f54b27",
+      "name": "P02_E01_PE003_V",
+      "cons": "a30e2428-6f65-e70f-d3bd-303e1f771636",
+      "wall": "dff32026-bd9c-aad4-1392-f37750d88321",
+      "geometry": {
+        "position": [
+          5.0,
+          0.0
+        ],
+        "height": 2.2,
+        "width": 3.0,
+        "setback": 0.5
+      }
+    },
+    {
+      "id": "aba1993b-98d6-89d3-1aea-8cc1a6cb7d63",
+      "name": "P02_E01_PE004_V",
+      "cons": "dd682f34-c431-da56-64f7-6d19340ce9ce",
+      "wall": "1a539d1d-97bb-54e8-97dc-7bb679c8a7d9",
+      "geometry": {
+        "position": [
+          6.0,
+          0.0
+        ],
+        "height": 2.2,
+        "width": 2.0,
+        "setback": 0.5
+      }
+    }
+  ],
+  "thermal_bridges": [
+    {
+      "id": "965a4dbe-7efe-b5d4-ea0a-9dd1a620e1b7",
+      "name": "FRENTE_FORJADO",
+      "kind": "INTERMEDIATEFLOOR",
+      "l": -1.0,
+      "psi": 0.97
+    },
+    {
+      "id": "b005860f-461d-f6d8-be71-45fc13a7b546",
+      "name": "UNION_CUBIERTA",
+      "kind": "ROOF",
+      "l": -1.0,
+      "psi": 0.23
+    },
+    {
+      "id": "2510cca0-72c9-df93-6f99-6b6edaaec472",
+      "name": "ESQUINA_CONVEXA_FORJADO",
+      "kind": "ROOF",
+      "l": -1.0,
+      "psi": 0.86
+    },
+    {
+      "id": "b3128089-515a-b39b-eb3e-3983aefe13a9",
+      "name": "ESQUINA_CONCAVA",
+      "kind": "CORNER",
+      "l": -1.0,
+      "psi": -0.16
+    },
+    {
+      "id": "5fd60337-7213-e7c6-b881-38ee93eed485",
+      "name": "ESQUINA_CONVEXA",
+      "kind": "CORNER",
+      "l": -1.0,
+      "psi": 0.05
+    },
+    {
+      "id": "b9ef5f8e-ef25-1cf6-8b47-89288e3b9541",
+      "name": "PILAR",
+      "kind": "PILLAR",
+      "l": -1.0,
+      "psi": 1.2
+    },
+    {
+      "id": "7335cb05-59bb-d2d0-f6b6-afd4dc1f7e97",
+      "name": "HUECO_CAPIALZADO",
+      "kind": "WINDOW",
+      "l": -1.0,
+      "psi": 0.22
+    },
+    {
+      "id": "86047633-d6bd-4e5f-7482-cde3abc0c69c",
+      "name": "HUECO_JAMBA",
+      "kind": "WINDOW",
+      "l": -1.0,
+      "psi": 0.03
+    },
+    {
+      "id": "4576da2a-6e41-432c-5a25-a1165dbb0b02",
+      "name": "HUECO_ALFEIZAR",
+      "kind": "WINDOW",
+      "l": -1.0,
+      "psi": 0.51
+    },
+    {
+      "id": "56fb0260-473b-afe4-8c88-223bc8556c52",
+      "name": "UNION_SOLERA_PAREDEXT",
+      "kind": "GROUNDFLOOR",
+      "l": -1.0,
+      "psi": 0.57
+    }
+  ],
+  "cons": {
+    "wallcons": [
+      {
+        "id": "582506f6-3d59-5eaa-00f2-d4f1af6a09a7",
+        "name": "FOR INT",
+        "layers": [
+          {
+            "material": "9577b215-9c12-1a55-f22b-ca881f501861",
+            "e": 0.01
+          },
+          {
+            "material": "158a664b-7c26-0629-c750-f54c95e638a3",
+            "e": 0.05
+          },
+          {
+            "material": "e34affe5-3d77-7854-be3a-d58b24eed255",
+            "e": 0.065
+          },
+          {
+            "material": "6a762f94-2afa-9ebf-928a-4e5b342622b6",
+            "e": 0.06
+          },
+          {
+            "material": "de671b0e-ce46-2f58-aa6d-117c81b0b403",
+            "e": 0.25
+          },
+          {
+            "material": "5764cb95-5d39-8ed0-bad9-7c1fd117ff0f",
+            "e": 0.05
+          },
+          {
+            "material": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+            "e": 0.015
+          }
+        ],
+        "absorptance": 0.6
+      },
+      {
+        "id": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+        "name": "MURO CAM SANIT",
+        "layers": [
+          {
+            "material": "e22ef568-f97c-1adc-39c9-004bebea3a4f",
+            "e": 0.009
+          },
+          {
+            "material": "0d364300-31f3-0ee1-c873-79a9de81adea",
+            "e": 0.24
+          }
+        ],
+        "absorptance": 0.6
+      },
+      {
+        "id": "997adbb5-7efd-95bd-7849-d5302a96f028",
+        "name": "MURO EXTERIOR0.60",
+        "layers": [
+          {
+            "material": "f9ef7f1e-8187-6c89-039a-06711fb8bd85",
+            "e": 0.03
+          },
+          {
+            "material": "c7fc572b-6390-c091-66ca-dbbf7f49a84f",
+            "e": 0.14
+          },
+          {
+            "material": "c39c931b-7ce8-3edc-6a8f-ae3d69994ed3",
+            "e": 0.24
+          },
+          {
+            "material": "f9ef7f1e-8187-6c89-039a-06711fb8bd85",
+            "e": 0.01
+          },
+          {
+            "material": "7617e6ee-af08-0e1b-3bb8-3a2a73fbe5f9",
+            "e": 0.05
+          },
+          {
+            "material": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+            "e": 0.015
+          },
+          {
+            "material": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+            "e": 0.015
+          }
+        ],
+        "absorptance": 0.6
+      },
+      {
+        "id": "e38b6f73-34e0-e2d5-d507-8926287ee4b0",
+        "name": "SOL CAM SANIT",
+        "layers": [
+          {
+            "material": "7120e366-2400-a0bd-864b-671c619f650c",
+            "e": 0.08
+          },
+          {
+            "material": "94e03908-2e4d-d90d-7e96-818ae8e4fce8",
+            "e": 0.003
+          },
+          {
+            "material": "d2b63da2-39ad-a836-2613-026cb38463c0",
+            "e": 0.12
+          }
+        ],
+        "absorptance": 0.6
+      },
+      {
+        "id": "647b9347-3bc4-04d9-0567-9b053448f056",
+        "name": "TAB INT",
+        "layers": [
+          {
+            "material": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+            "e": 0.013
+          },
+          {
+            "material": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+            "e": 0.013
+          },
+          {
+            "material": "3e312c23-0711-6859-7b30-4ae79a356f19",
+            "e": 0.04
+          },
+          {
+            "material": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+            "e": 0.013
+          },
+          {
+            "material": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+            "e": 0.013
+          }
+        ],
+        "absorptance": 0.6
+      }
+    ],
+    "wincons": [
+      {
+        "id": "a30e2428-6f65-e70f-d3bd-303e1f771636",
+        "name": "N_E",
+        "glass": "f1923e29-dcd3-1253-e2cc-b0faf31e6018",
+        "frame": "52be3aa4-4407-b1b4-776f-c524cebab0ff",
+        "f_f": 0.25,
+        "delta_u": 0.0,
+        "g_glshwi": 0.05,
+        "c_100": 9.0
+      },
+      {
+        "id": "dd682f34-c431-da56-64f7-6d19340ce9ce",
+        "name": "PTA",
+        "glass": "f1923e29-dcd3-1253-e2cc-b0faf31e6018",
+        "frame": "68e799e5-8468-5a33-b9dc-d265da0c0f07",
+        "f_f": 1.0,
+        "delta_u": 0.0,
+        "g_glshwi": 0.05,
+        "c_100": 60.0
+      },
+      {
+        "id": "b8b07fce-305c-5ff0-140f-c3da669b2dfe",
+        "name": "S_O",
+        "glass": "26954932-f0c8-2dbe-f8bd-9557c0112fc6",
+        "frame": "2d44ec3c-eee9-dd4d-27b6-7a03496af3c8",
+        "f_f": 0.25,
+        "delta_u": 10.0,
+        "g_glshwi": 0.05,
+        "c_100": 9.0
+      }
+    ],
+    "materials": [
+      {
+        "id": "0d364300-31f3-0ee1-c873-79a9de81adea",
+        "name": "1 pie LP métrico o catalán 40 mm< G < 60 mm",
+        "conductivity": 0.667,
+        "density": 1220.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 10.0
+      },
+      {
+        "id": "c39c931b-7ce8-3edc-6a8f-ae3d69994ed3",
+        "name": "1 pie LP métrico o catalán 80 mm< G < 100 mm",
+        "conductivity": 0.512,
+        "density": 1000.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 10.0
+      },
+      {
+        "id": "d2b63da2-39ad-a836-2613-026cb38463c0",
+        "name": "Arena y grava [1700 < d < 2200]",
+        "conductivity": 2.0,
+        "density": 1450.0,
+        "specific_heat": 1050.0,
+        "vapour_diff": 50.0
+      },
+      {
+        "id": "e22ef568-f97c-1adc-39c9-004bebea3a4f",
+        "name": "Betún fieltro o lámina",
+        "conductivity": 0.23,
+        "density": 1100.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 50000.0
+      },
+      {
+        "id": "94e03908-2e4d-d90d-7e96-818ae8e4fce8",
+        "name": "Cloruro de polivinilo [PVC]",
+        "conductivity": 0.17,
+        "density": 1390.0,
+        "specific_heat": 900.0,
+        "vapour_diff": 50000.0
+      },
+      {
+        "id": "5764cb95-5d39-8ed0-bad9-7c1fd117ff0f",
+        "name": "Cámara de aire sin ventilar horizontal 5 cm",
+        "resistance": 0.16
+      },
+      {
+        "id": "7617e6ee-af08-0e1b-3bb8-3a2a73fbe5f9",
+        "name": "Cámara de aire sin ventilar vertical 5 cm",
+        "resistance": 0.18
+      },
+      {
+        "id": "de671b0e-ce46-2f58-aa6d-117c81b0b403",
+        "name": "FU Entrevigado cerámico -Canto 250 mm",
+        "conductivity": 0.908,
+        "density": 1220.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 10.0
+      },
+      {
+        "id": "7120e366-2400-a0bd-864b-671c619f650c",
+        "name": "Hormigón en masa 2000 < d < 2300",
+        "conductivity": 1.65,
+        "density": 2150.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 70.0
+      },
+      {
+        "id": "3e312c23-0711-6859-7b30-4ae79a356f19",
+        "name": "MW Lana mineral [0.04 W/[mK]]",
+        "conductivity": 0.0405,
+        "density": 40.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 1.0
+      },
+      {
+        "id": "e34affe5-3d77-7854-be3a-d58b24eed255",
+        "name": "Mortero de cemento de difusion",
+        "conductivity": 0.6,
+        "density": 1500.0,
+        "specific_heat": 800.0,
+        "vapour_diff": 1.0
+      },
+      {
+        "id": "f9ef7f1e-8187-6c89-039a-06711fb8bd85",
+        "name": "Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250",
+        "conductivity": 0.55,
+        "density": 1125.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 10.0
+      },
+      {
+        "id": "158a664b-7c26-0629-c750-f54c95e638a3",
+        "name": "Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600",
+        "conductivity": 0.8,
+        "density": 1525.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 10.0
+      },
+      {
+        "id": "2e514289-320f-3c53-24a3-ba81ecf1a0b7",
+        "name": "Placa de yeso laminado [PYL] 750 < d < 900",
+        "conductivity": 0.25,
+        "density": 825.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 4.0
+      },
+      {
+        "id": "9577b215-9c12-1a55-f22b-ca881f501861",
+        "name": "Plaqueta o baldosa de gres",
+        "conductivity": 2.3,
+        "density": 2500.0,
+        "specific_heat": 1000.0,
+        "vapour_diff": 30.0
+      },
+      {
+        "id": "c7fc572b-6390-c091-66ca-dbbf7f49a84f",
+        "name": "Poliestireno [PS]",
+        "conductivity": 0.16,
+        "density": 1050.0,
+        "specific_heat": 1300.0,
+        "vapour_diff": 100000.0
+      },
+      {
+        "id": "6a762f94-2afa-9ebf-928a-4e5b342622b6",
+        "name": "XPS Expandido con dióxido de carbono CO3 [ 0.038 W/[mK]]",
+        "conductivity": 0.038,
+        "density": 37.5,
+        "specific_heat": 1000.0,
+        "vapour_diff": 100.0
+      }
+    ],
+    "glasses": [
+      {
+        "id": "f1923e29-dcd3-1253-e2cc-b0faf31e6018",
+        "name": "VER_DB3_4-12-331",
+        "u_value": 1.6,
+        "g_gln": 0.7082353
+      },
+      {
+        "id": "26954932-f0c8-2dbe-f8bd-9557c0112fc6",
+        "name": "triple glazing South and West",
+        "u_value": 0.76,
+        "g_gln": 0.41000003
+      }
+    ],
+    "frames": [
+      {
+        "id": "68e799e5-8468-5a33-b9dc-d265da0c0f07",
+        "name": "Marco Puerta",
+        "u_value": 2.2,
+        "absorptivity": 0.3
+      },
+      {
+        "id": "2d44ec3c-eee9-dd4d-27b6-7a03496af3c8",
+        "name": "Marco SO",
+        "u_value": 1.5,
+        "absorptivity": 0.3
+      },
+      {
+        "id": "52be3aa4-4407-b1b4-776f-c524cebab0ff",
+        "name": "VER_PVC dos cámaras",
+        "u_value": 2.2,
+        "absorptivity": 0.7
+      }
+    ]
+  },
+  "schedules": {
+    "year": [
+      {
+        "id": "f52d0cf7-e91f-d1ed-bf1c-84446ab8817d",
+        "name": "SSHA",
+        "values": [
+          [
+            "ee490279-fbb2-9a09-822a-fb71f65e89a7",
+            151
+          ],
+          [
+            "d2189d23-dd31-0118-994a-afda132e7f6c",
+            122
+          ],
+          [
+            "ee490279-fbb2-9a09-822a-fb71f65e89a7",
+            92
+          ]
+        ]
+      },
+      {
+        "id": "71980518-76fc-962f-8f18-1c23deece99c",
+        "name": "ELEMENTOS-DE-SOMBRA",
+        "values": [
+          [
+            "28827201-eb73-d7f3-10cb-8431e577a232",
+            151
+          ],
+          [
+            "23481dda-072f-7e17-ee4e-4c988c7faf33",
+            122
+          ],
+          [
+            "28827201-eb73-d7f3-10cb-8431e577a232",
+            92
+          ]
+        ]
+      },
+      {
+        "id": "3675a836-0996-50a6-7d78-cf271e542d82",
+        "name": "Horario-Refrigeracion",
+        "values": [
+          [
+            "3e1d0e5b-88cd-aa83-7f33-330ae0eb8c34",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "85f3131b-8336-1d44-ac46-34a24b75d3c0",
+        "name": "Horario-Calefaccion",
+        "values": [
+          [
+            "cfe441f6-e46d-6916-cf15-08e6e75ab051",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "99c292f2-cd69-ecd9-3511-c1e3433199e4",
+        "name": "Horario-Refrigeracion-t",
+        "values": [
+          [
+            "7225eec2-bda0-f085-9022-16a558deb0a1",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "c5db4c75-17af-14bf-552c-e3023749b714",
+        "name": "Horario-Calefaccion-t",
+        "values": [
+          [
+            "fe99e14e-b916-27d6-9579-91f9d8cbfef1",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "dc0d2fac-dd83-1e39-aee2-ac7db236332f",
+        "name": "Horario-Calefaccion-AP",
+        "values": [
+          [
+            "57d87094-acdd-c886-6553-07b8d680c50f",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "98f02a1d-eabf-04d6-3ba0-9a112f8168c8",
+        "name": "Horario-Refrigeracion-AP",
+        "values": [
+          [
+            "8f8d4b57-1cb6-ebac-286b-341215bdbef5",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "528ffec8-5770-6f8b-2b60-cd194b045645",
+        "name": "UsoEspacio-8h",
+        "values": [
+          [
+            "9dcf7d69-eada-ead7-abce-fcdea3269ee2",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "4664e6fb-5b75-d29e-4aec-7cb2ca660666",
+        "name": "UsoEspacio-8h_eq",
+        "values": [
+          [
+            "5bc44db1-40a8-9947-edc9-2c59d0ce11b7",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "959ecf3a-835b-b85a-a202-4e6502c13d82",
+        "name": "UsoEspacio-8h_vent",
+        "values": [
+          [
+            "8a4e8983-7733-5941-d395-8bdd4fbf2db9",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "2ef051ed-156a-e6f7-18f9-1870ea6b8f18",
+        "name": "UsoEspacio-12h",
+        "values": [
+          [
+            "e031cec4-be4d-ea30-3667-7461675e1470",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "b16dde3f-cbaf-7c97-06ee-607898dd150e",
+        "name": "UsoEspacio-12h_eq",
+        "values": [
+          [
+            "eeaac797-0951-cd03-d1d0-a76b60ff842e",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "35723552-6ff5-8921-b4e5-2a5ddfb461d8",
+        "name": "UsoEspacio-12h_vent",
+        "values": [
+          [
+            "301dd01f-9568-731a-7378-696d35d34fac",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "fdf02a88-b07f-6a28-0208-f5e7d604f3b1",
+        "name": "UsoEspacio-16h",
+        "values": [
+          [
+            "246bb9af-063c-8c04-006d-7d8b9d92dfa7",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "03dd43f5-2032-27e9-e640-79592b166598",
+        "name": "UsoEspacio-16h_eq",
+        "values": [
+          [
+            "6c0cc705-f34e-1ea9-522f-68cbc35ca09d",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "b63096df-6884-ec55-0f46-5c5e5a100d89",
+        "name": "UsoEspacio-16h_vent",
+        "values": [
+          [
+            "e6a22315-d805-89eb-9f41-6cc6fc64f62f",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "c67fae52-5691-ff6d-e19c-96001b2e0043",
+        "name": "UsoEspacio-24h",
+        "values": [
+          [
+            "20b13944-50d9-c7f0-b915-8109d9527f78",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "6e14b2c1-5eac-89b6-20df-fc3b1b7e7ba7",
+        "name": "UsoEspacio-24h_eq",
+        "values": [
+          [
+            "4d4b75b8-1559-ceb2-d114-5fba836865da",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "00b4fa70-cb40-7f41-995e-8fabf712b563",
+        "name": "UsoEspacio-24h_vent",
+        "values": [
+          [
+            "561144ae-d583-3765-8867-575963f35c0a",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "7319d4a9-7ca0-b029-ecc7-96228aa13b56",
+        "name": "Ocupacion-Residencia",
+        "values": [
+          [
+            "428350a4-bfbf-9d90-a332-a3f6a7cf3fdf",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "d9bfa4c0-d9dc-b918-2993-9b8063900421",
+        "name": "Iluminacion-Residencia",
+        "values": [
+          [
+            "d44fb41e-a41a-cd82-2233-b1395c25a97d",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "af11da76-7da4-aae9-a353-ba1449727e52",
+        "name": "Funcionam-Residencia",
+        "values": [
+          [
+            "eaeabcdb-8480-78d9-6cbb-7321151f129b",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "3f4db9bf-ad95-5ba7-06fd-9c7a4389e0a5",
+        "name": "Infiltracion-Residencia",
+        "values": [
+          [
+            "ce2262e8-09ef-6fd6-2a67-0c23bd6b0b66",
+            147
+          ],
+          [
+            "d0d9bb68-edcb-b382-9a58-25149ad0b0fe",
+            7
+          ],
+          [
+            "16f2b938-0287-9352-c49b-78816e37a263",
+            119
+          ],
+          [
+            "ce2262e8-09ef-6fd6-2a67-0c23bd6b0b66",
+            92
+          ]
+        ]
+      },
+      {
+        "id": "38c5d18f-1dfd-ba91-09a1-e23aab8cb13d",
+        "name": "Anual-No-Habitable",
+        "values": [
+          [
+            "4d150512-38a0-25e0-589a-2413524e0db9",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "e2d9ea63-1af4-0bcb-4ccc-a4cd46521945",
+        "name": "Anual-No-habitable-Func",
+        "values": [
+          [
+            "5e470944-419b-df46-f510-6da7c0d72d35",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "6ffc2b33-1605-080b-4d13-15eab10987f5",
+        "name": "Anual-No-habitable-Inf",
+        "values": [
+          [
+            "b79a7cdc-0063-9edc-6422-05fcb74b5507",
+            365
+          ]
+        ]
+      }
+    ],
+    "week": [
+      {
+        "id": "d2189d23-dd31-0118-994a-afda132e7f6c",
+        "name": "SSHSV",
+        "values": [
+          [
+            "53b0842e-c743-9ba7-b5ee-15de10acd78a",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "ee490279-fbb2-9a09-822a-fb71f65e89a7",
+        "name": "SSHSI",
+        "values": [
+          [
+            "164419dd-43fc-25ff-cf5b-7178e6f26762",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "23481dda-072f-7e17-ee4e-4c988c7faf33",
+        "name": "ELEMENTOSDESOMBRASEMVER",
+        "values": [
+          [
+            "e6b0921e-dc70-ae38-9f59-2449e8f29cdd",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "28827201-eb73-d7f3-10cb-8431e577a232",
+        "name": "ELEMENTOSDESOMBRASEMINV",
+        "values": [
+          [
+            "417dd14a-3f6c-1d16-02fd-916804f0772a",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "3e1d0e5b-88cd-aa83-7f33-330ae0eb8c34",
+        "name": "HA0_HS0_SS_",
+        "values": [
+          [
+            "de9a3b5d-c024-aee7-1907-6498ef6427f4",
+            5
+          ],
+          [
+            "1dce7386-0848-5404-d2f2-3bcde8f9d086",
+            1
+          ],
+          [
+            "6836973b-5a43-97d6-840e-825f4bdcbeb9",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "cfe441f6-e46d-6916-cf15-08e6e75ab051",
+        "name": "HA1_HS0_SS_",
+        "values": [
+          [
+            "48c68aaa-0ab1-531a-43b4-24303449a40d",
+            5
+          ],
+          [
+            "f573848f-5820-cbaf-9b93-87c319e216db",
+            1
+          ],
+          [
+            "c6597a61-6821-6e17-5299-9a16904de5dd",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "7225eec2-bda0-f085-9022-16a558deb0a1",
+        "name": "HA2_HS0_SS_",
+        "values": [
+          [
+            "65d2f20e-b166-b7cb-0195-c508713f6170",
+            5
+          ],
+          [
+            "8f088336-2061-ab14-829d-f24e6c9ffca7",
+            1
+          ],
+          [
+            "f9cb8626-567d-4443-a1d9-6618cd0449d8",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "fe99e14e-b916-27d6-9579-91f9d8cbfef1",
+        "name": "HA3_HS0_SS_",
+        "values": [
+          [
+            "f1174132-0d47-2c68-5520-79f25735bebb",
+            5
+          ],
+          [
+            "36964595-dd52-bb56-3d4f-21396e4c4807",
+            1
+          ],
+          [
+            "d935c79f-5baf-e958-7be2-f851a961606f",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "57d87094-acdd-c886-6553-07b8d680c50f",
+        "name": "HA4_HS0_SS_",
+        "values": [
+          [
+            "1ed311f7-c6d9-6651-dedd-627e27b992f2",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "8f8d4b57-1cb6-ebac-286b-341215bdbef5",
+        "name": "HA5_HS0_SS_",
+        "values": [
+          [
+            "27eaede9-1864-89a5-c7ee-f22f4a3eaa47",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "9dcf7d69-eada-ead7-abce-fcdea3269ee2",
+        "name": "HA6_HS0_SS_",
+        "values": [
+          [
+            "dda35e8e-e1cd-7f0e-ca69-25165c58cda2",
+            5
+          ],
+          [
+            "8bf96925-ac02-7154-9b9c-32f257b5a308",
+            1
+          ],
+          [
+            "78d4ecb9-af11-dc75-1f36-e472b0f826e0",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "5bc44db1-40a8-9947-edc9-2c59d0ce11b7",
+        "name": "HA7_HS0_SS_",
+        "values": [
+          [
+            "f2734cb9-ed0e-f637-b6b1-8dd8a8b7c80d",
+            5
+          ],
+          [
+            "0101fa30-b0bf-3b7e-907e-8fe35065f794",
+            1
+          ],
+          [
+            "f49cd29b-3d59-1a7d-0fa4-4772d6eea22e",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "8a4e8983-7733-5941-d395-8bdd4fbf2db9",
+        "name": "HA8_HS0_SS_",
+        "values": [
+          [
+            "561e3bd9-d0b6-165e-954a-516685c31efb",
+            5
+          ],
+          [
+            "dc46827f-dd2c-8697-e54d-f8706b23e302",
+            1
+          ],
+          [
+            "e597fe6f-98a2-95dd-4c57-9d4abea6f4f6",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "e031cec4-be4d-ea30-3667-7461675e1470",
+        "name": "HA9_HS0_SS_",
+        "values": [
+          [
+            "31d102c5-8e35-de8f-1fc7-9ef4b59a3d94",
+            5
+          ],
+          [
+            "dcc53234-d123-93b6-dc05-ad652572fa11",
+            1
+          ],
+          [
+            "1e3d72d3-8cae-ad7e-cf58-c1d466c2c473",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "eeaac797-0951-cd03-d1d0-a76b60ff842e",
+        "name": "HA10_HS0_SS_",
+        "values": [
+          [
+            "9b0c1ac6-411b-4b54-4707-daa5c35489c3",
+            5
+          ],
+          [
+            "174fe2fb-a6cd-6d78-95fe-f63e22d888da",
+            1
+          ],
+          [
+            "a687b3c0-2580-3e56-e79a-0774e8345860",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "301dd01f-9568-731a-7378-696d35d34fac",
+        "name": "HA11_HS0_SS_",
+        "values": [
+          [
+            "9ca88e28-d6a4-e532-7065-090a541bdf95",
+            5
+          ],
+          [
+            "6643774f-f6c9-2843-f1e6-6cf51df9e41c",
+            1
+          ],
+          [
+            "65243c28-98e2-4afe-6865-49b1e214fcf4",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "246bb9af-063c-8c04-006d-7d8b9d92dfa7",
+        "name": "HA12_HS0_SS_",
+        "values": [
+          [
+            "6f38c6bb-79c0-e784-3190-0256a2be3f9b",
+            5
+          ],
+          [
+            "92cd96ad-127c-d7a7-0629-5595a0418143",
+            1
+          ],
+          [
+            "15694793-2f3f-4ac3-cffa-3c60b600cbff",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "6c0cc705-f34e-1ea9-522f-68cbc35ca09d",
+        "name": "HA13_HS0_SS_",
+        "values": [
+          [
+            "a3cd2d41-9962-90e5-3184-fed266ec0dcf",
+            5
+          ],
+          [
+            "7af42397-b708-bec9-2f2f-36abc2ab18a0",
+            1
+          ],
+          [
+            "352e68c4-0b2c-c3b6-c12b-232632cb51ba",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "e6a22315-d805-89eb-9f41-6cc6fc64f62f",
+        "name": "HA14_HS0_SS_",
+        "values": [
+          [
+            "ff3d55df-4688-8f10-2951-eea9c5e4a92b",
+            5
+          ],
+          [
+            "f6d226c3-a01a-f3b6-f4d3-2670fa5f1904",
+            1
+          ],
+          [
+            "5d9721be-e2ce-1e32-02c3-0f163aeca5d1",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "20b13944-50d9-c7f0-b915-8109d9527f78",
+        "name": "HA15_HS0_SS_",
+        "values": [
+          [
+            "405c73eb-02a0-2528-c347-bd9e259e122d",
+            5
+          ],
+          [
+            "282063f8-329b-91d1-32a8-a4a0222878f2",
+            1
+          ],
+          [
+            "e6c67bc9-7fe1-6918-e0bf-916847eca702",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "4d4b75b8-1559-ceb2-d114-5fba836865da",
+        "name": "HA16_HS0_SS_",
+        "values": [
+          [
+            "26dbbce9-9ad7-51c1-ed16-963c65cd5f62",
+            5
+          ],
+          [
+            "60abf2a2-922f-097a-0025-2ca2e1782e18",
+            1
+          ],
+          [
+            "3a816db3-2a34-6a77-f7d1-c236a0aa3c3f",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "561144ae-d583-3765-8867-575963f35c0a",
+        "name": "HA17_HS0_SS_",
+        "values": [
+          [
+            "75149e8c-bef0-03cb-e44d-ef9b00ade96b",
+            5
+          ],
+          [
+            "b446c4f9-fc5a-e620-b81f-49ebf53f84bc",
+            1
+          ],
+          [
+            "7ac260cd-661d-b231-efa6-226a78771669",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "428350a4-bfbf-9d90-a332-a3f6a7cf3fdf",
+        "name": "HA18_HS0_SS_",
+        "values": [
+          [
+            "15e03c4d-2601-2096-50ee-445f3aaf4b80",
+            5
+          ],
+          [
+            "50dd573b-9ac4-1e11-d11d-9386e9debdf0",
+            1
+          ],
+          [
+            "1343e048-56ac-4dc4-f567-00a9792965f8",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "d44fb41e-a41a-cd82-2233-b1395c25a97d",
+        "name": "HA19_HS0_SS_",
+        "values": [
+          [
+            "5679f79e-08e5-2fa3-b915-f52ee2449a5c",
+            5
+          ],
+          [
+            "64783f12-2f63-e66b-e28d-82ab0aa24461",
+            1
+          ],
+          [
+            "b43d3ccc-4181-cf9d-6335-1b229a08d722",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "eaeabcdb-8480-78d9-6cbb-7321151f129b",
+        "name": "HA20_HS0_SS_",
+        "values": [
+          [
+            "1121d6c2-3713-7b63-8f82-9be50a39180d",
+            5
+          ],
+          [
+            "f090d8a1-79c4-0c28-747f-8a4593fe6355",
+            1
+          ],
+          [
+            "9d881ebd-f48c-27ac-f6f6-78d5e5538de1",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "ce2262e8-09ef-6fd6-2a67-0c23bd6b0b66",
+        "name": "HA21_HS0_SS_",
+        "values": [
+          [
+            "2d07dd86-dd9d-feb8-29ca-46d66ea21a29",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "d0d9bb68-edcb-b382-9a58-25149ad0b0fe",
+        "name": "HA21_HS1_SS_",
+        "values": [
+          [
+            "2d07dd86-dd9d-feb8-29ca-46d66ea21a29",
+            4
+          ],
+          [
+            "40e4bd01-3c10-8764-ec0d-e0e759015ea5",
+            3
+          ]
+        ]
+      },
+      {
+        "id": "16f2b938-0287-9352-c49b-78816e37a263",
+        "name": "HA21_HS2_SS_",
+        "values": [
+          [
+            "40e4bd01-3c10-8764-ec0d-e0e759015ea5",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "4d150512-38a0-25e0-589a-2413524e0db9",
+        "name": "HA22_HS0_SS_",
+        "values": [
+          [
+            "90076e3c-c40d-881a-67f7-f9d96c18bd7e",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "5e470944-419b-df46-f510-6da7c0d72d35",
+        "name": "HA23_HS0_SS_",
+        "values": [
+          [
+            "7207fd57-4a1d-cd16-88c4-80abccc55862",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "b79a7cdc-0063-9edc-6422-05fcb74b5507",
+        "name": "HA24_HS0_SS_",
+        "values": [
+          [
+            "52cb9ea0-6c69-4d3c-ed78-3c0444b06f75",
+            7
+          ]
+        ]
+      }
+    ],
+    "day": [
+      {
+        "id": "53b0842e-c743-9ba7-b5ee-15de10acd78a",
+        "name": "SSHDV",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "164419dd-43fc-25ff-cf5b-7178e6f26762",
+        "name": "SSHDI",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "e6b0921e-dc70-ae38-9f59-2449e8f29cdd",
+        "name": "ELEMENTOSDESOMBRADIAVER",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "417dd14a-3f6c-1d16-02fd-916804f0772a",
+        "name": "ELEMENTOSDESOMBRADIAINV",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "de9a3b5d-c024-aee7-1907-6498ef6427f4",
+        "name": "HA0_SS_D-Refrig-Temp-Lab",
+        "values": [
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          27.0
+        ]
+      },
+      {
+        "id": "1dce7386-0848-5404-d2f2-3bcde8f9d086",
+        "name": "HA0_SS_D-Refrig-Temp-Sab",
+        "values": [
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          27.0
+        ]
+      },
+      {
+        "id": "6836973b-5a43-97d6-840e-825f4bdcbeb9",
+        "name": "HA0_SS_D-Refrig-Temp-Fest",
+        "values": [
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          27.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          99.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          27.0
+        ]
+      },
+      {
+        "id": "48c68aaa-0ab1-531a-43b4-24303449a40d",
+        "name": "HA1_SS_D-Calef-Temp-Lab",
+        "values": [
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          17.0
+        ]
+      },
+      {
+        "id": "f573848f-5820-cbaf-9b93-87c319e216db",
+        "name": "HA1_SS_D-Calef-Temp-Sab",
+        "values": [
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          17.0
+        ]
+      },
+      {
+        "id": "c6597a61-6821-6e17-5299-9a16904de5dd",
+        "name": "HA1_SS_D-Calef-Temp-Fest",
+        "values": [
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          17.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          17.0
+        ]
+      },
+      {
+        "id": "65d2f20e-b166-b7cb-0195-c508713f6170",
+        "name": "HA2_SS_D-Refrig-Temp-Lab-t",
+        "values": [
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0
+        ]
+      },
+      {
+        "id": "8f088336-2061-ab14-829d-f24e6c9ffca7",
+        "name": "HA2_SS_D-Refrig-Temp-Sab-t",
+        "values": [
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0
+        ]
+      },
+      {
+        "id": "f9cb8626-567d-4443-a1d9-6618cd0449d8",
+        "name": "HA2_SS_D-Refrig-Temp-Fest-t",
+        "values": [
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0
+        ]
+      },
+      {
+        "id": "f1174132-0d47-2c68-5520-79f25735bebb",
+        "name": "HA3_SS_D-Calef-Temp-Lab-t",
+        "values": [
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ]
+      },
+      {
+        "id": "36964595-dd52-bb56-3d4f-21396e4c4807",
+        "name": "HA3_SS_D-Calef-Temp-Sab-t",
+        "values": [
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ]
+      },
+      {
+        "id": "d935c79f-5baf-e958-7be2-f851a961606f",
+        "name": "HA3_SS_D-Calef-Temp-Fest-t",
+        "values": [
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ]
+      },
+      {
+        "id": "1ed311f7-c6d9-6651-dedd-627e27b992f2",
+        "name": "HA4_SS_D-Calef-Temp-Lab-AP",
+        "values": [
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0,
+          -20.0
+        ]
+      },
+      {
+        "id": "27eaede9-1864-89a5-c7ee-f22f4a3eaa47",
+        "name": "HA5_SS_D-Refrig-Temp-Lab-AP",
+        "values": [
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0,
+          70.0
+        ]
+      },
+      {
+        "id": "dda35e8e-e1cd-7f0e-ca69-25165c58cda2",
+        "name": "HA6_SS_D-8h-Lab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "8bf96925-ac02-7154-9b9c-32f257b5a308",
+        "name": "HA6_SS_D-8h-Sab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "78d4ecb9-af11-dc75-1f36-e472b0f826e0",
+        "name": "HA6_SS_D-8h-Fest",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "f2734cb9-ed0e-f637-b6b1-8dd8a8b7c80d",
+        "name": "HA7_SS_D-8h-Lab_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "0101fa30-b0bf-3b7e-907e-8fe35065f794",
+        "name": "HA7_SS_D-8h-Sab_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "f49cd29b-3d59-1a7d-0fa4-4772d6eea22e",
+        "name": "HA7_SS_D-8h-Fest_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "561e3bd9-d0b6-165e-954a-516685c31efb",
+        "name": "HA8_SS_D-8h-Lab_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "dc46827f-dd2c-8697-e54d-f8706b23e302",
+        "name": "HA8_SS_D-8h-Sab_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "e597fe6f-98a2-95dd-4c57-9d4abea6f4f6",
+        "name": "HA8_SS_D-8h-Fest_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "31d102c5-8e35-de8f-1fc7-9ef4b59a3d94",
+        "name": "HA9_SS_D-12h-Lab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "dcc53234-d123-93b6-dc05-ad652572fa11",
+        "name": "HA9_SS_D-12h-Sab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "1e3d72d3-8cae-ad7e-cf58-c1d466c2c473",
+        "name": "HA9_SS_D-12h-Fest",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "9b0c1ac6-411b-4b54-4707-daa5c35489c3",
+        "name": "HA10_SS_D-12h-Lab_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "174fe2fb-a6cd-6d78-95fe-f63e22d888da",
+        "name": "HA10_SS_D-12h-Sab_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "a687b3c0-2580-3e56-e79a-0774e8345860",
+        "name": "HA10_SS_D-12h-Fest_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "9ca88e28-d6a4-e532-7065-090a541bdf95",
+        "name": "HA11_SS_D-12h-Lab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "6643774f-f6c9-2843-f1e6-6cf51df9e41c",
+        "name": "HA11_SS_D-12h-Sab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "65243c28-98e2-4afe-6865-49b1e214fcf4",
+        "name": "HA11_SS_D-12h-Fest",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "6f38c6bb-79c0-e784-3190-0256a2be3f9b",
+        "name": "HA12_SS_D-16h-Lab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "92cd96ad-127c-d7a7-0629-5595a0418143",
+        "name": "HA12_SS_D-16h-Sab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "15694793-2f3f-4ac3-cffa-3c60b600cbff",
+        "name": "HA12_SS_D-16h-Fest",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "a3cd2d41-9962-90e5-3184-fed266ec0dcf",
+        "name": "HA13_SS_D-16h-Lab_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "7af42397-b708-bec9-2f2f-36abc2ab18a0",
+        "name": "HA13_SS_D-16h-Sab_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "352e68c4-0b2c-c3b6-c12b-232632cb51ba",
+        "name": "HA13_SS_D-16h-Fest_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "ff3d55df-4688-8f10-2951-eea9c5e4a92b",
+        "name": "HA14_SS_D-16h-Lab_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "f6d226c3-a01a-f3b6-f4d3-2670fa5f1904",
+        "name": "HA14_SS_D-16h-Sab_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "5d9721be-e2ce-1e32-02c3-0f163aeca5d1",
+        "name": "HA14_SS_D-16h-Fest_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "405c73eb-02a0-2528-c347-bd9e259e122d",
+        "name": "HA15_SS_D-24h-Lab",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "282063f8-329b-91d1-32a8-a4a0222878f2",
+        "name": "HA15_SS_D-24h-Sab",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "e6c67bc9-7fe1-6918-e0bf-916847eca702",
+        "name": "HA15_SS_D-24h-Fest",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "26dbbce9-9ad7-51c1-ed16-963c65cd5f62",
+        "name": "HA16_SS_D-24h-Lab_eq",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "60abf2a2-922f-097a-0025-2ca2e1782e18",
+        "name": "HA16_SS_D-24h-Sab_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "3a816db3-2a34-6a77-f7d1-c236a0aa3c3f",
+        "name": "HA16_SS_D-24h-Fest_eq",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "75149e8c-bef0-03cb-e44d-ef9b00ade96b",
+        "name": "HA17_SS_D-24h-Lab_vent",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "b446c4f9-fc5a-e620-b81f-49ebf53f84bc",
+        "name": "HA17_SS_D-24h-Sab_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "7ac260cd-661d-b231-efa6-226a78771669",
+        "name": "HA17_SS_D-24h-Fest_vent",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "15e03c4d-2601-2096-50ee-445f3aaf4b80",
+        "name": "HA18_SS_D-Resid-Ocup-Lab",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ]
+      },
+      {
+        "id": "50dd573b-9ac4-1e11-d11d-9386e9debdf0",
+        "name": "HA18_SS_D-Resid-Ocup-Sab",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "1343e048-56ac-4dc4-f567-00a9792965f8",
+        "name": "HA18_SS_D-Resid-Ocup-Fest",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "5679f79e-08e5-2fa3-b915-f52ee2449a5c",
+        "name": "HA19_SS_D-Resid-ilum-Lab",
+        "values": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.5
+        ]
+      },
+      {
+        "id": "64783f12-2f63-e66b-e28d-82ab0aa24461",
+        "name": "HA19_SS_D-Resid-ilum-Sab",
+        "values": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.5
+        ]
+      },
+      {
+        "id": "b43d3ccc-4181-cf9d-6335-1b229a08d722",
+        "name": "HA19_SS_D-Resid-ilum-Fest",
+        "values": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.5
+        ]
+      },
+      {
+        "id": "1121d6c2-3713-7b63-8f82-9be50a39180d",
+        "name": "HA20_SS_D-Resid-Func-Lab",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "f090d8a1-79c4-0c28-747f-8a4593fe6355",
+        "name": "HA20_SS_D-Resid-Func-Sab",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "9d881ebd-f48c-27ac-f6f6-78d5e5538de1",
+        "name": "HA20_SS_D-Resid-Func-Fest",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "2d07dd86-dd9d-feb8-29ca-46d66ea21a29",
+        "name": "HA21_SS_D-Resid-Inf-Inv",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "40e4bd01-3c10-8764-ec0d-e0e759015ea5",
+        "name": "HA21_SS_D-Resid-Inf-Ver",
+        "values": [
+          17.69,
+          17.69,
+          17.69,
+          17.69,
+          17.69,
+          17.69,
+          17.69,
+          17.69,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "90076e3c-c40d-881a-67f7-f9d96c18bd7e",
+        "name": "HA22_SS_D-No-Habitable",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "7207fd57-4a1d-cd16-88c4-80abccc55862",
+        "name": "HA23_SS_D-No-habitable-Func",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "52cb9ea0-6c69-4d3c-ed78-3c0444b06f75",
+        "name": "HA24_SS_D-No-habitable-Inf",
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  "loads": [
+    {
+      "id": "3f4cb0fe-47bb-4140-0add-0ab45a707599",
+      "name": "NIVEL_ESTANQUEIDAD_1",
+      "area_per_person": 0.0,
+      "people_schedule": "38c5d18f-1dfd-ba91-09a1-e23aab8cb13d",
+      "people_sensible": 0.0,
+      "people_latent": 0.0,
+      "equipment": 0.0,
+      "equipment_schedule": "38c5d18f-1dfd-ba91-09a1-e23aab8cb13d",
+      "lighting": 0.0,
+      "lighting_schedule": "38c5d18f-1dfd-ba91-09a1-e23aab8cb13d"
+    },
+    {
+      "id": "64fa40f4-8875-8abe-b1f8-f181235bb0d4",
+      "name": "Residencial",
+      "area_per_person": 33.33,
+      "people_schedule": "7319d4a9-7ca0-b029-ecc7-96228aa13b56",
+      "people_sensible": 2.15,
+      "people_latent": 1.36,
+      "equipment": 4.4,
+      "equipment_schedule": "d9bfa4c0-d9dc-b918-2993-9b8063900421",
+      "lighting": 4.4,
+      "lighting_schedule": "d9bfa4c0-d9dc-b918-2993-9b8063900421"
+    }
+  ],
+  "thermostats": [
+    {
+      "id": "abd7425c-d64b-2e26-9487-8a82ebd75b82",
+      "name": "NIVEL_ESTANQUEIDAD_1"
+    },
+    {
+      "id": "ea752eba-8811-7f1b-5a89-3e6a5e43b4d4",
+      "name": "Residencial",
+      "temp_max": "3675a836-0996-50a6-7d78-cf271e542d82",
+      "temp_min": "85f3131b-8336-1d44-ac46-34a24b75d3c0"
+    }
+  ],
+  "overrides": {
+    "walls": {
+      "1433bfb6-4863-0976-89d6-3db18f17ff87": {
+        "u_value": 0.4
+      }
+    },
+    "windows": {
+      "aba1993b-98d6-89d3-1aea-8cc1a6cb7d63": {
+        "f_shobst": 0.74
+      },
+      "cefdefd6-35ad-7f77-1b7a-ea417e38482a": {
+        "f_shobst": 0.75
+      },
+      "f10649a7-9504-de25-40a5-7940634c5f36": {
+        "f_shobst": 0.62
+      },
+      "fecad710-92e4-7848-3250-694e32f54b27": {
+        "f_shobst": 0.76
+      }
+    }
+  },
+  "extra": [
+    {
+      "name": "P01_E01_PCT001",
+      "bounds": "GROUND",
+      "spacetype": "UNINHABITED",
+      "nextspace": null,
+      "nextspacetype": null,
+      "tilt": "SIDE",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "u": 0.0,
+      "computed_u": 1.0
+    },
+    {
+      "name": "P01_E01_PCT002",
+      "bounds": "GROUND",
+      "spacetype": "UNINHABITED",
+      "nextspace": null,
+      "nextspacetype": null,
+      "tilt": "SIDE",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "u": 0.0,
+      "computed_u": 1.0
+    },
+    {
+      "name": "P01_E01_PCT003",
+      "bounds": "GROUND",
+      "spacetype": "UNINHABITED",
+      "nextspace": null,
+      "nextspacetype": null,
+      "tilt": "SIDE",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "u": 0.0,
+      "computed_u": 1.0
+    },
+    {
+      "name": "P01_E01_PCT004",
+      "bounds": "GROUND",
+      "spacetype": "UNINHABITED",
+      "nextspace": null,
+      "nextspacetype": null,
+      "tilt": "SIDE",
+      "cons": "ce14e555-20a2-ece3-18a4-364a5671dd97",
+      "u": 0.0,
+      "computed_u": 1.0
+    },
+    {
+      "name": "P01_E01_FTER001",
+      "bounds": "GROUND",
+      "spacetype": "UNINHABITED",
+      "nextspace": null,
+      "nextspacetype": null,
+      "tilt": "BOTTOM",
+      "cons": "e38b6f73-34e0-e2d5-d507-8926287ee4b0",
+      "u": 0.0,
+      "computed_u": 0.51
+    },
+    {
+      "name": "P02_E01_FI001",
+      "bounds": "INTERIOR",
+      "spacetype": "CONDITIONED",
+      "nextspace": "47948e62-6df1-150b-7138-2cf00e15301a",
+      "nextspacetype": "UNINHABITED",
+      "tilt": "BOTTOM",
+      "cons": "582506f6-3d59-5eaa-00f2-d4f1af6a09a7",
+      "u": 0.4,
+      "computed_u": 0.28
+    }
+  ]
+}

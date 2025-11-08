@@ -1041,6 +1041,30 @@ $
     V3   =( 7, 1.414214 )
     V4   =( 1, 1.414214 )
     ..
+"P03_E02F001_Poligono1" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
+    ..
+"P03_E03F002_Poligono2" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
+    ..
+"P03_E04F003_Poligono3" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
+    ..
+"P03_E05F004_Poligono4" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
+    ..
 $
 $ +-------------------+
 $ | DATOS GEOMÉTRICOS |
@@ -1567,7 +1591,7 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              7
                   Y             =              1
                   Z             =            1.5
@@ -1575,9 +1599,9 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =             45
                   POLYGON       = "P03_E01C002_Poligono2"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
                         ..
             "P03_E01C003" = ROOF
                   ABSORPTANCE   =            0.6
@@ -1632,7 +1656,7 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
+                  CONSTRUCTION  = "CUB IN TEJA"  
                   X             =              1
                   Y             =              7
                   Z             =            1.5
@@ -1640,9 +1664,20 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =             45
                   POLYGON       = "P03_E01C004_Poligono4"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
+                        ..
+            "P03_E01_FI001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P02_E01"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "FOR INT"  
+                  LOCATION      = BOTTOM  
+                        ..
+                  "FOR INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "FOR INT" 
                         ..
     "P03_E02" = SPACE
         nCompleto = "P03_E02"
@@ -1658,8 +1693,9 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = SI
+       perteneceALaEnvolventeTermica   = NO
            INTERIOR-RADIATION  = FIXED
+           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
@@ -1697,6 +1733,21 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "CUB IN TEJA" 
                         ..
+            "P03_E02F001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              0
+                  Y             =              0
+                  Z             =              0
+                  AZIMUTH       =            180
+                  TILT          =              0
+                  POLYGON       = "P03_E02F001_Poligono1"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
     "P03_E03" = SPACE
         nCompleto = "P03_E03"
               HEIGHT        =            0.5
@@ -1711,8 +1762,9 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = SI
+       perteneceALaEnvolventeTermica   = NO
            INTERIOR-RADIATION  = FIXED
+           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
@@ -1750,6 +1802,21 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "TAB INT" 
                         ..
+            "P03_E03F002" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              8
+                  Y             =              0
+                  Z             =            1.5
+                  AZIMUTH       =             90
+                  TILT          =              0
+                  POLYGON       = "P03_E03F002_Poligono2"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
     "P03_E04" = SPACE
         nCompleto = "P03_E04"
               HEIGHT        =            0.5
@@ -1764,7 +1831,7 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = SI
+       perteneceALaEnvolventeTermica   = NO
            INTERIOR-RADIATION  = FIXED
            CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
@@ -1804,6 +1871,21 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "TAB INT" 
                         ..
+            "P03_E04F003" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              8
+                  Y             =              8
+                  Z             =            1.5
+                  AZIMUTH       =              0
+                  TILT          =              0
+                  POLYGON       = "P03_E04F003_Poligono3"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
     "P03_E05" = SPACE
         nCompleto = "P03_E05"
               HEIGHT        =            0.5
@@ -1818,8 +1900,9 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = SI
+       perteneceALaEnvolventeTermica   = NO
            INTERIOR-RADIATION  = FIXED
+           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
@@ -1852,6 +1935,21 @@ $          TYPE-OPER = "Acondicionado"
                   AZIMUTH       =            270
                   TILT          =             45
                   POLYGON       = "P03_E05C001_Poligono1"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P03_E05F004" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              0
+                  Y             =              8
+                  Z             =            1.5
+                  AZIMUTH       =            270
+                  TILT          =              0
+                  POLYGON       = "P03_E05F004_Poligono4"
                         ..
                   "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
