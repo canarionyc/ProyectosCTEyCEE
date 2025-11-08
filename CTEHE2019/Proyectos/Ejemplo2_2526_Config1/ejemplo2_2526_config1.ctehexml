@@ -261,8 +261,8 @@ CAMBIO-CALENER = NO
    LAMAS-REFLECTIVITY  =              0
    ETAncho  =             20
    ETAlto  =             20
-   RadioEsferas  =            0.1
-   RadioSeleccion  =            0.1
+   RadioEsferas  =           0.25
+   RadioSeleccion  =           0.25
      ..
 $
 $ ----------------------
@@ -818,133 +818,89 @@ $
            ..
 "Linea4" = AUX-LINE
            TYPE = 0
-           X0   = 2.000000
-           Y0   = 2.000000
-           Z0   = 4.000000
-           X1   = 6.000000
-           Y1   = 2.000000
-           Z1   = 4.000000
+           X0   = 1.000000
+           Y0   = 1.000000
+           Z0   = 4.500000
+           X1   = 7.000000
+           Y1   = 1.000000
+           Z1   = 4.500000
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
 "Linea5" = AUX-LINE
-           TYPE = 1
-           X0   = 2.000000
-           Y0   = 2.000000
-           Z0   = 6.500000
-           X1   = 6.000000
-           Y1   = 2.000000
-           Z1   = 6.500000
-           OWNERF = "P03"
-           OWNERS = "(null)"
-           ..
-"Linea8" = AUX-LINE
            TYPE = 0
-           X0   = 6.000000
-           Y0   = 6.000000
-           Z0   = 4.000000
-           X1   = 2.000000
-           Y1   = 6.000000
-           Z1   = 4.000000
-           OWNERF = "P03"
-           OWNERS = "(null)"
-           ..
-"Linea9" = AUX-LINE
-           TYPE = 0
-           X0   = 2.000000
-           Y0   = 6.000000
-           Z0   = 4.000000
-           X1   = 2.000000
-           Y1   = 2.000000
-           Z1   = 4.000000
-           OWNERF = "P03"
-           OWNERS = "(null)"
-           ..
-"Linea10" = AUX-LINE
-           TYPE = 0
-           X0   = 4.000000
-           Y0   = 0.000000
-           Z0   = 4.000000
-           X1   = 4.000000
-           Y1   = 2.000000
-           Z1   = 4.000000
-           OWNERF = "P03"
-           OWNERS = "(null)"
-           ..
-"Linea11" = AUX-LINE
-           TYPE = 0
-           X0   = 4.000000
-           Y0   = 6.000000
-           Z0   = 4.000000
-           X1   = 4.000000
-           Y1   = 8.000000
-           Z1   = 4.000000
+           X0   = 7.000000
+           Y0   = 1.000000
+           Z0   = 4.500000
+           X1   = 7.000000
+           Y1   = 7.000000
+           Z1   = 4.500000
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
 "Linea6" = AUX-LINE
            TYPE = 0
-           X0   = 6.000000
-           Y0   = 2.000000
-           Z0   = 4.000000
-           X1   = 6.000000
-           Y1   = 6.000000
-           Z1   = 4.000000
+           X0   = 7.000000
+           Y0   = 7.000000
+           Z0   = 4.500000
+           X1   = 1.000000
+           Y1   = 7.000000
+           Z1   = 4.500000
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
 "Linea7" = AUX-LINE
-           TYPE = 1
-           X0   = 6.000000
-           Y0   = 2.000000
-           Z0   = 6.500000
-           X1   = 6.000000
-           Y1   = 6.000000
-           Z1   = 6.500000
-           OWNERF = "P03"
-           OWNERS = "(null)"
-           ..
-"Linea12" = AUX-LINE
-           TYPE = 1
-           X0   = 6.000000
-           Y0   = 6.000000
-           Z0   = 6.500000
-           X1   = 2.000000
-           Y1   = 6.000000
-           Z1   = 6.500000
-           OWNERF = "P03"
-           OWNERS = "(null)"
-           ..
-"Linea13" = AUX-LINE
-           TYPE = 1
-           X0   = 2.000000
-           Y0   = 6.000000
-           Z0   = 6.500000
-           X1   = 2.000000
-           Y1   = 2.000000
-           Z1   = 6.500000
-           OWNERF = "P03"
-           OWNERS = "(null)"
-           ..
-"Linea14" = AUX-LINE
            TYPE = 0
-           X0   = 6.000000
-           Y0   = 4.000000
-           Z0   = 4.000000
-           X1   = 8.000000
-           Y1   = 4.000000
-           Z1   = 4.000000
+           X0   = 1.000000
+           Y0   = 7.000000
+           Z0   = 4.500000
+           X1   = 1.000000
+           Y1   = 1.000000
+           Z1   = 4.500000
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
-"Linea15" = AUX-LINE
+"Linea8" = AUX-LINE
            TYPE = 0
-           X0   = 0.000000
-           Y0   = 4.000000
-           Z0   = 4.000000
-           X1   = 2.000000
-           Y1   = 4.000000
-           Z1   = 4.000000
+           X0   = 1.000000
+           Y0   = 1.000000
+           Z0   = 5.500000
+           X1   = 7.000000
+           Y1   = 1.000000
+           Z1   = 5.500000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea9" = AUX-LINE
+           TYPE = 0
+           X0   = 7.000000
+           Y0   = 1.000000
+           Z0   = 5.500000
+           X1   = 7.000000
+           Y1   = 7.000000
+           Z1   = 5.500000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea10" = AUX-LINE
+           TYPE = 0
+           X0   = 7.000000
+           Y0   = 7.000000
+           Z0   = 5.500000
+           X1   = 1.000000
+           Y1   = 7.000000
+           Z1   = 5.500000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea11" = AUX-LINE
+           TYPE = 0
+           X0   = 1.000000
+           Y0   = 7.000000
+           Z0   = 5.500000
+           X1   = 1.000000
+           Y1   = 1.000000
+           Z1   = 5.500000
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
@@ -981,178 +937,65 @@ $
     V3   =( 8, 8 )
     V4   =( 0, 8 )
     ..
-"P03_Poligono4" = POLYGON
+"P02_E01_FI003_Poligono3" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 8, 1 )
+    V4   =( 1, 1 )
+    ..
+"P02_E01_FI002_Poligono2" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
+    ..
+"P02_E01_FI004_Poligono2" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
+    ..
+"P02_E01_FI005_Poligono2" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
+    ..
+"P03_Poligono1" = POLYGON
     V1   =( 0, 0 )
     V2   =( 8, 0 )
     V3   =( 8, 8 )
     V4   =( 0, 8 )
     ..
-"P03_E03_Poligono1" = POLYGON
-    V1   =( 4, 0 )
-    V2   =( 4, 2 )
-    V3   =( 2, 2 )
-    V4   =( 2, 6 )
-    V5   =( 4, 6 )
-    V6   =( 4, 8 )
-    V7   =( 0, 8 )
-    V8   =( 0, 0 )
-    ..
 "P03_E01_Poligono1" = POLYGON
-    V1   =( 2, 2 )
-    V2   =( 6, 2 )
-    V3   =( 6, 6 )
-    V4   =( 2, 6 )
+    V1   =( 1, 1 )
+    V2   =( 7, 1 )
+    V3   =( 7, 7 )
+    V4   =( 1, 7 )
     ..
-"P03_E01C001_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 4, 2.5 )
-    V4   =( 0, 2.5 )
-    ..
-"P03_E01C001_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 2, 2.828427 )
-    ..
-"P03_E01C002_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 4, 2.5 )
-    V4   =( 0, 2.5 )
-    ..
-"P03_E01C002_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 2, 2.828427 )
-    ..
-"P03_E01C003_Poligono3" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 4, 2.5 )
-    V4   =( 0, 2.5 )
-    ..
-"P03_E01C003_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 2, 2.828427 )
-    ..
-"P03_E01C004_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 4, 2.5 )
-    V4   =( 0, 2.5 )
-    ..
-"P03_E01C004_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 4, 0 )
-    V3   =( 2, 2.828427 )
-    ..
-"P01_E01C004_Poligono3" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 6, -2.828427 )
-    V3   =( 4, 0 )
-    ..
-"P01_E01C003_Poligono4" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -2, -2.828427 )
-    V3   =( 6, -2.828427 )
-    ..
-"P03_E02_Poligono1" = POLYGON
+"P03_E02_Poligono2" = POLYGON
     V1   =( 0, 0 )
     V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
+    V3   =( 7, 1 )
+    V4   =( 1, 1 )
     ..
-"P03_E03_Poligono2" = POLYGON
+"P03_E03_Poligono3" = POLYGON
     V1   =( 8, 0 )
     V2   =( 8, 8 )
-    V3   =( 6, 6 )
-    V4   =( 6, 2 )
+    V3   =( 7, 7 )
+    V4   =( 7, 1 )
     ..
-"P03_E04_Poligono3" = POLYGON
+"P03_E04_Poligono4" = POLYGON
     V1   =( 8, 8 )
     V2   =( 0, 8 )
-    V3   =( 2, 6 )
-    V4   =( 6, 6 )
+    V3   =( 1, 7 )
+    V4   =( 7, 7 )
     ..
-"P03_E05_Poligono4" = POLYGON
+"P03_E05_Poligono5" = POLYGON
     V1   =( 0, 8 )
     V2   =( 0, 0 )
-    V3   =( 2, 2 )
-    V4   =( 2, 6 )
-    ..
-"P03_E02C001_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
-"P03_E03C001_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
-"P03_E04C002_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
-"P03_E05C003_Poligono3" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2.828427 )
-    V4   =( 2, 2.828427 )
-    ..
-"P02_E01_FI003_Poligono3" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
-    ..
-"P02_E01_FI002_Poligono2" = POLYGON
-    V1   =( 0, -0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
-    ..
-"P02_E01_FI004_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
-    ..
-"P02_E01_FI005_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
-    ..
-"P03_E02F001_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 0, 0 )
-    V3   =( 0, 0 )
-    V4   =( 0, 0 )
-    V5   =( 0, 0 )
-    ..
-"P03_E03F002_Poligono2" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
-    ..
-"P03_E04F003_Poligono3" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
-    ..
-"P03_E05F004_Poligono4" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( 8, 0 )
-    V3   =( 6, 2 )
-    V4   =( 2, 2 )
+    V3   =( 1, 1 )
+    V4   =( 1, 7 )
     ..
 $
 $ +-------------------+
@@ -1183,6 +1026,10 @@ $          TYPE-OPER = "Acondicionado"
            INTERNAL-PARTITIONS = CUSTOM
            TYPE-CASE          = Nuevo
            TYPE-BUILD         = Unifamiliar
+           INF-FLOW  = ( -50.400002, -230.399994 )
+           PERCENTAGE-AIR-CHANGES  = ( 23, 1 )
+           VENTILACION-NOCTURNA = SI 
+           RENOVACIONES-HORA-VERANO-NOCHE = 4.0 
            D-AISLAMIENTO-PERIMETRAL  = 1.000000
            RA-AISLAMIENTO-PERIMETRAL = 1.000000
            STOP-AFTER-MINIMUM-REQUIREMENTS = "NO"
@@ -1489,7 +1336,7 @@ $          TYPE-OPER = "Acondicionado"
             "P02_E01_FI003" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E02"  
-   COMPROBAR-REQUISITOS-MINIMOS = YES
+   COMPROBAR-REQUISITOS-MINIMOS = NO
                   CONSTRUCTION  = "FOR INT"  
                   X             =              0
                   Y             =              0
@@ -1505,7 +1352,7 @@ $          TYPE-OPER = "Acondicionado"
             "P02_E01_FI002" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E03"  
-   COMPROBAR-REQUISITOS-MINIMOS = YES
+   COMPROBAR-REQUISITOS-MINIMOS = NO
                   CONSTRUCTION  = "FOR INT"  
                   X             =              8
                   Y             =              0
@@ -1521,7 +1368,7 @@ $          TYPE-OPER = "Acondicionado"
             "P02_E01_FI004" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E04"  
-   COMPROBAR-REQUISITOS-MINIMOS = YES
+   COMPROBAR-REQUISITOS-MINIMOS = NO
                   CONSTRUCTION  = "FOR INT"  
                   X             =              8
                   Y             =              8
@@ -1537,7 +1384,7 @@ $          TYPE-OPER = "Acondicionado"
             "P02_E01_FI005" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E05"  
-   COMPROBAR-REQUISITOS-MINIMOS = YES
+   COMPROBAR-REQUISITOS-MINIMOS = NO
                   CONSTRUCTION  = "FOR INT"  
                   X             =              0
                   Y             =              8
@@ -1552,15 +1399,15 @@ $          TYPE-OPER = "Acondicionado"
                         ..
 "P03" = FLOOR
       Z             =               4
-      POLYGON       =  "P03_Poligono4"
-      FLOOR-HEIGHT  =            0.5
-      SPACE-HEIGHT  =            0.5
+      POLYGON       =  "P03_Poligono1"
+      FLOOR-HEIGHT  =            4.5
+      SPACE-HEIGHT  =            4.5
       SHAPE         =  POLYGON
       PREVIOUS      =  "P02"
       ..
     "P03_E01" = SPACE
         nCompleto = "P03_E01"
-              HEIGHT        =            0.5
+              HEIGHT        =            4.5
             SHAPE             = POLYGON 
             POLYGON           = "P03_E01_Poligono1"
             TYPE              = CONDITIONED
@@ -1578,256 +1425,11 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E01_MED001" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              2
-                  Y             =              2
-                  Z             =              0
-                  AZIMUTH       =            180
-                  TILT          =             90
-                  POLYGON       = "P03_E01C001_Poligono2"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01_MED002" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              6
-                  Y             =              2
-                  Z             =              0
-                  AZIMUTH       =             90
-                  TILT          =             90
-                  POLYGON       = "P03_E01C002_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01_MED003" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              6
-                  Y             =              6
-                  Z             =              0
-                  AZIMUTH       =              0
-                  TILT          =             90
-                  POLYGON       = "P03_E01C003_Poligono3"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01_MED004" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              2
-                  Y             =              6
-                  Z             =              0
-                  AZIMUTH       =            270
-                  TILT          =             90
-                  POLYGON       = "P03_E01C004_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01_Med001" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-                  NEXT-TO       = "P03_E02"  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  LOCATION      = SPACE-V1  
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01_Med002" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-                  NEXT-TO       = "P03_E03"  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  LOCATION      = SPACE-V2  
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01_Med003" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-                  NEXT-TO       = "P03_E04"  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  LOCATION      = SPACE-V3  
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01_Med004" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-                  NEXT-TO       = "P03_E05"  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  LOCATION      = SPACE-V4  
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E01C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              2
-                  Y             =              2
-                  Z             =            2.5
-                  AZIMUTH       =            180
-                  TILT          =             45
-                  POLYGON       = "P03_E01C001_Poligono1"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
-                  "P03_E01C001_V1" = WINDOW
-                        X              =            1.5
-                        Y              =              0
-                        SETBACK        =              0
-                        HEIGHT         =              1
-                        WIDTH          =              1
-                        GAP            = "S_O"
-                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
-            transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Sur"
-                        FRAME-WIDTH   =      0.0669873
-                        FRAME-CONDUCT =            1.5
-                        FRAME-ABS     =            0.3
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P03_E01C002" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              6
-                  Y             =              2
-                  Z             =            2.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P03_E01C002_Poligono2"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
-            "P03_E01C003" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              6
-                  Y             =              6
-                  Z             =            2.5
-                  AZIMUTH       =              0
-                  TILT          =             45
-                  POLYGON       = "P03_E01C003_Poligono2"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
-                  "P03_E01C003_V1" = WINDOW
-                        X              =            1.5
-                        Y              =              0
-                        SETBACK        =              0
-                        HEIGHT         =              1
-                        WIDTH          =              1
-                        GAP            = "N_E"
-                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
-            transmisividadJulio        = 0.050000
-            HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Norte"
-                        FRAME-WIDTH   =      0.0669873
-                        FRAME-CONDUCT =            1.5
-                        FRAME-ABS     =            0.3
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P03_E01C004" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              2
-                  Y             =              6
-                  Z             =            2.5
-                  AZIMUTH       =            270
-                  TILT          =             45
-                  POLYGON       = "P03_E01C004_Poligono2"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
-            "P03_E01_FI001" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-                  NEXT-TO       = "P02_E01"  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "FOR INT"  
-                  LOCATION      = BOTTOM  
-                        ..
-                  "FOR INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "FOR INT" 
-                        ..
     "P03_E02" = SPACE
         nCompleto = "P03_E02"
-              HEIGHT        =            0.5
+              HEIGHT        =            1
             SHAPE             = POLYGON 
-            POLYGON           = "P03_E02_Poligono1"
+            POLYGON           = "P03_E02_Poligono2"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
             SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
@@ -1837,66 +1439,17 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = NO
+       perteneceALaEnvolventeTermica   = SI
            INTERIOR-RADIATION  = FIXED
-           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E02_PE001" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V1  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E02C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              0
-                  Y             =              0
-                  Z             =            0.5
-                  AZIMUTH       =            180
-                  TILT          =             45
-                  POLYGON       = "P03_E02C001_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E02F001" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              0
-                  Y             =              0
-                  Z             =              0
-                  AZIMUTH       =             90
-                  TILT          =             90
-                  POLYGON       = "P03_E02F001_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
     "P03_E03" = SPACE
         nCompleto = "P03_E03"
-              HEIGHT        =            0.5
+              HEIGHT        =            4.5
             SHAPE             = POLYGON 
-            POLYGON           = "P03_E03_Poligono2"
+            POLYGON           = "P03_E03_Poligono3"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
             SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
@@ -1906,66 +1459,17 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = NO
+       perteneceALaEnvolventeTermica   = SI
            INTERIOR-RADIATION  = FIXED
-           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E03_PE001" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V1  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E03C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 1
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              8
-                  Y             =              0
-                  Z             =            0.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P03_E03C001_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E03F002" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              8
-                  Y             =              0
-                  Z             =              0
-                  AZIMUTH       =             90
-                  TILT          =              0
-                  POLYGON       = "P03_E03F002_Poligono2"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
     "P03_E04" = SPACE
         nCompleto = "P03_E04"
-              HEIGHT        =            0.5
+              HEIGHT        =            4.5
             SHAPE             = POLYGON 
-            POLYGON           = "P03_E04_Poligono3"
+            POLYGON           = "P03_E04_Poligono4"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
             SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
@@ -1975,66 +1479,17 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = NO
+       perteneceALaEnvolventeTermica   = SI
            INTERIOR-RADIATION  = FIXED
-           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E04_PE001" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V1  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E04C002" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              8
-                  Y             =              8
-                  Z             =            0.5
-                  AZIMUTH       =              0
-                  TILT          =             45
-                  POLYGON       = "P03_E04C002_Poligono2"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E04F003" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              8
-                  Y             =              8
-                  Z             =              0
-                  AZIMUTH       =              0
-                  TILT          =              0
-                  POLYGON       = "P03_E04F003_Poligono3"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
     "P03_E05" = SPACE
         nCompleto = "P03_E05"
-              HEIGHT        =            0.5
+              HEIGHT        =            4.5
             SHAPE             = POLYGON 
-            POLYGON           = "P03_E05_Poligono4"
+            POLYGON           = "P03_E05_Poligono5"
             TYPE              = UNHABITED
             SPACE-TYPE        = "Residencial"
             SYSTEM-CONDITIONS = "NIVEL_ESTANQUEIDAD_1"
@@ -2044,61 +1499,12 @@ $          TYPE-OPER = "Acondicionado"
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
        FactorSuperficieUtil   = 1.0
-       perteneceALaEnvolventeTermica   = NO
+       perteneceALaEnvolventeTermica   = SI
            INTERIOR-RADIATION  = FIXED
-           CLASE-HIGROMETRIA  = 3
            POWER     = 4.4
            VEEI-OBJ  = 7.000000
            VEEI-REF  = 10.000000
             ..
-            "P03_E05_PE001" = EXTERIOR-WALL
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCCION_MURO  = "MURO EXTERIOR"  
-                  CONSTRUCTION  = "MURO EXTERIOR0.60"  
-                  LOCATION      = SPACE-V1  
-                        ..
-                  "MURO EXTERIOR0.60" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "MURO EXTERIOR" 
-                        ABSORPTANCE = 0.600000
-                        ..
-            "P03_E05C003" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  TYPE_ABSORPTANCE    = 0
-                  COLOR_ABSORPTANCE   = 0
-                  DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              0
-                  Y             =              8
-                  Z             =            0.5
-                  AZIMUTH       =            270
-                  TILT          =             45
-                  POLYGON       = "P03_E05C003_Poligono3"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
-            "P03_E05F004" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              0
-                  Y             =              8
-                  Z             =              0
-                  AZIMUTH       =            270
-                  TILT          =              0
-                  POLYGON       = "P03_E05F004_Poligono4"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
 $
 $ +---------------------------+
 $ | CONDICIONES OPERACIONALES |
@@ -3017,7 +2423,7 @@ $
     TYPE  = "FRACTION"
     GROUP = "Ventilación"
     INDEX = 1
-    VALUES  = ( 4.00, 4.00, 4.00, 4.00, 4.00, 4.00, 4.00, 4.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
+    VALUES  = ( 26.67, 26.67, 26.67, 26.67, 26.67, 26.67, 26.67, 26.67, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
     ..
   "HA21_HS0_SS_" = WEEK-SCHEDULE-PD
     TYPE  = FRACTION
@@ -3207,7 +2613,7 @@ $
       TYPE        = PILLAR
     ..
 "HUECO_CAPIALZADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 15.000000
+      LONG-MOD-TOTAL = 13.000000
       LONG-TOTAL = -1.000000
       DEFINICION = 2
       TTL    = 0.220000
@@ -3215,7 +2621,7 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_JAMBA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 21.600000
+      LONG-MOD-TOTAL = 17.600000
       LONG-TOTAL = -1.000000
       DEFINICION = 2
       TTL    = 0.030000
@@ -3223,7 +2629,7 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_ALFEIZAR" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 15.000000
+      LONG-MOD-TOTAL = 13.000000
       LONG-TOTAL = -1.000000
       DEFINICION = 2
       TTL    = 0.510000
@@ -3250,54 +2656,21 @@ $ +-----------------------------------------------------------------+
 	<Definicion_Sistema>
 		<elementos>
 			<FactoresDeCorreccion>
-				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
-					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>cap_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
-					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
-					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.7159;0.2841"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
-					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_T</tipoPropiedad>
+					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
+					<exponentes>"0;1;2;3"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>conRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -3305,19 +2678,8 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
+					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0;1"</coeficientes>
-					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 				<CurvaComportamiento nombre="capSenRef_T-EQ_ED_AireAire_SF-Defecto">
 					<nombre_usuario>capSenRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
@@ -3336,10 +2698,21 @@ $ +-----------------------------------------------------------------+
 					<coeficientes>"0.500602;-0.0464383;-0.000324724;0.0699578;-3.42756e-05;-0.0132021;7.93065e-05"</coeficientes>
 					<exponentes>"0;0;0;1;0;0;2;0;0;0;1;0;0;2;0;0;0;1;0;0;2"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_T</tipoPropiedad>
+					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0;1"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>capTotRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -3347,19 +2720,52 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
+					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
+					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
-					<exponentes>"0;1;2;3"</exponentes>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
+					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.7159;0.2841"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
+					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
+					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>cap_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 			</FactoresDeCorreccion>
 			<Sistemas>

@@ -1,0 +1,132 @@
+999
+DXF created from polygon definitions
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1021
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$EXTMAX
+ 10
+8.0
+ 20
+8.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70
+1
+  0
+LAYER
+  2
+0
+ 70
+0
+ 62
+7
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LWPOLYLINE
+  5
+10
+  8
+0
+ 70
+1
+ 90
+4
+ 10
+0.0
+ 20
+0.0
+ 10
+8.0
+ 20
+0.0
+ 10
+8.0
+ 20
+8.0
+ 10
+0.0
+ 20
+8.0
+  0
+LWPOLYLINE
+  5
+11
+  8
+0
+ 70
+1
+ 90
+8
+ 10
+4.0
+ 20
+0.0
+ 10
+4.0
+ 20
+2.0
+ 10
+2.0
+ 20
+2.0
+ 10
+2.0
+ 20
+6.0
+ 10
+4.0
+ 20
+6.0
+ 10
+4.0
+ 20
+8.0
+ 10
+0.0
+ 20
+8.0
+ 10
+0.0
+ 20
+0.0
+  0
+ENDSEC
+  0
+EOF

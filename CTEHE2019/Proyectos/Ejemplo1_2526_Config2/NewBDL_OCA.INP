@@ -212,330 +212,6 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  NO
     OBSOLETE      = NO
     ..
-"Material_Base" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =          0.075
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =              1
-    DENSITY           =           3000
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             10
-    NAME          = "Material_Base"
-    GROUP         = "Otro"
-    IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2019\Imagenes\Ladrillo.bmp"
-    NAME_CALENER   = ""
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"Teja cerámica-porcelana" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.02
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            1.3
-    DENSITY           =           2300
-    SPECIFIC-HEAT     =            840
-    VAPOUR-DIFFUSIVITY-FACTOR =             30
-    NAME          = "Teja cerámica-porcelana"
-    GROUP         = "Cerámicos"
-    IMAGE          = "arcilla.bmp"
-    NAME_CALENER   = "Teja cerámica-porcelana"
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 250 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.25
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.1760563
-    DENSITY           =            710
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 250 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 250 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            0.2
-    DENSITY           =            670
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 30 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.2229299
-    DENSITY           =            640
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 35 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.3571429
-    DENSITY           =           1330
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 300 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4022988
-    DENSITY           =           1310
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 350 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 400 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.4
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4395604
-    DENSITY           =           1290
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 400 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 400 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 450 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.45
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4787234
-    DENSITY           =           1280
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 450 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 450 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"Material_Base" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =          0.075
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =              1
-    DENSITY           =           3000
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             10
-    NAME          = "Material_Base"
-    GROUP         = "Otro"
-    IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2019\Imagenes\Ladrillo.bmp"
-    NAME_CALENER   = ""
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"Teja cerámica-porcelana" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.02
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            1.3
-    DENSITY           =           2300
-    SPECIFIC-HEAT     =            840
-    VAPOUR-DIFFUSIVITY-FACTOR =             30
-    NAME          = "Teja cerámica-porcelana"
-    GROUP         = "Cerámicos"
-    IMAGE          = "arcilla.bmp"
-    NAME_CALENER   = "Teja cerámica-porcelana"
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 250 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.25
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.1760563
-    DENSITY           =            710
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 250 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 250 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            0.2
-    DENSITY           =            670
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 30 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.2229299
-    DENSITY           =            640
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 35 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.3571429
-    DENSITY           =           1330
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 300 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4022988
-    DENSITY           =           1310
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 350 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 400 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.4
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4395604
-    DENSITY           =           1290
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 400 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 400 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 450 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.45
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4787234
-    DENSITY           =           1280
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 450 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 450 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
 $ ++++++++++++++++++++++++++++++
 $         CERRAMIENTOS
 $ ++++++++++++++++++++++++++++++
@@ -880,60 +556,6 @@ $ ++++++++++++++++++++++++++++++
                 LIBRARY       = NO
     UTIL          =  NO
 ..
- "Met - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            5.7
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mrpt - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            3.2
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mpvc o mad - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            2.2
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Met - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            5.7
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mrpt - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            3.2
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mpvc o mad - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            2.2
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
 $ ++++++++++++++++++++++++++++++
 $             HUECOS
 $ ++++++++++++++++++++++++++++++
@@ -1077,17 +699,6 @@ $ -----------------
 $ Lineas Auxiliares
 $ -----------------
 $
-"Linea5" = AUX-LINE
-           TYPE = 1
-           X0   = 4.000000
-           Y0   = 4.000000
-           Z0   = 4.000000
-           X1   = 4.000000
-           Y1   = 4.000000
-           Z1   = 8.000000
-           OWNERF = "P01"
-           OWNERS = "(null)"
-           ..
 "Linea1" = AUX-LINE
            TYPE = 1
            X0   = 0.000000
@@ -1107,6 +718,17 @@ $
            X1   = 8.000000
            Y1   = 8.000000
            Z1   = 4.500000
+           OWNERF = "P03"
+           OWNERS = "(null)"
+           ..
+"Linea2" = AUX-LINE
+           TYPE = 1
+           X0   = 4.000000
+           Y0   = 4.000000
+           Z0   = 4.500000
+           X1   = 4.000000
+           Y1   = 4.000000
+           Z1   = 9.500000
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
@@ -1155,30 +777,25 @@ $
     V3   =( 8, 8 )
     V4   =( 0, 8 )
     ..
-"_Poligono1" = POLYGON
-    V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
-    ..
 "P03_E02C001_Poligono1" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
+    V2   =( -4, -6.403124 )
+    V3   =( 4, -6.403124 )
     ..
 "P03_E02C002_Poligono2" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
+    V2   =( -4, -6.403124 )
+    V3   =( 4, -6.403124 )
     ..
 "P03_E02C003_Poligono3" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
+    V2   =( -4, -6.403124 )
+    V3   =( 4, -6.403124 )
     ..
 "P03_E02C004_Poligono4" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.315073 )
-    V3   =( 4, -5.315073 )
+    V2   =( -4, -6.403124 )
+    V3   =( 4, -6.403124 )
     ..
 $
 $ +-------------------+
@@ -1568,62 +1185,62 @@ $          TYPE-OPER = "Acondicionado"
             "P03_E02C001" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "CUB IN TEJA"  
+                  CONSTRUCTION  = "TAB INT"  
                   X             =              4
                   Y             =              4
-                  Z             =              4
+                  Z             =            5.5
                   AZIMUTH       =            180
-                  TILT          =       41.18592
+                  TILT          =       51.34019
                   POLYGON       = "P03_E02C001_Poligono1"
                         ..
-                  "CUB IN TEJA" =  CONSTRUCTION
+                  "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
+                        LAYERS = "TAB INT" 
                         ..
             "P03_E02C002" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "CUB IN TEJA"  
+                  CONSTRUCTION  = "TAB INT"  
                   X             =              4
                   Y             =              4
-                  Z             =              4
+                  Z             =            5.5
                   AZIMUTH       =             90
-                  TILT          =       41.18592
+                  TILT          =       51.34019
                   POLYGON       = "P03_E02C002_Poligono2"
                         ..
-                  "CUB IN TEJA" =  CONSTRUCTION
+                  "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
+                        LAYERS = "TAB INT" 
                         ..
             "P03_E02C003" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "CUB IN TEJA"  
+                  CONSTRUCTION  = "TAB INT"  
                   X             =              4
                   Y             =              4
-                  Z             =              4
+                  Z             =            5.5
                   AZIMUTH       =              0
-                  TILT          =       41.18592
+                  TILT          =       51.34019
                   POLYGON       = "P03_E02C003_Poligono3"
                         ..
-                  "CUB IN TEJA" =  CONSTRUCTION
+                  "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
+                        LAYERS = "TAB INT" 
                         ..
             "P03_E02C004" = ROOF
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "CUB IN TEJA"  
+                  CONSTRUCTION  = "TAB INT"  
                   X             =              4
                   Y             =              4
-                  Z             =              4
+                  Z             =            5.5
                   AZIMUTH       =            270
-                  TILT          =       41.18592
+                  TILT          =       51.34019
                   POLYGON       = "P03_E02C004_Poligono4"
                         ..
-                  "CUB IN TEJA" =  CONSTRUCTION
+                  "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
+                        LAYERS = "TAB INT" 
                         ..
 $
 $ +---------------------------+

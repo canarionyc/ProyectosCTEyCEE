@@ -209,6 +209,8 @@ __marimo__/
 .idea/
 /CTEHE2019/Temporales
 /CTEHE2019/Temporales
-*.ctehexml~
+*.*~
 .env
 *.bak
+* - Copy*
+
