@@ -7,11 +7,12 @@ Ventana;P02_E01_PE003_V;6.60;1.13;N ;25.00;0.61;-1.00;1.00;9.00;N_E
 Muro;P02_E01_PE003;25.40;0.22;1.00;Fachada;N ;MURO EXTERIOR
 Ventana;P02_E01_PE004_V;4.40;2.20;O ;100.00;0.61;-1.00;1.00;60.00;PTA
 Muro;P02_E01_PE004;27.60;0.22;1.00;Fachada;O ;MURO EXTERIOR
-Muro;P02_E01_FI001;64.00;0.29;0.00;ParticionInteriorHorizontal;O ;FOR INT
-Muro;P02_E01_FI003;7.50;0.37;0.00;ParticionInteriorHorizontal;H ;FOR INT
-Muro;P02_E01_FI002;7.00;0.37;0.00;ParticionInteriorHorizontal;H ;FOR INT
-Muro;P02_E01_FI004;7.00;0.37;0.00;ParticionInteriorHorizontal;H ;FOR INT
-Muro;P02_E01_FI005;7.00;0.37;0.00;ParticionInteriorHorizontal;H ;FOR INT
+Muro;P02_E01_FI001;64.00;0.20;0.00;ParticionInteriorHorizontal;O ;FOR INT AC-NH
+Muro;P02_E01_FI003;7.00;0.23;0.00;ParticionInteriorHorizontal;H ;FOR INT AC-NH
+Muro;P02_E01_FI002;7.00;0.23;0.00;ParticionInteriorHorizontal;H ;FOR INT AC-NH
+Muro;P02_E01_FI004;7.00;0.23;0.00;ParticionInteriorHorizontal;H ;FOR INT AC-NH
+Muro;P02_E01_FI005;7.00;0.23;0.00;ParticionInteriorHorizontal;H ;FOR INT AC-NH
+Muro;P02_E01F001;36.00;0.39;0.00;ParticionInteriorHorizontal;H ;FOR INT
 Muro;P03_E01_Med001;9.00;0.41;0.00;ParticionInteriorVertical;S ;TAB INT
 Muro;P03_E01_Med002;9.00;0.41;0.00;ParticionInteriorVertical;E ;TAB INT
 Muro;P03_E01_Med003;9.00;0.41;0.00;ParticionInteriorVertical;N ;TAB INT

@@ -209,7 +209,7 @@ $ ++++++++++++++++++++++++++++++
     IMAGE          = "plastico.bmp"
     NAME_CALENER   = "Poliestireno Expandido [XPS]"
     LIBRARY       = NO
-    UTIL          =  NO
+    UTIL          =  YES
     OBSOLETE      = NO
     ..
 $ ++++++++++++++++++++++++++++++
@@ -793,7 +793,7 @@ $
 "P02_E01_FI003_Poligono3" = POLYGON
     V1   =( 0, 0 )
     V2   =( 8, 0 )
-    V3   =( 8, 1 )
+    V3   =( 7, 1 )
     V4   =( 1, 1 )
     ..
 "P02_E01_FI002_Poligono2" = POLYGON
@@ -917,6 +917,12 @@ $
     V2   =( 8, 0 )
     V3   =( 7, 1 )
     V4   =( 1, 1 )
+    ..
+"P02_E01F001_Poligono1" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 6, 0 )
+    V3   =( 6, 6 )
+    V4   =( 0, 6 )
     ..
 $
 $ +-------------------+
@@ -1227,18 +1233,18 @@ $          TYPE-OPER = "Acondicionado"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E01"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_FOR INT"  
+                  CONSTRUCTION  = "I_FOR INT AC-NH"  
                   LOCATION      = BOTTOM  
                         ..
-                  "I_FOR INT" =  CONSTRUCTION
+                  "I_FOR INT AC-NH" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "I_FOR INT" 
+                        LAYERS = "I_FOR INT AC-NH" 
                         ..
             "P02_E01_FI003" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E02"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "FOR INT"  
+                  CONSTRUCTION  = "FOR INT AC-NH"  
                   X             =              0
                   Y             =              0
                   Z             =              4
@@ -1246,15 +1252,15 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =              0
                   POLYGON       = "P02_E01_FI003_Poligono3"
                         ..
-                  "FOR INT" =  CONSTRUCTION
+                  "FOR INT AC-NH" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "FOR INT" 
+                        LAYERS = "FOR INT AC-NH" 
                         ..
             "P02_E01_FI002" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E03"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "FOR INT"  
+                  CONSTRUCTION  = "FOR INT AC-NH"  
                   X             =              8
                   Y             =              0
                   Z             =              4
@@ -1262,15 +1268,15 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =              0
                   POLYGON       = "P02_E01_FI002_Poligono2"
                         ..
-                  "FOR INT" =  CONSTRUCTION
+                  "FOR INT AC-NH" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "FOR INT" 
+                        LAYERS = "FOR INT AC-NH" 
                         ..
             "P02_E01_FI004" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E04"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "FOR INT"  
+                  CONSTRUCTION  = "FOR INT AC-NH"  
                   X             =              8
                   Y             =              8
                   Z             =       3.999999
@@ -1278,21 +1284,36 @@ $          TYPE-OPER = "Acondicionado"
                   TILT          =              0
                   POLYGON       = "P02_E01_FI004_Poligono2"
                         ..
-                  "FOR INT" =  CONSTRUCTION
+                  "FOR INT AC-NH" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "FOR INT" 
+                        LAYERS = "FOR INT AC-NH" 
                         ..
             "P02_E01_FI005" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "FOR INT"  
+                  CONSTRUCTION  = "FOR INT AC-NH"  
                   X             =              0
                   Y             =              8
                   Z             =       3.999999
                   AZIMUTH       =            270
                   TILT          =              0
                   POLYGON       = "P02_E01_FI005_Poligono2"
+                        ..
+                  "FOR INT AC-NH" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "FOR INT AC-NH" 
+                        ..
+            "P02_E01F001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "FOR INT"  
+                  X             =              1
+                  Y             =              1
+                  Z             =              4
+                  AZIMUTH       =            180
+                  TILT          =              0
+                  POLYGON       = "P02_E01F001_Poligono1"
                         ..
                   "FOR INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
@@ -1370,6 +1391,17 @@ $          TYPE-OPER = "Acondicionado"
                   "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "TAB INT" 
+                        ..
+            "P03_E01_FI001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P02_E01"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "I_FOR INT"  
+                  LOCATION      = BOTTOM  
+                        ..
+                  "I_FOR INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "I_FOR INT" 
                         ..
             "P03_E01C001" = ROOF
                   ABSORPTANCE   =            0.6
@@ -1489,17 +1521,6 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "CUB IN TEJA" 
                         ..
-            "P03_E01_FI001" = INTERIOR-WALL
-                  INT-WALL-TYPE = STANDARD  
-                  NEXT-TO       = "P02_E01"  
-   COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_FOR INT"  
-                  LOCATION      = BOTTOM  
-                        ..
-                  "I_FOR INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "I_FOR INT" 
-                        ..
     "P03_E02" = SPACE
         nCompleto = "P03_E02"
               HEIGHT        =            0.5
@@ -1531,21 +1552,6 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
                         ..
-            "P03_E02C006" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              0
-                  Y             =              0
-                  Z             =            0.5
-                  AZIMUTH       =            180
-                  TILT          =             45
-                  POLYGON       = "P03_E02C006_Poligono5"
-                        ..
-                  "CUB IN TEJA" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "CUB IN TEJA" 
-                        ..
             "P03_E02F001" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
    COMPROBAR-REQUISITOS-MINIMOS = NO
@@ -1560,6 +1566,21 @@ $          TYPE-OPER = "Acondicionado"
                   "I_TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_TAB INT" 
+                        ..
+            "P03_E02C006" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              0
+                  Y             =              0
+                  Z             =            0.5
+                  AZIMUTH       =            180
+                  TILT          =             45
+                  POLYGON       = "P03_E02C006_Poligono5"
+                        ..
+                  "CUB IN TEJA" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "CUB IN TEJA" 
                         ..
     "P03_E03" = SPACE
         nCompleto = "P03_E03"
@@ -1592,21 +1613,6 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
                         ..
-            "P03_E03C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              8
-                  Y             =              0
-                  Z             =            0.5
-                  AZIMUTH       =             90
-                  TILT          =             45
-                  POLYGON       = "P03_E03C001_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
             "P03_E03F002" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
    COMPROBAR-REQUISITOS-MINIMOS = NO
@@ -1617,6 +1623,21 @@ $          TYPE-OPER = "Acondicionado"
                   AZIMUTH       =             90
                   TILT          =              0
                   POLYGON       = "P03_E03F002_Poligono2"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P03_E03C001" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              8
+                  Y             =              0
+                  Z             =            0.5
+                  AZIMUTH       =             90
+                  TILT          =             45
+                  POLYGON       = "P03_E03C001_Poligono1"
                         ..
                   "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
@@ -1653,21 +1674,6 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
                         ..
-            "P03_E04C002" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              8
-                  Y             =              8
-                  Z             =            0.5
-                  AZIMUTH       =              0
-                  TILT          =             45
-                  POLYGON       = "P03_E04C002_Poligono2"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
             "P03_E04F003" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
    COMPROBAR-REQUISITOS-MINIMOS = NO
@@ -1678,6 +1684,21 @@ $          TYPE-OPER = "Acondicionado"
                   AZIMUTH       =              0
                   TILT          =              0
                   POLYGON       = "P03_E04F003_Poligono3"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P03_E04C002" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              8
+                  Y             =              8
+                  Z             =            0.5
+                  AZIMUTH       =              0
+                  TILT          =             45
+                  POLYGON       = "P03_E04C002_Poligono2"
                         ..
                   "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
@@ -1714,21 +1735,6 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
                         ..
-            "P03_E05C001" = ROOF
-                  ABSORPTANCE   =            0.6
-                  COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              0
-                  Y             =              8
-                  Z             =            0.5
-                  AZIMUTH       =            270
-                  TILT          =             45
-                  POLYGON       = "P03_E05C001_Poligono1"
-                        ..
-                  "TAB INT" =  CONSTRUCTION
-                        TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
-                        ..
             "P03_E05F004" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  
    COMPROBAR-REQUISITOS-MINIMOS = NO
@@ -1739,6 +1745,21 @@ $          TYPE-OPER = "Acondicionado"
                   AZIMUTH       =            270
                   TILT          =              0
                   POLYGON       = "P03_E05F004_Poligono4"
+                        ..
+                  "TAB INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "TAB INT" 
+                        ..
+            "P03_E05C001" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "TAB INT"  
+                  X             =              0
+                  Y             =              8
+                  Z             =            0.5
+                  AZIMUTH       =            270
+                  TILT          =             45
+                  POLYGON       = "P03_E05C001_Poligono1"
                         ..
                   "TAB INT" =  CONSTRUCTION
                         TYPE   = LAYERS  
