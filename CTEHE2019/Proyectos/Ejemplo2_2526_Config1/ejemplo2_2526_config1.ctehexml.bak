@@ -888,7 +888,7 @@ $ ++++++++++++++++++++++++++++++
      INF-COEF          = 9.000000
      porcentajeIncrementoU = 0.000000
      NAME_CALENER      = ""
-     TransmisividadJulio = 0.170000
+     TransmisividadJulio = 0.050000
     VIGENCIA = ( "A", "B", "C", "D", "E", "F")
     IMAGE = ""
      TRANSMITANCIA       =            5.7

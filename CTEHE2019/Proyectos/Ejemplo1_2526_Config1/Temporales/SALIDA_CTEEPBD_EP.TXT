@@ -1,25 +1,25 @@
 ** Datos de entrada
-Componentes energéticos: "c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\Documentacion\DATOS_CTEEPBD.TXT"
+Componentes energéticos: "C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemplo1_2526_config1\Documentacion\DATOS_CTEEPBD.TXT"
 Factores de paso (usuario): PENINSULA
-Área de referencia (metadatos) [m2]: 100.00
+Área de referencia (metadatos) [m2]: 64.00
 Factor de exportación (metadatos) [-]: 0.0
 ** Balance energético
-Area_ref = 100.00 [m2]
+Area_ref = 64.00 [m2]
 k_exp = 0.00
-C_ep [kWh/m2.an]: ren = 63.6, nren = 17.2, tot = 80.8, RER = 0.79
-E_CO2 [kg_CO2e/m2.an]: 4.22
+C_ep [kWh/m2.an]: ren = 90.0, nren = 7.2, tot = 97.3, RER = 0.93
+E_CO2 [kg_CO2e/m2.an]: 2.35
 
 ** Energía final (todos los vectores) [kWh/m2.an]:
-ACS: 13.85
-CAL: 59.66
-REF: 1.01
-VEN: 0.20
+ACS: 21.64
+CAL: 68.11
+REF: 1.43
+VEN: 0.31
 
 ** Energía primaria (ren, nren) [kWh/m2.an] y emisiones [kg_CO2e/m2.an] por servicios:
-ACS: ren 13.89, nren 0.47, co2: 0.25
-CAL: ren 49.20, nren 14.35, co2: 3.57
-REF: ren 0.42, nren 1.98, co2: 0.33
-VEN: ren 0.08, nren 0.38, co2: 0.06
+ACS: ren 21.70, nren 0.74, co2: 0.39
+CAL: ren 67.62, nren 3.12, co2: 1.39
+REF: ren 0.59, nren 2.79, co2: 0.47
+VEN: ren 0.13, nren 0.60, co2: 0.10
 
 ** Indicadores adicionales
 Demanda total de ACS: 1287.8 [kWh]
