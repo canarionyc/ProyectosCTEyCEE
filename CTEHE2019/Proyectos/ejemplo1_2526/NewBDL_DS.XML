@@ -194,19 +194,19 @@
 					<conACSDiario>42</conACSDiario>
 					<multiplicador>1</multiplicador>
 					<TUso>60</TUso>
-					<TRed>13.229320526123</TRed>
-					<TRed_01>8.72</TRed_01>
-					<TRed_02>9.72</TRed_02>
-					<TRed_03>10.72</TRed_03>
-					<TRed_04>11.36</TRed_04>
-					<TRed_05>13.36</TRed_05>
-					<TRed_06>16.36</TRed_06>
-					<TRed_07>19.36</TRed_07>
-					<TRed_08>18.36</TRed_08>
-					<TRed_09>16.36</TRed_09>
-					<TRed_10>14.72</TRed_10>
-					<TRed_11>10.72</TRed_11>
-					<TRed_12>8.72</TRed_12>
+					<TRed>9.76748275756836</TRed>
+					<TRed_01>4.10</TRed_01>
+					<TRed_02>5.10</TRed_02>
+					<TRed_03>6.10</TRed_03>
+					<TRed_04>9.05</TRed_04>
+					<TRed_05>11.05</TRed_05>
+					<TRed_06>14.05</TRed_06>
+					<TRed_07>17.05</TRed_07>
+					<TRed_08>16.05</TRed_08>
+					<TRed_09>14.05</TRed_09>
+					<TRed_10>10.10</TRed_10>
+					<TRed_11>6.10</TRed_11>
+					<TRed_12>4.10</TRed_12>
 				</DemandaACS>
 				<UT_AguaCaliente nombre="SIS_UT1">
 					<zona>"P02_E01"</zona>
