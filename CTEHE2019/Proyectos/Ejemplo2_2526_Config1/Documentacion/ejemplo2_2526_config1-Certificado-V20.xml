@@ -13,7 +13,7 @@
 		<Email>-</Email>
 		<Titulacion>-</Titulacion>
 		<Telefono>-</Telefono>
-		<Fecha>08/11/2025</Fecha>
+		<Fecha>11/13/2025</Fecha>
 	</DatosDelCertificador>
 	<IdentificacionEdificio>
 		<NombreDelEdificio>Ejemplo2_2526_Config1</NombreDelEdificio>
@@ -46,7 +46,7 @@
 		</PorcentajeSuperficieAcristalada>
 		<DensidadFuentesInternas>4.81</DensidadFuentesInternas>
 		<VentilacionUsoResidencial>0.22</VentilacionUsoResidencial>
-		<VentilacionTotal>0.45</VentilacionTotal>
+		<VentilacionTotal>0.44</VentilacionTotal>
 		<DemandaDiariaACS>42.00</DemandaDiariaACS>
 	</DatosGeneralesyGeometria>
 	<DatosEnvolventeTermica>
@@ -54,29 +54,29 @@
 			<Elemento>
 				<Nombre>FRENTE_FORJADO</Nombre>
 				<Tipo>FRENTE_FORJADO</Tipo>
-				<Longitud>19.00</Longitud>
+				<Longitud>67.00</Longitud>
 				<Transmitancia>0.10</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Elemento>
 			<Elemento>
 				<Nombre>UNION_CUBIERTA</Nombre>
 				<Tipo>UNION_CUBIERTA</Tipo>
-				<Longitud>90.61</Longitud>
-				<Transmitancia>0.23</Transmitancia>
+				<Longitud>64.71</Longitud>
+				<Transmitancia>0.49</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Elemento>
 			<Elemento>
 				<Nombre>ESQUINA_CONVEXA_CERRAMIENTO</Nombre>
 				<Tipo>ESQUINA_CONVEXA_CERRAMIENTO</Tipo>
-				<Longitud>7.40</Longitud>
-				<Transmitancia>0.05</Transmitancia>
+				<Longitud>18.00</Longitud>
+				<Transmitancia>0.00</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Elemento>
 			<Elemento>
 				<Nombre>HUECO_VENTANA</Nombre>
 				<Tipo>HUECO_VENTANA</Tipo>
-				<Longitud>51.60</Longitud>
-				<Transmitancia>0.22</Transmitancia>
+				<Longitud>58.00</Longitud>
+				<Transmitancia>0.14</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Elemento>
 		</PuentesTermicos>
@@ -350,7 +350,7 @@
 				<Tipo>ParticionInteriorHorizontal</Tipo>
 				<Superficie>64.00</Superficie>
 				<Orientacion>O </Orientacion>
-				<Transmitancia>0.29</Transmitancia>
+				<Transmitancia>0.20</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 				<Capas>
 					<Capa>
@@ -362,28 +362,20 @@
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 &lt; d &lt; 1600</Material>
-						<Espesor>0.0500</Espesor>
-						<ConductividadTermica>0.800</ConductividadTermica>
-						<Densidad>1525.00</Densidad>
+						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 &lt; d &lt; 1250</Material>
+						<Espesor>0.0550</Espesor>
+						<ConductividadTermica>0.550</ConductividadTermica>
+						<Densidad>1125.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento de difusion</Material>
-						<Espesor>0.0650</Espesor>
-						<ConductividadTermica>0.550</ConductividadTermica>
+						<Material>Poliestireno Expandido [XPS]</Material>
+						<Espesor>0.1200</Espesor>
+						<ConductividadTermica>0.034</ConductividadTermica>
 						<Densidad>1500.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>800.00</CalorEspecifico>
-					</Capa>
-					<Capa>
-						<Material>XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]</Material>
-						<Espesor>0.0600</Espesor>
-						<ConductividadTermica>0.034</ConductividadTermica>
-						<Densidad>37.50</Densidad>
-						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
-						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
 						<Material>FU Entrevigado cerámico -Canto 250 mm</Material>
@@ -414,9 +406,9 @@
 			<Elemento>
 				<Nombre>P02_E01_FI003</Nombre>
 				<Tipo>ParticionInteriorHorizontal</Tipo>
-				<Superficie>7.50</Superficie>
+				<Superficie>7.00</Superficie>
 				<Orientacion>H </Orientacion>
-				<Transmitancia>0.37</Transmitancia>
+				<Transmitancia>0.23</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 				<Capas>
 					<Capa>
@@ -428,28 +420,20 @@
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 &lt; d &lt; 1600</Material>
-						<Espesor>0.0500</Espesor>
-						<ConductividadTermica>0.800</ConductividadTermica>
-						<Densidad>1525.00</Densidad>
+						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 &lt; d &lt; 1250</Material>
+						<Espesor>0.0550</Espesor>
+						<ConductividadTermica>0.550</ConductividadTermica>
+						<Densidad>1125.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento de difusion</Material>
-						<Espesor>0.0650</Espesor>
-						<ConductividadTermica>0.550</ConductividadTermica>
+						<Material>Poliestireno Expandido [XPS]</Material>
+						<Espesor>0.1200</Espesor>
+						<ConductividadTermica>0.034</ConductividadTermica>
 						<Densidad>1500.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>800.00</CalorEspecifico>
-					</Capa>
-					<Capa>
-						<Material>XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]</Material>
-						<Espesor>0.0600</Espesor>
-						<ConductividadTermica>0.034</ConductividadTermica>
-						<Densidad>37.50</Densidad>
-						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
-						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
 						<Material>FU Entrevigado cerámico -Canto 250 mm</Material>
@@ -482,7 +466,7 @@
 				<Tipo>ParticionInteriorHorizontal</Tipo>
 				<Superficie>7.00</Superficie>
 				<Orientacion>H </Orientacion>
-				<Transmitancia>0.37</Transmitancia>
+				<Transmitancia>0.23</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 				<Capas>
 					<Capa>
@@ -494,28 +478,20 @@
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 &lt; d &lt; 1600</Material>
-						<Espesor>0.0500</Espesor>
-						<ConductividadTermica>0.800</ConductividadTermica>
-						<Densidad>1525.00</Densidad>
+						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 &lt; d &lt; 1250</Material>
+						<Espesor>0.0550</Espesor>
+						<ConductividadTermica>0.550</ConductividadTermica>
+						<Densidad>1125.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento de difusion</Material>
-						<Espesor>0.0650</Espesor>
-						<ConductividadTermica>0.550</ConductividadTermica>
+						<Material>Poliestireno Expandido [XPS]</Material>
+						<Espesor>0.1200</Espesor>
+						<ConductividadTermica>0.034</ConductividadTermica>
 						<Densidad>1500.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>800.00</CalorEspecifico>
-					</Capa>
-					<Capa>
-						<Material>XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]</Material>
-						<Espesor>0.0600</Espesor>
-						<ConductividadTermica>0.034</ConductividadTermica>
-						<Densidad>37.50</Densidad>
-						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
-						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
 						<Material>FU Entrevigado cerámico -Canto 250 mm</Material>
@@ -548,7 +524,7 @@
 				<Tipo>ParticionInteriorHorizontal</Tipo>
 				<Superficie>7.00</Superficie>
 				<Orientacion>H </Orientacion>
-				<Transmitancia>0.37</Transmitancia>
+				<Transmitancia>0.23</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 				<Capas>
 					<Capa>
@@ -560,28 +536,20 @@
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 &lt; d &lt; 1600</Material>
-						<Espesor>0.0500</Espesor>
-						<ConductividadTermica>0.800</ConductividadTermica>
-						<Densidad>1525.00</Densidad>
+						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 &lt; d &lt; 1250</Material>
+						<Espesor>0.0550</Espesor>
+						<ConductividadTermica>0.550</ConductividadTermica>
+						<Densidad>1125.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
-						<Material>Mortero de cemento de difusion</Material>
-						<Espesor>0.0650</Espesor>
-						<ConductividadTermica>0.550</ConductividadTermica>
+						<Material>Poliestireno Expandido [XPS]</Material>
+						<Espesor>0.1200</Espesor>
+						<ConductividadTermica>0.034</ConductividadTermica>
 						<Densidad>1500.00</Densidad>
 						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
 						<CalorEspecifico>800.00</CalorEspecifico>
-					</Capa>
-					<Capa>
-						<Material>XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]</Material>
-						<Espesor>0.0600</Espesor>
-						<ConductividadTermica>0.034</ConductividadTermica>
-						<Densidad>37.50</Densidad>
-						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
-						<CalorEspecifico>1000.00</CalorEspecifico>
 					</Capa>
 					<Capa>
 						<Material>FU Entrevigado cerámico -Canto 250 mm</Material>
@@ -614,7 +582,65 @@
 				<Tipo>ParticionInteriorHorizontal</Tipo>
 				<Superficie>7.00</Superficie>
 				<Orientacion>H </Orientacion>
-				<Transmitancia>0.37</Transmitancia>
+				<Transmitancia>0.23</Transmitancia>
+				<ModoDeObtencion>Usuario</ModoDeObtencion>
+				<Capas>
+					<Capa>
+						<Material>Plaqueta o baldosa de gres</Material>
+						<Espesor>0.0100</Espesor>
+						<ConductividadTermica>2.300</ConductividadTermica>
+						<Densidad>2500.00</Densidad>
+						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
+						<CalorEspecifico>1000.00</CalorEspecifico>
+					</Capa>
+					<Capa>
+						<Material>Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 &lt; d &lt; 1250</Material>
+						<Espesor>0.0550</Espesor>
+						<ConductividadTermica>0.550</ConductividadTermica>
+						<Densidad>1125.00</Densidad>
+						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
+						<CalorEspecifico>1000.00</CalorEspecifico>
+					</Capa>
+					<Capa>
+						<Material>Poliestireno Expandido [XPS]</Material>
+						<Espesor>0.1200</Espesor>
+						<ConductividadTermica>0.034</ConductividadTermica>
+						<Densidad>1500.00</Densidad>
+						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
+						<CalorEspecifico>800.00</CalorEspecifico>
+					</Capa>
+					<Capa>
+						<Material>FU Entrevigado cerámico -Canto 250 mm</Material>
+						<Espesor>0.2500</Espesor>
+						<ConductividadTermica>0.908</ConductividadTermica>
+						<Densidad>1220.00</Densidad>
+						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
+						<CalorEspecifico>1000.00</CalorEspecifico>
+					</Capa>
+					<Capa>
+						<Material>Cámara de aire sin ventilar horizontal 5 cm</Material>
+						<Espesor>0.0500</Espesor>
+						<ResistenciaTermica>0.16</ResistenciaTermica>
+						<Densidad>1500.00</Densidad>
+						<FactorResistenciaVapor>0.16</FactorResistenciaVapor>
+						<CalorEspecifico>800.00</CalorEspecifico>
+					</Capa>
+					<Capa>
+						<Material>Placa de yeso laminado [PYL] 750 &lt; d &lt; 900</Material>
+						<Espesor>0.0150</Espesor>
+						<ConductividadTermica>0.250</ConductividadTermica>
+						<Densidad>825.00</Densidad>
+						<FactorResistenciaVapor>0.20</FactorResistenciaVapor>
+						<CalorEspecifico>1000.00</CalorEspecifico>
+					</Capa>
+				</Capas>
+			</Elemento>
+			<Elemento>
+				<Nombre>P02_E01F001</Nombre>
+				<Tipo>ParticionInteriorHorizontal</Tipo>
+				<Superficie>36.00</Superficie>
+				<Orientacion>H </Orientacion>
+				<Transmitancia>0.39</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 				<Capas>
 					<Capa>
@@ -878,7 +904,7 @@
 			<Elemento>
 				<Nombre>P03_E01C001</Nombre>
 				<Tipo>Cubierta</Tipo>
-				<Superficie>11.73</Superficie>
+				<Superficie>11.23</Superficie>
 				<Orientacion>S </Orientacion>
 				<Transmitancia>0.17</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
@@ -994,7 +1020,7 @@
 			<Elemento>
 				<Nombre>P03_E01C003</Nombre>
 				<Tipo>Cubierta</Tipo>
-				<Superficie>11.73</Superficie>
+				<Superficie>11.23</Superficie>
 				<Orientacion>N </Orientacion>
 				<Transmitancia>0.17</Transmitancia>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
@@ -1142,7 +1168,7 @@
 			<Elemento>
 				<Nombre>P02_E01_PE004_V</Nombre>
 				<Tipo>Hueco</Tipo>
-				<Superficie>4.40</Superficie>
+				<Superficie>2.20</Superficie>
 				<Transmitancia>2.20</Transmitancia>
 				<FactorSolar>0.61</FactorSolar>
 				<Orientacion>Oeste</Orientacion>
@@ -1150,10 +1176,20 @@
 				<ModoDeObtencionFactorSolar>Usuario</ModoDeObtencionFactorSolar>
 			</Elemento>
 			<Elemento>
+				<Nombre>P02_E01_PE004_V2</Nombre>
+				<Tipo>Hueco</Tipo>
+				<Superficie>2.20</Superficie>
+				<Transmitancia>1.13</Transmitancia>
+				<FactorSolar>0.42</FactorSolar>
+				<Orientacion>Oeste</Orientacion>
+				<ModoDeObtencionTransmitancia>Usuario</ModoDeObtencionTransmitancia>
+				<ModoDeObtencionFactorSolar>Usuario</ModoDeObtencionFactorSolar>
+			</Elemento>
+			<Elemento>
 				<Nombre>P03_E01C001_V1</Nombre>
 				<Tipo>Hueco</Tipo>
-				<Superficie>1.00</Superficie>
-				<Transmitancia>1.13</Transmitancia>
+				<Superficie>1.50</Superficie>
+				<Transmitancia>1.28</Transmitancia>
 				<FactorSolar>0.42</FactorSolar>
 				<Orientacion>Sur</Orientacion>
 				<ModoDeObtencionTransmitancia>Usuario</ModoDeObtencionTransmitancia>
@@ -1162,8 +1198,8 @@
 			<Elemento>
 				<Nombre>P03_E01C003_V1</Nombre>
 				<Tipo>Hueco</Tipo>
-				<Superficie>1.00</Superficie>
-				<Transmitancia>1.13</Transmitancia>
+				<Superficie>1.50</Superficie>
+				<Transmitancia>1.28</Transmitancia>
 				<FactorSolar>0.61</FactorSolar>
 				<Orientacion>Norte</Orientacion>
 				<ModoDeObtencionTransmitancia>Usuario</ModoDeObtencionTransmitancia>
@@ -1178,7 +1214,7 @@
 				<Tipo>Caldera eléctrica o de combustible</Tipo>
 				<PotenciaNominal>25.00</PotenciaNominal>
 				<RendimientoNominal>0.93</RendimientoNominal>
-				<RendimientoEstacional>0.72</RendimientoEstacional>
+				<RendimientoEstacional>0.74</RendimientoEstacional>
 				<VectorEnergetico>BiomasaOtros</VectorEnergetico>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Generador>
@@ -1190,7 +1226,7 @@
 				<Tipo>Caldera eléctrica o de combustible</Tipo>
 				<PotenciaNominal>25.00</PotenciaNominal>
 				<RendimientoNominal>0.93</RendimientoNominal>
-				<RendimientoEstacional>0.72</RendimientoEstacional>
+				<RendimientoEstacional>0.74</RendimientoEstacional>
 				<VectorEnergetico>BiomasaOtros</VectorEnergetico>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Instalacion>
@@ -1259,15 +1295,20 @@
 	</CondicionesFuncionamientoyOcupacion>
 	<Demanda>
 		<EdificioObjeto>
-			<Global>59.07</Global>
-			<Calefaccion>43.56</Calefaccion>
-			<Refrigeracion>2.64</Refrigeracion>
+			<Global>56.03</Global>
+			<Calefaccion>39.43</Calefaccion>
+			<Refrigeracion>3.72</Refrigeracion>
 			<ACS>12.88</ACS>
+			<Conjunta>42.04</Conjunta>
 		</EdificioObjeto>
-		<Exigencias>
-			<LimiteCalefaccionVivienda>70.00</LimiteCalefaccionVivienda>
-			<LimiteRefrigeracionVivienda>15.00</LimiteRefrigeracionVivienda>
-		</Exigencias>
+		<EdificioDeReferencia>
+			<Global>0.00</Global>
+			<Calefaccion>0.00</Calefaccion>
+			<Refrigeracion>0.00</Refrigeracion>
+			<ACS>0.00</ACS>
+			<Conjunta>0.00</Conjunta>
+		</EdificioDeReferencia>
+		<Exigencias/>
 	</Demanda>
 	<Consumo>
 		<FactoresdePaso>
@@ -1277,7 +1318,7 @@
 				<GLP>1.201</GLP>
 				<Carbon>1.082</Carbon>
 				<BiomasaPellet>0.085</BiomasaPellet>
-				<BiomasaOtros>0.034</BiomasaOtros>
+				<BiomasaOtros>0.085</BiomasaOtros>
 				<ElectricidadPeninsular>1.954</ElectricidadPeninsular>
 				<ElectricidadBaleares>2.968</ElectricidadBaleares>
 				<ElectricidadCanarias>2.924</ElectricidadCanarias>
@@ -1299,24 +1340,24 @@
 		<EnergiaFinalVectores>
 			<ElectricidadPeninsular>
 				<Calefaccion>0.00</Calefaccion>
-				<Refrigeracion>0.27</Refrigeracion>
+				<Refrigeracion>1.01</Refrigeracion>
 				<ACS>0.00</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>0.27</Global>
+				<Global>1.01</Global>
 			</ElectricidadPeninsular>
 			<GasNatural>
-				<Calefaccion>1.17</Calefaccion>
+				<Calefaccion>10.66</Calefaccion>
 				<Refrigeracion>0.00</Refrigeracion>
 				<ACS>0.00</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>1.17</Global>
+				<Global>10.66</Global>
 			</GasNatural>
 			<BiomasaOtros>
-				<Calefaccion>77.70</Calefaccion>
+				<Calefaccion>49.00</Calefaccion>
 				<Refrigeracion>0.00</Refrigeracion>
-				<ACS>13.19</ACS>
+				<ACS>13.85</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>90.89</Global>
+				<Global>62.85</Global>
 			</BiomasaOtros>
 		</EnergiaFinalVectores>
 		<EnergiaPrimariaNoRenovable>
@@ -1324,10 +1365,9 @@
 			<Calefaccion>0.00</Calefaccion>
 			<Refrigeracion>0.00</Refrigeracion>
 			<ACS>0.00</ACS>
+			<Iluminacion>0.00</Iluminacion>
 		</EnergiaPrimariaNoRenovable>
-		<Exigencias>
-			<LimiteViviendaGlobalEPNR>110.00</LimiteViviendaGlobalEPNR>
-		</Exigencias>
+		<Exigencias/>
 	</Consumo>
 	<EmisionesCO2>
 		<ConsumoElectrico>0.00</ConsumoElectrico>
@@ -1380,7 +1420,7 @@
 	</Calificacion>
 	<PruebasComprobacionesInspecciones>
 		<Visita>
-			<FechaVisita>08/03/15</FechaVisita>
+			<FechaVisita>03/08/15</FechaVisita>
 			<Datos>
 				<![CDATA[data:text/html,]]>
 			</Datos>
@@ -1411,7 +1451,7 @@
 	</EnergiasRenovables>
 	<DatosPersonalizados>
 		<Calificaciones>
-			<CalificacionADemandaCalefaccion>43.56</CalificacionADemandaCalefaccion>
+			<CalificacionADemandaCalefaccion>39.43</CalificacionADemandaCalefaccion>
 			<CalificacionAEmisiones>0.00</CalificacionAEmisiones>
 			<CalificacionAPrimaria>0.00</CalificacionAPrimaria>
 		</Calificaciones>

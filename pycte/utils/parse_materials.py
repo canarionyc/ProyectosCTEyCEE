@@ -212,43 +212,49 @@ def write_bdc_to_excel(materials_properties, materials_resistance, layers,
         # Write PROPERTIES materials
         if materials_properties:
             df = pd.DataFrame(materials_properties)
-            cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
-            df = df[cols]
+            if 'NAME' in df.columns:
+                cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
+                df = df[cols]
             df.to_excel(writer, sheet_name='Materials_Properties', index=False)
 
         # Write RESISTANCE materials
         if materials_resistance:
             df = pd.DataFrame(materials_resistance)
-            cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
-            df = df[cols]
+            if 'NAME' in df.columns:
+                cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
+                df = df[cols]
             df.to_excel(writer, sheet_name='Materials_Resistance', index=False)
 
         # Write layers
         if layers:
             df = pd.DataFrame(layers)
-            cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
-            df = df[cols]
+            if 'NAME' in df.columns:
+                cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
+                df = df[cols]
             df.to_excel(writer, sheet_name='Layers', index=False)
 
         # Write glass types
         if glass_types:
             df = pd.DataFrame(glass_types)
-            cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
-            df = df[cols]
+            if 'NAME' in df.columns:
+                cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
+                df = df[cols]
             df.to_excel(writer, sheet_name='Glass_Types', index=False)
 
         # Write frames
         if frames:
             df = pd.DataFrame(frames)
-            cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
-            df = df[cols]
+            if 'NAME' in df.columns:
+                cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
+                df = df[cols]
             df.to_excel(writer, sheet_name='Frames', index=False)
 
         # Write gaps (windows/doors)
         if gaps:
             df = pd.DataFrame(gaps)
-            cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
-            df = df[cols]
+            if 'NAME' in df.columns:
+                cols = ['NAME'] + [col for col in df.columns if col != 'NAME']
+                df = df[cols]
             df.to_excel(writer, sheet_name='Gaps', index=False)
 
 def process_bdc_library_file(input_file):
@@ -381,7 +387,7 @@ if __name__ == "__main__":
 	"""Command line interface for BDC to Excel conversion."""
 	parser = argparse.ArgumentParser(description="Convert BDC files to Excel format")
 	parser.add_argument("-i", "--input", required=False,
-	                    default=r'C:\ProgramasCTEyCEE\CTEHE2019\Libreria\BDCatalogo.bdc',
+	                    default=r'C:\ProyectosCTEyCEE\CTEHE2019\Libreria\BDCatalogo.txt',
 	                    help="Input file path (.bdc) or input directory path (processes all *.bdc files)")
 
 	args = parser.parse_args()
@@ -399,8 +405,7 @@ if __name__ == "__main__":
 		# Process single file
 		file_ext = os.path.splitext(input_path)[1].lower()
 
-		if file_ext == '.bdc':
-			# Process .ctedbxml file
+		if file_ext == '.bdc' or file_ext=='.txt':
 			process_bdc_file(input_path)
 		else:
 			print(f"Error: Unsupported file extension: {file_ext}")

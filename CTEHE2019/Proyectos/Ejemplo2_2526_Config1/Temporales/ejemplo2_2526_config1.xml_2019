@@ -6,23 +6,23 @@
 		<CargaInternaPromedio>4.812</CargaInternaPromedio>
 	</Datos_2018>
 	<Resultados_2018>
-		<K_2018>0.45</K_2018>
+		<K_2018>0.60</K_2018>
 		<Klim_2018>0.48</Klim_2018>
-		<Qsj_2018>1.29</Qsj_2018>
+		<Qsj_2018>0.76</Qsj_2018>
 		<Qsjlim_2018>2.00</Qsjlim_2018>
 		<Compacidad_2018>1.73</Compacidad_2018>
 		<Vol_Neto_2018>278.00</Vol_Neto_2018>
 		<Vol_Bruto_2018>310.00</Vol_Bruto_2018>
-		<Dcal>43.56</Dcal>
-		<Dref>2.64</Dref>
+		<Dcal>39.43</Dcal>
+		<Dref>3.72</Dref>
 		<AreaUtilHE1_2018>100.00</AreaUtilHE1_2018>
-		<n50_2018>6.50</n50_2018>
+		<n50_2018>6.23</n50_2018>
 		<n50lim_2018>-</n50lim_2018>
-		<CEPNR_2018>8.40</CEPNR_2018>
+		<CEPNR_2018>17.20</CEPNR_2018>
 		<CEPNRlim_2018>43.00</CEPNRlim_2018>
-		<CEPT_2018>151.20</CEPT_2018>
+		<CEPT_2018>80.80</CEPT_2018>
 		<CEPTlim_2018>86.00</CEPTlim_2018>
-		<areaUtil_2018>64.00</areaUtil_2018>
+		<areaUtil_2018>100.00</areaUtil_2018>
 		<NHMAL_2018>0.00</NHMAL_2018>
 		<nhorasMALMax>4.00</nhorasMALMax>
 		<RERACS_2018>96.70</RERACS_2018>
@@ -35,18 +35,19 @@
 	</Resultados_2018>
 	<tablaOpacos>
 		<lineaOrd>P03_E01C002;Cubierta;E ;12.73;0.17</lineaOrd>
-		<lineaOrd>P03_E01C003;Cubierta;N ;11.73;0.17</lineaOrd>
+		<lineaOrd>P03_E01C003;Cubierta;N ;11.23;0.17</lineaOrd>
 		<lineaOrd>P03_E01C004;Cubierta;O ;12.73;0.17</lineaOrd>
-		<lineaOrd>P03_E01C001;Cubierta;S ;11.73;0.17</lineaOrd>
+		<lineaOrd>P03_E01C001;Cubierta;S ;11.23;0.17</lineaOrd>
 		<lineaOrd>P02_E01_PE002;Fachada;E ;25.40;0.22</lineaOrd>
 		<lineaOrd>P02_E01_PE003;Fachada;N ;25.40;0.22</lineaOrd>
 		<lineaOrd>P02_E01_PE004;Fachada;O ;27.60;0.22</lineaOrd>
 		<lineaOrd>P02_E01_PE001;Fachada;S ;21.00;0.22</lineaOrd>
-		<lineaOrd>P02_E01_FI002;ParticionInteriorHorizontal;H ;7.00;0.37</lineaOrd>
-		<lineaOrd>P02_E01_FI003;ParticionInteriorHorizontal;H ;7.50;0.37</lineaOrd>
-		<lineaOrd>P02_E01_FI004;ParticionInteriorHorizontal;H ;7.00;0.37</lineaOrd>
-		<lineaOrd>P02_E01_FI005;ParticionInteriorHorizontal;H ;7.00;0.37</lineaOrd>
-		<lineaOrd>P02_E01_FI001;ParticionInteriorHorizontal;O ;64.00;0.29</lineaOrd>
+		<lineaOrd>P02_E01_FI002;ParticionInteriorHorizontal;H ;7.00;0.23</lineaOrd>
+		<lineaOrd>P02_E01_FI003;ParticionInteriorHorizontal;H ;7.00;0.23</lineaOrd>
+		<lineaOrd>P02_E01_FI004;ParticionInteriorHorizontal;H ;7.00;0.23</lineaOrd>
+		<lineaOrd>P02_E01_FI005;ParticionInteriorHorizontal;H ;7.00;0.23</lineaOrd>
+		<lineaOrd>P02_E01F001;ParticionInteriorHorizontal;H ;36.00;0.39</lineaOrd>
+		<lineaOrd>P02_E01_FI001;ParticionInteriorHorizontal;O ;64.00;0.20</lineaOrd>
 		<lineaOrd>P03_E01_Med002;ParticionInteriorVertical;E ;9.00;0.41</lineaOrd>
 		<lineaOrd>P03_E01_Med003;ParticionInteriorVertical;N ;9.00;0.41</lineaOrd>
 		<lineaOrd>P03_E01_Med004;ParticionInteriorVertical;O ;9.00;0.41</lineaOrd>
@@ -55,14 +56,17 @@
 	<tablaHuecos>
 		<lineaOrd>P02_E01_PE002_V;Hueco;E ;6.60;1.13;0.61;0.05;9.00</lineaOrd>
 		<lineaOrd>P02_E01_PE003_V;Hueco;N ;6.60;1.13;0.61;0.05;9.00</lineaOrd>
-		<lineaOrd>P03_E01C003_V1;Hueco;N ;1.00;1.13;0.61;0.05;9.00</lineaOrd>
-		<lineaOrd>P02_E01_PE004_V;Hueco;O ;4.40;2.20;0.61;1.00;60.00</lineaOrd>
-		<lineaOrd>P02_E01_PE001_V;Hueco;S ;11.00;1.13;0.42;0.17;9.00</lineaOrd>
-		<lineaOrd>P03_E01C001_V1;Hueco;S ;1.00;1.13;0.42;0.17;9.00</lineaOrd>
+		<lineaOrd>P03_E01C003_V1;Hueco;N ;1.50;1.28;0.61;0.05;9.00</lineaOrd>
+		<lineaOrd>P02_E01_PE004_V2;Hueco;O ;2.20;1.13;0.42;0.05;9.00</lineaOrd>
+		<lineaOrd>P02_E01_PE004_V;Hueco;O ;2.20;2.20;0.61;1.00;60.00</lineaOrd>
+		<lineaOrd>P02_E01_PE001_V;Hueco;S ;11.00;1.13;0.42;0.05;9.00</lineaOrd>
+		<lineaOrd>P03_E01C001_V1;Hueco;S ;1.50;1.28;0.42;0.05;9.00</lineaOrd>
 	</tablaHuecos>
 	<tablaPPTT>
-		<linea>-;ESQUINA_CONVEXA_CERRAMIENTO;0.050;7.40;SDINT</linea>
-		<linea>-;HUECO_VENTANA;0.225;51.60;SDINT</linea>
+		<linea>-;FRENTE_FORJADO;0.100;32.00;SDINT</linea>
+		<linea>-;UNION_CUBIERTA;0.489;56.00;SDINT</linea>
+		<linea>-;ESQUINA_CONVEXA_CERRAMIENTO;0.004;18.00;SDINT</linea>
+		<linea>-;HUECO_VENTANA;0.144;58.00;SDINT</linea>
 	</tablaPPTT>
 	<tablaCFYOEspacios>
 		<linea>P02_E01;64.00;224.00;residencial-24h-baja;Acondicionado;46.65;17/20-25/27</linea>
@@ -71,10 +75,12 @@
 	<tablaCFYOEspaciosNH/>
 	<ConsumosEnergeticosFinales>
 		<Consumo>
-			<linea>SIS2_EQ1_EQ_Caldera-Biomasa-Defecto;BIOMASA;CAL;7769.81</linea>
-			<linea>SIS2_EQ1_EQ_Caldera-Biomasa-Defecto;BIOMASA;ACS;1319.46</linea>
-			<linea>SISTEMA_SUSTITUCION_GENERAL_CAL-Ficticio-P02_E01;GASNATURAL;CAL;116.76</linea>
-			<linea>SISTEMA_SUSTITUCION_REF-Ficticio-P02_E01;ELECTRICIDAD;REF;27.06</linea>
+			<linea>SIS2_EQ1_EQ_Caldera-Biomasa-Defecto;BIOMASA;CAL;4899.99</linea>
+			<linea>SIS2_EQ1_EQ_Caldera-Biomasa-Defecto;BIOMASA;ACS;1384.75</linea>
+			<linea>SISTEMA_SUSTITUCION_GENERAL_CAL-Ficticio-P02_E01;GASNATURAL;CAL;50.72</linea>
+			<linea>SISTEMA_SUSTITUCION_REF-Ficticio-P02_E01;ELECTRICIDAD;REF;65.98</linea>
+			<linea>SISTEMA_SUSTITUCION_CAL-Ficticio-P03_E01;GASNATURAL;CAL;1015.40</linea>
+			<linea>SISTEMA_SUSTITUCION_REF-Ficticio-P03_E01;ELECTRICIDAD;REF;35.20</linea>
 			<linea>EQUIPO-EXCLUSIVO-VENTILACION;ELECTRICIDAD;VEN;19.62</linea>
 		</Consumo>
 		<PotenciaGeneracionElectricaRenovableInstalada>0.00</PotenciaGeneracionElectricaRenovableInstalada>
