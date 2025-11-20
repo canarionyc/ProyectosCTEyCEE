@@ -13,7 +13,7 @@
 		<Email>-</Email>
 		<Titulacion>-</Titulacion>
 		<Telefono>-</Telefono>
-		<Fecha>11/13/2025</Fecha>
+		<Fecha>11/20/2025</Fecha>
 	</DatosDelCertificador>
 	<IdentificacionEdificio>
 		<NombreDelEdificio>Ejemplo2_2526_Config1</NombreDelEdificio>
@@ -1218,8 +1218,27 @@
 				<VectorEnergetico>BiomasaOtros</VectorEnergetico>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Generador>
+			<Generador>
+				<Nombre>SISTEMA_SUSTITUCION-Ficticio</Nombre>
+				<Tipo>Sistema de rendimiento estacional constante</Tipo>
+				<PotenciaNominal>99999999.99</PotenciaNominal>
+				<RendimientoNominal>0.95</RendimientoNominal>
+				<RendimientoEstacional>0.95</RendimientoEstacional>
+				<VectorEnergetico>GasNatural</VectorEnergetico>
+				<ModoDeObtencion>PorDefecto</ModoDeObtencion>
+			</Generador>
 		</GeneradoresDeCalefaccion>
-		<GeneradoresDeRefrigeracion/>
+		<GeneradoresDeRefrigeracion>
+			<Generador>
+				<Nombre>SISTEMA_SUSTITUCION-Ficticio</Nombre>
+				<Tipo>Sistema de rendimiento estacional constante</Tipo>
+				<PotenciaNominal>99999999.99</PotenciaNominal>
+				<RendimientoNominal>2.52</RendimientoNominal>
+				<RendimientoEstacional>2.52</RendimientoEstacional>
+				<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
+				<ModoDeObtencion>PorDefecto</ModoDeObtencion>
+			</Generador>
+		</GeneradoresDeRefrigeracion>
 		<InstalacionesACS>
 			<Instalacion>
 				<Nombre>SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Nombre>
@@ -1295,11 +1314,11 @@
 	</CondicionesFuncionamientoyOcupacion>
 	<Demanda>
 		<EdificioObjeto>
-			<Global>56.03</Global>
-			<Calefaccion>39.43</Calefaccion>
+			<Global>53.71</Global>
+			<Calefaccion>39.07</Calefaccion>
 			<Refrigeracion>3.72</Refrigeracion>
-			<ACS>12.88</ACS>
-			<Conjunta>42.04</Conjunta>
+			<ACS>10.92</ACS>
+			<Conjunta>41.68</Conjunta>
 		</EdificioObjeto>
 		<EdificioDeReferencia>
 			<Global>0.00</Global>
@@ -1340,44 +1359,44 @@
 		<EnergiaFinalVectores>
 			<ElectricidadPeninsular>
 				<Calefaccion>0.00</Calefaccion>
-				<Refrigeracion>1.01</Refrigeracion>
+				<Refrigeracion>1.45</Refrigeracion>
 				<ACS>0.00</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>1.01</Global>
+				<Global>1.45</Global>
 			</ElectricidadPeninsular>
 			<GasNatural>
-				<Calefaccion>10.66</Calefaccion>
+				<Calefaccion>11.70</Calefaccion>
 				<Refrigeracion>0.00</Refrigeracion>
 				<ACS>0.00</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>10.66</Global>
+				<Global>11.70</Global>
 			</GasNatural>
 			<BiomasaOtros>
-				<Calefaccion>49.00</Calefaccion>
+				<Calefaccion>40.92</Calefaccion>
 				<Refrigeracion>0.00</Refrigeracion>
-				<ACS>13.85</ACS>
+				<ACS>11.74</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>62.85</Global>
+				<Global>52.66</Global>
 			</BiomasaOtros>
 		</EnergiaFinalVectores>
 		<EnergiaPrimariaNoRenovable>
-			<Global>0.00</Global>
-			<Calefaccion>0.00</Calefaccion>
-			<Refrigeracion>0.00</Refrigeracion>
-			<ACS>0.00</ACS>
+			<Global>18.94</Global>
+			<Calefaccion>15.32</Calefaccion>
+			<Refrigeracion>2.84</Refrigeracion>
+			<ACS>0.40</ACS>
 			<Iluminacion>0.00</Iluminacion>
 		</EnergiaPrimariaNoRenovable>
 		<Exigencias/>
 	</Consumo>
 	<EmisionesCO2>
-		<ConsumoElectrico>0.00</ConsumoElectrico>
-		<TotalConsumoElectrico>0.00</TotalConsumoElectrico>
-		<ConsumoOtros>0.00</ConsumoOtros>
-		<TotalConsumoOtros>0.00</TotalConsumoOtros>
-		<Global>0.00</Global>
-		<Calefaccion>0.00</Calefaccion>
-		<Refrigeracion>0.00</Refrigeracion>
-		<ACS>0.00</ACS>
+		<ConsumoElectrico>0.54</ConsumoElectrico>
+		<TotalConsumoElectrico>54.50</TotalConsumoElectrico>
+		<ConsumoOtros>3.90</ConsumoOtros>
+		<TotalConsumoOtros>389.00</TotalConsumoOtros>
+		<Global>4.44</Global>
+		<Calefaccion>3.69</Calefaccion>
+		<Refrigeracion>0.48</Refrigeracion>
+		<ACS>0.21</ACS>
 	</EmisionesCO2>
 	<Calificacion>
 		<EmisionesCO2>
@@ -1451,9 +1470,9 @@
 	</EnergiasRenovables>
 	<DatosPersonalizados>
 		<Calificaciones>
-			<CalificacionADemandaCalefaccion>39.43</CalificacionADemandaCalefaccion>
-			<CalificacionAEmisiones>0.00</CalificacionAEmisiones>
-			<CalificacionAPrimaria>0.00</CalificacionAPrimaria>
+			<CalificacionADemandaCalefaccion>39.07</CalificacionADemandaCalefaccion>
+			<CalificacionAEmisiones>4.44</CalificacionAEmisiones>
+			<CalificacionAPrimaria>18.94</CalificacionAPrimaria>
 		</Calificaciones>
 		<DatosGeneralesyGeometria>
 			<Imagen>c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\Imagenes\Especifique imagen para el edificio</Imagen>

@@ -1300,7 +1300,7 @@ $          TYPE-OPER = "Acondicionado"
                         RIGHT-FIN-D    =              0
                         ..
                   "P02_E01_PE004_V2" = WINDOW
-                        X              =              5
+                        X              =            5.5
                         Y              =              0
                         SETBACK        =            0.5
                         HEIGHT         =            2.2

@@ -106,7 +106,7 @@
 		<fechaCertificado>NO;29;10;1960</fechaCertificado>
 		<potenciaFVInstalada>0.00</potenciaFVInstalada>
 		<IrrSolDiariaMedAnu>0.00</IrrSolDiariaMedAnu>
-		<estimacionConsumoACSGT>42.00</estimacionConsumoACSGT>
+		<estimacionConsumoACSGT>88.20</estimacionConsumoACSGT>
 		<bajaPermeabilidad>SI</bajaPermeabilidad>
 		<ensayoPermeabilidad>NO</ensayoPermeabilidad>
 		<ValorN50Medido>0</ValorN50Medido>
@@ -134,7 +134,7 @@ $
 $ PROGRAM = LIDER
 $
 $
-CAMBIO = SI
+CAMBIO = NO
 CAMBIO-CALENER = NO
      EEGeneradaAutoconsumida        = "0"
      PANELFOTOVOLTAICOAUTOCONSUMIDO =              0
@@ -1467,7 +1467,7 @@ $          TYPE-OPER = "Acondicionado"
                         RIGHT-FIN-D    =              0
                         ..
                   "P02_E01_PE004_V2" = WINDOW
-                        X              =              5
+                        X              =            5.5
                         Y              =              0
                         SETBACK        =            0.5
                         HEIGHT         =            2.2
@@ -3350,7 +3350,7 @@ $ +-----------------------------------------------------------------+
 						<EQ_Caldera nombre="SIS2_EQ1_EQ_Caldera-Biomasa-Defecto">
 							<capNom>25.00</capNom>
 							<renNom>0.93</renNom>
-							<tipoEnergia>"Biomasa no densificada"</tipoEnergia>
+							<tipoEnergia>"Biomasa densificada (pelets)"</tipoEnergia>
 							<cap_T>"cap_T-EQ_Caldera-unidad"</cap_T>
 							<ren_T>"ren_T-EQ_Caldera-unidad"</ren_T>
 							<ren_FCP_Potencia>"ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto"</ren_FCP_Potencia>
@@ -3358,7 +3358,7 @@ $ +-----------------------------------------------------------------+
 						</EQ_Caldera>
 						<EQ_Acumulador_AC nombre="SIS2_EQ2_Acumulador_de_agua_caliente">
 							<Volumen>100</Volumen>
-							<UA>1</UA>
+							<UA>0.5</UA>
 							<tConsignaBaja>60</tConsignaBaja>
 							<tConsignaAlta>80</tConsignaAlta>
 							<temperaturaEntrada>10.3</temperaturaEntrada>
@@ -3375,7 +3375,7 @@ $ +-----------------------------------------------------------------+
 					<demandas>
 						<DemandaACS nombre="SIS_ACS1">
 							<perfilDiario>Demanda_Hor</perfilDiario>
-							<conACSDiario>42</conACSDiario>
+							<conACSDiario>88.1999969482422</conACSDiario>
 							<TUso>60</TUso>
 							<TRed>9.76748275756836</TRed>
 							<nombre_usuario>SIS2_ACS1_Demanda_de_ACS</nombre_usuario>

@@ -240,7 +240,7 @@
 				<porcentajeES_12>0.00</porcentajeES_12>
 				<EQ_Acumulador_AC nombre="SIS2_EQ2_Acumulador_de_agua_caliente">
 					<Volumen>100</Volumen>
-					<UA>1</UA>
+					<UA>0.5</UA>
 					<tConsignaBaja>60</tConsignaBaja>
 					<tConsignaAlta>80</tConsignaAlta>
 					<temperaturaEntrada>10.3</temperaturaEntrada>

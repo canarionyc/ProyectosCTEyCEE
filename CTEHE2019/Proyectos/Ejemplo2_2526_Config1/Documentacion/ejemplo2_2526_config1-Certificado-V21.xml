@@ -13,7 +13,7 @@
 		<Email>-</Email>
 		<Titulacion>-</Titulacion>
 		<Telefono>-</Telefono>
-		<Fecha>11/13/2025</Fecha>
+		<Fecha>11/20/2025</Fecha>
 	</DatosDelCertificador>
 	<IdentificacionEdificio>
 		<NombreDelEdificio>Ejemplo2_2526_Config1</NombreDelEdificio>
@@ -1218,8 +1218,27 @@
 				<VectorEnergetico>BiomasaOtros</VectorEnergetico>
 				<ModoDeObtencion>Usuario</ModoDeObtencion>
 			</Generador>
+			<Generador>
+				<Nombre>SISTEMA_SUSTITUCION-Ficticio</Nombre>
+				<Tipo>Sistema de rendimiento estacional constante</Tipo>
+				<PotenciaNominal>99999999.99</PotenciaNominal>
+				<RendimientoNominal>0.95</RendimientoNominal>
+				<RendimientoEstacional>0.95</RendimientoEstacional>
+				<VectorEnergetico>GasNatural</VectorEnergetico>
+				<ModoDeObtencion>PorDefecto</ModoDeObtencion>
+			</Generador>
 		</GeneradoresDeCalefaccion>
-		<GeneradoresDeRefrigeracion/>
+		<GeneradoresDeRefrigeracion>
+			<Generador>
+				<Nombre>SISTEMA_SUSTITUCION-Ficticio</Nombre>
+				<Tipo>Sistema de rendimiento estacional constante</Tipo>
+				<PotenciaNominal>99999999.99</PotenciaNominal>
+				<RendimientoNominal>2.52</RendimientoNominal>
+				<RendimientoEstacional>2.52</RendimientoEstacional>
+				<VectorEnergetico>ElectricidadPeninsular</VectorEnergetico>
+				<ModoDeObtencion>PorDefecto</ModoDeObtencion>
+			</Generador>
+		</GeneradoresDeRefrigeracion>
 		<InstalacionesACS>
 			<Instalacion>
 				<Nombre>SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Nombre>
@@ -1295,11 +1314,11 @@
 	</CondicionesFuncionamientoyOcupacion>
 	<Demanda>
 		<EdificioObjeto>
-			<Global>56.03</Global>
-			<Calefaccion>39.43</Calefaccion>
+			<Global>53.71</Global>
+			<Calefaccion>39.07</Calefaccion>
 			<Refrigeracion>3.72</Refrigeracion>
-			<ACS>12.88</ACS>
-			<Conjunta>42.04</Conjunta>
+			<ACS>10.92</ACS>
+			<Conjunta>41.68</Conjunta>
 		</EdificioObjeto>
 		<EdificioDeReferencia>
 			<Global>0.00</Global>
@@ -1340,44 +1359,44 @@
 		<EnergiaFinalVectores>
 			<ElectricidadPeninsular>
 				<Calefaccion>0.00</Calefaccion>
-				<Refrigeracion>1.01</Refrigeracion>
+				<Refrigeracion>1.45</Refrigeracion>
 				<ACS>0.00</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>1.01</Global>
+				<Global>1.45</Global>
 			</ElectricidadPeninsular>
 			<GasNatural>
-				<Calefaccion>10.66</Calefaccion>
+				<Calefaccion>11.70</Calefaccion>
 				<Refrigeracion>0.00</Refrigeracion>
 				<ACS>0.00</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>10.66</Global>
+				<Global>11.70</Global>
 			</GasNatural>
 			<BiomasaOtros>
-				<Calefaccion>49.00</Calefaccion>
+				<Calefaccion>40.92</Calefaccion>
 				<Refrigeracion>0.00</Refrigeracion>
-				<ACS>13.85</ACS>
+				<ACS>11.74</ACS>
 				<Iluminacion>0.00</Iluminacion>
-				<Global>62.85</Global>
+				<Global>52.66</Global>
 			</BiomasaOtros>
 		</EnergiaFinalVectores>
 		<EnergiaPrimariaNoRenovable>
-			<Global>0.00</Global>
-			<Calefaccion>0.00</Calefaccion>
-			<Refrigeracion>0.00</Refrigeracion>
-			<ACS>0.00</ACS>
+			<Global>18.94</Global>
+			<Calefaccion>15.32</Calefaccion>
+			<Refrigeracion>2.84</Refrigeracion>
+			<ACS>0.40</ACS>
 			<Iluminacion>0.00</Iluminacion>
 		</EnergiaPrimariaNoRenovable>
 		<Exigencias/>
 	</Consumo>
 	<EmisionesCO2>
-		<ConsumoElectrico>0.00</ConsumoElectrico>
-		<TotalConsumoElectrico>0.00</TotalConsumoElectrico>
-		<ConsumoOtros>0.00</ConsumoOtros>
-		<TotalConsumoOtros>0.00</TotalConsumoOtros>
-		<Global>0.00</Global>
-		<Calefaccion>0.00</Calefaccion>
-		<Refrigeracion>0.00</Refrigeracion>
-		<ACS>0.00</ACS>
+		<ConsumoElectrico>0.54</ConsumoElectrico>
+		<TotalConsumoElectrico>54.50</TotalConsumoElectrico>
+		<ConsumoOtros>3.90</ConsumoOtros>
+		<TotalConsumoOtros>389.00</TotalConsumoOtros>
+		<Global>4.44</Global>
+		<Calefaccion>3.69</Calefaccion>
+		<Refrigeracion>0.48</Refrigeracion>
+		<ACS>0.21</ACS>
 	</EmisionesCO2>
 	<Calificacion>
 		<EmisionesCO2>
@@ -1451,9 +1470,9 @@
 	</EnergiasRenovables>
 	<DatosPersonalizados>
 		<Calificaciones>
-			<CalificacionADemandaCalefaccion>39.43</CalificacionADemandaCalefaccion>
-			<CalificacionAEmisiones>0.00</CalificacionAEmisiones>
-			<CalificacionAPrimaria>0.00</CalificacionAPrimaria>
+			<CalificacionADemandaCalefaccion>39.07</CalificacionADemandaCalefaccion>
+			<CalificacionAEmisiones>4.44</CalificacionAEmisiones>
+			<CalificacionAPrimaria>18.94</CalificacionAPrimaria>
 		</Calificaciones>
 		<DatosGeneralesyGeometria>
 			<Imagen>c:\proyectoscteycee\ctehe2019\proyectos\ejemplo2_2526_config1\Imagenes\Especifique imagen para el edificio</Imagen>
@@ -1545,7 +1564,7 @@
 				</Metadato>
 				<Metadato>
 					<Clave>CTE_ACS_DEMANDA_ANUAL</Clave>
-					<Valor>1287.81</Valor>
+					<Valor>1092.03</Valor>
 				</Metadato>
 				<Metadato>
 					<Clave>CTE_DEMANDA_ACS_PCT_BIOMASA</Clave>
@@ -1558,7 +1577,7 @@
 					<Tipo>CONSUMO</Tipo>
 					<Subtipo>EPB</Subtipo>
 					<Servicio>CAL</Servicio>
-					<Valores>1042.44,787.38,624.98,381.34,179.23,0.00,0.00,0.00,0.00,158.64,665.44,1060.54</Valores>
+					<Valores>922.09,672.67,511.44,283.94,117.67,0.00,0.00,0.00,0.00,99.73,550.39,934.26</Valores>
 					<Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
 				</Dato>
 				<Dato>
@@ -1566,7 +1585,7 @@
 					<Tipo>CONSUMO</Tipo>
 					<Subtipo>EPB</Subtipo>
 					<Servicio>ACS</Servicio>
-					<Valores>125.06,113.29,123.16,116.02,115.29,109.00,105.46,106.27,109.02,116.93,117.88,127.38</Valores>
+					<Valores>108.06,96.19,107.45,97.35,97.93,87.38,89.97,89.55,89.67,97.61,102.27,110.79</Valores>
 					<Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
 				</Dato>
 				<Dato>
@@ -1574,7 +1593,7 @@
 					<Tipo>CONSUMO</Tipo>
 					<Subtipo>EPB</Subtipo>
 					<Servicio>CAL</Servicio>
-					<Valores>14.77,11.25,7.69,0.90,0.00,0.00,0.00,0.00,0.00,0.00,3.75,12.36</Valores>
+					<Valores>11.29,8.76,6.40,0.00,0.00,0.00,0.00,0.00,0.00,0.00,2.70,10.06</Valores>
 					<Comentario>Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)</Comentario>
 				</Dato>
 				<Dato>
@@ -1582,7 +1601,7 @@
 					<Tipo>CONSUMO</Tipo>
 					<Subtipo>EPB</Subtipo>
 					<Servicio>REF</Servicio>
-					<Valores>0.00,0.00,0.00,0.00,0.00,1.50,26.75,24.72,13.02,0.00,0.00,0.00</Valores>
+					<Valores>0.00,0.00,0.00,0.00,0.00,1.61,30.12,29.12,15.51,0.00,0.00,0.00</Valores>
 					<Comentario>Consumo sistemas de sustitución (P02_E01) (REF)</Comentario>
 				</Dato>
 				<Dato>
@@ -1590,7 +1609,7 @@
 					<Tipo>CONSUMO</Tipo>
 					<Subtipo>EPB</Subtipo>
 					<Servicio>CAL</Servicio>
-					<Valores>241.16,178.46,128.28,55.37,17.83,0.00,0.00,0.00,0.00,15.29,142.53,236.47</Valores>
+					<Valores>276.75,198.24,138.42,55.23,15.00,0.00,0.00,0.00,0.00,15.46,161.41,270.72</Valores>
 					<Comentario>Consumo sistemas de sustitución (P03_E01) (CAL)</Comentario>
 				</Dato>
 				<Dato>
@@ -1598,7 +1617,7 @@
 					<Tipo>CONSUMO</Tipo>
 					<Subtipo>EPB</Subtipo>
 					<Servicio>REF</Servicio>
-					<Valores>0.00,0.00,0.00,0.00,0.00,0.83,14.28,13.24,6.85,0.00,0.00,0.00</Valores>
+					<Valores>0.00,0.00,0.00,0.00,0.00,7.99,27.12,23.70,9.90,0.00,0.00,0.00</Valores>
 					<Comentario>Consumo sistemas de sustitución (P03_E01) (REF)</Comentario>
 				</Dato>
 				<Dato>
@@ -1616,8 +1635,8 @@
 		<!-- área de referencia [m2] -->
 		<Epm2>
 			<!-- C_ep [kWh/m2.an] -->
-			<tot>80.8</tot>
-			<nren>17.2</nren>
+			<tot>72.5</tot>
+			<nren>18.9</nren>
 		</Epm2>
 	</BalanceEPB>
 </DatosEnergeticosDelEdificio>
