@@ -7,21 +7,22 @@ The heating system for this single-family home is a biomass pellet boiler that f
 This calculation determines the required thermal power output for each room based on the heated surface area and the average emission power of the underfloor heating system.
 
 **Formula:**
-`Heating Power (W) = Surface Area (m²) × Average Emission Power (W/m²)`
+
+$$\text{Heating Power (W)} = \text{Surface Area (m²)} \times \text{Average Emission Power (W/m²)}$$
 
 *   **Ground Floor (P02) - Emission Power: 70 W/m²**
-    *   Kitchen-Dining-Living Room: `28.80 m² × 70 W/m² = 2,016 W`
-    *   Entrance + Hallway: `13.44 m² × 70 W/m² = 941 W`
-    *   Toilet: `4.14 m² × 70 W/m² = 290 W`
-    *   Main Bedroom: `17.62 m² × 70 W/m² = 1,233 W`
-    *   **Total Ground Floor Power:** `64.00 m² × 70 W/m² = 4,480 W`
+    *   Kitchen-Dining-Living Room: 28.80 m² × 70 W/m² = 2,016 W
+    *   Entrance + Hallway: 13.44 m² × 70 W/m² = 941 W
+    *   Toilet: 4.14 m² × 70 W/m² = 290 W
+    *   Main Bedroom: 17.62 m² × 70 W/m² = 1,233 W
+    *   **Total Ground Floor Power:** 64.00 m² × 70 W/m² = 4,480 W
 
 *   **Attic Floor (P03) - Emission Power: 85 W/m²**
-    *   Bedroom: `29.15 m² × 85 W/m² = 2,478 W`
-    *   Toilet: `6.85 m² × 85 W/m² = 582 W`
-    *   **Total Attic Floor Power:** `36.00 m² × 85 W/m² = 3,060 W`
+    *   Bedroom: 29.15 m² × 85 W/m² = 2,478 W
+    *   Toilet: 6.85 m² × 85 W/m² = 582 W
+    *   **Total Attic Floor Power:** 36.00 m² × 85 W/m² = 3,060 W
 
-*   **Total Building Heating Power:** `4,480 W + 3,060 W = 7,540 W`
+*   **Total Building Heating Power:** 4,480 W + 3,060 W = 7,540 W
 
 ---
 
@@ -30,11 +31,12 @@ This calculation determines the required thermal power output for each room base
 This calculation converts the heating demand into the actual amount of final energy (biomass pellets) that needs to be purchased, taking the boiler's efficiency into account.
 
 **Formula:**
-`Final Energy Consumption (kWh/m²·year) = Heating Demand (kWh/m²·year) / Boiler Efficiency`
 
-*   Heating Demand, D = `39.45 kWh/m²·year`
-*   Boiler Nominal Efficiency = `93%` or `0.93`
-*   **Final Energy Consumption =** `39.45 kWh/m²·year / 0.93 = 42.17 kWh/m²·year`
+$$\text{Final Energy Consumption (kWh/m²·year)} = \frac{\text{Heating Demand (kWh/m²·year)}}{\text{Boiler Efficiency}}$$
+
+*   Heating Demand, D = 39.45 kWh/m²·year
+*   Boiler Nominal Efficiency = 93% or 0.93
+*   **Final Energy Consumption =** 39.45 kWh/m²·year / 0.93 = 42.17 kWh/m²·year
 
 ---
 
@@ -52,10 +54,13 @@ This is often the most significant loss after the boiler. The pipes that carry h
 
 *   **Location:** These pipes often run through unheated spaces like the sanitary crawl space (`Cámara Sanitaria`), which, as per the document, is a non-habitable space at a much lower temperature.
 *   **Impact:** Heat that escapes from these pipes warms the crawl space instead of the living areas, constituting a direct loss. While the document's main energy calculation might account for this indirectly through the building's overall heat demand, a detailed system loss calculation would include it explicitly.
-*   **Formula (Conceptual):** `Q_dist_loss = U_pipe * L_pipe * DeltaT * time`
-    *   `U_pipe`: Thermal transmittance of the insulated pipe (W/m·K).
-    *   `L_pipe`: Total length of the distribution pipes in unheated spaces (m).
-    *   `DeltaT`: Difference between average water temperature in the pipe and the temperature of the unheated space (K).
+*   **Formula (Conceptual):**
+
+    $$Q_{dist\_loss} = U_{pipe} \times L_{pipe} \times \Delta T \times time$$
+
+    *   $U_{pipe}$: Thermal transmittance of the insulated pipe (W/m·K).
+    *   $L_{pipe}$: Total length of the distribution pipes in unheated spaces (m).
+    *   $\Delta T$: Difference between average water temperature in the pipe and the temperature of the unheated space (K).
 
 #### Emission / Installation Losses (Pérdidas de emisión)
 
@@ -77,33 +82,8 @@ No control system is perfect. Inefficiencies arise from:
 
 The overall process from fuel to room heat looks like this, with losses at every stage:
 
- ```
- ┌─────────────────────────────────────────┐
- │      Fuel Energy (100%)                 │
- └─────────────────────────────────────────┘
-                │
-                ↓ [Boiler Losses ~7%]
-                │
- ┌─────────────────────────────────────────┐
- │  Useful Heat from Boiler                │
- │  (93% - Nominal Efficiency)             │
- └─────────────────────────────────────────┘
-                │
-                ↓ [Distribution Losses ~X%]
-                │
- ┌─────────────────────────────────────────┐
- │  Heat Reaching Underfloor Loops         │
- └─────────────────────────────────────────┘
-                │
-                ↓ [Emission Losses ~Y%]
-                │
- ┌─────────────────────────────────────────┐
- │  Useful Heat Entering Room              │
- │  (~75% - System Efficiency)             │
- └─────────────────────────────────────────┘
- ```
 
-```mermaid
+```{mermaid}
 flowchart TD
     A["Fuel Energy<br/>100 percent"] -->|"Boiler Losses<br/>~7 percent"| B["Useful Heat from Boiler<br/>93 percent - Nominal Efficiency"]
     B -->|"Distribution Losses<br/>~X percent"| C["Heat Reaching<br/>Underfloor Loops"]
@@ -114,31 +94,6 @@ flowchart TD
     style C fill:#fce4ec,stroke:#c2185b,stroke-width:2px
     style D fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
 ```
-
-```plantuml
-@startuml
-skinparam component {
-  BackgroundColor<<fuel>> LightBlue
-  BackgroundColor<<boiler>> LightYellow
-  BackgroundColor<<underfloor>> LightPink
-  BackgroundColor<<room>> LightGreen
-  BorderColor Black
-  FontSize 11
-}
-skinparam ArrowFontSize 10
-skinparam shadowing false
-
-component "Fuel Energy\n**100%**" <<fuel>> as fuel
-component "Useful Heat from Boiler\n**93%** (Nominal Efficiency)" <<boiler>> as boiler
-component "Heat Reaching\nUnderfloor Loops" <<underfloor>> as underfloor
-component "Useful Heat Entering Room\n**~75%** (System Efficiency)" <<room>> as room
-
-fuel -down-> boiler : Boiler Losses\n~7%
-boiler -down-> underfloor : Distribution Losses\n~X%
-underfloor -down-> room : Emission Losses\n~Y%
-@enduml
-```
-
 **Conclusion:**
 
 HULC calculation of an effective **0.75 system efficiency** is realistic and correct from an overall energy balance perspective. It accounts for the **sum** of:
@@ -155,19 +110,20 @@ HULC calculation of an effective **0.75 system efficiency** is realistic and cor
 This calculation converts the final energy consumption into primary energy (the energy from the source, considering extraction, processing, and transport) using official conversion factors.
 
 **Formulas:**
-1.  `Primary Energy Total (kWh/m²·year) = Final Energy Consumption (kWh/m²·year) × f_ep,tot`
-2.  `Primary Energy Non-Renewable (kWh/m²·year) = Final Energy Consumption (kWh/m²·year) × f_ep,non-ren`
-3.  `Primary Energy Renewable (kWh/m²·year) = Final Energy Consumption (kWh/m²·year) × f_ep,ren`
+
+1.  $$\text{Primary Energy Total (kWh/m²·year)} = \text{Final Energy Consumption (kWh/m²·year)} \times f_{ep,tot}$$
+2.  $$\text{Primary Energy Non-Renewable (kWh/m²·year)} = \text{Final Energy Consumption (kWh/m²·year)} \times f_{ep,non-ren}$$
+3.  $$\text{Primary Energy Renewable (kWh/m²·year)} = \text{Final Energy Consumption (kWh/m²·year)} \times f_{ep,ren}$$
 
 **Calculation for Option 2, Configuration 1:**
-*   Final Energy Consumption = `42.17 kWh/m²·year`
+*   Final Energy Consumption = 42.17 kWh/m²·year
 *   Conversion Factors for Densified Biomass (Pellets):
-    *   `f_ep,tot` (Total) = `1.113`
-    *   `f_ep,non-ren` (Non-Renewable) = `0.085`
-    *   `f_ep,ren` (Renewable) = `1.028`
-*   **Primary Energy Total =** `42.17 × 1.113 = 46.94 kWh/m²·year`
-*   **Primary Energy Non-Renewable =** `42.17 × 0.085 = 3.58 kWh/m²·year`
-*   **Primary Energy Renewable =** `42.17 × 1.028 = 43.35 kWh/m²·year`
+    *   $f_{ep,tot}$ (Total) = 1.113
+    *   $f_{ep,non-ren}$ (Non-Renewable) = 0.085
+    *   $f_{ep,ren}$ (Renewable) = 1.028
+*   **Primary Energy Total =** 42.17 × 1.113 = 46.94 kWh/m²·year
+*   **Primary Energy Non-Renewable =** 42.17 × 0.085 = 3.58 kWh/m²·year
+*   **Primary Energy Renewable =** 42.17 × 1.028 = 43.35 kWh/m²·year
 
 ---
 
@@ -176,19 +132,24 @@ This calculation converts the final energy consumption into primary energy (the 
 Although this formula is in the ACS (Domestic Hot Water) section, it is highly relevant as the heating boiler also produces hot water. The formula calculates the heat losses from the storage tank.
 
 **Formula:**
-`Q = A · U · DeltaT · Number of hours in the period`
+
+$$Q = A \cdot U \cdot \Delta T \cdot \text{Number of hours in the period}$$
 
 **Where:**
-*   `Q`: Heat losses produced in the accumulator during the period (Wh)
-*   `A`: Surface area of the accumulator's envelope (m²)
-*   `U`: Thermal transmittance of the accumulator's envelope (W/m²·K)
-*   `DeltaT`: Temperature difference between the inside of the tank and the ambient temperature outside it (°C)
+*   $Q$: Heat losses produced in the accumulator during the period (Wh)
+*   $A$: Surface area of the accumulator's envelope (m²)
+*   $U$: Thermal transmittance of the accumulator's envelope (W/m²·K)
+*   $\Delta T$: Temperature difference between the inside of the tank and the ambient temperature outside it (°C)
 
 **Simplified Application:**
-`A · U` can be simplified into a single "loss coefficient" for the tank.
-*   For a 100-liter tank (Options 1 & 2): Loss coefficient `A·U = 0.5 W/°C`
-*   Assumed `DeltaT`: `65°C (internal) - 20°C (ambient) = 45°C`
-*   **Daily average loss for January (744 hours):** `Q_daily = (0.5 W/°C × 45°C × 744 h) / 31 days = 540 Wh/day`
+
+$A \cdot U$ can be simplified into a single "loss coefficient" for the tank.
+
+*   For a 100-liter tank (Options 1 & 2): Loss coefficient $A \cdot U = 0.5$ W/°C
+*   Assumed $\Delta T$: $65°C - 20°C = 45°C$
+*   **Daily average loss for January (744 hours):**
+
+    $$Q_{daily} = \frac{0.5 \text{ W/°C} \times 45°C \times 744 \text{ h}}{31 \text{ days}} = 540 \text{ Wh/day}$$
 
 ---
 

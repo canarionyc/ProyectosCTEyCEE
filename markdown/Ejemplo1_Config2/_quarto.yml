@@ -1,0 +1,48 @@
+project:
+  type: book
+  output-dir: book/quarto
+  render:
+    - "*.md"
+    - "*.qmd"
+
+book:
+  title: "Ejemplo I Config 2"
+  author: "Tomas Gonzalez Llarena <alu0101841946@ull.edu.es>"
+  chapters:
+    - index.md
+    - src/Ejemplo1_Config2_Heating.qmd
+    - src/Ejemplo1_Config2_Water_Heating.qmd
+    - src/Ejemplo1_Config2_Cooling.qmd
+    - src/Ejemplo1_Config2_Ventilation.qmd
+    - src/Ejemplo1_Config2_Condensations.qmd
+    - src/Ejemplo1_Config2_Air_Tightness.qmd
+    - src/Solar_Gains.qmd
+
+format:
+  pdf:
+    documentclass: scrbook
+    pdf-engine: xelatex
+    geometry:
+      - margin=1.5cm
+    fontsize: 10pt
+    mainfont: Arial
+    monofont: "Courier New"
+    fig-pos: 'H'
+    fig-align: center
+    keep-tex: true
+    include-in-header:
+      text: |
+        \usepackage{fontspec}
+        \usepackage{xunicode}
+        \usepackage{mhchem}
+        \usepackage{amsmath}
+    from: markdown+compact_definition_lists
+
+# Diagram configurations
+mermaid:
+  theme: default
+
+# Enable diagram engines
+execute:
+  freeze: auto
+

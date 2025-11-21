@@ -5,16 +5,17 @@ The ACS system is a mixed system, sharing the biomass boiler with the heating sy
 This calculates the daily volume of hot water needed, including distribution losses.
 
 **Formula:**
-`Daily ACS Demand (l/day) = Number of Occupants × Daily Needs per Person (l/p·day)`
+
+$$\text{Daily ACS Demand (l/day)} = \text{Number of Occupants} \times \text{Daily Needs per Person (l/p·day)}$$
 
 **Where:**
 *   **Number of Occupants:** Based on DB HE Annex F, Table a (Minimum occupancy for private residential use).
 *   **Daily Needs per Person:** Fixed at **28 l/p·day** (at 60°C).
 
 **Option 2: 2 Bedrooms, 3 Occupants**
-*   **Base Demand:** `3 occupants × 28 l/p·day = 84 l/day`
-*   **Distribution Losses (estimated at 5%):** `84 l/day × 0.05 = 4.2 l/day`
-*   **Total Daily Demand (excluding tank losses):** `84 + 4.2 = 88.2 l/day`
+*   **Base Demand:** 3 occupants × 28 l/p·day = 84 l/day
+*   **Distribution Losses (estimated at 5%):** 84 l/day × 0.05 = 4.2 l/day
+*   **Total Daily Demand (excluding tank losses):** 84 + 4.2 = 88.2 l/day
 
 [//]: # (**Option 3: 3 Bedrooms, 4 Occupants**)
 
@@ -30,21 +31,24 @@ This calculates the daily volume of hot water needed, including distribution los
 
 This is a critical calculation to determine the total energy demand, as it includes losses from the hot water storage tank.
 
-`Q = A · U · DeltaT · Number of hours in the period`
+$$Q = A \cdot U \cdot \Delta T \cdot \text{Number of hours in the period}$$
 
 **Simplified using the Tank Loss Coefficient:**
-`Monthly Losses (Wh) = Loss Coefficient (W/°C) × DeltaT (°C) × Hours in Month`
+
+$$\text{Monthly Losses (Wh)} = \text{Loss Coefficient (W/°C)} \times \Delta T \text{ (°C)} \times \text{Hours in Month}$$
 
 **Where:**
-*   **Loss Coefficient (A·U):** Provided in the system specs.
-    *   Options 1 & 2 (100L tank): `0.5 W/°C`
-    *   Option 3 (150L tank): `0.8 W/°C`
-*   **DeltaT:** Temperature difference between tank interior (65°C) and ambient (20°C) = **45°C**
+*   **Loss Coefficient** ($A \cdot U$): Provided in the system specs.
+    *   Options 1 & 2 (100L tank): 0.5 W/°C
+    *   Option 3 (150L tank): 0.8 W/°C
+*   $\Delta T$: Temperature difference between tank interior (65°C) and ambient (20°C) = **45°C**
 
 **Calculation for Option 2:**
-*   **For January (744 hours):** `Q_jan = 0.5 W/°C × 45°C × 744 h = 16,740 Wh = 16.74 kWh`
-*   **Total Annual Tank Losses:** `197.10 kWh/year`
-*   **Average Daily Tank Losses:** `197,100 Wh/year / 365 days = 540 Wh/day`
+*   **For January (744 hours):**
+
+$$Q_{jan} = 0.5 \text{ W/°C} \times 45°C \times 744 \text{ h} = 16{,}740 \text{ Wh} = 16.74 \text{ kWh}$$
+*   **Total Annual Tank Losses:** 197.10 kWh/year
+*   **Average Daily Tank Losses:** 197,100 Wh/year / 365 days = 540 Wh/day
 
 ---
 
