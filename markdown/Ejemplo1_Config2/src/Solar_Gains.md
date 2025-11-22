@@ -1,14 +1,4 @@
-I can't directly access or read files from external links, including those in your Adobe Cloud. This is a security measure to protect your privacy and data.
-
-However, I can be extremely helpful in two ways:
-
-1.  **If you have the text from the PDF**, you can copy and paste it here, and I can summarize, analyze, or answer specific questions about its content regarding the solar energy properties of buildings.
-
-2.  **I can provide a comprehensive overview of the key "solar energy properties of buildings" right now.** This might even help you know what to look for in your document.
-
-Here is a summary of the critical solar energy properties of buildings:
-
-### Key Solar Energy Properties of Buildings
+# Key Solar Energy Properties of Buildings
 
 The goal is to maximize beneficial solar gain (for heating and daylighting) while minimizing unwanted gain (that causes overheating).
 
@@ -47,4 +37,10 @@ The goal is to maximize beneficial solar gain (for heating and daylighting) whil
 
 ***
 
-**To get help with your specific PDF, please copy and paste the relevant text. I'm ready to help you analyze it!**
+ 
+
+![Solar Gains](Solar_Gains.png)
+
+![Control Solar](Control_Solar.png)
+
+

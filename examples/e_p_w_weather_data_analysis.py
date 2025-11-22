@@ -9,7 +9,7 @@ import numpy as np
 from pathlib import Path
 
 # Set working directory
-os.chdir(r'C:\dev\pyCTE')
+os.chdir(r'C:\ProyectosCTEyCEE')
 print(f"Working directory: {os.getcwd()}")
 
 #%% 1. Read all EPW files and consolidate location data
