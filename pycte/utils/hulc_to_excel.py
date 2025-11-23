@@ -848,26 +848,7 @@ def process_single_file(input_file):
     print(f"  - Electric meters: {len(data['elec_meters'])} records")
     print(f"Excel file created: {output_file}\n")
 
-def process_directory(input_dir):
-    """Process all *.ctehexml files in a directory"""
-    import glob
 
-    # Find all .ctehexml files in the directory
-    pattern = os.path.join(input_dir, "*.ctehexml")
-    xml_files = glob.glob(pattern)
-
-    if not xml_files:
-        print(f"No *.ctehexml files found in directory: {input_dir}")
-        return
-
-    print(f"Found {len(xml_files)} *.ctehexml files in directory: {input_dir}")
-
-    for xml_file in xml_files:
-        try:
-            process_single_file(xml_file)
-        except Exception as e:
-            print(f"Error processing {xml_file}: {str(e)}")
-            continue
 
 import os
 
@@ -887,7 +868,7 @@ if __name__ == "__main__":
     """Command line interface for HULC to Excel conversion."""
     parser = argparse.ArgumentParser(description="Convert HULC files to Excel format")
     parser.add_argument("-i", "--input", required=True, 
-                       help="Input file path (.ctedbxml) or input directory path (processes all *.ctehexml files)")
+                       help="Input file path (.ctehexml)")
 
     args = parser.parse_args()
 
@@ -911,10 +892,6 @@ if __name__ == "__main__":
             print(f"Error: Unsupported file extension: {file_ext}")
             print("Supported extensions: .ctehexml, .ctedbxml")
             exit(1)
-
-    elif os.path.isdir(input_path):
-        # Process directory - find all .ctehexml files
-        process_directory(input_path)
 
     else:
         print(f"Error: Input path is neither a file nor a directory: {input_path}")
