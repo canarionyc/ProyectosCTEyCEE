@@ -460,7 +460,7 @@ $ ++++++++++++++++++++++++++++++
     GLASS-CONDUCTANCE =              1
     NAME_CALENER      = ""
     LIBRARY       =  NO
-    UTIL          =  NO
+    UTIL          =  YES
     ..
 "Vidrio LUCERNARIOS SUR Y ESTE" = GLASS-TYPE
     GROUP             = "Ejemplo1_2526"
@@ -469,7 +469,7 @@ $ ++++++++++++++++++++++++++++++
     GLASS-CONDUCTANCE =              1
     NAME_CALENER      = ""
     LIBRARY       =  NO
-    UTIL          =  NO
+    UTIL          =  YES
     ..
 $ ++++++++++++++++++++++++++++++
 $            MARCOS
@@ -526,7 +526,7 @@ $ ++++++++++++++++++++++++++++++
       FRAME-ABS     =            0.3
       NAME_CALENER  = ""
                 LIBRARY       = NO
-    UTIL          =  NO
+    UTIL          =  YES
 ..
  "VER_Madera dens.media alta Blanc" = NAME-FRAME
       GROUP         = "Otro"
@@ -640,7 +640,7 @@ $ ++++++++++++++++++++++++++++++
      MARKER-SUMMER       =              1
      MARKER-WINTER       =              1
      LIBRARY           =  NO
-     UTIL              =  NO
+     UTIL              =  YES
      ISDOOR            = NO
      DEFAULT           = NO
     ..
@@ -666,7 +666,7 @@ $ ++++++++++++++++++++++++++++++
      MARKER-SUMMER       =              1
      MARKER-WINTER       =              1
      LIBRARY           =  NO
-     UTIL              =  NO
+     UTIL              =  YES
      ISDOOR            = NO
      DEFAULT           = NO
     ..
@@ -739,6 +739,28 @@ $
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
+"Linea4" = AUX-LINE
+           TYPE = 1
+           X0   = 0.000000
+           Y0   = 0.000000
+           Z0   = 4.500000
+           X1   = 8.000000
+           Y1   = 0.000000
+           Z1   = 4.500000
+           OWNERF = "P01"
+           OWNERS = "(null)"
+           ..
+"Linea5" = AUX-LINE
+           TYPE = 1
+           X0   = 8.000000
+           Y0   = 8.000000
+           Z0   = 4.500000
+           X1   = 0.000000
+           Y1   = 8.000000
+           Z1   = 4.500000
+           OWNERF = "P01"
+           OWNERS = "(null)"
+           ..
 $ ------
 $ Planos
 $ ------
@@ -789,6 +811,26 @@ $
     V2   =( 8, 0 )
     V3   =( 8, 8 )
     V4   =( 0, 8 )
+    ..
+"P03_E01C001_Poligono1" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
+    ..
+"P03_E01C002_Poligono2" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
+    ..
+"P03_E01C003_Poligono3" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
+    ..
+"P03_E01C004_Poligono4" = POLYGON
+    V1   =( 0, 0 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
     ..
 $
 $ +-------------------+
@@ -1178,6 +1220,35 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
                         ..
+                  "P03_E01_PE001_V1" = WINDOW
+                        X              =           1.75
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =            1.5
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Sur y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS SUR Y ESTE"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
             "P03_E01_PE002" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
@@ -1187,6 +1258,64 @@ $          TYPE-OPER = "Acondicionado"
                   "MURO EXTERIOR" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
+                        ..
+                  "P03_E01_PE002_V1" = WINDOW
+                        X              =           2.75
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =            1.5
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
+                  "P03_E01_PE002_V2" = WINDOW
+                        X              =           4.25
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =            1.5
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
                         ..
             "P03_E01_PE003" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
@@ -1198,6 +1327,35 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
                         ..
+                  "P03_E01_PE003_V1" = WINDOW
+                        X              =            4.5
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =            1.5
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
             "P03_E01_PE004" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
@@ -1207,6 +1365,193 @@ $          TYPE-OPER = "Acondicionado"
                   "MURO EXTERIOR" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "MURO EXTERIOR" 
+                        ..
+            "P03_E01_FI001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P02_E01"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "I_FOR INT"  
+                  LOCATION      = BOTTOM  
+                        ..
+                  "I_FOR INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "I_FOR INT" 
+                        ..
+            "P03_E01C001" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              0
+                  Y             =              0
+                  Z             =            1.5
+                  AZIMUTH       =            180
+                  TILT          =             45
+                  POLYGON       = "P03_E01C001_Poligono1"
+                        ..
+                  "CUB IN TEJA" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "CUB IN TEJA" 
+                        ..
+                  "P03_E01C001_V1" = WINDOW
+                        X              =           1.75
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =              1
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Sur y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS SUR Y ESTE"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
+            "P03_E01C002" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              8
+                  Y             =              0
+                  Z             =            1.5
+                  AZIMUTH       =             90
+                  TILT          =             45
+                  POLYGON       = "P03_E01C002_Poligono2"
+                        ..
+                  "CUB IN TEJA" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "CUB IN TEJA" 
+                        ..
+                  "P03_E01C002_V1" = WINDOW
+                        X              =           2.75
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =              1
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
+                  "P03_E01C002_V2" = WINDOW
+                        X              =           4.25
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =              1
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
+            "P03_E01C003" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              8
+                  Y             =              8
+                  Z             =            1.5
+                  AZIMUTH       =              0
+                  TILT          =             45
+                  POLYGON       = "P03_E01C003_Poligono3"
+                        ..
+                  "CUB IN TEJA" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "CUB IN TEJA" 
+                        ..
+                  "P03_E01C003_V1" = WINDOW
+                        X              =           5.25
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =              1
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
+            "P03_E01C004" = ROOF
+                  ABSORPTANCE   =            0.6
+                  COMPROBAR-REQUISITOS-MINIMOS = YES
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              0
+                  Y             =              8
+                  Z             =            1.5
+                  AZIMUTH       =            270
+                  TILT          =             45
+                  POLYGON       = "P03_E01C004_Poligono4"
+                        ..
+                  "CUB IN TEJA" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "CUB IN TEJA" 
                         ..
 $
 $ +---------------------------+
@@ -2276,8 +2621,8 @@ $
     ..
 "HUECO_VENTANA" = THERMAL-BRIDGE
       BRIDGE-NAME = "HUECO_VENTANA"
-      tt_ele_CorMult         =   0.150
-      longCorMult      =    48.00
+      tt_ele_CorMult         =   0.140
+      longCorMult      =    84.00
       TTL         =   0.148
       LENGTH      =    60.00
       FRSI        = 0.170000

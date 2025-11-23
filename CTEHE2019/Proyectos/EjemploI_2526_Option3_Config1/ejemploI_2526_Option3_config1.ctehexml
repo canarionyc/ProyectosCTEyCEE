@@ -116,12 +116,12 @@
 		<recEFC>0.000</recEFC>
 		<cambios>NO</cambios>
 		<cambioscalener>NO</cambioscalener>
-		<RED1>RED1  <precioEnergia>0.0</precioEnergia>
+		<RED1>RED1    <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
 		</RED1>
-		<RED2>RED2  <precioEnergia>0.0</precioEnergia>
+		<RED2>RED2    <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
@@ -472,168 +472,6 @@ $ ++++++++++++++++++++++++++++++
     UTIL          =  NO
     OBSOLETE      = NO
     ..
-"Material_Base" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =          0.075
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =              1
-    DENSITY           =           3000
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             10
-    NAME          = "Material_Base"
-    GROUP         = "Otro"
-    IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2019\Imagenes\Ladrillo.bmp"
-    NAME_CALENER   = ""
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"Teja cerámica-porcelana" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.02
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            1.3
-    DENSITY           =           2300
-    SPECIFIC-HEAT     =            840
-    VAPOUR-DIFFUSIVITY-FACTOR =             30
-    NAME          = "Teja cerámica-porcelana"
-    GROUP         = "Cerámicos"
-    IMAGE          = "arcilla.bmp"
-    NAME_CALENER   = "Teja cerámica-porcelana"
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 250 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.25
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.1760563
-    DENSITY           =            710
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 250 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 250 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            0.2
-    DENSITY           =            670
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 30 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.2229299
-    DENSITY           =            640
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 35 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.3571429
-    DENSITY           =           1330
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 300 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4022988
-    DENSITY           =           1310
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 350 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 400 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.4
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4395604
-    DENSITY           =           1290
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 400 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 400 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 450 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.45
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4787234
-    DENSITY           =           1280
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 450 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 450 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
 $ ++++++++++++++++++++++++++++++
 $         CERRAMIENTOS
 $ ++++++++++++++++++++++++++++++
@@ -770,7 +608,7 @@ $ ++++++++++++++++++++++++++++++
     GLASS-CONDUCTANCE =              1
     NAME_CALENER      = ""
     LIBRARY       =  NO
-    UTIL          =  NO
+    UTIL          =  YES
     ..
 "Vidrio LUCERNARIOS SUR Y ESTE" = GLASS-TYPE
     GROUP             = "Ejemplo1_2526"
@@ -779,7 +617,7 @@ $ ++++++++++++++++++++++++++++++
     GLASS-CONDUCTANCE =              1
     NAME_CALENER      = ""
     LIBRARY       =  NO
-    UTIL          =  NO
+    UTIL          =  YES
     ..
 $ ++++++++++++++++++++++++++++++
 $            MARCOS
@@ -836,40 +674,13 @@ $ ++++++++++++++++++++++++++++++
       FRAME-ABS     =            0.3
       NAME_CALENER  = ""
                 LIBRARY       = NO
-    UTIL          =  NO
+    UTIL          =  YES
 ..
  "VER_Madera dens.media alta Blanc" = NAME-FRAME
       GROUP         = "Otro"
       FRAME-WIDTH   =            0.1
       FRAME-CONDUCT =            5.6
       FRAME-ABS     =            0.9
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Met - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            5.7
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mrpt - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            3.2
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mpvc o mad - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            2.2
-      FRAME-ABS     =            0.4
       NAME_CALENER  = ""
                 LIBRARY       = NO
     UTIL          =  NO
@@ -977,7 +788,7 @@ $ ++++++++++++++++++++++++++++++
      MARKER-SUMMER       =              1
      MARKER-WINTER       =              1
      LIBRARY           =  NO
-     UTIL              =  NO
+     UTIL              =  YES
      ISDOOR            = NO
      DEFAULT           = NO
     ..
@@ -1003,7 +814,7 @@ $ ++++++++++++++++++++++++++++++
      MARKER-SUMMER       =              1
      MARKER-WINTER       =              1
      LIBRARY           =  NO
-     UTIL              =  NO
+     UTIL              =  YES
      ISDOOR            = NO
      DEFAULT           = NO
     ..
@@ -1076,6 +887,28 @@ $
            OWNERF = "P03"
            OWNERS = "(null)"
            ..
+"Linea4" = AUX-LINE
+           TYPE = 1
+           X0   = 0.000000
+           Y0   = 0.000000
+           Z0   = 4.500000
+           X1   = 8.000000
+           Y1   = 0.000000
+           Z1   = 4.500000
+           OWNERF = "P01"
+           OWNERS = "(null)"
+           ..
+"Linea5" = AUX-LINE
+           TYPE = 1
+           X0   = 8.000000
+           Y0   = 8.000000
+           Z0   = 4.500000
+           X1   = 0.000000
+           Y1   = 8.000000
+           Z1   = 4.500000
+           OWNERF = "P01"
+           OWNERS = "(null)"
+           ..
 $ ------
 $ Planos
 $ ------
@@ -1129,23 +962,23 @@ $
     ..
 "P03_E01C001_Poligono1" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.656854 )
-    V3   =( 4, -5.656854 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
     ..
 "P03_E01C002_Poligono2" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.656854 )
-    V3   =( 4, -5.656854 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
     ..
 "P03_E01C003_Poligono3" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.656854 )
-    V3   =( 4, -5.656854 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
     ..
 "P03_E01C004_Poligono4" = POLYGON
     V1   =( 0, 0 )
-    V2   =( -4, -5.656854 )
-    V3   =( 4, -5.656854 )
+    V2   =( 8, 0 )
+    V3   =( 4, 5.656854 )
     ..
 $
 $ +-------------------+
@@ -1561,18 +1394,18 @@ $          TYPE-OPER = "Acondicionado"
                         ABSORPTANCE = 0.600000
                         ..
                   "P03_E01_PE001_V1" = WINDOW
-                        X              =              1
+                        X              =           1.75
                         Y              =              0
                         SETBACK        =              0
                         HEIGHT         =            1.5
                         WIDTH          =              1
-                        GAP            = "S_O"
+                        GAP            = "Lucernarios Sur y Este"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.050000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Sur"
-                        FRAME-WIDTH   =     0.08013763
-                        FRAME-CONDUCT =            1.5
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS SUR Y ESTE"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
                         FRAME-ABS     =            0.3
                         INF-COEF       =              9
                         OVERHANG-A     =              0
@@ -1605,18 +1438,18 @@ $          TYPE-OPER = "Acondicionado"
                         ABSORPTANCE = 0.600000
                         ..
                   "P03_E01_PE002_V1" = WINDOW
-                        X              =            2.5
+                        X              =           2.75
                         Y              =              0
                         SETBACK        =              0
                         HEIGHT         =            1.5
                         WIDTH          =              1
-                        GAP            = "N_E"
+                        GAP            = "Lucernarios Norte y Este"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.050000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Norte"
-                        FRAME-WIDTH   =     0.08013763
-                        FRAME-CONDUCT =            1.5
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
                         FRAME-ABS     =            0.3
                         INF-COEF       =              9
                         OVERHANG-A     =              0
@@ -1634,18 +1467,18 @@ $          TYPE-OPER = "Acondicionado"
                         RIGHT-FIN-D    =              0
                         ..
                   "P03_E01_PE002_V2" = WINDOW
-                        X              =            4.5
+                        X              =           4.25
                         Y              =              0
                         SETBACK        =              0
                         HEIGHT         =            1.5
                         WIDTH          =              1
-                        GAP            = "N_E"
+                        GAP            = "Lucernarios Norte y Este"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.050000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Norte"
-                        FRAME-WIDTH   =     0.08013763
-                        FRAME-CONDUCT =            1.5
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
                         FRAME-ABS     =            0.3
                         INF-COEF       =              9
                         OVERHANG-A     =              0
@@ -1683,13 +1516,13 @@ $          TYPE-OPER = "Acondicionado"
                         SETBACK        =              0
                         HEIGHT         =            1.5
                         WIDTH          =              1
-                        GAP            = "N_E"
+                        GAP            = "Lucernarios Norte y Este"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.050000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Norte"
-                        FRAME-WIDTH   =     0.08013763
-                        FRAME-CONDUCT =            1.5
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.06319487
+                        FRAME-CONDUCT =            2.4
                         FRAME-ABS     =            0.3
                         INF-COEF       =              9
                         OVERHANG-A     =              0
@@ -1728,9 +1561,9 @@ $          TYPE-OPER = "Acondicionado"
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
                   CONSTRUCTION  = "CUB IN TEJA"  
-                  X             =              4
-                  Y             =              4
-                  Z             =            5.5
+                  X             =              0
+                  Y             =              0
+                  Z             =            1.5
                   AZIMUTH       =            180
                   TILT          =             45
                   POLYGON       = "P03_E01C001_Poligono1"
@@ -1740,18 +1573,18 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "CUB IN TEJA" 
                         ..
                   "P03_E01C001_V1" = WINDOW
-                        X              =            2.5
+                        X              =           1.75
                         Y              =              0
                         SETBACK        =              0
-                        HEIGHT         =            1.5
+                        HEIGHT         =              1
                         WIDTH          =              1
-                        GAP            = "S_O"
+                        GAP            = "Lucernarios Sur y Este"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.050000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Sur"
-                        FRAME-WIDTH   =     0.08013763
-                        FRAME-CONDUCT =            1.5
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS SUR Y ESTE"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
                         FRAME-ABS     =            0.3
                         INF-COEF       =              9
                         OVERHANG-A     =              0
@@ -1774,17 +1607,75 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              4
-                  Y             =              4
-                  Z             =            5.5
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              8
+                  Y             =              0
+                  Z             =            1.5
                   AZIMUTH       =             90
                   TILT          =             45
                   POLYGON       = "P03_E01C002_Poligono2"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
+                        ..
+                  "P03_E01C002_V1" = WINDOW
+                        X              =           2.75
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =              1
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
+                        ..
+                  "P03_E01C002_V2" = WINDOW
+                        X              =           4.25
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =              1
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
                         ..
             "P03_E01C003" = ROOF
                   ABSORPTANCE   =            0.6
@@ -1792,17 +1683,46 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              4
-                  Y             =              4
-                  Z             =            5.5
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              8
+                  Y             =              8
+                  Z             =            1.5
                   AZIMUTH       =              0
                   TILT          =             45
                   POLYGON       = "P03_E01C003_Poligono3"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
+                        ..
+                  "P03_E01C003_V1" = WINDOW
+                        X              =           5.25
+                        Y              =              0
+                        SETBACK        =              0
+                        HEIGHT         =              1
+                        WIDTH          =              1
+                        GAP            = "Lucernarios Norte y Este"
+                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
+            transmisividadJulio        = 0.050000
+            HayConAutDisSomMov         = "300"
+                        GLASS-TYPE     = "Vidrio LUCERNARIOS NORTE Y O"
+                        FRAME-WIDTH   =     0.05278641
+                        FRAME-CONDUCT =            2.4
+                        FRAME-ABS     =            0.3
+                        INF-COEF       =              9
+                        OVERHANG-A     =              0
+                        OVERHANG-B     =              0
+                        OVERHANG-W     =              0
+                        OVERHANG-D     =              0
+                        OVERHANG-ANGLE =              0
+                        LEFT-FIN-A     =              0
+                        LEFT-FIN-B     =              0
+                        LEFT-FIN-H     =              0
+                        LEFT-FIN-D     =              0
+                        RIGHT-FIN-A    =              0
+                        RIGHT-FIN-B    =              0
+                        RIGHT-FIN-H    =              0
+                        RIGHT-FIN-D    =              0
                         ..
             "P03_E01C004" = ROOF
                   ABSORPTANCE   =            0.6
@@ -1810,17 +1730,28 @@ $          TYPE-OPER = "Acondicionado"
                   TYPE_ABSORPTANCE    = 1
                   COLOR_ABSORPTANCE   = 0
                   DEGREE_ABSORPTANCE   = 2
-                  CONSTRUCTION  = "TAB INT"  
-                  X             =              4
-                  Y             =              4
-                  Z             =            5.5
+                  CONSTRUCTION  = "CUB IN TEJA"  
+                  X             =              0
+                  Y             =              8
+                  Z             =            1.5
                   AZIMUTH       =            270
                   TILT          =             45
                   POLYGON       = "P03_E01C004_Poligono4"
                         ..
-                  "TAB INT" =  CONSTRUCTION
+                  "CUB IN TEJA" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "TAB INT" 
+                        LAYERS = "CUB IN TEJA" 
+                        ..
+            "P03_E01_FI001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P02_E01"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "FOR INT"  
+                  LOCATION      = BOTTOM  
+                        ..
+                  "FOR INT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "FOR INT" 
                         ..
 $
 $ +---------------------------+
@@ -2883,7 +2814,7 @@ $
       TYPE        = PILLAR
     ..
 "HUECO_CAPIALZADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 17.000000
+      LONG-MOD-TOTAL = 21.000000
       LONG-TOTAL = -1.000000
       DEFINICION = 2
       TTL    = 0.010000
@@ -2891,7 +2822,7 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_JAMBA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 34.000000
+      LONG-MOD-TOTAL = 42.000000
       LONG-TOTAL = -1.000000
       DEFINICION = 2
       TTL    = 0.020000
@@ -2899,7 +2830,7 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_ALFEIZAR" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 17.000000
+      LONG-MOD-TOTAL = 21.000000
       LONG-TOTAL = -1.000000
       DEFINICION = 2
       TTL    = 0.510000
