@@ -208,9 +208,14 @@
 					<TRed_11>6.10</TRed_11>
 					<TRed_12>4.10</TRed_12>
 				</DemandaACS>
-				<UT_AguaCaliente nombre="SIS_UT1">
+				<UT_AguaCaliente nombre="Suelo_Radiante_Atico">
+					<zona>"P03_E01"</zona>
+					<capNom>3.05999994277954</capNom>
+					<multiplicador>1</multiplicador>
+				</UT_AguaCaliente>
+				<UT_AguaCaliente nombre="Suelo_Radiante_Planta_Baja">
 					<zona>"P02_E01"</zona>
-					<capNom>4.48000001907349</capNom>
+					<capNom>4.80000019073486</capNom>
 					<multiplicador>1</multiplicador>
 				</UT_AguaCaliente>
 				<EQ_Caldera nombre="SIS2_EQ1_EQ_Caldera-Biomasa-Defecto">
@@ -239,8 +244,8 @@
 				<porcentajeES_11>0.00</porcentajeES_11>
 				<porcentajeES_12>0.00</porcentajeES_12>
 				<EQ_Acumulador_AC nombre="SIS2_EQ2_Acumulador_de_agua_caliente">
-					<Volumen>100</Volumen>
-					<UA>0.5</UA>
+					<Volumen>150</Volumen>
+					<UA>0.800000011920929</UA>
 					<tConsignaBaja>60</tConsignaBaja>
 					<tConsignaAlta>80</tConsignaAlta>
 					<temperaturaEntrada>10.3</temperaturaEntrada>

@@ -209,7 +209,7 @@ $ ++++++++++++++++++++++++++++++
     IMAGE          = "plastico.bmp"
     NAME_CALENER   = "Poliestireno Expandido [XPS]"
     LIBRARY       = NO
-    UTIL          =  NO
+    UTIL          =  YES
     OBSOLETE      = NO
     ..
 $ ++++++++++++++++++++++++++++++
@@ -847,7 +847,7 @@ $          NOMBRE    = "V-Adosada"
            ALTITUDE  = 1200.000000
            ISPENINSULAR  = YES
            AZIMUTH   = 0.000000
-$          LOCALIDAD = "Ninguna"
+$          LOCALIDAD = "Albarracín"
 $          FILE_MET  = "C:\ProgramasCTEyCEE\DatosClimaticos\GENERICOS\zonaE1.bin"
 $          ZONE      = "-- Todas --"
            CLASE-HIGROMETRIA  = 3
@@ -1008,17 +1008,17 @@ $          TYPE-OPER = "Acondicionado"
                         INF-COEF       =              9
                         OVERHANG-A     =              0
                         OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
+                        OVERHANG-W     =              5
+                        OVERHANG-D     =            0.5
+                        OVERHANG-ANGLE =             90
                         LEFT-FIN-A     =              0
                         LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
+                        LEFT-FIN-H     =            2.2
+                        LEFT-FIN-D     =            0.5
                         RIGHT-FIN-A    =              0
                         RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
+                        RIGHT-FIN-H    =            2.2
+                        RIGHT-FIN-D    =            0.5
                         ..
             "P02_E01_PE002" = EXTERIOR-WALL
                   ABSORPTANCE   =            0.6
@@ -1181,6 +1181,17 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "FOR INT" 
                         ..
+            "P02_E01_FI001" = INTERIOR-WALL
+                  INT-WALL-TYPE = STANDARD  
+                  NEXT-TO       = "P01_E01"  
+   COMPROBAR-REQUISITOS-MINIMOS = NO
+                  CONSTRUCTION  = "I_FOR CAM SANIT"  
+                  LOCATION      = BOTTOM  
+                        ..
+                  "I_FOR CAM SANIT" =  CONSTRUCTION
+                        TYPE   = LAYERS  
+                        LAYERS = "I_FOR CAM SANIT" 
+                        ..
 "P03" = FLOOR
       Z             =               3
       POLYGON       =  "P03_Poligono1"
@@ -1328,7 +1339,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "MURO EXTERIOR" 
                         ..
                   "P03_E01_PE003_V1" = WINDOW
-                        X              =            4.5
+                        X              =           5.05
                         Y              =              0
                         SETBACK        =              0
                         HEIGHT         =            1.5
@@ -1510,7 +1521,7 @@ $          TYPE-OPER = "Acondicionado"
                         LAYERS = "CUB IN TEJA" 
                         ..
                   "P03_E01C003_V1" = WINDOW
-                        X              =           5.25
+                        X              =           5.05
                         Y              =              0
                         SETBACK        =              0
                         HEIGHT         =              1
