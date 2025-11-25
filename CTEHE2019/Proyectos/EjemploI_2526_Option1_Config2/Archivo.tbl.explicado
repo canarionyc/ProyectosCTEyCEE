@@ -1,0 +1,12 @@
+#Línea de comentarios
+#Línea de comentarios
+Número de elementos [ESPACIO] Número de zonas
+"Nombre del elemento"
+#NOTA: en caso de ser un elemento opaco
+Area en m2 [ESPACIO] Transmitancia térmica en W/m2K [ESPACIO] Peso en kg/m2 [ESPACIO] 0.000000 [ESPACIO] 0.000000 [ESPACIO] Ángulo formado con el norte [ESPACIO] Inclinación [ESPACIO] Tipo de elemento (0 muro, 1 hueco, -2 muro interior adiabático, -3 forjado con el terreno, -4 tabique, -5 forjado interior) [ESPACIO] Código de la superficie [ESPACIO] Código del espacio [ESPACIO]
+#NOTA: en caso de ser un elemento semitransparente
+Area en m2 [ESPACIO] Transmitancia térmica en W/m2K [ESPACIO] Infiltración a 100 Pa en m3/hm2 [ESPACIO] Factor solar en invierno [ESPACIO] Factor solar en verano [ESPACIO] Ángulo formado con el norte [ESPACIO] Inclinación [ESPACIO] Tipo de elemento [ESPACIO] Código de la superficie [ESPACIO] Código del espacio [ESPACIO]
+#NOTA: Las líneas 6 y 8 se repiten tantas veces como elementos tenga el edificio
+"Nombre de la zona"
+Código de la zona [ESPACIO] Multiplicador de la zona [ESPACIO] Superficie de la zona en m2 [ESPACIO] Fuentes internas medias en W/m2
+#NOTA: Las líneas 10 y 11 se repiten tantas veces como zonas tenga el edificio

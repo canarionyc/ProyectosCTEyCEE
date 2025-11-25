@@ -1,0 +1,2136 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OPCIÓN 3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Esquema gráfico de la opción 3 
+
+
+En esta opción, se mantiene el programa de las dos primeras plantas o niveles (cámara sanitaria y planta baja) y se incorpora el uso como espacio acondicionado de la planta completa del bajocubierta. Para poder disponer en toda la planta de una altura libre mínima de 1,5 m, se desplaza hacia abajo, el forjado de esta planta 1 m. La altura de planta baja (de suelo terminado de planta baja a suelo terminado de planta bajocubierta) pasa a ser de 3 m. La superficie útil computable la planta bajocubierta, sería el cuadrado correspondiente a la planta completa de lado 8m, es decir, 8 m x 8 m = 64 m2. En este caso y aplicando las condiciones de habitabilidad, el espacio real de dormitorios se consideraría el área con altura libre = 2,5 m y = 2,20 m en zona de baños y aseos. 
+
+-PLANTA P01. Igual que en la opción 1. Cámara sanitaria bajo el forjado de planta baja.
+
+
+- PLANTA P02. Igual que en la opción anterior. Se sitúa en la cota del terreno. Su programa es el siguiente: . Hall de entrada 
+
+. Espacio comedor cocina en continuidad con zona de estar 
+
+. Espacio de circulación 
+
+. Baño 
+
+. Dormitorio principal 
+
+. Escalera de acceso a planta bajocubierta. 
+
+
+
+
+
+ 
+ 
+- PLANTA P03. Espacio bajocubierta que dispone de dos dormitorios y dos baños, uno por dormitorio. La superficie útil computable de esta planta es de 64 m2. 
+
+
+ 
+ 
+
+ 
+ 
+Como resumen, se agrupan los esquemas de las tres variantes que se van a estudiar. En realidad, la principal modificación geométrica se produce en la opción 3 respecto a las otras dos y consiste en la posición del forjado que separa la planta baja del bajocubierta. No obstante, la diferente ocupación que se realiza del espacio bajocubierta, así como la definición que se haga de la envolvente térmica, tendrá repercusiones significativas a la hora de definir las condiciones de aplicación de distintas exigencias. 
+ 
+En los siguientes esquemas en planta y sección, se describe gráficamente cada una de las OPCIONES que se van a estudiar. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ARQ 
+
+
+ 
+ 
+B. ARQUITECTURA Y DEFINICIÓN GEOMÉTRICA 
+
+ 
+1. Conceptos previos 
+
+2. Planos: Situación y orientación. Plantas. Secciones. Alzados 
+
+3. Imágenes. Volumetría 
+
+
+ 
+ 
+ 
+PREVIOS 
+
+
+ 
+ 
+1. Conceptos previos 
+ 
+Cómo se ha comentado anteriormente, se ha procurado que la geometría sea lo más sencilla posible, con medidas regulares y fáciles de recordar. La planta en sus dimensiones interiores es de 8 m x 8 m, la altura de los huecos en planta baja es constante de 2,20 m y se modulan en elementos de 1 metro de ancho. Las alturas de planta, que se miden de suelo terminado a suelo terminado de la planta siguiente, son siempre múltiplos de 0,5 metros, excepto la altura equivalente del bajocubierta por la razón que se ha explicado anteriormente. Los espesores tanto de muros exteriores cómo de forjados y cubiertas es siempre de 0,5 metros. Las diferentes soluciones constructivas se han adaptado a esta dimensión. En consecuencia, la altura libre de planta será la altura de planta menos 0,5 metros.  
+ 
+La razón de esta simplificación es intentar facilitar la comprensión de los cálculos de la geometría de plantas, volúmenes y cerramientos, con el fin de reducir al mínimo las consultas a la planimetría. Si bien, se puede producir una falta de correspondencia con soluciones típicas, tampoco son proporciones del todo inapropiadas y facilitarán el manejo de estas dimensiones en tablas y gráficos para las diferentes opciones de configuración que se proponen.  
+ 
+En cualquier caso, se describen a continuación gráficamente de manera detallada, cada una de las tres opciones. 
+ 
+ 
+ 
+PLANOS 
+
+
+ 
+ 
+2. Planos: Situación y orientación. Plantas. Secciones. Alzados 
+ 
+La posición de la edificación en la parcela, al tratarse una construcción exenta, se expone en sus cuatro fachadas a las condiciones exteriores. Cada una de ellas está orientada de manera pura a norte, sur, este y oeste.  El acceso a la vivienda se produce por la fachada oeste. La volumetría es limpia y como único “ornamento” se dispone en la fachada sur de una visera y costados de protección solar. 
+ 
+A partir de la página siguiente, se detalla la composición en planta, secciones y alzados de cada una de las 3 opciones que se analizan. 
+
+
+
+
+
+
+Sección y planta de cubierta de la OPCIÓN 3. 
+
+ 
+ 
+
+ 
+ 
+P02. Planta baja y P03. Bajocubierta con ocupación completa 2 dormitorios.  
+
+
+
+P01. Cámara sanitaria. 
+
+
+
+
+
+Alzados de la opción 3. Aparecen lucernarios en faldones de la cubierta con balconera en el plano vertical 
+ 
+ 
+SIST 
+
+
+ 
+ 
+D. SISTEMAS DE ACONDICIONAMIENTO Y PREPARACIÓN DE ACS 
+
+ 
+1. Acondicionamiento de invierno 
+
+2. Acondicionamiento de verano 
+
+3. Producción de ACS 
+
+4. Ventilación híbrida 
+
+
+ 
+Atendiendo a las consideraciones climáticas de la zona en las que teóricamente se encuentra la vivienda, así como a las opciones más adecuadas en cuanto a las fuentes de energía final a utilizar, se proponen los sistemas que se describen a continuación. 
+ 
+Se ha previsto un sistema mixto de calefacción-ACS con el equipo de producción compartido. Dicha producción de energía térmica se realiza mediante una caldera de biomasa que pueda atender a ambos servicios. Se ha considerado esta opción, porque si en algún contexto está justificada la elección de este tipo de calderas, sería en este entorno rural donde esta tecnología ya se encuentra muy extendida tanto en forma de calderas como de “estufas” de combustión de biomasa. Estas últimas, se utilizan habitualmente como complemento de otros sistemas de calefacción en los espacios y periodos de mayor demanda. 
+ 
+La distribución de energía térmica a los espacios, para el sistema de calefacción, se realiza mediante circuitos (ida – retorno) de agua a baja temperatura (orientativamente temperaturas de retorno inferiores a 50ºC). En consecuencia, las unidades terminales más apropiadas al sistema de producción y distribución previsto son las superficies radiantes. En este caso, se ha optado por una solución de suelo radiante.  
+ 
+El sistema de ACS dispone de un acumulador de 100 l (150 l en alguna de las opciones de mayor demanda) donde se prepara a la temperatura de servicio (en este caso 60ºC) mediante intercambiador alimentado desde la caldera de biomasa.  
+ 
+En principio, considerando las condiciones climáticas de la zona E1 en la que se ubica el edificio, no se ha previsto un sistema activo de refrigeración. En todo caso, las demandas y consumos de este servicio se evaluarán, pues es un dato que HULC facilita al cubrirlo mediante los sistemas de sustitución que aplica el programa. 
+ 
+Por último, se incorpora un sistema de ventilación híbrido, que cumple con las características que se recogen en el documento básico de salubridad HS 3 “Calidad del aire interior”. Aplicando dicha exigencia, se realizan las admisiones naturales a través de aireadores situados en las carpinterías de los huecos de los “locales secos”, es decir, dormitorios, salones y zonas de estar. Las extracciones se realizan de forma mecánica desde los cuartos húmedos de la vivienda, es decir, cocinas, baños y aseos. No se han previsto en principio recuperadores de calor para el sistema. 
+ 
+El número de extractores previsto responde a la disposición de los cuartos húmedos realizándose de manera individual en algunos casos y agrupada cuando es posible. 
+
+
+CALOR 
+
+
+
+
+1.Acondicionamiento de invierno
+
+Considerando que en el clima normativo E1, las demandas de refrigeración serán mínimas, se propone un sistema de “calefacción por agua3” y que como se ha dicho, forma parte de un sistema mixto de calefacción-ACS compartiendo entre ambos el equipo de producción. Dicha producción, se realiza mediante caldera de biomasa que para este proyecto y estas condiciones de entorno puede ser una alternativa muy adecuada. La distribución de la energía térmica se realiza mediante un circuito de agua (ida-retorno), que impulsa el agua a 45ºC. Como elementos terminales de emisión, se emplean superficies radiantes, en este caso los suelos de la vivienda. 
+3 “Calefacción por agua”: pertenece a los sistemas de climatización toda agua, es decir, que emplea el agua como fluido caloportador o de transporte de la energía térmica a los espacios que se quieren acondicionar. En este caso los emisores o unidades terminales suelen ser radiadores, superficies radiantes o fancoils. 
+
+Estas y otras características de la instalación de calefacción, se resumen en los siguientes cuadros, uno para cada opción objeto de estudio: 
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FRÍO 
+
+
+ 
+ 
+2. Acondicionamiento de verano 
+ 
+ 
+En principio no se propone sistema de refrigeración considerando las condiciones de entorno del proyecto. La demanda, potencialmente baja de este servicio, no parece hacerlo necesario. En la simulación del modelo en HULC, se hará cargo de esta demanda el sistema por defecto cuyas características son las siguientes: 
+ 
+- Vector energético: electricidad 
+
+- Rendimiento nominal: 2,6. 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ACS 
+
+
+ 
+ 
+3. Producción de ACS 
+ 
+El sistema de preparación de ACS se vincula en la parte de producción al ya descrito de calefacción, es decir, la caldera prevista de biomasa. El sistema incorpora un acumulador de 100 litros para las dos primeras opciones de menor ocupación y de 150 litros para la opción 3 de mayor demanda diaria.  
+ 
+Otra ventaja de la elección de la biomasa como combustible del sistema, es su condición de fuente de energía renovable. En virtud de la modificación establecida en la exigencia HE 4 de contribución mínima mediante fuentes renovables en la producción de ACS, se abren las opciones a cualquier fuente de energía renovable producida en el propio edificio o su entorno próximo. En concreto en el apartado 2 Caracterización de la exigencia, el texto dice: 
+ 
+“Los edificios satisfarán sus necesidades de ACS y de climatización de piscina cubierta empleando en gran medida energía procedente de fuentes renovables o procesos de cogeneración renovables; bien generada en el propio edificio o bien a través de la conexión a un sistema urbano de calefacción” 
+ 
+En el apartado 3 de cuantificación de dicha exigencia punto 3.1 1) se concreta lo siguiente: 
+ 
+“La contribución mínima de energía procedente de fuentes renovables cubrirá al menos el 70% de la demanda energética anual para ACS y para climatización de piscina, obtenida a partir de los valores mensuales, e incluyendo las pérdidas térmicas por distribución, acumulación y recirculación. Esta contribución mínima podrá reducirse al 60% cuando la demanda de ACS sea inferior a 5000 l/d. 
+ 
+Se considerará únicamente la aportación renovable de la energía con origen in situ o en las proximidades del edificio, o procedente de biomasa sólida.” 
+ 
+Como vemos en el texto normativo citado en el párrafo anterior, la valoración de la demanda ha de incluir la energía que se pierde en la conducción del agua hasta los puntos de consumo, la que se pierde en la recirculación si existe, así como la que se disipa al ambiente a través de las paredes del acumulador previsto. Las primeras, distribución y recirculación las estimaremos en un porcentaje, que, en nuestro caso, creemos se aproximará a un 5% debemos considerar que por el tamaño de la vivienda no es previsible que exista recirculación ni grandes recorridos de distribución hasta los puntos de consumo.  
+ 
+Respecto a las perdidas producidas en el depósito de acumulación realizaremos en el capítulo correspondiente un cálculo aproximado. Su valor dependerá del tamaño del acumulador, de su grado de aislamiento y del salto térmico entre la temperatura en su interior y la del ambiente en el que se encuentre situado. 
+ 
+En el apartado correspondiente veremos cuál es la aportación renovable del sistema y si se cumplen o no los valores de contribución establecidos para este edificio. El resto de los datos y características principales de la instalación se resumen en el cuadro de la página siguiente: 
+
+
+
+
+VENT 
+
+
+
+
+4.Ventilación híbrida
+
+La instalación de ventilación que se ha considerado para la vivienda consiste en un sistema híbrido, con admisión natural a través de los cerramientos de los locales “secos” y extracción mecánica del aire desde los “locales húmedos” hasta cubierta. La entrada de aire exterior se transfiere desde los locales secos (salón – comedor, dormitorios) hacia los locales húmedos a través de las holguras de las puertas, suponiendo una sección de paso suficiente para los caudales de transferencia necesarios en cada caso. Todo ello de acuerdo con lo establecido en el DB HS3, Calidad del aire interior. 
+El resto de las características de esta instalación para cada una de las tres opciones se definen en los siguientes cuadros resumen: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CUMPLE 
+
+
+
+SECCIÓN 2. CUMPLIMIENTO DE LAS EXIGENCIAS 
+
+
+HE1 
+ Condiciones para el control de la demanda energética 
+ 
+
+
+ 
+ 
+HE2 
+ Condiciones de las instalaciones térmicas 
+ 
+
+ 
+ 
+HE3 
+ Condiciones de las instalaciones de iluminación 
+ 
+
+ 
+ 
+HE4 
+ Contribución mínima de energía renovable para cubrir la demanda de agua caliente sanitaria 
+ 
+
+ 
+ 
+HE5 
+ Generación mínima de energía eléctrica 
+ 
+
+ 
+ 
+HE0 
+ Limitación del consumo energético. 
+ 
+
+ 
+ 
+RES 
+ Resumen del cumplimiento de todos los indicadores de cada sección 
+ 
+
+
+
+
+En los puntos siguientes, se realiza un recorrido por todas las exigencias que se han de aplicar a este ejemplo, comprobando el cumplimiento de cada uno de los apartados y para cada una de las opciones. Para ello se toma como punto de partida la documentación previa que se ha presentado en la sección descriptiva anterior y se calculan cada uno de los parámetros específicos de acuerdo con las características del edificio y así poder compararlos con los valores límite o de referencia. 
+
+En paralelo, se han simulado las distintas configuraciones en HULC tal y como se detalla en el capítulo de AYUDAS. Los resultados obtenidos, figuran como referencia en algunos apartados del cumplimiento. 
+
+
+HE1 
+
+
+
+
+HE1.CONDICIONES PARA EL CONTROL DE LA DEMANDA ENERGÉTICA 
+
+
+1.Preparación de datos previos a la comprobación
+
+2.Condiciones de la envolvente térmica
+
+3.Limitación de descompensaciones
+
+4.Limitación de condensaciones de la envolvente térmica
+
+5.Comentarios
+
+
+
+Se trata de la exigencia con un mayor número de requisitos y seguramente la que ha sufrido una mayor transformación respecto al documento anterior. Varios de estos requisitos se verán afectados por decisiones que se toman en el origen del proyecto y están relacionados con la configuración y morfología del edificio. Conviene, por tanto, evaluar desde el inicio las consecuencias de algunas de estas decisiones que se toman en las primeras fases del proyecto. 
+La principal novedad de la exigencia que establece las condiciones para el control de la demanda energética (HE1), es que desaparece el control explícito sobre los valores de demanda. Las justificaciones a este respecto figuran detalladas en la “Guía de aplicación del DB HE 2019” que es complementaria a esta guía de ejemplos. 
+Respecto a la nueva estructura del DB HE1, recordemos que ordena la cuantificación de la exigencia en tres bloques principales de la siguiente forma: 
+1.Condiciones de la envolvente térmica. En este apartado, se establece el control sobre diferentesparámetros que afectan al comportamiento y calidad de la envolvente térmica del edificio. A suvez se divide en varios apartados:-La transmitancia de la envolvente térmica.
+
+-El control solar de la envolvente térmica.
+
+-La permeabilidad al aire de la envolvente térmica.
+
+
+
+
+
+
+Controla las transferencias de energía por conducción a través de la envolvente deledificio. Se limita la transmitancia térmica de cada elemento de la ET (Ulim) y también sedefine una especificación referida al valor medio de transmitancia de la envolventetérmica (Klim).
+
+2.Limitación de descompensaciones entre unidades del mismo uso, o de usos diferentes.
+
+
+
+3.Limitación de condensaciones (intersticiales) en la envolvente térmica
+
+
+
+En primer lugar, debemos realizar una descripción completa de la posición, geometría y composición de cada uno de los elementos de la envolvente térmica del edificio en cada uno de los 3 casos de estudio. Para reducir las variables posibles, la composición inicial de los cerramientos será la misma en las tres opciones y simplemente variará la geometría local de los cerramientos de cada planta y la definición de los espacios incluidos dentro de la envolvente térmica del edificio. En todo caso, como se ha dicho, la volumetría global del edificio se mantiene constante.  
+La caracterización de la envolvente térmica para realizar las diferentes comprobaciones hace referencia a su definición geométrica, composición y en función de su trazado a otros parámetros derivados: 
+.Definición geométrica de la envolvente:-Superficie de los cerramientos.
+
+
+
+
+
+Respecto a la superficie de los diferentes cerramientos, su medición no plantea mayorproblema y queda reflejada en las tablas. La altura de los cerramientos es la misma dela planta a la que pertenece. La superficie total de un cerramiento la componen su parteopaca más la de los huecos si los hubiera.
+
+.Composición de la envolvente:
+
+
+
+-Transmitancia térmica [U]4 de cada elemento de cerramiento perteneciente a laenvolvente o a las particiones interiores. Se obtiene a partir de las características ycomposición de los cerramientos. Valor de [U] expresado en W/m2·K.
+
+
+4 flujo de calor, en régimen estacionario, para un área y diferencia de temperaturas unitarias de los medios situados a cada lado del elemento que se considera. 
+
+Normalmente los cerramientos opacos ya pertenezcan a la envolvente o a particiones interiores, estarán compuestos de varias “hojas” y diferentes materiales. El cálculo de la transmitancia de estos elementos se describe detalladamente en el documento de ayuda DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. También en esta guía y en el apartado de ayudas, se incorpora un resumen y varios ejemplos de cálculo. 
+
+Respecto a la transmitancia en huecos, nuevamente figura desarrollada la metodología de cálculo en el documento de ayuda DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+
+-Transmitancia térmica lineal5 en puentes térmicos.
+
+
+5 flujo de calor, en régimen estacionario, para una longitud y diferencia de temperaturas unitarias de los medios situados a cada lado del puente térmico que se considera. 
+
+-Permeabilidad al paso de aire de la envolvente térmica. Afecta nuevamente tanto a loshuecos como al conjunto de la envolvente térmica del edificio.
+
+• La permeabilidad de los huecos se caracteriza mediante ensayo y una presión diferencial de 100 Pa expresada en [m3/hm2]. 
+
+• Para el cálculo de la permeabilidad del conjunto de la envolvente térmica, el DB HE, en su Anejo H Determinación de la permeabilidad al aire del edificio, establece los métodos para obtener el valor de la relación del cambio de aire a 50 Pa, [n50]expresado en [h-1]. Lo veremos más adelante. 
+
+
+
+.Volumen que encierra la E.T.
+
+
+Respecto al volumen trabajaremos con dos conceptos de volumen diferentes:
+
+-En primer lugar, el volumen Interior total (empleado por ejemplo para el cálculo de lacompacidad). Este sería el que encierra en su totalidad la envolvente térmica,incluyendo forjados y espesor de cubierta.
+
+
+
+-Por otra parte, emplearemos lo que hemos llamado volumen de “aire interior” querecoge el volumen “útil”, descontando del total los forjados y espesor de cubierta. Estevolumen lo utilizaremos en el cálculo de la permeabilidad al aire del conjunto de laenvolvente térmica [n50].
+
+
+
+En este apartado referido al volumen, debemos hacer una puntualización más (ya hemos hecho alguna referencia con anterioridad). Cuando calculamos el volumen encerrado en el espacio bajocubierta y pensando en la simulación que en paralelo estamos realizando en HULC, hablamos de “volumen equivalente”. Nos estamos refiriendo en este caso, al que encierra un prisma recto de la misma planta que el bajocubierta de nuestro ejemplo y de altura (equivalente) la necesaria para que su volumen sea idéntico al que encierra la cubierta original de planos inclinados. Su trazado se detalla para las 3 opciones en los gráficos siguientes: 
+
+
+
+
+
+.Compacidad. Establece la relación entre el volumen encerrado por la envolvente y la superficiede esta (V/A) (m3/m2 = m). Se trata de una característica fundamental de la “forma” del edificio.Si tenemos en cuenta que los flujos de calor entre el interior del edificio y el exterior se realiza através de su piel, esta relación es determinante a la hora de evaluar su comportamiento. Suinverso es el “índice de forma” (A/V) (m2/m3 = m-1) y más adelante, haremos referencia tambiéna este concepto.
+
+
+
+La compacidad se define en el Anejo A Terminología de la siguiente forma: 
+
+Compacidad (V/A): Relación entre el volumen encerrado por la envolvente térmica (V) del edificio (oparte del edificio) y la suma de las superficies de intercambio térmico con el aire exterior o elterreno de dicha envolvente térmica (A = SAi). Se expresa en m³/m².
+
+Por tanto, para el cálculo de la compacidad, se excluye el cómputo del área de los cerramientos y de las particiones interiores en contacto con otros edificios o con espacios adyacentes exteriores a la envolvente térmica. 
+
+Por tanto, el área computable de la envolvente térmica es exclusivamente la que está en contacto con el aire exterior o terreno. 
+
+Respecto al volumen, es el que encierra la envolvente térmica en su totalidad. Incluyendo forjados interiores y cubiertas, pero no cerramientos verticales. En cada uno de los supuestos de estudio, se incluirá un gráfico qué describa el volumen computable en cada caso.  
+
+Con este criterio se definirá, para todos los casos de estudio, su valor que será determinante en el cálculo y aplicación de varios indicadores de la exigencia de Condiciones para el control de la demanda energética DB HE. 
+
+
+
+
+ 
+DAT 
+
+
+ 
+ 
+1. Preparación de datos previos a la comprobación 
+ 
+Definición de la Envolvente Térmica (E.T.) 
+El concepto de envolvente térmica se define en el Anejo C. Consideraciones para la definición de la envolvente térmica de la siguiente forma: 
+La envolvente térmica está compuesta por todos los cerramientos y particiones interiores, incluyendo sus puentes térmicos, que delimitan todos los espacios habitables del edificio o parte del edificio. No obstante, a criterio del proyectista: 
+a) podrá incluirse alguno o la totalidad de los espacios no habitables. 
+
+
+………. 
+b) podrán excluirse espacios tales como: 
+
+
+i) espacios habitables que vayan a permanecer no acondicionados durante toda la vida del edificio, tales como escaleras, ascensores o, pasillos no acondicionados, 
+ii) espacios muy ventilados, con una ventilación permanente de, al menos, 10 dm3/s por m2 de área útil de dicho espacio, 
+iii) espacios con grandes aberturas permanentes al exterior, de al menos 0,003 m2 por m2 de área útil de dicho espacio. 
+ 
+Existen pues diferentes posibilidades de configuración de la envolvente en cada caso de estudio. Atendiendo a la caracterización de los diferentes espacios y a su inclusión o no dentro de la envolvente térmica que se defina en cada variante, se analizarán diferentes configuraciones para cada opción.  
+ 
+De todas las opciones posibles se van a evaluar las que se describen más abajo y que en todos los casos, se deja fuera de dicha envolvente térmica, la cámara sanitaria existente bajo rasante. 
+ 
+Dentro de la OPCIÓN 1 se estudiarán dos configuraciones diferentes, al igual que en la OPCIÓN 2. En la OPCIÓN 3 sin embargo, solo se estudia una configuración. Estas variantes se describen a continuación: 
+ 
+OPCIÓN 1 
+Ocupación de espacios acondicionados solamente en planta baja. 
+ 
+En esta primera opción se contemplan dos posibles trazados de la envolvente térmica: 
+ 
+- PRIMERA CONFIGURACIÓN: la envolvente térmica incluye solamente los espacios acondicionados de la planta baja. 
+
+
+ 
+- SEGUNDA CONFIGURACIÓN: la envolvente se traza por el perímetro que define la cubierta inclinada, incluyendo por tanto el espacio NO HABITABLE del bajocubierta previsto en esta primera opción. A continuación, se muestran los esquemas de cálculo para las dos configuraciones de esta primera opción: 
+
+
+ 
+
+ 
+Los esquemas para los volúmenes de esta opción 3 de configuración única son los siguientes: 
+ 
+ 
+
+ 
+ 
+Desde el punto de vista de configuración de la envolvente térmica del edificio, disponemos entonces de 5 opciones a evaluar. Para cada una de dichas variantes se realizará una caracterización completa de sus componentes. 
+ 
+Caracterización de la envolvente térmica 
+En primer lugar, es necesario identificar cada uno de los elementos de la envolvente térmica, para ello, se les ha asignado un código que responde al siguiente criterio: 
+ 
+
+C:\Users\Usuario\Dropbox\GUIA DB HE\DB HE\FICHA 0 CABAÑA\CUADROS E IMAGENES\ESQUEMAS NOMBRES CERRAMIETOS\ESQUEMAS NOMBRES CERRAMIENTOS.jpg
+
+Una segunda cuestión importante, como se comentaba en párrafos anteriores, es identificar la posición exacta dentro de la E.T. de cada uno de estos elementos. En los siguientes gráficos se sitúan y referencian cada uno de dichos componentes para cada una de las tres configuraciones que analizamos del edificio. 
+También para cada opción y mediante tablas, se relacionan todos los componentes de dicha envolvente térmica tal y como ha sido definida. Se detallan aquellos parámetros que vamos a necesitar en la justificación y que caracterizan cada elemento.  
+Las tablas están organizadas por plantas. Dichas plantas tal y como se ha comentado, están numeradas de abajo hacia arriba tal y como lo hace la herramienta HULC. Recordamos que, en nuestro caso, el nivel de la cámara sanitaria sería la planta P01, P02 es la planta baja y la planta bajocubierta es la planta P03.  
+Además de una definición completa de la geometría de cada ejemplo, se obtiene un primer cálculo referido a la compacidad de cada modelo con el criterio que se ha expresado en el apartado anterior. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OPCIÓN 3 
+Por último, para la opción 3, 
+
+
+
+C:\Users\Usuario\Dropbox\GUIA DB HE\DB HE\FICHA 0 CABAÑA\3D\JULIO\OPCIÓN 3\ESQUEMA NOMBRE CERRAMIENTOS\DEFINITIVOS\JUNTES NORTE Y SUR.jpg
+
+
+
+ 
+ 
+
+ 
+Esta opción 3 respecto al cumplimiento de este parámetro, es muy similar a la opción 2 en su segunda configuración que acabamos de analizar. Solamente se modifican las dimensiones de los cerramientos verticales (fachadas) tanto en planta baja cómo en planta bajocubierta. Dado que su composición es idéntica en todas las opciones, se mantiene el cumplimiento de los valores límite de transmitancias establecidos en la Tabla 3.1.1.a - HE1 Valores límite de transmitancia térmica.  
+ 
+ 
+ 
+
+ 
+Coeficiente global de transmisión de calor (a través de la envolvente térmica del edificio) [K]: Valor medio del coeficiente de transmisión de calor para la superficie de intercambio térmico de la envolvente (Aint). Hay que recordar que se considera área de intercambio, exclusivamente la superficie de la envolvente en contacto con el aire exterior o terreno. Se excluyen expresamente los contactos con otros espacios.  Se expresa en W/m2K. 
+ 
+K= SxHx / Aint 
+donde: 
+Hx: corresponde al coeficiente de transferencia de calor del elemento x perteneciente a la envolvente térmica (incluyendo sus puentes térmicos). Se incluyen aquellos elementos en contacto con el terreno, con el ambiente exterior, y se excluyen aquellos en contacto con otros edificios u otros espacios adyacentes; 
+Aint: es el área de intercambio de la envolvente térmica obtenida como suma de los distintos componentes considerados en la transmisión de calor. Excluye, por tanto, las áreas de elementos de la envolvente térmica en contacto con edificios o espacios adyacentes exteriores a la envolvente térmica. 
+ 
+De forma simplificada, puede calcularse este parámetro a partir de las transmitancias térmicas y superficies de los elementos de la envolvente térmica y de un factor de ajuste: 
+ 
+K= Sx btr,x [ Si Ax,i Ux,i + Sk lx,k .x,k + Sj xx,j ] / Sx Si btr,x Ax,i 
+donde: 
+btr,x es el factor de ajuste para los elementos de la envolvente. Su valor es 1 excepto para elementos en contacto con edificios o espacios adyacentes exteriores a la envolvente térmica, donde toma el valor 0; 
+Ax,i es el área de intercambio del elemento de la envolvente térmica considerado; 
+Ux,i es el valor de la transmitancia térmica del elemento de la envolvente térmica considerado; 
+En el Documento de Apoyo DB-HE/1 Cálculo de parámetros característicos de la envolvente térmica y en las normas UNE-EN ISO relacionadas se dispone de valores orientativos de transmitancia térmica de los diferentes elementos de la envolvente térmica.  
+La transmitancia térmica aplicable a los elementos en contacto con el terreno incluye no sólo la transmitancia intrínseca del elemento sino también el efecto del terreno. 
+Ver también en la sección 3 de AYUDAS diferentes ejemplos de cálculo. 
+lx,k es la longitud del puente térmico considerado; 
+.x,k es el valor de la transmitancia térmica lineal del puente térmico considerado; 
+xx,j es la transmitancia puntual del puente térmico considerado. 
+ 
+El edificio de estudio en todas sus variantes es de uso residencial privado. El coeficiente global de transmisión de calor a través de la envolvente térmica (K) del edificio, o parte de este, con uso residencial privado, no superará el valor límite (Klim) obtenido de la tabla 3.1.1.b-HE1: 
+ 
+ 
+ 
+
+Los valores límite de las compacidades intermedias (1<V/A<4) se obtienen por interpolación. 
+ 
+Nuestro ejemplo, en todas sus variantes, se trata de un edificio nuevo, perteneciente a la zona climática de invierno “E”.  
+ 
+Como vemos, para este indicador el valor límite es función de la compacidad del edificio, en nuestro caso, se han obtenido dichos valores en las tablas anteriores y se incorporan como referencia en todas las tablas para cada una de las configuraciones. Para valores de compacidad entre 1 y 4, qué es el caso de nuestras 5 variantes de estudio, habrá que interpolar el valor límite entre 0,43 y 0,62 W/m2·K proporcionalmente a la compacidad de cada configuración. 
+ 
+En las siguientes tablas se relacionan (se resaltan mediante sombreado) para cada opción y cada configuración del modelo, todos los elementos de la envolvente afectados por este indicador (los de contacto con el aire exterior o terreno) caracterizando su transmitancia térmica y coeficiente de transmisión térmica lineal para puentes térmicos. A partir de dichos valores, las superficies de cada elemento y longitudes de los puentes térmicos, se obtendrá el coeficiente global de transmisión de calor (K) y se comparará con el valor límite fijado en la tabla 3.1.1.b-HE1.  
+ 
+Respecto a los puentes térmicos, solo se han considerado los lineales y se han descartado en el cálculo, los posibles puentes térmicos puntuales existentes en el edificio. 
+ 
+ 
+En esta primera variante de estudio, se nos presenta un problema principalmente de proporciones. Si aplicamos el procedimiento simplificado mediante la expresión,  
+ 
+K= Sx btr,x [ Si Ax,i Ux,i + Sk lx,k .x,k + Sj xx,j ] / Sx Si btr,x Ax,i 
+ 
+quedan fuera del cálculo los cerramientos horizontales que nos separan del bajocubierta y de la cámara sanitaria en la parte inferior. Dado que la superficie computable en cálculo del valor de [k], afectaría exclusivamente a la que está en contacto con el aire exterior o el terreno. En esta primera configuración la opción 1, este requisito lo cumplen exclusivamente los cerramientos exteriores verticales (fachadas)de la planta baja. De mantener este procedimiento de cálculo las opciones son limitadas. 
+ 
+ 
+ 
+ 
+ 
+ 
+En esta primera variante de estudio
+,
+ 
+principalmente 
+Si 
+,
+
+
+
+- La compacidad es idéntica pues tanto la superficie de envolvente en contacto con el aire exterior como el volumen encerrado son idénticos en ambos casos y su valor es 1,73. Por tanto el valor límite de referencia obtenido de la tabla 3.1.1.b-HE1 es el mismo en ambos casos: 0,48 W/m2K. 
+
+- La principal diferencia en esta opción es que la proporción de huecos que se introduce en el bajocubierta es superior a la de la opción anteriormente estudiada. El programa funcional del bajocubierta en esta configuración es más amplio e incluye dos dormitorios con sus aseos y zonas comunes y de circulación. Este caso la superficie de huecos que se incorporan en el bajocubierta es de 10 m2. Los lucernarios son del tipo “balconero”, con una parte que se inserta en el faldón inclinado de cubierta y un módulo vertical en el cerramiento de fachada, que en este caso tiene una altura de 1,5 metros en el perímetro.  
+
+- Esta mayor superficie de huecos con una transmitancia superior al valor límite de [K], empeora ligeramente esa “media” [K= 0,46 W/m2K] y se produce un cumplimiento más ajustado que en las opciones similares anteriormente estudiadas. 
+
+
+
+
+
+
+
+
+ 
+Esta configuración de la opción 3 es nuevamente muy similar a las anteriormente estudiadas que incluyen dentro de la envolvente térmica el volumen completo del edificio.  
+ 
+Consideraciones acerca del cumplimiento de esta configuración 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+El parámetro de control solar (qsol;jul), es la relación entre las ganancias solares para el mes de julio (Qsol;jul)  a través de los huecos pertenecientes a la envolvente térmica con sus protecciones solares móviles activadas, y la superficie útil de los espacios incluidos dentro de la envolvente térmica (Autil).  
+ 
+En el caso de edificios nuevos como el de nuestro ejemplo, el parámetro de control solar (qsol;jul) no superará el valor límite de la tabla 3.1.2-HE1 considerando además el uso del edificio (en nuestro caso residencial privado): 
+ 
+ 
+
+Tabla 3.1.2-HE1 Valor límite del parámetro de control solar, qsol;jul,lim[kWh/m²·mes] 
+ 
+Para obtener las ganancias por radiación solar que se producen a través de los huecos necesitamos conocer: 
+1. La radiación incidente sobre el hueco en el periodo de estudio (el mes de julio) 
+
+2. Las obstrucciones y protecciones fijas y móviles de las que dispone cada hueco y que limitan el acceso de la radiación solar durante el período qué queremos analizar. Es decir, la transmitancia de energía solar de los huecos. Para ello necesitamos a su vez conocer: - Por una parte, la transmitancia solar del vidrio (factor solar del vidrio),  
+
+- Los obstáculos o elementos de sombra fijos que limitan el acceso solar del hueco 
+
+- Los elementos de sombra móviles previstos que se puedan activar como elementos de protección estacional.  
+
+
+
+
+
+ 
+El método de cálculo detallado de estos parámetros lo podemos encontrar en el apartado 2.2 del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. Los valores de irradiación solar media en el mes de julio para las diferentes zonas climáticas en las tablas 20 y 21 del apartado 2.3 del mismo documento  
+ 
+ 
+Mediante tablas personalizadas para cada opción se define el cumplimiento de este requisito. En dichas tablas aparece la terminología que se define a continuación: 
+ 
+g_gl;wi 
+Es la transmitancia total de energía solar del vidrio sin los dispositivos de sombra activos. Se expresa habitualmente como la relación en tanto por uno entre la radiación incidente y la que finalmente atraviesa el vidrio. Es un dato que normalmente nos facilitará el fabricante del vidrio. Se obtiene a partir del valor 
+
+ 
+ 
+
+ 
+Las soluciones constructivas y condiciones de ejecución de los elementos de la envolvente térmica asegurarán una adecuada estanqueidad al aire. Particularmente, se cuidarán los encuentros entre huecos y opacos, puntos de paso a través de la envolvente térmica y puertas de paso a espacios no acondicionados.  
+ 
+Con estas premisas, hemos de garantizar la estanqueidad suficiente al paso del aire en la envolvente térmica del edificio. Para ello se han de cumplir los siguientes requisitos. 
+ 
+ 
+
+ 
+La permeabilidad de todos los huecos de la envolvente térmica no superará los valores límite de la siguiente tabla: 
+ 
+ 
+
+* La permeabilidad indicada es la medida con una sobrepresión de 100Pa, Q100. 
+Los valores de permeabilidad establecidos se corresponden con los que definen la clase 2 (=27 m3/h·m2)y clase 3 (=9m3/h·m2) de la UNE-EN 12207:2017.La permeabilidad del hueco se obtendrá teniendo en cuenta, en su caso, el cajón de persiana. 
+ 
+Los valores considerados en nuestros casos de estudio se corresponden en todos ellos con una clase 3y límite de permeabilidad según ensayo normalizado de 9 m3/h·m2.  
+ 
+En consecuencia, el cuadro de justificación del cumplimiento sea el siguiente: 
+ 
+ 
+
+ 
+ 
+
+ 
+Relación del cambio de aire: relación entre el flujo de aire a través de la envolvente térmica del edificio y su volumen interno. En el ámbito de este DB se emplea el valor obtenido para una presión diferencial a través de la envolvente de 50 Pa, (n50). 
+ 
+En edificios nuevos de uso residencial privado, con una superficie útil total superior a 120 m2, la relación del cambio de aire con una presión diferencial de 50 Pa(n50), no superará el valor límite de la tabla 3.1.3.b HE1.  
+ 
+
+Los valores límite a cumplir son función de la compacidad del edificio. Dicho valor ya se ha calculado para nuestro edificio en los apartados anteriores para todas las opciones de estudio. 
+ 
+La condición de superficie útil superior a 120 m2 hará que la aplicabilidad de este indicador sea diferente en las 3 opciones y variantes qué estamos analizando. En las dos opciones de la configuración 1 la superficie útil de los espacios es de 60 m2 por lo que no es de aplicación este requisito. Lo mismo ocurre en las dos configuraciones de la opción 2 en las que la superficie útil es de 100 m2. Solamente en la opción 3 en la que la superficie útil es de 128 m2 habrá que justificar el cumplimiento de este requisito. 
+ 
+Para justificar el cumplimiento en el “Anejo H Determinación de la permeabilidad al aire del edificio” se proponen dos vías posibles:  
+- Determinación mediante ensayo. El valor de la relación del cambio de aire a 50 Pa, [n50], puede obtenerse mediante ensayo realizado según el método B de la norma UNE-EN 13829:2002 Determinación de la estanqueidad al aire en edificios (de próxima revisión). Método de presurización por medio de ventilador. 
+
+
+ 
+- Determinación mediante valores de referencia. El valor de la relación del cambio de aire a 50 Pa, [n50], puede calcularse, a partir de la siguiente expresión: 
+
+
+ 
+n50 = 0,629 · (Co · Ao + Ch · Ah) / V 
+donde: 
+n50es el valor de la relación del cambio de aire a 50Pa; 
+V es el volumen interno (de aire interior en nuestras tablas) de la envolvente térmica, en [m3]; 
+Co es el coeficiente de caudal de aire de la parte opaca de la envolvente térmica, expresada a 100 Pa, en [m3/h·m2], obtenido de la tabla a-Anejo H. Dicho valor es de 16 m3/h·m2 para edificios nuevos o existentes con permeabilidad mejorada y 29 m3/h·m2 para edificios existentes 
+(*)   Ao es la superficie de la parte opaca de la envolvente térmica, en [m2];  
+Ch es la permeabilidad de los huecos de la envolvente térmica, expresada a 100Pa, en [m3 /hm2], según su valor de ensayo; 
+Ah es la superficie de los huecos de la envolvente térmica, en [m²]. 
+ 
+En la siguiente tabla, se recogen todos los parámetros necesarios para el cálculo de este indicador.  
+ 
+ 
+
+ 
+(*) En este caso el área de opacos está referida a la superficie de intercambio de aire con el exterior, por lo que, a diferencia del cálculo de K, tampoco incluye las superficies en contacto con el terreno, si no solamente las que están en contacto con el aire exterior.  
+ 
+ 
+ 
+Como vemos, el valor de cálculo supera al valor límite establecido. En este caso las opciones de mejora o corrección para alcanzar el cumplimiento pueden tener diferente alcance. 
+ 
+- En primer lugar, si observamos la expresión de cálculo vemos que se pone en relación la superficie de la envolvente en contacto con el aire exterior (numerador) con el volumen que hemos llamado de “aire interior” (denominador) del edificio. Es decir, implícitamente, se está considerando el índice de forma del edificio, por tanto, una primera posibilidad de mejora de carácter general sería la reducción de este índice de forma del edificio. 
+
+
+ 
+- Como segunda opción de mejora se podrían adoptar medidas de intervención local sobre los elementos a través de los cuales se produce la permeabilidad.  o Respecto a la parte opaca, la metodología de cálculo propuesta no nos da margen de maniobra, pues fija exclusivamente dos valores posibles de coeficiente de caudal de aire a través de la parte opaca en función de si se trata de: - un edificio existente o  
+
+- si se trata de un edificio con permeabilidad mejorada o de nueva construcción cómo es nuestro caso. 
+
+
+
+
+o Respecto a la superficie de huecos, la metodología nos da la posibilidad de mejorar (reducir) su permeabilidad si optamos por la prescripción en proyecto de carpinterías clase 4, cuyo límite de permeabilidad es de 3 m3/h·m2. Obsérvese también que con carpinterías clase 3 o 4, la permeabilidad del hueco es mejor en el cálculo que la permeabilidad de la parte opaca. En este sentido, desde el punto de vista del cumplimiento del indicador de cambio de aire [n50], nos beneficia una mayor superficie de huecos, aunque como hemos visto en el estudio del requisito del coeficiente K, normalmente penaliza a ese valor. Como siempre, habrá que buscar una solución de equilibrio.  
+
+
+
+
+
+ 
+ 
+ 
+- Por último, siempre será posible la justificación del cumplimiento de este indicador mediante la realización del ensayo de la “puerta soplante” (“blowerdoor” en inglés), que justifique que los valores de permeabilidad el edificio terminado, son inferiores al valor límite establecido en la tabla de referencia.  
+
+
+ 
+En nuestro caso, no es posible a través de la segunda opción, cambio de carpinterías de clase3 a clase 4, alcanzar el cumplimiento. Esta modificación consiste en reducir la permeabilidad de la superficie de huecos que para esta opción 3 configuración única es importante y alcanza los 38,60 m2.  
+ 
+Efectivamente, sí sustituimos la clase de carpintería 3 prevista en el proyecto por una clase 4 cuya permeabilidad límite es 3 m3/h·m2, vemos que conseguimos una reducción importante del valor de proyecto de la relación del cambio de aire, pero no alcanzamos el cumplimiento.  
+ 
+En la página siguiente se incorpora la ficha corregida con esta modificación ya incorporada.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+DESC 
+
+
+ 
+ 
+3. Limitación de descompensaciones 
+ 
+Dado que el edificio que estamos estudiando en sus 5 configuraciones diferentes, todos sus espacios pertenecen siempre a la misma “unidad de uso”6, una única propiedad y sin zonas comunes compartidas con otras unidades de uso, este apartado no se aplica a ninguna de sus particiones interiores.  
+6 Definición incluida en el Anejo A del CTE DB HE. edificio o parte de él destinada a un uso específico, en la que sus usuarios están vinculados entre sí bien por pertenecer a una misma unidad familiar, empresa, corporación; o bien por formar parte de 
+un grupo o colectivo que realiza la misma actividad. En el ámbito de este Documento Básico, se consideran unidades de uso diferentes, entre otras, las siguientes: 
+a) en edificios de vivienda, cada una de las viviendas. 
+b) en edificios de otros usos, cada uno de los establecimientos o locales comerciales independientes.  
+ 
+ 
+ 
+CONDENSA 
+
+
+ 
+ 
+4. Limitación de condensaciones de la envolvente térmica 
+ 
+A este respecto dentro de la Sección HE 1. Condiciones para el control de la demanda energética, en el punto 3.3. Limitación de condensaciones en la envolvente térmica, se establece lo siguiente: 
+ 
+En el caso de que se produzcan condensaciones intersticiales en la envolvente térmica del edificio, estas serán tales que no produzcan una merma significativa en sus prestaciones térmicas o supongan un riesgo de degradación o pérdida de su vida útil. En ningún caso, la máxima condensación acumulada en cada periodo anual podrá superar la cantidad de evaporación posible en el mismo periodo. 
+ 
+Por tanto, la comprobación a la que se refiere este apartado ha de realizarse exclusivamente para las condensaciones intersticiales.  
+ 
+Esta comprobación no es necesario realizarla para los cerramientos en contacto con el terreno ni para aquellos que incorporen barrera de vapor. En el caso de incorporarse dicha barrera de vapor, es conveniente recordar que ha de situarse siempre en la cara caliente de dicho cerramiento. En particiones interiores en contacto con espacios no habitables en los que se prevea gran producción de humedad, se debe colocar la barrera contra el vapor en el lado del cerramiento en contacto con el espacio no habitable. 
+ 
+El documento de apoyo DA DB-HE / 2 “Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos” recoge procedimientos para el cálculo del riesgo de condensaciones (tanto superficiales como intersticiales) y puede emplearse para el cálculo y justificación del cumplimiento de esta exigencia. En nuestro caso, para la justificación del cumplimiento se ha recurrido a dicho procedimiento de cálculo y en la Sección 3 de AYUDAS de esta guía, se desarrolla la comprobación completa para el MURO EXTERIOR del edificio del ejemplo.
+De igual forma, se procedería con todos los cerramientos que requieran dicha comprobación. Se trata de justificar mediante cálculo analítico, que en ninguna de las capas que componen la solución constructiva empleada en el cerramiento, la presión de vapor supera el valor de la presión de saturación de vapor de agua. Esta comprobación se realiza bajo las condiciones exteriores medias más desfavorables (mes de enero) y las condiciones interiores operacionales o de cálculo. 
+ 
+La composición del cerramiento y las características necesarias (para el cálculo) de cada una de sus capas son las siguientes: 
+ 
+ 
+
+*en el apartado de ayudas se define cada uno de estos valores y se indica la fuente o procedimiento para obtenerlos. 
+ 
+A modo de resumen (ver cálculo completo en la sección de AYUDAS) se detalla en la siguiente tabla, los resultados del cálculo y el cumplimiento de la condición descrita anteriormente por la que la presión de vapor (P) en cada capa del cerramiento es menor que la presión de saturación (Ps): 
+ 
+ 
+
+ 
+Trasladando estos valores sobre el esquema constructivo del cerramiento, se puede observar que las gráficas de ambas presiones no entran en contacto en ningún punto de la sección del muro. Por tanto, bajo las condiciones de este análisis, no existe riesgo de condensaciones intersticiales en el cerramiento. 
+ 
+
+ 
+ 
+COMT 
+
+
+ 
+ 
+5. Comentarios 
+ 
+Como resumen muy breve del análisis que se ha realizado de esta exigencia, decir lo siguiente: 
+- El control sobre la demanda energética se realiza mediante requisitos que favorecen el mejor comportamiento pasivo del edificio. Estos requisitos afectan a las pérdidas y ganancias de calor a través de la envolvente, a la capacidad del edificio para controlarla radiación solar a través de huecos, a la permeabilidad al paso del aire a través de la envolvente térmica (opacos y huecos) y a la presencia de condensaciones intersticiales en los cerramientos que puedan menoscabar sus prestaciones.  
+
+
+ 
+- Existe un amplio margen para el proyectista a la hora definir la envolvente térmica tanto constructivamente, como en su propio trazado y relación con los espacios de su entorno. 
+
+
+ 
+ 
+HE2 
+
+
+ 
+ 
+HE2. CONDICIONES DE LAS INSTALACIONES TÉRMICAS 
+ 
+Esta exigencia se desarrolla en el vigente Reglamento de Instalaciones Térmicas en los Edificios (RITE). Dicho documento se encuentra actualmente en revisión. 
+ 
+No obstante, conviene recordar que la aplicación del RITE afecta a las características y condiciones de funcionamiento de las instalaciones térmicas las instalaciones fijas de climatización (calefacción, refrigeración y ventilación) y de producción de agua caliente sanitaria, destinadas a atender la demanda de bienestar térmico e higiene de las personas. 
+ 
+En nuestro edificio afecta a los siguientes sistemas y equipos de la vivienda: 
+- Sistema de calefacción y producción de ACS 
+
+- Sistema de ventilación 
+
+
+ 
+Respecto a las exigencias técnicas relativas a la eficiencia energética y que se recogen en el Articulo 12. Eficiencia energética, se dice: 
+ 
+“Las instalaciones térmicas deben diseñarse y calcularse, ejecutarse, mantenerse y utilizarse de tal forma que se reduzca el consumo de energía convencional de las instalaciones térmicas y, como consecuencia, las emisiones de gases de efecto invernadero y otros contaminantes atmosféricos, mediante la utilización de sistemas eficientes energéticamente, de sistemas que permitan la recuperación de energía y la utilización de las energías renovables y de las energías residuales”  
+ 
+En concreto, se requiere el cumplimiento de los siguientes requisitos: 
+ 
+1. Rendimiento energético: los equipos de generación de calor y frío, así como los destinados al movimiento y transporte de fluidos, se seleccionarán en orden a conseguir que sus prestaciones, en cualquier condición de funcionamiento, estén lo más cercanas posible a su régimen de rendimiento máximo. 
+
+
+ 
+2. Distribución de calor y frío: los equipos y las conducciones de las instalaciones térmicas deben quedar aislados térmicamente, para conseguir que los fluidos portadores lleguen a las unidades terminales con temperaturas próximas a las de salida de los equipos de generación. 
+
+
+ 
+3. Regulación y control: las instalaciones estarán dotadas de los sistemas de regulación y control necesarios para que se puedan mantener las condiciones de diseño previstas en los locales climatizados, ajustando, al mismo tiempo, los consumos de energía a las variaciones de la demanda térmica, así como interrumpir el servicio. 
+
+
+ 
+4. Contabilización de consumos: las instalaciones térmicas deben estar equipadas con sistemas de contabilización para que el usuario conozca su consumo de energía, y para permitir el reparto de los gastos de explotación en función del consumo, entre distintos usuarios, cuando la instalación satisfaga la demanda de múltiples consumidores. 
+
+
+ 
+5. Recuperación de energía: las instalaciones térmicas incorporarán subsistemas que permitan el ahorro, la recuperación de energía y el aprovechamiento de energías residuales. 
+
+
+ 
+6. Utilización de energías renovables: las instalaciones térmicas aprovecharán las energías renovables disponibles, con el objetivo de cubrir con estas energías una parte de las necesidades del edificio. 
+
+
+ 
+Para justificar que una instalación cumple dichas exigencias, podrá optarse por una de las siguientes opciones: 
+ 
+a) adoptar soluciones basadas en las Instrucciones técnicas, cuya correcta aplicación en el diseño y dimensionado, ejecución, mantenimiento y utilización de la instalación, es suficiente para acreditar el cumplimiento de las exigencias; o 
+
+
+ 
+b) adoptar soluciones alternativas, entendidas como aquellas que se apartan parcial o totalmente de las Instrucciones técnicas. El proyectista o el director de la instalación, bajo su responsabilidad y previa conformidad de la propiedad, pueden adoptar soluciones alternativas, siempre que justifiquen documentalmente que la instalación diseñada satisface las exigencias del RITE porque sus prestaciones son, al menos, equivalentes a las que se obtendrían por la aplicación de las soluciones basadas en las Instrucciones técnicas. 
+
+
+ 
+Dentro de la PARTE II del documento referido a las Instrucciones Técnicas, la IT 1.2 Exigencia de eficiencia energética, recoge los requisitos a cumplir en los siguientes apartados: 
+ 
+- Justificación del cumplimiento de la exigencia de eficiencia energética en la generación de calor y frío (apartado 1.2.4.1) 
+
+
+ 
+- Justificación del cumplimiento de la exigencia de eficiencia energética en las redes de tuberías y conductos de calor y frío (apartado 1.2.4.2) 
+
+
+ 
+- Justificación del cumplimiento de la exigencia eficiencia energética de control de las instalaciones térmicas en el apartado 1.2.4.3. 
+
+
+ 
+- Justificación del cumplimiento de la exigencia de contabilización de consumos en el apartado 1. 2.4.4. 
+
+
+ 
+- Justificación del cumplimiento de la exigencia de recuperación de energía en el apartado 1.2.4.5. 
+
+
+ 
+- Justificación del cumplimiento de la exigencia de aprovechamiento de energías renovables en el apartado 1.2.4.6. 
+
+
+ 
+- Justificación del cumplimiento de la exigencia de limitación de la utilización de energía convencional en el apartado 1.2.4.7. 
+
+
+ 
+ 
+ 
+ 
+
+HE4 
+
+
+
+HE4.CONTRIBUCIÓN MÍNIMA DE ENERGÍA RENOVABLE PARA CUBRIR LA DEMANDA DE AGUA CALIENTE SANITARIA 
+
+
+1.Preparación de datos previos a la comprobación
+
+2.Contribución renovable mínima para ACS y/o climatización de piscina
+
+3.Sistemas de medida de energía suministrada
+
+
+
+
+DAT 
+
+
+
+
+1.Preparación de datos previos a la comprobación
+
+En el ámbito de aplicación definido en el documento básico exigencia “HE 4 Contribución mínima de energía renovable para cubrir la demanda de agua caliente sanitaria” se dice lo siguiente: 
+
+1 Ámbito de aplicación 
+1 Las condiciones establecidas en este apartado son de aplicación a: 
+a)edificios de nueva construcción con una demanda de agua caliente sanitaria (ACS)superior a 100 l/d, calculada de acuerdo al Anejo F.
+
+b)…………………………..
+
+
+
+En lo que afecta a nuestro ejemplo en sus diferentes configuraciones y teniendo en cuenta los cálculos de la demanda para cada caso según el procedimiento establecido en Anejo F Demanda de referencia de ACS, tenemos en primer lugar y partiendo de la demanda de diseño lo siguiente: 
+
+
+(*) se ha considerado para el cálculo la ocupación estricta establecida en la Tabla a-Anejo F. Valores mínimos de ocupación de cálculo en uso residencial privado, dentro del Anejo F Demanda de referencia de ACS (CTE DB HE) 
+
+
+
+
+El valor límite normativo se fija en la exigencia de la siguiente forma: 
+
+3.1 Contribución renovable mínima para ACS y/o climatización de piscina 
+1 La contribución mínima de energía procedente de fuentes renovables cubrirá al menos el 70% de la demanda energética anual para ACS y para climatización de piscina, obtenida a partir de los valores mensuales, e incluyendo las pérdidas térmicas por distribución, acumulación y recirculación. Esta contribución mínima podrá reducirse al 60% cuando la demanda de ACS sea inferior a 5000 l/d. 
+Se considerará únicamente la aportación renovable de la energía con origen in situ o en las proximidades del edificio, o procedente de biomasa sólida. 
+
+En principio y como vemos en el cuadro anterior, tanto la opción 1 cómo la 2 no alcanzan el valor mínimo de demanda de 100 litros/día. No obstante, en dicho cuadro solo están consideradas las perdidas por distribución (en este caso se considera que por el pequeño tamaño del edificio no existe recirculación), faltaría por aplicar las perdidas debidas a la acumulación. Respecto a la opción 1, partiendo de 44,1 l/d, no parece que puedan alcanzarse en ningún caso los 100 l/d equivalentes incluyendo las pedidas producidas en el depósito. El caso 2 parte de 88,2 l/d (incluyendo el 5% de perdidas por distribución) y sería necesario estimar las perdidas por acumulación y comprobar el total.  Finalmente, en la opción 3 la demanda de ACS es ya de 117,6 litros/día considerando la demanda de diseño y el incremento del 5% de perdidas en el transporte. En este caso, se superan los 100 l/d y considerando que la preparación es a 60ºC, estará claramente sujeta al cumplimiento de los valores de contribución mediante fuentes de energía renovables en la preparación de ACS.  
+
+Para concretar la demanda total en el supuesto de la opción 2, hemos de estimar las pérdidas debidas a la acumulación, transformarlas en l/d equivalentes preparados a 60ºC y sumarlas a la demanda de diseño ya obtenida anteriormente. Conocida la demanda total en l/d, sabremos si se superan los 100 l/d de referencia normativa. 
+
+Para este cálculo partiremos de las características del depósito que en nuestro caso figuran en la ficha de la instalación, y realizaremos una estimación de las pérdidas que mes a mes se producen en el depósito de acumulación. Lo haremos de la siguiente forma: 
+
+..=..·..·...· nº de horas del mes
+Donde, 
+Q: Pérdidas mensuales de calor producidas en el depósito de acumulación (W·h) 
+A: área de la envolvente del depósito (m2) 
+U: coeficiente de transmisión térmica de la envolvente del acumulador (W/m2·K) 
+.T: salto térmico entre la temperatura interior del depósito y la temperatura ambiente exterior al mismo (ºC) 
+
+Conocidos los dos primeros términos de la expresión, que constituyen el coeficiente de pérdidas del depósito y que para el caso de la opción 2 (depósito de 100 litros) es: 
+
+Coeficiente de perdidas (A·U) = 0,5 W/ºC 
+
+Este dato, figura en el cuadro de características de la instalación y es el que nos solicita HULC en la ficha del depósito cuando lo incorporemos como equipo que forma parte del sistema mixto calefacción-ACS. 
+
+Respecto al salto térmico, consideraremos, de manera simplificada, una temperatura constante en el interior del depósito de 65ºC y de 20ºC como temperatura ambiente del lugar en el que se ubica el 
+acumulador (suponemos un espacio interior). Con estos valores estimamos las perdidas medias mensuales.  
+
+En la siguiente tabla se recogen los cálculos descritos anteriormente: 
+
+
+
+
+El cálculo de la temperatura del agua fría en la localidad (Albarracín), a la altitud de proyecto, se ha realizado según el criterio que se describe en el Anejo G Temperatura del agua de red del DB HE. 
+
+El siguiente paso será transformar esas pérdidas anuales de 197.100 W·h que se producen en el acumulador en l/d equivalentes. 
+
+La media diaria de perdidas en el depósito será: 
+
+197.100 Wh/año / 365 días año= 540 W·h/día 
+
+Para el cálculo de los l/d equivalentes empleamos la siguiente expresión: 
+ldequivalentes=Energía perdida/día.T·C..·...
+
+Donde: 
+Energía perdida/día: es el valor de la energía que se ha perdido como media diaria en el acumulador (Wh/día) 
+.T: salto térmico entre la temperatura de preparación del ACS (60ºC en nuestro caso) y la media anual del agua fría a la altitudde proyecto (en nuestro caso 9,74ºC) y. 
+Ca: Calor específico del agua.
+.a: Densidad del agua.
+
+
+en consecuencia, ld=540Whdía(60º..-9,74º..)·1,163 ..h......·1......=..,........
+
+
+Por tanto, la demanda equivalente total de la opción 2 en litros/día, será: 
+
+l/d (opción 2) = 88,2+9,2=97,4 
+
+Como en esta opción 2 tampoco se alcanzan los 100 l/d, solamente la opción 3 estaría sujeta al cumplimiento de la sección HE4 
+
+La contribución mediante fuentes de energía renovables en este caso, al ser la demanda inferior a 5000 l/d, cubrirá como mínimo el 60% de dicha demanda. 
+
+
+
+C. RENOV 
+
+
+
+
+2.Contribución renovable mínima para ACS y/o climatización de piscina
+
+Para la opción 3 y a partir de la demanda de ACS diaria que figura en la ficha de la instalación, la temperatura del agua fría en la localidad (Albarracín) calculada según el criterio que se describe en el Anejo G Temperatura del agua de red y la temperatura de preparación (60ºC en nuestro caso), se puede obtener la energía necesaria total anual (KW·h) para preparar el volumen de ACS que demanda el edificio.  
+
+Restaría obtener las perdidas producidas en el depósito de acumulación que las calculamos tomando las características del depósito que figuran en la ficha de la instalación, y aplicando la expresión que ya hemos visto en el apartado anterior: 
+..=..·..·...·..º .... .......... ...... ..............
+Donde, 
+Q: Pérdidas mensuales de calor producidas en el depósito de acumulación (W·h) 
+A: área de la envolvente del depósito (m2) 
+U: coeficiente de transmisión térmica de la envolvente del acumulador (W/m2·K) 
+.T: salto térmico entre la temperatura interior del depósito y la temperatura ambiente exterior al mismo (ºC) 
+
+El coeficiente de pérdidas (A·U), figura en la ficha de la instalación dentro de las características del depósito y que para el caso de la opción 3 (capacidad del depósito de150 litros) es: 
+
+Coeficiente de perdidas (A·U) = 0,8 W/ºC 
+
+Respecto al salto térmico, consideramos nuevamente una temperatura constante en el interior del depósito de 65º C y de 20ºC como temperatura ambiente del lugar en el que se ubica el acumulador que, como hemos dicho, lo suponemos situado en un espacio interior. Con estos valores se han estimado las perdidas medias mensuales. Debemos recordar que HULC realiza este cálculo de una 
+manera más precisa, a partir de una simulación horaria anual, en consecuencia, se producirán pequeñas diferencias entre los resultados obtenidos en el cálculo manual y el de referencia en HULC. 
+
+La HE4 establece la contribución de renovables en demanda de ACS (no en energía final) y por ello, debemos calcular la demanda mensual de energía para ACS que se realiza directamente con la fórmula: 
+
+DACS=VACS · Ca · .a · (60º-Tagua red) [kW·h]
+
+En la tabla que se incorpora a continuación se recogen todos los cálculos descritos anteriormente. Una vez obtenida la demanda total anual en KW·h y dividiendo dicho valor por la superficie útil de proyecto (128 m2) obtenemos la demanda de ACS en KW·h/m2·año.  
+
+Como ayuda para el cálculo y diseño de esta instalación se puede tomar como referencia la Guía IDAE 022: Guía Técnica de Energía Solar Térmica (edición v1.0. Madrid, abril de 2020).  
+
+El resumen del cálculo es el siguiente: 
+
+
+
+
+En consecuencia, el proceso de cálculo para obtener la contribución renovable para ACS sería el siguiente: 
+1.Determinar qué parte de la demanda de ACS es satisfecha por cada sistema: en este caso solohay un sistema y por tanto la caldera de biomasa abastecerá el 100% de la demanda (en el casopor ejemplo de que hubiera además paneles solares térmicos, la caldera solo abastecería lademanda que no lleguen a cubrir los paneles)
+
+
+
+2. Obtener el consumo de energía final, por vector energético, para cada sistema de acuerdo con su rendimiento: la caldera de biomasa del modelo tiene un rendimiento del 93% lo que resulta en el siguiente cálculo para obtener la energía final consumida:  
+
+
+ Q (calor entregado)Energía Final consumida=0,93 
+ 22,05 kW·h/m2·añoEnergía final consumida=0,93 
+ Energía Final consumida=22,05 kW·h/m2·año0,93=....,.... ....·../....·..ñ.. 
+ 
+ 
+3. Calcular la fracción de esa energía final que es de origen renovable: este cálculo de manera general se puede realizar a través de la relación entre sus factores de paso a energía primaria renovable y total (fep,ren/fep,tot). Estos datos se obtienen del Documento Reconocido del RITE, “Factores de emisión de CO2 y coeficientes de paso a energía primaria de diferentes fuentes de energía final consumidas en el sector de edificios en España” 
+
+
+ 
+
+
+Tabla de factores de paso entre energía final y primaria según vectores energéticos. 
+ 
+fep,ren/fep,tot = 1,028/1,113 = 0,9236 
+ 
+Energía Final de “origen renovable” = 23,71 · 0,9236 = 21,898 kW·h/m2·año 
+ 
+ 
+4. Convertir la energía final de origen renovable a demanda de “origen renovable” usando de nuevo el rendimiento de cada sistema con relación a cada uno de los vectores energéticos que usa: 
+
+
+ 
+Demanda de “origen renovable” = 21,898 · 0,93 (rend. caldera) = 20,365 kW·h/m2·año 
+ 
+ 
+5. Sumar todas las contribuciones renovables de la demanda: dado que solo tenemos un sistema renovable que abastezca el servicio de ACS (la caldera de biomasa) la demanda total renovable será la abastecida por la caldera, es decir, 20,365 kWh/ m2·año 
+
+
+ 
+6. Calcular qué porcentaje representa esa demanda “renovable” respecto a la demanda de ACS 
+
+
+ 
+Demanda de “origen renovable” / Demanda total de ACS = 20,365 / 22,05 = 0,9235 
+
+% DACS,ren=92,4%
+
+El resumen de todo el proceso de cálculo expuesto se recoge en la siguiente tabla: 
+
+
+
+
+
+
+
+MEDID 
+
+
+
+
+1.Sistemas de medida de energía suministrada
+
+
+Los sistemas de medida que se han de incorporar para el control de la energía suministrada en la preparación de ACS cumplirán las especificaciones y condiciones que se establecen en el Reglamento Instalaciones Térmicas de los Edificios (RITE).  
+
+“Los sistemas de medida de la energía suministrada procedente de fuentes renovables se adecuarán al vigente Reglamento de Instalaciones Térmicas en los Edificios (RITE).” 
+ 
+ 
+HE5 
+
+
+ 
+ 
+HE5.GENERACIÓN MÍNIMA DE ENERGÍA ELÉCTRICA 
+
+ 
+ 
+NO ES DE APLICACIÓN AL RESIDENCIAL PRIVADO 
+ 
+ 
+ 
+Por tratarse nuestro ejemplo de un edificio nuevo y de uso residencial privado, existen diferentes exclusiones que afectan a la incorporación o exigencia sobre determinados sistemas. En concreto y en lo que afecta a este apartado, En el “DB HE5 Generación mínima de energía eléctrica”, se excluye en su aplicación al uso residencial privado. Por tanto, no es exigible que este edificio incorpore ninguna instalación de producción de energía eléctrica procedente de fuentes renovables. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HE0 
+
+
+ 
+ 
+HE0.LIMITACIÓN DEL CONSUMO ENERGÉTICO 
+
+ 
+1. Preparación de datos previos a la comprobación 
+2. Consumo de energía primaria no renovable 
+3. Consumo de energía primaria total 
+4. Horas fuera de consigna 
+5. Resultados 
+ 
+ 
+ 
+DAT 
+
+
+ 
+ 
+1. Preparación de datos previos a la comprobación 
+
+
+Debido a la complejidad de los cálculos que es preciso realizar en este apartado, recurrimos a los valores obtenidos mediante simulación del modelo en HULC. Estas simulaciones han sido contrastadas a lo largo de todo el proceso mediante la comprobación de los resultados obtenidos en los diferentes cálculos previos. 
+ 
+ 
+ 
+EPNR 
+
+
+ 
+ 
+2. Consumo de energía primaria no renovable 
+
+
+El consumo de energía primaria no renovable (Cep,nren) de los espacios contenidos en el interior de la envolvente térmica del edificio o, en su caso, de la parte del edificio considerada, no superará el valor límite (Cep,nren,lim) obtenido de la tabla 3.1.a-HE0 para uso residencial privado (que es nuestro caso): 
+ 
+ 
+
+ 
+ 
+ 
+
+EPT 
+
+
+
+
+3.Consumo de energía primaria total
+
+
+El consumo de energía primaria total (Cep,tot) de los espacios contenidos en el interior de la envolventetérmica del edificio o, en su caso, de la parte del edificio considerada, no superará el valor límite (Cep,tot,lim)obtenido de la tabla 3.2.a-HE0 para uso residencial privado como es nuestro caso: 
+
+
+
+
+
+
+HORAS 
+
+
+
+
+4.Horas fuera de consigna
+
+
+El total de horas fuera de consigna no excederá el 4% del tiempo total de ocupación. En el diseño de los sistemas previstos para el acondicionamiento térmico de los espacios, se ha de prever esta circunstancia. De las 8760 horas que tiene el año, los espacios acondicionados del edificio no pueden permanecer más 350 horas fuera de las condiciones de confort establecidas.  
+
+En todos nuestros casos de estudio y considerando el clima (E1) en el que se sitúa el edificio, se ha optado por no incluir un sistema activo de refrigeración. Esto puede conducir a que, si realizamos la simulación del modelo sin activar los sistemas de sustitución o referencia, aparezca un cierto número de horas “fuera de consigna” en las que no se alcanzan las condiciones de confort en periodo de verano y, que se sumarán a las que estén relacionadas con la insuficiente potencia asignada a las unidades terminales de calefacción. Por esta razón se ha optado por realizar todos los cálculos activando los sistemas por defecto del programa de cálculo (HULC). Bajo estas condiciones el número de horas fuera de consigna será siempre 0, pues los sistemas de sustitución compensarán el déficit de los sistemas previstos y en consecuencia, se computarán sus consumos producidos según los vectores energéticos y las características del siguiente cuadro: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+Como breve resumen general del estudio realizado de todas las configuraciones, se puede concluir lo siguiente: 
+- Las mayores dificultades de cumplimiento se encuentran en la opción 1 donde el volumen acondicionado se encuentra exclusivamente en la planta baja.  
+
+
+ 
+Pese a tener el mejor valor de compacidad de todos los modelos estudiados, la superficie de envolvente computable a efectos del cálculo del coeficiente K, se reduce a las fachadas de planta baja, por lo que se ve perjudicado por una mayor proporción de huecos que contribuyen con una transmitancia más desfavorable que la de la parte opaca. De las dos configuraciones estudiadas en esta opción 1, resuelve mejor el cumplimiento de HE 1 la segunda configuración, que incluye el bajocubierta, pues en esta solución la cubierta inclinada compensa la transmitancia más desfavorable de los huecos de planta baja.  
+ 
+- Algo parecido ocurre en la opción 2 respecto al control de la demanda. No se cumple el valor límite de K en la primera configuración debido a una peor relación huecos-opacos de le E.T. computable. En la segunda configuración en cambio, la continuidad por el exterior de la envolvente térmica compensa la transmitancia más desfavorable de los huecos. 
+
+
+ 
+- La mayor carga de calefacción y refrigeración se producen también en la planta baja, por ser donde se disponen el mayor número de huecos y de mayor superficie. En consecuencia, cuando consideramos como único espacio acondicionado el de la planta baja, el reparto de demanda y consumos asociados por unidad de superficie resulta más desfavorable. En las opciones 2 y 3 en las que tenemos más superficie acondicionada, la demanda y consumos en kW·h/m2·año, resulta más equilibrada.  
+
+
+ 
+- Respecto a la relación del cambio de aire a 50 Pa, [n50], en general planteará problemas de cumplimiento en edificios pequeños, exentos, sin contactos en su perímetro, con un índice de forma (compacidad) desfavorable. No obstante, si el edificio aun siendo pequeño tiene una proporción de huecos importante y estos huecos son suficientemente estancos al paso del aire, puede favorecer la justificación del cumplimiento. Ese es nuestro caso, donde este requisito solamente se aplica en la opción 3 (> 120 m2 útiles) y se consigue el cumplimiento mejorando la estanquidad de los huecos al incorporar carpinterías clase 4, que garantiza menos de 3 m3/h·m2.  
+
+
+ 
+- En consecuencia, aunque es posible conseguir el cumplimiento en todas las opciones estudiadas, tanto en la opción 2 segunda configuración, como en la opción 3 configuración única, este cumplimiento es más sencillo y plantea menos modificaciones sobre las condiciones iniciales planteadas. 
+
+
+ 
+ 
+ 
+ 
+AYUDA 
+
+
+ 
+SECCIÓN 3. AYUDAS 
+
+ 
+1 
+ Levantamiento del modelo en HULC 
+ 
+
+ 
+  
+ 
+2 
+ Cálculo de transmitancias 
+ 
+ 
+  
+ 
+3 
+ Cálculo y comprobación de las condensaciones intersticiales 
+ 
+
+
+ 
+ 
+ 
+ 
+HULC 
+
+
+ 
+ 
+1. INDICACIONES PARA EL LEVANTAMIENTO EN HULC 
+
+ 
+1. Datos generales, administrativos y previos 
+2. Base de datos 
+3. Construcción del modelo 
+4. Incorporación de sistemas 
+5. Comentarios sobre la simulación 
+ 
+ 
+Para el levantamiento del edificio en la HERRAMIENTA UNIFICADA LIDER CALENER (HULC) se ha empleado la Versión 2.0.2203.1160 de 26 de abril. 
+ 
+ 
+ 
+DAT 
+
+
+ 
+ 
+1. Datos generales, administrativos y previos 
+
+
+En este apartado se utilizan los datos que figuran en el capítulo inicial de esta guía, donde se describe el edificio y la información de contexto general. Son datos comunes a las tres opciones salvo en lo que se refiere al caudal de ventilación que se ha de introducir en la ficha de datos generales de HULC. Dado que se varía la configuración de dormitorios los caudales serán diferentes según los casos. En el apartado de sistemas figuran los caudales de cálculo para cada configuración. 
+ 
+
+Imagen del levantamiento en HULC. Pantalla de datos generales. 
+ 
+ 
+ 
+BDAT 
+
+
+ 
+ 
+2. Base de datos 
+
+
+Este apartado se refiere a la definición de todos los cerramientos que componen el modelo de estudio en cada caso. Como se ha indicado desde el principio la composición dichos cerramientos es idéntica en todos los casos. Se deben introducir todos los componentes de los cerramientos tal y como aparecen descritos en el apartado de definición constructiva. Todos los elementos empleados figuran disponibles en la base de datos del programa a excepción de los vidrios y marcos necesarios para componer la solución de los huecos y que, en este caso, se recomienda que se creen manualmente con las especificaciones que figuran en su ficha. 
+ 
+ 
+ 
+
+Imagen del levantamiento en HULC. Pantalla de base de datos constructiva. 
+ 
+MODL 
+
+
+ 
+ 
+3. Construcción del modelo 
+
+
+Consideraciones previas 
+Es necesario explicar aquí algunas de las recomendaciones a tener en cuenta a la hora de levantar el modelo en HULC: 
+ 
+- Las plantas son muy sencillas y salvo la planta bajocubierta de la opción dos, se pueden modelar como espacio único (igual a planta) en cada una de ellas. Se recomienda utilizar la definición de polilíneas en un programa CAD e importarlas desde HULC generando espacios. Los esquemas de división de espacios que se han empleado son los siguientes: 
+
+
+ 
+ 
+
+ 
+   
+
+- La altura de planta de la cámara sanitaria es en todos los casos de 1 m. Como el espesor del forjado de planta baja es de 0,5 m la altura libre de esa cámara sanitaria será de 0,5 m. 
+
+
+ 
+- La altura de planta baja en las opciones 1 y 2 (en todas sus configuraciones) es de 4 metros por lo que descontando el espesor de forjado de la planta bajocubierta (0,5 m) resulta una altura libre de planta de 3,5 metros. Para la opción 3 la altura de planta baja es de 3 metros y en consecuencia su altura libre es de 2,5 metros.  
+
+
+ 
+- Para los espacios bajocubierta inclinada como es nuestro caso, debemos indicar al programa una altura equivalente de un prisma recto de la misma base que nuestra planta y cuyo volumen sea el mismo que el que encierra el bajocubierta (incluidos los espesores de la cubierta). El esquema sería el siguiente: 
+
+
+ 
+
+ 
+En lo que se refiere al levantamiento propiamente dicho no entraña ninguna dificultad especial y se va levantando planta por planta recogiendo las condiciones geométricas descritas en el apartado de planos.  
+ 
+Cámara sanitaria. 
+- P01 E01. 
+
+
+Es idéntica en todas las opciones y configuraciones. Se posiciona en la cota -1, sus cerramientos aparecerán representados en contacto con el terreno. Hay que tener la precaución de definirla inmediatamente como espacio no habitable y fuera de la envolvente. La altura de planta es de 1 metro. El nivel de estanqueidad con el que se ha definido este espacio es 3 según valores de la tabla 8 del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+ 
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+Planta baja. 
+- P02 E01. 
+
+
+Esta planta en cuanto a su configuración de espacio único es igual en las 3 opciones. En su levantamiento sólo varía la altura de planta que para las opciones 1 y 2 es de 4 metros y para la opción 3 es de 3 metros.  
+ 
+A la hora de crear los huecos hay que recordar y asignar correctamente por orientaciones tal y como se indica en las fichas correspondientes del apartado definición constructiva. Tendremos una configuración de huecos para las orientaciones norte y este y otra configuración diferente para las orientaciones sur y oeste.  
+ 
+Conforme vayamos creando los cerramientos de fachada debemos definir el color de acabado que en este caso se trata de un rojo claro y absortividad de 0,65.  
+ 
+ 
+
+Imagen del proceso de levantamiento en HULC de planta baja 
+ 
+Planta bajocubierta. OPCIONES 1 Y 3 
+En las opciones 1 y 3, se compone de un único espacio Igual a la planta. En la opción 1 se trata de un espacio habitable y en la opción 3 de un espacio acondicionado en su totalidad 
+ 
+- P03 E01. 
+
+
+En el caso de la opción 1 y 3 levantaremos todos los cerramientos de la planta a mano con la opción “crear cerramientos singulares”. Tendremos una parte de cerramientos verticales exteriores de 0,5 metros de altura en la opción 1 y de 1,5 metros en la opción 3. A partir de ese peralte, se levantan los 4 faldones de cubierta que cubren el espacio. Para ese último paso es necesario crear una línea 3 D de punta con la altura de la cumbrera. 
+ 
+La opción 3 tiene una singularidad y es que incorpora lucernarios en los planos de cubierta y además estos lucernarios tienen continuidad en huecos en el tramo de cerramiento vertical. Ambos huecos habrá que introducirlos por coordenadas de manera manual editando tanto los faldones de cubierta implicados cómo de cerramiento vertical de fachada.  
+ 
+ 
+ 
+
+Imagen del levantamiento en HULC de planta bajocubierta opción 1. Muro de fachada en esa planta de 0,5 m. 
+ 
+ 
+
+Imagen del levantamiento en HULC de planta bajocubierta opción 1. Muro de fachada en esa planta de 0,5 m. 
+ 
+ 
+ 
+
+Imagen del levantamiento en HULC de planta bajocubierta opción 3. Muro de fachada en esa planta de 1,5 m. 
+ 
+  
+
+Imagen del edificio terminado opción 3 
+ 
+Planta bajocubierta. OPCIÓN2 
+En la opción 2 la planta se ocupa de manera parcial, disponiéndose un espacio central acondicionado de dimensiones 6mx 6m y altura mínima de 1,5 metros., dejando el perímetro con altura inferior a 1,5 metros, como espacio no habitable. Por razones de configuración del espacio central se ha optado por dividir el espacio perimetral no habitable en dos: P03 E01y P03 E02. 
+ 
+- P03 E01, P03 E02 y P03 E03. 
+
+
+El proceso de construir estos espacios es la parte más delicada de todo el levantamiento. Toda la tabiquería interior y cerramientos exteriores han de realizarse de manera manual con la opción ya citada anteriormente de “crear cerramientos singulares”. Una parte importante es la definición de los paños de cubierta inclinada, que en este caso ha de hacerse por tramos cubriendo uno a uno cada espacio de los que componen la planta (3). Hay que asegurarse de que cada uno de esos tramos se asigna correctamente a su espacio.  
+ 
+Los espacios no habitables P03 E01y P03 E02 se definen en la simulación con un nivel de estanqueidad 1. 
+ 
+ 
+SIST 
+
+
+ 
+4. Incorporación de sistemas 
+
+
+ 
+A la hora de introducir los sistemas se recomienda proceder de la siguiente forma: 
+- Crear el sistema de ventilación 
+
+
+Utilizar los datos que figura en la ficha de descripción del sistema para cada una de las opciones. Hay que recordar que no se ha considerado la inclusión de recuperadores de calor por lo que esta parte de la ficha no es necesario cumplimentarla.  
+ 
+ 
+ 
+
+Imagen de la introducción de sistemas en el módulo de CALENER VYP de HULC para opción 2 
+ 
+- A continuación, creamos el sistema mixto de calefacción y ACS  
+
+
+Para ello reproducimos todas las características del sistema que figuran en la ficha del apartado correspondiente de esta guía. Creamos un equipo de producción (Caldera de baja temperatura por defecto), la demanda y un acumulador de ACS. Por último, introducimos las unidades terminales de cada espacio acondicionado con las potencias que se asignan en la ficha.   
+ 
+ 
+SIMUL 
+
+
+ 
+ 
+5. Comentarios sobre la simulación  
+
+
+Respecto a los datos que se obtienen mediante HULC respecto a los que se han calculado mediante hoja de cálculo, decir que son idénticos en la mayoría de los casos. Se presentan pequeñas diferencias en aquellos que implican superficies y volúmenes debidos principalmente a pequeñas imprecisiones derivadas del reparto de superficies de opacos y huecos en cerramientos o en el cálculo de volúmenes por redondeos en decimales. 
+ 
+TRSMT 
+
+
+ 
+ 
+2. CÁLCULO DE TRANSMITANCIAS 
+
+ 
+1. Transmitancias de cerramientos en contacto con el exterior 
+2. Transmitancias de particiones interiores 
+ 
+ 
+Se va a realizar a continuación a modo de ejemplo el cálculo8 de varios cerramientos, un caso general de contacto con el exterior y varios cerramientos singulares de contacto con espacios no habitables que aparecen en las diferentes opciones de estudio. 
+8Para un desarrollo más detallado, consultar DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+ 
+U 
+
+
+ 
+ 
+1. Transmitancias de cerramientos en contacto con el exterior 
+
+
+ 
+Se tratará normalmente de cerramientos compuesto de varias “hojas” y diferentes materiales. De manera general mediante el inverso de la suma de las resistencias térmicas de cada capa más las resistencias térmicas superficiales en ambas caras del cerramiento, obtenemos el valor de la transmitancia para el conjunto (U): 
+Su cálculo, se describe detalladamente en el documento de ayuda DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. De manera resumida, exponemos a continuación los pasos básicos para dos ejemplos concretos de nuestro modelo.  
+ 
+Para los cerramientos opacos en contacto con el aire exterior, su transmitancia se obtiene directamente mediante la expresión: 
+ U=1RT (1) 
+siendo, 
+RT la resistencia térmica total del componente constructivo [m2·K/ W]. 
+ 
+Por otra parte: 
+   RT = Rsi + R1 + R2 +...+ Rn + Rse  (2) 
+siendo, 
+R1, R2...Rn las resistencias térmicas de cada capa definidas según la expresión (3) [m2·K/ W]; 
+Rsi y Rse las resistencias térmicas superficiales correspondientes al aire interior y exterior respectivamente, tomadas de la Tabla 1 Resistencias térmicas superficiales de cerramientos en contacto con el aire exterior [m2·K/ W]de acuerdo con la posición del cerramiento, dirección del flujo de calor y su situación en el edificio [m2·K/ W]. 
+ 
+La resistencia térmica de una capa térmicamente homogénea viene definida por la expresión: .. =e. (3) 
+siendo, 
+e el espesor de la capa [m]. En caso de una capa de espesor variable se considera el espesor medio; 
+. la conductividad térmica de diseño del material que compone la capa, que se puede calcular a partir de los valores térmicos declarados según la norma UNE-EN 10456:2012. 
+ 
+En el caso de materiales heterogéneos, como las fábricas, se puede considerar la conductividad equivalente del conjunto. 
+ 
+Para los cerramientos en contacto con el terreno, la transmitancia intrínseca del cerramiento ha de ser corregida por el efecto del terreno. Para ello:  
+• Suelos: se puede aplicar la Tabla 3 Transmitancia térmica US [W/m2·K] para soleras o losas apoyadas sobre el nivel del terreno o como máximo 0,50 m por debajo de éste, o la Tabla 4 Transmitancia térmica US [W/m2·K] para soleras o losas a una profundidad superior a 0,5 m respecto al nivel del terreno 
+
+• Muros o pantallas: se obtiene de la Tabla 5 Transmitancia térmica de muros enterrados UT [W/m2·K] en función de su profundidad z, y de la resistencia térmica del muro. 
+
+• Cubiertas: La transmitancia térmica UT [W/m2·K] de las cubiertas enterradas se obtiene mediante el procedimiento general descrito anteriormente para cerramientos en contacto con el aire exterior, considerando el terreno como otra capa térmicamente homogénea de conductividad .=2 W/m·K. 
+
+
+ 
+En primer lugar, nos ocupamos del cálculo del muro exterior cuya composición se emplea en todas las configuraciones de estudio. 
+ 
+Ejemplo 1. MURO EXTERIOR 
+La composición del muro exterior es la siguiente: 
+ 
+ 
+
+ 
+Aplicando la expresión (1): 
+ ....=1RT=10,04+0,030,55+0,140,038+0,240,667+0,010,55+0,18+0,0150,25+0,0150,25+0,13=14,59=0,217˜..,.... ../...... 
+ 
+Las resistencias térmicas superficiales de la cara exterior y de la cara interior del cerramiento, se obtienen de la Tabla 1 Resistencias térmicas superficiales de cerramientos en contacto con el aire exterior [m2·K/ W]del DA DB-HE / 1.  
+ 
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+La capa correspondiente a la cámara de aire sin ventilar se introduce por su resistencia térmica [m2·K/ W] obtenida de la tabla 2 del DA DB-HE / 1 
+ 
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+ 
+U 
+
+
+ 
+ 
+1. Transmitancias de particiones interiores 
+
+
+ 
+Ejemplo 2 
+El siguiente ejemplo que vamos a desarrollar, se refiere al cálculo de la transmitancia del tabique interior que separa en la planta bajocubierta de la OPCIÓN 2, el espacio acondicionado (dormitorio y aseo) de los espacios no habitables de su perímetro. Su composición es la siguiente:  
+ 
+ 
+
+ 
+Para el cálculo de la transmitancia U [W/m2K] se considera el caso de cualquier partición interior en contacto con un espacio no habitable que a su vez esté en contacto con el exterior. El caso general, excluido el de contactos con cámaras sanitarias se resuelve de la siguiente forma: 
+ 
+La transmitancia térmica U [W/m2K] viene dada por la siguiente expresión: 
+UTabique =UP· b 
+siendo, 
+UP: la transmitancia térmica de la partición interior en contacto con el espacio no habitable, calculada como en el ejemplo anterior según la expresión (1), tomando como resistencias superficiales los valores de la tabla 6. [m2 K/ W] del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+B:  el coeficiente de reducción de temperatura (relacionado al espacio no habitable) obtenido por la tabla 7 del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente, para los casos concretos que se citan o mediante el procedimiento descrito. 
+ 
+Aplicando nuevamente la expresión (1): 
+ ....=1RT=10,13+0,0130,25+0,0130,25+0,040,041+0,0130,25+0,0130,25+0,13=0,692707979˜..,.... ../...... 
+ 
+Las resistencias térmicas superficiales de la cara exterior y de la cara interior del cerramiento, se obtienen en este caso de la Tabla 6. Resistencias térmicas superficiales de particiones interiores [m2·K/ W] del DA DB-HE / 1 
+ 
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+El coeficiente de reducción de temperatura b para espacios adyacentes no habitables (trasteros, despensas, garajes adyacentes...) y espacios no acondicionados bajocubierta inclinada (como es nuestro caso) se puede obtener de la tabla 7 del DA DB-HE / 1 en función de la situación del aislamiento térmico (véase figura 6 del DA DB-HE / 1), del grado de ventilación del espacio y de la relación de áreas entre la partición interior y el cerramiento (Ah-nh/ Anh-e),donde el subíndice nh-e se refiere al cerramiento entre el espacio no habitable y el exterior, y el subíndice h-nh se refiere a la partición interior entre el espacio habitable y el espacio no habitable (véase figura 6 del DA DB-HE / 1).Los valores intermedios se pueden obtener por interpolación lineal. 
+ 
+Se distinguen dos grados de ventilación en función del nivel de estanqueidad del espacio definido en la tabla 8: 
+ 
+CASO 1 espacio ligeramente ventilado, que comprende aquellos espacios con un nivel de estanqueidad 1, 2 o 3; 
+ 
+CASO 2 espacio muy ventilado, que comprende aquellos espacios con un nivel de estanqueidad 4 o 5. 
+ 
+Dado que los espacios no habitables P03 E01y P03 E02 se definen en la simulación con un nivel de estanqueidad 1 (ver ayuda al levantamiento en HULC), nos encontramos en el caso 1, espacio ligeramente ventilado. 
+ 
+En cuanto a las superficies de los cerramientos la relación es la siguiente: 
+ 
+Ah-nh:  
+
+Este cerramiento tiene un perímetro de 6 m (de lado) x 4 lados = 24 m 
+y una altura de 1,5 m Esto hace una superficie total de 24 x 1,5 = 36 m2 
+(ver tablas de definición de la envolvente) 
+ 
+Ah-nh = 36,00 m2 
+ 
+Anh-e: 
+Este cerramiento de contacto entre el no habitable y el exterior tiene dos partes: 
+- Una primera de fachada vertical con un perímetro de 32 m (8x4) y una altura de 0,5 m En total, 16 m2. 
+
+- La segunda parte se corresponde con la parte de los faldones de cubierta que cierran este espacio no habitable cada uno de estos faldones tiene una superficie de 9,87 m2 
+
+
+En total una superficie de 39,48 m2. (ver tablas de definición de la envolvente) 
+ 
+Es decir,  
+ 
+Anh-e=55,48 m2 
+ 
+Por tanto: 
+Ah-nh/ Anh-e=36/55,48= 0,648 
+ 
+Llevando estos datos a la tabla y considerando que ambos cerramientos están aislados obtenemos el coeficiente de reducción de temperatura, b= 0,67 (interpolando un valor más exacto obtendríamos 0,662) 
+ 
+
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+Por tanto, el valor de transmitancia para este cerramiento es de: 
+Uforjado =UP· b UP=0,69 W/m2·K 
+Uforjado=0,69 ·0,662=0,456 ˜ 0,46 W/m2·K 
+ 
+Ejemplo 3 
+El siguiente ejemplo se refiere a la partición horizontal (forjado) que separa en distintas condiciones el espacio acondicionado de la planta baja del no habitable en el bajocubierta. Como decimos esta separación se produce en diferentes situaciones. En la opción 1, el forjado en toda su superficie separa la planta baja acondicionada del bajocubierta no habitable. En la opción 2, esta situación se limita al perímetro que ocupan los espacios no habitables del bajocubierta. En la opción 3 el forjado divide dos espacios acondicionados (Planta baja- planta bajocubierta).  
+ 
+Debemos por tanto calcular la transmitancia [U] del forjado en dos situaciones diferentes: 
+- FORJADO COMPLETO. En la opción 1 la separación entre acondicionado y no habitable se producen toda la superficie del forjado.  
+
+
+ 
+- FORJADO PERIMETRO. En la opción 2 la separación entre acondicionado de planta baja y no habitable del bajocubierta afecta exclusivamente a la franja perimetral de los espacios no habitables del bajocubierta.  
+
+
+ 
+La composición del forjado que se utiliza en ambos casos es la siguiente:  
+ 
+ 
+
+ 
+Cómo se trata nuevamente de una partición interior que separa un espacio acondicionado de otro no habitable que, a su vez, se encuentra en contacto con el aire exterior, el procedimiento a emplear es el mismo del ejemplo anterior.  
+ 
+FORJADO COMPLETO. Caso de la OPCIÓN 1 
+La transmitancia térmica U [W/m2K] se calcula aplicando la siguiente expresión: 
+Uforjado =UP· b 
+Aplicando nuevamente la expresión (1): 
+ ....=1RT=10,10+0,012,30+0,0550,55+0,120,034+0,250,908+0,16+0,0150,25+0,10=0,230995429˜..,.... ../...... 
+ 
+ 
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+La capa correspondiente a la cámara de aire sin ventilar se introduce por su resistencia térmica [m2·K/ W] obtenida de la tabla 2 del DA DB-HE / 1 
+ 
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+Ah-nh:  
+Es el área completa de la planta (ver tablas de definición de la envolvente) 
+ 
+Ah-nh = 64,00 m2 
+ 
+Anh-e: 
+Este cerramiento de contacto entre el no habitable y el exterior tiene dos partes: 
+- Una primera de fachada vertical con un perímetro de 32 m (8x4) y una altura de 0,5 m En total, 16 m2. 
+
+- La segunda parte se corresponde con la superficie de los faldones de cubierta, cada uno de ellos tiene una superficie de 22,60 m2.. En total una superficie de 90,40 m2. (ver tablas de definición de la envolvente) 
+
+
+ 
+Es decir,  
+ 
+Anh-e=16+90,4= 106,40 m2 
+ 
+Por tanto: 
+Ah-nh/ Anh-e=64/106,40= 0,601 
+ 
+Llevando estos datos a la tabla y considerando que ambos cerramientos están aislados obtenemos el coeficiente de reducción de temperatura, b= 0,67 (interpolando un valor más exacto obtendríamos 0,698) 
+ 
+
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+Por tanto, el valor de transmitancia para este cerramiento es de: 
+Uforjado =UP· b UP=0,23 W/m2·K 
+Uforjado=0,23·0,698=0,16054˜ 0,16 W/m2·K 
+ 
+FORJADO DEL PERIMETRO. Caso de la OPCIÓN 2 
+La transmitancia térmica U [W/m2K] se calcula aplicando la siguiente expresión: 
+Uforjado =UP· b 
+Aplicando nuevamente la expresión (1): 
+ ....=1RT=10,10+0,012,30+0,0550,55+0,120,034+0,250,908+0,16+0,0150,25+0,10=0,230995429˜..,.... ../...... 
+ 
+Ah-nh:  
+Es el área de la franja del perímetro de la planta que ocupan los espacios no habitables del bajocubierta. (ver tablas de definición de la envolvente) 
+
+ 
+Ah-nh = 28,00 m2 
+ 
+ 
+ 
+Anh-e: 
+Este cerramiento de contacto entre el no habitable y el exterior tiene dos partes: 
+- Una primera de fachada vertical con un perímetro de 32 m (8x4) y una altura de 0,5 m. En total, 16 m2. 
+
+- La segunda parte se corresponde con la parte de los faldones de cubierta que cierran este espacio no habitable cada uno de estos faldones tiene una superficie de 9,87 m2 
+
+
+En total una superficie de 39,48 m2. (ver tablas de definición de la envolvente) 
+ 
+Es decir,  
+ 
+ 
+Anh-e=16+39,48= 55,48 m2 
+ 
+Por tanto: 
+Ah-nh/ Anh-e=28/55,48= 0,504 
+Llevando estos datos a la tabla y considerando que ambos cerramientos están aislados obtenemos el coeficiente de reducción de temperatura, b= 0,67, interpolando un valor más exacto obtenemos 0,767. 
+ 
+
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+Por tanto, el valor de transmitancia para este cerramiento es de: 
+Uforjado =UP· b UP=0,23 W/m2·K 
+Uforjado=0,23·0,767=0,176˜ 0,17 W/m2·K 
+ 
+ 
+Ejemplo 4 
+El siguiente ejemplo se refiere a la partición horizontal (forjado) que separa en todos los casos de estudio la planta baja de la cámara sanitaria. Su ejecución se realiza mediante encofrado perdido. Se trata de un caso particular de las particiones interiores que hemos visto hasta ahora. Para el caso de los suelos en contacto con cámaras sanitarias en el DA DB-HE/1 se propone un procedimiento de cálculo para las cámaras de aire ventiladas que cumplan simultáneamente las siguientes condiciones: 
+ 
+a) que tengan una altura h inferior o igual a 1 m; 
+
+b) que tengan una profundidad z respecto al nivel del terreno inferior o igual a 0,5 m. 
+
+
+ 
+En caso de no cumplirse la condición a), pero sí la b), la transmitancia del cerramiento en contacto con la cámara se puede calcular mediante el procedimiento descrito en el apartado 2.1.1 del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+En caso de no cumplirse la condición b), la transmitancia del cerramiento se puede calcular mediante la definición general del coeficiente b descrito en el apartado 2.1.3.1. del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+En nuestro caso no se cumple la condición b) pues la altura de la cámara sanitaria es de 1 m y la profundidad Z es >0,5 m. Se supone una pequeña franja expuesta al exterior exclusivamente para la ventilación de la cámara. La estanqueidad de la cámara sanitaria es nivel 3. 
+ 
+Por tanto, el método de cálculo es el mismo de los dos ejemplos anteriores. La composición del forjado es la siguiente: 
+ 
+ 
+
+ 
+La transmitancia térmica U [W/m2K] se calcula aplicando la siguiente expresión: 
+Uforjadosanit =UP· b 
+Aplicando nuevamente la expresión (1): 
+ ....=1RT=10,17+0,012,30+0,0250,55+0,0650,55+0,100,034+0,300,256+0,17=0,216401706˜..,.... ../...... 
+ 
+ 
+
+
+ 
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+Ah-nh:  
+Es el área completa de la planta (ver tablas de definición de la envolvente) 
+ 
+Ah-nh = 64,00 m2 
+ 
+Anh-e: 
+El cerramiento de la cámara en contacto con el exterior lo componen todas las paredes bajo rasante de la cámara y la superficie de la solera en contacto con el terreno. 
+  
+Sería por tanto un área de 64m2 (solera)+ (8x4x1=32 m2) (muros de cámara sanitaria) = 96m2 
+  
+Anh-e=96,00 m2 
+Por tanto: 
+Ah-nh/ Anh-e=64/96=0,66 
+ 
+Llevando estos datos a la tabla y considerando que ambos cerramientos están aislados obtenemos el coeficiente de reducción de temperatura, b= 0,96. Si interpolamos un valor más exacto obtenemos: 0,95. 
+ 
+ 
+
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente. 
+ 
+Por tanto, el valor de transmitancia para este cerramiento es de: 
+ 
+Uforjadosanit =UP · b UP=0,22 W/m2·K 
+Uforjadosanit=0,22·0,95=0,209˜ 0,21 W/m2·K 
+ 
+ 
+ 
+CONDENSA 
+
+
+ 
+ 
+3. CÁLCULO DE CONDENSACIONES INTERSTICIALES 
+
+ 
+1. Datos previos 
+2. Comprobación de la limitación de condensaciones intersticiales 
+ 
+ 
+Para la comprobación de la existencia de condensaciones intersticiales en la fachada del ejemplo, se va a seguir el procedimiento descrito en el DA DB-HE/2 Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos.  
+ 
+Se va a realizar la comprobación de condensaciones intersticiales en el cerramiento de fachada de planta baja. Recordemos que los datos relativos a la composición y esquema de dicha fachada son los siguientes: 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+DAT 
+
+
+ 
+ 
+1. Datos previos 
+
+
+ 
+ 
+Los parámetros necesarios para el cálculo y que caracterizan las propiedades de cada una de las capas que componen el cerramiento, se resumen en la siguiente tabla: 
+ 
+
+Leyenda: 
+e: es el espesor de cada capa [m] 
+.: conductividad térmica del material que forma la capa. En nuestro caso los hemos tomado de la base de datos constructiva que incorpora HULC. [W/m·K] 
+R: resistencia térmica de la capa (obtenidos de la base de datos constructiva de HULC) o en su caso resistencia térmica superficial exterior e interior (ver apartado de ayuda dedicado al cálculo de transmitancias). [m2·K/W] 
+m: es el factor de resistencia a la difusión del vapor de agua de cada capa, que se puede obtener a partir de valores térmicos declarados según la norma UNE EN ISO 10 456: 2012 o tomado de Documentos Reconocidos. En nuestro caso los hemos tomado de la base de datos constructiva que incorpora HULC. [adimensional] 
+Sd: es el espesor de aire equivalente de cada capa frente a la difusión del vapor de agua, calculado mediante la siguiente expresión [m];  
+Sd= e·m 
+ 
+Estas propiedades las suponemos constantes como aproximación válida y suficiente para el cálculo que se va a desarrollar. 
+ 
+Condiciones exteriores 
+Para el cálculo de condensaciones se toman como temperaturas exteriores y humedades relativas exteriores los valores medios mensuales de la localidad donde se ubique el edificio. Si se trata de capitales de provincia, se pueden tomar los valores contenidos en la tabla C.1 del apéndice C, del DA DB-HE/2 Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos. 
+ 
+Para localidades que no sean capitales de provincia como es nuestro caso (Albarracín) y si no se disponen de registros climáticos contrastados, se puede proceder de la siguiente forma: 
+ 
+• Si la altitud de la localidad de proyecto es mayor que la de la capital de provincia, se puede suponer que la temperatura exterior es igual a la de la capital de provincia correspondiente minorada en 1 ºC por cada 100 m de diferencia de altura entre ambas localidades. La humedad relativa para dichas localidades se calcula suponiendo que su humedad absoluta es igual a la de su capital de provincia. 
+
+
+ 
+• Si la localidad de proyecto se encuentra a menor altura que la de referencia se toma para dicha localidad la temperatura y humedad de la capital de provincia. 
+
+
+ 
+En consecuencia, en nuestro caso los datos de cálculo para el mes de enero, en principio el más desfavorable, son los siguientes: 
+ 
+
+ 
+La temperatura de cálculo media de enero es de 0,95 ºC, con redondeo del segundo decimal de 1 ºC. 
+ 
+Por otra parte, el procedimiento para obtener la humedad relativa de la localidad a partir de los datos de su capital de provincia es el siguiente: 
+ 
+a) cálculo de la presión de saturación de la capital de provincia Psat en [Pa], a partir de su temperatura exterior (qe) para el mes de cálculo (enero) en [ºC], según el apartado 3.1del DA DB-HE/2 Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos. 
+
+
+ Psat=610,5·e17,269 · q..237,3+q..           [1] 
+ Psat=610,5·e17,269 · 3,8237,3+3,8=......,.... ....  
+ 
+qe: temperatura exterior de cálculo de la capital de provincia (en nuestro caso 3,8ºC) 
+ 
+b) cálculo de la presión de vapor de la capital de provincia Pe en [Pa], mediante la expresión: 
+
+
+Pe = .e · Psat (qe)        [2] 
+donde, 
+.e es la humedad relativa exterior para la capital de provincia y el mes de cálculo [en tanto por 1]. 
+  
+En nuestro caso, 
+Pe = 0,72 · 801,48 Pa = 577,06 Pa 
+ 
+c) cálculo de la presión de saturación de la localidad Psat,loc en [Pa], según el apartado 3.1, del DA DB-HE/2 Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos, siendo ahora q la temperatura exterior para la localidad y el mes de cálculo en [ºC], es decir, qe,loc en la tabla anterior (1ºC). 
+
+
+ Psat,loc=610,5·e17,269 · q..,......237,3+q..,...... 
+ Psat,loc=610,5·e17,269 · 1237,3+1=......,.... .... 
+ 
+ 
+d) Para el cálculo de la humedad relativa para dicha localidad y mes, suponemos que su humedad absoluta es igual a la de su capital de provincia y aplicamos la expresión: 
+
+
+ 
+.e,loc = Pe / Psat,loc(qe,loc)  [3]  
+ 
+.e,loc= 577,06656,38=0,879 . ..,.... 
+ 
+Por tanto, completando la tabla de condiciones exteriores para el mes de enero, queda como sigue: 
+ 
+ 
+
+ 
+Condiciones interiores  
+Para la temperatura del ambiente interior tomaremos 20ºC para el mes de enero. 
+ 
+Si se dispone del dato de humedad relativa interior (.i) y esta se mantiene constante, debido por ejemplo a un sistema de climatización, se puede utilizar dicho dato en el cálculo añadiéndole 0,05 como margen de seguridad. 
+ 
+En caso de conocer el ritmo de producción de la humedad interior y la tasa de renovación de aire, se puede calcular la humedad relativa interior del mes de enero mediante el método descrito en el apartado 3.2 del DA DB-HE/2 Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos. 
+ 
+En nuestro caso, vivienda unifamiliar, situada en el interior de la península y a falta de datos más precisos, se pueden optar por la opción que se propone en el punto 2.2.2 Condiciones interiores para el cálculo de condensaciones intersticiales, del DA DB-HE/2 Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos. Así podemos considerar que sus espacios son de clase de higrometría 3 o inferior. Es decir, son espacios en los que no se prevé una alta producción de humedad. En dicho apartado se propone una HR del 55% para la clase de higrometría 3 o inferior: 
+ 
+“clase de higrometría 3 o inferior, correspondiente a espacios en los que no se prevea una alta producción de humedad, como oficinas, tiendas, zonas de almacenamiento y todos los espacios en edificios de uso residencial: 55%” 
+ 
+En consecuencia, las condiciones interiores quedarían de la siguiente forma: 
+ 
+ 
+
+ 
+Para obtener la presión de vapor interior utilizamos la siguiente expresión: 
+ 
+Pi = fi· 2337 
+donde, 
+fi es la humedad relativa interior definida en el párrafo anterior [en tanto por 1] 
+ 
+para los valores de nuestro ejemplo, 
+ 
+Pi = 0,55 · 2337= 1285,35 Pa 
+ 
+CUMPLE 
+
+
+ 
+ 
+1. Comprobación de la limitación de condensaciones intersticiales 
+
+
+ 
+ 
+Para este apartado aplicaremos el método descrito en el punto 4.2.1 del DA DB-HE/2 Comprobación de limitación de condensaciones superficiales e intersticiales en los cerramientos. 
+ 
+De manera resumida el método consiste en la comparación de la presión de vapor calculada en la superficie de cada una de las capas que conforman el cerramiento, con la presión de saturación en cada punto. Para toda la sección del cerramiento, es necesario calcular: 
+ 
+a) la distribución de temperaturas; 
+
+b) la distribución de presiones de vapor de saturación para las temperaturas antes calculadas; 
+
+c) la distribución de presiones de vapor.  
+
+
+ 
+Distribución de temperaturas 
+La distribución de temperaturas a lo largo del espesor de un cerramiento formado por varias capas depende de las temperaturas del aire a ambos lados de este, así como de las resistencias térmicas superficiales interior Rsi y exterior Rse, y de las resistencias térmicas de cada capa (R1, R2, R3, ..., Rn) que forman el cerramiento. 
+ 
+Para obtener la distribución de temperaturas procedemos de la siguiente forma: 
+ 
+1º, calculamos la resistencia térmica total del elemento 
+Las resistencias térmicas superficiales las obtenemos de la Tabla 1 Resistencias térmicas superficiales de cerramientos en contacto con el aire exterior [m2·K/ W]del DA DB-HE / 1Cálculo de parámetros característicos de la envolvente.  
+ 
+ 
+
+
+Tabla extraída del DA DB-HE / 1. Cálculo de parámetros característicos de la envolvente 
+ 
+Para el cálculo de la resistencia térmica total (RT) del muro de fachada, aplicamos la expresión ya vista en el aparatado anterior de ayudas dedicado al cálculo de transmitancias: 
+ 
+RT = Rsi + R1 + R2 +...+ Rn + Rse 
+siendo, 
+R1, R2...Rn las resistencias térmicas de cada capa definidas según la expresión (3) [m2·K/ W]; 
+Rsi y Rse las resistencias térmicas superficiales correspondientes al aire interior y exterior respectivamente, tomadas de la Tabla 1 Resistencias térmicas superficiales de cerramientos en contacto con el aire exterior [m2·K/ W]de acuerdo con la posición del cerramiento, dirección del flujo de calor y su situación en el edificio [m2·K/ W]. 
+ 
+La resistencia térmica de una capa térmicamente homogénea viene definida por la expresión: 
+ .... =e. 
+siendo, 
+e el espesor de la capa [m]. En caso de una capa de espesor variable se considera el espesor medio; 
+. la conductividad térmica de diseño del material que compone la capa, que se puede calcular a partir de los valores térmicos declarados según la norma UNE-EN 10456:2012. 
+ 
+Utilizamos los datos de espesor y conductividad térmica de cada capa que figuran en la ficha del cerramiento.  Ordenados de exterior a interior, los valores son los siguientes: 
+ ....=0,04+0,030,55+0,140,038+0,240,667+0,010,55+0,18+0,0150,25+0,0150,25+0,13=..,.... m2·K/ W 
+ 
+Los valores de resistencias térmicas por capas quedan como sigue en la tabla de cálculo: 
+ 
+ 
+
+ 
+A continuación, realizamos la distribución de temperaturas por capas del cerramiento entre exterior e interior y de manera proporcional a la resistencia térmica ya calculada para cada capa. 
+ 
+2º, calculamos la temperatura superficial exterior mediante la expresión: 
+ q....= q..+..........·(q..-q..) [4] 
+donde, 
+.e es la temperatura exterior de la localidad en la que se ubica el edificio según los cálculos realizados correspondiente a la temperatura media del mes de enero [ºC]; 
+.i es la temperatura interior definida anteriormente [ºC]; 
+RT es la resistencia térmica total del componente constructivo, en este caso de la fachada [m2·K/ W]; 
+Rse es la resistencia térmica superficial correspondiente al aire exterior, en función de la posición del elemento constructivo, dirección del flujo de calor y su situación en el edificio [m2·K/ W]. 
+ 
+Los valores de temperatura exterior e interior ya los hemos calculado en los apartados de condiciones exteriores e interiores. La resistencia térmica superficial exterior (Rse) la obtenemos de la Tabla 1 Resistencias térmicas superficiales de cerramientos en contacto con el aire exterior [m2·K/ W]del DA DB-HE / 1Cálculo de parámetros característicos de la envolvente. 
+ 
+Aplicando a la expresión [4] con todos los valores ya conocidos, obtenemos la temperatura superficial exterior: q....= q..+..........·(q..-q..) q....= 1+0,044,59·(20-1)=1,12 º.. 
+ 
+3º calculamos la temperatura en cada una de las capas que componen el elemento constructivo según las expresiones siguientes: 
+ q1= q....+..1....·(q..-q..) q2= q1+..2....·(q..-q..)       [5] 
+………. q..= q..-1+........·(q..-q..) 
+donde, 
+.se es la temperatura superficial exterior [ºC] ya calculada; 
+.e es la temperatura exterior de la localidad en la que se ubica el edificio también ya calculada y correspondiente a la temperatura media del mes de enero [ºC]; 
+.i es la temperatura interior ya definida en [ºC]; 
+.1... .n-1 son las temperaturas en cada capa [ºC]. 
+R1, R2...Rn son las resistencias térmicas de cada capa [m2·K/ W]; 
+RT es la resistencia térmica total del componente constructivo [m2·K/ W]; también ya calculada. 
+ 
+Los valores obtenidos en el cálculo para cada capa se incorporan en la tabla resumen al final de este apartado. 
+ 
+4º calculamos la temperatura superficial interior (.si) 
+ q....= q..+..........·(q..-q..)            [6] 
+donde, 
+.e es la temperatura exterior de la localidad en la que se ubica el edificio también ya calculada y correspondiente a la temperatura media del mes de enero [ºC]; 
+.i es la temperatura interior ya definida en [ºC]; 
+.n es la temperatura en la capa n [ºC]; 
+Rsi es la resistencia térmica superficial correspondiente al aire interior, obtenida de acuerdo con la posición del elemento constructivo, dirección del flujo de calor y su situación en el edificio [m2·K/ W]; 
+RT es la resistencia térmica total del componente constructivo [m2·K/ W]; también ya calculada. 
+ 
+Los valores obtenidos se añaden a la tabla de cálculo: 
+ 
+ 
+
+ 
+Gráficamente la distribución de temperaturas en las diferentes capas que componen la sección del cerramiento se puede representar de la siguiente forma: 
+ 
+
+ 
+Distribución de la presión de vapor de saturación 
+A partir de la distribución de temperaturas obtenida en el apartado anterior, se puede obtener la distribución de la presión de vapor de saturación a lo largo del muro de fachada.   
+Para ello aplicamos la expresión [1] introduciendo las temperaturas de cada capa. 
+ Psat=610,5·e17,269 · q..237,3+q..           [1] 
+ 
+Los valores obtenidos son los siguientes: 
+ 
+ 
+
+ 
+La distribución de presión de vapor a través del cerramiento en cada una de las interfases se calcula mediante las siguientes expresiones: 
+ ..1= ....+....1. ......·(....-....) 
+ ..2= ..1+....2. ......·(....-....) 
+…….. ....= ....-1+....(..). ......·(....-....) 
+ 
+Los resultados obtenidos para cada punto en la sección del cerramiento se resumen en la siguiente tabla ya completa: 
+ 
+ 
+
+ 
+Si alguno de los valores de presión de vapor alcanza o supera la presión de vapor de saturación en ese punto, se producirán condensaciones. Una forma más visual de evaluar esta posibilidad consiste en representar sobre el esquema de la sección del cerramiento las gráficas de ambos parámetros (presión de vapor y presión de saturación) y analizar si existen puntos de contacto o intersección. A continuación, se representa dicho gráfico para el muro exterior de la vivienda: 
+ 
+ 
+
+ 
+Como se observa en la gráfica no existe contacto entre ambas gráficas por lo que se puede concluir que para las condiciones exteriores (mes de enero) e interiores establecidos, no se producen condensaciones intersticiales en ninguna de las capas que forman el cerramiento analizado. 
+ 
+ 
+

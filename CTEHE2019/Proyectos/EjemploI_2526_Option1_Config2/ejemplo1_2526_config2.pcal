@@ -1,0 +1,26 @@
+nombreProyOriginal, ejemplo1_2526 
+comunidadAutonoma, Aragón 
+localidad, Albarracín
+fechaOriginal, 30/10/2025
+areaAcondicionada, 64
+areaNoAcondicionada, 128
+autorCalificacion, Nombres
+tipoEdificio, Vivienda unifamiliar
+coefPriElec, 1.954 
+coefEmiElec, 0.331 
+coefPriComb, 1.190 , 1.179, 1.179, 1.201, 1.082, 0.085, 0.034 
+coefEmiComb, 0.252, 0.311, 0.311, 0.254, 0.472, 0.018, 0.018 
+areaSuelo, 64 
+emisRefTot , 0.100
+eFinRefTot , 0.279
+ePriRefTot , 0.245
+emisRefCli , 0.000
+eFinRefCli , 0.000
+ePriRefCli , 0.000
+emisRefIlu , 6.835
+eFinRefIlu , 20.649
+ePriRefIlu , 40.347
+emisRefACS , 0.100
+eFinRefACS , 0.279
+ePriRefACS , 0.245
+limEtiqueta, 15.10, 23.20, 34.50, 51.50, 102.30, 119.70

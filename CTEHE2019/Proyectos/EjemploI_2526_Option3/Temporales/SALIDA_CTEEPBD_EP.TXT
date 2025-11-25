@@ -1,0 +1,27 @@
+** Datos de entrada
+Componentes energéticos: "C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemplo2_2526_config1\Documentacion\DATOS_CTEEPBD.TXT"
+Factores de paso (usuario): PENINSULA
+Área de referencia (metadatos) [m2]: 100.00
+Factor de exportación (metadatos) [-]: 0.0
+** Balance energético
+Area_ref = 100.00 [m2]
+k_exp = 0.00
+C_ep [kWh/m2.an]: ren = 65.7, nren = 22.5, tot = 88.3, RER = 0.74
+E_CO2 [kg_CO2e/m2.an]: 4.63
+
+** Energía final (todos los vectores) [kWh/m2.an]:
+ACS: 22.31
+CAL: 52.62
+REF: 1.45
+VEN: 0.20
+
+** Energía primaria (ren, nren) [kWh/m2.an] y emisiones [kg_CO2e/m2.an] por servicios:
+ACS: ren 22.94, nren 1.90, co2: 0.40
+CAL: ren 42.12, nren 17.41, co2: 3.69
+REF: ren 0.60, nren 2.83, co2: 0.48
+VEN: ren 0.08, nren 0.38, co2: 0.06
+
+** Indicadores adicionales
+Demanda total de ACS: 2074.9 [kWh]
+Porcentaje renovable de la demanda de ACS (perímetro próximo): 92.4 [%]
+

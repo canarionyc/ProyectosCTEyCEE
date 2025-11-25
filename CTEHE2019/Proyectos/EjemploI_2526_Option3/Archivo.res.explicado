@@ -1,0 +1,47 @@
+#Línea de comentarios
+Numero de plantas
+Nombre de la planta 1
+#Línea de comentarios
+#Línea de comentarios
+#Línea de comentarios
+Numero de zonas de la planta
+Identificador de la Zona, "Nombre de la zona"
+Superficie de la zona en m2
+#Línea de comentarios (NOTA: desglose realizado supuesta la temperatura interior de los espacios constante)
+Concepto Paredes Exteriores, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto Cubiertas, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto Suelos, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto Puentes Térmicos, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto Solar Ventanas, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto Transmisión Ventanas, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto Fuentes Internas, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto Infiltración, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+Concepto TOTAL, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+#Línea de comentarios
+#Línea de comentarios
+Numero de Componentes o elementos exteriores
+#Línea de comentarios
+Componente, Carga positiva en horas de calefacción (kWh/m2), Carga negativa en horas de calefacción (kWh/m2), Carga neta en horas de calefacción (kWh/m2), Carga positiva en horas de refrigeración (kWh/m2), Carga negativa en horas de refrigeración (kWh/m2), Carga neta en horas de refrigeración (kWh/m2)
+#NOTA: (La línea anterior se repite tantas veces como elementos exteriores tenga la zona)
+#NOTA: (El bloque desde la línea 8 a 25 se repite tantas veces como zonas tenga la planta)
+#NOTA: (El bloque desde la línea 3 a 25 se repite tantas veces como plantas tenga el edificio)
+#Línea de comentarios
+#Línea de comentarios
+Calefacción anual en kWh/m2, Refrigeración anual en kWh/m2
+#Línea de comentarios
+Calefacción enero en kWh/m2, Calefacción febrero en kWh/m2, Calefacción marzo en kWh/m2, Calefacción abril en kWh/m2, Calefacción mayo en kWh/m2, Calefacción junio en kWh/m2, Calefacción julio en kWh/m2, Calefacción agosto en kWh/m2, Calefacción octubre en kWh/m2, Calefacción noviembre en kWh/m2, Calefacción diciembre en kWh/m2
+#Línea de comentarios
+Refrigeración enero en kWh/m2, Refrigeración febrero en kWh/m2, Refrigeración marzo en kWh/m2, Refrigeración abril en kWh/m2, Refrigeración mayo en kWh/m2, Refrigeración junio en kWh/m2, Refrigeración julio en kWh/m2, Refrigeración agosto en kWh/m2, Refrigeración octubre en kWh/m2, Refrigeración noviembre en kWh/m2, Refrigeración diciembre en kWh/m2
+#Línea de comentarios
+Numero de zonas
+#Línea de comentarios
+Nombre de la zona, Superficie en m2, multiplicador, Calefacción anual en kWh/m2, Refrigeración anual en kWh/m2
+#NOTA: (La línea anterior se repite tantas veces como zonas tenga el edificio)
+TOTAL, Superficie total en m2, Calefacción anual total en kWh/m2, Refrigeración anual total en kWh/m2
+#Línea de comentarios
+#Línea de comentarios
+Calefacción enero en kWh/m2, Calefacción febrero en kWh/m2, Calefacción marzo en kWh/m2, Calefacción abril en kWh/m2, Calefacción mayo en kWh/m2, Calefacción junio en kWh/m2, Calefacción julio en kWh/m2, Calefacción agosto en kWh/m2, Calefacción octubre en kWh/m2, Calefacción noviembre en kWh/m2, Calefacción diciembre en kWh/m2
+#NOTA: (La línea anterior se repite tantas veces como zonas tenga el edificio)
+#Línea de comentarios
+Refrigeración enero en kWh/m2, Refrigeración febrero en kWh/m2, Refrigeración marzo en kWh/m2, Refrigeración abril en kWh/m2, Refrigeración mayo en kWh/m2, Refrigeración junio en kWh/m2, Refrigeración julio en kWh/m2, Refrigeración agosto en kWh/m2, Refrigeración octubre en kWh/m2, Refrigeración noviembre en kWh/m2, Refrigeración diciembre en kWh/m2
+#NOTA: (La línea anterior se repite tantas veces como zonas tenga el edificio)
