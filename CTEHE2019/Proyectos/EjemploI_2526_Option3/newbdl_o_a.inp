@@ -1050,7 +1050,7 @@ $          TYPE-OPER = "Acondicionado"
            INTERNAL-PARTITIONS = CUSTOM
            TYPE-CASE          = Nuevo
            TYPE-BUILD         = Unifamiliar
-           INF-FLOW  = ( -50.400002, -230.399994 )
+           INF-FLOW  = ( -129.600006, -309.600006 )
            PERCENTAGE-AIR-CHANGES  = ( 23, 1 )
            VENTILACION-NOCTURNA = SI 
            RENOVACIONES-HORA-VERANO-NOCHE = 4.0 
@@ -2624,7 +2624,7 @@ $
     TYPE  = "FRACTION"
     GROUP = "Ventilación"
     INDEX = 1
-    VALUES  = ( 25.78, 25.78, 25.78, 25.78, 25.78, 25.78, 25.78, 25.78, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
+    VALUES  = ( 10.89, 10.89, 10.89, 10.89, 10.89, 10.89, 10.89, 10.89, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00)
     ..
   "HA21_HS0_SS_" = WEEK-SCHEDULE-PD
     TYPE  = FRACTION

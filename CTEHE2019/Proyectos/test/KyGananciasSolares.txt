@@ -1,0 +1,65 @@
+###;Datos para Factor de Pérdidas
+Ventana;P02_E01_PE001_V;11.00;1.13;S ;25.00;0.42;-1.00;1.00;9.00;S_O
+Muro;P02_E01_PE001;21.00;0.22;1.00;Fachada;S ;MURO EXTERIOR
+Ventana;P02_E01_PE002_V;6.60;1.13;E ;25.00;0.61;-1.00;1.00;9.00;N_E
+Muro;P02_E01_PE002;25.40;0.22;1.00;Fachada;E ;MURO EXTERIOR
+Ventana;P02_E01_PE003_V;6.60;1.13;N ;25.00;0.61;-1.00;1.00;9.00;N_E
+Muro;P02_E01_PE003;25.40;0.22;1.00;Fachada;N ;MURO EXTERIOR
+Ventana;P02_E01_PE004_V;2.20;2.20;O ;100.00;0.61;-1.00;1.00;60.00;PTA
+Ventana;P02_E01_PE004_V2;2.20;1.13;O ;25.00;0.42;-1.00;1.00;9.00;S_O
+Muro;P02_E01_PE004;27.60;0.22;1.00;Fachada;O ;MURO EXTERIOR
+Muro;P02_E01_FI001;64.00;0.20;0.00;ParticionInteriorHorizontal;O ;FOR INT AC-NH
+Muro;P02_E01_CUB001;64.00;0.17;1.00;Cubierta;H ;CUB IN TEJA
+PPTT;32.00;0.100;FRENTE_FORJADO;SDINT
+PPTT;32.00;0.220;UNION_CUBIERTA;SDINT
+PPTT;16.00;0.040;ESQUINA_CONVEXA_CERRAMIENTO;SDINT
+PPTT;48.00;0.143;HUECO_VENTANA;SDINT
+Coeficiente K = ;0.440
+###;Datos para Factor de Insolación
+0 ; 60.243954
+1 ; 81.270691
+2 ; 101.231155
+3 ; 98.199463
+4 ; 83.033714
+5 ; 104.220444
+6 ; 110.897316
+7 ; 88.919785
+8 ; 195.537262
+"P02_E01_PE001_V"; 180.000000; 11.000000; 83033.734375; 82091.632812; 49971.707031; 49971.707031; 1873.939453
+"P02_E01_PE002_V"; 90.000000; 6.600000; 101231.226562; 101152.929688; 85301.632812; 85301.632812; 3198.812012
+"P02_E01_PE003_V"; 0.000000; 6.600000; 60244.039062; 59161.492188; 50127.648438; 50127.648438; 1879.786377
+"P02_E01_PE004_V"; 270.000000; 2.200000; 110897.351562; 110819.164062; 89435.843750; 89435.843750; 0.000000
+"P02_E01_PE004_V2"; 270.000000; 2.200000; 110897.351562; 110819.164062; 89435.843750; 89435.843750; 3353.845215
+###;Fin
+###
+### DOCUMENTACIÓN
+###
+### Cerramientos Opacos
+###
+### Muro (texto fijo); Nombre; Superficie (m2); Transmitancia (W/m2K);Factor b (-); Tipo de cerramiento (Fachada Suelo Cubierta ...); Orientación; Nombre de Construcción
+###
+### Huecos
+###
+### Ventana (texto fijo); Nombre; Superficie (m2); Transmitancia (W/m2K); Orientación; Porcentaje de marco (%); Factor solar vidrio (-); No se usa (-1); Factor de Sombra del hueco (-); Permeabilidad del hueco (m3/hm2 a 100 Pa); Nombre de Hueco
+###
+### Puentes térmicos
+###
+### PPTT (texto fijo); Longitud (m); Transmitancia térmica lineal (W/mK); Tipo de PPTT
+###
+### Lineas correspondientes a Ganancias Solares en Julio
+###
+### 8 lineas con la radiación solar global incidente en una superficie vertical (kWh/m2) (0: Norte, 1: NE, ... 7: NO)
+### 1 linea con la radiación solar global incidente en una superficie horizontal (kWh/m2) (8: Horizontal)
+###
+### Para cada hueco en el edificio, una linea que contiene:
+### Nombre del hueco
+### Orientación (grados respecto al norte, (NE=45, E=90, ...))
+### Superficie (m2)
+### Radiación solar global en el plano del vidrio sin obstáculos (Wh/m2)
+### Radiación solar global en el plano del vidrio tras obstaculos remotos (Wh/m2)
+### Radiación solar global en el plano del vidrio tras obstaculos de fachada (voladizos, retranqueos, ...) (Wh/m2)
+### Radiación solar global en el plano del vidrio tras sombras por lamas (Wh/m2)
+### Ganancia Solar a través de este hueco (Wh/m2)
+###
+##
+#

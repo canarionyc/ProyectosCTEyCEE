@@ -1,0 +1,1 @@
+  "C:\ProgramasCTEyCEE\CTEHE2019\CTEEPBD\cteepbd.exe" -c "C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemploi_2526_option1_config1\Documentacion\DATOS_CTEEPBD.TXT" -l PENINSULA --xml "C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemploi_2526_option1_config1\Temporales\SALIDA_AUX.XML" 
