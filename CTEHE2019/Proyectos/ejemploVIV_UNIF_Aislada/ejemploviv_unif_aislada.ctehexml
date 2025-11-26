@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2026 (x64) (https://www.altova.com) by Tomas Gonzalez (student) -->
 <CTE-HE-XML>
 	<DatosGenerales>
 		<refCatastral>ninguno</refCatastral>
@@ -40,7 +41,7 @@
 		<pisoPro>-</pisoPro>
 		<puertaPro>-</puertaPro>
 		<datosAdicPro>-</datosAdicPro>
-		<normativaEdificacion>CTE HE 2019</normativaEdificacion>
+		<normativaEdificacion>- Seleccione de la lista -</normativaEdificacion>
 		<normativaInstalaciones>RITE (2013)</normativaInstalaciones>
 		<normativaOtros>- Seleccione de la lista -</normativaOtros>
 		<normativaEdificacionOtros/>
@@ -83,7 +84,7 @@
 		<colegioAut>- Seleccione de la lista -</colegioAut>
 		<colegioOtrosAut>-</colegioOtrosAut>
 		<numeroColegiadoAut>-</numeroColegiadoAut>
-		<fechaVisita>13/11/19</fechaVisita>
+		<fechaVisita>03/08/15</fechaVisita>
 		<extInfo>SI</extInfo>
 		<VentNoct>SI</VentNoct>
 		<SistSus>SI</SistSus>
@@ -99,14 +100,14 @@
 		<valMenACS>NO</valMenACS>
 		<valoresMensualesELE>Cogeneración;Cogeneración de biomasa pellets;60.0;60.0;60.0;60.0;50.0;30.0;30.0;30.0;30.0;60.0;60.0;60.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0</valoresMensualesELE>
 		<valoresMensualesACS>Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0</valoresMensualesACS>
-		<fpECGaPT>0</fpECGaPT>
-		<fpECGaPNR>0</fpECGaPNR>
-		<fpECGaCO2>0</fpECGaCO2>
+		<fpECGaPT>0.000</fpECGaPT>
+		<fpECGaPNR>0.000</fpECGaPNR>
+		<fpECGaCO2>0.000</fpECGaCO2>
 		<datoGeneralNuevo>0</datoGeneralNuevo>
 		<fechaCertificado>NO;29;10;1960</fechaCertificado>
-		<potenciaFVInstalada>1</potenciaFVInstalada>
+		<potenciaFVInstalada>1.00</potenciaFVInstalada>
 		<IrrSolDiariaMedAnu>3.54</IrrSolDiariaMedAnu>
-		<estimacionConsumoACSGT>0.00</estimacionConsumoACSGT>
+		<estimacionConsumoACSGT>154.00</estimacionConsumoACSGT>
 		<bajaPermeabilidad>SI</bajaPermeabilidad>
 		<ensayoPermeabilidad>NO</ensayoPermeabilidad>
 		<ValorN50Medido>2</ValorN50Medido>
@@ -115,12 +116,12 @@
 		<recEFC>-1.000</recEFC>
 		<cambios>NO</cambios>
 		<cambioscalener>NO</cambioscalener>
-		<RED1>RED1          <precioEnergia>0.0</precioEnergia>
+		<RED1>RED1    <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
 		</RED1>
-		<RED2>RED2          <precioEnergia>0.0</precioEnergia>
+		<RED2>RED2    <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
@@ -174,7 +175,7 @@ CAMBIO-CALENER = NO
      FLOOR-PROJECT       	= "-"
      GATE-PROJECT        	= "-"
      EXTRAINFO-PROJECT  		= "-"
-     NORMATIVE-BUILDING        		= "CTE HE 2019"
+     NORMATIVE-BUILDING        		= "- Seleccione de la lista -"
      NORMATIVE-SYSTEM        		= "RITE (2013)"
      NORMATIVE-OTHER        			= "- Seleccione de la lista -"
      NORMATIVE-BUILDING-OTHER	= ""
@@ -217,7 +218,7 @@ CAMBIO-CALENER = NO
      MESINIPERSOM            = "Junio"
      MESFINPERSOM            = "Septiembre"
      controlAutSombrasMoviles = "0"
-     VISIT-DATE              = "13/11/19"
+     VISIT-DATE              = "03/08/15"
      EXTINFO                 = "SI"
      directoCALENERGT        = "NO"
      VAL-MEN-ELE              = "SI"
@@ -286,168 +287,6 @@ $ ++++++++++++++++++++++++++++++
     NAME          = "Material_Base"
     GROUP         = "Otro"
     IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2018\Imagenes\Ladrillo.bmp"
-    NAME_CALENER   = ""
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"Teja cerámica-porcelana" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.02
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            1.3
-    DENSITY           =           2300
-    SPECIFIC-HEAT     =            840
-    VAPOUR-DIFFUSIVITY-FACTOR =             30
-    NAME          = "Teja cerámica-porcelana"
-    GROUP         = "Cerámicos"
-    IMAGE          = "arcilla.bmp"
-    NAME_CALENER   = "Teja cerámica-porcelana"
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 250 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.25
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.1760563
-    DENSITY           =            710
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 250 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 250 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =            0.2
-    DENSITY           =            670
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 30 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FU Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = NO
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.2229299
-    DENSITY           =            640
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FU Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados unidireccionales"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 35 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 300 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.3
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.3571429
-    DENSITY           =           1330
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 300 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 300 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 350 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.35
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4022988
-    DENSITY           =           1310
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 350 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 350 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 400 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =            0.4
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4395604
-    DENSITY           =           1290
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 400 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 400 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"FR Entrevigado de EPS moldeado descolgado -Canto 450 mm" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =           0.45
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =      0.4787234
-    DENSITY           =           1280
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             60
-    NAME          = "FR Entrevigado de EPS moldeado descolgado -Canto 450 mm"
-    GROUP         = "Forjados reticulares"
-    IMAGE          = "ladrillo.bmp"
-    NAME_CALENER   = "oldeado descolgado -Canto 450 "
-    LIBRARY       = NO
-    UTIL          =  NO
-    OBSOLETE      = NO
-    ..
-"Material_Base" = MATERIAL
-    TYPE              = PROPERTIES
-    THICKNESS         =          0.075
-    THICKNESS_CHANGE         = YES
-    THICKNESS_MAX         =              2
-    THICKNESS_MIN         =          0.001
-    CONDUCTIVITY      =              1
-    DENSITY           =           3000
-    SPECIFIC-HEAT     =           1000
-    VAPOUR-DIFFUSIVITY-FACTOR =             10
-    NAME          = "Material_Base"
-    GROUP         = "Otro"
-    IMAGE          = "C:\ProgramasCTEyCEE\CTEHE2019\Imagenes\Ladrillo.bmp"
     NAME_CALENER   = ""
     LIBRARY       = NO
     UTIL          =  NO
@@ -734,33 +573,6 @@ $ ++++++++++++++++++++++++++++++
 $ ++++++++++++++++++++++++++++++
 $            MARCOS
 $ ++++++++++++++++++++++++++++++
- "Met - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            5.7
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mrpt - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            3.2
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
- "Mpvc o mad - Gris claro" = NAME-FRAME
-      GROUP         = "Marcos"
-      FRAME-WIDTH   =            0.1
-      FRAME-CONDUCT =            2.2
-      FRAME-ABS     =            0.4
-      NAME_CALENER  = ""
-                LIBRARY       = NO
-    UTIL          =  NO
-..
  "Met - Gris claro" = NAME-FRAME
       GROUP         = "Marcos"
       FRAME-WIDTH   =            0.1
@@ -3577,93 +3389,21 @@ $ +-----------------------------------------------------------------+
 	<Definicion_Sistema>
 		<elementos>
 			<FactoresDeCorreccion>
-				<CurvaComportamiento nombre="cap_T-EQ_ED_AireAgua_BDC-ACS-Defecto">
-					<nombre_usuario>cap_T-EQ_ED_AireAgua_BDC-ACS-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
-					<tipoPropiedad>cap_T</tipoPropiedad>
-					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura de impulsion</nombreVI_1>
-					<nombreVI_2>Temperatura humeda exterior</nombreVI_2>
-					<minVI_1>0</minVI_1>
-					<minVI_2>-15</minVI_2>
-					<maxVI_1>100</maxVI_1>
-					<maxVI_2>30</maxVI_2>
-					<coeficientes>"0.8232;0.0281;0.0002"</coeficientes>
-					<exponentes>"0;0;0;1;0;2"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="con_T-EQ_ED_AireAgua_BDC-ACS-Defecto">
-					<nombre_usuario>con_T-EQ_ED_AireAgua_BDC-ACS-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
-					<tipoPropiedad>con_T</tipoPropiedad>
-					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura de impulsion</nombreVI_1>
-					<nombreVI_2>Temperatura humeda exterior</nombreVI_2>
-					<minVI_1>0</minVI_1>
-					<minVI_2>-15</minVI_2>
-					<maxVI_1>100</maxVI_1>
-					<maxVI_2>30</maxVI_2>
-					<coeficientes>"0.9496;0.009;-0.0001"</coeficientes>
-					<exponentes>"0;0;0;1;0;2"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="con_FCP-EQ_ED_AireAgua_BDC-ACS-Defecto">
-					<nombre_usuario>con_FCP-EQ_ED_AireAgua_BDC-ACS-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
-					<tipoPropiedad>con_FCP</tipoPropiedad>
+				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>conRef_FCP</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.0856522;0.938814;-0.183436;0.15897"</coeficientes>
+					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
 					<exponentes>"0;1;2;3"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
-					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>cap_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
-					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_T</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Temperatura impulsion</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
-					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.7159;0.2841"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
-					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
-					<tipoObjeto>EQ_Caldera</tipoObjeto>
-					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"1;0"</coeficientes>
-					<exponentes>"0;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_T</tipoPropiedad>
+					<tipoPropiedad>conRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -3671,19 +3411,8 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
+					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
-				</CurvaComportamiento>
-				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
-					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
-					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
-					<minVI_1>0</minVI_1>
-					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0;1"</coeficientes>
-					<exponentes>"0;1"</exponentes>
 				</CurvaComportamiento>
 				<CurvaComportamiento nombre="capSenRef_T-EQ_ED_AireAire_SF-Defecto">
 					<nombre_usuario>capSenRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
@@ -3702,10 +3431,21 @@ $ +-----------------------------------------------------------------+
 					<coeficientes>"0.500602;-0.0464383;-0.000324724;0.0699578;-3.42756e-05;-0.0132021;7.93065e-05"</coeficientes>
 					<exponentes>"0;0;0;1;0;0;2;0;0;0;1;0;0;2;0;0;0;1;0;0;2"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_T-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+				<CurvaComportamiento nombre="capTotRef_FCP-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
 					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_T</tipoPropiedad>
+					<tipoPropiedad>capTotRef_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0;1"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="capTotRef_T-EQ_ED_AireAire_SF-Defecto">
+					<nombre_usuario>capTotRef_T-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
+					<tipoPropiedad>capTotRef_T</tipoPropiedad>
 					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
 					<nombreVI_1>Temperatura humeda interior</nombreVI_1>
 					<nombreVI_2>Temperatura seca exterior</nombreVI_2>
@@ -3713,19 +3453,91 @@ $ +-----------------------------------------------------------------+
 					<minVI_2>5</minVI_2>
 					<maxVI_1>30</maxVI_1>
 					<maxVI_2>50</maxVI_2>
-					<coeficientes>"0.11178;0.0284933;-0.000411156;0.0214143;0.000161125;-0.000679104"</coeficientes>
+					<coeficientes>"0.880785;0.0142476;0.000554364;-0.00755806;3.29832e-05;-0.000191711"</coeficientes>
 					<exponentes>"0;0;1;0;2;0;0;1;0;2;1;1"</exponentes>
 				</CurvaComportamiento>
-				<CurvaComportamiento nombre="conRef_FCP-EQ_ED_AireAire_SF-Defecto">
-					<nombre_usuario>conRef_FCP-EQ_ED_AireAire_SF-Defecto</nombre_usuario>
-					<tipoObjeto>EQ_ED_AireAire_SF</tipoObjeto>
-					<tipoPropiedad>conRef_FCP</tipoPropiedad>
+				<CurvaComportamiento nombre="ren_FCP_Tiempo-EQ_Caldera-unidad">
+					<nombre_usuario>ren_FCP_Tiempo-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Tiempo</tipoPropiedad>
 					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
 					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
 					<minVI_1>0</minVI_1>
 					<maxVI_1>1</maxVI_1>
-					<coeficientes>"0.20123;-0.0312175;1.9505;-1.12051"</coeficientes>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto">
+					<nombre_usuario>ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_FCP_Potencia</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.7159;0.2841"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="ren_T-EQ_Caldera-unidad">
+					<nombre_usuario>ren_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>ren_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="cap_T-EQ_Caldera-unidad">
+					<nombre_usuario>cap_T-EQ_Caldera-unidad</nombre_usuario>
+					<tipoObjeto>EQ_Caldera</tipoObjeto>
+					<tipoPropiedad>cap_T</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura impulsion</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"1;0"</coeficientes>
+					<exponentes>"0;1"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="con_FCP-EQ_ED_AireAgua_BDC-ACS-Defecto">
+					<nombre_usuario>con_FCP-EQ_ED_AireAgua_BDC-ACS-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
+					<tipoPropiedad>con_FCP</tipoPropiedad>
+					<numeroVariablesIndependientes>1</numeroVariablesIndependientes>
+					<nombreVI_1>Factor Carga Parcial</nombreVI_1>
+					<minVI_1>0</minVI_1>
+					<maxVI_1>1</maxVI_1>
+					<coeficientes>"0.0856522;0.938814;-0.183436;0.15897"</coeficientes>
 					<exponentes>"0;1;2;3"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="con_T-EQ_ED_AireAgua_BDC-ACS-Defecto">
+					<nombre_usuario>con_T-EQ_ED_AireAgua_BDC-ACS-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
+					<tipoPropiedad>con_T</tipoPropiedad>
+					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura de impulsion</nombreVI_1>
+					<nombreVI_2>Temperatura humeda exterior</nombreVI_2>
+					<minVI_1>0</minVI_1>
+					<minVI_2>-15</minVI_2>
+					<maxVI_1>100</maxVI_1>
+					<maxVI_2>30</maxVI_2>
+					<coeficientes>"0.9496;0.009;-0.0001"</coeficientes>
+					<exponentes>"0;0;0;1;0;2"</exponentes>
+				</CurvaComportamiento>
+				<CurvaComportamiento nombre="cap_T-EQ_ED_AireAgua_BDC-ACS-Defecto">
+					<nombre_usuario>cap_T-EQ_ED_AireAgua_BDC-ACS-Defecto</nombre_usuario>
+					<tipoObjeto>EQ_ED_AireAgua_BDC</tipoObjeto>
+					<tipoPropiedad>cap_T</tipoPropiedad>
+					<numeroVariablesIndependientes>2</numeroVariablesIndependientes>
+					<nombreVI_1>Temperatura de impulsion</nombreVI_1>
+					<nombreVI_2>Temperatura humeda exterior</nombreVI_2>
+					<minVI_1>0</minVI_1>
+					<minVI_2>-15</minVI_2>
+					<maxVI_1>100</maxVI_1>
+					<maxVI_2>30</maxVI_2>
+					<coeficientes>"0.8232;0.0281;0.0002"</coeficientes>
+					<exponentes>"0;0;0;1;0;2"</exponentes>
 				</CurvaComportamiento>
 			</FactoresDeCorreccion>
 			<Sistemas>
@@ -3749,7 +3561,7 @@ $ +-----------------------------------------------------------------+
 					</equipos>
 					<unidades_terminales>
 						<UT_AguaCaliente nombre="SIS_UT3">
-							<zona>"P01_E02"</zona>
+							<zona>"P03_E03"</zona>
 							<capNom>5</capNom>
 							<multiplicador>1</multiplicador>
 						</UT_AguaCaliente>
@@ -3759,7 +3571,7 @@ $ +-----------------------------------------------------------------+
 							<multiplicador>1</multiplicador>
 						</UT_AguaCaliente>
 						<UT_AguaCaliente nombre="SIS_UT1">
-							<zona>"P03_E03"</zona>
+							<zona>"P01_E02"</zona>
 							<capNom>5</capNom>
 							<multiplicador>1</multiplicador>
 						</UT_AguaCaliente>

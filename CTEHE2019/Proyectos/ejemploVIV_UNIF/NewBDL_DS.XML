@@ -273,21 +273,21 @@
 					<ren_FCP_Potencia>"ren_FCP_Potencia-EQ_Caldera-unidad"</ren_FCP_Potencia>
 					<ren_FCP_Tiempo>"ren_FCP_Tiempo-EQ_Caldera-ACS-Electrica-Defecto"</ren_FCP_Tiempo>
 				</EQ_Caldera>
-				<porcentajeES>77.26</porcentajeES>
+				<porcentajeES>0.00</porcentajeES>
 				<multiplicador>1</multiplicador>
 				<tImpulsion>60.00</tImpulsion>
-				<porcentajeES_01>69.49</porcentajeES_01>
-				<porcentajeES_02>76.94</porcentajeES_02>
-				<porcentajeES_03>70.97</porcentajeES_03>
-				<porcentajeES_04>74.91</porcentajeES_04>
-				<porcentajeES_05>75.79</porcentajeES_05>
-				<porcentajeES_06>82.05</porcentajeES_06>
-				<porcentajeES_07>81.34</porcentajeES_07>
-				<porcentajeES_08>83.37</porcentajeES_08>
-				<porcentajeES_09>84.05</porcentajeES_09>
-				<porcentajeES_10>77.58</porcentajeES_10>
-				<porcentajeES_11>74.93</porcentajeES_11>
-				<porcentajeES_12>69.49</porcentajeES_12>
+				<porcentajeES_01>0.00</porcentajeES_01>
+				<porcentajeES_02>0.00</porcentajeES_02>
+				<porcentajeES_03>0.00</porcentajeES_03>
+				<porcentajeES_04>0.00</porcentajeES_04>
+				<porcentajeES_05>0.00</porcentajeES_05>
+				<porcentajeES_06>0.00</porcentajeES_06>
+				<porcentajeES_07>0.00</porcentajeES_07>
+				<porcentajeES_08>0.00</porcentajeES_08>
+				<porcentajeES_09>0.00</porcentajeES_09>
+				<porcentajeES_10>0.00</porcentajeES_10>
+				<porcentajeES_11>0.00</porcentajeES_11>
+				<porcentajeES_12>0.00</porcentajeES_12>
 			</SIS_ACS>
 			<SIS_MULTIZONA_ED nombre="SIS1_Climatizacion_multizona_con_autonomos">
 				<UT_ED_UnidadInterior nombre="SIS1_UT7_Unidad_interior_de_autnomo">

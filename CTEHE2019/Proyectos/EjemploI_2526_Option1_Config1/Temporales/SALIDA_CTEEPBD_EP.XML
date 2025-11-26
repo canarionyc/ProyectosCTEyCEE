@@ -25,7 +25,7 @@
         <Datos>
           <Dato>
             <Vector>BIOMASA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
-            <Valores>936.50,693.95,525.24,289.70,123.12,0.00,0.00,0.00,0.00,127.54,576.14,946.84</Valores>
+            <Valores>936.50,693.95,525.24,289.70,123.12,0.00,0.00,0.00,0.00,102.13,575.66,946.79</Valores>
             <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
         </Dato>
       <Dato>
@@ -40,12 +40,12 @@
         </Dato>
       <Dato>
             <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
-            <Valores>0.00,0.00,0.00,0.00,0.00,6.46,42.34,38.20,17.88,0.00,0.00,0.00</Valores>
+            <Valores>0.00,0.00,0.00,0.00,0.00,35.88,95.71,92.35,48.43,0.00,0.00,0.00</Valores>
             <Comentario>Consumo sistemas de sustitución (P02_E01) (REF)</Comentario>
         </Dato>
       <Dato>
             <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>VEN</Servicio>
-            <Valores>1.87,1.69,1.87,1.81,1.87,1.21,1.25,1.25,1.21,1.87,1.81,1.87</Valores>
+            <Valores>1.87,1.69,1.87,1.81,1.87,1.81,1.87,1.87,1.81,1.87,1.81,1.87</Valores>
             <Comentario>Consumo ventiladores</Comentario>
         </Dato>
         </Datos>
@@ -53,7 +53,7 @@
     <kexp>0.00</kexp>
     <AreaRef>64.00</AreaRef><!-- área de referencia [m2] -->
     <Epm2><!-- C_ep [kWh/m2.an] -->
-        <tot>92.8</tot>
-        <nren>7.5</nren>
+        <tot>98.7</tot>
+        <nren>12.7</nren>
     </Epm2>
 </BalanceEPB>

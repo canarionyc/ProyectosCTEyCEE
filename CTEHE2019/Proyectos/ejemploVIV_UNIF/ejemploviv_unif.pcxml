@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archivoXmljEner aplicacion="AplicacionPostCALENER" version="1.000">
+	<proyecto id="ejemploviv_unif" clase="ProyectoPostCALENER">
+		<entidad id="DatoHorario0" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_unif»SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario1" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_unif»SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario2" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_unif»SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto"/>
+			<propList id="variable" valor="Energía Suministrada"/>
+			<propString id="nombreComponente" valor="SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto"/>
+			<propString id="nombreVariable" valor="Energía Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario3" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_unif»SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conCal"/>
+			<propString id="nombreComponente" valor="SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario4" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_unif»SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario5" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_unif»SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potCal"/>
+			<propString id="nombreComponente" valor="SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario6" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploviv_unif»SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS1_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+	</proyecto>
+</archivoXmljEner>

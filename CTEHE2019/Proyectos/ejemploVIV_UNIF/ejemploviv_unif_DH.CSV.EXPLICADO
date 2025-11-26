@@ -1,0 +1,5 @@
+CALDERA,CALDERA,CALDERA,SPLITUNIDADEXTERIOR,SPLITUNIDADEXTERIOR,SPLITUNIDADEXTERIOR,SPLITUNIDADEXTERIOR
+SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto,SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto,SIS_EQ2_EQ_Caldera-ACS-Electrica-Defecto,SIS1_EQ1_EQ_ED_UnidadExterior-Defecto,SIS1_EQ1_EQ_ED_UnidadExterior-Defecto,SIS1_EQ1_EQ_ED_UnidadExterior-Defecto,SIS1_EQ1_EQ_ED_UnidadExterior-Defecto
+ConsumoACS,ConsumoCAL,Energía Suministrada,conCal,conRef,potCal,potTotRef
+Consumo horario en W asociado a ACS (prorrateando con la demanda),Consumo horario en W asociado a la calefacción (prorrateando con la demanda),Energía Suministrada en W,Consumo horario eléctrico en W para producir calefacción,Consumo horario eléctrico en W para producir refrigeración,Potencia horaria entregada W para calefacción,Potencia horaria entregada W para refrigeración
+Electricidad,Electricidad,Electricidad,Electricidad,Electricidad,Electricidad,Electricidad
