@@ -13,57 +13,57 @@
     </FactoresDePaso>
     <Componentes>
         <Metadatos>
-          <Metadato><Clave>CTE_AREAREF</Clave><Valor>100.00</Valor></Metadato>
+          <Metadato><Clave>CTE_AREAREF</Clave><Valor>128.00</Valor></Metadato>
       <Metadato><Clave>CTE_LOCALIZACION</Clave><Valor>PENINSULA</Valor></Metadato>
       <Metadato><Clave>CTE_KEXP</Clave><Valor>0.0</Valor></Metadato>
       <Metadato><Clave>CTE_RED1</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
       <Metadato><Clave>CTE_RED2</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
       <Metadato><Clave>CTE_COGEN</Clave><Valor>0.000, 0.000, 0.000</Valor></Metadato>
-      <Metadato><Clave>CTE_ACS_DEMANDA_ANUAL</Clave><Valor>2074.88</Valor></Metadato>
+      <Metadato><Clave>CTE_ACS_DEMANDA_ANUAL</Clave><Valor>2817.59</Valor></Metadato>
       <Metadato><Clave>CTE_DEMANDA_ACS_PCT_BIOMASADENSIFICADA</Clave><Valor>100.00</Valor></Metadato>
         </Metadatos>
         <Datos>
           <Dato>
             <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
-            <Valores>921.96,672.59,511.46,283.73,117.67,0.00,0.00,0.00,0.00,99.70,550.44,934.16</Valores>
+            <Valores>1521.85,1087.38,757.19,346.60,115.22,0.00,0.00,0.00,0.00,108.30,892.43,1527.26</Valores>
             <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
         </Dato>
       <Dato>
             <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ACS</Servicio>
-            <Valores>208.37,186.05,201.20,188.49,183.38,168.31,164.47,167.43,168.13,190.78,193.64,210.80</Valores>
+            <Valores>282.47,252.56,273.11,249.91,251.13,229.93,223.88,230.93,229.41,258.09,265.12,283.14</Valores>
             <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
         </Dato>
       <Dato>
             <Vector>GASNATURAL</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
-            <Valores>11.29,8.76,6.40,0.00,0.00,0.00,0.00,0.00,0.00,0.00,2.70,10.06</Valores>
+            <Valores>1.72,1.07,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,2.93</Valores>
             <Comentario>Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)</Comentario>
         </Dato>
       <Dato>
             <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
-            <Valores>0.00,0.00,0.00,0.00,0.00,1.61,30.12,29.12,15.51,0.00,0.00,0.00</Valores>
+            <Valores>0.00,0.00,0.00,0.00,0.00,3.53,41.73,41.27,20.20,0.00,0.00,0.00</Valores>
             <Comentario>Consumo sistemas de sustitución (P02_E01) (REF)</Comentario>
         </Dato>
       <Dato>
             <Vector>GASNATURAL</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
-            <Valores>276.75,198.24,138.42,55.23,15.00,0.00,0.00,0.00,0.00,15.46,161.41,270.72</Valores>
-            <Comentario>Consumo sistemas de sustitución (P03_E01) (CAL)</Comentario>
+            <Valores>29.22,19.54,13.21,0.00,0.00,0.00,0.00,0.00,0.00,0.00,7.77,25.93</Valores>
+            <Comentario>Consumo sistemas de complemento por potencia insuficiente (P03_E01) (CAL)</Comentario>
         </Dato>
       <Dato>
             <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
-            <Valores>0.00,0.00,0.00,0.00,0.00,7.99,27.12,23.70,9.90,0.00,0.00,0.00</Valores>
+            <Valores>0.00,0.00,0.00,0.00,0.00,32.04,74.43,69.13,29.28,0.00,0.00,0.00</Valores>
             <Comentario>Consumo sistemas de sustitución (P03_E01) (REF)</Comentario>
         </Dato>
       <Dato>
             <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>VEN</Servicio>
-            <Valores>1.87,1.69,1.87,1.81,1.87,1.21,1.25,1.25,1.21,1.87,1.81,1.87</Valores>
+            <Valores>6.75,6.10,6.75,6.53,6.75,4.35,4.50,4.50,4.35,6.75,6.53,6.75</Valores>
             <Comentario>Consumo ventiladores</Comentario>
         </Dato>
         </Datos>
     </Componentes>
     <kexp>0.00</kexp>
-    <AreaRef>100.00</AreaRef><!-- área de referencia [m2] -->
+    <AreaRef>128.00</AreaRef><!-- área de referencia [m2] -->
     <Epm2><!-- C_ep [kWh/m2.an] -->
-        <tot>88.3</tot>
-        <nren>22.5</nren>
+        <tot>89.6</tot>
+        <nren>13.0</nren>
     </Epm2>
 </BalanceEPB>
