@@ -216,7 +216,7 @@
 				<EQ_Caldera nombre="SIS2_EQ1_EQ_Caldera-Biomasa-Defecto">
 					<capNom>25.00</capNom>
 					<renNom>0.93</renNom>
-					<tipoEnergia>"Biomasa no densificada"</tipoEnergia>
+					<tipoEnergia>"Biomasa densificada (pelets)"</tipoEnergia>
 					<cap_T>"cap_T-EQ_Caldera-unidad"</cap_T>
 					<ren_T>"ren_T-EQ_Caldera-unidad"</ren_T>
 					<ren_FCP_Potencia>"ren_FCP_Potencia-EQ_Caldera-Biomasa-Defecto"</ren_FCP_Potencia>

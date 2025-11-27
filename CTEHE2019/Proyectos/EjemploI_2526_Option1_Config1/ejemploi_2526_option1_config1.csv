@@ -1,7 +1,7 @@
 ProyectoEdificio, c:\proyectoscteycee\ctehe2019\proyectos\ejemploi_2526_option1_config1\newbdl_ds.xml, zonaE1.bin
 
 CALDERA, SIS2_EQ1_EQ_Caldera-Biomasa-Defecto
-tipoCombustible, Biomasa no densificada
+tipoCombustible, Biomasa densificada (pelets)
 demandaACS, 100491.48 ,89458.336 ,99931.52 ,90536.45 ,91076.63 ,81263.11 ,83667.55 ,83281.23 ,83395.64 ,90779.4 ,95113.3 ,103036.03 ,
 demandaCAL, 646045.0 ,486185.06 ,367792.06 ,201784.31 ,85703.44 ,0.0 ,0.0 ,0.0 ,0.0 ,85689.43 ,397534.62 ,657981.6 ,
 consumoElectricidad, 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,

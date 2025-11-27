@@ -1,995 +1,1010 @@
 {
-  "components": {
-    "cmeta": [
-      {
-        "key": "CTE_AREAREF",
-        "value": "64.00"
-      },
-      {
-        "key": "CTE_LOCALIZACION",
-        "value": "PENINSULA"
-      },
-      {
-        "key": "CTE_KEXP",
-        "value": "0.0"
-      },
-      {
-        "key": "CTE_RED1",
-        "value": "0.000, 1.000, 1.000"
-      },
-      {
-        "key": "CTE_RED2",
-        "value": "0.000, 1.000, 1.000"
-      },
-      {
-        "key": "CTE_COGEN",
-        "value": "0.000, 0.000, 0.000"
-      },
-      {
-        "key": "CTE_ACS_DEMANDA_ANUAL",
-        "value": "1092.03"
-      },
-      {
-        "key": "CTE_DEMANDA_ACS_PCT_BIOMASA",
-        "value": "100.00"
-      }
-    ],
-    "cdata": [
-      {
-        "carrier": "BIOMASA",
-        "ctype": "CONSUMO",
-        "csubtype": "EPB",
-        "service": "CAL",
-        "values": [
-          936.5,
-          693.95,
-          525.24,
-          289.7,
-          123.12,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          102.13,
-          575.66,
-          946.79
-        ],
-        "comment": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"
-      },
-      {
-        "carrier": "BIOMASA",
-        "ctype": "CONSUMO",
-        "csubtype": "EPB",
-        "service": "ACS",
-        "values": [
-          108.06,
-          96.19,
-          107.45,
-          97.35,
-          97.93,
-          87.38,
-          89.97,
-          89.55,
-          89.67,
-          97.61,
-          102.27,
-          110.79
-        ],
-        "comment": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"
-      },
-      {
-        "carrier": "GASNATURAL",
-        "ctype": "CONSUMO",
-        "csubtype": "EPB",
-        "service": "CAL",
-        "values": [
-          13.46,
-          10.08,
-          6.59,
-          0.39,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          2.71,
-          10.53
-        ],
-        "comment": "Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)"
-      },
-      {
-        "carrier": "ELECTRICIDAD",
-        "ctype": "CONSUMO",
-        "csubtype": "EPB",
-        "service": "REF",
-        "values": [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          35.88,
-          95.71,
-          92.35,
-          48.43,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "comment": "Consumo sistemas de sustitución (P02_E01) (REF)"
-      },
-      {
-        "carrier": "ELECTRICIDAD",
-        "ctype": "CONSUMO",
-        "csubtype": "EPB",
-        "service": "VEN",
-        "values": [
-          1.87,
-          1.69,
-          1.87,
-          1.81,
-          1.87,
-          1.81,
-          1.87,
-          1.87,
-          1.81,
-          1.87,
-          1.81,
-          1.87
-        ],
-        "comment": "Consumo ventiladores"
-      }
-    ]
-  },
-  "wfactors": {
-    "wmeta": [
-      {
-        "key": "CTE_FUENTE",
-        "value": "RITE2014"
-      },
-      {
-        "key": "CTE_FUENTE_COMENTARIO",
-        "value": "Factores de paso (kWh/kWh_f,kWh/kWh_f,kg_CO2/kWh_f) del documento reconocido del RITE de 20/07/2014"
-      },
-      {
-        "key": "CTE_LOCALIZACION",
-        "value": "PENINSULA"
-      }
-    ],
-    "wdata": [
-      {
-        "carrier": "BIOMASA",
-        "source": "RED",
-        "dest": "SUMINISTRO",
-        "step": "A",
-        "ren": 1.003,
-        "nren": 0.034,
-        "co2": 0.018,
-        "comment": "Recursos usados para suministrar el vector desde la red"
-      },
-      {
-        "carrier": "GASNATURAL",
-        "source": "RED",
-        "dest": "SUMINISTRO",
-        "step": "A",
-        "ren": 0.005,
-        "nren": 1.19,
-        "co2": 0.252,
-        "comment": "Recursos usados para suministrar el vector desde la red"
-      },
-      {
-        "carrier": "ELECTRICIDAD",
-        "source": "RED",
-        "dest": "SUMINISTRO",
-        "step": "A",
-        "ren": 0.414,
-        "nren": 1.954,
-        "co2": 0.331,
-        "comment": "Recursos usados para el suministro desde la red"
-      }
-    ]
-  },
-  "k_exp": 0.0,
-  "arearef": 64.0,
-  "balance_cr": {
-    "GASNATURAL": {
-      "carrier": "GASNATURAL",
-      "used_EPB": [
-        13.46,
-        10.08,
-        6.59,
-        0.39,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        2.71,
-        10.53
-      ],
-      "used_EPB_an_byuse": {
-        "CAL": 43.76
-      },
-      "used_nEPB": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced_an": 0.0,
-      "produced_bygen": {},
-      "produced_bygen_an": {},
-      "produced_used_EPus": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced_used_EPus_bygen": {},
-      "f_match": [
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0
-      ],
-      "exported": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_an": 0.0,
-      "exported_bygen": {},
-      "exported_bygen_an": {},
-      "exported_grid": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_grid_an": 0.0,
-      "exported_nEPB": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_nEPB_an": 0.0,
-      "delivered_grid": [
-        13.46,
-        10.08,
-        6.59,
-        0.39,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        2.71,
-        10.53
-      ],
-      "delivered_grid_an": 43.76,
-      "we_delivered_grid_an": {
-        "ren": 0.219,
-        "nren": 52.074,
-        "co2": 11.028
-      },
-      "we_delivered_prod_an": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_delivered_an": {
-        "ren": 0.219,
-        "nren": 52.074,
-        "co2": 11.028
-      },
-      "we_exported_an_A": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_nEPB_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_grid_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_an": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_an_A": {
-        "ren": 0.219,
-        "nren": 52.074,
-        "co2": 11.028
-      },
-      "we_an_A_byuse": {
-        "CAL": {
-          "ren": 0.219,
-          "nren": 52.074,
-          "co2": 11.028
-        }
-      },
-      "we_an": {
-        "ren": 0.219,
-        "nren": 52.074,
-        "co2": 11.028
-      },
-      "we_an_byuse": {
-        "CAL": {
-          "ren": 0.219,
-          "nren": 52.074,
-          "co2": 11.028
-        }
-      }
-    },
-    "BIOMASA": {
-      "carrier": "BIOMASA",
-      "used_EPB": [
-        1044.56,
-        790.14,
-        632.69,
-        387.05002,
-        221.05,
-        87.38,
-        89.97,
-        89.55,
-        89.67,
-        199.73999,
-        677.93,
-        1057.58
-      ],
-      "used_EPB_an_byuse": {
-        "CAL": 4193.0903,
-        "ACS": 1174.2201
-      },
-      "used_nEPB": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced_an": 0.0,
-      "produced_bygen": {},
-      "produced_bygen_an": {},
-      "produced_used_EPus": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced_used_EPus_bygen": {},
-      "f_match": [
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0
-      ],
-      "exported": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_an": 0.0,
-      "exported_bygen": {},
-      "exported_bygen_an": {},
-      "exported_grid": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_grid_an": 0.0,
-      "exported_nEPB": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_nEPB_an": 0.0,
-      "delivered_grid": [
-        1044.56,
-        790.14,
-        632.69,
-        387.05002,
-        221.05,
-        87.38,
-        89.97,
-        89.55,
-        89.67,
-        199.73999,
-        677.93,
-        1057.58
-      ],
-      "delivered_grid_an": 5367.31,
-      "we_delivered_grid_an": {
-        "ren": 5383.412,
-        "nren": 182.489,
-        "co2": 96.612
-      },
-      "we_delivered_prod_an": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_delivered_an": {
-        "ren": 5383.412,
-        "nren": 182.489,
-        "co2": 96.612
-      },
-      "we_exported_an_A": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_nEPB_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_grid_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_an": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_an_A": {
-        "ren": 5383.412,
-        "nren": 182.489,
-        "co2": 96.612
-      },
-      "we_an_A_byuse": {
-        "CAL": {
-          "ren": 4205.67,
-          "nren": 142.565,
-          "co2": 75.476
-        },
-        "ACS": {
-          "ren": 1177.743,
-          "nren": 39.923,
-          "co2": 21.136
-        }
-      },
-      "we_an": {
-        "ren": 5383.412,
-        "nren": 182.489,
-        "co2": 96.612
-      },
-      "we_an_byuse": {
-        "ACS": {
-          "ren": 1177.743,
-          "nren": 39.923,
-          "co2": 21.136
-        },
-        "CAL": {
-          "ren": 4205.67,
-          "nren": 142.565,
-          "co2": 75.476
-        }
-      }
-    },
-    "ELECTRICIDAD": {
-      "carrier": "ELECTRICIDAD",
-      "used_EPB": [
-        1.87,
-        1.69,
-        1.87,
-        1.81,
-        1.87,
-        37.690002,
-        97.58,
-        94.22,
-        50.24,
-        1.87,
-        1.81,
-        1.87
-      ],
-      "used_EPB_an_byuse": {
-        "VEN": 22.02,
-        "REF": 272.37
-      },
-      "used_nEPB": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced_an": 0.0,
-      "produced_bygen": {},
-      "produced_bygen_an": {},
-      "produced_used_EPus": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "produced_used_EPus_bygen": {},
-      "f_match": [
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0
-      ],
-      "exported": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_an": 0.0,
-      "exported_bygen": {},
-      "exported_bygen_an": {},
-      "exported_grid": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_grid_an": 0.0,
-      "exported_nEPB": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "exported_nEPB_an": 0.0,
-      "delivered_grid": [
-        1.87,
-        1.69,
-        1.87,
-        1.81,
-        1.87,
-        37.690002,
-        97.58,
-        94.22,
-        50.24,
-        1.87,
-        1.81,
-        1.87
-      ],
-      "delivered_grid_an": 294.38998,
-      "we_delivered_grid_an": {
-        "ren": 121.877,
-        "nren": 575.238,
-        "co2": 97.443
-      },
-      "we_delivered_prod_an": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_delivered_an": {
-        "ren": 121.877,
-        "nren": 575.238,
-        "co2": 97.443
-      },
-      "we_exported_an_A": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_nEPB_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_grid_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_an_AB": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_exported_an": {
-        "ren": 0.0,
-        "nren": 0.0,
-        "co2": 0.0
-      },
-      "we_an_A": {
-        "ren": 121.877,
-        "nren": 575.238,
-        "co2": 97.443
-      },
-      "we_an_A_byuse": {
-        "REF": {
-          "ren": 112.761,
-          "nren": 532.211,
-          "co2": 90.154
-        },
-        "VEN": {
-          "ren": 9.116,
-          "nren": 43.027,
-          "co2": 7.289
-        }
-      },
-      "we_an": {
-        "ren": 121.877,
-        "nren": 575.238,
-        "co2": 97.443
-      },
-      "we_an_byuse": {
-        "REF": {
-          "ren": 112.761,
-          "nren": 532.211,
-          "co2": 90.154
-        },
-        "VEN": {
-          "ren": 9.116,
-          "nren": 43.027,
-          "co2": 7.289
-        }
-      }
-    }
-  },
-  "balance": {
-    "used_EPB_byuse": {
-      "ACS": 1174.2201,
-      "CAL": 4236.85,
-      "VEN": 22.02,
-      "REF": 272.37
-    },
-    "A": {
-      "ren": 5505.509,
-      "nren": 809.801,
-      "co2": 205.082
-    },
-    "A_byuse": {
-      "REF": {
-        "ren": 112.761,
-        "nren": 532.211,
-        "co2": 90.154
-      },
-      "ACS": {
-        "ren": 1177.743,
-        "nren": 39.923,
-        "co2": 21.136
-      },
-      "VEN": {
-        "ren": 9.116,
-        "nren": 43.027,
-        "co2": 7.289
-      },
-      "CAL": {
-        "ren": 4205.889,
-        "nren": 194.639,
-        "co2": 86.503
-      }
-    },
-    "B": {
-      "ren": 5505.509,
-      "nren": 809.801,
-      "co2": 205.082
-    },
-    "B_byuse": {
-      "VEN": {
-        "ren": 9.116,
-        "nren": 43.027,
-        "co2": 7.289
-      },
-      "ACS": {
-        "ren": 1177.743,
-        "nren": 39.923,
-        "co2": 21.136
-      },
-      "CAL": {
-        "ren": 4205.889,
-        "nren": 194.639,
-        "co2": 86.503
-      },
-      "REF": {
-        "ren": 112.761,
-        "nren": 532.211,
-        "co2": 90.154
-      }
-    },
-    "we_del": {
-      "ren": 5505.509,
-      "nren": 809.801,
-      "co2": 205.082
-    },
-    "we_exp_A": {
-      "ren": 0.0,
-      "nren": 0.0,
-      "co2": 0.0
-    },
-    "we_exp": {
-      "ren": 0.0,
-      "nren": 0.0,
-      "co2": 0.0
-    }
-  },
-  "balance_m2": {
-    "used_EPB_byuse": {
-      "ACS": 18.347189,
-      "CAL": 66.20078,
-      "VEN": 0.3440625,
-      "REF": 4.255781
-    },
-    "A": {
-      "ren": 86.024,
-      "nren": 12.653,
-      "co2": 3.204
-    },
-    "A_byuse": {
-      "REF": {
-        "ren": 1.762,
-        "nren": 8.316,
-        "co2": 1.409
-      },
-      "ACS": {
-        "ren": 18.402,
-        "nren": 0.624,
-        "co2": 0.33
-      },
-      "VEN": {
-        "ren": 0.142,
-        "nren": 0.672,
-        "co2": 0.114
-      },
-      "CAL": {
-        "ren": 65.717,
-        "nren": 3.041,
-        "co2": 1.352
-      }
-    },
-    "B": {
-      "ren": 86.024,
-      "nren": 12.653,
-      "co2": 3.204
-    },
-    "B_byuse": {
-      "VEN": {
-        "ren": 0.142,
-        "nren": 0.672,
-        "co2": 0.114
-      },
-      "ACS": {
-        "ren": 18.402,
-        "nren": 0.624,
-        "co2": 0.33
-      },
-      "CAL": {
-        "ren": 65.717,
-        "nren": 3.041,
-        "co2": 1.352
-      },
-      "REF": {
-        "ren": 1.762,
-        "nren": 8.316,
-        "co2": 1.409
-      }
-    },
-    "we_del": {
-      "ren": 86.024,
-      "nren": 12.653,
-      "co2": 3.204
-    },
-    "we_exp_A": {
-      "ren": 0.0,
-      "nren": 0.0,
-      "co2": 0.0
-    },
-    "we_exp": {
-      "ren": 0.0,
-      "nren": 0.0,
-      "co2": 0.0
-    }
-  },
-  "misc": {
-    "fraccion_renovable_demanda_acs_nrb": "0.967",
-    "demanda_anual_acs": "1092.0"
-  }
+	"components": {
+		"cmeta": [
+			{
+				"key": "CTE_AREAREF",
+				"value": "64.00"
+			},
+			{
+				"key": "CTE_LOCALIZACION",
+				"value": "PENINSULA"
+			},
+			{
+				"key": "CTE_KEXP",
+				"value": "0.0"
+			},
+			{
+				"key": "CTE_RED1",
+				"value": "0.000, 1.000, 1.000"
+			},
+			{
+				"key": "CTE_RED2",
+				"value": "0.000, 1.000, 1.000"
+			},
+			{
+				"key": "CTE_COGEN",
+				"value": "0.000, 0.000, 0.000"
+			},
+			{
+				"key": "CTE_ACS_DEMANDA_ANUAL",
+				"value": "1092.03"
+			},
+			{
+				"key": "CTE_DEMANDA_ACS_PCT_BIOMASADENSIFICADA",
+				"value": "100.00"
+			}
+		],
+		"cdata": [
+			{
+				"carrier": "BIOMASADENSIFICADA",
+				"ctype": "CONSUMO",
+				"csubtype": "EPB",
+				"service": "CAL",
+				"values": [
+					941.52,
+					708.03,
+					534.9,
+					292.1,
+					124.08,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					124.97,
+					579.2,
+					958.93
+				],
+				"comment": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"
+			},
+			{
+				"carrier": "BIOMASADENSIFICADA",
+				"ctype": "CONSUMO",
+				"csubtype": "EPB",
+				"service": "ACS",
+				"values": [
+					108.06,
+					96.19,
+					107.45,
+					97.35,
+					97.93,
+					87.38,
+					89.97,
+					89.55,
+					89.67,
+					97.61,
+					102.27,
+					110.79
+				],
+				"comment": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"
+			},
+			{
+				"carrier": "GASNATURAL",
+				"ctype": "CONSUMO",
+				"csubtype": "EPB",
+				"service": "CAL",
+				"values": [
+					13.58,
+					10.31,
+					6.68,
+					0.39,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					2.71,
+					10.66
+				],
+				"comment": "Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)"
+			},
+			{
+				"carrier": "ELECTRICIDAD",
+				"ctype": "CONSUMO",
+				"csubtype": "EPB",
+				"service": "REF",
+				"values": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					6.49,
+					42.93,
+					39.4,
+					18.47,
+					0.0,
+					0.0,
+					0.0
+				],
+				"comment": "Consumo sistemas de sustitución (P02_E01) (REF)"
+			},
+			{
+				"carrier": "ELECTRICIDAD",
+				"ctype": "CONSUMO",
+				"csubtype": "EPB",
+				"service": "VEN",
+				"values": [
+					2.63,
+					2.37,
+					2.63,
+					2.54,
+					2.63,
+					1.69,
+					1.75,
+					1.75,
+					1.69,
+					2.63,
+					2.54,
+					2.63
+				],
+				"comment": "Consumo ventiladores"
+			}
+		]
+	},
+	"wfactors": {
+		"wmeta": [
+			{
+				"key": "CTE_FUENTE",
+				"value": "RITE2014"
+			},
+			{
+				"key": "CTE_FUENTE_COMENTARIO",
+				"value": "Factores de paso (kWh/kWh_f,kWh/kWh_f,kg_CO2/kWh_f) del documento reconocido del RITE de 20/07/2014"
+			},
+			{
+				"key": "CTE_LOCALIZACION",
+				"value": "PENINSULA"
+			}
+		],
+		"wdata": [
+			{
+				"carrier": "BIOMASADENSIFICADA",
+				"source": "RED",
+				"dest": "SUMINISTRO",
+				"step": "A",
+				"ren": 1.028,
+				"nren": 0.085,
+				"co2": 0.018,
+				"comment": "Recursos usados para suministrar el vector desde la red"
+			},
+			{
+				"carrier": "GASNATURAL",
+				"source": "RED",
+				"dest": "SUMINISTRO",
+				"step": "A",
+				"ren": 0.005,
+				"nren": 1.19,
+				"co2": 0.252,
+				"comment": "Recursos usados para suministrar el vector desde la red"
+			},
+			{
+				"carrier": "ELECTRICIDAD",
+				"source": "RED",
+				"dest": "SUMINISTRO",
+				"step": "A",
+				"ren": 0.414,
+				"nren": 1.954,
+				"co2": 0.331,
+				"comment": "Recursos usados para el suministro desde la red"
+			}
+		]
+	},
+	"k_exp": 0.0,
+	"arearef": 64.0,
+	"balance_cr": {
+		"GASNATURAL": {
+			"carrier": "GASNATURAL",
+			"used_EPB": [
+				13.58,
+				10.31,
+				6.68,
+				0.39,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				2.71,
+				10.66
+			],
+			"used_EPB_an_byuse": {
+				"CAL": 44.329998
+			},
+			"used_nEPB": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced_an": 0.0,
+			"produced_bygen": {
+			},
+			"produced_bygen_an": {
+			},
+			"produced_used_EPus": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced_used_EPus_bygen": {
+			},
+			"f_match": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"exported": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_an": 0.0,
+			"exported_bygen": {
+			},
+			"exported_bygen_an": {
+			},
+			"exported_grid": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_grid_an": 0.0,
+			"exported_nEPB": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_nEPB_an": 0.0,
+			"delivered_grid": [
+				13.58,
+				10.31,
+				6.68,
+				0.39,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				2.71,
+				10.66
+			],
+			"delivered_grid_an": 44.329998,
+			"we_delivered_grid_an": {
+				"ren": 0.222,
+				"nren": 52.753,
+				"co2": 11.171
+			},
+			"we_delivered_prod_an": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_delivered_an": {
+				"ren": 0.222,
+				"nren": 52.753,
+				"co2": 11.171
+			},
+			"we_exported_an_A": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_nEPB_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_grid_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_an": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_an_A": {
+				"ren": 0.222,
+				"nren": 52.753,
+				"co2": 11.171
+			},
+			"we_an_A_byuse": {
+				"CAL": {
+					"ren": 0.222,
+					"nren": 52.753,
+					"co2": 11.171
+				}
+			},
+			"we_an": {
+				"ren": 0.222,
+				"nren": 52.753,
+				"co2": 11.171
+			},
+			"we_an_byuse": {
+				"CAL": {
+					"ren": 0.222,
+					"nren": 52.753,
+					"co2": 11.171
+				}
+			}
+		},
+		"ELECTRICIDAD": {
+			"carrier": "ELECTRICIDAD",
+			"used_EPB": [
+				2.63,
+				2.37,
+				2.63,
+				2.54,
+				2.63,
+				8.18,
+				44.68,
+				41.15,
+				20.16,
+				2.63,
+				2.54,
+				2.63
+			],
+			"used_EPB_an_byuse": {
+				"REF": 107.29,
+				"VEN": 27.480003
+			},
+			"used_nEPB": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced_an": 0.0,
+			"produced_bygen": {
+			},
+			"produced_bygen_an": {
+			},
+			"produced_used_EPus": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced_used_EPus_bygen": {
+			},
+			"f_match": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"exported": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_an": 0.0,
+			"exported_bygen": {
+			},
+			"exported_bygen_an": {
+			},
+			"exported_grid": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_grid_an": 0.0,
+			"exported_nEPB": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_nEPB_an": 0.0,
+			"delivered_grid": [
+				2.63,
+				2.37,
+				2.63,
+				2.54,
+				2.63,
+				8.18,
+				44.68,
+				41.15,
+				20.16,
+				2.63,
+				2.54,
+				2.63
+			],
+			"delivered_grid_an": 134.77,
+			"we_delivered_grid_an": {
+				"ren": 55.795,
+				"nren": 263.341,
+				"co2": 44.609
+			},
+			"we_delivered_prod_an": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_delivered_an": {
+				"ren": 55.795,
+				"nren": 263.341,
+				"co2": 44.609
+			},
+			"we_exported_an_A": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_nEPB_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_grid_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_an": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_an_A": {
+				"ren": 55.795,
+				"nren": 263.341,
+				"co2": 44.609
+			},
+			"we_an_A_byuse": {
+				"VEN": {
+					"ren": 11.377,
+					"nren": 53.696,
+					"co2": 9.096
+				},
+				"REF": {
+					"ren": 44.418,
+					"nren": 209.645,
+					"co2": 35.513
+				}
+			},
+			"we_an": {
+				"ren": 55.795,
+				"nren": 263.341,
+				"co2": 44.609
+			},
+			"we_an_byuse": {
+				"REF": {
+					"ren": 44.418,
+					"nren": 209.645,
+					"co2": 35.513
+				},
+				"VEN": {
+					"ren": 11.377,
+					"nren": 53.696,
+					"co2": 9.096
+				}
+			}
+		},
+		"BIOMASADENSIFICADA": {
+			"carrier": "BIOMASADENSIFICADA",
+			"used_EPB": [
+				1049.5801,
+				804.22003,
+				642.35004,
+				389.45,
+				222.01001,
+				87.38,
+				89.97,
+				89.55,
+				89.67,
+				222.58,
+				681.47003,
+				1069.72
+			],
+			"used_EPB_an_byuse": {
+				"CAL": 4263.7305,
+				"ACS": 1174.22
+			},
+			"used_nEPB": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced_an": 0.0,
+			"produced_bygen": {
+			},
+			"produced_bygen_an": {
+			},
+			"produced_used_EPus": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"produced_used_EPus_bygen": {
+			},
+			"f_match": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"exported": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_an": 0.0,
+			"exported_bygen": {
+			},
+			"exported_bygen_an": {
+			},
+			"exported_grid": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_grid_an": 0.0,
+			"exported_nEPB": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"exported_nEPB_an": 0.0,
+			"delivered_grid": [
+				1049.5801,
+				804.22003,
+				642.35004,
+				389.45,
+				222.01001,
+				87.38,
+				89.97,
+				89.55,
+				89.67,
+				222.58,
+				681.47003,
+				1069.72
+			],
+			"delivered_grid_an": 5437.95,
+			"we_delivered_grid_an": {
+				"ren": 5590.213,
+				"nren": 462.226,
+				"co2": 97.883
+			},
+			"we_delivered_prod_an": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_delivered_an": {
+				"ren": 5590.213,
+				"nren": 462.226,
+				"co2": 97.883
+			},
+			"we_exported_an_A": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_nEPB_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_grid_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_an_AB": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_exported_an": {
+				"ren": 0.0,
+				"nren": 0.0,
+				"co2": 0.0
+			},
+			"we_an_A": {
+				"ren": 5590.213,
+				"nren": 462.226,
+				"co2": 97.883
+			},
+			"we_an_A_byuse": {
+				"CAL": {
+					"ren": 4383.115,
+					"nren": 362.417,
+					"co2": 76.747
+				},
+				"ACS": {
+					"ren": 1207.098,
+					"nren": 99.809,
+					"co2": 21.136
+				}
+			},
+			"we_an": {
+				"ren": 5590.213,
+				"nren": 462.226,
+				"co2": 97.883
+			},
+			"we_an_byuse": {
+				"ACS": {
+					"ren": 1207.098,
+					"nren": 99.809,
+					"co2": 21.136
+				},
+				"CAL": {
+					"ren": 4383.115,
+					"nren": 362.417,
+					"co2": 76.747
+				}
+			}
+		}
+	},
+	"balance": {
+		"used_EPB_byuse": {
+			"ACS": 1174.22,
+			"VEN": 27.480003,
+			"CAL": 4308.0605,
+			"REF": 107.29
+		},
+		"A": {
+			"ren": 5646.23,
+			"nren": 778.319,
+			"co2": 153.663
+		},
+		"A_byuse": {
+			"VEN": {
+				"ren": 11.377,
+				"nren": 53.696,
+				"co2": 9.096
+			},
+			"REF": {
+				"ren": 44.418,
+				"nren": 209.645,
+				"co2": 35.513
+			},
+			"CAL": {
+				"ren": 4383.337,
+				"nren": 415.17,
+				"co2": 87.918
+			},
+			"ACS": {
+				"ren": 1207.098,
+				"nren": 99.809,
+				"co2": 21.136
+			}
+		},
+		"B": {
+			"ren": 5646.23,
+			"nren": 778.319,
+			"co2": 153.663
+		},
+		"B_byuse": {
+			"CAL": {
+				"ren": 4383.337,
+				"nren": 415.17,
+				"co2": 87.918
+			},
+			"REF": {
+				"ren": 44.418,
+				"nren": 209.645,
+				"co2": 35.513
+			},
+			"VEN": {
+				"ren": 11.377,
+				"nren": 53.696,
+				"co2": 9.096
+			},
+			"ACS": {
+				"ren": 1207.098,
+				"nren": 99.809,
+				"co2": 21.136
+			}
+		},
+		"we_del": {
+			"ren": 5646.23,
+			"nren": 778.319,
+			"co2": 153.663
+		},
+		"we_exp_A": {
+			"ren": 0.0,
+			"nren": 0.0,
+			"co2": 0.0
+		},
+		"we_exp": {
+			"ren": 0.0,
+			"nren": 0.0,
+			"co2": 0.0
+		}
+	},
+	"balance_m2": {
+		"used_EPB_byuse": {
+			"ACS": 18.347187,
+			"VEN": 0.42937505,
+			"CAL": 67.313446,
+			"REF": 1.6764063
+		},
+		"A": {
+			"ren": 88.222,
+			"nren": 12.161,
+			"co2": 2.401
+		},
+		"A_byuse": {
+			"VEN": {
+				"ren": 0.178,
+				"nren": 0.839,
+				"co2": 0.142
+			},
+			"REF": {
+				"ren": 0.694,
+				"nren": 3.276,
+				"co2": 0.555
+			},
+			"CAL": {
+				"ren": 68.49,
+				"nren": 6.487,
+				"co2": 1.374
+			},
+			"ACS": {
+				"ren": 18.861,
+				"nren": 1.56,
+				"co2": 0.33
+			}
+		},
+		"B": {
+			"ren": 88.222,
+			"nren": 12.161,
+			"co2": 2.401
+		},
+		"B_byuse": {
+			"CAL": {
+				"ren": 68.49,
+				"nren": 6.487,
+				"co2": 1.374
+			},
+			"REF": {
+				"ren": 0.694,
+				"nren": 3.276,
+				"co2": 0.555
+			},
+			"VEN": {
+				"ren": 0.178,
+				"nren": 0.839,
+				"co2": 0.142
+			},
+			"ACS": {
+				"ren": 18.861,
+				"nren": 1.56,
+				"co2": 0.33
+			}
+		},
+		"we_del": {
+			"ren": 88.222,
+			"nren": 12.161,
+			"co2": 2.401
+		},
+		"we_exp_A": {
+			"ren": 0.0,
+			"nren": 0.0,
+			"co2": 0.0
+		},
+		"we_exp": {
+			"ren": 0.0,
+			"nren": 0.0,
+			"co2": 0.0
+		}
+	},
+	"misc": {
+		"fraccion_renovable_demanda_acs_nrb": "0.924",
+		"demanda_anual_acs": "1092.0"
+	}
 }

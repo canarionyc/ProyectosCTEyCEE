@@ -1,5 +1,5 @@
-"Biomasa no densificada Demanda" = INFORME
-   ENERGIA = Biomasa no densificada
+"Biomasa densificada (pelets) Demanda" = INFORME
+   ENERGIA = Biomasa densificada (pelets)
    TIPO = Demanda
    REF = 0.0
    CAL = 2928.7158
@@ -18,8 +18,8 @@
    TRW = 0.0
    TOT = 4020.7466
    ..
-"Biomasa no densificada Energía Final" = INFORME
-   ENERGIA = Biomasa no densificada
+"Biomasa densificada (pelets) Energía Final" = INFORME
+   ENERGIA = Biomasa densificada (pelets)
    TIPO = Energía Final
    REF = 0.0
    CAL = 4263.7246
@@ -38,28 +38,28 @@
    TRW = 0.0
    TOT = 5437.9517
    ..
-"Biomasa no densificada Energía Primaria" = INFORME
-   ENERGIA = Biomasa no densificada
+"Biomasa densificada (pelets) Energía Primaria" = INFORME
+   ENERGIA = Biomasa densificada (pelets)
    TIPO = Energía Primaria
    REF = 0.0
-   CAL = 144.96664
-   ACS = 39.92372
+   CAL = 362.4166
+   ACS = 99.8093
    TRA = 0.0
    TRW = 0.0
-   TOT = 184.89037
+   TOT = 462.2259
    ..
 "Global Energía Primaria" = INFORME
    ENERGIA = TODAS
    TIPO = Energía Primaria
    REF = 0.0
-   CAL = 144.96664
-   ACS = 39.92372
+   CAL = 362.4166
+   ACS = 99.8093
    TRA = 0.0
    TRW = 0.0
-   TOT = 184.89037
+   TOT = 462.2259
    ..
-"Biomasa no densificada Emisiones CO2" = INFORME
-   ENERGIA = Biomasa no densificada
+"Biomasa densificada (pelets) Emisiones CO2" = INFORME
+   ENERGIA = Biomasa densificada (pelets)
    TIPO = Emisiones CO2
    REF = 0.0
    CAL = 76.74704
