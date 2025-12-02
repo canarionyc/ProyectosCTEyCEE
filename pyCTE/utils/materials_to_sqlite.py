@@ -2,6 +2,9 @@ import sqlite3
 import re
 import os
 
+from ply.yacc import debug_file
+
+
 def parse_material_entry(lines):
     """Parse a single material entry from the BDCatalogo file."""
     material = {}
@@ -133,8 +136,10 @@ def insert_data(conn, materials, grupos):
 
 if __name__ == '__main__':
     # Define paths
-    bdc_file = 'data/Materials_Catalog/BDCatalogo_bdc.txt'
-    db_file = 'data/Materials_Catalog/materials_catalog.db'
+    # bdc_file = 'data/Materials_Catalog/BDCatalogo_bdc.txt'
+    bdc_file = r'C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\EjemploI_2526_Option1_Config1\newbdl_o_a.inp'
+    # db_file = os.path.splitext(bdc_file)[0] + '.db'
+    db_file =
     ddl_dir = 'ddl/main'
 
     print(f"Parsing {bdc_file}...")
