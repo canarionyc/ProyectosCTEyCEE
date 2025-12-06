@@ -1,3 +1,8 @@
+# Key Things to Know When Parsing
+# Encoding: These files often use latin-1 or mbcs encoding (common in older Windows software like CALENER), not UTF-8. If you get decode errors, switch the encoding.
+# Line Continuation: In strict BDL, logical lines can be broken across physical lines. The script above assumes properties generally stay on one line or uses basic regex matching. For production use, you might need to concatenate lines before matching.
+# Units: The header $UNITS METRIC tells you the data values (conductivity, density, etc.) are in metric units (SI).
+
 import re
 import json
 
@@ -81,10 +86,11 @@ def parse_bdl_library(file_content):
         
     return entries
 
-# Example Usage:
-# Assuming 'file_content' is the string string you provided
-# with open('Bdllib.dat', 'r', encoding='latin-1') as f:
-#    file_content = f.read()
+if __name__ == "__main__":
+    # Assuming 'file_content' is the string string you provided
+    input_file = r"C:\ProgramasCTEyCEE\CALENER-GT-348\DOE-2\Bdllib.dat"
+    with open(input_file, 'r', encoding='latin-1') as f:
+        file_content = f.read()
 
-# parsed_data = parse_bdl_library(file_content)
-# print(json.dumps(parsed_data[0:2], indent=2)) # Print first 2 entries
+    parsed_data = parse_bdl_library(file_content)
+    print(json.dumps(parsed_data[0:2], indent=2)) # Print first 2 entries
