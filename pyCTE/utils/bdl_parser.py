@@ -1,10 +1,12 @@
 # Key Things to Know When Parsing
-# Encoding: These files often use latin-1 or mbcs encoding (common in older Windows software like CALENER), not UTF-8. If you get decode errors, switch the encoding.
+# Note on Encoding - These files often use latin-1 or mbcs encoding (common in older Windows software like CALENER), not UTF-8. If you get decode errors, switch the encoding.
 # Line Continuation: In strict BDL, logical lines can be broken across physical lines. The script above assumes properties generally stay on one line or uses basic regex matching. For production use, you might need to concatenate lines before matching.
 # Units: The header $UNITS METRIC tells you the data values (conductivity, density, etc.) are in metric units (SI).
 
 import re
 import json
+import sqlite3
+import os
 
 def parse_bdl_library(file_content):
     """
@@ -86,6 +88,53 @@ def parse_bdl_library(file_content):
         
     return entries
 
+def create_database(db_path, data):
+    """
+    Creates a SQLite database and stores the parsed BDL data.
+    
+    Args:
+        db_path: Path to the SQLite database file
+        data: List of dictionaries containing parsed BDL entries
+    """
+    # Create directory for db_path if it doesn't exist
+    db_dir = os.path.dirname(db_path)
+    if db_dir and not os.path.exists(db_dir):
+        os.makedirs(db_dir)
+    
+    # Connect to the SQLite database
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    
+    # Create the bdllib table
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS bdllib (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT,
+            type TEXT,
+            category TEXT,
+            properties TEXT
+        )
+    """)
+    
+    # Insert the parsed data into the table
+    for entry in data:
+        # Convert properties dict to JSON string for storage
+        properties_json = json.dumps(entry.get('properties', {}))
+        cursor.execute("""
+            INSERT INTO bdllib (name, type, category, properties)
+            VALUES (?, ?, ?, ?)
+        """, (
+            entry.get('name'),
+            entry.get('type'),
+            entry.get('category'),
+            properties_json
+        ))
+    
+    conn.commit()
+    conn.close()
+    print(f"Database created successfully at {db_path}")
+    print(f"Inserted {len(data)} entries into the database")
+
 if __name__ == "__main__":
     # Assuming 'file_content' is the string string you provided
     input_file = r"C:\ProgramasCTEyCEE\CALENER-GT-348\DOE-2\Bdllib.dat"
@@ -94,3 +143,11 @@ if __name__ == "__main__":
 
     parsed_data = parse_bdl_library(file_content)
     print(json.dumps(parsed_data[0:2], indent=2)) # Print first 2 entries
+    
+    # Define output database path relative to this script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    db_path = os.path.join(script_dir, '..', '..', 'data', 'DOE2.db')
+    
+    # Create database with parsed data
+    if parsed_data:
+        create_database(db_path, parsed_data)
