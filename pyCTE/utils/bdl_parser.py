@@ -95,6 +95,18 @@ def create_database(db_path, data):
     Args:
         db_path: Path to the SQLite database file
         data: List of dictionaries containing parsed BDL entries
+    
+    Database Schema:
+        Table: bdllib
+        - id: INTEGER PRIMARY KEY AUTOINCREMENT
+        - name: TEXT (entry name)
+        - type: TEXT (entry type, e.g., MATERIAL, GLASS-TYPE)
+        - category: TEXT (entry category)
+        - properties: TEXT (JSON-encoded dictionary of properties)
+    
+    Raises:
+        OSError: If directory creation fails
+        sqlite3.Error: If database operations fail
     """
     # Create directory for db_path if it doesn't exist
     db_dir = os.path.dirname(db_path)
@@ -103,40 +115,42 @@ def create_database(db_path, data):
     
     # Connect to the SQLite database
     conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    
-    # Create the bdllib table
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS bdllib (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT,
-            type TEXT,
-            category TEXT,
-            properties TEXT
-        )
-    """)
-    
-    # Insert the parsed data into the table
-    for entry in data:
-        # Convert properties dict to JSON string for storage
-        properties_json = json.dumps(entry.get('properties', {}))
+    try:
+        cursor = conn.cursor()
+        
+        # Create the bdllib table
         cursor.execute("""
-            INSERT INTO bdllib (name, type, category, properties)
-            VALUES (?, ?, ?, ?)
-        """, (
-            entry.get('name'),
-            entry.get('type'),
-            entry.get('category'),
-            properties_json
-        ))
-    
-    conn.commit()
-    conn.close()
-    print(f"Database created successfully at {db_path}")
-    print(f"Inserted {len(data)} entries into the database")
+            CREATE TABLE IF NOT EXISTS bdllib (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT,
+                type TEXT,
+                category TEXT,
+                properties TEXT
+            )
+        """)
+        
+        # Insert the parsed data into the table
+        for entry in data:
+            # Convert properties dict to JSON string for storage
+            properties_json = json.dumps(entry.get('properties', {}))
+            cursor.execute("""
+                INSERT INTO bdllib (name, type, category, properties)
+                VALUES (?, ?, ?, ?)
+            """, (
+                entry.get('name'),
+                entry.get('type'),
+                entry.get('category'),
+                properties_json
+            ))
+        
+        conn.commit()
+        print(f"Database created successfully at {db_path}")
+        print(f"Inserted {len(data)} entries into the database")
+    finally:
+        conn.close()
 
 if __name__ == "__main__":
-    # Assuming 'file_content' is the string string you provided
+    # Assuming 'file_content' is the string you provided
     input_file = r"C:\ProgramasCTEyCEE\CALENER-GT-348\DOE-2\Bdllib.dat"
     with open(input_file, 'r', encoding='latin-1') as f:
         file_content = f.read()
