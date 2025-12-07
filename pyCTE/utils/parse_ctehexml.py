@@ -56,7 +56,8 @@ def example_parse_and_display(xml_file_path):
 if __name__ == "__main__":
     # You can replace this with an actual XML file path
     # sample_xml_path = "sample_data/energy_certificate.xml"
-    sample_xml_path = r'C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemploGT\ejemploGT.ctehexml'
+    # sample_xml_path = r'C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemploGT\ejemploGT.ctehexml'
+    sample_xml_path = r'C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\EjemploI_2526_Option1_Config1\EjemploI_2526_Option1_Config1.ctehexml'
     
     if os.path.exists(sample_xml_path):
         example_parse_and_display(sample_xml_path)
