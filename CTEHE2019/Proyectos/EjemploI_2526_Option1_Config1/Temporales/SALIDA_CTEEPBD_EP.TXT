@@ -1,5 +1,5 @@
 ** Datos de entrada
-Componentes energéticos: "c:\proyectoscteycee\ctehe2019\proyectos\ejemploi_2526_option1_config1\Documentacion\DATOS_CTEEPBD.TXT"
+Componentes energéticos: "C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemploi_2526_option1_config1\Documentacion\DATOS_CTEEPBD.TXT"
 Factores de paso (usuario): PENINSULA
 Área de referencia (metadatos) [m2]: 64.00
 Factor de exportación (metadatos) [-]: 0.0
