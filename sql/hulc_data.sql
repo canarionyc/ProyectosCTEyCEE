@@ -35,12 +35,16 @@ select wc.name
      , round(sum(case when m.conductivity>0 then wc.thickness/m.conductivity else m.resistance end),3) as resitance
 from wallcons_long wc, materials m  where wc.name='CUB IN TEJA' and wc.material=m.name;
 
--- suelo
+-- floor detailed
 select * from wallcons_long where name='FOR CAM SANIT';
 
+-- floor aggregated
 select wc.name
      , count(1) as num_capas
      , round(sum(wc.thickness),3) as thickness
      , round(sum(wc.thickness* m.density),3) as mass
      , round(sum(case when m.conductivity>0 then wc.thickness/m.conductivity else m.resistance end),3) as resitance
 from wallcons_long wc, materials m  where wc.name='FOR CAM SANIT' and wc.material=m.name;
+
+-- wincons
+select * from wincons;
