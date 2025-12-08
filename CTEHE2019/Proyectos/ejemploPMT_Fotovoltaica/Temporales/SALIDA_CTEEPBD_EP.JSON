@@ -1,0 +1,1270 @@
+{
+  "components": {
+    "cmeta": [
+      {
+        "key": "CTE_AREAREF",
+        "value": "3600.00"
+      },
+      {
+        "key": "CTE_LOCALIZACION",
+        "value": "PENINSULA"
+      },
+      {
+        "key": "CTE_KEXP",
+        "value": "0.0"
+      },
+      {
+        "key": "CTE_RED1",
+        "value": "0.000, 1.000, 1.000"
+      },
+      {
+        "key": "CTE_RED2",
+        "value": "0.000, 1.000, 1.000"
+      },
+      {
+        "key": "CTE_COGEN",
+        "value": "0.000, 0.000, 0.000"
+      },
+      {
+        "key": "CTE_ACS_DEMANDA_ANUAL",
+        "value": "14992.97"
+      }
+    ],
+    "cdata": [
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "ACS",
+        "values": [
+          479.57,
+          422.5,
+          448.27,
+          399.19,
+          373.56,
+          329.57,
+          312.43,
+          312.86,
+          326.22,
+          373.37,
+          413.82,
+          465.0
+        ],
+        "comment": "BDC AIRE AGUA  SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "ACS",
+        "values": [
+          942.7,
+          838.69,
+          922.17,
+          853.3,
+          868.85,
+          797.52,
+          800.4,
+          799.98,
+          800.88,
+          893.41,
+          887.33,
+          931.35
+        ],
+        "comment": "BDC AIRE AGUA  SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          1461.12,
+          1194.33,
+          880.58,
+          440.73,
+          255.74,
+          7.02,
+          0.0,
+          0.0,
+          2.71,
+          94.21,
+          840.95,
+          1395.11
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "REF",
+        "values": [
+          1.84,
+          0.0,
+          4.59,
+          0.0,
+          210.51,
+          310.97,
+          663.71,
+          656.76,
+          229.59,
+          39.52,
+          8.39,
+          7.8
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          2926.61,
+          2196.97,
+          1259.1,
+          496.5,
+          318.47,
+          0.28,
+          0.0,
+          0.0,
+          0.0,
+          108.49,
+          1497.64,
+          2874.06
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          1289.55,
+          1053.35,
+          784.09,
+          407.58,
+          224.84,
+          8.24,
+          0.0,
+          0.0,
+          1.4,
+          84.74,
+          718.91,
+          1208.5
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "REF",
+        "values": [
+          6.77,
+          6.04,
+          11.02,
+          0.0,
+          253.68,
+          394.91,
+          754.66,
+          723.94,
+          318.0,
+          141.79,
+          20.52,
+          11.97
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          2382.69,
+          1756.29,
+          979.46,
+          370.06,
+          195.16,
+          4.57,
+          0.0,
+          0.0,
+          0.0,
+          84.96,
+          1098.38,
+          2293.87
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          1315.7,
+          1072.36,
+          794.02,
+          397.83,
+          254.68,
+          7.76,
+          0.0,
+          0.0,
+          2.75,
+          83.5,
+          730.81,
+          1232.94
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "REF",
+        "values": [
+          5.49,
+          6.04,
+          13.04,
+          5.8,
+          260.33,
+          409.68,
+          782.01,
+          748.41,
+          335.39,
+          144.22,
+          22.37,
+          11.98
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          2463.41,
+          1816.61,
+          991.73,
+          370.26,
+          205.93,
+          2.8,
+          0.0,
+          0.0,
+          0.0,
+          86.09,
+          1147.01,
+          2379.28
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          1526.77,
+          1249.14,
+          956.21,
+          504.31,
+          313.21,
+          9.97,
+          0.0,
+          0.0,
+          2.79,
+          102.88,
+          860.42,
+          1438.49
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "REF",
+        "values": [
+          3.75,
+          2.08,
+          9.13,
+          3.61,
+          240.57,
+          387.34,
+          771.04,
+          737.6,
+          300.77,
+          66.86,
+          12.58,
+          7.88
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "CAL",
+        "values": [
+          3108.97,
+          2343.68,
+          1419.64,
+          594.58,
+          371.75,
+          3.35,
+          0.0,
+          0.0,
+          0.0,
+          127.92,
+          1582.86,
+          3026.14
+        ],
+        "comment": "UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "ACS",
+        "values": [
+          0.0,
+          0.04,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "comment": "Consumo sistemas de complemento por potencia insuficiente (ACS)"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "VEN",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "comment": "Consumo ventiladores"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "CONSUMO",
+        "csubtype": "EPB",
+        "service": "ILU",
+        "values": [
+          1166.4,
+          1036.8,
+          1166.4,
+          1080.0,
+          1166.4,
+          1123.2,
+          1123.2,
+          1166.4,
+          1080.0,
+          1166.4,
+          1123.2,
+          1123.2
+        ],
+        "comment": "Consumo electricidad iluminación"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "ctype": "PRODUCCION",
+        "csubtype": "INSITU",
+        "service": "NDEF",
+        "values": [
+          1622.0,
+          2110.0,
+          3229.0,
+          4097.0,
+          4814.0,
+          5112.0,
+          5454.0,
+          4553.0,
+          3427.0,
+          2478.0,
+          1663.0,
+          1421.0
+        ],
+        "comment": "PRODUCCIÓN ELECTRICIDAD Paneles Fotovoltaico"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "ctype": "PRODUCCION",
+        "csubtype": "INSITU",
+        "service": "ACS",
+        "values": [
+          942.7,
+          838.69,
+          922.17,
+          853.3,
+          868.85,
+          797.52,
+          800.4,
+          799.98,
+          800.88,
+          893.41,
+          887.33,
+          931.35
+        ],
+        "comment": "Equilibrado de consumo sin producción declarada"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "ctype": "PRODUCCION",
+        "csubtype": "INSITU",
+        "service": "CAL",
+        "values": [
+          10881.68,
+          8113.55,
+          4649.93,
+          1831.4001,
+          1091.31,
+          11.0,
+          0.0,
+          0.0,
+          0.0,
+          407.45996,
+          5325.89,
+          10573.35
+        ],
+        "comment": "Equilibrado de consumo sin producción declarada"
+      }
+    ]
+  },
+  "wfactors": {
+    "wmeta": [
+      {
+        "key": "CTE_FUENTE",
+        "value": "RITE2014"
+      },
+      {
+        "key": "CTE_FUENTE_COMENTARIO",
+        "value": "Factores de paso (kWh/kWh_f,kWh/kWh_f,kg_CO2/kWh_f) del documento reconocido del RITE de 20/07/2014"
+      },
+      {
+        "key": "CTE_LOCALIZACION",
+        "value": "PENINSULA"
+      }
+    ],
+    "wdata": [
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "source": "RED",
+        "dest": "SUMINISTRO",
+        "step": "A",
+        "ren": 1.0,
+        "nren": 0.0,
+        "co2": 0.0,
+        "comment": "Recursos usados para suministrar energía térmica del medioambiente (red de suministro ficticia)"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "source": "INSITU",
+        "dest": "SUMINISTRO",
+        "step": "A",
+        "ren": 1.0,
+        "nren": 0.0,
+        "co2": 0.0,
+        "comment": "Recursos usados para generar in situ energía térmica del medioambiente (vector renovable)"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "source": "INSITU",
+        "dest": "SUMINISTRO",
+        "step": "A",
+        "ren": 1.0,
+        "nren": 0.0,
+        "co2": 0.0,
+        "comment": "Recursos usados para producir electricidad in situ"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "source": "RED",
+        "dest": "SUMINISTRO",
+        "step": "A",
+        "ren": 0.414,
+        "nren": 1.954,
+        "co2": 0.331,
+        "comment": "Recursos usados para el suministro desde la red"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "source": "INSITU",
+        "dest": "A_RED",
+        "step": "A",
+        "ren": 1.0,
+        "nren": 0.0,
+        "co2": 0.0,
+        "comment": "Recursos usados para producir la energía exportada a la red"
+      },
+      {
+        "carrier": "ELECTRICIDAD",
+        "source": "INSITU",
+        "dest": "A_RED",
+        "step": "B",
+        "ren": 0.414,
+        "nren": 1.954,
+        "co2": 0.331,
+        "comment": "Recursos ahorrados a la red por la energía producida in situ y exportada a la red"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "source": "INSITU",
+        "dest": "A_RED",
+        "step": "A",
+        "ren": 1.0,
+        "nren": 0.0,
+        "co2": 0.0,
+        "comment": "Recursos usados para producir la energía exportada a la red"
+      },
+      {
+        "carrier": "MEDIOAMBIENTE",
+        "source": "INSITU",
+        "dest": "A_RED",
+        "step": "B",
+        "ren": 1.0,
+        "nren": 0.0,
+        "co2": 0.0,
+        "comment": "Recursos ahorrados a la red por la energía producida in situ y exportada a la red"
+      }
+    ]
+  },
+  "k_exp": 0.0,
+  "arearef": 3600.0,
+  "balance_cr": {
+    "MEDIOAMBIENTE": {
+      "carrier": "MEDIOAMBIENTE",
+      "used_EPB": [
+        11824.38,
+        8952.24,
+        5572.1,
+        2684.7002,
+        1960.1599,
+        808.52,
+        800.4,
+        799.98,
+        800.88,
+        1300.87,
+        6213.22,
+        11504.7
+      ],
+      "used_EPB_an_byuse": {
+        "ACS": 10336.579,
+        "CAL": 42885.57
+      },
+      "used_nEPB": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "produced": [
+        11824.38,
+        8952.24,
+        5572.1,
+        2684.7002,
+        1960.16,
+        808.52,
+        800.4,
+        799.98,
+        800.88,
+        1300.8699,
+        6213.22,
+        11504.699
+      ],
+      "produced_an": 53222.15,
+      "produced_bygen": {
+        "INSITU": [
+          11824.38,
+          8952.24,
+          5572.1,
+          2684.7002,
+          1960.16,
+          808.52,
+          800.4,
+          799.98,
+          800.88,
+          1300.8699,
+          6213.22,
+          11504.699
+        ]
+      },
+      "produced_bygen_an": {
+        "INSITU": 53222.15
+      },
+      "produced_used_EPus": [
+        11824.38,
+        8952.24,
+        5572.1,
+        2684.7002,
+        1960.1599,
+        808.52,
+        800.4,
+        799.98,
+        800.88,
+        1300.8699,
+        6213.22,
+        11504.699
+      ],
+      "produced_used_EPus_bygen": {
+        "INSITU": [
+          11824.38,
+          8952.24,
+          5572.1,
+          2684.7002,
+          1960.1599,
+          808.52,
+          800.4,
+          799.98,
+          800.88,
+          1300.8699,
+          6213.22,
+          11504.699
+        ]
+      },
+      "f_match": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exported": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00012207031,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exported_an": 0.00012207031,
+      "exported_bygen": {
+        "INSITU": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.00012207031,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exported_bygen_an": {
+        "INSITU": 0.00012207031
+      },
+      "exported_grid": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00012207031,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exported_grid_an": 0.00012207031,
+      "exported_nEPB": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exported_nEPB_an": 0.0,
+      "delivered_grid": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00012207031,
+        0.0,
+        0.0009765625
+      ],
+      "delivered_grid_an": 0.0010986328,
+      "we_delivered_grid_an": {
+        "ren": 0.001,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_delivered_prod_an": {
+        "ren": 53222.15,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_delivered_an": {
+        "ren": 53222.15,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_exported_an_A": {
+        "ren": 0.0,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_exported_nEPB_an_AB": {
+        "ren": 0.0,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_exported_grid_an_AB": {
+        "ren": 0.0,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_exported_an_AB": {
+        "ren": 0.0,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_exported_an": {
+        "ren": 0.0,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_an_A": {
+        "ren": 53222.15,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_an_A_byuse": {
+        "ACS": {
+          "ren": 10336.579,
+          "nren": 0.0,
+          "co2": 0.0
+        },
+        "CAL": {
+          "ren": 42885.57,
+          "nren": 0.0,
+          "co2": 0.0
+        }
+      },
+      "we_an": {
+        "ren": 53222.15,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_an_byuse": {
+        "ACS": {
+          "ren": 10336.579,
+          "nren": 0.0,
+          "co2": 0.0
+        },
+        "CAL": {
+          "ren": 42885.57,
+          "nren": 0.0,
+          "co2": 0.0
+        }
+      }
+    },
+    "ELECTRICIDAD": {
+      "carrier": "ELECTRICIDAD",
+      "used_EPB": [
+        7256.96,
+        6042.6807,
+        5067.35,
+        3239.05,
+        3553.52,
+        2988.6597,
+        4407.05,
+        4345.9697,
+        2599.62,
+        2297.49,
+        4751.97,
+        6902.87
+      ],
+      "used_EPB_an_byuse": {
+        "ACS": 4656.3994,
+        "ILU": 13521.601,
+        "CAL": 25210.24,
+        "REF": 10064.949
+      },
+      "used_nEPB": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "produced": [
+        1622.0,
+        2110.0,
+        3229.0,
+        4097.0,
+        4814.0,
+        5112.0,
+        5454.0,
+        4553.0,
+        3427.0,
+        2478.0,
+        1663.0,
+        1421.0
+      ],
+      "produced_an": 39980.0,
+      "produced_bygen": {
+        "INSITU": [
+          1622.0,
+          2110.0,
+          3229.0,
+          4097.0,
+          4814.0,
+          5112.0,
+          5454.0,
+          4553.0,
+          3427.0,
+          2478.0,
+          1663.0,
+          1421.0
+        ]
+      },
+      "produced_bygen_an": {
+        "INSITU": 39980.0
+      },
+      "produced_used_EPus": [
+        1622.0,
+        2110.0,
+        3229.0,
+        3239.05,
+        3553.52,
+        2988.6597,
+        4407.05,
+        4345.9697,
+        2599.62,
+        2297.49,
+        1663.0,
+        1421.0
+      ],
+      "produced_used_EPus_bygen": {
+        "INSITU": [
+          1622.0,
+          2110.0,
+          3229.0,
+          3239.05,
+          3553.52,
+          2988.6597,
+          4407.05,
+          4345.9697,
+          2599.62,
+          2297.49,
+          1663.0,
+          1421.0
+        ]
+      },
+      "f_match": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exported": [
+        0.0,
+        0.0,
+        0.0,
+        857.94995,
+        1260.48,
+        2123.3403,
+        1046.9502,
+        207.03027,
+        827.3799,
+        180.51001,
+        0.0,
+        0.0
+      ],
+      "exported_an": 6503.6406,
+      "exported_bygen": {
+        "INSITU": [
+          0.0,
+          0.0,
+          0.0,
+          857.94995,
+          1260.48,
+          2123.3403,
+          1046.9502,
+          207.03027,
+          827.3799,
+          180.51001,
+          0.0,
+          0.0
+        ]
+      },
+      "exported_bygen_an": {
+        "INSITU": 6503.6406
+      },
+      "exported_grid": [
+        0.0,
+        0.0,
+        0.0,
+        857.94995,
+        1260.48,
+        2123.3403,
+        1046.9502,
+        207.03027,
+        827.3799,
+        180.51001,
+        0.0,
+        0.0
+      ],
+      "exported_grid_an": 6503.6406,
+      "exported_nEPB": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exported_nEPB_an": 0.0,
+      "delivered_grid": [
+        5634.96,
+        3932.6807,
+        1838.3501,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3088.9702,
+        5481.87
+      ],
+      "delivered_grid_an": 19976.832,
+      "we_delivered_grid_an": {
+        "ren": 8270.408,
+        "nren": 39034.73,
+        "co2": 6612.332
+      },
+      "we_delivered_prod_an": {
+        "ren": 39980.0,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_delivered_an": {
+        "ren": 48250.406,
+        "nren": 39034.73,
+        "co2": 6612.332
+      },
+      "we_exported_an_A": {
+        "ren": 6503.641,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_exported_nEPB_an_AB": {
+        "ren": 0.0,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_exported_grid_an_AB": {
+        "ren": -3811.133,
+        "nren": 12708.113,
+        "co2": 2152.705
+      },
+      "we_exported_an_AB": {
+        "ren": -3811.133,
+        "nren": 12708.113,
+        "co2": 2152.705
+      },
+      "we_exported_an": {
+        "ren": 6503.641,
+        "nren": 0.0,
+        "co2": 0.0
+      },
+      "we_an_A": {
+        "ren": 41746.766,
+        "nren": 39034.73,
+        "co2": 6612.332
+      },
+      "we_an_A_byuse": {
+        "ILU": {
+          "ren": 10560.326,
+          "nren": 9874.286,
+          "co2": 1672.666
+        },
+        "ACS": {
+          "ren": 3636.633,
+          "nren": 3400.383,
+          "co2": 576.012
+        },
+        "CAL": {
+          "ren": 19689.115,
+          "nren": 18410.033,
+          "co2": 3118.588
+        },
+        "REF": {
+          "ren": 7860.693,
+          "nren": 7350.031,
+          "co2": 1245.067
+        }
+      },
+      "we_an": {
+        "ren": 41746.766,
+        "nren": 39034.73,
+        "co2": 6612.332
+      },
+      "we_an_byuse": {
+        "CAL": {
+          "ren": 19689.115,
+          "nren": 18410.033,
+          "co2": 3118.588
+        },
+        "ILU": {
+          "ren": 10560.326,
+          "nren": 9874.286,
+          "co2": 1672.666
+        },
+        "ACS": {
+          "ren": 3636.633,
+          "nren": 3400.383,
+          "co2": 576.012
+        },
+        "REF": {
+          "ren": 7860.693,
+          "nren": 7350.031,
+          "co2": 1245.067
+        }
+      }
+    }
+  },
+  "balance": {
+    "used_EPB_byuse": {
+      "ACS": 14992.979,
+      "ILU": 13521.601,
+      "REF": 10064.949,
+      "CAL": 68095.81
+    },
+    "A": {
+      "ren": 94968.914,
+      "nren": 39034.73,
+      "co2": 6612.332
+    },
+    "A_byuse": {
+      "REF": {
+        "ren": 7860.693,
+        "nren": 7350.031,
+        "co2": 1245.067
+      },
+      "CAL": {
+        "ren": 62574.688,
+        "nren": 18410.033,
+        "co2": 3118.588
+      },
+      "ACS": {
+        "ren": 13973.212,
+        "nren": 3400.383,
+        "co2": 576.012
+      },
+      "ILU": {
+        "ren": 10560.326,
+        "nren": 9874.286,
+        "co2": 1672.666
+      }
+    },
+    "B": {
+      "ren": 94968.914,
+      "nren": 39034.73,
+      "co2": 6612.332
+    },
+    "B_byuse": {
+      "CAL": {
+        "ren": 62574.688,
+        "nren": 18410.033,
+        "co2": 3118.588
+      },
+      "REF": {
+        "ren": 7860.693,
+        "nren": 7350.031,
+        "co2": 1245.067
+      },
+      "ACS": {
+        "ren": 13973.212,
+        "nren": 3400.383,
+        "co2": 576.012
+      },
+      "ILU": {
+        "ren": 10560.326,
+        "nren": 9874.286,
+        "co2": 1672.666
+      }
+    },
+    "we_del": {
+      "ren": 101472.555,
+      "nren": 39034.73,
+      "co2": 6612.332
+    },
+    "we_exp_A": {
+      "ren": 6503.641,
+      "nren": 0.0,
+      "co2": 0.0
+    },
+    "we_exp": {
+      "ren": 6503.641,
+      "nren": 0.0,
+      "co2": 0.0
+    }
+  },
+  "balance_m2": {
+    "used_EPB_byuse": {
+      "ACS": 4.1647162,
+      "ILU": 3.7560003,
+      "REF": 2.7958193,
+      "CAL": 18.915504
+    },
+    "A": {
+      "ren": 26.38,
+      "nren": 10.843,
+      "co2": 1.837
+    },
+    "A_byuse": {
+      "REF": {
+        "ren": 2.184,
+        "nren": 2.042,
+        "co2": 0.346
+      },
+      "CAL": {
+        "ren": 17.382,
+        "nren": 5.114,
+        "co2": 0.866
+      },
+      "ACS": {
+        "ren": 3.881,
+        "nren": 0.945,
+        "co2": 0.16
+      },
+      "ILU": {
+        "ren": 2.933,
+        "nren": 2.743,
+        "co2": 0.465
+      }
+    },
+    "B": {
+      "ren": 26.38,
+      "nren": 10.843,
+      "co2": 1.837
+    },
+    "B_byuse": {
+      "CAL": {
+        "ren": 17.382,
+        "nren": 5.114,
+        "co2": 0.866
+      },
+      "REF": {
+        "ren": 2.184,
+        "nren": 2.042,
+        "co2": 0.346
+      },
+      "ACS": {
+        "ren": 3.881,
+        "nren": 0.945,
+        "co2": 0.16
+      },
+      "ILU": {
+        "ren": 2.933,
+        "nren": 2.743,
+        "co2": 0.465
+      }
+    },
+    "we_del": {
+      "ren": 28.187,
+      "nren": 10.843,
+      "co2": 1.837
+    },
+    "we_exp_A": {
+      "ren": 1.807,
+      "nren": 0.0,
+      "co2": 0.0
+    },
+    "we_exp": {
+      "ren": 1.807,
+      "nren": 0.0,
+      "co2": 0.0
+    }
+  },
+  "misc": {
+    "demanda_anual_acs": "14993.0",
+    "fraccion_renovable_demanda_acs_nrb": "0.903"
+  }
+}

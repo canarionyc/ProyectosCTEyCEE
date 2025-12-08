@@ -1,0 +1,138 @@
+<BalanceEPB>
+    <FactoresDePaso>
+        <Metadatos>
+          <Metadato><Clave>CTE_FUENTE</Clave><Valor>RITE2014</Valor></Metadato>
+      <Metadato><Clave>CTE_FUENTE_COMENTARIO</Clave><Valor>Factores de paso (kWh/kWh_f,kWh/kWh_f,kg_CO2/kWh_f) del documento reconocido del RITE de 20/07/2014</Valor></Metadato>
+      <Metadato><Clave>CTE_LOCALIZACION</Clave><Valor>PENINSULA</Valor></Metadato>
+        </Metadatos>
+        <Datos>
+          <Dato><Vector>MEDIOAMBIENTE</Vector><Origen>RED</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para suministrar energía térmica del medioambiente (red de suministro ficticia)</Comentario></Dato>
+      <Dato><Vector>MEDIOAMBIENTE</Vector><Origen>INSITU</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para generar in situ energía térmica del medioambiente (vector renovable)</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>INSITU</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para producir electricidad in situ</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>RED</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>0.414</ren><nren>1.954</nren><co2>0.331</co2><Comentario>Recursos usados para el suministro desde la red</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>INSITU</Origen><Destino>A_RED</Destino><Paso>A</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para producir la energía exportada a la red</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>INSITU</Origen><Destino>A_RED</Destino><Paso>B</Paso><ren>0.414</ren><nren>1.954</nren><co2>0.331</co2><Comentario>Recursos ahorrados a la red por la energía producida in situ y exportada a la red</Comentario></Dato>
+      <Dato><Vector>MEDIOAMBIENTE</Vector><Origen>INSITU</Origen><Destino>A_RED</Destino><Paso>A</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para producir la energía exportada a la red</Comentario></Dato>
+      <Dato><Vector>MEDIOAMBIENTE</Vector><Origen>INSITU</Origen><Destino>A_RED</Destino><Paso>B</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos ahorrados a la red por la energía producida in situ y exportada a la red</Comentario></Dato>
+        </Datos>
+    </FactoresDePaso>
+    <Componentes>
+        <Metadatos>
+          <Metadato><Clave>CTE_AREAREF</Clave><Valor>3600.00</Valor></Metadato>
+      <Metadato><Clave>CTE_LOCALIZACION</Clave><Valor>PENINSULA</Valor></Metadato>
+      <Metadato><Clave>CTE_KEXP</Clave><Valor>0.0</Valor></Metadato>
+      <Metadato><Clave>CTE_RED1</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
+      <Metadato><Clave>CTE_RED2</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
+      <Metadato><Clave>CTE_COGEN</Clave><Valor>0.000, 0.000, 0.000</Valor></Metadato>
+      <Metadato><Clave>CTE_ACS_DEMANDA_ANUAL</Clave><Valor>14992.97</Valor></Metadato>
+        </Metadatos>
+        <Datos>
+          <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ACS</Servicio>
+            <Valores>479.57,422.50,448.27,399.19,373.56,329.57,312.43,312.86,326.22,373.37,413.82,465.00</Valores>
+            <Comentario>BDC AIRE AGUA  SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>MEDIOAMBIENTE</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ACS</Servicio>
+            <Valores>942.70,838.69,922.17,853.30,868.85,797.52,800.40,799.98,800.88,893.41,887.33,931.35</Valores>
+            <Comentario>BDC AIRE AGUA  SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>1461.12,1194.33,880.58,440.73,255.74,7.02,0.00,0.00,2.71,94.21,840.95,1395.11</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS6_EQ1_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>1.84,0.00,4.59,0.00,210.51,310.97,663.71,656.76,229.59,39.52,8.39,7.80</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS6_EQ1_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>MEDIOAMBIENTE</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>2926.61,2196.97,1259.10,496.50,318.47,0.28,0.00,0.00,0.00,108.49,1497.64,2874.06</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS6_EQ1_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>1289.55,1053.35,784.09,407.58,224.84,8.24,0.00,0.00,1.40,84.74,718.91,1208.50</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS2_EQ1_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>6.77,6.04,11.02,0.00,253.68,394.91,754.66,723.94,318.00,141.79,20.52,11.97</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS2_EQ1_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>MEDIOAMBIENTE</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>2382.69,1756.29,979.46,370.06,195.16,4.57,0.00,0.00,0.00,84.96,1098.38,2293.87</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS2_EQ1_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>1315.70,1072.36,794.02,397.83,254.68,7.76,0.00,0.00,2.75,83.50,730.81,1232.94</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS3_EQ2_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>5.49,6.04,13.04,5.80,260.33,409.68,782.01,748.41,335.39,144.22,22.37,11.98</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS3_EQ2_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>MEDIOAMBIENTE</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>2463.41,1816.61,991.73,370.26,205.93,2.80,0.00,0.00,0.00,86.09,1147.01,2379.28</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS3_EQ2_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>1526.77,1249.14,956.21,504.31,313.21,9.97,0.00,0.00,2.79,102.88,860.42,1438.49</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS4_EQ3_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>3.75,2.08,9.13,3.61,240.57,387.34,771.04,737.60,300.77,66.86,12.58,7.88</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS4_EQ3_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>MEDIOAMBIENTE</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>3108.97,2343.68,1419.64,594.58,371.75,3.35,0.00,0.00,0.00,127.92,1582.86,3026.14</Valores>
+            <Comentario>UNIDAD EXTERIOR EXPANSIÓN DIRECTA SIS4_EQ3_EQ_ED_UnidadExterior-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ACS</Servicio>
+            <Valores>0.00,0.04,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00</Valores>
+            <Comentario>Consumo sistemas de complemento por potencia insuficiente (ACS)</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>VEN</Servicio>
+            <Valores>0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00</Valores>
+            <Comentario>Consumo ventiladores</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ILU</Servicio>
+            <Valores>1166.40,1036.80,1166.40,1080.00,1166.40,1123.20,1123.20,1166.40,1080.00,1166.40,1123.20,1123.20</Valores>
+            <Comentario>Consumo electricidad iluminación</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>PRODUCCION</Tipo><Subtipo>INSITU</Subtipo><Servicio>NDEF</Servicio>
+            <Valores>1622.00,2110.00,3229.00,4097.00,4814.00,5112.00,5454.00,4553.00,3427.00,2478.00,1663.00,1421.00</Valores>
+            <Comentario>PRODUCCIÓN ELECTRICIDAD Paneles Fotovoltaico</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>MEDIOAMBIENTE</Vector><Tipo>PRODUCCION</Tipo><Subtipo>INSITU</Subtipo><Servicio>ACS</Servicio>
+            <Valores>942.70,838.69,922.17,853.30,868.85,797.52,800.40,799.98,800.88,893.41,887.33,931.35</Valores>
+            <Comentario>Equilibrado de consumo sin producción declarada</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>MEDIOAMBIENTE</Vector><Tipo>PRODUCCION</Tipo><Subtipo>INSITU</Subtipo><Servicio>CAL</Servicio>
+            <Valores>10881.68,8113.55,4649.93,1831.40,1091.31,11.00,0.00,0.00,0.00,407.46,5325.89,10573.35</Valores>
+            <Comentario>Equilibrado de consumo sin producción declarada</Comentario>
+        </Dato>
+        </Datos>
+    </Componentes>
+    <kexp>0.00</kexp>
+    <AreaRef>3600.00</AreaRef><!-- área de referencia [m2] -->
+    <Epm2><!-- C_ep [kWh/m2.an] -->
+        <tot>37.2</tot>
+        <nren>10.8</nren>
+    </Epm2>
+</BalanceEPB>

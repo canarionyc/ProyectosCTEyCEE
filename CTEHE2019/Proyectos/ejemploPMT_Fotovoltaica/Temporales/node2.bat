@@ -1,0 +1,1 @@
+  "C:\ProgramasCTEyCEE\CTEHE2019\CTEEPBD\cteepbd.exe" -c "C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemplopmt_fotovoltaica\Documentacion\DATOS_CTEEPBD.TXT" -l PENINSULA --xml "C:\ProyectosCTEyCEE\CTEHE2019\Proyectos\ejemplopmt_fotovoltaica\Temporales\SALIDA_AUX.XML" 

@@ -1,3 +1,9 @@
+$	*********************************************************
+$ Edificio de Referencia con NBE
+$	*********************************************************
+
+
+
 $ +----------------------------------------------------+
 $ |         FICHERO GENERADO CON CTE-HE-2019           |
 $ +----------------------------------------------------+
@@ -1302,6 +1308,7 @@ $
            END-DAY   = 31
            ..
     "V-Adosada" = BUILD-PARAMETERS
+  BUILDING-TYPE = REFERENCIA
 $          NOMBRE    = "V-Adosada"
            LATITUDE  = 37.369999
            ALTITUDE  = 600.000000
@@ -1345,7 +1352,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -1357,13 +1363,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P01_E01_PE001" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P01_E01_PE001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia4"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -1375,57 +1382,40 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.800000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P01_E01_Med001" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia4"
+  INF-COEF = 27.000000
+  .. 
+ "P01_E01_Med001" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E02"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P01_E01_Med002" = INTERIOR-WALL
+ "P01_E01_Med002" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P01_E01_Med003" = INTERIOR-WALL
+ "P01_E01_Med003" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E04"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
@@ -1440,14 +1430,15 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "forjado interior" 
                         ..
-            "P01_E01Suelo_001" = UNDERGROUND-WALL
+ "P01_E01Suelo_001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-2"
+  ABSORPTANCE   =            0
                   Z-GROUND      =  -5.245368e-07
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "I_Suelo en contacto con el terreno"  
                   LOCATION      = BOTTOM  
                    AREA          =             900
                    PERIMETRO     =             120
-                        ..
+  .. 
                   "I_Suelo en contacto con el terreno" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_Suelo en contacto con el terreno" 
@@ -1461,7 +1452,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -1473,13 +1463,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P01_E02_PE002" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P01_E02_PE002" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia2"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -1491,46 +1482,29 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P01_E02_Med004" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia2"
+  INF-COEF = 27.000000
+  .. 
+ "P01_E02_Med004" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E03"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P01_E02_Med005" = INTERIOR-WALL
+ "P01_E02_Med005" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
@@ -1545,14 +1519,15 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "forjado interior" 
                         ..
-            "P01_E02Suelo_002" = UNDERGROUND-WALL
+ "P01_E02Suelo_002" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-2"
+  ABSORPTANCE   =            0
                   Z-GROUND      =  -2.622683e-06
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "I_Suelo en contacto con el terreno"  
                   LOCATION      = BOTTOM  
                    AREA          =             900
                    PERIMETRO     =             120
-                        ..
+  .. 
                   "I_Suelo en contacto con el terreno" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_Suelo en contacto con el terreno" 
@@ -1566,7 +1541,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -1578,13 +1552,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P01_E03_PE001" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P01_E03_PE001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia0"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -1596,46 +1571,29 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P01_E03_Med001" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia0"
+  INF-COEF = 27.000000
+  .. 
+ "P01_E03_Med001" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P01_E03_Med003" = INTERIOR-WALL
+ "P01_E03_Med003" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E04"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
@@ -1650,14 +1608,15 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "forjado interior" 
                         ..
-            "P01_E03Suelo_003" = UNDERGROUND-WALL
+ "P01_E03Suelo_003" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-2"
+  ABSORPTANCE   =            0
                   Z-GROUND      =  -2.622683e-06
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "I_Suelo en contacto con el terreno"  
                   LOCATION      = BOTTOM  
                    AREA          =             900
                    PERIMETRO     =             120
-                        ..
+  .. 
                   "I_Suelo en contacto con el terreno" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_Suelo en contacto con el terreno" 
@@ -1671,7 +1630,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -1683,13 +1641,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P01_E04_PE001" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P01_E04_PE001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia6"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -1701,35 +1660,18 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P01_E04_Med002" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia6"
+  INF-COEF = 27.000000
+  .. 
+ "P01_E04_Med002" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
@@ -1744,14 +1686,15 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "forjado interior" 
                         ..
-            "P01_E04Suelo_004" = UNDERGROUND-WALL
+ "P01_E04Suelo_004" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-2"
+  ABSORPTANCE   =            0
                   Z-GROUND      =  -2.622683e-06
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "I_Suelo en contacto con el terreno"  
                   LOCATION      = BOTTOM  
                    AREA          =             900
                    PERIMETRO     =             120
-                        ..
+  .. 
                   "I_Suelo en contacto con el terreno" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_Suelo en contacto con el terreno" 
@@ -1765,7 +1708,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
@@ -1777,7 +1719,8 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
+  FLOOR-WEIGHT = 0
+  .. 
             "P01_E05_MED002" = INTERIOR-WALL
                   INT-WALL-TYPE = ADIABATIC  
    COMPROBAR-REQUISITOS-MINIMOS = NO
@@ -1788,14 +1731,15 @@ $          TYPE-OPER = "Acondicionado"
                         TYPE   = LAYERS  
                         LAYERS = "forjado interior" 
                         ..
-            "P01_E05Suelo_005" = UNDERGROUND-WALL
+ "P01_E05Suelo_005" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-2"
+  ABSORPTANCE   =            0
                   Z-GROUND      =  -2.098147e-06
    COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "I_Suelo en contacto con el terreno"  
                   LOCATION      = BOTTOM  
                    AREA          =             900
                    PERIMETRO     =             120
-                        ..
+  .. 
                   "I_Suelo en contacto con el terreno" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_Suelo en contacto con el terreno" 
@@ -1817,7 +1761,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -1829,13 +1772,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P02_E01_PE001" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P02_E01_PE001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia4"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -1847,68 +1791,51 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.800000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P02_E01_Med001" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia4"
+  INF-COEF = 27.000000
+  .. 
+ "P02_E01_Med001" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E02"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E01_Med002" = INTERIOR-WALL
+ "P02_E01_Med002" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E01_Med003" = INTERIOR-WALL
+ "P02_E01_Med003" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E04"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E01_FI009" = INTERIOR-WALL
+ "P02_E01_FI009" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E01"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -1922,7 +1849,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -1934,13 +1860,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P02_E02_PE002" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P02_E02_PE002" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia2"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -1952,57 +1879,40 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P02_E02_Med004" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia2"
+  INF-COEF = 27.000000
+  .. 
+ "P02_E02_Med004" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E03"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E02_Med005" = INTERIOR-WALL
+ "P02_E02_Med005" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E02_FI010" = INTERIOR-WALL
+ "P02_E02_FI010" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E02"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2016,7 +1926,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -2028,13 +1937,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P02_E03_PE003" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P02_E03_PE003" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia0"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2046,57 +1956,40 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P02_E03_Med006" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia0"
+  INF-COEF = 27.000000
+  .. 
+ "P02_E03_Med006" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E03_Med007" = INTERIOR-WALL
+ "P02_E03_Med007" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E04"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E03_FI011" = INTERIOR-WALL
+ "P02_E03_FI011" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E03"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2110,7 +2003,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -2122,13 +2014,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P02_E04_PE004" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P02_E04_PE004" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia6"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2140,46 +2033,29 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P02_E04_Med008" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia6"
+  INF-COEF = 27.000000
+  .. 
+ "P02_E04_Med008" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P02_E04_FI012" = INTERIOR-WALL
+ "P02_E04_FI012" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E04"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2193,7 +2069,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
@@ -2205,14 +2080,15 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P02_E05_FI013" = INTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P02_E05_FI013" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2233,7 +2109,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -2245,13 +2120,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P03_E06_PE005" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P03_E06_PE005" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia4"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2263,68 +2139,51 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.800000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P03_E06_Med014" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia4"
+  INF-COEF = 27.000000
+  .. 
+ "P03_E06_Med014" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E07"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E06_Med015" = INTERIOR-WALL
+ "P03_E06_Med015" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E10"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E06_Med016" = INTERIOR-WALL
+ "P03_E06_Med016" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E09"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E06_FI022" = INTERIOR-WALL
+ "P03_E06_FI022" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E01"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2337,7 +2196,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -2349,13 +2207,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P03_E07_PE006" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P03_E07_PE006" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia2"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2367,57 +2226,40 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P03_E07_Med017" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia2"
+  INF-COEF = 27.000000
+  .. 
+ "P03_E07_Med017" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E08"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E07_Med018" = INTERIOR-WALL
+ "P03_E07_Med018" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E10"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E07_FI023" = INTERIOR-WALL
+ "P03_E07_FI023" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E02"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2430,7 +2272,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -2442,13 +2283,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P03_E08_PE007" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P03_E08_PE007" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia0"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2460,57 +2302,40 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P03_E08_Med019" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia0"
+  INF-COEF = 27.000000
+  .. 
+ "P03_E08_Med019" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E10"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E08_Med020" = INTERIOR-WALL
+ "P03_E08_Med020" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E09"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E08_FI024" = INTERIOR-WALL
+ "P03_E08_FI024" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E03"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2523,7 +2348,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -2535,13 +2359,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P03_E09_PE008" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P03_E09_PE008" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia6"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2553,46 +2378,29 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P03_E09_Med021" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia6"
+  INF-COEF = 27.000000
+  .. 
+ "P03_E09_Med021" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E10"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P03_E09_FI025" = INTERIOR-WALL
+ "P03_E09_FI025" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E04"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2605,7 +2413,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
@@ -2617,14 +2424,15 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P03_E10_FI026" = INTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P03_E10_FI026" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P02_E05"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
@@ -2645,7 +2453,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -2657,13 +2464,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P04_E11_PE009" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P04_E11_PE009" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia4"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2675,78 +2483,61 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.800000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P04_E11_Med027" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia4"
+  INF-COEF = 27.000000
+  .. 
+ "P04_E11_Med027" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E12"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E11_Med028" = INTERIOR-WALL
+ "P04_E11_Med028" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E15"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E11_Med029" = INTERIOR-WALL
+ "P04_E11_Med029" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E14"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E11_FI035" = INTERIOR-WALL
+ "P04_E11_FI035" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E06"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
                         ..
-            "P04_E11_CUB001" = ROOF
+ "P04_E11_CUB001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-1"
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Cubierta"  
                   LOCATION      = TOP  
-                        ..
+  .. 
                   "Cubierta" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Cubierta" 
@@ -2759,7 +2550,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -2771,13 +2561,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P04_E12_PE010" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P04_E12_PE010" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia2"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2789,67 +2580,50 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P04_E12_Med030" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia2"
+  INF-COEF = 27.000000
+  .. 
+ "P04_E12_Med030" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E13"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E12_Med031" = INTERIOR-WALL
+ "P04_E12_Med031" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E15"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E12_FI036" = INTERIOR-WALL
+ "P04_E12_FI036" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E07"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
                         ..
-            "P04_E12_CUB001" = ROOF
+ "P04_E12_CUB001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-1"
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Cubierta"  
                   LOCATION      = TOP  
-                        ..
+  .. 
                   "Cubierta" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Cubierta" 
@@ -2862,7 +2636,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 6
@@ -2874,13 +2647,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P04_E13_PE011" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P04_E13_PE011" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia0"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V3  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2892,67 +2666,50 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =              0
-                        OVERHANG-W     =              0
-                        OVERHANG-D     =              0
-                        OVERHANG-ANGLE =              0
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P04_E13_Med032" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia0"
+  INF-COEF = 27.000000
+  .. 
+ "P04_E13_Med032" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E15"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V1  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E13_Med033" = INTERIOR-WALL
+ "P04_E13_Med033" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E14"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E13_FI037" = INTERIOR-WALL
+ "P04_E13_FI037" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E08"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
                         ..
-            "P04_E13_CUB001" = ROOF
+ "P04_E13_CUB001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-1"
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Cubierta"  
                   LOCATION      = TOP  
-                        ..
+  .. 
                   "Cubierta" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Cubierta" 
@@ -2965,7 +2722,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 4
@@ -2977,13 +2733,14 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P04_E14_PE012" = EXTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P04_E14_PE012" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia6"
                   ABSORPTANCE   =            0.7
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Muro Exterior"  
                   LOCATION      = SPACE-V4  
-                        ..
+  .. 
                   "Muro Exterior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Muro Exterior" 
@@ -2995,56 +2752,39 @@ $          TYPE-OPER = "Acondicionado"
                         HEIGHT         =            1.6
                         WIDTH          =             30
                         GAP            = "Vidrio doble"
-                        COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
             HayConAutDisSomMov         = "300"
-                        GLASS-TYPE     = "Vidrio Doble Bajo Emisivo 4-12-4"
-                        FRAME-WIDTH   =      0.1533878
-                        FRAME-CONDUCT =       4.611001
-                        FRAME-ABS     =            0.7
-                        INF-COEF       =              9
-                        OVERHANG-A     =              0
-                        OVERHANG-B     =            0.1
-                        OVERHANG-W     =             30
-                        OVERHANG-D     =              2
-                        OVERHANG-ANGLE =             90
-                        LEFT-FIN-A     =              0
-                        LEFT-FIN-B     =              0
-                        LEFT-FIN-H     =              0
-                        LEFT-FIN-D     =              0
-                        RIGHT-FIN-A    =              0
-                        RIGHT-FIN-B    =              0
-                        RIGHT-FIN-H    =              0
-                        RIGHT-FIN-D    =              0
-                        ..
-            "P04_E14_Med034" = INTERIOR-WALL
+  GLASS-TYPE = "GT_referencia6"
+  INF-COEF = 27.000000
+  .. 
+ "P04_E14_Med034" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-4"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P04_E15"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "Tabique"  
                   LOCATION      = SPACE-V2  
-                        ..
+  .. 
                   "Tabique" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Tabique" 
                         ..
-            "P04_E14_FI038" = INTERIOR-WALL
+ "P04_E14_FI038" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E09"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
                         ..
-            "P04_E14_CUB001" = ROOF
+ "P04_E14_CUB001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-1"
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Cubierta"  
                   LOCATION      = TOP  
-                        ..
+  .. 
                   "Cubierta" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Cubierta" 
@@ -3057,7 +2797,6 @@ $          TYPE-OPER = "Acondicionado"
             SPACE-TYPE        = "Intensidad Media - 12h"
             SYSTEM-CONDITIONS = "Condición_8baja_1renh"
             SPACE-CONDITIONS  = "Condición_8baja_1renh"
-            FLOOR-WEIGHT      =              0
             MULTIPLIER        = 1
             MULTIPLIED        = 0
             PILLARS-NUMBERS   = 0
@@ -3069,24 +2808,25 @@ $          TYPE-OPER = "Acondicionado"
            VEEI-OBJ  = 3.000000
            VEEI-REF  = 7.000000
            AIR-CHANGES/HR      = 1.000000
-            ..
-            "P04_E15_FI039" = INTERIOR-WALL
+  FLOOR-WEIGHT = 0
+  .. 
+ "P04_E15_FI039" = INTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-5"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P03_E10"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_forjado interior"  
                   LOCATION      = BOTTOM  
-                        ..
+  .. 
                   "I_forjado interior" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "I_forjado interior" 
                         ..
-            "P04_E15_CUB001" = ROOF
+ "P04_E15_CUB001" = EXTERIOR-WALL 
+ CONSTRUCTION = "CONST_referencia-1"
                   ABSORPTANCE   =            0.6
                   COMPROBAR-REQUISITOS-MINIMOS = YES
-                  CONSTRUCTION  = "Cubierta"  
                   LOCATION      = TOP  
-                        ..
+  .. 
                   "Cubierta" =  CONSTRUCTION
                         TYPE   = LAYERS  
                         LAYERS = "Cubierta" 
@@ -4162,7 +3902,79 @@ $ +------------------+
 $ | PUENTES TERMICOS |
 $ +------------------+
 $
-"FRENTE_FORJADO" = THERMAL-BRIDGE
+
+$ PUENTES TERMICOS DE REFERENCIA
+
+ "FRENTE_FORJADO" = THERMAL-BRIDGE
+  BRIDGE-NAME = "F2" 
+  TTL = 0.700000
+  FRSI = 1
+  ANGLE-MIN = 95
+  ANGLE-MAX = 225
+  TYPE = HORIZONTAL-SLAB
+  PARTITION = YES
+  ..
+ "UNION_CUBIERTA" = THERMAL-BRIDGE
+  BRIDGE-NAME = "R1" 
+  TTL = 0.450000
+  FRSI = 1
+  ANGLE-MIN = 0.1
+  ANGLE-MAX = 135
+  TYPE = SLAB
+  PARTITION = BOTH
+  ..
+ "ESQUINA_CONVEXA_FORJADO" = THERMAL-BRIDGE
+  BRIDGE-NAME = "R1" 
+  TTL = 0.450000
+  FRSI = 1
+  ANGLE-MIN = 225
+  ANGLE-MAX = 360
+  TYPE = SLAB
+  PARTITION = BOTH
+  ..
+ "ESQUINA_CONCAVA_CERRAMIENTO" = THERMAL-BRIDGE
+  BRIDGE-NAME = "C1" 
+  TTL = 0.150000
+  FRSI = 1
+  ANGLE-MIN = 0
+  ANGLE-MAX = 135
+  TYPE = MASONRY
+  PARTITION = BOTH
+  ..
+ "ESQUINA_CONVEXA_CERRAMIENTO" = THERMAL-BRIDGE
+  BRIDGE-NAME = "C7" 
+  TTL = -0.150000
+  FRSI = 1
+  ANGLE-MIN = 225
+  ANGLE-MAX = 360
+  TYPE = MASONRY
+  PARTITION = BOTH
+  ..
+ "HUECO_VENTANA" = THERMAL-BRIDGE
+  BRIDGE-NAME = "W18" 
+  TTL = 0.400000
+  FRSI = 1
+  TYPE = WINDOW-FRAME
+  ..
+ "PILAR" = THERMAL-BRIDGE
+  BRIDGE-NAME = "P4" 
+  TTL = 0.800000
+  FRSI = 1
+  TYPE = PILLAR
+  ..
+ "UNION_SOLERA_PAREDEXT" = THERMAL-BRIDGE
+  BRIDGE-NAME = "SM1" 
+  TTL = 0.150000
+  FRSI = 1
+  ANGLE-MIN = 0
+  ANGLE-MAX = 135
+  TYPE = UNDER-EXT
+  PARTITION = BOTH
+  ..
+
+$ FIN DE PUENTES TERMICOS DE REFERENCIA
+
+
       BRIDGE-NAME = "FRENTE_FORJADO"
       TTL         =   0.100
       longCorMult =   360.00
@@ -4249,3 +4061,241 @@ $
 $ +-----------------------------------------------------------------+
 $ |                        Final del fichero                        |
 $ +-----------------------------------------------------------------+
+$ +-----------------------------------------------------------------+
+ "GT_referencia-3" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.000000
+  SHADING-COEF-SUMMER = 0.000000
+  GLASS-CONDUCTANCE = 3.100000
+  .. 
+ "GT_referencia-2" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.562112
+  SHADING-COEF-SUMMER = 0
+  GLASS-CONDUCTANCE = 0.500000
+  .. 
+ "GT_referencia-1" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.549576
+  SHADING-COEF-SUMMER = 0.320000
+  GLASS-CONDUCTANCE = 0.410000
+  .. 
+ "GT_referencia0" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.765925
+  SHADING-COEF-SUMMER = 0.765925
+  GLASS-CONDUCTANCE = 2.200000
+  .. 
+ "GT_referencia1" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.840170
+  SHADING-COEF-SUMMER = 0.840170
+  GLASS-CONDUCTANCE = 3.000000
+  .. 
+ "GT_referencia2" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.813954
+  SHADING-COEF-SUMMER = 0.593023
+  GLASS-CONDUCTANCE = 2.700000
+  .. 
+ "GT_referencia3" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.840170
+  SHADING-COEF-SUMMER = 0.840170
+  GLASS-CONDUCTANCE = 3.000000
+  .. 
+ "GT_referencia4" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.879532
+  SHADING-COEF-SUMMER = 0.879532
+  GLASS-CONDUCTANCE = 3.500000
+  .. 
+ "GT_referencia5" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.840170
+  SHADING-COEF-SUMMER = 0.840170
+  GLASS-CONDUCTANCE = 3.000000
+  .. 
+ "GT_referencia6" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.813954
+  SHADING-COEF-SUMMER = 0.593023
+  GLASS-CONDUCTANCE = 2.700000
+  .. 
+ "GT_referencia7" = GLASS-TYPE
+  TYPE = SHADING-COEF
+  SHADING-COEF = 0.840170
+  SHADING-COEF-SUMMER = 0.840170
+  GLASS-CONDUCTANCE = 3.000000
+  .. 
+ "AislanteREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 0.036
+  DENSITY = 30.000000
+  SPECIFIC-HEAT = 1800
+  ..
+ "EnlucidoREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 0.57
+  DENSITY = 1100.000000
+  SPECIFIC-HEAT = 1000
+  ..
+ "ForjadoREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 1.67
+  DENSITY = 1660.000000
+  SPECIFIC-HEAT = 1000
+  ..
+ "HormigonREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 1.15
+  DENSITY = 1600.000000
+  SPECIFIC-HEAT = 1000
+  ..
+ "LadrilloHuecoREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 0.4
+  DENSITY = 920.000000
+  SPECIFIC-HEAT = 1000
+  ..
+ "LadrilloPerforadoREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 0.5
+  DENSITY = 900.000000
+  SPECIFIC-HEAT = 1000
+  ..
+ "MorteroREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 1.3
+  DENSITY = 1900.000000
+  SPECIFIC-HEAT = 1000
+  ..
+ "PlaquetaREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 1.0
+  DENSITY = 2000.000000
+  SPECIFIC-HEAT = 800
+  ..
+ "SoleraREF" = MATERIAL
+  TYPE = PROPERTIES
+  CONDUCTIVITY = 2.5
+  DENSITY = 2500.000000
+  SPECIFIC-HEAT = 1000
+  ..
+  "CONST_referencia-5" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia-5"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia-5" = LAYERS
+  MATERIAL = ( "PlaquetaREF","MorteroREF","ForjadoREF" )
+  THICKNESS = ( 0.015, 0.020, 0.250 )
+  .. 
+  "CONST_referencia-4" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia-4"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia-4" = LAYERS
+  MATERIAL = ( "EnlucidoREF","LadrilloHuecoREF","EnlucidoREF" )
+  THICKNESS = ( 0.015, 0.040, 0.015 )
+  .. 
+  "CONST_referencia-3" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia-3"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia-3" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia-2" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia-2"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia-2" = LAYERS
+  MATERIAL = ("PlaquetaREF","MorteroREF","AislanteREF","SoleraREF")
+  THICKNESS = ( 0.015, 0.015, 0.062043, 0.200)
+  .. 
+  "CONST_referencia-1" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia-1"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia-1" = LAYERS
+  MATERIAL = ("PlaquetaREF","MorteroREF","AislanteREF","HormigonREF","ForjadoREF")
+  THICKNESS = ( 0.015, 0.015, 0.073148, 0.070, 0.250 )
+  .. 
+  "CONST_referencia0" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia0"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia0" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia1" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia1"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia1" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia2" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia2"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia2" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia3" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia3"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia3" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia4" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia4"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia4" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia5" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia5"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia5" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia6" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia6"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia6" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 
+  "CONST_referencia7" = CONSTRUCTION
+  TYPE = LAYERS
+  LAYERS = "CONST_referencia7"
+  ABSORPTANCE   =            0.6
+  .. 
+ "CONST_referencia7" = LAYERS
+  MATERIAL = ("MorteroREF","LadrilloPerforadoREF","AislanteREF","LadrilloHuecoREF","EnlucidoREF")
+  THICKNESS = ( 0.015, 0.115, 0.029951, 0.040, 0.015 )
+  .. 

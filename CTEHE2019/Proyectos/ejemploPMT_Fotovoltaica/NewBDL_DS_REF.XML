@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ESTO2xml nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\newbdl_ds.xml">
-	<Edificio nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\newbdl_ds.xml">
+<ESTO2xml nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\newbdl_ds_ref.xml">
+	<Edificio nombre="c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\newbdl_ds_ref.xml">
 		<pathLider>"c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\"</pathLider>
 		<pathMeteo>"c:\programascteycee\datosclimaticos\genericos\"</pathMeteo>
 		<pathSalida>"c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\"</pathSalida>
@@ -366,10 +366,310 @@
 		<Contenedor nombre="Localidades">
 			<Meteo_DOE2 nombre="barcelona" fichero="zonaC2.bin"/>
 		</Contenedor>
-		<ordenESTO2>cargarZonasLider("ResumenRCC_NewBDL_O.bin")</ordenESTO2>
+		<ordenESTO2>cargarZonasLider("ResumenRCC_NewBDL_R.bin")</ordenESTO2>
 		<Contenedor nombre="Sistemas">
-			<SIS_ACS nombre="S_ACS">
-				<DemandaACS nombre="DemandaACS">
+			<SIS_UNIZONA nombre="Sistema_ideal">
+				<EQ_RendimientoCte nombre="Sistema_ideal_EQ1">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P01_E01"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal1">
+				<EQ_RendimientoCte nombre="Sistema_ideal1_EQ2">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P01_E02"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal2">
+				<EQ_RendimientoCte nombre="Sistema_ideal2_EQ3">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P01_E03"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal3">
+				<EQ_RendimientoCte nombre="Sistema_ideal3_EQ4">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P01_E04"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal4">
+				<EQ_RendimientoCte nombre="Sistema_ideal4_EQ5">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P01_E05"</zona>
+				<vVentilacion>1038</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal5">
+				<EQ_RendimientoCte nombre="Sistema_ideal5_EQ6">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P02_E01"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal6">
+				<EQ_RendimientoCte nombre="Sistema_ideal6_EQ7">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P02_E02"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal7">
+				<EQ_RendimientoCte nombre="Sistema_ideal7_EQ8">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P02_E03"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal8">
+				<EQ_RendimientoCte nombre="Sistema_ideal8_EQ9">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P02_E04"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal9">
+				<EQ_RendimientoCte nombre="Sistema_ideal9_EQ10">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P02_E05"</zona>
+				<vVentilacion>1038</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal10">
+				<EQ_RendimientoCte nombre="Sistema_ideal10_EQ11">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P03_E06"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal11">
+				<EQ_RendimientoCte nombre="Sistema_ideal11_EQ12">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P03_E07"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal12">
+				<EQ_RendimientoCte nombre="Sistema_ideal12_EQ13">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P03_E08"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal13">
+				<EQ_RendimientoCte nombre="Sistema_ideal13_EQ14">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P03_E09"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal14">
+				<EQ_RendimientoCte nombre="Sistema_ideal14_EQ15">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P03_E10"</zona>
+				<vVentilacion>1038</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal15">
+				<EQ_RendimientoCte nombre="Sistema_ideal15_EQ16">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P04_E11"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal16">
+				<EQ_RendimientoCte nombre="Sistema_ideal16_EQ17">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P04_E12"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal17">
+				<EQ_RendimientoCte nombre="Sistema_ideal17_EQ18">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P04_E13"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal18">
+				<EQ_RendimientoCte nombre="Sistema_ideal18_EQ19">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P04_E14"</zona>
+				<vVentilacion>461</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_UNIZONA nombre="Sistema_ideal19">
+				<EQ_RendimientoCte nombre="Sistema_ideal19_EQ20">
+					<daCal>true</daCal>
+					<daRef>true</daRef>
+					<renCal>0.70</renCal>
+					<renRef>1.70</renRef>
+					<demandaMinLimCal>0.00</demandaMinLimCal>
+					<demandaMinLimRef>0.00</demandaMinLimRef>
+					<tipoEnergiaRef>"Electricidad"</tipoEnergiaRef>
+					<tipoEnergiaCal>"Gasoleo calefaccion / Fuel-oil"</tipoEnergiaCal>
+				</EQ_RendimientoCte>
+				<zona>"P04_E15"</zona>
+				<vVentilacion>1038</vVentilacion>
+				<multiplicador>1</multiplicador>
+			</SIS_UNIZONA>
+			<SIS_ACS nombre="Sistema_ideal_ACS">
+				<DemandaACS nombre="Sistema_ideal_ACS_ACS1_Sistema_ideal_ACS_Demanda_ref">
 					<perfilDiario>Demanda_Hor</perfilDiario>
 					<conACSDiario>720</conACSDiario>
 					<multiplicador>1</multiplicador>
@@ -388,302 +688,33 @@
 					<TRed_11>8.12</TRed_11>
 					<TRed_12>6.12</TRed_12>
 				</DemandaACS>
-				<EQ_ED_AireAgua_BDC nombre="SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto">
-					<capNom>6.00</capNom>
-					<conNom>2.00</conNom>
+				<EQ_Caldera nombre="Sistema_ideal_ACS_EQ1_Sistema_ideal_ACS_CalderaIdeal">
+					<capNom>1000.00</capNom>
+					<renNom>1.00</renNom>
 					<tipoEnergia>"Electricidad"</tipoEnergia>
-					<cap_T>"cap_T-EQ_ED_AireAgua_BDC-ACS-Defecto"</cap_T>
-					<con_T>"con_T-EQ_ED_AireAgua_BDC-ACS-Defecto"</con_T>
-					<con_FCP>"con_FCP-EQ_ED_AireAgua_BDC-ACS-Defecto"</con_FCP>
-				</EQ_ED_AireAgua_BDC>
-				<porcentajeES>0.00</porcentajeES>
+					<cap_T>"cap_T-EQ_Caldera-unidad"</cap_T>
+					<ren_T>"ren_T-EQ_Caldera-unidad"</ren_T>
+					<ren_FCP_Potencia>"ren_FCP_Potencia-EQ_Caldera-unidad"</ren_FCP_Potencia>
+					<ren_FCP_Tiempo>"ren_FCP_Tiempo-EQ_Caldera-unidad"</ren_FCP_Tiempo>
+				</EQ_Caldera>
+				<porcentajeES>60.00</porcentajeES>
 				<multiplicador>1</multiplicador>
 				<tImpulsion>60.00</tImpulsion>
-				<porcentajeES_01>0.00</porcentajeES_01>
-				<porcentajeES_02>0.00</porcentajeES_02>
-				<porcentajeES_03>0.00</porcentajeES_03>
-				<porcentajeES_04>0.00</porcentajeES_04>
-				<porcentajeES_05>0.00</porcentajeES_05>
-				<porcentajeES_06>0.00</porcentajeES_06>
-				<porcentajeES_07>0.00</porcentajeES_07>
-				<porcentajeES_08>0.00</porcentajeES_08>
-				<porcentajeES_09>0.00</porcentajeES_09>
-				<porcentajeES_10>0.00</porcentajeES_10>
-				<porcentajeES_11>0.00</porcentajeES_11>
-				<porcentajeES_12>0.00</porcentajeES_12>
+				<porcentajeES_01>60.00</porcentajeES_01>
+				<porcentajeES_02>60.00</porcentajeES_02>
+				<porcentajeES_03>60.00</porcentajeES_03>
+				<porcentajeES_04>60.00</porcentajeES_04>
+				<porcentajeES_05>60.00</porcentajeES_05>
+				<porcentajeES_06>60.00</porcentajeES_06>
+				<porcentajeES_07>60.00</porcentajeES_07>
+				<porcentajeES_08>60.00</porcentajeES_08>
+				<porcentajeES_09>60.00</porcentajeES_09>
+				<porcentajeES_10>60.00</porcentajeES_10>
+				<porcentajeES_11>60.00</porcentajeES_11>
+				<porcentajeES_12>60.00</porcentajeES_12>
 			</SIS_ACS>
-			<SIS_MULTIZONA_ED2 nombre="SIS6_Climatizacion_multizona_con_autonomos">
-				<UT_ED_UnidadInterior nombre="SIS6_UT1_Unidad_interior_de_autnomo">
-					<zona>"P01_E01"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS6_UT2_Unidad_interior_de_autnomo">
-					<zona>"P01_E02"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS6_UT3_Unidad_interior_de_autnomo">
-					<zona>"P01_E03"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS6_UT4_Unidad_interior_de_autnomo">
-					<zona>"P01_E04"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS6_UT5_Unidad_interior_de_autnomo">
-					<zona>"P01_E05"</zona>
-					<capTotRefNom>22</capTotRefNom>
-					<capSenRefNom>16</capSenRefNom>
-					<capCalNom>22</capCalNom>
-					<vImpulsionNom>5000</vImpulsionNom>
-					<vVentilacion>1038</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<EQ_ED_UnidadExterior nombre="SIS6_EQ1_EQ_ED_UnidadExterior-Defecto">
-					<capTotRefNom>60</capTotRefNom>
-					<conRefNom>15</conRefNom>
-					<capCalNom>65</capCalNom>
-					<conCalNom>16</conCalNom>
-					<conRef_T>"conRef_T-EQ_ED_UnidadExterior-Defecto"</conRef_T>
-					<conRef_FCP>"conRef_FCP-EQ_ED_UnidadExterior-Defecto"</conRef_FCP>
-					<conCal_T>"conCal_T-EQ_ED_UnidadExterior-Defecto"</conCal_T>
-					<conCal_FCP>"conCal_FCP-EQ_ED_UnidadExterior-Defecto"</conCal_FCP>
-					<capTotRef_T>"capTotRef_T-EQ_ED_UnidadExterior-Defecto"</capTotRef_T>
-					<capTotRef_FCP>"capTotRef_FCP-EQ_ED_UnidadExterior-Defecto"</capTotRef_FCP>
-					<capSenRef_T>"capSenRef_T-EQ_ED_UnidadExterior-Defecto"</capSenRef_T>
-					<capCal_T>"capCal_T-EQ_ED_UnidadExterior-Defecto"</capCal_T>
-				</EQ_ED_UnidadExterior>
-				<multiplicador>1</multiplicador>
-			</SIS_MULTIZONA_ED2>
-			<SIS_MULTIZONA_ED2 nombre="SIS2_Climatizacion_multizona_con_autonomos">
-				<UT_ED_UnidadInterior nombre="SIS2_UT5_Unidad_interior_de_autnomo">
-					<zona>"P02_E04"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS2_UT4_Unidad_interior_de_autnomo">
-					<zona>"P02_E03"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS2_UT3_Unidad_interior_de_autnomo">
-					<zona>"P02_E02"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS2_UT2_Unidad_interior_de_autnomo">
-					<zona>"P02_E01"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS2_UT1_Unidad_interior_de_autnomo">
-					<zona>"P02_E05"</zona>
-					<capTotRefNom>22</capTotRefNom>
-					<capSenRefNom>16</capSenRefNom>
-					<capCalNom>22</capCalNom>
-					<vImpulsionNom>5000</vImpulsionNom>
-					<vVentilacion>1038</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<EQ_ED_UnidadExterior nombre="SIS2_EQ1_EQ_ED_UnidadExterior-Defecto">
-					<capTotRefNom>60</capTotRefNom>
-					<conRefNom>15</conRefNom>
-					<capCalNom>65</capCalNom>
-					<conCalNom>16</conCalNom>
-					<conRef_T>"conRef_T-EQ_ED_UnidadExterior-Defecto"</conRef_T>
-					<conRef_FCP>"conRef_FCP-EQ_ED_UnidadExterior-Defecto"</conRef_FCP>
-					<conCal_T>"conCal_T-EQ_ED_UnidadExterior-Defecto"</conCal_T>
-					<conCal_FCP>"conCal_FCP-EQ_ED_UnidadExterior-Defecto"</conCal_FCP>
-					<capTotRef_T>"capTotRef_T-EQ_ED_UnidadExterior-Defecto"</capTotRef_T>
-					<capTotRef_FCP>"capTotRef_FCP-EQ_ED_UnidadExterior-Defecto"</capTotRef_FCP>
-					<capSenRef_T>"capSenRef_T-EQ_ED_UnidadExterior-Defecto"</capSenRef_T>
-					<capCal_T>"capCal_T-EQ_ED_UnidadExterior-Defecto"</capCal_T>
-				</EQ_ED_UnidadExterior>
-				<multiplicador>1</multiplicador>
-			</SIS_MULTIZONA_ED2>
-			<SIS_MULTIZONA_ED2 nombre="SIS3_Climatizacion_multizona_con_autonomos">
-				<UT_ED_UnidadInterior nombre="SIS3_UT10_Unidad_interior_de_autnomo">
-					<zona>"P03_E09"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS3_UT9_Unidad_interior_de_autnomo">
-					<zona>"P03_E08"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS3_UT8_Unidad_interior_de_autnomo">
-					<zona>"P03_E07"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS3_UT7_Unidad_interior_de_autnomo">
-					<zona>"P03_E06"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS3_UT6_Unidad_interior_de_autnomo">
-					<zona>"P03_E10"</zona>
-					<capTotRefNom>22</capTotRefNom>
-					<capSenRefNom>16</capSenRefNom>
-					<capCalNom>22</capCalNom>
-					<vImpulsionNom>5000</vImpulsionNom>
-					<vVentilacion>1038</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<EQ_ED_UnidadExterior nombre="SIS3_EQ2_EQ_ED_UnidadExterior-Defecto">
-					<capTotRefNom>60</capTotRefNom>
-					<conRefNom>15</conRefNom>
-					<capCalNom>65</capCalNom>
-					<conCalNom>16</conCalNom>
-					<conRef_T>"conRef_T-EQ_ED_UnidadExterior-Defecto"</conRef_T>
-					<conRef_FCP>"conRef_FCP-EQ_ED_UnidadExterior-Defecto"</conRef_FCP>
-					<conCal_T>"conCal_T-EQ_ED_UnidadExterior-Defecto"</conCal_T>
-					<conCal_FCP>"conCal_FCP-EQ_ED_UnidadExterior-Defecto"</conCal_FCP>
-					<capTotRef_T>"capTotRef_T-EQ_ED_UnidadExterior-Defecto"</capTotRef_T>
-					<capTotRef_FCP>"capTotRef_FCP-EQ_ED_UnidadExterior-Defecto"</capTotRef_FCP>
-					<capSenRef_T>"capSenRef_T-EQ_ED_UnidadExterior-Defecto"</capSenRef_T>
-					<capCal_T>"capCal_T-EQ_ED_UnidadExterior-Defecto"</capCal_T>
-				</EQ_ED_UnidadExterior>
-				<multiplicador>1</multiplicador>
-			</SIS_MULTIZONA_ED2>
-			<SIS_MULTIZONA_ED2 nombre="SIS4_Climatizacion_multizona_con_autonomos">
-				<UT_ED_UnidadInterior nombre="SIS4_UT15_Unidad_interior_de_autnomo">
-					<zona>"P04_E14"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS4_UT14_Unidad_interior_de_autnomo">
-					<zona>"P04_E13"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS4_UT13_Unidad_interior_de_autnomo">
-					<zona>"P04_E12"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS4_UT12_Unidad_interior_de_autnomo">
-					<zona>"P04_E11"</zona>
-					<capTotRefNom>8</capTotRefNom>
-					<capSenRefNom>6</capSenRefNom>
-					<capCalNom>9</capCalNom>
-					<vImpulsionNom>2500</vImpulsionNom>
-					<vVentilacion>461</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<UT_ED_UnidadInterior nombre="SIS4_UT11_Unidad_interior_de_autnomo">
-					<zona>"P04_E15"</zona>
-					<capTotRefNom>22</capTotRefNom>
-					<capSenRefNom>16</capSenRefNom>
-					<capCalNom>22</capCalNom>
-					<vImpulsionNom>5000</vImpulsionNom>
-					<vVentilacion>1038</vVentilacion>
-					<dtTermostato>1</dtTermostato>
-					<multiplicador>1</multiplicador>
-				</UT_ED_UnidadInterior>
-				<EQ_ED_UnidadExterior nombre="SIS4_EQ3_EQ_ED_UnidadExterior-Defecto">
-					<capTotRefNom>60</capTotRefNom>
-					<conRefNom>15</conRefNom>
-					<capCalNom>65</capCalNom>
-					<conCalNom>16</conCalNom>
-					<conRef_T>"conRef_T-EQ_ED_UnidadExterior-Defecto"</conRef_T>
-					<conRef_FCP>"conRef_FCP-EQ_ED_UnidadExterior-Defecto"</conRef_FCP>
-					<conCal_T>"conCal_T-EQ_ED_UnidadExterior-Defecto"</conCal_T>
-					<conCal_FCP>"conCal_FCP-EQ_ED_UnidadExterior-Defecto"</conCal_FCP>
-					<capTotRef_T>"capTotRef_T-EQ_ED_UnidadExterior-Defecto"</capTotRef_T>
-					<capTotRef_FCP>"capTotRef_FCP-EQ_ED_UnidadExterior-Defecto"</capTotRef_FCP>
-					<capSenRef_T>"capSenRef_T-EQ_ED_UnidadExterior-Defecto"</capSenRef_T>
-					<capCal_T>"capCal_T-EQ_ED_UnidadExterior-Defecto"</capCal_T>
-				</EQ_ED_UnidadExterior>
-				<multiplicador>1</multiplicador>
-			</SIS_MULTIZONA_ED2>
 		</Contenedor>
 	</Edificio>
 	<ordenESTO2>simular("barcelona")</ordenESTO2>
-	<ordenESTO2>escribirInforme("NewBDL_DS_OBJ.Res")</ordenESTO2>
-	<ordenESTO2>escribirPostCALENER("c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\ejemplopmt_fotovoltaica.csv")</ordenESTO2>
-	<ordenESTO2>escribirPostCALENERDH("c:\proyectoscteycee\ctehe2019\proyectos\ejemplopmt_fotovoltaica\ejemplopmt_fotovoltaica.pcxml")</ordenESTO2>
+	<ordenESTO2>escribirInforme("NewBDL_DS_REF.Res")</ordenESTO2>
 </ESTO2xml>

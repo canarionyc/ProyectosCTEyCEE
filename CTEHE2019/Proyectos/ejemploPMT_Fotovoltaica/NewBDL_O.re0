@@ -1,0 +1,480 @@
+Numero de plantas
+4
+"P01"
+
+RESULTADOS A NIVEL DE ZONAS
+Numero de zonas
+5
+Zona 1, "P01_E01"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.049282, -7.973478, -7.924197, 0.513827, -1.847167, -1.333340
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.079229, -9.594757, -9.515528, 0.440897, -8.843209, -8.402312
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 41.271762, 0.000000, 41.271762, 23.867004, 0.000000, 23.867004
+Transmisión Ventanas, 0.317545, -23.507812, -23.190268, 1.820160, -6.993794, -5.173634
+Fuentes Internas, 6.676457, 0.000000, 6.676457, 4.278665, 0.000000, 4.278665
+Ventilación más Infiltración, 0.003854, -20.351875, -20.348021, 0.235466, -7.247926, -7.012461
+TOTAL, 54.573754, -67.531182, -12.957428, 34.806158, -28.667778, 6.138379
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P01_E01_PE001", 0.049282, -7.973477, -7.924196, 0.513827, -1.847167, -1.333341
+"P01_E01Suelo_001", 0.079229, -9.594757, -9.515528, 0.440897, -8.843209, -8.402312
+"P01_E01_PE001_V", 41.589288, -23.507810, 18.081477, 25.687151, -6.993793, 18.693358
+
+Zona 2, "P01_E02"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.031415, -6.058635, -6.027220, 0.466763, -1.013385, -0.546622
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.054416, -6.757565, -6.703149, 0.252260, -6.576014, -6.323754
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 26.195152, 0.000000, 26.195152, 15.579225, 0.000000, 15.579225
+Transmisión Ventanas, 0.221330, -21.485363, -21.264033, 1.867981, -3.335522, -1.467542
+Fuentes Internas, 6.860733, 0.000000, 6.860733, 4.094387, 0.000000, 4.094387
+Ventilación más Infiltración, 0.004269, -20.060652, -20.056383, 0.268024, -6.575521, -6.307498
+TOTAL, 38.043582, -59.062811, -21.019228, 25.212548, -20.156800, 5.055748
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P01_E02_PE002", 0.031415, -6.058635, -6.027220, 0.466763, -1.013385, -0.546621
+"P01_E02Suelo_002", 0.054416, -6.757565, -6.703149, 0.252260, -6.576014, -6.323754
+"P01_E02_PE002_V", 26.416474, -21.485361, 4.931113, 17.447204, -3.335522, 14.111682
+
+Zona 3, "P01_E03"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.037638, -6.325102, -6.287463, 0.336443, -2.339897, -2.003454
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.061968, -6.243311, -6.181343, 0.454676, -8.562263, -8.107587
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 23.585596, 0.000000, 23.585596, 25.549312, 0.000000, 25.549312
+Transmisión Ventanas, 0.247616, -23.169928, -22.922312, 1.982631, -7.075319, -5.092688
+Fuentes Internas, 6.912483, 0.000000, 6.912483, 4.042641, 0.000000, 4.042641
+Ventilación más Infiltración, 0.005804, -19.869627, -19.863823, 0.236943, -6.769824, -6.532882
+TOTAL, 35.500742, -60.275901, -24.775159, 36.076116, -28.196318, 7.879798
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P01_E03_PE001", 0.037638, -6.325104, -6.287465, 0.336443, -2.339898, -2.003455
+"P01_E03Suelo_003", 0.061968, -6.243311, -6.181343, 0.454676, -8.562263, -8.107588
+"P01_E03_PE001_V", 23.833209, -23.169935, 0.663273, 27.531940, -7.075319, 20.456621
+
+Zona 4, "P01_E04"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.051044, -6.449311, -6.398267, 0.729163, -1.313763, -0.584600
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.078664, -6.751863, -6.673199, 0.462256, -6.752530, -6.290275
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 26.024932, 0.000000, 26.024932, 16.538682, 0.000000, 16.538682
+Transmisión Ventanas, 0.319920, -22.549307, -22.229386, 1.942335, -4.725930, -2.783595
+Fuentes Internas, 6.832245, 0.000000, 6.832245, 4.122876, 0.000000, 4.122876
+Ventilación más Infiltración, 0.002883, -19.940107, -19.937225, 0.263717, -6.668602, -6.404884
+TOTAL, 38.964839, -61.383785, -22.418945, 27.630014, -22.992316, 4.637698
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P01_E04_PE001", 0.051044, -6.449311, -6.398267, 0.729163, -1.313763, -0.584600
+"P01_E04Suelo_004", 0.078664, -6.751864, -6.673199, 0.462256, -6.752531, -6.290275
+"P01_E04_PE001_V", 26.344849, -22.549308, 3.795541, 18.481014, -4.725930, 13.755084
+
+Zona 5, "P01_E05"
+324.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Transmisión Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Fuentes Internas, 7.762835, 0.000000, 7.762835, 3.729842, 0.000000, 3.729842
+Ventilación más Infiltración, 0.030736, -20.934350, -20.903613, 0.293054, -5.605593, -5.312539
+TOTAL, 10.118061, -23.107934, -12.989874, 5.944274, -7.067073, -1.122799
+
+Numero de Componentes
+1
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P01_E05Suelo_005", 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+
+"P02"
+
+RESULTADOS A NIVEL DE ZONAS
+Numero de zonas
+5
+Zona 6, "P02_E01"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.002560, -7.794187, -7.791627, 0.576469, -4.595333, -4.018865
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 33.589270, 0.000000, 33.589270, 30.639875, 0.000000, 30.639875
+Transmisión Ventanas, 0.020870, -27.616719, -27.595849, 2.261053, -18.894877, -16.633824
+Fuentes Internas, 9.858236, 0.000000, 9.858236, 9.270979, 0.000000, 9.270979
+Ventilación más Infiltración, 0.000919, -15.545269, -15.544350, 0.183653, -8.575875, -8.392222
+TOTAL, 49.408802, -56.748451, -7.339649, 48.297387, -37.591149, 10.706238
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P02_E01_PE001", 0.002560, -7.794186, -7.791626, 0.576469, -4.595333, -4.018865
+"P02_E01_PE001_V", 33.610143, -27.616716, 5.993426, 32.900921, -18.894881, 14.006040
+
+Zona 7, "P02_E02"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.010645, -5.601174, -5.590529, 0.420723, -2.380712, -1.959990
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 23.990553, 0.000000, 23.990553, 17.150947, 0.000000, 17.150947
+Transmisión Ventanas, 0.103073, -24.401920, -24.298847, 2.256332, -8.618199, -6.361867
+Fuentes Internas, 6.556863, 0.000000, 6.556863, 4.393905, 0.000000, 4.393905
+Ventilación más Infiltración, 0.001585, -16.638039, -16.636454, 0.208860, -6.320326, -6.111467
+TOTAL, 35.564643, -51.541959, -15.977316, 27.811781, -20.698863, 7.112918
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P02_E02_PE002", 0.010645, -5.601173, -5.590527, 0.420723, -2.380711, -1.959988
+"P02_E02_PE002_V", 24.093620, -24.401930, -0.308310, 19.407275, -8.618199, 10.789076
+
+Zona 8, "P02_E03"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.003658, -5.829566, -5.825908, 0.428591, -4.036672, -3.608081
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 21.007834, 0.000000, 21.007834, 27.334213, 0.000000, 27.334213
+Transmisión Ventanas, 0.032790, -26.446221, -26.413431, 2.706927, -15.521564, -12.814638
+Fuentes Internas, 11.416897, 0.000000, 11.416897, 7.712315, 0.000000, 7.712315
+Ventilación más Infiltración, 0.001414, -16.334597, -16.333183, 0.184963, -6.746087, -6.561124
+TOTAL, 37.293866, -53.428082, -16.134215, 42.720197, -30.665086, 12.055111
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P02_E03_PE003", 0.003658, -5.829565, -5.825908, 0.428591, -4.036673, -3.608082
+"P02_E03_PE003_V", 21.040622, -26.446221, -5.405600, 30.041143, -15.521567, 14.519575
+
+Zona 9, "P02_E04"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.003453, -6.137511, -6.134058, 0.726679, -3.048048, -2.321369
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 22.960639, 0.000000, 22.960639, 18.992064, 0.000000, 18.992064
+Transmisión Ventanas, 0.034897, -26.081379, -26.046482, 2.106591, -12.183158, -10.076567
+Fuentes Internas, 11.146966, 0.000000, 11.146966, 7.982248, 0.000000, 7.982248
+Ventilación más Infiltración, 0.000489, -16.262594, -16.262105, 0.202663, -6.845638, -6.642974
+TOTAL, 39.958351, -54.300843, -14.342492, 34.624388, -26.682801, 7.941587
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P02_E04_PE004", 0.003453, -6.137510, -6.134057, 0.726679, -3.048050, -2.321371
+"P02_E04_PE004_V", 22.995537, -26.081378, -3.085841, 21.098659, -12.183158, 8.915502
+
+Zona 10, "P02_E05"
+324.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Transmisión Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Fuentes Internas, 7.696524, 0.000000, 7.696524, 4.052033, 0.000000, 4.052033
+Ventilación más Infiltración, 0.017342, -17.405158, -17.387816, 0.241682, -5.201514, -4.959832
+TOTAL, 12.900238, -21.686824, -8.786587, 9.163814, -7.355369, 1.808446
+
+Numero de Componentes
+0
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+
+"P03"
+
+RESULTADOS A NIVEL DE ZONAS
+Numero de zonas
+5
+Zona 11, "P03_E06"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.002731, -7.754208, -7.751476, 0.627244, -4.569949, -3.942704
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 33.294109, 0.000000, 33.294109, 30.935064, 0.000000, 30.935064
+Transmisión Ventanas, 0.022726, -27.706955, -27.684229, 2.479111, -18.798701, -16.319591
+Fuentes Internas, 9.790772, 0.000000, 9.790772, 9.338439, 0.000000, 9.338439
+Ventilación más Infiltración, 0.000807, -15.469316, -15.468510, 0.180895, -8.711167, -8.530272
+TOTAL, 49.203931, -56.849563, -7.645632, 49.149773, -37.857566, 11.292208
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P03_E06_PE005", 0.002731, -7.754206, -7.751475, 0.627244, -4.569951, -3.942707
+"P03_E06_PE005_V", 33.316834, -27.706960, 5.609874, 33.414165, -18.798695, 14.615470
+
+Zona 12, "P03_E07"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.011023, -5.599631, -5.588608, 0.457086, -2.365913, -1.908828
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 23.822316, 0.000000, 23.822316, 17.319191, 0.000000, 17.319191
+Transmisión Ventanas, 0.103537, -24.643131, -24.539594, 2.456457, -8.548751, -6.092294
+Fuentes Internas, 6.519637, 0.000000, 6.519637, 4.431130, 0.000000, 4.431130
+Ventilación más Infiltración, 0.001413, -16.583271, -16.581859, 0.204899, -6.441337, -6.236438
+TOTAL, 35.557884, -51.929505, -16.371621, 28.408686, -20.889490, 7.519197
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P03_E07_PE006", 0.011023, -5.599632, -5.588609, 0.457086, -2.365914, -1.908828
+"P03_E07_PE006_V", 23.925852, -24.643136, -0.717284, 19.775648, -8.548750, 11.226899
+
+Zona 13, "P03_E08"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.004180, -5.820256, -5.816076, 0.474177, -4.005369, -3.531192
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 20.771811, 0.000000, 20.771811, 27.570246, 0.000000, 27.570246
+Transmisión Ventanas, 0.037143, -26.624775, -26.587632, 2.967692, -15.396129, -12.428437
+Fuentes Internas, 11.312566, 0.000000, 11.312566, 7.816645, 0.000000, 7.816645
+Ventilación más Infiltración, 0.001097, -16.231984, -16.230887, 0.182250, -6.935890, -6.753640
+TOTAL, 37.155253, -53.699974, -16.544721, 43.582279, -30.907632, 12.674647
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P03_E08_PE007", 0.004180, -5.820256, -5.816076, 0.474177, -4.005371, -3.531194
+"P03_E08_PE007_V", 20.808953, -26.624783, -5.815830, 30.537948, -15.396128, 15.141820
+
+Zona 14, "P03_E09"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.003395, -6.033318, -6.029923, 0.797094, -3.109173, -2.312079
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 22.401832, 0.000000, 22.401832, 19.550883, 0.000000, 19.550883
+Transmisión Ventanas, 0.033905, -25.968311, -25.934406, 2.353408, -12.309417, -9.956009
+Fuentes Internas, 10.916919, 0.000000, 10.916919, 8.212297, 0.000000, 8.212297
+Ventilación más Infiltración, 0.000392, -16.029244, -16.028852, 0.198773, -7.177041, -6.978268
+TOTAL, 39.273842, -53.959079, -14.685237, 36.038604, -27.509878, 8.528726
+
+Numero de Componentes
+2
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P03_E09_PE008", 0.003395, -6.033319, -6.029924, 0.797094, -3.109174, -2.312080
+"P03_E09_PE008_V", 22.435740, -25.968311, -3.532571, 21.904297, -12.309415, 9.594883
+
+Zona 15, "P03_E10"
+324.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Transmisión Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Fuentes Internas, 7.675663, 0.000000, 7.675663, 4.072893, 0.000000, 4.072893
+Ventilación más Infiltración, 0.016572, -17.361187, -17.344615, 0.238608, -5.268995, -5.030386
+TOTAL, 12.909078, -22.280522, -9.371444, 9.505923, -7.477232, 2.028691
+
+Numero de Componentes
+0
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+
+"P04"
+
+RESULTADOS A NIVEL DE ZONAS
+Numero de zonas
+5
+Zona 16, "P04_E11"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.008623, -5.329354, -5.320732, 0.296126, -2.331885, -2.035759
+Cubiertas, 0.025638, -11.769688, -11.744050, 1.246720, -3.885504, -2.638784
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 36.336703, 0.000000, 36.336703, 26.094598, 0.000000, 26.094598
+Transmisión Ventanas, 0.065480, -22.132092, -22.066612, 1.553170, -11.456746, -9.903576
+Fuentes Internas, 6.074349, 0.000000, 6.074349, 4.644905, 0.000000, 4.644905
+Ventilación más Infiltración, 0.001575, -15.792140, -15.790565, 0.173592, -6.985549, -6.811957
+TOTAL, 49.830918, -62.177233, -12.346315, 39.181972, -30.009940, 9.172032
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P04_E11_PE009", 0.008623, -5.329354, -5.320732, 0.296126, -2.331884, -2.035758
+"P04_E11_CUB001", 0.025638, -11.769689, -11.744051, 1.246720, -3.885504, -2.638784
+"P04_E11_PE009_V", 36.402189, -22.132094, 14.270095, 27.647765, -11.456746, 16.191018
+
+Zona 17, "P04_E12"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.007152, -4.399303, -4.392151, 0.244404, -1.457025, -1.212621
+Cubiertas, 0.016628, -8.525100, -8.508471, 0.996854, -2.138645, -1.141791
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 23.931150, 0.000000, 23.931150, 16.045998, 0.000000, 16.045998
+Transmisión Ventanas, 0.069200, -20.636410, -20.567210, 1.622491, -6.220254, -4.597763
+Fuentes Internas, 6.537995, 0.000000, 6.537995, 4.181262, 0.000000, 4.181262
+Ventilación más Infiltración, 0.001774, -16.120507, -16.118733, 0.196165, -5.873711, -5.677546
+TOTAL, 36.458207, -55.614025, -19.155818, 26.852445, -19.211796, 7.640649
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P04_E12_PE010", 0.007152, -4.399303, -4.392151, 0.244404, -1.457025, -1.212621
+"P04_E12_CUB001", 0.016628, -8.525100, -8.508472, 0.996854, -2.138645, -1.141791
+"P04_E12_PE010_V", 24.000350, -20.636410, 3.363940, 17.668490, -6.220254, 11.448236
+
+Zona 18, "P04_E13"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.001914, -4.778896, -4.776982, 0.185797, -2.704859, -2.519062
+Cubiertas, 0.006931, -8.363975, -8.357043, 1.299444, -3.477817, -2.178374
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 20.927834, 0.000000, 20.927834, 26.006521, 0.000000, 26.006521
+Transmisión Ventanas, 0.017157, -22.692223, -22.675065, 1.706437, -11.715099, -10.008662
+Fuentes Internas, 11.344978, 0.000000, 11.344978, 7.397561, 0.000000, 7.397561
+Ventilación más Infiltración, 0.001632, -15.843306, -15.841673, 0.174177, -6.302804, -6.128627
+TOTAL, 38.135733, -57.526365, -19.390632, 41.398611, -28.808513, 12.590098
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P04_E13_PE011", 0.001914, -4.778896, -4.776983, 0.185797, -2.704860, -2.519063
+"P04_E13_CUB001", 0.006931, -8.363974, -8.357043, 1.299443, -3.477817, -2.178374
+"P04_E13_PE011_V", 20.944996, -22.692222, -1.747226, 27.712963, -11.715099, 15.997863
+
+Zona 19, "P04_E14"
+144.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.002686, -4.778538, -4.775852, 0.401459, -1.879949, -1.478490
+Cubiertas, 0.004906, -9.217229, -9.212323, 1.211916, -2.707196, -1.495280
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 23.335512, 0.000000, 23.335512, 17.429881, 0.000000, 17.429881
+Transmisión Ventanas, 0.021961, -22.372037, -22.350076, 1.339540, -8.914104, -7.574564
+Fuentes Internas, 11.228071, 0.000000, 11.228071, 7.514472, 0.000000, 7.514472
+Ventilación más Infiltración, 0.000712, -15.899263, -15.898550, 0.190427, -6.259153, -6.068726
+TOTAL, 41.497745, -59.205192, -17.707447, 32.840319, -24.476104, 8.364215
+
+Numero de Componentes
+3
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P04_E14_PE012", 0.002686, -4.778537, -4.775851, 0.401459, -1.879949, -1.478490
+"P04_E14_CUB001", 0.004906, -9.217230, -9.212324, 1.211916, -2.707196, -1.495280
+"P04_E14_PE012_V", 23.357467, -22.372037, 0.985430, 18.769420, -8.914105, 9.855315
+
+Zona 20, "P04_E15"
+324.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Cubiertas, 1.506659, -6.113807, -4.607148, 3.056889, -0.417263, 2.639626
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Transmisión Ventanas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Fuentes Internas, 7.504988, 0.000000, 7.504988, 3.882974, 0.000000, 3.882974
+Ventilación más Infiltración, 0.019558, -16.658164, -16.638606, 0.229321, -4.961021, -4.731699
+TOTAL, 11.890565, -25.664735, -13.774170, 8.882168, -7.052104, 1.830064
+
+Numero de Componentes
+1
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P04_E15_CUB001", 1.506659, -6.113806, -4.607148, 3.056889, -0.417263, 2.639626
+
+RESULTADOS A NIVEL EDIFICIO
+Calefacción anual (kWh/m2 del edificio), Refrigeración anual (kWh/m2 del edificio)
+-14.403673, 6.089948
+Calefacción mensual (kWh/m2 del edificio)
+-3.744022, -2.710377, -1.555955, -0.578905, -0.441287, -0.001062, -0.002415, -0.003354, -0.000048, -0.135362, -1.687205, -3.543679
+Refrigeración mensual (kWh/m2 del edificio)
+0.003072, 0.000334, 0.011845, 0.003272, 0.639346, 0.727666, 2.130936, 1.900888, 0.577678, 0.066716, 0.016214, 0.011982
+
+Numero de zonas
+20
+Nombre, m2, multiplicador, Calefacción (kWh/m2 del espacio), Refrigeración (kWh/m2 del espacio)
+"P01_E01", 144.000000, 1.000000, -13.027618, 6.138377
+"P01_E02", 144.000000, 1.000000, -21.019227, 5.055749
+"P01_E03", 144.000000, 1.000000, -24.775164, 7.879793
+"P01_E04", 144.000000, 1.000000, -22.418951, 4.637703
+"P01_E05", 324.000000, 1.000000, -12.989875, 0.083669
+"P02_E01", 144.000000, 1.000000, -7.339634, 10.706238
+"P02_E02", 144.000000, 1.000000, -15.977317, 7.112920
+"P02_E03", 144.000000, 1.000000, -16.134211, 12.055112
+"P02_E04", 144.000000, 1.000000, -14.377294, 7.941589
+"P02_E05", 324.000000, 1.000000, -8.786588, 1.808444
+"P03_E06", 144.000000, 1.000000, -7.645632, 11.292210
+"P03_E07", 144.000000, 1.000000, -16.371627, 7.519198
+"P03_E08", 144.000000, 1.000000, -16.544723, 12.674654
+"P03_E09", 144.000000, 1.000000, -14.705162, 8.528731
+"P03_E10", 324.000000, 1.000000, -9.371443, 2.028690
+"P04_E11", 144.000000, 1.000000, -12.388328, 9.172032
+"P04_E12", 144.000000, 1.000000, -19.155820, 7.640647
+"P04_E13", 144.000000, 1.000000, -19.390631, 12.590102
+"P04_E14", 144.000000, 1.000000, -17.745797, 8.364214
+"P04_E15", 324.000000, 1.000000, -13.774170, 1.830063
+TOTAL, 3600.000000, -14.403673, 6.089948
+
+Calefacción mensual por zonas (kWh/m2 del espacio)
+-3.302504, -2.637445, -1.484716, -0.891870, -0.686886, 0.000000, 0.000000, -0.000011, 0.000000, 0.000000, -1.017965, -3.006221
+-5.391060, -3.914573, -2.138879, -0.538711, -0.706156, 0.000000, 0.000000, 0.000000, 0.000000, -0.172447, -2.777415, -5.379987
+-6.348422, -4.487559, -2.816757, -1.007844, -0.480512, 0.000000, 0.000000, 0.000000, 0.000000, -0.233274, -3.369104, -6.031694
+-5.970981, -4.204171, -2.228948, -0.755192, -0.516920, 0.000000, 0.000000, -0.000065, 0.000000, -0.112705, -2.931002, -5.698969
+-2.383736, -1.882527, -1.696113, -1.346370, -1.042530, -0.011798, -0.026834, -0.037205, -0.000537, -0.931353, -1.462114, -2.168757
+-2.085369, -1.620825, -0.759896, -0.302262, -0.279861, 0.000000, 0.000000, 0.000000, 0.000000, -0.002314, -0.406531, -1.882576
+-4.252106, -3.053086, -1.552751, -0.309158, -0.445715, 0.000000, 0.000000, 0.000000, 0.000000, -0.080714, -2.040922, -4.242864
+-4.516116, -3.046713, -1.666955, -0.383021, -0.171280, 0.000000, 0.000000, 0.000000, 0.000000, -0.019380, -2.047023, -4.283723
+-4.206808, -2.826478, -1.241958, -0.210093, -0.178533, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, -1.706488, -4.006935
+-2.272250, -1.679082, -1.057586, -0.436063, -0.272552, 0.000000, 0.000000, 0.000000, 0.000000, -0.023513, -0.969438, -2.076105
+-2.177064, -1.685782, -0.792107, -0.305677, -0.282893, 0.000000, 0.000000, 0.000000, 0.000000, -0.008731, -0.432207, -1.961171
+-4.370118, -3.136119, -1.589164, -0.307749, -0.446483, 0.000000, 0.000000, -0.000054, 0.000000, -0.082821, -2.083007, -4.356111
+-4.640866, -3.133660, -1.704868, -0.380076, -0.169876, 0.000000, 0.000000, 0.000000, 0.000000, -0.025648, -2.089595, -4.400134
+-4.318527, -2.900625, -1.265705, -0.199539, -0.174457, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, -1.736456, -4.109853
+-2.429007, -1.796281, -1.124219, -0.452680, -0.283266, 0.000000, 0.000000, 0.000000, 0.000000, -0.026586, -1.036283, -2.223121
+-3.233237, -2.525907, -1.406998, -0.753348, -0.547307, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, -1.004797, -2.916735
+-4.985746, -3.639859, -1.943325, -0.464868, -0.566625, 0.000000, 0.000000, 0.000000, 0.000000, -0.118171, -2.468016, -4.969211
+-5.269262, -3.664356, -2.096692, -0.573271, -0.269839, 0.000000, 0.000000, 0.000000, 0.000000, -0.049225, -2.463315, -5.004670
+-5.016169, -3.472141, -1.665704, -0.381349, -0.283625, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, -2.159395, -4.767415
+-3.366654, -2.557728, -1.696948, -0.746490, -0.546190, 0.000000, 0.000000, 0.000000, 0.000000, -0.120153, -1.619670, -3.120337
+
+Refrigeración mensual por zonas (kWh/m2 del espacio)
+0.000000, 0.000161, 0.025786, 0.000000, 0.440882, 0.611036, 2.220521, 2.048969, 0.657014, 0.093702, 0.027444, 0.012862
+0.000611, 0.000617, 0.000379, 0.000000, 0.791194, 0.357324, 1.787376, 1.736084, 0.382155, 0.000000, 0.000010, 0.000000
+0.000211, 0.000499, 0.000365, 0.000223, 0.528770, 1.242129, 3.113854, 2.337942, 0.655492, 0.000000, 0.000308, 0.000000
+0.000000, 0.000192, 0.000000, 0.000102, 0.826596, 0.387008, 1.774511, 1.333571, 0.315587, 0.000115, 0.000021, 0.000000
+0.000000, 0.000024, 0.000000, 0.000000, 0.006925, 0.000000, 0.076376, 0.000000, 0.000000, 0.000000, 0.000344, 0.000000
+0.027986, 0.001431, 0.096822, 0.000193, 0.897979, 1.192400, 3.293581, 3.220188, 1.287408, 0.436527, 0.143021, 0.108703
+0.000000, 0.000000, 0.000000, 0.025584, 1.101041, 0.617254, 2.363492, 2.375157, 0.574362, 0.055529, 0.000030, 0.000470
+0.000122, 0.000000, 0.000314, 0.000000, 1.037584, 2.043885, 4.277461, 3.567405, 1.112462, 0.015879, 0.000000, 0.000000
+0.000000, 0.000000, 0.000026, 0.000000, 1.355093, 0.817731, 2.720412, 2.344968, 0.649931, 0.053428, 0.000000, 0.000000
+0.000000, 0.000000, 0.000000, 0.000000, 0.042883, 0.157874, 0.745173, 0.647724, 0.214790, 0.000000, 0.000000, 0.000000
+0.029117, 0.003158, 0.100742, 0.000000, 0.943393, 1.279696, 3.439852, 3.378311, 1.376275, 0.482174, 0.149475, 0.110019
+0.000000, 0.000000, 0.000066, 0.028526, 1.148331, 0.676263, 2.488118, 2.502169, 0.608336, 0.067344, 0.000000, 0.000045
+0.000261, 0.000000, 0.000148, 0.000128, 1.099393, 2.173319, 4.449954, 3.735471, 1.188013, 0.027657, 0.000309, 0.000000
+0.000000, 0.000000, 0.000000, 0.000031, 1.428026, 0.910627, 2.880038, 2.514639, 0.703737, 0.091625, 0.000008, 0.000000
+0.000000, 0.000000, 0.000000, 0.000000, 0.052539, 0.184601, 0.824254, 0.731051, 0.236244, 0.000000, 0.000000, 0.000000
+0.017056, 0.000500, 0.069948, 0.000259, 0.680722, 1.070438, 2.988863, 2.857563, 1.082399, 0.254627, 0.082938, 0.066719
+0.001004, 0.000745, 0.000000, 0.026660, 1.075204, 0.729251, 2.554326, 2.570313, 0.639358, 0.042906, 0.000228, 0.000654
+0.000057, 0.000579, 0.001073, 0.000056, 1.024387, 2.158348, 4.420848, 3.742691, 1.224550, 0.017297, 0.000217, 0.000000
+0.000387, 0.000408, 0.000452, 0.000040, 1.281102, 0.941904, 2.873802, 2.514990, 0.721397, 0.029099, 0.000561, 0.000071
+0.000000, 0.000000, 0.000000, 0.000000, 0.041630, 0.094432, 0.854811, 0.728675, 0.110515, 0.000000, 0.000000, 0.000000

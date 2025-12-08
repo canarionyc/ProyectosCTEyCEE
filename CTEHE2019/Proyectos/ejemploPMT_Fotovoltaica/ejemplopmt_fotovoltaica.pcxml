@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archivoXmljEner aplicacion="AplicacionPostCALENER" version="1.000">
+	<proyecto id="ejemplopmt_fotovoltaica" clase="ProyectoPostCALENER">
+		<entidad id="DatoHorario0" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario1" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario2" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="ConsumoREF"/>
+			<propString id="nombreComponente" valor="SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoREF"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario3" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propList id="variable" valor="Energía Suministrada"/>
+			<propString id="nombreComponente" valor="SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto"/>
+			<propString id="nombreVariable" valor="Energía Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario4" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conCal"/>
+			<propString id="nombreComponente" valor="SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario5" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario6" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potCal"/>
+			<propString id="nombreComponente" valor="SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario7" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS6_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario8" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conCal"/>
+			<propString id="nombreComponente" valor="SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario9" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario10" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potCal"/>
+			<propString id="nombreComponente" valor="SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario11" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS2_EQ1_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario12" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conCal"/>
+			<propString id="nombreComponente" valor="SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario13" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario14" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potCal"/>
+			<propString id="nombreComponente" valor="SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario15" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS3_EQ2_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario16" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conCal"/>
+			<propString id="nombreComponente" valor="SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario17" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="conRef"/>
+			<propString id="nombreComponente" valor="SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="conRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario18" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potCal"/>
+			<propString id="nombreComponente" valor="SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potCal"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario19" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemplopmt_fotovoltaica»SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propList id="variable" valor="potTotRef"/>
+			<propString id="nombreComponente" valor="SIS4_EQ3_EQ_ED_UnidadExterior-Defecto"/>
+			<propString id="nombreVariable" valor="potTotRef"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+	</proyecto>
+</archivoXmljEner>
