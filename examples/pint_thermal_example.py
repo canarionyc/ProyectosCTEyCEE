@@ -3,7 +3,7 @@ import pint
 import numpy as np
 import matplotlib.pyplot as plt
 
-from pycte import ureg, Quantity as Q_
+from pyCTE import ureg, Quantity as Q_
 
 #%% Example 1: Basic thermal resistance calculation of a wall (from the document)
 def calc_thermal_resistance(thickness, conductivity):
