@@ -1,12 +1,14 @@
+import re
+import json
+import sqlite3
+import os
+
 # Key Things to Know When Parsing
 # Note on Encoding - These files often use latin-1 or mbcs encoding (common in older Windows software like CALENER), not UTF-8. If you get decode errors, switch the encoding.
 # Line Continuation: In strict BDL, logical lines can be broken across physical lines. The script above assumes properties generally stay on one line or uses basic regex matching. For production use, you might need to concatenate lines before matching.
 # Units: The header $UNITS METRIC tells you the data values (conductivity, density, etc.) are in metric units (SI).
 
-import re
-import json
-import sqlite3
-import os
+
 
 def parse_bdl_library(file_content):
     """
