@@ -25,7 +25,7 @@
         <Datos>
           <Dato>
             <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
-            <Valores>941.52,708.03,534.90,292.10,124.08,0.00,0.00,0.00,0.00,124.97,579.20,958.93</Valores>
+            <Valores>942.88,709.17,535.87,292.79,124.46,0.00,0.00,0.00,0.00,125.38,580.24,960.28</Valores>
             <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
         </Dato>
       <Dato>
@@ -35,12 +35,12 @@
         </Dato>
       <Dato>
             <Vector>GASNATURAL</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
-            <Valores>13.58,10.31,6.68,0.39,0.00,0.00,0.00,0.00,0.00,0.00,2.71,10.66</Valores>
+            <Valores>13.62,10.34,6.70,0.39,0.00,0.00,0.00,0.00,0.00,0.00,2.72,10.69</Valores>
             <Comentario>Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)</Comentario>
         </Dato>
       <Dato>
             <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
-            <Valores>0.00,0.00,0.00,0.00,0.00,6.49,42.93,39.40,18.47,0.00,0.00,0.00</Valores>
+            <Valores>0.00,0.00,0.00,0.00,0.00,6.49,42.95,39.42,18.48,0.00,0.00,0.00</Valores>
             <Comentario>Consumo sistemas de sustitución (P02_E01) (REF)</Comentario>
         </Dato>
       <Dato>
@@ -53,7 +53,7 @@
     <kexp>0.00</kexp>
     <AreaRef>64.00</AreaRef><!-- área de referencia [m2] -->
     <Epm2><!-- C_ep [kWh/m2.an] -->
-        <tot>100.4</tot>
+        <tot>100.5</tot>
         <nren>12.2</nren>
     </Epm2>
 </BalanceEPB>

@@ -2817,16 +2817,16 @@
 					<Vector>MEDIOAMBIENTE</Vector>
 					<Tipo>PRODUCCION</Tipo>
 					<Subtipo>INSITU</Subtipo>
-					<Servicio>ACS</Servicio>
-					<Valores>942.70,838.69,922.17,853.30,868.85,797.52,800.40,799.98,800.88,893.41,887.33,931.35</Valores>
+					<Servicio>CAL</Servicio>
+					<Valores>10881.68,8113.55,4649.93,1831.40,1091.31,11.00,0.00,0.00,0.00,407.46,5325.89,10573.35</Valores>
 					<Comentario>Equilibrado de consumo sin producción declarada</Comentario>
 				</Dato>
 				<Dato>
 					<Vector>MEDIOAMBIENTE</Vector>
 					<Tipo>PRODUCCION</Tipo>
 					<Subtipo>INSITU</Subtipo>
-					<Servicio>CAL</Servicio>
-					<Valores>10881.68,8113.55,4649.93,1831.40,1091.31,11.00,0.00,0.00,0.00,407.46,5325.89,10573.35</Valores>
+					<Servicio>ACS</Servicio>
+					<Valores>942.70,838.69,922.17,853.30,868.85,797.52,800.40,799.98,800.88,893.41,887.33,931.35</Valores>
 					<Comentario>Equilibrado de consumo sin producción declarada</Comentario>
 				</Dato>
 			</Datos>

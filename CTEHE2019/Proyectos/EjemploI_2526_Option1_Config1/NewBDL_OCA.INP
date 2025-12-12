@@ -2454,7 +2454,7 @@ $
     ..
 "ESQUINA_CONVEXA_CERRAMIENTO" = THERMAL-BRIDGE
       BRIDGE-NAME = "ESQUINA_CONVEXA_CERRAMIENTO"
-      TTL         =   0.040
+      TTL         =   0.050
       longCorMult =    18.00
       LENGTH      =    18.00
       FRSI        = 0.320000

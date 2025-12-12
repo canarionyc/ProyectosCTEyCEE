@@ -1,0 +1,52 @@
+Numero de plantas
+1
+"P02"
+
+RESULTADOS A NIVEL DE ZONAS
+Numero de zonas
+1
+Zona 2, "P02_E01"
+64.000000
+Concepto, Cal_positivo (kWh/m2 del espacio), Cal_negativo (kWh/m2 del espacio), Cal_neto (kWh/m2 del espacio), Ref_positivo (kWh/m2 del espacio), Ref_negativo (kWh/m2 del espacio), Ref_neto (kWh/m2 del espacio)
+Paredes Exteriores, 0.001470, -27.281633, -27.280163, 2.757236, -3.343724, -0.586488
+Cubiertas, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Suelos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Puentes Térmicos, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000
+Solar Ventanas, 36.519133, 0.000000, 36.519133, 17.650934, 0.000000, 17.650934
+Transmisión Ventanas, 0.002313, -35.314332, -35.312019, 4.250993, -5.559229, -1.308236
+Fuentes Internas, 25.328928, 0.000000, 25.328928, 12.870425, 0.000000, 12.870425
+Ventilación más Infiltración, 0.000034, -38.938121, -38.938087, 0.370555, -25.409504, -25.038948
+TOTAL, 78.934509, -116.801548, -37.867039, 51.646673, -47.200750, 4.445923
+
+Numero de Componentes
+9
+Componente, Cal_positivo (kWh/m2 del edificio), Cal_negativo (kWh/m2 del edificio), Cal_neto (kWh/m2 del edificio), Ref_positivo (kWh/m2 del edificio), Ref_negativo (kWh/m2 del edificio), Ref_neto (kWh/m2 del edificio)
+"P02_E01_PE001", 0.000312, -5.120727, -5.120414, 0.588932, -0.691997, -0.103065
+"P02_E01_PE002", 0.000681, -7.007021, -7.006340, 0.708420, -0.819968, -0.111548
+"P02_E01_PE003", 0.000376, -7.654162, -7.653786, 0.724218, -0.953182, -0.228964
+"P02_E01_PE004", 0.000408, -7.500030, -7.499622, 0.758980, -0.901891, -0.142911
+"P02_E01_PE001_V", 16.239754, -12.004192, 4.235563, 6.463091, -1.798177, 4.664914
+"P02_E01_PE002_V", 11.841223, -7.199186, 4.642037, 8.474662, -1.270865, 7.203796
+"P02_E01_PE003_V", 6.155819, -8.260602, -2.104783, 4.621299, -1.040839, 3.580460
+"P02_E01_PE004_V", 0.000965, -5.273698, -5.272732, 0.498836, -0.962557, -0.463722
+"P02_E01_PE004_V2", 2.439245, -2.732219, -0.292973, 1.895312, -0.538065, 1.357248
+
+RESULTADOS A NIVEL EDIFICIO
+Calefacción anual (kWh/m2 del edificio), Refrigeración anual (kWh/m2 del edificio)
+-37.867055, 4.445923
+Calefacción mensual (kWh/m2 del edificio)
+-8.936407, -6.556992, -4.691364, -2.256315, -0.512264, 0.000000, 0.000000, 0.000000, 0.000000, -0.564253, -5.265425, -9.084035
+Refrigeración mensual (kWh/m2 del edificio)
+0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.370866, 1.717649, 1.564367, 0.793042, 0.000000, 0.000000, 0.000000
+
+Numero de zonas
+1
+Nombre, m2, multiplicador, Calefacción (kWh/m2 del espacio), Refrigeración (kWh/m2 del espacio)
+"P02_E01", 64.000000, 1.000000, -37.867055, 4.445923
+TOTAL, 64.000000, -37.867055, 4.445923
+
+Calefacción mensual por zonas (kWh/m2 del espacio)
+-8.936407, -6.556992, -4.691364, -2.256315, -0.512264, 0.000000, 0.000000, 0.000000, 0.000000, -0.564253, -5.265425, -9.084035
+
+Refrigeración mensual por zonas (kWh/m2 del espacio)
+0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.370866, 1.717649, 1.564367, 0.793042, 0.000000, 0.000000, 0.000000

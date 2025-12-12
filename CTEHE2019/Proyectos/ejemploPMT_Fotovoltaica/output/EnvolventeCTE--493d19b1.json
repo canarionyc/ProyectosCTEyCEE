@@ -1,0 +1,6788 @@
+{
+  "meta": {
+    "name": "Oficinas B+3",
+    "is_new_building": true,
+    "is_dwelling": false,
+    "num_dwellings": 1,
+    "climate": "C2",
+    "d_perim_insulation": 1,
+    "rn_perim_insulation": 1
+  },
+  "spaces": [
+    {
+      "kind": "CONDITIONED",
+      "name": "P01_E01",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 0,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "height": 3.5,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P01_E02",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 0,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "height": 3.5,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P01_E03",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 0,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "height": 3.5,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P01_E04",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 0,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "height": 3.5,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P01_E05",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 0,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "height": 3.5,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P02_E01",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 3.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "0f75bfcf-5b12-3a0f-e833-e15c0522a347",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P02_E02",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 3.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "4adcbf3f-cfbf-7ede-6f62-2f25fc42904b",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P02_E03",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 3.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "55f35a62-2f26-d9c4-6961-7e54ba8f9920",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P02_E04",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 3.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "8d8afc1e-17d7-caab-96bf-793070a5294f",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P02_E05",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 3.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "c92ad792-720c-6247-ce58-ffd70efd23bb",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P03_E06",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 6.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "38763f25-3d48-940b-2d68-b635507f3ca9",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P03_E07",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 6.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "c66405ae-3c08-bfdf-d3fc-e30d92ab58c8",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P03_E08",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 6.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "ef133956-b946-bf3e-7962-522909bc11c6",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P03_E09",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 6.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "a7a0260c-a608-1fb5-45d6-3ff19a322f15",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P03_E10",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 6.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "48397de2-d8b6-f069-1ec5-9d4140d71b3f",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P04_E11",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 9.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "5e179010-4bdb-d76f-8116-b0e391362c06",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P04_E12",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 9.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "91ba1305-c32f-facf-87cc-e16d4fc786d3",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P04_E13",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 9.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "8c15aeaf-e520-654c-8a04-3197fd54f5fd",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P04_E14",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 9.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 166.67,
+      "id": "4d8fec9e-4956-0c45-20df-097483fdf68e",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    },
+    {
+      "kind": "CONDITIONED",
+      "name": "P04_E15",
+      "multiplier": 1,
+      "inside_tenv": true,
+      "z": 9.5,
+      "loads": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "thermostats": null,
+      "n_v": 1,
+      "illuminance": 50,
+      "id": "af6c2f40-426e-b00b-3f1e-881b85089b9f",
+      "height": 3,
+      "thermostat": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    }
+  ],
+  "walls": [
+    {
+      "name": "P01_E01_PE001",
+      "next_to": null,
+      "id": "eab1586d-0148-0d55-4790-072c7bc74cb9",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E01_Med001",
+      "next_to": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "id": "75dc217b-0e36-1f79-705e-a452af7514ad",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 135,
+        "position": [
+          30,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E01_Med002",
+      "next_to": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "id": "3b3ee5ea-d8a4-ae0d-6f25-3980bacd2f3d",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          24,
+          6,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E01_Med003",
+      "next_to": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "id": "e08fba8b-f6cd-72d2-9299-f731e9499bd0",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          6,
+          6,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E01_MED002",
+      "next_to": null,
+      "id": "ddab2ac2-f529-4b4f-e8e6-935e136e317c",
+      "bounds": "ADIABATIC",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            -30,
+            0.0000026226833
+          ],
+          [
+            -24,
+            -5.999998
+          ],
+          [
+            -6.0000005,
+            -5.9999995
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E01Suelo_001",
+      "next_to": null,
+      "id": "2949b064-e777-b15d-c6f0-15fa254daa72",
+      "bounds": "GROUND",
+      "cons": "3c933015-061a-2436-82f8-6f74cc596fd9",
+      "space": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            -6
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E02_PE002",
+      "next_to": null,
+      "id": "941c5116-3adc-21ca-bdc4-fa0423ab7164",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          30,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E02_Med004",
+      "next_to": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "id": "80295d43-9e84-c83b-eba5-b311fd6aa0b7",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          30,
+          30,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E02_Med005",
+      "next_to": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "id": "68029d8d-2f52-c9c0-22fa-babab2da86a9",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          24,
+          24,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E02_MED002",
+      "next_to": null,
+      "id": "f415ec94-c9c6-a31e-c0c2-e88791e0a646",
+      "bounds": "ADIABATIC",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            -30,
+            0.0000026226833
+          ],
+          [
+            -30.000002,
+            -29.999998
+          ],
+          [
+            -24.000002,
+            -23.999998
+          ],
+          [
+            -24,
+            -5.999998
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E02Suelo_002",
+      "next_to": null,
+      "id": "d7389d77-8b28-8ca3-c581-0476f36eef12",
+      "bounds": "GROUND",
+      "cons": "3c933015-061a-2436-82f8-6f74cc596fd9",
+      "space": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            30,
+            0
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            30,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E03_PE001",
+      "next_to": null,
+      "id": "05227ce2-2eeb-1ee7-254e-9330c3d63288",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          30,
+          30,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E03_Med001",
+      "next_to": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "id": "c8389c91-719f-7a09-ee68-4d45eaa15cb5",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          6,
+          24,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E03_Med003",
+      "next_to": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "id": "1c85e38d-db64-a6d6-f4ff-1048127e6060",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -45,
+        "position": [
+          0,
+          30,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E03_MED002",
+      "next_to": null,
+      "id": "6f20f049-645e-1530-f4ec-3a3caed74c67",
+      "bounds": "ADIABATIC",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            -6.000002,
+            -24
+          ],
+          [
+            -24.000002,
+            -23.999998
+          ],
+          [
+            -30.000002,
+            -29.999998
+          ],
+          [
+            -0.0000026226833,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E03Suelo_003",
+      "next_to": null,
+      "id": "ddbe98fc-f0f2-2cb7-e900-d4a5379ac1a1",
+      "bounds": "GROUND",
+      "cons": "3c933015-061a-2436-82f8-6f74cc596fd9",
+      "space": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            6,
+            -24
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            30,
+            -30
+          ],
+          [
+            24,
+            -24
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E04_PE001",
+      "next_to": null,
+      "id": "68eb818d-5031-cdef-7903-dbef99a717ab",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          0,
+          30,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E04_Med002",
+      "next_to": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "id": "718a86ce-bea7-c86e-26e3-7a3d5168960d",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          6,
+          6,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3.5
+          ],
+          [
+            0,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E04_MED002",
+      "next_to": null,
+      "id": "f6adbcc7-3e50-dae8-c3a1-86d42cb20d45",
+      "bounds": "ADIABATIC",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            -6.0000005,
+            -5.9999995
+          ],
+          [
+            -6.000002,
+            -24
+          ],
+          [
+            -0.0000026226833,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E04Suelo_004",
+      "next_to": null,
+      "id": "0d2a17b0-3ce4-f199-2fcf-97e8b669cdf5",
+      "bounds": "GROUND",
+      "cons": "3c933015-061a-2436-82f8-6f74cc596fd9",
+      "space": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            6,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E05_MED002",
+      "next_to": null,
+      "id": "38f13716-ab26-5f53-b7ab-628aa80ecdfe",
+      "bounds": "ADIABATIC",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            -6.0000005,
+            -5.9999995
+          ],
+          [
+            -24,
+            -5.999998
+          ],
+          [
+            -24.000002,
+            -23.999998
+          ],
+          [
+            -6.000002,
+            -24
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E05Suelo_005",
+      "next_to": null,
+      "id": "2a53ef20-780a-f26b-7ee0-dd0a84013988",
+      "bounds": "GROUND",
+      "cons": "3c933015-061a-2436-82f8-6f74cc596fd9",
+      "space": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "polygon": [
+          [
+            6,
+            -6
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            24,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E01_PE001",
+      "next_to": null,
+      "id": "97d6b003-1f2a-731c-b729-b275e14320f3",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "0f75bfcf-5b12-3a0f-e833-e15c0522a347",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E01_Med001",
+      "next_to": "4adcbf3f-cfbf-7ede-6f62-2f25fc42904b",
+      "id": "3e59663e-c603-7c00-d558-39c554710352",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "0f75bfcf-5b12-3a0f-e833-e15c0522a347",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 135,
+        "position": [
+          30,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E01_Med002",
+      "next_to": "c92ad792-720c-6247-ce58-ffd70efd23bb",
+      "id": "3128313d-aa94-70a0-ca24-51f8fd305ecd",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "0f75bfcf-5b12-3a0f-e833-e15c0522a347",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          24,
+          6,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E01_Med003",
+      "next_to": "8d8afc1e-17d7-caab-96bf-793070a5294f",
+      "id": "69b39838-fa35-0891-c0aa-3186ad09e54e",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "0f75bfcf-5b12-3a0f-e833-e15c0522a347",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          6,
+          6,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E01_FI009",
+      "next_to": "cb4f3d1b-f579-6177-5838-419eda6ef943",
+      "id": "ea941587-95e9-a1c1-3b97-349bac9f3952",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "0f75bfcf-5b12-3a0f-e833-e15c0522a347",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            -6
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E02_PE002",
+      "next_to": null,
+      "id": "7d7670ae-5d4b-64aa-2ee0-d6e52ba8a595",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "4adcbf3f-cfbf-7ede-6f62-2f25fc42904b",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          30,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E02_Med004",
+      "next_to": "55f35a62-2f26-d9c4-6961-7e54ba8f9920",
+      "id": "080ef06e-0658-a575-743a-1c723c409afb",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "4adcbf3f-cfbf-7ede-6f62-2f25fc42904b",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          30,
+          30,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E02_Med005",
+      "next_to": "c92ad792-720c-6247-ce58-ffd70efd23bb",
+      "id": "704da8b4-a867-5654-5041-c0ecb8e3df11",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "4adcbf3f-cfbf-7ede-6f62-2f25fc42904b",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          24,
+          24,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E02_FI010",
+      "next_to": "9b8e1302-d962-f0f2-3bba-c736968e10ff",
+      "id": "c1e7b04d-ff93-3b6e-7c06-949e109a350c",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "4adcbf3f-cfbf-7ede-6f62-2f25fc42904b",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            30,
+            0
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            30,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E03_PE003",
+      "next_to": null,
+      "id": "98b41b24-aff8-3629-bf54-9da6988df998",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "55f35a62-2f26-d9c4-6961-7e54ba8f9920",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          30,
+          30,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E03_Med006",
+      "next_to": "c92ad792-720c-6247-ce58-ffd70efd23bb",
+      "id": "4fbd1fcb-731a-3354-52e8-50873fe5aa0f",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "55f35a62-2f26-d9c4-6961-7e54ba8f9920",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          6,
+          24,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E03_Med007",
+      "next_to": "8d8afc1e-17d7-caab-96bf-793070a5294f",
+      "id": "27f6a155-48ec-6ac7-d085-a2e983527031",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "55f35a62-2f26-d9c4-6961-7e54ba8f9920",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -45,
+        "position": [
+          0,
+          30,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E03_FI011",
+      "next_to": "88b67253-c60d-114d-a981-7e42fc43c99a",
+      "id": "5e4253e6-6bde-d7fd-a0f5-67eb3631faca",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "55f35a62-2f26-d9c4-6961-7e54ba8f9920",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            6,
+            -24
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            30,
+            -30
+          ],
+          [
+            24,
+            -24
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E04_PE004",
+      "next_to": null,
+      "id": "0a1f82c7-68dd-7d8c-07e4-ee1a5ecec6d0",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "8d8afc1e-17d7-caab-96bf-793070a5294f",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          0,
+          30,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E04_Med008",
+      "next_to": "c92ad792-720c-6247-ce58-ffd70efd23bb",
+      "id": "cc55a167-9b9a-66c6-2707-e3ebf7fd3c78",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "8d8afc1e-17d7-caab-96bf-793070a5294f",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          6,
+          6,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E04_FI012",
+      "next_to": "5af14e81-66df-0cb3-f00f-ff48919efe61",
+      "id": "47c4df1d-eca6-1ac5-308d-15bb7e9f0eea",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "8d8afc1e-17d7-caab-96bf-793070a5294f",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            6,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E05_FI013",
+      "next_to": "41718de7-22ef-24c3-444a-4f7b999c625a",
+      "id": "283cd001-1c79-9243-5b0a-6866e63b6ea4",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "c92ad792-720c-6247-ce58-ffd70efd23bb",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          3.5
+        ],
+        "polygon": [
+          [
+            6,
+            -6
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            24,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E06_PE005",
+      "next_to": null,
+      "id": "191127fa-851a-779b-581c-cdc0982643c1",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "38763f25-3d48-940b-2d68-b635507f3ca9",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E06_Med014",
+      "next_to": "c66405ae-3c08-bfdf-d3fc-e30d92ab58c8",
+      "id": "f86ac4e9-d4b7-04c6-33fb-ff44d684394c",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "38763f25-3d48-940b-2d68-b635507f3ca9",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 135,
+        "position": [
+          30,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E06_Med015",
+      "next_to": "48397de2-d8b6-f069-1ec5-9d4140d71b3f",
+      "id": "8a6d5b39-5791-37ba-0283-8132d93f0858",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "38763f25-3d48-940b-2d68-b635507f3ca9",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          24,
+          6,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E06_Med016",
+      "next_to": "a7a0260c-a608-1fb5-45d6-3ff19a322f15",
+      "id": "d88fd8bd-ae94-5df1-e4b1-48838f13b057",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "38763f25-3d48-940b-2d68-b635507f3ca9",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          6,
+          6,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E06_FI022",
+      "next_to": "0f75bfcf-5b12-3a0f-e833-e15c0522a347",
+      "id": "21d285f6-644c-4b9a-407e-437e70527d69",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "38763f25-3d48-940b-2d68-b635507f3ca9",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            -6
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E07_PE006",
+      "next_to": null,
+      "id": "97d81d4e-658b-ebe8-b4cd-0f772298d3eb",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "c66405ae-3c08-bfdf-d3fc-e30d92ab58c8",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          30,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E07_Med017",
+      "next_to": "ef133956-b946-bf3e-7962-522909bc11c6",
+      "id": "0cffe754-d623-c0ba-1aba-c2af69ef93da",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "c66405ae-3c08-bfdf-d3fc-e30d92ab58c8",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          30,
+          30,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E07_Med018",
+      "next_to": "48397de2-d8b6-f069-1ec5-9d4140d71b3f",
+      "id": "868b0a9e-b2ec-072f-cfb1-4e9bcc13566a",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "c66405ae-3c08-bfdf-d3fc-e30d92ab58c8",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          24,
+          24,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E07_FI023",
+      "next_to": "4adcbf3f-cfbf-7ede-6f62-2f25fc42904b",
+      "id": "354ea3e3-8579-6cbe-a474-d8d927b3da98",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "c66405ae-3c08-bfdf-d3fc-e30d92ab58c8",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            30,
+            0
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            30,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E08_PE007",
+      "next_to": null,
+      "id": "2e4ebcc2-c976-ba4e-cc40-d5bd9a3d151f",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "ef133956-b946-bf3e-7962-522909bc11c6",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          30,
+          30,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E08_Med019",
+      "next_to": "48397de2-d8b6-f069-1ec5-9d4140d71b3f",
+      "id": "cc9cb44a-20eb-151b-013e-d05a1c90acb6",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "ef133956-b946-bf3e-7962-522909bc11c6",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          6,
+          24,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E08_Med020",
+      "next_to": "a7a0260c-a608-1fb5-45d6-3ff19a322f15",
+      "id": "24d37f5a-0fa2-c71a-ab8d-89b46bf87afe",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "ef133956-b946-bf3e-7962-522909bc11c6",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -45,
+        "position": [
+          0,
+          30,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E08_FI024",
+      "next_to": "55f35a62-2f26-d9c4-6961-7e54ba8f9920",
+      "id": "76352649-cc7d-1f92-6755-0cb053674f05",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "ef133956-b946-bf3e-7962-522909bc11c6",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            6,
+            -24
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            30,
+            -30
+          ],
+          [
+            24,
+            -24
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E09_PE008",
+      "next_to": null,
+      "id": "e39b7f9a-19b9-6718-6282-02f3e596d9ba",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "a7a0260c-a608-1fb5-45d6-3ff19a322f15",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          0,
+          30,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E09_Med021",
+      "next_to": "48397de2-d8b6-f069-1ec5-9d4140d71b3f",
+      "id": "ce36ef20-c74f-c9f6-0007-7b158a414acd",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "a7a0260c-a608-1fb5-45d6-3ff19a322f15",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          6,
+          6,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E09_FI025",
+      "next_to": "8d8afc1e-17d7-caab-96bf-793070a5294f",
+      "id": "a97398e1-035b-7a74-f88f-ff61584d3333",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "a7a0260c-a608-1fb5-45d6-3ff19a322f15",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            6,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E10_FI026",
+      "next_to": "c92ad792-720c-6247-ce58-ffd70efd23bb",
+      "id": "502f3b6c-d93d-4038-0771-efdeee3cc5e1",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "48397de2-d8b6-f069-1ec5-9d4140d71b3f",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          6.5
+        ],
+        "polygon": [
+          [
+            6,
+            -6
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            24,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E11_PE009",
+      "next_to": null,
+      "id": "ca3359dd-0d90-0562-377b-72fb4f5f64f0",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "5e179010-4bdb-d76f-8116-b0e391362c06",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E11_Med027",
+      "next_to": "91ba1305-c32f-facf-87cc-e16d4fc786d3",
+      "id": "5f61c6b1-787e-e3df-420a-98bfc922d502",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "5e179010-4bdb-d76f-8116-b0e391362c06",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 135,
+        "position": [
+          30,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E11_Med028",
+      "next_to": "af6c2f40-426e-b00b-3f1e-881b85089b9f",
+      "id": "a284872f-0a25-210c-c07c-d6f9d676e5c3",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "5e179010-4bdb-d76f-8116-b0e391362c06",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          24,
+          6,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E11_Med029",
+      "next_to": "4d8fec9e-4956-0c45-20df-097483fdf68e",
+      "id": "5060dd27-7f39-5969-48bb-7cdeca1b37a8",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "5e179010-4bdb-d76f-8116-b0e391362c06",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          6,
+          6,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E11_FI035",
+      "next_to": "38763f25-3d48-940b-2d68-b635507f3ca9",
+      "id": "bb6707f3-e0c4-2f2f-a15a-7d5c3e1baad4",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "5e179010-4bdb-d76f-8116-b0e391362c06",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            6,
+            -6
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E11_CUB001",
+      "next_to": null,
+      "id": "80d914df-b83e-da79-3fe4-4297f88c6934",
+      "bounds": "EXTERIOR",
+      "cons": "57f1d8e3-f82e-370a-517f-e505d893c06e",
+      "space": "5e179010-4bdb-d76f-8116-b0e391362c06",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          12.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            -30,
+            0.0000026226833
+          ],
+          [
+            -24,
+            -5.999998
+          ],
+          [
+            -6.0000005,
+            -5.9999995
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E12_PE010",
+      "next_to": null,
+      "id": "528cdd7c-1643-8b14-3175-360f7265619b",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "91ba1305-c32f-facf-87cc-e16d4fc786d3",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          30,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E12_Med030",
+      "next_to": "8c15aeaf-e520-654c-8a04-3197fd54f5fd",
+      "id": "308f66b9-4ebd-d2e2-79b9-0ea96a5325f8",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "91ba1305-c32f-facf-87cc-e16d4fc786d3",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -135,
+        "position": [
+          30,
+          30,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E12_Med031",
+      "next_to": "af6c2f40-426e-b00b-3f1e-881b85089b9f",
+      "id": "d493d8ea-89d4-9fe3-f4ab-b90eb89eb6fb",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "91ba1305-c32f-facf-87cc-e16d4fc786d3",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          24,
+          24,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E12_FI036",
+      "next_to": "c66405ae-3c08-bfdf-d3fc-e30d92ab58c8",
+      "id": "f7d89507-ef22-b53b-9d2d-1978a8464c71",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "91ba1305-c32f-facf-87cc-e16d4fc786d3",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            30,
+            0
+          ],
+          [
+            24,
+            -6
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            30,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E12_CUB001",
+      "next_to": null,
+      "id": "57b7da6b-a11f-33e7-dad9-6f0cbec339f1",
+      "bounds": "EXTERIOR",
+      "cons": "57f1d8e3-f82e-370a-517f-e505d893c06e",
+      "space": "91ba1305-c32f-facf-87cc-e16d4fc786d3",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          12.5
+        ],
+        "polygon": [
+          [
+            -30,
+            0.0000026226833
+          ],
+          [
+            -30.000002,
+            -29.999998
+          ],
+          [
+            -24.000002,
+            -23.999998
+          ],
+          [
+            -24,
+            -5.999998
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E13_PE011",
+      "next_to": null,
+      "id": "b7aa0558-4758-9ffe-4a58-6637588fb501",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "8c15aeaf-e520-654c-8a04-3197fd54f5fd",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -180,
+        "position": [
+          30,
+          30,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E13_Med032",
+      "next_to": "af6c2f40-426e-b00b-3f1e-881b85089b9f",
+      "id": "f1da278e-5b65-e31d-6c4e-be4abbed01ff",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "8c15aeaf-e520-654c-8a04-3197fd54f5fd",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 0,
+        "position": [
+          6,
+          24,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E13_Med033",
+      "next_to": "4d8fec9e-4956-0c45-20df-097483fdf68e",
+      "id": "f8ea6e67-bab1-562d-3275-1a750abc46a9",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "8c15aeaf-e520-654c-8a04-3197fd54f5fd",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -45,
+        "position": [
+          0,
+          30,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            8.485281,
+            0
+          ],
+          [
+            8.485281,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E13_FI037",
+      "next_to": "ef133956-b946-bf3e-7962-522909bc11c6",
+      "id": "dc1fefa8-2f38-3670-ecc8-2a3517ec709c",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "8c15aeaf-e520-654c-8a04-3197fd54f5fd",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            6,
+            -24
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            30,
+            -30
+          ],
+          [
+            24,
+            -24
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E13_CUB001",
+      "next_to": null,
+      "id": "2ced95de-685d-444e-4489-4b8b881acfbb",
+      "bounds": "EXTERIOR",
+      "cons": "57f1d8e3-f82e-370a-517f-e505d893c06e",
+      "space": "8c15aeaf-e520-654c-8a04-3197fd54f5fd",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          12.5
+        ],
+        "polygon": [
+          [
+            -6.000002,
+            -24
+          ],
+          [
+            -24.000002,
+            -23.999998
+          ],
+          [
+            -30.000002,
+            -29.999998
+          ],
+          [
+            -0.0000026226833,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E14_PE012",
+      "next_to": null,
+      "id": "1b60e09f-151a-d85d-819f-f4e994d0201f",
+      "bounds": "EXTERIOR",
+      "cons": "80185c0f-19b7-6f49-6178-47c796ffb732",
+      "space": "4d8fec9e-4956-0c45-20df-097483fdf68e",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": -90,
+        "position": [
+          0,
+          30,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            0
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E14_Med034",
+      "next_to": "af6c2f40-426e-b00b-3f1e-881b85089b9f",
+      "id": "0579f117-41fd-0461-7053-df74ce9a192e",
+      "bounds": "INTERIOR",
+      "cons": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+      "space": "4d8fec9e-4956-0c45-20df-097483fdf68e",
+      "geometry": {
+        "tilt": 90,
+        "azimuth": 90,
+        "position": [
+          6,
+          6,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            18,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E14_FI038",
+      "next_to": "a7a0260c-a608-1fb5-45d6-3ff19a322f15",
+      "id": "3ccb84ac-418c-55c1-f2f3-25d5384e27a1",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "4d8fec9e-4956-0c45-20df-097483fdf68e",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            6,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E14_CUB001",
+      "next_to": null,
+      "id": "24296be9-8c49-d93f-e7c8-4641326980e1",
+      "bounds": "EXTERIOR",
+      "cons": "57f1d8e3-f82e-370a-517f-e505d893c06e",
+      "space": "4d8fec9e-4956-0c45-20df-097483fdf68e",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          12.5
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            -6.0000005,
+            -5.9999995
+          ],
+          [
+            -6.000002,
+            -24
+          ],
+          [
+            -0.0000026226833,
+            -30
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E15_FI039",
+      "next_to": "48397de2-d8b6-f069-1ec5-9d4140d71b3f",
+      "id": "904c2ccf-83a5-a212-1fb0-e18493a23e6a",
+      "bounds": "INTERIOR",
+      "cons": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+      "space": "af6c2f40-426e-b00b-3f1e-881b85089b9f",
+      "geometry": {
+        "tilt": 180,
+        "azimuth": 0,
+        "position": [
+          0,
+          0,
+          9.5
+        ],
+        "polygon": [
+          [
+            6,
+            -6
+          ],
+          [
+            6,
+            -24
+          ],
+          [
+            24,
+            -24
+          ],
+          [
+            24,
+            -6
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E15_CUB001",
+      "next_to": null,
+      "id": "618f4a53-278a-adf9-3810-6f7b5c04fa89",
+      "bounds": "EXTERIOR",
+      "cons": "57f1d8e3-f82e-370a-517f-e505d893c06e",
+      "space": "af6c2f40-426e-b00b-3f1e-881b85089b9f",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -180,
+        "position": [
+          0,
+          0,
+          12.5
+        ],
+        "polygon": [
+          [
+            -6.0000005,
+            -5.9999995
+          ],
+          [
+            -24,
+            -5.999998
+          ],
+          [
+            -24.000002,
+            -23.999998
+          ],
+          [
+            -6.000002,
+            -24
+          ]
+        ]
+      }
+    }
+  ],
+  "windows": [
+    {
+      "name": "P01_E01_PE001_V",
+      "id": "a9c6f26b-41ea-4e14-c5b4-59d1ed341fc4",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "eab1586d-0148-0d55-4790-072c7bc74cb9",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.58424944
+    },
+    {
+      "name": "P01_E02_PE002_V",
+      "id": "0bb7fb93-8db4-12dc-0c0c-76e08da43e9a",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "941c5116-3adc-21ca-bdc4-fa0423ab7164",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5169112
+    },
+    {
+      "name": "P01_E03_PE001_V",
+      "id": "f6c157e0-5976-a0f8-c00c-cb50c55561b5",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "05227ce2-2eeb-1ee7-254e-9330c3d63288",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.90039766
+    },
+    {
+      "name": "P01_E04_PE001_V",
+      "id": "e628237e-2446-b850-1639-171a4dfba4e7",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "68eb818d-5031-cdef-7903-dbef99a717ab",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5031455
+    },
+    {
+      "name": "P02_E01_PE001_V",
+      "id": "07a5f529-2713-f5ae-b92b-6452fa2fc8ea",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "97d6b003-1f2a-731c-b729-b275e14320f3",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.58424944
+    },
+    {
+      "name": "P02_E02_PE002_V",
+      "id": "b45c8d65-4fc3-d7c4-375b-dc16e28bb7a0",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "7d7670ae-5d4b-64aa-2ee0-d6e52ba8a595",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5169112
+    },
+    {
+      "name": "P02_E03_PE003_V",
+      "id": "0eb1242a-3209-9f4b-aceb-95b7e1e36a65",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "98b41b24-aff8-3629-bf54-9da6988df998",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.90039766
+    },
+    {
+      "name": "P02_E04_PE004_V",
+      "id": "dc5bec35-6481-cf57-1c75-7542954d84df",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "0a1f82c7-68dd-7d8c-07e4-ee1a5ecec6d0",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5031455
+    },
+    {
+      "name": "P03_E06_PE005_V",
+      "id": "97545a9d-de24-e3ed-d889-81b441c4fef0",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "191127fa-851a-779b-581c-cdc0982643c1",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.58424944
+    },
+    {
+      "name": "P03_E07_PE006_V",
+      "id": "0e02c222-6545-b1e9-bf1a-7c4a6acd90fd",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "97d81d4e-658b-ebe8-b4cd-0f772298d3eb",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5169112
+    },
+    {
+      "name": "P03_E08_PE007_V",
+      "id": "9ae51b70-6d31-b8c9-ef20-7dbff29f6774",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "2e4ebcc2-c976-ba4e-cc40-d5bd9a3d151f",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.90039766
+    },
+    {
+      "name": "P03_E09_PE008_V",
+      "id": "9164f7cc-466c-4a72-9f02-6a9edd991f5a",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "e39b7f9a-19b9-6718-6282-02f3e596d9ba",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5031455
+    },
+    {
+      "name": "P04_E11_PE009_V",
+      "id": "1324875d-86be-b830-d7cd-2398aa9e9ba4",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "ca3359dd-0d90-0562-377b-72fb4f5f64f0",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.58424944
+    },
+    {
+      "name": "P04_E12_PE010_V",
+      "id": "e1fc84c6-8225-67e9-8fd9-69f18a9ab8fb",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "528cdd7c-1643-8b14-3175-360f7265619b",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5169112
+    },
+    {
+      "name": "P04_E13_PE011_V",
+      "id": "1281e7b8-87c6-3e49-d84f-e109058a6efc",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "b7aa0558-4758-9ffe-4a58-6637588fb501",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.90039766
+    },
+    {
+      "name": "P04_E14_PE012_V",
+      "id": "774f5136-c7d3-4cab-11de-5f5bfae535d9",
+      "cons": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+      "wall": "1b60e09f-151a-d85d-819f-f4e994d0201f",
+      "geometry": {
+        "position": [
+          0,
+          1
+        ],
+        "height": 1.6,
+        "width": 30,
+        "setback": 0.2
+      },
+      "fshobst": 0.5031455
+    }
+  ],
+  "shades": [
+    {
+      "name": "P01_E01_PE001_V_overhang",
+      "id": "599e5f2b-4f7d-dcb8-7812-6a02b9decfa4",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 0,
+        "position": [
+          0,
+          -1.1802074e-7,
+          2.6999998
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E02_PE002_V_overhang",
+      "id": "5f5f2ba8-c17b-83fb-32f3-3f60b6dd3aee",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 90,
+        "position": [
+          30,
+          5.1588504e-15,
+          2.6999998
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P01_E04_PE001_V_overhang",
+      "id": "9bea322e-f74e-2855-00df-efe4a0fe6892",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -90,
+        "position": [
+          -1.1802074e-7,
+          30,
+          2.6999998
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E01_PE001_V_overhang",
+      "id": "91fcd460-0320-110f-9c5d-76a346c02754",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 0,
+        "position": [
+          0,
+          -1.1802074e-7,
+          6.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E02_PE002_V_overhang",
+      "id": "d9572a06-5cc2-9dbb-a267-ab447ef1ecdc",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 90,
+        "position": [
+          30,
+          5.1588504e-15,
+          6.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P02_E04_PE004_V_overhang",
+      "id": "bc5bba5c-f793-154c-c7dc-070622f0f371",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -90,
+        "position": [
+          -1.1802074e-7,
+          30,
+          6.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E06_PE005_V_overhang",
+      "id": "f42160a2-aacd-ebab-baba-8d7aca39883e",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 0,
+        "position": [
+          0,
+          -1.1802074e-7,
+          9.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E07_PE006_V_overhang",
+      "id": "80f18977-c3f9-813c-0892-a18d6544d7ab",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 90,
+        "position": [
+          30,
+          5.1588504e-15,
+          9.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P03_E09_PE008_V_overhang",
+      "id": "d88259b0-230d-443a-27b5-a94362ba95e9",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -90,
+        "position": [
+          -1.1802074e-7,
+          30,
+          9.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E11_PE009_V_overhang",
+      "id": "df460b48-4012-1b7c-156c-c1638e9b15d1",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 0,
+        "position": [
+          0,
+          -1.1802074e-7,
+          12.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E12_PE010_V_overhang",
+      "id": "e5c0af4a-6990-adca-6423-0a1454faf456",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": 90,
+        "position": [
+          30,
+          5.1588504e-15,
+          12.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P04_E14_PE012_V_overhang",
+      "id": "ae19663f-1b78-0ea8-6d5c-72cccfaa4203",
+      "geometry": {
+        "tilt": 0,
+        "azimuth": -90,
+        "position": [
+          -1.1802074e-7,
+          30,
+          12.2
+        ],
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            30,
+            -2
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "thermal_bridges": [
+    {
+      "name": "FRENTE_FORJADO",
+      "kind": "INTERMEDIATEFLOOR",
+      "l": 360,
+      "psi": 0.1,
+      "id": "2780cc99-5070-049d-b456-495140054ec5"
+    },
+    {
+      "name": "UNION_CUBIERTA",
+      "kind": "ROOF",
+      "l": 225.94,
+      "psi": 0.24,
+      "id": "277e0320-23f2-8e1c-9f03-f35cbc2537f3"
+    },
+    {
+      "name": "ESQUINA_CONVEXA_FORJADO",
+      "kind": "ROOF",
+      "l": 1,
+      "psi": 0.43,
+      "id": "e0f1de39-f690-ce23-7fd0-d028cd029991"
+    },
+    {
+      "name": "ESQUINA_CONCAVA",
+      "kind": "CORNER",
+      "l": 1,
+      "psi": 0.15,
+      "id": "a3b66c3b-37d7-1a5e-c92d-0752475e81c8"
+    },
+    {
+      "name": "ESQUINA_CONVEXA",
+      "kind": "CORNER",
+      "l": 24.4,
+      "psi": -0.13,
+      "id": "ca4664bb-97b1-b7ff-c457-9d68912f2684"
+    },
+    {
+      "name": "PILAR",
+      "kind": "PILLAR",
+      "l": 224.5,
+      "psi": 0.02,
+      "id": "fd97ed03-9f92-d8d3-3e43-8879de3bd1a8"
+    },
+    {
+      "name": "HUECO_CAPIALZADO",
+      "kind": "WINDOW",
+      "l": 480,
+      "psi": 0.05,
+      "id": "bd5f6598-baf2-9261-5b21-322a3c26c89f"
+    },
+    {
+      "name": "HUECO_JAMBA",
+      "kind": "WINDOW",
+      "l": 51.2,
+      "psi": 0.05,
+      "id": "a8032d48-bbf6-8655-7e40-9dd340d06a49"
+    },
+    {
+      "name": "HUECO_ALFEIZAR",
+      "kind": "WINDOW",
+      "l": 480,
+      "psi": 0.05,
+      "id": "07fa13e4-f930-ff7f-9e36-6b4a7cd10cd2"
+    },
+    {
+      "name": "UNION_SOLERA_PAREDEXT",
+      "kind": "GROUNDFLOOR",
+      "l": 120,
+      "psi": 0.28,
+      "id": "439ea4ec-aed5-fd5d-e0df-76161a63b72f"
+    }
+  ],
+  "cons": {
+    "wallcons": [
+      {
+        "name": "Cubierta",
+        "layers": [
+          {
+            "material": "bdc4570f-5246-26b2-67cd-74d9b3727d2d",
+            "e": 0.02
+          },
+          {
+            "material": "a23e3512-a153-5214-bfcf-00c16ff99450",
+            "e": 0.01
+          },
+          {
+            "material": "f9e81d40-6c68-eced-98f4-b715718ccb45",
+            "e": 0.1
+          },
+          {
+            "material": "a2326d5d-7275-a0a7-d22b-1e96808c1c43",
+            "e": 0.01
+          },
+          {
+            "material": "a23e3512-a153-5214-bfcf-00c16ff99450",
+            "e": 0.01
+          },
+          {
+            "material": "b2e174bd-2e5d-f40e-b122-d2a137201bb4",
+            "e": 0.02
+          },
+          {
+            "material": "d2107b44-5f96-6f16-43e0-205fea4008d5",
+            "e": 0.21
+          },
+          {
+            "material": "4301c4ee-dd50-c4a8-0bb1-c2c971e7e523",
+            "e": 0.01
+          }
+        ],
+        "id": "57f1d8e3-f82e-370a-517f-e505d893c06e",
+        "absorptance": 0.6
+      },
+      {
+        "name": "Muro Exterior0.70",
+        "layers": [
+          {
+            "material": "a23e3512-a153-5214-bfcf-00c16ff99450",
+            "e": 0.02
+          },
+          {
+            "material": "0854c800-d726-41cf-71dd-0e547c6361e2",
+            "e": 0.11
+          },
+          {
+            "material": "a23e3512-a153-5214-bfcf-00c16ff99450",
+            "e": 0.01
+          },
+          {
+            "material": "cafa27dc-5875-873c-d956-5684750e7964",
+            "e": 0.08
+          },
+          {
+            "material": "0854c800-d726-41cf-71dd-0e547c6361e2",
+            "e": 0.04
+          },
+          {
+            "material": "4301c4ee-dd50-c4a8-0bb1-c2c971e7e523",
+            "e": 0.01
+          }
+        ],
+        "id": "80185c0f-19b7-6f49-6178-47c796ffb732",
+        "absorptance": 0.7
+      },
+      {
+        "name": "Suelo en contacto con el terreno",
+        "layers": [
+          {
+            "material": "587c7d96-8132-fc4e-3598-062df1f6a11d",
+            "e": 0.02
+          },
+          {
+            "material": "a23e3512-a153-5214-bfcf-00c16ff99450",
+            "e": 0.02
+          },
+          {
+            "material": "c6fc9d3b-f2ae-3d04-dd7e-a72a7343d68d",
+            "e": 0.04
+          },
+          {
+            "material": "d2107b44-5f96-6f16-43e0-205fea4008d5",
+            "e": 0.21
+          },
+          {
+            "material": "e689686a-cfc3-4b61-29ec-971c6f809f11",
+            "e": 0.35
+          }
+        ],
+        "id": "3c933015-061a-2436-82f8-6f74cc596fd9",
+        "absorptance": 0.6
+      },
+      {
+        "name": "Tabique",
+        "layers": [
+          {
+            "material": "0854c800-d726-41cf-71dd-0e547c6361e2",
+            "e": 0.07
+          }
+        ],
+        "id": "ca3cf4c3-bdc3-6592-1872-d32980b3261f",
+        "absorptance": 0.6
+      },
+      {
+        "name": "forjado interior",
+        "layers": [
+          {
+            "material": "3f96420f-7bec-06db-3135-84f77c9571ac",
+            "e": 0.015
+          },
+          {
+            "material": "a9aeecb5-381f-4dfa-b472-857154d2465c",
+            "e": 0.03
+          },
+          {
+            "material": "de671b0e-ce46-2f58-aa6d-117c81b0b403",
+            "e": 0.25
+          }
+        ],
+        "id": "bb950dc8-e1af-9246-7b31-ea95a4f13993",
+        "absorptance": 0.6
+      }
+    ],
+    "wincons": [
+      {
+        "name": "Vidrio doble",
+        "g_glshwi": 0.2,
+        "id": "63ec8c82-c3fa-e447-5580-c9d33ee8dd2d",
+        "glass": "f7b0b3d7-d5c8-a004-ce74-2959dac19db4",
+        "frame": "ee256360-1cf9-0d92-d78c-ba784a60e79e",
+        "f_f": 0.2,
+        "delta_u": 10,
+        "c_100": 9
+      }
+    ],
+    "materials": [
+      {
+        "name": "Baldosin catalan",
+        "id": "bdc4570f-5246-26b2-67cd-74d9b3727d2d",
+        "conductivity": 1.05,
+        "density": 2000,
+        "specific_heat": 840,
+        "vapour_diff": 1
+      },
+      {
+        "name": "EPS Poliestireno Expandido [ 0.037 W/[mK]]",
+        "id": "c6fc9d3b-f2ae-3d04-dd7e-a72a7343d68d",
+        "conductivity": 0.0375,
+        "density": 30,
+        "specific_heat": 1000,
+        "vapour_diff": 20
+      },
+      {
+        "name": "Enlucido de yeso",
+        "id": "4301c4ee-dd50-c4a8-0bb1-c2c971e7e523",
+        "conductivity": 0.3,
+        "density": 800,
+        "specific_heat": 920,
+        "vapour_diff": 1
+      },
+      {
+        "name": "FU Entrevigado cerámico -Canto 250 mm",
+        "id": "de671b0e-ce46-2f58-aa6d-117c81b0b403",
+        "conductivity": 0.908,
+        "density": 1220,
+        "specific_heat": 1000,
+        "vapour_diff": 10
+      },
+      {
+        "name": "Forjado ceramico",
+        "id": "d2107b44-5f96-6f16-43e0-205fea4008d5",
+        "conductivity": 0.4,
+        "density": 1250,
+        "specific_heat": 880,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Granito [2500 < d < 2700]",
+        "id": "3f96420f-7bec-06db-3135-84f77c9571ac",
+        "conductivity": 2.8,
+        "density": 2600,
+        "specific_heat": 1000,
+        "vapour_diff": 10000
+      },
+      {
+        "name": "Hormigon celular sin aridos",
+        "id": "b2e174bd-2e5d-f40e-b122-d2a137201bb4",
+        "conductivity": 0.09,
+        "density": 305,
+        "specific_heat": 1050,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Hormigón con áridos ligeros 1600 < d < 1800",
+        "id": "a9aeecb5-381f-4dfa-b472-857154d2465c",
+        "conductivity": 1.15,
+        "density": 1700,
+        "specific_heat": 1000,
+        "vapour_diff": 60
+      },
+      {
+        "name": "Ladrillo hueco",
+        "id": "0854c800-d726-41cf-71dd-0e547c6361e2",
+        "conductivity": 0.49,
+        "density": 1200,
+        "specific_heat": 920,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Laminas bituminosas",
+        "id": "a2326d5d-7275-a0a7-d22b-1e96808c1c43",
+        "conductivity": 0.19,
+        "density": 1100,
+        "specific_heat": 1680,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Mortero cemento",
+        "id": "a23e3512-a153-5214-bfcf-00c16ff99450",
+        "conductivity": 1.4,
+        "density": 2000,
+        "specific_heat": 1050,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Poliestireno exp II",
+        "id": "cafa27dc-5875-873c-d956-5684750e7964",
+        "conductivity": 0.04,
+        "density": 12,
+        "specific_heat": 1590,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Poliestireno extrusionado",
+        "id": "f9e81d40-6c68-eced-98f4-b715718ccb45",
+        "conductivity": 0.03,
+        "density": 33,
+        "specific_heat": 1590,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Suelo coherente con humedad",
+        "id": "e689686a-cfc3-4b61-29ec-971c6f809f11",
+        "conductivity": 2.1,
+        "density": 1800,
+        "specific_heat": 920,
+        "vapour_diff": 1
+      },
+      {
+        "name": "Terrazo",
+        "id": "587c7d96-8132-fc4e-3598-062df1f6a11d",
+        "conductivity": 1.16,
+        "density": 2000,
+        "specific_heat": 1050,
+        "vapour_diff": 1
+      }
+    ],
+    "glasses": [
+      {
+        "name": "Vidrio Doble Bajo Emisivo 4-12-4",
+        "id": "f7b0b3d7-d5c8-a004-ce74-2959dac19db4",
+        "u_value": 1.6,
+        "g_gln": 0.6778824
+      }
+    ],
+    "frames": [
+      {
+        "name": "Marco Met_RPT_1",
+        "id": "ee256360-1cf9-0d92-d78c-ba784a60e79e",
+        "u_value": 2.7,
+        "absorptivity": 0.7
+      }
+    ]
+  },
+  "schedules": {
+    "year": [
+      {
+        "id": "f52d0cf7-e91f-d1ed-bf1c-84446ab8817d",
+        "name": "SSHA",
+        "values": [
+          [
+            "ee490279-fbb2-9a09-822a-fb71f65e89a7",
+            151
+          ],
+          [
+            "d2189d23-dd31-0118-994a-afda132e7f6c",
+            122
+          ],
+          [
+            "ee490279-fbb2-9a09-822a-fb71f65e89a7",
+            92
+          ]
+        ]
+      },
+      {
+        "id": "71980518-76fc-962f-8f18-1c23deece99c",
+        "name": "ELEMENTOS-DE-SOMBRA",
+        "values": [
+          [
+            "28827201-eb73-d7f3-10cb-8431e577a232",
+            151
+          ],
+          [
+            "23481dda-072f-7e17-ee4e-4c988c7faf33",
+            122
+          ],
+          [
+            "28827201-eb73-d7f3-10cb-8431e577a232",
+            92
+          ]
+        ]
+      },
+      {
+        "id": "3675a836-0996-50a6-7d78-cf271e542d82",
+        "name": "Horario-Refrigeracion",
+        "values": [
+          [
+            "3e1d0e5b-88cd-aa83-7f33-330ae0eb8c34",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "85f3131b-8336-1d44-ac46-34a24b75d3c0",
+        "name": "Horario-Calefaccion",
+        "values": [
+          [
+            "cfe441f6-e46d-6916-cf15-08e6e75ab051",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "99c292f2-cd69-ecd9-3511-c1e3433199e4",
+        "name": "Horario-Refrigeracion-t",
+        "values": [
+          [
+            "7225eec2-bda0-f085-9022-16a558deb0a1",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "c5db4c75-17af-14bf-552c-e3023749b714",
+        "name": "Horario-Calefaccion-t",
+        "values": [
+          [
+            "fe99e14e-b916-27d6-9579-91f9d8cbfef1",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "dc0d2fac-dd83-1e39-aee2-ac7db236332f",
+        "name": "Horario-Calefaccion-AP",
+        "values": [
+          [
+            "57d87094-acdd-c886-6553-07b8d680c50f",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "98f02a1d-eabf-04d6-3ba0-9a112f8168c8",
+        "name": "Horario-Refrigeracion-AP",
+        "values": [
+          [
+            "8f8d4b57-1cb6-ebac-286b-341215bdbef5",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "528ffec8-5770-6f8b-2b60-cd194b045645",
+        "name": "UsoEspacio-8h",
+        "values": [
+          [
+            "9dcf7d69-eada-ead7-abce-fcdea3269ee2",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "4664e6fb-5b75-d29e-4aec-7cb2ca660666",
+        "name": "UsoEspacio-8h_eq",
+        "values": [
+          [
+            "c13861f9-3747-4c50-0bcf-9fb413c4bc2c",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "959ecf3a-835b-b85a-a202-4e6502c13d82",
+        "name": "UsoEspacio-8h_vent",
+        "values": [
+          [
+            "30c6a368-3153-eb79-ec71-17a3abb3a7a2",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "2ef051ed-156a-e6f7-18f9-1870ea6b8f18",
+        "name": "UsoEspacio-12h",
+        "values": [
+          [
+            "e031cec4-be4d-ea30-3667-7461675e1470",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "b16dde3f-cbaf-7c97-06ee-607898dd150e",
+        "name": "UsoEspacio-12h_eq",
+        "values": [
+          [
+            "19c36f28-c2fd-eed6-b07d-60ae5352acc8",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "35723552-6ff5-8921-b4e5-2a5ddfb461d8",
+        "name": "UsoEspacio-12h_vent",
+        "values": [
+          [
+            "301dd01f-9568-731a-7378-696d35d34fac",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "fdf02a88-b07f-6a28-0208-f5e7d604f3b1",
+        "name": "UsoEspacio-16h",
+        "values": [
+          [
+            "246bb9af-063c-8c04-006d-7d8b9d92dfa7",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "03dd43f5-2032-27e9-e640-79592b166598",
+        "name": "UsoEspacio-16h_eq",
+        "values": [
+          [
+            "2c46246e-07ea-d177-9158-f9f3f2513d8e",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "b63096df-6884-ec55-0f46-5c5e5a100d89",
+        "name": "UsoEspacio-16h_vent",
+        "values": [
+          [
+            "8dfce5a7-4125-ec42-6887-9abfd914a6de",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "c67fae52-5691-ff6d-e19c-96001b2e0043",
+        "name": "UsoEspacio-24h",
+        "values": [
+          [
+            "20b13944-50d9-c7f0-b915-8109d9527f78",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "6e14b2c1-5eac-89b6-20df-fc3b1b7e7ba7",
+        "name": "UsoEspacio-24h_eq",
+        "values": [
+          [
+            "dc7d7c6b-2b81-1ce8-6ad6-a9c797aed22b",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "00b4fa70-cb40-7f41-995e-8fabf712b563",
+        "name": "UsoEspacio-24h_vent",
+        "values": [
+          [
+            "cd2ab949-f691-7d53-2112-d9f3bab3bf62",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "7319d4a9-7ca0-b029-ecc7-96228aa13b56",
+        "name": "Ocupacion-Residencia",
+        "values": [
+          [
+            "428350a4-bfbf-9d90-a332-a3f6a7cf3fdf",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "d9bfa4c0-d9dc-b918-2993-9b8063900421",
+        "name": "Iluminacion-Residencia",
+        "values": [
+          [
+            "d44fb41e-a41a-cd82-2233-b1395c25a97d",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "af11da76-7da4-aae9-a353-ba1449727e52",
+        "name": "Funcionam-Residencia",
+        "values": [
+          [
+            "eaeabcdb-8480-78d9-6cbb-7321151f129b",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "3f4db9bf-ad95-5ba7-06fd-9c7a4389e0a5",
+        "name": "Infiltracion-Residencia",
+        "values": [
+          [
+            "ce2262e8-09ef-6fd6-2a67-0c23bd6b0b66",
+            147
+          ],
+          [
+            "d0d9bb68-edcb-b382-9a58-25149ad0b0fe",
+            7
+          ],
+          [
+            "16f2b938-0287-9352-c49b-78816e37a263",
+            119
+          ],
+          [
+            "ce2262e8-09ef-6fd6-2a67-0c23bd6b0b66",
+            92
+          ]
+        ]
+      },
+      {
+        "id": "38c5d18f-1dfd-ba91-09a1-e23aab8cb13d",
+        "name": "Anual-No-Habitable",
+        "values": [
+          [
+            "4d150512-38a0-25e0-589a-2413524e0db9",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "e2d9ea63-1af4-0bcb-4ccc-a4cd46521945",
+        "name": "Anual-No-habitable-Func",
+        "values": [
+          [
+            "5e470944-419b-df46-f510-6da7c0d72d35",
+            365
+          ]
+        ]
+      },
+      {
+        "id": "6ffc2b33-1605-080b-4d13-15eab10987f5",
+        "name": "Anual-No-habitable-Inf",
+        "values": [
+          [
+            "b79a7cdc-0063-9edc-6422-05fcb74b5507",
+            365
+          ]
+        ]
+      }
+    ],
+    "week": [
+      {
+        "id": "d2189d23-dd31-0118-994a-afda132e7f6c",
+        "name": "SSHSV",
+        "values": [
+          [
+            "53b0842e-c743-9ba7-b5ee-15de10acd78a",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "ee490279-fbb2-9a09-822a-fb71f65e89a7",
+        "name": "SSHSI",
+        "values": [
+          [
+            "164419dd-43fc-25ff-cf5b-7178e6f26762",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "23481dda-072f-7e17-ee4e-4c988c7faf33",
+        "name": "ELEMENTOSDESOMBRASEMVER",
+        "values": [
+          [
+            "e6b0921e-dc70-ae38-9f59-2449e8f29cdd",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "28827201-eb73-d7f3-10cb-8431e577a232",
+        "name": "ELEMENTOSDESOMBRASEMINV",
+        "values": [
+          [
+            "417dd14a-3f6c-1d16-02fd-916804f0772a",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "3e1d0e5b-88cd-aa83-7f33-330ae0eb8c34",
+        "name": "HA0_HS0_SS_",
+        "values": [
+          [
+            "de9a3b5d-c024-aee7-1907-6498ef6427f4",
+            5
+          ],
+          [
+            "1dce7386-0848-5404-d2f2-3bcde8f9d086",
+            1
+          ],
+          [
+            "6836973b-5a43-97d6-840e-825f4bdcbeb9",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "cfe441f6-e46d-6916-cf15-08e6e75ab051",
+        "name": "HA1_HS0_SS_",
+        "values": [
+          [
+            "48c68aaa-0ab1-531a-43b4-24303449a40d",
+            5
+          ],
+          [
+            "f573848f-5820-cbaf-9b93-87c319e216db",
+            1
+          ],
+          [
+            "c6597a61-6821-6e17-5299-9a16904de5dd",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "7225eec2-bda0-f085-9022-16a558deb0a1",
+        "name": "HA2_HS0_SS_",
+        "values": [
+          [
+            "65d2f20e-b166-b7cb-0195-c508713f6170",
+            5
+          ],
+          [
+            "8f088336-2061-ab14-829d-f24e6c9ffca7",
+            1
+          ],
+          [
+            "f9cb8626-567d-4443-a1d9-6618cd0449d8",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "fe99e14e-b916-27d6-9579-91f9d8cbfef1",
+        "name": "HA3_HS0_SS_",
+        "values": [
+          [
+            "f1174132-0d47-2c68-5520-79f25735bebb",
+            5
+          ],
+          [
+            "36964595-dd52-bb56-3d4f-21396e4c4807",
+            1
+          ],
+          [
+            "d935c79f-5baf-e958-7be2-f851a961606f",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "57d87094-acdd-c886-6553-07b8d680c50f",
+        "name": "HA4_HS0_SS_",
+        "values": [
+          [
+            "1ed311f7-c6d9-6651-dedd-627e27b992f2",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "8f8d4b57-1cb6-ebac-286b-341215bdbef5",
+        "name": "HA5_HS0_SS_",
+        "values": [
+          [
+            "27eaede9-1864-89a5-c7ee-f22f4a3eaa47",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "9dcf7d69-eada-ead7-abce-fcdea3269ee2",
+        "name": "HA6_HS0_SS_",
+        "values": [
+          [
+            "dda35e8e-e1cd-7f0e-ca69-25165c58cda2",
+            5
+          ],
+          [
+            "8bf96925-ac02-7154-9b9c-32f257b5a308",
+            1
+          ],
+          [
+            "78d4ecb9-af11-dc75-1f36-e472b0f826e0",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "c13861f9-3747-4c50-0bcf-9fb413c4bc2c",
+        "name": "HA7_HS0_SS_",
+        "values": [
+          [
+            "b63b8c6a-75d7-bfe5-fa0e-5a952626cc97",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "30c6a368-3153-eb79-ec71-17a3abb3a7a2",
+        "name": "HA8_HS0_SS_",
+        "values": [
+          [
+            "7f9bc9d6-757e-9e81-a7f3-020a921024aa",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "e031cec4-be4d-ea30-3667-7461675e1470",
+        "name": "HA9_HS0_SS_",
+        "values": [
+          [
+            "31d102c5-8e35-de8f-1fc7-9ef4b59a3d94",
+            5
+          ],
+          [
+            "dcc53234-d123-93b6-dc05-ad652572fa11",
+            1
+          ],
+          [
+            "1e3d72d3-8cae-ad7e-cf58-c1d466c2c473",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "19c36f28-c2fd-eed6-b07d-60ae5352acc8",
+        "name": "HA10_HS0_SS_",
+        "values": [
+          [
+            "2fe0b0eb-f64e-ecdb-77ee-7e555c9d97d4",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "301dd01f-9568-731a-7378-696d35d34fac",
+        "name": "HA11_HS0_SS_",
+        "values": [
+          [
+            "cfabe598-26e8-9d4b-4316-353283a9d995",
+            5
+          ],
+          [
+            "38af0253-d949-9f4b-c331-83a9f410add9",
+            1
+          ],
+          [
+            "65243c28-98e2-4afe-6865-49b1e214fcf4",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "246bb9af-063c-8c04-006d-7d8b9d92dfa7",
+        "name": "HA12_HS0_SS_",
+        "values": [
+          [
+            "6f38c6bb-79c0-e784-3190-0256a2be3f9b",
+            5
+          ],
+          [
+            "92cd96ad-127c-d7a7-0629-5595a0418143",
+            1
+          ],
+          [
+            "15694793-2f3f-4ac3-cffa-3c60b600cbff",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "2c46246e-07ea-d177-9158-f9f3f2513d8e",
+        "name": "HA13_HS0_SS_",
+        "values": [
+          [
+            "7987e331-534e-94b5-083f-d7463a85f710",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "8dfce5a7-4125-ec42-6887-9abfd914a6de",
+        "name": "HA14_HS0_SS_",
+        "values": [
+          [
+            "20cfa5b9-26fe-bede-95d8-59f617490842",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "20b13944-50d9-c7f0-b915-8109d9527f78",
+        "name": "HA15_HS0_SS_",
+        "values": [
+          [
+            "405c73eb-02a0-2528-c347-bd9e259e122d",
+            5
+          ],
+          [
+            "282063f8-329b-91d1-32a8-a4a0222878f2",
+            1
+          ],
+          [
+            "e6c67bc9-7fe1-6918-e0bf-916847eca702",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "dc7d7c6b-2b81-1ce8-6ad6-a9c797aed22b",
+        "name": "HA16_HS0_SS_",
+        "values": [
+          [
+            "a70dd92a-8ef1-5e90-6862-b45500994e9d",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "cd2ab949-f691-7d53-2112-d9f3bab3bf62",
+        "name": "HA17_HS0_SS_",
+        "values": [
+          [
+            "62818373-4ef4-19c0-f353-27de8d6bfe80",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "428350a4-bfbf-9d90-a332-a3f6a7cf3fdf",
+        "name": "HA18_HS0_SS_",
+        "values": [
+          [
+            "15e03c4d-2601-2096-50ee-445f3aaf4b80",
+            5
+          ],
+          [
+            "50dd573b-9ac4-1e11-d11d-9386e9debdf0",
+            1
+          ],
+          [
+            "1343e048-56ac-4dc4-f567-00a9792965f8",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "d44fb41e-a41a-cd82-2233-b1395c25a97d",
+        "name": "HA19_HS0_SS_",
+        "values": [
+          [
+            "5679f79e-08e5-2fa3-b915-f52ee2449a5c",
+            5
+          ],
+          [
+            "64783f12-2f63-e66b-e28d-82ab0aa24461",
+            1
+          ],
+          [
+            "b43d3ccc-4181-cf9d-6335-1b229a08d722",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "eaeabcdb-8480-78d9-6cbb-7321151f129b",
+        "name": "HA20_HS0_SS_",
+        "values": [
+          [
+            "1121d6c2-3713-7b63-8f82-9be50a39180d",
+            5
+          ],
+          [
+            "f090d8a1-79c4-0c28-747f-8a4593fe6355",
+            1
+          ],
+          [
+            "9d881ebd-f48c-27ac-f6f6-78d5e5538de1",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "ce2262e8-09ef-6fd6-2a67-0c23bd6b0b66",
+        "name": "HA21_HS0_SS_",
+        "values": [
+          [
+            "c7abc4a4-170d-a18e-ea30-d1862a73f161",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "d0d9bb68-edcb-b382-9a58-25149ad0b0fe",
+        "name": "HA21_HS1_SS_",
+        "values": [
+          [
+            "c7abc4a4-170d-a18e-ea30-d1862a73f161",
+            4
+          ],
+          [
+            "2c10d11f-e61b-c0e8-a436-625e89e8f8a9",
+            3
+          ]
+        ]
+      },
+      {
+        "id": "16f2b938-0287-9352-c49b-78816e37a263",
+        "name": "HA21_HS2_SS_",
+        "values": [
+          [
+            "2c10d11f-e61b-c0e8-a436-625e89e8f8a9",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "4d150512-38a0-25e0-589a-2413524e0db9",
+        "name": "HA22_HS0_SS_",
+        "values": [
+          [
+            "90076e3c-c40d-881a-67f7-f9d96c18bd7e",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "5e470944-419b-df46-f510-6da7c0d72d35",
+        "name": "HA23_HS0_SS_",
+        "values": [
+          [
+            "7207fd57-4a1d-cd16-88c4-80abccc55862",
+            7
+          ]
+        ]
+      },
+      {
+        "id": "b79a7cdc-0063-9edc-6422-05fcb74b5507",
+        "name": "HA24_HS0_SS_",
+        "values": [
+          [
+            "52cb9ea0-6c69-4d3c-ed78-3c0444b06f75",
+            7
+          ]
+        ]
+      }
+    ],
+    "day": [
+      {
+        "id": "53b0842e-c743-9ba7-b5ee-15de10acd78a",
+        "name": "SSHDV",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "164419dd-43fc-25ff-cf5b-7178e6f26762",
+        "name": "SSHDI",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "e6b0921e-dc70-ae38-9f59-2449e8f29cdd",
+        "name": "ELEMENTOSDESOMBRADIAVER",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "417dd14a-3f6c-1d16-02fd-916804f0772a",
+        "name": "ELEMENTOSDESOMBRADIAINV",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "de9a3b5d-c024-aee7-1907-6498ef6427f4",
+        "name": "HA0_SS_D-Refrig-Temp-Lab",
+        "values": [
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          27
+        ]
+      },
+      {
+        "id": "1dce7386-0848-5404-d2f2-3bcde8f9d086",
+        "name": "HA0_SS_D-Refrig-Temp-Sab",
+        "values": [
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          27
+        ]
+      },
+      {
+        "id": "6836973b-5a43-97d6-840e-825f4bdcbeb9",
+        "name": "HA0_SS_D-Refrig-Temp-Fest",
+        "values": [
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          27,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          27
+        ]
+      },
+      {
+        "id": "48c68aaa-0ab1-531a-43b4-24303449a40d",
+        "name": "HA1_SS_D-Calef-Temp-Lab",
+        "values": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          17
+        ]
+      },
+      {
+        "id": "f573848f-5820-cbaf-9b93-87c319e216db",
+        "name": "HA1_SS_D-Calef-Temp-Sab",
+        "values": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          17
+        ]
+      },
+      {
+        "id": "c6597a61-6821-6e17-5299-9a16904de5dd",
+        "name": "HA1_SS_D-Calef-Temp-Fest",
+        "values": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          17
+        ]
+      },
+      {
+        "id": "65d2f20e-b166-b7cb-0195-c508713f6170",
+        "name": "HA2_SS_D-Refrig-Temp-Lab-t",
+        "values": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ]
+      },
+      {
+        "id": "8f088336-2061-ab14-829d-f24e6c9ffca7",
+        "name": "HA2_SS_D-Refrig-Temp-Sab-t",
+        "values": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ]
+      },
+      {
+        "id": "f9cb8626-567d-4443-a1d9-6618cd0449d8",
+        "name": "HA2_SS_D-Refrig-Temp-Fest-t",
+        "values": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ]
+      },
+      {
+        "id": "f1174132-0d47-2c68-5520-79f25735bebb",
+        "name": "HA3_SS_D-Calef-Temp-Lab-t",
+        "values": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "id": "36964595-dd52-bb56-3d4f-21396e4c4807",
+        "name": "HA3_SS_D-Calef-Temp-Sab-t",
+        "values": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "id": "d935c79f-5baf-e958-7be2-f851a961606f",
+        "name": "HA3_SS_D-Calef-Temp-Fest-t",
+        "values": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "id": "1ed311f7-c6d9-6651-dedd-627e27b992f2",
+        "name": "HA4_SS_D-Calef-Temp-Lab-AP",
+        "values": [
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20,
+          -20
+        ]
+      },
+      {
+        "id": "27eaede9-1864-89a5-c7ee-f22f4a3eaa47",
+        "name": "HA5_SS_D-Refrig-Temp-Lab-AP",
+        "values": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      },
+      {
+        "id": "dda35e8e-e1cd-7f0e-ca69-25165c58cda2",
+        "name": "HA6_SS_D-8h-Lab",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "8bf96925-ac02-7154-9b9c-32f257b5a308",
+        "name": "HA6_SS_D-8h-Sab",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "78d4ecb9-af11-dc75-1f36-e472b0f826e0",
+        "name": "HA6_SS_D-8h-Fest",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "b63b8c6a-75d7-bfe5-fa0e-5a952626cc97",
+        "name": "HA7_SS_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "0101fa30-b0bf-3b7e-907e-8fe35065f794",
+        "name": "HA7_SS_D-8h-Sab_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "f49cd29b-3d59-1a7d-0fa4-4772d6eea22e",
+        "name": "HA7_SS_D-8h-Fest_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "7f9bc9d6-757e-9e81-a7f3-020a921024aa",
+        "name": "HA8_SS_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "dc46827f-dd2c-8697-e54d-f8706b23e302",
+        "name": "HA8_SS_D-8h-Sab_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "e597fe6f-98a2-95dd-4c57-9d4abea6f4f6",
+        "name": "HA8_SS_D-8h-Fest_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "31d102c5-8e35-de8f-1fc7-9ef4b59a3d94",
+        "name": "HA9_SS_D-12h-Lab",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "dcc53234-d123-93b6-dc05-ad652572fa11",
+        "name": "HA9_SS_D-12h-Sab",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "1e3d72d3-8cae-ad7e-cf58-c1d466c2c473",
+        "name": "HA9_SS_D-12h-Fest",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "2fe0b0eb-f64e-ecdb-77ee-7e555c9d97d4",
+        "name": "HA10_SS_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "174fe2fb-a6cd-6d78-95fe-f63e22d888da",
+        "name": "HA10_SS_D-12h-Sab_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "a687b3c0-2580-3e56-e79a-0774e8345860",
+        "name": "HA10_SS_D-12h-Fest_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "cfabe598-26e8-9d4b-4316-353283a9d995",
+        "name": "HA11_SS_D-12h-Lab",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "38af0253-d949-9f4b-c331-83a9f410add9",
+        "name": "HA11_SS_D-12h-Sab",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "65243c28-98e2-4afe-6865-49b1e214fcf4",
+        "name": "HA11_SS_D-12h-Fest",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "6f38c6bb-79c0-e784-3190-0256a2be3f9b",
+        "name": "HA12_SS_D-16h-Lab",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "92cd96ad-127c-d7a7-0629-5595a0418143",
+        "name": "HA12_SS_D-16h-Sab",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "15694793-2f3f-4ac3-cffa-3c60b600cbff",
+        "name": "HA12_SS_D-16h-Fest",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "7987e331-534e-94b5-083f-d7463a85f710",
+        "name": "HA13_SS_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "7af42397-b708-bec9-2f2f-36abc2ab18a0",
+        "name": "HA13_SS_D-16h-Sab_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "352e68c4-0b2c-c3b6-c12b-232632cb51ba",
+        "name": "HA13_SS_D-16h-Fest_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "20cfa5b9-26fe-bede-95d8-59f617490842",
+        "name": "HA14_SS_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "f6d226c3-a01a-f3b6-f4d3-2670fa5f1904",
+        "name": "HA14_SS_D-16h-Sab_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "5d9721be-e2ce-1e32-02c3-0f163aeca5d1",
+        "name": "HA14_SS_D-16h-Fest_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "405c73eb-02a0-2528-c347-bd9e259e122d",
+        "name": "HA15_SS_D-24h-Lab",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "282063f8-329b-91d1-32a8-a4a0222878f2",
+        "name": "HA15_SS_D-24h-Sab",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "e6c67bc9-7fe1-6918-e0bf-916847eca702",
+        "name": "HA15_SS_D-24h-Fest",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "a70dd92a-8ef1-5e90-6862-b45500994e9d",
+        "name": "HA16_SS_eq",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "60abf2a2-922f-097a-0025-2ca2e1782e18",
+        "name": "HA16_SS_D-24h-Sab_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "3a816db3-2a34-6a77-f7d1-c236a0aa3c3f",
+        "name": "HA16_SS_D-24h-Fest_eq",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "62818373-4ef4-19c0-f353-27de8d6bfe80",
+        "name": "HA17_SS_vent",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "b446c4f9-fc5a-e620-b81f-49ebf53f84bc",
+        "name": "HA17_SS_D-24h-Sab_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "7ac260cd-661d-b231-efa6-226a78771669",
+        "name": "HA17_SS_D-24h-Fest_vent",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "15e03c4d-2601-2096-50ee-445f3aaf4b80",
+        "name": "HA18_SS_D-Resid-Ocup-Lab",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          1
+        ]
+      },
+      {
+        "id": "50dd573b-9ac4-1e11-d11d-9386e9debdf0",
+        "name": "HA18_SS_D-Resid-Ocup-Sab",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "1343e048-56ac-4dc4-f567-00a9792965f8",
+        "name": "HA18_SS_D-Resid-Ocup-Fest",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "5679f79e-08e5-2fa3-b915-f52ee2449a5c",
+        "name": "HA19_SS_D-Resid-ilum-Lab",
+        "values": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.5,
+          1,
+          1,
+          1,
+          1,
+          0.5
+        ]
+      },
+      {
+        "id": "64783f12-2f63-e66b-e28d-82ab0aa24461",
+        "name": "HA19_SS_D-Resid-ilum-Sab",
+        "values": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.5,
+          1,
+          1,
+          1,
+          1,
+          0.5
+        ]
+      },
+      {
+        "id": "b43d3ccc-4181-cf9d-6335-1b229a08d722",
+        "name": "HA19_SS_D-Resid-ilum-Fest",
+        "values": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.5,
+          1,
+          1,
+          1,
+          1,
+          0.5
+        ]
+      },
+      {
+        "id": "1121d6c2-3713-7b63-8f82-9be50a39180d",
+        "name": "HA20_SS_D-Resid-Func-Lab",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "f090d8a1-79c4-0c28-747f-8a4593fe6355",
+        "name": "HA20_SS_D-Resid-Func-Sab",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "9d881ebd-f48c-27ac-f6f6-78d5e5538de1",
+        "name": "HA20_SS_D-Resid-Func-Fest",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "c7abc4a4-170d-a18e-ea30-d1862a73f161",
+        "name": "HA21_SS_D-Resid-Inf-Inv",
+        "values": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      {
+        "id": "2c10d11f-e61b-c0e8-a436-625e89e8f8a9",
+        "name": "HA21_SS_D-Resid-Inf-Ver",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      {
+        "id": "90076e3c-c40d-881a-67f7-f9d96c18bd7e",
+        "name": "HA22_SS_D-No-Habitable",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "7207fd57-4a1d-cd16-88c4-80abccc55862",
+        "name": "HA23_SS_D-No-habitable-Func",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "52cb9ea0-6c69-4d3c-ed78-3c0444b06f75",
+        "name": "HA24_SS_D-No-habitable-Inf",
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "loads": [
+    {
+      "name": "Condición_8baja_1renh",
+      "people_schedule": "528ffec8-5770-6f8b-2b60-cd194b045645",
+      "lighting_schedule": "528ffec8-5770-6f8b-2b60-cd194b045645",
+      "equipment_schedule": "528ffec8-5770-6f8b-2b60-cd194b045645",
+      "id": "4db3f641-fdf4-e182-58a1-f4aad78e7801",
+      "area_per_person": 36,
+      "people_sensible": 1.72,
+      "people_latent": 1.26,
+      "equipment": 1.5,
+      "lighting": 1.5
+    }
+  ],
+  "thermostats": [
+    {
+      "name": "Condición_8baja_1renh",
+      "temp_max": "99c292f2-cd69-ecd9-3511-c1e3433199e4",
+      "temp_min": "c5db4c75-17af-14bf-552c-e3023749b714",
+      "id": "d0c2dafb-2c34-3370-448d-09c9fd08fcf5"
+    }
+  ]
+}

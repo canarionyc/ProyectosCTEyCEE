@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epbd:EPBDEnergyReport xmlns:epbd="http://data.europa.eu/epbd/"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://data.europa.eu/epbd/ schemas/epbd_schema.xsd">
+    <!--
+        This is a simplified example for a generic European EPBD data report.
+        It uses a namespace prefix 'epbd:' which is defined in the root element.
+    -->
+    <epbd:ReportMetadata>
+        <epbd:ReportIdentifier>DK-12345-2023</epbd:ReportIdentifier>
+        <epbd:InspectionDate>2023-09-15</epbd:InspectionDate>
+        <epbd:CalculationTool>EPBD-Calc v2.1</epbd:CalculationTool>
+    </epbd:ReportMetadata>
+    <epbd:Building>
+        <epbd:BuildingIdentifier>
+            <epbd:NationalCadastralID>987-654-321</epbd:NationalCadastralID>
+        </epbd:BuildingIdentifier>
+        <epbd:Address>
+            <epbd:Street>Example Street 1</epbd:Street>
+            <epbd:City>Copenhagen</epbd:City>
+            <epbd:PostalCode>1050</epbd:PostalCode>
+            <epbd:Country>DK</epbd:Country>
+        </epbd:Address>
+    </epbd:Building>
+    <epbd:EnergyPerformance>
+        <epbd:PrimaryEnergy>
+            <epbd:Value>85.2</epbd:Value> <!-- kWh/m²/year -->
+            <epbd:Unit>kWh_per_m2_year</epbd:Unit>
+        </epbd:PrimaryEnergy>
+        <epbd:EPCScale>
+            <epbd:Class>B</epbd:Class>
+        </epbd:EPCScale>
+        <epbd:CO2Emissions>
+            <epbd:Value>15.7</epbd:Value> <!-- kgCO₂/m²/year -->
+            <epbd:Unit>kgCO2_per_m2_year</epbd:Unit>
+        </epbd:CO2Emissions>
+    </epbd:EnergyPerformance>
+</epbd:EPBDEnergyReport>

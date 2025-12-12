@@ -7,7 +7,7 @@ Example usage of the European Energy Certification XML Parser
 
 import os
 import json
-from xml_parser import parse_energy_certificate_xml
+from ctehexml_parser import parse_energy_certificate_xml
 
 #%% Example usage
 def example_parse_and_display(xml_file_path):

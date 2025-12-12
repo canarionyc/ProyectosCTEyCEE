@@ -1,0 +1,174 @@
+{
+    "metadata": {
+        "CTE_AREAREF": 100.0,
+        "CTE_LOCALIZACION": "PENINSULA",
+        "CTE_KEXP": 0.0,
+        "CTE_RED1": [
+            0.0,
+            1.0,
+            1.0
+        ],
+        "CTE_RED2": [
+            0.0,
+            1.0,
+            1.0
+        ],
+        "CTE_COGEN": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "CTE_ACS_DEMANDA_ANUAL": 2074.88,
+        "CTE_DEMANDA_ACS_PCT_BIOMASADENSIFICADA": 100.0
+    },
+    "consumos": [
+        {
+            "descripcion": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto",
+            "fuente": "BIOMASADENSIFICADA",
+            "valores_mensuales": [
+                921.96,
+                672.59,
+                511.46,
+                283.73,
+                117.67,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                99.7,
+                550.44,
+                934.16
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "CAL"
+        },
+        {
+            "descripcion": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto",
+            "fuente": "BIOMASADENSIFICADA",
+            "valores_mensuales": [
+                208.37,
+                186.05,
+                201.2,
+                188.49,
+                183.38,
+                168.31,
+                164.47,
+                167.43,
+                168.13,
+                190.78,
+                193.64,
+                210.8
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "ACS"
+        },
+        {
+            "descripcion": "Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)",
+            "fuente": "GASNATURAL",
+            "valores_mensuales": [
+                11.29,
+                8.76,
+                6.4,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.7,
+                10.06
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "CAL"
+        },
+        {
+            "descripcion": "Consumo sistemas de sustituciÃ³n (P02_E01) (REF)",
+            "fuente": "ELECTRICIDAD",
+            "valores_mensuales": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.61,
+                30.12,
+                29.12,
+                15.51,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "REF"
+        },
+        {
+            "descripcion": "Consumo sistemas de sustituciÃ³n (P03_E01) (CAL)",
+            "fuente": "GASNATURAL",
+            "valores_mensuales": [
+                276.75,
+                198.24,
+                138.42,
+                55.23,
+                15.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                15.46,
+                161.41,
+                270.72
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "CAL"
+        },
+        {
+            "descripcion": "Consumo sistemas de sustituciÃ³n (P03_E01) (REF)",
+            "fuente": "ELECTRICIDAD",
+            "valores_mensuales": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                7.99,
+                27.12,
+                23.7,
+                9.9,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "REF"
+        },
+        {
+            "descripcion": "Consumo ventiladores",
+            "fuente": "ELECTRICIDAD",
+            "valores_mensuales": [
+                1.87,
+                1.69,
+                1.87,
+                1.81,
+                1.87,
+                1.21,
+                1.25,
+                1.25,
+                1.21,
+                1.87,
+                1.81,
+                1.87
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "VEN"
+        }
+    ],
+    "produccion": []
+}

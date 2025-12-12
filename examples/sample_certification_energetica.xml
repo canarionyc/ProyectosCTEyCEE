@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CertificadoDeEficienciaEnergetica xmlns="http://certificacion.energetica.es/">
+    <!--
+        This is a simplified example for the Spanish Energy Performance Certificate.
+        The root element declares the default namespace for all child elements.
+    -->
+    <DatosDelCertificador>
+        <NombreyApellidos>Juan Pérez García</NombreyApellidos>
+        <NIF>12345678Z</NIF>
+        <Empresa>Consultoría Energética S.L.</Empresa>
+        <Fecha>2023-10-27</Fecha>
+    </DatosDelCertificador>
+    <IdentificacionEdificio>
+        <NombreDelEdificio>Edificio de Oficinas Central</NombreDelEdificio>
+        <Direccion>Calle Falsa 123, Madrid, 28001</Direccion>
+        <ReferenciaCatastral>987654321ABCDEF</ReferenciaCatastral>
+        <AnioConstruccion>1995</AnioConstruccion>
+        <ZonaClimatica>D3</ZonaClimatica>
+    </IdentificacionEdificio>
+    <CalificacionEnergetica>
+        <ConsumoEnergiaPrimaria>
+            <Valor>150.5</Valor> <!-- kWh/m² año -->
+            <Letra>D</Letra>
+        </ConsumoEnergiaPrimaria>
+        <EmisionesCO2>
+            <Valor>35.2</Valor> <!-- kgCO₂/m² año -->
+            <Letra>D</Letra>
+        </EmisionesCO2>
+    </CalificacionEnergetica>
+    <MedidasDeMejora>
+        <Medida>
+            <Descripcion>Instalación de aislamiento térmico en la fachada.</Descripcion>
+            <CalificacionPotencial>C</CalificacionPotencial>
+        </Medida>
+        <Medida>
+            <Descripcion>Sustitución de ventanas por unas de doble acristalamiento con rotura de puente térmico.</Descripcion>
+            <CalificacionPotencial>B</CalificacionPotencial>
+        </Medida>
+    </MedidasDeMejora>
+</CertificadoDeEficienciaEnergetica>

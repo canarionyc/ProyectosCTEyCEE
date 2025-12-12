@@ -1,0 +1,132 @@
+{
+    "metadata": {
+        "CTE_AREAREF": 64.0,
+        "CTE_LOCALIZACION": "PENINSULA",
+        "CTE_KEXP": 0.0,
+        "CTE_RED1": [
+            0.0,
+            1.0,
+            1.0
+        ],
+        "CTE_RED2": [
+            0.0,
+            1.0,
+            1.0
+        ],
+        "CTE_COGEN": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "CTE_ACS_DEMANDA_ANUAL": 1227.1,
+        "CTE_DEMANDA_ACS_PCT_BIOMASA": 100.0
+    },
+    "consumos": [
+        {
+            "descripcion": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto",
+            "fuente": "BIOMASA",
+            "valores_mensuales": [
+                1536.11,
+                1201.4,
+                1015.0,
+                694.12,
+                375.27,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                356.97,
+                1048.96,
+                1541.98
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "CAL"
+        },
+        {
+            "descripcion": "CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto",
+            "fuente": "BIOMASA",
+            "valores_mensuales": [
+                118.57,
+                107.78,
+                116.0,
+                110.62,
+                110.8,
+                106.12,
+                99.9,
+                105.39,
+                103.3,
+                108.42,
+                113.46,
+                119.1
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "ACS"
+        },
+        {
+            "descripcion": "Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)",
+            "fuente": "GASNATURAL",
+            "valores_mensuales": [
+                27.83,
+                23.53,
+                15.57,
+                6.96,
+                1.03,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.46,
+                13.22,
+                28.16
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "CAL"
+        },
+        {
+            "descripcion": "Consumo sistemas de sustituciÃ³n (P02_E01) (REF)",
+            "fuente": "ELECTRICIDAD",
+            "valores_mensuales": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                12.91,
+                9.84,
+                4.3,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "REF"
+        },
+        {
+            "descripcion": "Consumo ventiladores",
+            "fuente": "ELECTRICIDAD",
+            "valores_mensuales": [
+                1.87,
+                1.69,
+                1.87,
+                1.81,
+                1.87,
+                1.21,
+                1.25,
+                1.25,
+                1.21,
+                1.87,
+                1.81,
+                1.87
+            ],
+            "tipo": "CONSUMO",
+            "medida": "EPB",
+            "servicio": "VEN"
+        }
+    ],
+    "produccion": []
+}

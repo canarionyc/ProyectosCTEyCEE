@@ -1,0 +1,67 @@
+<BalanceEPB>
+    <FactoresDePaso>
+        <Metadatos>
+          <Metadato><Clave>CTE_FUENTE</Clave><Valor>RITE2014</Valor></Metadato>
+      <Metadato><Clave>CTE_FUENTE_COMENTARIO</Clave><Valor>Factores de paso (kWh/kWh_f,kWh/kWh_f,kg_CO2/kWh_f) del documento reconocido del RITE de 20/07/2014</Valor></Metadato>
+      <Metadato><Clave>CTE_LOCALIZACION</Clave><Valor>PENINSULA</Valor></Metadato>
+        </Metadatos>
+        <Datos>
+          <Dato><Vector>BIOMASADENSIFICADA</Vector><Origen>RED</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>1.028</ren><nren>0.085</nren><co2>0.018</co2><Comentario>Recursos usados para suministrar el vector desde la red</Comentario></Dato>
+      <Dato><Vector>GASNATURAL</Vector><Origen>RED</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>0.005</ren><nren>1.190</nren><co2>0.252</co2><Comentario>Recursos usados para suministrar el vector desde la red</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>INSITU</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para producir electricidad in situ</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>RED</Origen><Destino>SUMINISTRO</Destino><Paso>A</Paso><ren>0.414</ren><nren>1.954</nren><co2>0.331</co2><Comentario>Recursos usados para el suministro desde la red</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>INSITU</Origen><Destino>A_RED</Destino><Paso>A</Paso><ren>1.000</ren><nren>0.000</nren><co2>0.000</co2><Comentario>Recursos usados para producir la energía exportada a la red</Comentario></Dato>
+      <Dato><Vector>ELECTRICIDAD</Vector><Origen>INSITU</Origen><Destino>A_RED</Destino><Paso>B</Paso><ren>0.414</ren><nren>1.954</nren><co2>0.331</co2><Comentario>Recursos ahorrados a la red por la energía producida in situ y exportada a la red</Comentario></Dato>
+        </Datos>
+    </FactoresDePaso>
+    <Componentes>
+        <Metadatos>
+          <Metadato><Clave>CTE_AREAREF</Clave><Valor>64.00</Valor></Metadato>
+      <Metadato><Clave>CTE_LOCALIZACION</Clave><Valor>PENINSULA</Valor></Metadato>
+      <Metadato><Clave>CTE_KEXP</Clave><Valor>0.0</Valor></Metadato>
+      <Metadato><Clave>CTE_RED1</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
+      <Metadato><Clave>CTE_RED2</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
+      <Metadato><Clave>CTE_COGEN</Clave><Valor>0.000, 0.000, 0.000</Valor></Metadato>
+      <Metadato><Clave>CTE_ACS_DEMANDA_ANUAL</Clave><Valor>1092.03</Valor></Metadato>
+      <Metadato><Clave>CTE_DEMANDA_ACS_PCT_BIOMASADENSIFICADA</Clave><Valor>100.00</Valor></Metadato>
+        </Metadatos>
+        <Datos>
+          <Dato>
+            <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>941.52,708.03,534.90,292.10,124.08,0.00,0.00,0.00,0.00,124.97,579.20,958.93</Valores>
+            <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ACS</Servicio>
+            <Valores>108.06,96.19,107.45,97.35,97.93,87.38,89.97,89.55,89.67,97.61,102.27,110.79</Valores>
+            <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>GASNATURAL</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
+            <Valores>13.58,10.31,6.68,0.39,0.00,0.00,0.00,0.00,0.00,0.00,2.71,10.66</Valores>
+            <Comentario>Consumo sistemas de complemento por potencia insuficiente (P02_E01) (CAL)</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>REF</Servicio>
+            <Valores>0.00,0.00,0.00,0.00,0.00,6.49,42.93,39.40,18.47,0.00,0.00,0.00</Valores>
+            <Comentario>Consumo sistemas de sustitución (P02_E01) (REF)</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>VEN</Servicio>
+            <Valores>2.63,2.37,2.63,2.54,2.63,1.69,1.75,1.75,1.69,2.63,2.54,2.63</Valores>
+            <Comentario>Consumo ventiladores</Comentario>
+        </Dato>
+      <Dato>
+            <Vector>ELECTRICIDAD</Vector><Tipo>PRODUCCION</Tipo><Subtipo>INSITU</Subtipo><Servicio>NDEF</Servicio>
+            <Valores>0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00</Valores>
+            <Comentario>PRODUCCIÓN ELECTRICIDAD Ninguno</Comentario>
+        </Dato>
+        </Datos>
+    </Componentes>
+    <kexp>0.00</kexp>
+    <AreaRef>64.00</AreaRef><!-- área de referencia [m2] -->
+    <Epm2><!-- C_ep [kWh/m2.an] -->
+        <tot>100.4</tot>
+        <nren>12.2</nren>
+    </Epm2>
+</BalanceEPB>
