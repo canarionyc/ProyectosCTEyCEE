@@ -9,3 +9,6 @@ CREATE DATABASE hulc_db;
 -- 3. Grant all privileges on the new database to your new user.
 -- This allows your user to create tables, insert data, etc., but ONLY in this database.
 GRANT ALL PRIVILEGES ON DATABASE hulc_db TO hulc;
+
+GRANT CREATE ON SCHEMA public TO hulc;
+GRANT ALL ON SCHEMA public TO hulc;

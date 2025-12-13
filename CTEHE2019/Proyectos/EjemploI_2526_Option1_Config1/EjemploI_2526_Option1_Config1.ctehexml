@@ -24,7 +24,7 @@
 		<vent_p2>25.00</vent_p2>
 		<vent_p3>25.00</vent_p3>
 		<vent_p4>25.00</vent_p4>
-		<nomPro>Ejemplo1_2526_Config1</nomPro>
+		<nomPro>EjemploI_2526_Option1_Config1</nomPro>
 		<usoPro>viviendas unifamiliares de distintos tipos</usoPro>
 		<usoProOtros/>
 		<comunidadPro>Aragón</comunidadPro>
@@ -158,7 +158,7 @@ CAMBIO-CALENER = NO
      VENTILACION-POR-DEFECTO = "NO"
      VALORES-VENTILACION = ( "14.00", "1.00", "1.00", "2.00" )
      VALORES-PORCENTAJES = ( 25.000000, 25.000000, 25.000000, 25.000000 )
-     NAME-PROJECT        	= "Ejemplo1_2526_Config1"
+     NAME-PROJECT        	= "EjemploI_2526_Config1_Option1"
      USE-PROJECT         	= "viviendas unifamiliares de distintos tipos"
      USE-PROJECT-OTHER      	= ""
      COMUNITY-PROJECT    	= "Aragón"
