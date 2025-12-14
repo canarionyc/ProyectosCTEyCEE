@@ -19,18 +19,18 @@
       <Metadato><Clave>CTE_RED1</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
       <Metadato><Clave>CTE_RED2</Clave><Valor>0.000, 1.000, 1.000</Valor></Metadato>
       <Metadato><Clave>CTE_COGEN</Clave><Valor>0.000, 0.000, 0.000</Valor></Metadato>
-      <Metadato><Clave>CTE_ACS_DEMANDA_ANUAL</Clave><Valor>1092.03</Valor></Metadato>
+      <Metadato><Clave>CTE_ACS_DEMANDA_ANUAL</Clave><Valor>1136.63</Valor></Metadato>
       <Metadato><Clave>CTE_DEMANDA_ACS_PCT_BIOMASADENSIFICADA</Clave><Valor>100.00</Valor></Metadato>
         </Metadatos>
         <Datos>
           <Dato>
             <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>CAL</Servicio>
-            <Valores>942.88,709.17,535.87,292.79,124.46,0.00,0.00,0.00,0.00,125.38,580.24,960.28</Valores>
+            <Valores>942.66,708.94,535.84,292.76,124.47,0.00,0.00,0.00,0.00,125.38,580.26,960.03</Valores>
             <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
         </Dato>
       <Dato>
             <Vector>BIOMASADENSIFICADA</Vector><Tipo>CONSUMO</Tipo><Subtipo>EPB</Subtipo><Servicio>ACS</Servicio>
-            <Valores>108.06,96.19,107.45,97.35,97.93,87.38,89.97,89.55,89.67,97.61,102.27,110.79</Valores>
+            <Valores>112.56,100.59,110.97,101.65,100.61,93.53,90.33,95.21,93.28,102.42,105.82,115.23</Valores>
             <Comentario>CALDERA  SIS2_EQ1_EQ_Caldera-Biomasa-Defecto</Comentario>
         </Dato>
       <Dato>
@@ -53,7 +53,7 @@
     <kexp>0.00</kexp>
     <AreaRef>64.00</AreaRef><!-- área de referencia [m2] -->
     <Epm2><!-- C_ep [kWh/m2.an] -->
-        <tot>100.5</tot>
+        <tot>101.3</tot>
         <nren>12.2</nren>
     </Epm2>
 </BalanceEPB>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archivoXmljEner aplicacion="AplicacionPostCALENER" version="1.000">
+	<proyecto id="ejemploi_2526_option1_config1" clase="ProyectoPostCALENER">
+		<entidad id="DatoHorario0" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploi_2526_option1_config1Â»SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"/>
+			<propList id="variable" valor="ConsumoACS"/>
+			<propString id="nombreComponente" valor="SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoACS"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario1" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploi_2526_option1_config1Â»SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"/>
+			<propList id="variable" valor="ConsumoCAL"/>
+			<propString id="nombreComponente" valor="SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"/>
+			<propString id="nombreVariable" valor="ConsumoCAL"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+		<entidad id="DatoHorario2" clase="DatoHorario">
+			<propRefencia id="componente" valor="ejemploi_2526_option1_config1Â»SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"/>
+			<propList id="variable" valor="EnergÃ­a Suministrada"/>
+			<propString id="nombreComponente" valor="SIS2_EQ1_EQ_Caldera-Biomasa-Defecto"/>
+			<propString id="nombreVariable" valor="EnergÃ­a Suministrada"/>
+			<propInt id="idVariable" valor="0"/>
+			<propInt id="idVariableDev" valor="0"/>
+		</entidad>
+	</proyecto>
+</archivoXmljEner>
