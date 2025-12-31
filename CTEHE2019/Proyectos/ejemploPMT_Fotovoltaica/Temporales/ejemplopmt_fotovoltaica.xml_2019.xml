@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerificacionHE2018 version="2.0">
+	<Datos_2018>
+		<TipoIntervencion>Nuevo</TipoIntervencion>
+		<HorasOcupacion>2504</HorasOcupacion>
+		<CargaInternaPromedio>1.350</CargaInternaPromedio>
+	</Datos_2018>
+	<Resultados_2018>
+		<K_2018>0.72</K_2018>
+		<Klim_2018>0.79</Klim_2018>
+		<Qsj_2018>1.92</Qsj_2018>
+		<Qsjlim_2018>4.00</Qsjlim_2018>
+		<Compacidad_2018>3.41</Compacidad_2018>
+		<Vol_Neto_2018>10102.50</Vol_Neto_2018>
+		<Vol_Bruto_2018>11250.00</Vol_Bruto_2018>
+		<Dcal>15.41</Dcal>
+		<Dref>5.87</Dref>
+		<AreaUtilHE1_2018>3600.00</AreaUtilHE1_2018>
+		<n50_2018>2.06</n50_2018>
+		<n50lim_2018>-</n50lim_2018>
+		<CEPNR_2018>10.80</CEPNR_2018>
+		<CEPNRlim_2018>45.80</CEPNRlim_2018>
+		<CEPT_2018>37.20</CEPT_2018>
+		<CEPTlim_2018>152.15</CEPTlim_2018>
+		<areaUtil_2018>3600.00</areaUtil_2018>
+		<NHMAL_2018>1.68</NHMAL_2018>
+		<nhorasMALMax>4.00</nhorasMALMax>
+		<RERACS_2018>90.30</RERACS_2018>
+		<RERACSMin_2018>60.00</RERACSMin_2018>
+		<SupCons_2018>3600.00</SupCons_2018>
+		<potElecHE5_2018>36.00</potElecHE5_2018>
+		<potElecHE5Min_2018>36.00</potElecHE5Min_2018>
+		<SC_2018>900.00</SC_2018>
+		<SOC_2018>0.00</SOC_2018>
+	</Resultados_2018>
+	<tablaOpacos>
+		<lineaOrd>P01_E01_MED002;Adiabatico;H ;144.00;2.24</lineaOrd>
+		<lineaOrd>P01_E02_MED002;Adiabatico;H ;144.00;2.24</lineaOrd>
+		<lineaOrd>P01_E03_MED002;Adiabatico;H ;144.00;2.24</lineaOrd>
+		<lineaOrd>P01_E04_MED002;Adiabatico;H ;144.00;2.24</lineaOrd>
+		<lineaOrd>P01_E05_MED002;Adiabatico;H ;324.00;2.24</lineaOrd>
+		<lineaOrd>P04_E11_CUB001;Cubierta;H ;144.00;0.23</lineaOrd>
+		<lineaOrd>P04_E12_CUB001;Cubierta;H ;144.00;0.23</lineaOrd>
+		<lineaOrd>P04_E13_CUB001;Cubierta;H ;144.00;0.23</lineaOrd>
+		<lineaOrd>P04_E14_CUB001;Cubierta;H ;144.00;0.23</lineaOrd>
+		<lineaOrd>P04_E15_CUB001;Cubierta;H ;324.00;0.23</lineaOrd>
+		<lineaOrd>P01_E02_PE002;Fachada;E ;57.00;0.40</lineaOrd>
+		<lineaOrd>P02_E02_PE002;Fachada;E ;42.00;0.40</lineaOrd>
+		<lineaOrd>P03_E07_PE006;Fachada;E ;42.00;0.40</lineaOrd>
+		<lineaOrd>P04_E12_PE010;Fachada;E ;42.00;0.40</lineaOrd>
+		<lineaOrd>P01_E03_PE001;Fachada;N ;57.00;0.40</lineaOrd>
+		<lineaOrd>P02_E03_PE003;Fachada;N ;42.00;0.40</lineaOrd>
+		<lineaOrd>P03_E08_PE007;Fachada;N ;42.00;0.40</lineaOrd>
+		<lineaOrd>P04_E13_PE011;Fachada;N ;42.00;0.40</lineaOrd>
+		<lineaOrd>P01_E04_PE001;Fachada;O ;57.00;0.40</lineaOrd>
+		<lineaOrd>P02_E04_PE004;Fachada;O ;42.00;0.40</lineaOrd>
+		<lineaOrd>P03_E09_PE008;Fachada;O ;42.00;0.40</lineaOrd>
+		<lineaOrd>P04_E14_PE012;Fachada;O ;42.00;0.40</lineaOrd>
+		<lineaOrd>P01_E01_PE001;Fachada;S ;57.00;0.40</lineaOrd>
+		<lineaOrd>P02_E01_PE001;Fachada;S ;42.00;0.40</lineaOrd>
+		<lineaOrd>P03_E06_PE005;Fachada;S ;42.00;0.40</lineaOrd>
+		<lineaOrd>P04_E11_PE009;Fachada;S ;42.00;0.40</lineaOrd>
+		<lineaOrd>P01_E01Suelo_001;Suelo;H ;144.00;0.18</lineaOrd>
+		<lineaOrd>P01_E02Suelo_002;Suelo;H ;144.00;0.18</lineaOrd>
+		<lineaOrd>P01_E03Suelo_003;Suelo;H ;144.00;0.18</lineaOrd>
+		<lineaOrd>P01_E04Suelo_004;Suelo;H ;144.00;0.18</lineaOrd>
+		<lineaOrd>P01_E05Suelo_005;Suelo;H ;324.00;0.18</lineaOrd>
+	</tablaOpacos>
+	<tablaHuecos>
+		<lineaOrd>P01_E02_PE002_V;Hueco;E ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P02_E02_PE002_V;Hueco;E ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P03_E07_PE006_V;Hueco;E ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P04_E12_PE010_V;Hueco;E ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P01_E03_PE001_V;Hueco;N ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P02_E03_PE003_V;Hueco;N ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P03_E08_PE007_V;Hueco;N ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P04_E13_PE011_V;Hueco;N ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P01_E04_PE001_V;Hueco;O ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P02_E04_PE004_V;Hueco;O ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P03_E09_PE008_V;Hueco;O ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P04_E14_PE012_V;Hueco;O ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P01_E01_PE001_V;Hueco;S ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P02_E01_PE001_V;Hueco;S ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P03_E06_PE005_V;Hueco;S ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+		<lineaOrd>P04_E11_PE009_V;Hueco;S ;48.00;2.00;0.68;0.20;9.00</lineaOrd>
+	</tablaHuecos>
+	<tablaPPTT>
+		<linea>-;FRENTE_FORJADO;0.100;360.00;SDINT</linea>
+		<linea>-;UNION_CUBIERTA;0.240;225.94;SDINT</linea>
+		<linea>-;ESQUINA_CONVEXA_CERRAMIENTO;-0.130;24.40;SDINT</linea>
+		<linea>-;PILAR;0.020;224.50;SDINT</linea>
+		<linea>-;UNION_SOLERA_PAREDEXT;0.280;120.00;SDINT</linea>
+		<linea>-;HUECO_VENTANA;0.050;1011.20;SDINT</linea>
+	</tablaPPTT>
+	<tablaCFYOEspacios>
+		<linea>P01_E01;144.00;461.52;perfildeusuario1;Acondicionado;461.52;mín:20 máx:25</linea>
+		<linea>P01_E02;144.00;461.52;perfildeusuario1;Acondicionado;461.52;mín:20 máx:25</linea>
+		<linea>P01_E03;144.00;461.52;perfildeusuario1;Acondicionado;461.52;mín:20 máx:25</linea>
+		<linea>P01_E04;144.00;461.52;perfildeusuario1;Acondicionado;461.52;mín:20 máx:25</linea>
+		<linea>P01_E05;324.00;1038.42;perfildeusuario1;Acondicionado;1038.42;mín:20 máx:25</linea>
+		<linea>P02_E01;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P02_E02;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P02_E03;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P02_E04;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P02_E05;324.00;876.42;perfildeusuario1;Acondicionado;876.42;mín:20 máx:25</linea>
+		<linea>P03_E06;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P03_E07;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P03_E08;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P03_E09;144.00;389.52;perfildeusuario1;Acondicionado;389.52;mín:20 máx:25</linea>
+		<linea>P03_E10;324.00;876.42;perfildeusuario1;Acondicionado;876.42;mín:20 máx:25</linea>
+		<linea>P04_E11;144.00;375.84;perfildeusuario1;Acondicionado;375.84;mín:20 máx:25</linea>
+		<linea>P04_E12;144.00;375.84;perfildeusuario1;Acondicionado;375.84;mín:20 máx:25</linea>
+		<linea>P04_E13;144.00;375.84;perfildeusuario1;Acondicionado;375.84;mín:20 máx:25</linea>
+		<linea>P04_E14;144.00;375.84;perfildeusuario1;Acondicionado;375.84;mín:20 máx:25</linea>
+		<linea>P04_E15;324.00;845.64;perfildeusuario1;Acondicionado;845.64;mín:20 máx:25</linea>
+	</tablaCFYOEspacios>
+	<tablaCFYOEspaciosNH/>
+	<ConsumosEnergeticosFinales>
+		<Consumo>
+			<linea>SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto;ELECTRICIDAD;ACS;4656.36</linea>
+			<linea>SIS5_EQ1_EQ_ED_AireAgua_BDC-ACS-Defecto;MEDIOAMBIENTE;ACS;10336.59</linea>
+			<linea>SIS6_EQ1_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;CAL;6572.50</linea>
+			<linea>SIS6_EQ1_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;REF;2133.70</linea>
+			<linea>SIS6_EQ1_EQ_ED_UnidadExterior-Defecto;MEDIOAMBIENTE;CAL;11678.12</linea>
+			<linea>SIS2_EQ1_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;CAL;5781.21</linea>
+			<linea>SIS2_EQ1_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;REF;2643.28</linea>
+			<linea>SIS2_EQ1_EQ_ED_UnidadExterior-Defecto;MEDIOAMBIENTE;CAL;9165.44</linea>
+			<linea>SIS3_EQ2_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;CAL;5892.35</linea>
+			<linea>SIS3_EQ2_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;REF;2744.75</linea>
+			<linea>SIS3_EQ2_EQ_ED_UnidadExterior-Defecto;MEDIOAMBIENTE;CAL;9463.10</linea>
+			<linea>SIS4_EQ3_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;CAL;6964.19</linea>
+			<linea>SIS4_EQ3_EQ_ED_UnidadExterior-Defecto;ELECTRICIDAD;REF;2543.21</linea>
+			<linea>SIS4_EQ3_EQ_ED_UnidadExterior-Defecto;MEDIOAMBIENTE;CAL;12578.90</linea>
+			<linea>SISTEMA_SUSTITUCION_GENERAL_ACS-Ficticio;ELECTRICIDAD;ACS;0.04</linea>
+			<linea>INSTALACION-ILUMINACION;ELECTRICIDAD;ILU;13521.60</linea>
+		</Consumo>
+		<PotenciaGeneracionElectricaRenovableInstalada>36.00</PotenciaGeneracionElectricaRenovableInstalada>
+		<TablaProducciones>
+			<linea>Fotovoltaica insitu;ELECTRICIDAD;-;39980.00</linea>
+		</TablaProducciones>
+	</ConsumosEnergeticosFinales>
+	<FactoresDeConversionEnergiaFinalAPrimaria>
+		<linea>ELECTRICIDAD;RED;0.414;1.954;0.331;</linea>
+		<linea>ELECTRICIDAD;INSITU;1.000;0.000;0.000;</linea>
+		<linea>MEDIOAMBIENTE;RED;1.000;0.000;0.000;</linea>
+	</FactoresDeConversionEnergiaFinalAPrimaria>
+</VerificacionHE2018>
