@@ -1,0 +1,74 @@
+[
+    {
+        "assembly": "FOR INT AC-NH",
+        "material_name": "Plaqueta o baldosa de gres",
+        "material_class": "Cerámicos",
+        "asset_name": "Plaqueta o baldosa de gres_Termico",
+        "properties_si": {
+            "k": 2.299999952316284,
+            "d": 2500.0,
+            "cp": 1000.0,
+            "thickness": 0.009999999776482582
+        }
+    },
+    {
+        "assembly": "FOR INT AC-NH",
+        "material_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250",
+        "material_class": "Morteros",
+        "asset_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250_Termico",
+        "properties_si": {
+            "k": 0.550000011920929,
+            "d": 1125.0,
+            "cp": 1000.0,
+            "thickness": 0.054999999701976776
+        }
+    },
+    {
+        "assembly": "FOR INT AC-NH",
+        "material_name": "Poliestireno Expandido XPS",
+        "material_class": "Plásticos",
+        "asset_name": "Poliestireno Expandido XPS_Termico",
+        "properties_si": {
+            "k": 0.03400000184774399,
+            "d": 1500.0,
+            "cp": 800.0,
+            "thickness": 0.11999999731779099
+        }
+    },
+    {
+        "assembly": "FOR INT AC-NH",
+        "material_name": "FU Entrevigado cerámico -Canto 250 mm",
+        "material_class": "Forjados unidireccionales",
+        "asset_name": "FU Entrevigado cerámico -Canto 250 mm_Termico",
+        "properties_si": {
+            "k": 0.9079999923706055,
+            "d": 1220.0,
+            "cp": 1000.0,
+            "thickness": 0.25
+        }
+    },
+    {
+        "assembly": "FOR INT AC-NH",
+        "material_name": "Cámara de aire sin ventilar horizontal 5 cm",
+        "material_class": "Cámaras de aire",
+        "asset_name": "Cámara de aire sin ventilar horizontal 5 cm_Termico",
+        "properties_si": {
+            "k": 0.31250001164153246,
+            "d": 1.2,
+            "cp": 1005,
+            "thickness": 0.05000000074505806
+        }
+    },
+    {
+        "assembly": "FOR INT AC-NH",
+        "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+        "material_class": "Yesos",
+        "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+        "properties_si": {
+            "k": 0.25,
+            "d": 825.0,
+            "cp": 1000.0,
+            "thickness": 0.014999999664723873
+        }
+    }
+]

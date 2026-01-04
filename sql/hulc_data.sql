@@ -1,13 +1,37 @@
 select * from wallcons;
 
--- Muro exterior
+select * from wallcons where name='MURO EXTERIOR0.60';
+
+delete  from wallcons where name='MURO EXTERIOR0.60';
+delete  from wallcons_long where name='MURO EXTERIOR0.60';
+-- SOL CAM SANIT
+
+select wc.name
+     , wc.material
+     , m.material_group
+     , round(wc.thickness,4) as thickness
+     , round(m.conductivity,4) as conductivity
+     , round(m.resistance,4) as resistance
+     , round(m.density,4) as density
+     , round(m.specificheat,4) as specificheat
+     , round(m.vapourdiffusivity,4) as vapourdiffusivity
+from wallcons_long wc, materials m
+where wc.material=m.name
+and wc.name='FOR CAM SANIT';
+    --- and wc.name='SOL CAM SANIT'
+-- and wc.name='FOR INT AC-NH'
+
+
+
+select * from wallcons_long where name='SOL CAM SANIT';
+-- MURO EXTERIOR
 
 select * from wallcons_long where name='MURO EXTERIOR';
 
 select name, sum(wallcons_long.thickness) from wallcons_long where name='MURO EXTERIOR'
 group by name ;
 
-select * from materials where  name='Teja de arcilla cocida';
+
 
 select wc.name
      , wc.material
@@ -25,6 +49,7 @@ select wc.name
 from wallcons_long wc, materials m  where wc.name='MURO EXTERIOR' and wc.material=m.name;
 
 -- Cubierta
+select * from materials where  name='Teja de arcilla cocida';
 
 select * from wallcons_long where name='CUB IN TEJA';
 

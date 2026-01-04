@@ -1,0 +1,480 @@
+{
+    "CUB IN TEJA": [
+        {
+            "material_name": "Teja de arcilla cocida",
+            "material_class": "Cerámicos",
+            "asset_name": "Teja de arcilla cocida_Termico",
+            "properties_si": {
+                "k": 1.0,
+                "d": 2000.0,
+                "cp": 800.0,
+                "thickness": 0.014999999664723873
+            }
+        },
+        {
+            "material_name": "cv_hor_asc",
+            "material_class": "Cámaras de aire",
+            "asset_name": "cv_hor_asc_Termico",
+            "properties_si": {
+                "k": 0.8333333643774199,
+                "d": 1.0,
+                "cp": 1000.0,
+                "thickness": 0.05000000074505806
+            }
+        },
+        {
+            "material_name": "XPS Expandido con dióxido de carbono CO2 ( 0.034 W-(mK))",
+            "material_class": "Aislantes",
+            "asset_name": "XPS Expandido con dióxido de carbono CO2 ( 0.034 W-(mK))_Termico",
+            "properties_si": {
+                "k": 0.03400000184774399,
+                "d": 37.5,
+                "cp": 1000.0,
+                "thickness": 0.1599999964237213
+            }
+        },
+        {
+            "material_name": "Betún fieltro o lámina",
+            "material_class": "Bituminosos",
+            "asset_name": "Betún fieltro o lámina_Termico",
+            "properties_si": {
+                "k": 0.23000000417232513,
+                "d": 1100.0,
+                "cp": 1000.0,
+                "thickness": 0.009999999776482582
+            }
+        },
+        {
+            "material_name": "FU Entrevigado de EPS mecanizado enrasado -Canto 250 mm",
+            "material_class": "Forjados unidireccionales",
+            "asset_name": "FU Entrevigado de EPS mecanizado enrasado -Canto 250 mm_Termico",
+            "properties_si": {
+                "k": 0.26600000262260437,
+                "d": 800.0,
+                "cp": 1000.0,
+                "thickness": 0.25
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.014999999664723873
+            }
+        }
+    ],
+    "FOR CAM SANIT": [
+        {
+            "material_name": "Plaqueta o baldosa de gres",
+            "material_class": "Cerámicos",
+            "asset_name": "Plaqueta o baldosa de gres_Termico",
+            "properties_si": {
+                "k": 2.299999952316284,
+                "d": 2500.0,
+                "cp": 1000.0,
+                "thickness": 0.009999999776482582
+            }
+        },
+        {
+            "material_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250",
+            "material_class": "Morteros",
+            "asset_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250_Termico",
+            "properties_si": {
+                "k": 0.550000011920929,
+                "d": 1125.0,
+                "cp": 1000.0,
+                "thickness": 0.02500000037252903
+            }
+        },
+        {
+            "material_name": "Mortero de cemento de difusion",
+            "material_class": "Morteros",
+            "asset_name": "Mortero de cemento de difusion_Termico",
+            "properties_si": {
+                "k": 0.550000011920929,
+                "d": 1500.0,
+                "cp": 800.0,
+                "thickness": 0.05999999865889549
+            }
+        },
+        {
+            "material_name": "Poliestireno Expandido XPS",
+            "material_class": "Plásticos",
+            "asset_name": "Poliestireno Expandido XPS_Termico",
+            "properties_si": {
+                "k": 0.03400000184774399,
+                "d": 1500.0,
+                "cp": 800.0,
+                "thickness": 0.10000000149011612
+            }
+        },
+        {
+            "material_name": "FU Entrevigado de EPS mecanizado enrasado -Canto 300 mm",
+            "material_class": "Forjados unidireccionales",
+            "asset_name": "FU Entrevigado de EPS mecanizado enrasado -Canto 300 mm_Termico",
+            "properties_si": {
+                "k": 0.25600001215934753,
+                "d": 750.0,
+                "cp": 1000.0,
+                "thickness": 0.30000001192092896
+            }
+        },
+        {
+            "material_name": "Cloruro de polivinilo (PVC)",
+            "material_class": "Plásticos",
+            "asset_name": "Cloruro de polivinilo (PVC)_Termico",
+            "properties_si": {
+                "k": 0.17000000178813934,
+                "d": 1390.0,
+                "cp": 900.0,
+                "thickness": 0.004999999888241291
+            }
+        }
+    ],
+    "FOR INT": [
+        {
+            "material_name": "Plaqueta o baldosa de gres",
+            "material_class": "Cerámicos",
+            "asset_name": "Plaqueta o baldosa de gres_Termico",
+            "properties_si": {
+                "k": 2.299999952316284,
+                "d": 2500.0,
+                "cp": 1000.0,
+                "thickness": 0.009999999776482582
+            }
+        },
+        {
+            "material_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1450 y 1600",
+            "material_class": "Morteros",
+            "asset_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1450 y 1600_Termico",
+            "properties_si": {
+                "k": 0.800000011920929,
+                "d": 1525.0,
+                "cp": 1000.0,
+                "thickness": 0.05000000074505806
+            }
+        },
+        {
+            "material_name": "Mortero de cemento de difusion",
+            "material_class": "Morteros",
+            "asset_name": "Mortero de cemento de difusion_Termico",
+            "properties_si": {
+                "k": 0.550000011920929,
+                "d": 1500.0,
+                "cp": 800.0,
+                "thickness": 0.06499999761581421
+            }
+        },
+        {
+            "material_name": "XPS Expandido con dióxido de carbono CO2 ( 0.034 W-(mK))",
+            "material_class": "Aislantes",
+            "asset_name": "XPS Expandido con dióxido de carbono CO2 ( 0.034 W-(mK))_Termico",
+            "properties_si": {
+                "k": 0.03400000184774399,
+                "d": 37.5,
+                "cp": 1000.0,
+                "thickness": 0.05999999865889549
+            }
+        },
+        {
+            "material_name": "FU Entrevigado cerámico -Canto 250 mm",
+            "material_class": "Forjados unidireccionales",
+            "asset_name": "FU Entrevigado cerámico -Canto 250 mm_Termico",
+            "properties_si": {
+                "k": 0.9079999923706055,
+                "d": 1220.0,
+                "cp": 1000.0,
+                "thickness": 0.25
+            }
+        },
+        {
+            "material_name": "Cámara de aire sin ventilar horizontal 5 cm",
+            "material_class": "Cámaras de aire",
+            "asset_name": "Cámara de aire sin ventilar horizontal 5 cm_Termico",
+            "properties_si": {
+                "k": 0.31250001164153246,
+                "d": 1.0,
+                "cp": 1000.0,
+                "thickness": 0.05000000074505806
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.014999999664723873
+            }
+        }
+    ],
+    "FOR INT AC-NH": [
+        {
+            "material_name": "Plaqueta o baldosa de gres",
+            "material_class": "Cerámicos",
+            "asset_name": "Plaqueta o baldosa de gres_Termico",
+            "properties_si": {
+                "k": 2.299999952316284,
+                "d": 2500.0,
+                "cp": 1000.0,
+                "thickness": 0.009999999776482582
+            }
+        },
+        {
+            "material_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250",
+            "material_class": "Morteros",
+            "asset_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250_Termico",
+            "properties_si": {
+                "k": 0.550000011920929,
+                "d": 1125.0,
+                "cp": 1000.0,
+                "thickness": 0.054999999701976776
+            }
+        },
+        {
+            "material_name": "Poliestireno Expandido XPS",
+            "material_class": "Plásticos",
+            "asset_name": "Poliestireno Expandido XPS_Termico",
+            "properties_si": {
+                "k": 0.03400000184774399,
+                "d": 1500.0,
+                "cp": 800.0,
+                "thickness": 0.11999999731779099
+            }
+        },
+        {
+            "material_name": "FU Entrevigado cerámico -Canto 250 mm",
+            "material_class": "Forjados unidireccionales",
+            "asset_name": "FU Entrevigado cerámico -Canto 250 mm_Termico",
+            "properties_si": {
+                "k": 0.9079999923706055,
+                "d": 1220.0,
+                "cp": 1000.0,
+                "thickness": 0.25
+            }
+        },
+        {
+            "material_name": "Cámara de aire sin ventilar horizontal 5 cm",
+            "material_class": "Cámaras de aire",
+            "asset_name": "Cámara de aire sin ventilar horizontal 5 cm_Termico",
+            "properties_si": {
+                "k": 0.31250001164153246,
+                "d": 1.0,
+                "cp": 1000.0,
+                "thickness": 0.05000000074505806
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.014999999664723873
+            }
+        }
+    ],
+    "MURO CAM SANIT": [
+        {
+            "material_name": "Betún fieltro o lámina",
+            "material_class": "Bituminosos",
+            "asset_name": "Betún fieltro o lámina_Termico",
+            "properties_si": {
+                "k": 0.23000000417232513,
+                "d": 1100.0,
+                "cp": 1000.0,
+                "thickness": 0.008999999612569809
+            }
+        },
+        {
+            "material_name": "1 pie LP métrico o catalán 40 mm menor G menor 60 mm",
+            "material_class": "Fábricas de ladrillo",
+            "asset_name": "1 pie LP métrico o catalán 40 mm menor G menor 60 mm_Termico",
+            "properties_si": {
+                "k": 0.6669999957084656,
+                "d": 1220.0,
+                "cp": 1000.0,
+                "thickness": 0.23999999463558197
+            }
+        }
+    ],
+    "MURO EXTERIOR": [
+        {
+            "material_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250",
+            "material_class": "Morteros",
+            "asset_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250_Termico",
+            "properties_si": {
+                "k": 0.550000011920929,
+                "d": 1125.0,
+                "cp": 1000.0,
+                "thickness": 0.029999999329447746
+            }
+        },
+        {
+            "material_name": "EPS Poliestireno Expandido ( 0.037 W-(mK))",
+            "material_class": "Aislantes",
+            "asset_name": "EPS Poliestireno Expandido ( 0.037 W-(mK))_Termico",
+            "properties_si": {
+                "k": 0.03750000149011612,
+                "d": 30.0,
+                "cp": 1000.0,
+                "thickness": 0.14000000059604645
+            }
+        },
+        {
+            "material_name": "1 pie LP métrico o catalán 40 mm menor G menor 60 mm",
+            "material_class": "Fábricas de ladrillo",
+            "asset_name": "1 pie LP métrico o catalán 40 mm menor G menor 60 mm_Termico",
+            "properties_si": {
+                "k": 0.6669999957084656,
+                "d": 1220.0,
+                "cp": 1000.0,
+                "thickness": 0.23999999463558197
+            }
+        },
+        {
+            "material_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250",
+            "material_class": "Morteros",
+            "asset_name": "Mortero de cemento o cal para albañilería y para revoco-enlucido d entre 1000 y 1250_Termico",
+            "properties_si": {
+                "k": 0.550000011920929,
+                "d": 1125.0,
+                "cp": 1000.0,
+                "thickness": 0.009999999776482582
+            }
+        },
+        {
+            "material_name": "Cámara de aire sin ventilar vertical 5 cm",
+            "material_class": "Cámaras de aire",
+            "asset_name": "Cámara de aire sin ventilar vertical 5 cm_Termico",
+            "properties_si": {
+                "k": 0.27777777087909233,
+                "d": 1.0,
+                "cp": 1000.0,
+                "thickness": 0.05000000074505806
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.014999999664723873
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.014999999664723873
+            }
+        }
+    ],
+    "SOL CAM SANIT": [
+        {
+            "material_name": "Hormigón en masa d entre 2000 y 2300",
+            "material_class": "Hormigones",
+            "asset_name": "Hormigón en masa d entre 2000 y 2300_Termico",
+            "properties_si": {
+                "k": 1.649999976158142,
+                "d": 2150.0,
+                "cp": 1000.0,
+                "thickness": 0.07999999821186066
+            }
+        },
+        {
+            "material_name": "Cloruro de polivinilo (PVC)",
+            "material_class": "Plásticos",
+            "asset_name": "Cloruro de polivinilo (PVC)_Termico",
+            "properties_si": {
+                "k": 0.17000000178813934,
+                "d": 1390.0,
+                "cp": 900.0,
+                "thickness": 0.003000000026077032
+            }
+        },
+        {
+            "material_name": "Arena y grava (d entre 1700 y 2200)",
+            "material_class": "Pétreos y suelos",
+            "asset_name": "Arena y grava (d entre 1700 y 2200)_Termico",
+            "properties_si": {
+                "k": 2.0,
+                "d": 1450.0,
+                "cp": 1050.0,
+                "thickness": 0.11999999731779099
+            }
+        }
+    ],
+    "TAB INT": [
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.013000000268220901
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.013000000268220901
+            }
+        },
+        {
+            "material_name": "MW Lana mineral (0.04 W-(mK))",
+            "material_class": "Aislantes",
+            "asset_name": "MW Lana mineral (0.04 W-(mK))_Termico",
+            "properties_si": {
+                "k": 0.04050000011920929,
+                "d": 40.0,
+                "cp": 1000.0,
+                "thickness": 0.03999999910593033
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.013000000268220901
+            }
+        },
+        {
+            "material_name": "Placa de yeso laminado (PYL) d entre 750 y 900",
+            "material_class": "Yesos",
+            "asset_name": "Placa de yeso laminado (PYL) d entre 750 y 900_Termico",
+            "properties_si": {
+                "k": 0.25,
+                "d": 825.0,
+                "cp": 1000.0,
+                "thickness": 0.013000000268220901
+            }
+        }
+    ]
+}

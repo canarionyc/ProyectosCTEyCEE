@@ -1,0 +1,443 @@
+NAME,THICKNESS,CONDUCTIVITY,DENSITY,SPECIFIC_HEAT,VAPOUR_DF,IMAGE,TYPE,GRUPO
+Basalto [2700 < d < 3000],0.02,3.5,2850,1000,10000,arcilla.bmp,C,Pétreos y suelos
+Granito [2500 < d < 2700],0.02,2.8,2600,1000,10000,arcilla.bmp,C,Pétreos y suelos
+Piedra pómez natural [d < 400],0.02,0.12,390,1000,6,arcilla.bmp,C,Pétreos y suelos
+Roca natural porosa [por ejem. Lava] d < 1600,0.02,0.55,1500,1000,15,arcilla.bmp,C,Pétreos y suelos
+Traquita andesita [2000 < d < 2700],0.02,1.1,2350,1000,15,arcilla.bmp,C,Pétreos y suelos
+Arcilla o limo [1200 < d < 1800],0.02,1.5,1500,2100,50,arcilla.bmp,C,Pétreos y suelos
+Arena y grava [1700 < d < 2200],0.02,2,1450,1050,50,arcilla.bmp,C,Pétreos y suelos
+Arenisca [2200 < d < 2600],0.02,3,2400,1000,50,arcilla.bmp,C,Pétreos y suelos
+Asperón [1900 < d < 2500],0.02,1.8,2200,1000,40,arcilla.bmp,C,Pétreos y suelos
+Asperón [1300 < d < 1900],0.02,0.9,1600,1000,20,arcilla.bmp,C,Pétreos y suelos
+Caliza muy dura [2200 < d < 2590],0.02,2.3,2395,1000,200,arcilla.bmp,C,Pétreos y suelos
+Caliza dura [2000 < d < 2190],0.02,1.7,2095,1000,150,arcilla.bmp,C,Pétreos y suelos
+Caliza dureza media [1800 < d < 1990],0.02,1.4,1895,1000,40,arcilla.bmp,C,Pétreos y suelos
+Caliza blanda [1600 < d < 1790],0.02,1.1,1695,1000,25,arcilla.bmp,C,Pétreos y suelos
+Caliza muy blanda [d < 1590],0.02,0.85,1500,1000,20,arcilla.bmp,C,Pétreos y suelos
+Silex [2600 < d < 2800],0.02,2.6,2700,1000,10000,arcilla.bmp,C,Pétreos y suelos
+Gneis Pórfido [2300 < d < 2900],0.02,3.5,2600,1000,10000,arcilla.bmp,C,Pétreos y suelos
+Esquisto Pizarra [2000 < d < 2800],0.02,2.2,2400,1000,800,arcilla.bmp,C,Pétreos y suelos
+Mármol [2600 < d < 2800],0.02,3.5,2700,1000,10000,arcilla.bmp,C,Pétreos y suelos
+Tierra vegetal [d < 2050],0.02,0.52,2000,1840,1,arcilla.bmp,C,Pétreos y suelos
+Piedra artificial,0.02,1.3,1700,1000,40,arcilla.bmp,C,Pétreos y suelos
+Tierra apisonada adobe bloques de tierra comprimida [1770 < d < 2000],0.02,1.1,1885,1000,1,arcilla.bmp,C,Pétreos y suelos
+Acero,0.02,50,7800,450,1000000000000000000000000000000,metales.bmp,C,Metales
+Acero Inoxidable,0.02,17,7900,460,1000000000000000000000000000000,metales.bmp,C,Metales
+Aluminio,0.02,230,2700,880,1000000000000000000000000000000,metales.bmp,C,Metales
+Aluminio aleaciones de,0.02,160,2800,880,1000000000000000000000000000000,metales.bmp,C,Metales
+Bronce,0.02,65,8700,380,1000000000000000000000000000000,metales.bmp,C,Metales
+Cobre,0.02,380,8900,380,1000000000000000000000000000000,metales.bmp,C,Metales
+Cromo,0.02,93.7,7160,449,1000000000000000000000000000000,metales.bmp,C,Metales
+Estaño,0.02,66.6,7310,227,1000000000000000000000000000000,metales.bmp,C,Metales
+Hierro,0.02,72,7870,450,1000000000000000000000000000000,metales.bmp,C,Metales
+Hierro fundición,0.02,50,7500,450,1000000000000000000000000000000,metales.bmp,C,Metales
+Latón,0.02,120,8400,380,1000000000000000000000000000000,metales.bmp,C,Metales
+Níquel,0.02,90.7,8900,444,1000000000000000000000000000000,metales.bmp,C,Metales
+Plomo,0.02,35,11300,130,1000000000000000000000000000000,metales.bmp,C,Metales
+Titanio,0.02,21.9,4500,522,1000000000000000000000000000000,metales.bmp,C,Metales
+Zinc,0.02,110,7200,380,1000000000000000000000000000000,metales.bmp,C,Metales
+Frondosa muy pesada [d > 870],0.02,0.29,900,1600,50,madera.bmp,C,Maderas
+Material_Base,0.075,1,3000,1000,10,,C,
+Frondosa pesada 750 < d < 870,0.02,0.23,775,1600,50,madera.bmp,C,Maderas
+Frondosade peso medio 565 < d < 750,0.02,0.18,660,1600,50,madera.bmp,C,Maderas
+Frondosa ligera 435 < d < 565,0.02,0.15,500,1600,50,madera.bmp,C,Maderas
+Frondosa muy ligera 200 < d < 435,0.02,0.13,320,1600,50,madera.bmp,C,Maderas
+Conífera muy pesada d >610,0.02,0.23,620,1600,20,madera.bmp,C,Maderas
+Conífera pesada 520 < d < 610,0.02,0.18,570,1600,20,madera.bmp,C,Maderas
+Conífera de peso medio 435 < d < 520,0.02,0.15,480,1600,20,madera.bmp,C,Maderas
+Conífera ligera d < 435,0.02,0.13,430,1600,20,madera.bmp,C,Maderas
+Balsa d < 200,0.02,0.057,180,1600,20,madera.bmp,C,Maderas
+Tablero contrachapado 700 < d < 900 ,0.02,0.24,800,1600,110,madera.bmp,C,Maderas
+Tablero contrachapado 600 < d < 750,0.02,0.21,675,1600,110,madera.bmp,C,Maderas
+Tablero contrachapado 500 < d < 600,0.02,0.17,550,1600,90,madera.bmp,C,Maderas
+Tablero contrachapado 450 < d < 500,0.02,0.15,475,1600,70,madera.bmp,C,Maderas
+Tablero contrachapado 350 < d < -450,0.02,0.13,400,1600,70,madera.bmp,C,Maderas
+Tablero contrachapado 250 < d < 350,0.02,0.11,300,1600,50,madera.bmp,C,Maderas
+Tablero contrachapado d < 250,0.02,0.09,200,1600,50,madera.bmp,C,Maderas
+Tablero de partículas 640 < d < 820,0.02,0.18,730,1700,20,madera.bmp,C,Maderas
+Tablero de partículas 450 < d < 640,0.02,0.15,545,1700,20,madera.bmp,C,Maderas
+Tablero de partículas 270 < d < 450,0.02,0.13,360,1700,20,madera.bmp,C,Maderas
+Tablero de partículas 180 < d < 270,0.02,0.1,225,1700,20,madera.bmp,C,Maderas
+Tablero de partículas con cemento d < 1200,0.02,0.23,1200,1500,30,madera.bmp,C,Maderas
+Tableros de fibras incluyendo MDF 750 < d < 1000,0.02,0.2,875,1700,20,madera.bmp,C,Maderas
+Tableros de fibras incluyendo MDF 550 < d < 750,0.02,0.18,650,1700,20,madera.bmp,C,Maderas
+Tableros de fibras incluyendo MDF 350 < d < 550,0.02,0.14,450,1700,12,madera.bmp,C,Maderas
+Tableros de fibras incluyendo MDF 200 < d < 350,0.02,0.1,275,1700,6,madera.bmp,C,Maderas
+Tableros de fibras incluyendo MDF d < 200,0.02,0.07,180,1700,2,madera.bmp,C,Maderas
+Paneles de fibras con conglomerante hidráulico 450 < d < 550,0.02,0.15,500,1700,12,madera.bmp,C,Maderas
+Paneles de fibras con conglomerante hidráulico 350 < d < 450,0.02,0.12,400,1700,5,madera.bmp,C,Maderas
+Paneles de fibras con conglomerante hidráulico 250 < d < 350,0.02,0.1,300,1700,5,madera.bmp,C,Maderas
+Tablero de virutas orientadas [OSB] d < 650,0.02,0.13,600,1700,30,madera.bmp,C,Maderas
+Corcho Comprimido ,0.02,0.1,450,1560,5,madera.bmp,C,Maderas
+Corcho Expandido puro 100 < d < 150,0.02,0.049,125,1560,5,madera.bmp,C,Maderas
+Corcho Expandido con resinas sintéticas 150 < d < 250,0.02,0.055,200,1560,5,madera.bmp,C,Maderas
+Corcho Expandido con resinas sintéticas 100 < d < 150,0.02,0.049,125,1560,5,madera.bmp,C,Maderas
+Placas de corcho,0.02,0.065,450,1500,20,madera.bmp,C,Maderas
+Hormigón armado d > 2500,0.02,2.5,2600,1000,80,hormigon.bmp,C,Hormigones
+Hormigón armado 2300 < d < 2500,0.02,2.3,2400,1000,80,hormigon.bmp,C,Hormigones
+Hormigón en masa 2300 < d < 2600,0.02,2,2450,1000,80,hormigon.bmp,C,Hormigones
+Hormigón en masa 2000 < d < 2300,0.02,1.65,2150,1000,70,hormigon.bmp,C,Hormigones
+Hormigón con áridos ligeros 1800 < d < 2000,0.02,1.35,1900,1000,60,hormigon.bmp,C,Hormigones
+Hormigón con áridos ligeros 1600 < d < 1800,0.02,1.15,1700,1000,60,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 2400,0.02,1.9,2400,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 2300,0.02,1.72,2300,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 2200,0.02,1.57,2200,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 2100,0.02,1.44,2100,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 2000,0.02,1.32,2000,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 1900,0.02,1.2,1900,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 1800,0.02,1.12,1800,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 1700,0.02,1.03,1700,1000,120,hormigon.bmp,C,Hormigones
+Hormigón convencional  d 1600,0.02,0.97,1600,1000,120,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida sin otros áridos d 700,0.02,0.22,700,1000,4,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida sin otros áridos d 600,0.02,0.19,600,1000,4,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida sin otros áridos d 500,0.02,0.16,500,1000,4,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida sin otros áridos d 400,0.02,0.13,400,1000,4,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1700,0.02,0.76,1700,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1600,0.02,0.68,1600,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1500,0.02,0.61,1500,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1400,0.02,0.55,1400,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1300,0.02,0.5,1300,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1200,0.02,0.44,1200,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1100,0.02,0.39,1100,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 1000,0.02,0.35,1000,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 900,0.02,0.3,900,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con arcilla expandida como árido principal d 800,0.02,0.27,800,1000,6,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 2000,0.02,1.5,2000,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1800,0.02,1.22,1800,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1600,0.02,0.59,1600,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1500,0.02,0.52,1500,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1400,0.02,0.46,1400,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1300,0.02,0.42,1300,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1200,0.02,0.37,1200,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1100,0.02,0.34,1100,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 1000,0.02,0.3,1000,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 900,0.02,0.27,900,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 800,0.02,0.65,800,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 700,0.02,0.74,700,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 600,0.02,0.83,600,1000,10,hormigon.bmp,C,Hormigones
+Hormigón con otros áridos ligeros d 500,0.02,0.94,500,1000,10,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 1000,0.02,0.29,1000,1000,6,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 900,0.02,0.27,900,1000,6,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 800,0.02,0.23,800,1000,6,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 700,0.02,0.2,700,1000,6,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 600,0.02,0.18,600,1000,6,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 500,0.02,0.14,500,1000,6,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 400,0.02,0.12,400,1000,6,hormigon.bmp,C,Hormigones
+Hormigón celular curado en autoclave d 300,0.02,0.09,300,1000,6,hormigon.bmp,C,Hormigones
+Teja de hormigón,0.02,1.5,2100,1000,60,hormigon.bmp,C,Hormigones
+Mortero de cemento o cal para albañilería y para revoco/enlucido d >2000,0.02,1.8,2100,1000,10,mortero.bmp,C,Morteros
+Mortero de cemento o cal para albañilería y para revoco/enlucido 1800 < d < 2000,0.02,1.3,1900,1000,10,mortero.bmp,C,Morteros
+Mortero de cemento o cal para albañilería y para revoco/enlucido 1600 < d < 1800,0.02,1,1525,1000,10,mortero.bmp,C,Morteros
+Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600,0.02,0.8,1525,1000,10,mortero.bmp,C,Morteros
+Mortero de cemento o cal para albañilería y para revoco/enlucido 1250 < d < 1450,0.02,0.7,1350,1000,10,mortero.bmp,C,Morteros
+Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250,0.02,0.55,1125,1000,10,mortero.bmp,C,Morteros
+Mortero de cemento o cal para albañilería y para revoco/enlucido 750 < d < 1000,0.02,0.4,875,1000,10,mortero.bmp,C,Morteros
+Mortero de cemento o cal para albañilería y para revoco/enlucido 500 < d < 750,0.02,0.3,625,1000,10,mortero.bmp,C,Morteros
+Mortero de áridos ligeros [vermiculita perlita],0.02,0.41,900,1000,10,mortero.bmp,C,Morteros
+Mortero de yeso,0.02,0.8,1500,1000,6,mortero.bmp,C,Morteros
+Yeso de alta dureza 1200 < d < 1500,0.02,0.56,1350,1000,4,mortero.bmp,C,Yesos
+Yeso de alta dureza 900 < d < 1200,0.02,0.43,1050,1000,4,mortero.bmp,C,Yesos
+Yeso dureza media 600 < d < 900,0.02,0.3,750,1000,4,mortero.bmp,C,Yesos
+Yeso baja dureza  d < 600,0.02,0.18,500,1000,4,mortero.bmp,C,Yesos
+Placa de yeso o escayola 750 < d < 900,0.02,0.25,825,1000,4,yeso.bmp,C,Yesos
+Placa de yeso laminado [PYL] 750 < d < 900,0.02,0.25,825,1000,4,yeso.bmp,C,Yesos
+Placas de yeso armado con fibras minerales 800 < d < 1000,0.02,0.25,900,1000,4,yeso.bmp,C,Yesos
+Enlucido de yeso 1000 < d < 1300,0.02,0.57,1150,1000,6,yeso.bmp,C,Enlucidos
+Enlucido de yeso d < 1000,0.02,0.4,900,1000,6,yeso.bmp,C,Enlucidos
+Enlucido de yeso aislante 600 < d < 900,0.02,0.3,750,1000,6,yeso.bmp,C,Enlucidos
+Enlucido de yeso aislante 500 < d < 600,0.02,0.18,550,1000,6,yeso.bmp,C,Enlucidos
+Acrílicos,0.02,0.2,1050,1500,10000,plastico.bmp,C,Plásticos
+Cloruro de polivinilo [PVC],0.02,0.17,1390,900,50000,plastico.bmp,C,Plásticos
+Linóleo,0.02,0.17,1200,1400,800,plastico.bmp,C,Plásticos
+Poliacetato,0.02,0.3,1410,1400,100000,plastico.bmp,C,Plásticos
+Poliamida [nylon] [PA],0.02,0.25,1150,1600,50000,plastico.bmp,C,Plásticos
+Poliamida 6.6 [PA6.6] 25%fibra vidrio,0.02,0.3,1450,1600,50000,plastico.bmp,C,Plásticos
+Policarbonatos [PC],0.02,0.2,1200,1200,5000,plastico.bmp,C,Plásticos
+Poliestireno [PS],0.02,0.16,1050,1300,100000,plastico.bmp,C,Plásticos
+Polietileno alta densidad [HDPE],0.02,0.5,980,1800,100000,plastico.bmp,C,Plásticos
+Polietileno baja densidad [LDPE],0.02,0.33,920,2200,100000,plastico.bmp,C,Plásticos
+Polimetilmetacrilato [PMMA],0.02,0.18,1180,1500,50000,plastico.bmp,C,Plásticos
+Polipropileno [PP],0.02,0.22,910,1800,10000,plastico.bmp,C,Plásticos
+Polipropileno 25%fibra vidrio,0.02,0.25,1200,1800,10000,plastico.bmp,C,Plásticos
+Politetrafluoretileno [PTFE],0.02,0.25,2200,1000,10000,plastico.bmp,C,Plásticos
+Poliuretano [PU],0.02,0.25,1200,1800,6000,plastico.bmp,C,Plásticos
+Resina epoxi,0.02,0.2,1200,1400,10000,plastico.bmp,C,Plásticos
+Resina fenolica,0.02,0.3,1300,1700,100000,plastico.bmp,C,Plásticos
+Resina poliéster no saturado [UP],0.02,0.19,1400,1200,10000,plastico.bmp,C,Plásticos
+Teja plástico,0.02,0.2,1000,1000,10000,plastico.bmp,C,Plásticos
+Teja cerámica-porcelana,0.02,1.3,2300,840,30,arcilla.bmp,C,Cerámicos
+Butadieno,0.02,0.25,980,1000,100000,asfalto.bmp,C,Cauchos
+Butilo [isobuteno] compacto/colado en caliente,0.02,0.24,1200,1400,200000,asfalto.bmp,C,Cauchos
+Caucho celular,0.02,0.06,70,1500,7000,asfalto.bmp,C,Cauchos
+Caucho natural,0.02,0.13,910,1100,10000,asfalto.bmp,C,Cauchos
+Caucho rigido [ebonita] sólido,0.02,0.17,1200,1400,1000000000000000000000000000000,asfalto.bmp,C,Cauchos
+Etileno propileno dieno monómero [EPDM],0.02,0.25,1150,1000,6000,asfalto.bmp,C,Cauchos
+Neopreno [policloropreno],0.02,0.23,1240,2140,10000,asfalto.bmp,C,Cauchos
+Poliisobutileno,0.02,0.2,930,1100,10000,asfalto.bmp,C,Cauchos
+Polisulfuro,0.02,0.4,1700,1000,10000,asfalto.bmp,C,Cauchos
+Cloruro de polivinilo [PVC] + 40% plastificante,0.02,0.14,1200,1000,100000,asfalto.bmp,C,Sellantes
+Espuma de polietileno,0.02,0.05,70,2300,100,asfalto.bmp,C,Sellantes
+Espuma de poliuretano [PU],0.02,0.05,70,1500,60,asfalto.bmp,C,Sellantes
+Espuma de silicona,0.02,0.12,750,1000,10000,asfalto.bmp,C,Sellantes
+Espuma elastomérica-flexible,0.02,0.05,70,1500,10000,asfalto.bmp,C,Sellantes
+Sílica gel [desecante],0.02,0.13,720,1000,1000000000000000000000000000000,asfalto.bmp,C,Sellantes
+Silicona masilla,0.02,0.5,1450,1000,5000,asfalto.bmp,C,Sellantes
+Silicona pura,0.02,0.35,1200,1000,5000,asfalto.bmp,C,Sellantes
+Uretano o poliuretano [rotura de puente térmico],0.02,0.21,1300,1800,60,asfalto.bmp,C,Sellantes
+Asfalto,0.02,0.7,2100,1000,50000,asfalto.bmp,C,Bituminosos
+Asfalto arenoso,0.02,0.15,2100,1000,50000,asfalto.bmp,C,Bituminosos
+Betún puro,0.02,0.17,1050,1000,50000,asfalto.bmp,C,Bituminosos
+Betún fieltro o lámina,0.02,0.23,1100,1000,50000,asfalto.bmp,C,Bituminosos
+Subcapa fieltro,0.02,0.05,120,1300,15,madera.bmp,C,Textiles
+Subcapa lana,0.02,0.06,200,1300,15,madera.bmp,C,Textiles
+Moquetas revestimientos textiles,0.02,0.06,200,1300,5,madera.bmp,C,Textiles
+Azulejo cerámico,0.02,1.3,2300,840,1000000000000000000000000000000,arcilla.bmp,C,Cerámicos
+Plaqueta o baldosa cerámica,0.02,1,2000,800,30,arcilla.bmp,C,Cerámicos
+Plaqueta o baldosa de gres,0.02,2.3,2500,1000,30,arcilla.bmp,C,Cerámicos
+Teja de arcilla cocida,0.02,1,2000,800,30,arcilla.bmp,C,Cerámicos
+Gres cuarzoso 2600 < d < 2800,0.02,2.6,2700,1000,30,arcilla.bmp,C,Cerámicos
+Gres(sílice) 2200 < d < 2590,0.02,2.3,2395,1000,30,arcilla.bmp,C,Cerámicos
+Gres calcáreo 2000 < d < 2700,0.02,1.9,2350,1000,20,arcilla.bmp,C,Cerámicos
+Sodocálcico [inc. Vidrio flotado],0.02,1,2500,750,1000000000000000000000000000000,camara.bmp,C,Vidrios
+Cuarzo,0.02,1.4,2200,750,1000000000000000000000000000000,camara.bmp,C,Vidrios
+Vidrio prensado,0.02,1.2,2000,750,1000000000000000000000000000000,camara.bmp,C,Vidrios
+EPS Poliestireno Expandido [ 0.029 W/[mK]],0.02,0.029,30,1000,20,aislante.bmp,C,Aislantes
+EPS Poliestireno Expandido [ 0.037 W/[mK]],0.02,0.0375,30,1000,20,aislante.bmp,C,Aislantes
+EPS Poliestireno Expandido [ 0.046 W/[mK]],0.02,0.046,30,1000,20,aislante.bmp,C,Aislantes
+XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]],0.02,0.034,37.5,1000,100,aislante.bmp,C,Aislantes
+XPS Expandido con dióxido de carbono CO3 [ 0.038 W/[mK]],0.02,0.038,37.5,1000,100,aislante.bmp,C,Aislantes
+XPS Expandido con dióxido de carbono CO4 [ 0.042 W/[mK]],0.02,0.042,37.5,1000,100,aislante.bmp,C,Aislantes
+XPS Expandido con hidrofluorcarbonos HFC [ 0.025 W/[mK]],0.02,0.025,37.5,1000,100,aislante.bmp,C,Aislantes
+XPS Expandido con hidrofluorcarbonos HFC [ 0.032 W/[mK]],0.02,0.032,37.5,1000,100,aislante.bmp,C,Aislantes
+XPS Expandido con hidrofluorcarbonos HFC [ 0.039 W/[mK]],0.02,0.039,37.5,1000,100,aislante.bmp,C,Aislantes
+MW Lana mineral [0.031 W/[mK]],0.02,0.031,40,1000,1,aislante.bmp,C,Aislantes
+MW Lana mineral [0.04 W/[mK]],0.02,0.0405,40,1000,1,aislante.bmp,C,Aislantes
+MW Lana mineral [0.05 W/[mK]],0.02,0.05,40,1000,1,aislante.bmp,C,Aislantes
+PUR Proyección con Hidrofluorcarbono HFC [ 0.028 W/[mK]],0.02,0.028,45,1000,60,aislante.bmp,C,Aislantes
+PUR Proyección con CO2 celda cerrada [ 0.032 W/[mK]],0.02,0.032,50,1000,100,aislante.bmp,C,Aislantes
+PUR Proyección con CO2 celda cerrada [ 0.035 W/[mK]],0.02,0.035,50,1000,100,aislante.bmp,C,Aislantes
+PUR Plancha con HFC o Pentano y rev. permeable gases [ 0.027 W/[mK]],0.02,0.027,45,1000,60,aislante.bmp,C,Aislantes
+PUR Plancha con  HFC o Pentano y rev. permeable a gases [ 0.03 W/[mK]],0.02,0.03,45,1000,60,aislante.bmp,C,Aislantes
+PUR Plancha con  HFC o Pentano y rev. impermeable a gases [ 0.025 W/[mK]],0.02,0.025,45,1000,1000000000000000000000000000000,aislante.bmp,C,Aislantes
+PUR Inyección en tabiquería con dióxido de carbono CO2,0.02,0.04,17.5,1000,20,aislante.bmp,C,Aislantes
+Arcilla Expandida [árido suelto],0.02,0.148,537.5,1000,1,aislante.bmp,C,Aislantes
+Panel de perlita expandida  [EPB] [>80%],0.02,0.062,190,1000,5,aislante.bmp,C,Aislantes
+Panel de vidrio celular [CG],0.02,0.05,125,1000,1000000000000000000000000000000,aislante.bmp,C,Aislantes
+Tabique de LH sencillo [40 mm < Espesor < 60 mm],0.04,0.445,1000,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+Tabicón de LH doble  [60 mm < E < 90 mm],0.06,0.432,930,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+Tabicón de LH triple [100 mm < E < 110 mm],0.1,0.427,920,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+Tabique de LH sencillo Gran Formato [40 mm < E < 60 mm],0.04,0.228,670,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+Tabicón de LH doble Gran Formato 60 mm < E < 90 mm,0.06,0.212,630,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+Tabicón de LH triple Gran Formato 100 mm < E < 110 mm,0.1,0.206,620,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1/2 pie LP métrico o catalán 40 mm< G < 60 mm,0.115,0.667,1140,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1/2 pie LP métrico o catalán 60 mm< G < 80 mm,0.115,0.567,1020,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1/2 pie LP métrico o catalán 80 mm< G < 100 mm,0.115,0.512,900,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1 pie LP métrico o catalán 40 mm< G < 60 mm,0.24,0.667,1220,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1 pie LP métrico o catalán 60 mm< G < 80 mm,0.24,0.567,1150,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1 pie LP métrico o catalán 80 mm< G < 100 mm,0.24,0.512,1000,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1/2 pie LM métrico o catalán 40 mm< G < 50 mm,0.115,0.991,2170,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+1 pie LM métrico o catalán 40 mm< G < 50 mm,0.24,1.03,2140,1000,10,ladrillo.bmp,C,Fábricas de ladrillo
+BC con mortero convencional  espesor 140 mm,0.14,0.443,1170,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BC con mortero convencional  espesor 190 mm,0.19,0.433,1080,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BC con mortero convencional  espesor 240 mm,0.24,0.424,1090,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BC con mortero convencional  espesor 290 mm,0.29,0.421,1080,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BC con mortero aislante  espesor 140 mm,0.14,0.324,1020,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BC con mortero aislante  espesor 190 mm,0.19,0.306,910,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BC con mortero aislante  espesor 240 mm,0.24,0.298,920,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BC con mortero aislante  espesor 290 mm,0.29,0.295,910,1000,10,ladrillo.bmp,C,Fábricas de bloque cerámico de arcilla aligerada
+BH convencional espesor 100 mm,0.1,0.632,1210,1000,10,ladrillo.bmp,C,Fábricas de bloque de hormigón convencional
+BH convencional espesor 150 mm,0.15,0.789,1040,1000,10,ladrillo.bmp,C,Fábricas de bloque de hormigón convencional
+BH convencional espesor 200 mm,0.2,0.923,860,1000,10,ladrillo.bmp,C,Fábricas de bloque de hormigón convencional
+BH convencional espesor 250 mm,0.25,1.007,685,1000,10,ladrillo.bmp,C,Fábricas de bloque de hormigón convencional
+BH convencional espesor 300 mm,0.3,1.16,585,1000,10,ladrillo.bmp,C,Fábricas de bloque de hormigón convencional
+BH aligerado macizo espesor 200 mm,0.2,0.287,840,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado macizo espesor 250 mm,0.25,0.3,850,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado macizo espesor 300 mm,0.3,0.317,860,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado macizo -muro de carga- espesor 300 mm,0.3,0.338,940,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado macizo -muro de carga- espesor 300 mm mortero aligerado,0.3,0.287,910,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado hueco espesor 250 mm,0.25,0.472,760,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado hueco espesor 300 mm,0.3,0.454,1050,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado hueco -muro de carga- espesor 300 mm,0.3,0.475,1160,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+BH aligerado hueco -muro de carga- espesor 300 mm motero aligerado,0.3,0.421,1100,1000,6,ladrillo.bmp,C,Fábricas de bloque de hormigón aligerado
+FU Entrevigado cerámico -Canto 250 mm,0.25,0.908,1220,1000,10,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado cerámico -Canto 300 mm,0.3,0.846,1110,1000,10,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado cerámico -Canto 350 mm,0.35,0.995,1030,1000,10,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón  -Canto 250 mm,0.25,1.323,1330,1000,80,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón  -Canto 300 mm,0.3,1.422,1240,1000,80,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón  -Canto 350 mm,0.35,1.528,1180,1000,80,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado -Canto 250 mm,0.25,1.02,1180,1000,6,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado -Canto 300 mm,0.3,1.128,1090,1000,7,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado -Canto 350 mm,0.35,1.211,1035,1000,8,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado - Canto 400 mm,0.4,1.311,985,1000,9,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado d< 1200 -Canto 250 mm,0.25,1.121,1180,1000,6,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado d< 1200 -Canto 300 mm,0.3,1.22,1090,1000,7,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado d< 1200 -Canto 350 mm,0.35,1.311,1035,1000,8,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de hormigón aligerado d< 1200 - Canto 400 mm,0.4,1.408,985,1000,9,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS mecanizado enrasado -Canto 250 mm,0.25,0.266,800,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS mecanizado enrasado -Canto 300 mm,0.3,0.256,750,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS mecanizado enrasado -Canto 350 mm,0.35,0.255,700,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS moldeado enrasado -Canto 250 mm,0.25,0.313,790,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS moldeado enrasado -Canto 300 mm,0.3,0.341,740,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS moldeado enrasado -Canto 350 mm,0.35,0.368,690,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS moldeado descolgado -Canto 250 mm,0.25,0.176056338028169,710,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS moldeado descolgado -Canto 300 mm,0.3,0.2,670,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FU Entrevigado de EPS moldeado descolgado -Canto 350 mm,0.35,0.222929936305732,640,1000,60,ladrillo.bmp,C,Forjados unidireccionales
+FR FR Entrevigado cerámico -Canto 250 mm ,0.25,1.64,1660,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado cerámico -Canto 300 mm ,0.3,1.678,1580,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado cerámico -Canto 350 mm ,0.35,1.717,1520,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón  -Canto 250 mm,0.25,1.901,1740,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón  -Canto 300 mm,0.3,1.947,1670,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón  -Canto 350 mm,0.35,1.995,1610,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón  -Canto 400 mm,0.4,2.043,1570,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón  -Canto 450 mm,0.45,2.091,1540,1000,10,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón aligerado -Canto 250 mm ,0.25,1.788,1645,1000,6,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón aligerado -Canto 300 mm ,0.3,1.838,1570,1000,6,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón aligerado -Canto 350 mm ,0.35,1.89,1515,1000,6,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón aligerado -Canto 400 mm ,0.4,1.936,1480,1000,6,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de hormigón aligerado - Canto 450 mm,0.45,1.986,1455,1000,6,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS mecanizado enrasado -Canto 300 mm ,0.3,0.667,1470,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS mecanizado enrasado -Canto 350 mm ,0.35,0.707,1420,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS mecanizado enrasado - Canto 400 mm ,0.4,0.741,1390,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS mecanizado enrasado -Canto 450 mm,0.45,0.769,1360,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado enrasado  -Canto 300 mm ,0.3,1.056,1460,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado enrasado -Canto 350 mm ,0.35,1.065,1420,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado enrasado -Canto 400 mm,0.4,1.073,1380,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado enrasado -Canto 450 mm,0.45,1.079,1360,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado descolgado -Canto 300 mm,0.3,0.357142857142857,1330,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado descolgado -Canto 350 mm,0.35,0.402298850574713,1310,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado descolgado -Canto 400 mm,0.4,0.43956043956044,1290,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Entrevigado de EPS moldeado descolgado -Canto 450 mm,0.45,0.478723404255319,1280,1000,60,ladrillo.bmp,C,Forjados reticulares
+FR Sin Entrevigado -Canto 250 mm,0.25,4.167,2350,1000,80,ladrillo.bmp,C,Forjados reticulares
+FR Sin Entrevigado -Canto 300 mm,0.3,4.286,2350,1000,80,ladrillo.bmp,C,Forjados reticulares
+FR Sin Entrevigado -Canto 350 mm,0.35,4.651,2350,1000,80,ladrillo.bmp,C,Forjados reticulares
+Sin capa de compresión -Canto 200 mm,0.2,1.404,1410,1000,80,ladrillo.bmp,C,Losas alveolares
+Sin capa de compresión -Canto 250 mm,0.25,1.56,1380,1000,80,ladrillo.bmp,C,Losas alveolares
+Sin capa de compresión -Canto 300 mm,0.3,1.618,1290,1000,80,ladrillo.bmp,C,Losas alveolares
+Sin capa de compresión -Canto 350 mm,0.35,1.698,1180,1000,80,ladrillo.bmp,C,Losas alveolares
+Sin capa de compresión -Canto 400 mm,0.4,1.8,1180,1000,80,ladrillo.bmp,C,Losas alveolares
+Sin capa de compresión -Canto 500 mm,0.5,2.02,1120,1000,80,ladrillo.bmp,C,Losas alveolares
+Con capa de compresión -Canto 200 mm,0.2,1.404,1810,1000,80,ladrillo.bmp,C,Losas alveolares
+Con capa de compresión -Canto 250 mm,0.25,1.56,1580,1000,80,ladrillo.bmp,C,Losas alveolares
+Con capa de compresión -Canto 300 mm,0.3,1.618,1530,1000,80,ladrillo.bmp,C,Losas alveolares
+Con capa de compresión -Canto 350 mm,0.35,1.698,1440,1000,80,ladrillo.bmp,C,Losas alveolares
+Con capa de compresión -Canto 400 mm,0.4,1.8,1320,1000,80,ladrillo.bmp,C,Losas alveolares
+Con capa de compresión -Canto 500 mm,0.5,2.02,1300,1000,80,ladrillo.bmp,C,Losas alveolares
+Cámara de aire sin ventilar horizontal 1 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire sin ventilar horizontal 2 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire sin ventilar horizontal 5 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire sin ventilar horizontal 10 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire sin ventilar vertical 1 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire sin ventilar vertical 2 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire sin ventilar vertical 5 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire sin ventilar vertical 10 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada horizontal 1 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada horizontal 2 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada horizontal 5 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada horizontal 10 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada vertical 1 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada vertical 2 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada vertical 5 cm,,,,,1,camara.bmp,C,Cámaras de aire
+Cámara de aire ligeramente ventilada vertical 10 cm,,,,,1,camara.bmp,C,Cámaras de aire
+AT,0.05,0.03,30,1000,10,aislante.bmp,C,Añadidos a la BDC
+AislanteTermicoCalculado,0.05,0.03,30,1000,10,aislante.bmp,C,Añadidos a la BDC
+FR Entrevigado de EPS moldeado enrasado -Canto 250 mm ,0.25,1.1905,1280,1000,60,ladrillo.bmp,C,Forjados reticulares
+cascote de ladrillo,0.115,0.41,1300,1000,10,arcilla.bmp,C,Pétreos y suelos
+XPS Expandido con hidrofluorcarbonos HFC [ 0.029 W/[mK]],,0.029,37.5,1000,20,,C,Aislantes
+Ladrillo de hormigón perforado de áridos densos,0.12,1.09091,1258,1000,10,,C,Fábricas de ladrillo
+Ladrillo de hormigón macizo de áridos densos,0.12,1.71429,1800,1000,10,,C,Fábricas de ladrillo
+Ladrillo de hormigón perforado de áridos ligeros,0.1225,0.39516,1183,1000,6,,C,Fábricas de ladrillo
+BH hueco con áridos densos 50 mm,0.05,1,2090,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 60 mm,0.06,0.85714,1552,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 80 mm,0.08,0.8,1514,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 90 mm,0.09,0.5625,1400,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 110 mm,0.11,0.64706,1300,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 140 mm,0.14,0.73684,1200,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 190 mm,0.19,0.86364,1100,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 240 mm,0.24,0.96,1100,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH hueco con áridos densos 290 mm,0.29,1.11538,1000,1000,10,,C,Fábricas de bloque de hormigón convencional
+BH perforado con áridos ligeros 80 mm,0.08,0.17778,1220,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH perforado con áridos ligeros 90 mm,0.09,0.17308,1150,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH perforado con áridos ligeros 110 mm,0.11,0.18644,1095,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH perforado con áridos ligeros 140 mm,0.14,0.20588,1000,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH perforado con áridos ligeros 190 mm,0.19,0.25333,950,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH perforado con áridos ligeros 240 mm,0.24,0.28916,850,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH perforado con áridos ligeros 290 mm,0.29,0.30526,860,1000,6,,C,Fábricas de bloque de hormigón aligerado
+"BH perforado con áridos ligeros 290 mm, muro de carga",0.29,0.32584,970,1000,6,,C,Fábricas de bloque de hormigón aligerado
+"BH perforado con áridos ligeros 290 mm, muro de carga con mortero aislante",0.29,0.27619,910,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH macizo con áridos ligeros 140 mm,0.14,0.175,1134,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH macizo con áridos ligeros 170 mm,0.17,0.30909,1450,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH macizo con áridos ligeros 240 mm,0.24,0.26374,900,1000,6,,C,Fábricas de bloque de hormigón aligerado
+BH macizo con áridos ligeros 290 mm,0.29,0.30526,1050,1000,6,,C,Fábricas de bloque de hormigón aligerado
+"BH macizo con áridos ligeros 290 mm, muro de carga",0.29,0.46032,1160,1000,6,,C,Fábricas de bloque de hormigón aligerado
+"BH macizo con áridos ligeros 290 mm, muro de carga con mortero aislante",0.29,0.40845,1100,1000,6,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón de 90 mm con cámara simple,0.09,0.40909,1200,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón de 120 mm con cámara doble,0.12,0.46154,1100,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón de 150 mm con cámara doble,0.15,0.42857,1150,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón de 200 mm con cámara doble,0.2,0.5,1000,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón de 250 mm con cámara doble,0.25,0.55556,900,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón de 250 mm con cámara triple,0.25,0.5,1000,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón aligerado de 90 mm con cámara simple,0.09,0.33333,1000,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón aligerado de 120 mm con cámara doble,0.12,0.3871,900,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón aligerado de 150 mm con cámara doble,0.15,0.34884,950,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón aligerado de 200 mm con cámara doble,0.2,0.41667,900,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón aligerado de 250 mm con cámara doble,0.25,0.46296,800,800,10,,C,Fábricas de bloque de hormigón aligerado
+bloque de picón aligerado de 250 mm con cámara triple,0.25,0.40323,900,800,10,,C,Fábricas de bloque de hormigón aligerado
+FU entrevigado de picón de canto 300 mm,0.3,0.88235,1273,800,80,,C,Forjados unidireccionales
+FU entrevigado de picón de canto 350 mm,0.35,0.97222,1306,800,80,,C,Forjados unidireccionales
+FR entrevigado de hormigón d < 1200 con áridos ligeros de canto 250 mm,0.25,1.78571,1238,1000,6,,C,Forjados reticulares
+FR entrevigado de hormigón d < 1200 con áridos ligeros de canto 300 mm,0.3,1.875,1185,1000,6,,C,Forjados reticulares
+FR entrevigado de hormigón d < 1200 con áridos ligeros de canto 350 mm,0.35,1.84211,1138,1000,6,,C,Forjados reticulares
+FR entrevigado de hormigón d < 1200 con  áridos ligeros de canto 400 mm,0.4,1.90476,1115,1000,6,,C,Forjados reticulares
+FR entrevigado de hormigón d < 1200 con áridos ligeros de canto 450 mm,0.45,1.95652,1092,1000,6,,C,Forjados reticulares
+FR entrevigado de EPS mecanizado enrasado de canto 250 mm,0.25,1.19048,1280,1000,60,,C,Forjados reticulares
+FR entrevigado de EPS moldeado enrasado de canto 250 mm,0.25,1.25,1280,1000,60,,C,Forjados reticulares
+FR entrevigado de EPS moldeado descolgado de canto 250 mm,0.25,0.30488,1140,1000,60,,C,Forjados reticulares
+losa de hormigón d = 2500 y canto 200 mm,0.2,2.5,2500,1000,80,,C,Losas alveolares
+losa de hormigón d = 2500 y canto 250 mm,0.25,2.5,2500,1000,80,,C,Losas alveolares
+losa de hormigón d = 2500 y canto 300 mm,0.3,2.5,2500,1000,80,,C,Losas alveolares
+losa de hormigón d = 2500 y canto 350 mm,0.35,2.5,2500,1000,80,,C,Losas alveolares
+losa de hormigón d = 2500 y canto 400 mm,0.4,2.5,2500,1000,80,,C,Losas alveolares
+losa de hormigón d = 2500 y canto 500 mm,0.5,2.5,2500,1000,80,,C,Losas alveolares
+losa de hormigón d = 2000 y canto 200 mm,0.2,1.66667,2000,1000,80,,C,Losas alveolares
+losa de hormigón d = 2000 y canto 250 mm,0.25,1.66667,2000,1000,80,,C,Losas alveolares
+losa de hormigón d = 2000 y canto 300 mm,0.3,1.66667,2000,1000,80,,C,Losas alveolares
+losa de hormigón d = 2000 y canto 350 mm,0.35,1.66667,2000,1000,80,,C,Losas alveolares
+losa de hormigón d = 2000 y canto 400 mm,0.4,1.66667,2000,1000,80,,C,Losas alveolares
+losa de hormigón d = 2000 y canto 500 mm,0.5,1.66667,2000,1000,80,,C,Losas alveolares
+FU entrevigado cerámico con canto de 210 mm,0.21,0.84,1338,,10,,C,Forjados unidireccionales
+FU con viguetas de madera con entrevigado de revoltón de ladrillo y cascote con canto mínimo de 12 cm,0.31,1.33506,840,,5,,C,Forjados unidireccionales
+Tierra cruda con densidad 800 kg/m3,,0.3,800,1000,3,,C,Pétreos y suelos
+Tierra cruda con densidad 1000 kg/m3,,0.4,1000,1000,3,,C,Pétreos y suelos
+Tierra cruda con densidad 1200 kg/m3,,0.5,1200,1000,3,,C,Pétreos y suelos
+Tierra cruda con densidad 1400 kg/m3,,0.6,1400,1000,3,,C,Pétreos y suelos
+Tierra cruda con densidad 1600 kg/m3,,0.8,1600,1000,3,,C,Pétreos y suelos
+Tierra cruda con densidad 1800 kg/m3,,1,1800,1000,3,,C,Pétreos y suelos
+Tierra cruda con densidad 2000 kg/m3,,1.2,2000,1000,3,,C,Pétreos y suelos
+relleno de cascote de ladrillo,,0.41,1300,,10,,C,Pétreos y suelos
+"Cámara de aire ventilada, flujo ascendente",0.03,,,,1,,C,Cámaras de aire
+"Cámara de aire ventilada, flujo descendente",0.03,,,,1,,C,Cámaras de aire
+"Cámara de aire ventilada, flujo horizontal",0.03,,,,1,,C,Cámaras de aire
+Tablero cerámico,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Ladrillo perforado de hormigón,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de picón de 80 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de picón de 120 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de picón de 200 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de picón de 250 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de picón de 290 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Cámara de aire ventilada,,,,,1,camara.bmp,C,Añadidos a la BDC
+Aquí va el aislante,,,,,1,aislante.bmp,C,Añadidos a la BDC
+Aquí va el aislamiento acústico,,,,,1,aislante.bmp,C,Añadidos a la BDC
+Bloque de hormigon AD 80 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AD 150 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AD 200 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AD 250 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AD 290 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-P 80 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-P 150 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-P 200 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-P 250 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-P 290 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-M 150 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-M 170 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-M 250 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC
+Bloque de hormigon AL-M 300 mm,,,,,10,ladrillo.bmp,C,Añadidos a la BDC

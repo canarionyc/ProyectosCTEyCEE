@@ -1,0 +1,238 @@
+{
+  "Uuid": "716783cd-74da-49a1-a0b3-3722cb3b8b87",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Materials_and_Types",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "Code": "# -*- coding: utf-8 -*-\r\nimport sys\r\nimport clr\r\n\r\ntry:\r\n    clr.AddReference('RevitAPI')\r\n    clr.AddReference('RevitServices')\r\n    from Autodesk.Revit.DB import *\r\n    from RevitServices.Persistence import DocumentManager\r\n    from RevitServices.Transactions import TransactionManager\r\n    doc = DocumentManager.Instance.CurrentDBDocument\r\n    IN_REVIT = True\r\nexcept ImportError:\r\n    IN_REVIT = False\r\n    print(\"This script must be run inside Revit.\")\r\n\r\n# ========================================================\r\n# 1. MATERIALS & OPAQUE CONSTRUCTIONS (Updated with TAG)\r\n# ========================================================\r\n# Added the \"CTE\" tag to the logic\r\nTAG_VALUE = \"CTE\"\r\n\r\nPDF_CONSTRUCTIONS = {\r\n    \"MURO EXTERIOR\": {\r\n        \"category\": \"Wall\",\r\n        \"layers\": [\r\n            (\"Mortero de cemento\", 0.03, 0.550),\r\n            (\"EPS Poliestireno\", 0.14, 0.038),\r\n            (\"1 pie LP métrico o catalán\", 0.24, 0.667),\r\n            (\"Mortero de cemento\", 0.01, 0.550),\r\n            (\"Cámara de aire sin ventilar vertical\", 0.05, 0.180),\r\n            (\"Placa de yeso laminado\", 0.015, 0.250),\r\n            (\"Placa de yeso laminado\", 0.015, 0.250)\r\n        ]\r\n    },\r\n    \"MURO DE CÁMARA SANITARIA\": {\r\n        \"category\": \"Wall\",\r\n        \"layers\": [\r\n            (\"Betún fieltro o lámina\", 0.009, 0.230),\r\n            (\"1 pie LP métrico o catalán\", 0.24, 0.667)\r\n        ]\r\n    },\r\n    \"TABIQUE INTERIOR\": {\r\n        \"category\": \"Wall\",\r\n        \"layers\": [\r\n            (\"Placa de yeso laminado\", 0.013, 0.250),\r\n            (\"Placa de yeso laminado\", 0.013, 0.250),\r\n            (\"MW Lana mineral\", 0.04, 0.041),\r\n            (\"Placa de yeso laminado\", 0.013, 0.250),\r\n            (\"Placa de yeso laminado\", 0.013, 0.250)\r\n        ]\r\n    },\r\n    \"FORJADO INTERIOR (ACOND-ACOND)\": {\r\n        \"category\": \"Floor\",\r\n        \"layers\": [\r\n            (\"Plaqueta de gres\", 0.01, 2.300),\r\n            (\"Mortero de cemento\", 0.05, 0.550),\r\n            (\"Mortero de cemento de difusión\", 0.065, 0.550),\r\n            (\"XPS Expandido\", 0.06, 0.034),\r\n            (\"FU entrevigado cerámico\", 0.25, 0.908),\r\n            (\"Cámara de aire sin ventilar horizontal\", 0.05, 0.160),\r\n            (\"Placa de yeso laminado\", 0.015, 0.250)\r\n        ]\r\n    },\r\n    \"FORJADO INTERIOR (ACOND-NO HAB)\": {\r\n        \"category\": \"Floor\",\r\n        \"layers\": [\r\n            (\"Plaqueta de gres\", 0.01, 2.300),\r\n            (\"Mortero de cemento\", 0.055, 0.550),\r\n            (\"XPS Expandido\", 0.12, 0.034),\r\n            (\"FU entrevigado cerámico\", 0.25, 0.908),\r\n            (\"Cámara de aire sin ventilar horizontal\", 0.05, 0.160),\r\n            (\"Placa de yeso laminado\", 0.015, 0.250)\r\n        ]\r\n    },\r\n    \"FORJADO CON CÁMARA SANITARIA\": {\r\n        \"category\": \"Floor\",\r\n        \"layers\": [\r\n            (\"Plaqueta de gres\", 0.01, 2.300),\r\n            (\"Mortero de cemento\", 0.025, 0.550),\r\n            (\"Mortero de cemento de difusión\", 0.06, 0.550),\r\n            (\"XPS Expandido\", 0.10, 0.034),\r\n            (\"Forjado Entrevigado EPS mecanizado\", 0.30, 0.256),\r\n            (\"Lámina de cloruro de polivinilo (PVC)\", 0.005, 0.170)\r\n        ]\r\n    },\r\n    \"SOLERA DE CÁMARA SANITARIA\": {\r\n        \"category\": \"Floor\",\r\n        \"layers\": [\r\n            (\"Hormigón en masa\", 0.08, 1.650),\r\n            (\"Lámina PVC\", 0.003, 0.170),\r\n            (\"Arena y grava\", 0.12, 2.000)\r\n        ]\r\n    },\r\n    \"CUBIERTA INCLINADA DE TEJA\": {\r\n        \"category\": \"Roof\",\r\n        \"layers\": [\r\n            (\"Teja de arcilla cocida\", 0.015, 1.000),\r\n            (\"Cámara aire ventilada, flujo ascend.\", 0.05, 0.060),\r\n            (\"XPS Expandido\", 0.16, 0.034),\r\n            (\"Betún fieltro o lámina\", 0.01, 0.230),\r\n            (\"Forjado Entrevigado EPS mecanizado\", 0.25, 0.266),\r\n            (\"Placa de yeso laminado\", 0.015, 0.250)\r\n        ]\r\n    }\r\n}\r\n\r\n# ========================================================\r\n# 2. OPENINGS (WINDOWS & DOORS) FROM PDF\r\n# ========================================================\r\n# Data extracted from PDF pages 38-40\r\nOPENINGS_DATA = {\r\n    \"Ventana N-E (CTE)\": {\r\n        \"category\": BuiltInCategory.OST_Windows,\r\n        \"description\": \"Vidrio: 4-16Ar-4 (Low-E <0.03), Ug=1.0, g=0.61 | Marco: PVC, Uf=1.5\",\r\n        \"u_val\": 1.5, # Approximate total Uw or Frame U\r\n        \"tag\": \"CTE\"\r\n    },\r\n    \"Ventana S-O (CTE)\": {\r\n        \"category\": BuiltInCategory.OST_Windows,\r\n        \"description\": \"Vidrio: 4-16Ar-4 (Low-E <0.03), Ug=1.0, g=0.42 | Marco: PVC, Uf=1.5\",\r\n        \"u_val\": 1.5,\r\n        \"tag\": \"CTE\"\r\n    },\r\n    \"Lucernario S-E (CTE)\": {\r\n        \"category\": BuiltInCategory.OST_Windows, # Usually modeled as Windows or Roof Windows\r\n        \"description\": \"Vidrio: 4-16Ar-4, Ug=1.0, g=0.42 | Marco: Madera, Uf=2.4\",\r\n        \"u_val\": 2.4,\r\n        \"tag\": \"CTE\"\r\n    },\r\n    \"Lucernario N (CTE)\": {\r\n        \"category\": BuiltInCategory.OST_Windows,\r\n        \"description\": \"Vidrio: 4-16Ar-4, Ug=1.0, g=0.61 | Marco: Madera, Uf=2.4\",\r\n        \"u_val\": 2.4,\r\n        \"tag\": \"CTE\"\r\n    },\r\n    \"Puerta Acceso (CTE)\": {\r\n        \"category\": BuiltInCategory.OST_Doors,\r\n        \"description\": \"Marco: Madera Densidad Media-Alta, Uf=2.2 | Opaca\",\r\n        \"u_val\": 2.2,\r\n        \"tag\": \"CTE\"\r\n    }\r\n}\r\n\r\n# ========================================================\r\n# HELPER FUNCTIONS\r\n# ========================================================\r\ndef m2ft(meters):\r\n    return meters * 3.28084\r\n\r\ndef ensure_thermal_asset(doc, mat_element, k_val_si):\r\n    therm_id = mat_element.ThermalAssetId\r\n    if therm_id != ElementId.InvalidElementId: return\r\n\r\n    try:\r\n        asset_name = \"Thermal_\" + mat_element.Name\r\n        t_asset = ThermalAsset(asset_name, ThermalMaterialType.Solid)\r\n        val_internal = k_val_si * 0.3048\r\n        t_asset.ThermalConductivity = val_internal\r\n        pse = PropertySetElement.Create(doc, t_asset)\r\n        mat_element.ThermalAssetId = pse.Id\r\n    except Exception as e:\r\n        print(f\"Warning: Thermal set failed for {mat_element.Name}: {e}\")\r\n\r\ndef get_or_create_material(doc, mat_name, k_val):\r\n    col = FilteredElementCollector(doc).OfClass(Material)\r\n    found_mat = None\r\n    for m in col:\r\n        if m.Name == mat_name:\r\n            found_mat = m\r\n            break\r\n    \r\n    if not found_mat:\r\n        new_id = Material.Create(doc, mat_name)\r\n        found_mat = doc.GetElement(new_id)\r\n    \r\n    # 1. Ensure Thermal\r\n    ensure_thermal_asset(doc, found_mat, k_val)\r\n    \r\n    # 2. Ensure TAG (Comments)\r\n    try:\r\n        p_comm = found_mat.get_Parameter(BuiltInParameter.ALL_MODEL_DESCRIPTION) # Description\r\n        # Or Comments: BuiltInParameter.ALL_MODEL_INSTANCE_COMMENTS \r\n        # Materials use ALL_MODEL_INSTANCE_COMMENTS for \"Comments\" field in UI? No, usually distinct.\r\n        # Let's try finding parameter by name to be safe/lazy, or use specific BuiltIn\r\n        \r\n        # In Revit Materials, the \"Comments\" field is 'ALL_MODEL_INSTANCE_COMMENTS'\r\n        p = found_mat.get_Parameter(BuiltInParameter.ALL_MODEL_INSTANCE_COMMENTS)\r\n        if p and not p.IsReadOnly:\r\n            p.Set(TAG_VALUE)\r\n    except:\r\n        pass\r\n        \r\n    return found_mat.Id\r\n\r\ndef get_template_type(doc, kind):\r\n    # Kind is 'Wall', 'Floor', 'Roof'\r\n    def get_safe_name(elem):\r\n        try:\r\n            p = elem.get_Parameter(BuiltInParameter.SYMBOL_NAME_PARAM)\r\n            if p and p.HasValue: return p.AsString()\r\n            return elem.Name\r\n        except: return \"UNKNOWN\"\r\n\r\n    col = FilteredElementCollector(doc)\r\n    if kind == 'Wall': col.OfClass(WallType)\r\n    elif kind == 'Floor': col.OfClass(FloorType)\r\n    elif kind == 'Roof': col.OfClass(RoofType)\r\n    col.WhereElementIsElementType()\r\n    \r\n    elements = list(col.ToElements())\r\n    selected = None\r\n    \r\n    for t in elements:\r\n        nm = get_safe_name(t)\r\n        if \"Generic\" in nm or \"Genérico\" in nm or \"Default\" in nm:\r\n            selected = t\r\n            break\r\n            \r\n    if not selected and elements: selected = elements[0]\r\n    return selected\r\n\r\ndef create_opening_types(doc):\r\n    print(\"\\n--- 3. CREATING WINDOW & DOOR TYPES ---\")\r\n    \r\n    # Helper to find a family to duplicate\r\n    def get_family_symbol(cat_enum):\r\n        col = FilteredElementCollector(doc).OfCategory(cat_enum).WhereElementIsElementType()\r\n        for s in col:\r\n            # We want a symbol (Type), not the Family itself\r\n            if isinstance(s, FamilySymbol):\r\n                return s\r\n        return None\r\n\r\n    for name, info in OPENINGS_DATA.items():\r\n        cat = info['category']\r\n        \r\n        # 1. Find a template to duplicate\r\n        tmpl = get_family_symbol(cat)\r\n        if not tmpl:\r\n            print(f\"SKIP {name}: No loaded families found for category.\")\r\n            continue\r\n            \r\n        # 2. Check if Type exists\r\n        found_type = None\r\n        col = FilteredElementCollector(doc).OfCategory(cat).WhereElementIsElementType()\r\n        for t in col:\r\n            # Check name\r\n            try:\r\n                t_name = t.get_Parameter(BuiltInParameter.SYMBOL_NAME_PARAM).AsString()\r\n                if t_name == name:\r\n                    found_type = t\r\n                    break\r\n            except: pass\r\n        \r\n        # 3. Duplicate\r\n        if not found_type:\r\n            try:\r\n                found_type = tmpl.Duplicate(name)\r\n                print(f\"CREATED: {name}\")\r\n            except Exception as e:\r\n                print(f\"ERROR creating {name}: {e}\")\r\n                continue\r\n        else:\r\n            print(f\"EXISTS: {name}\")\r\n            \r\n        # 4. Set Metadata (Description & Tag)\r\n        try:\r\n            # Description\r\n            p_desc = found_type.get_Parameter(BuiltInParameter.ALL_MODEL_DESCRIPTION)\r\n            if p_desc: p_desc.Set(info['description'])\r\n            \r\n            # Type Comments (Tag)\r\n            p_comm = found_type.get_Parameter(BuiltInParameter.ALL_MODEL_TYPE_COMMENTS)\r\n            if p_comm: p_comm.Set(info['tag'])\r\n            \r\n        except Exception as e:\r\n            print(f\"  -> Warn: Could not set params for {name}\")\r\n\r\n\r\ndef build_library():\r\n    if not IN_REVIT: return\r\n    \r\n    TransactionManager.Instance.EnsureInTransaction(doc)\r\n    print(\"--- 1. BUILDING MATERIALS (WITH TAGS) ---\")\r\n    \r\n    material_cache = {}\r\n    for type_name, data in PDF_CONSTRUCTIONS.items():\r\n        for layer in data[\"layers\"]:\r\n            mat_name = layer[0]\r\n            k_val = layer[2]\r\n            if mat_name not in material_cache:\r\n                mid = get_or_create_material(doc, mat_name, k_val)\r\n                material_cache[mat_name] = mid\r\n    print(\"Materials OK.\")\r\n\r\n    print(\"\\n--- 2. BUILDING WALL/FLOOR/ROOF TYPES ---\")\r\n    \r\n    wall_tmpl = get_template_type(doc, 'Wall')\r\n    floor_tmpl = get_template_type(doc, 'Floor')\r\n    roof_tmpl = get_template_type(doc, 'Roof')\r\n    \r\n    class_map = { 'Wall': WallType, 'Floor': FloorType, 'Roof': RoofType }\r\n\r\n    for type_name, data in PDF_CONSTRUCTIONS.items():\r\n        kind = data[\"category\"]\r\n        tmpl = None\r\n        if kind == 'Wall': tmpl = wall_tmpl\r\n        elif kind == 'Floor': tmpl = floor_tmpl\r\n        elif kind == 'Roof': tmpl = roof_tmpl\r\n        \r\n        if not tmpl: continue\r\n\r\n        target_class = class_map.get(kind)\r\n        target_type = None\r\n        \r\n        # Find existing\r\n        col = FilteredElementCollector(doc).OfClass(target_class).WhereElementIsElementType()\r\n        for t in col:\r\n            t_name = \"UNKNOWN\"\r\n            try: t_name = t.get_Parameter(BuiltInParameter.SYMBOL_NAME_PARAM).AsString()\r\n            except: \r\n                try: t_name = t.Name\r\n                except: pass\r\n            \r\n            if t_name == type_name:\r\n                target_type = t\r\n                break\r\n        \r\n        if not target_type:\r\n            try: target_type = tmpl.Duplicate(type_name)\r\n            except: continue\r\n        \r\n        # Set Tag on Type as well?\r\n        try:\r\n            p = target_type.get_Parameter(BuiltInParameter.ALL_MODEL_TYPE_COMMENTS)\r\n            if p: p.Set(TAG_VALUE)\r\n        except: pass\r\n\r\n        # Build Layers\r\n        try:\r\n            cs = target_type.GetCompoundStructure()\r\n            if not cs:\r\n                cs = CompoundStructure.CreateSingleLayerCompoundStructure(\r\n                    MaterialFunctionAssignment.Structure, 0.1, ElementId.InvalidElementId)\r\n            \r\n            layers_obj = []\r\n            for layer_def in data[\"layers\"]:\r\n                mat_name = layer_def[0]\r\n                width_ft = m2ft(layer_def[1])\r\n                mat_id = material_cache.get(mat_name, ElementId.InvalidElementId)\r\n                new_layer = CompoundStructureLayer(width_ft, MaterialFunctionAssignment.Structure, mat_id)\r\n                layers_obj.append(new_layer)\r\n                \r\n            cs.SetLayers(layers_obj)\r\n            target_type.SetCompoundStructure(cs)\r\n        except: pass\r\n\r\n    # Run the new Opening Logic\r\n    create_opening_types(doc)\r\n\r\n    TransactionManager.Instance.TransactionTaskDone()\r\n    print(\"\\nDone. Library v2 (Tagged) Ready.\")\r\n\r\nbuild_library()",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "5b3025f8bcf24e1583d4797a45be2be2",
+      "NodeType": "PythonScriptNode",
+      "Inputs": [
+        {
+          "Id": "0c8a7dcfbb4048fa874390869d2f3ccc",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "129423d75cf142cc9aeefaecc5b17b74",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "Code": "# -*- coding: utf-8 -*-\r\nimport sys\r\nimport clr\r\n\r\ntry:\r\n    clr.AddReference('RevitAPI')\r\n    clr.AddReference('RevitServices')\r\n    from Autodesk.Revit.DB import *\r\n    from RevitServices.Persistence import DocumentManager\r\n    from RevitServices.Transactions import TransactionManager\r\n    doc = DocumentManager.Instance.CurrentDBDocument\r\n    IN_REVIT = True\r\nexcept ImportError:\r\n    IN_REVIT = False\r\n    print(\"This script must be run inside Revit.\")\r\n\r\n# ========================================================\r\n# PDF SOURCE (Materials + Lambda)\r\n# ========================================================\r\nPDF_CONSTRUCTIONS = {\r\n    \"MURO EXTERIOR\": {\r\n        \"layers\": [\r\n            (\"Mortero de cemento\", 0.03, 0.550),\r\n            (\"EPS Poliestireno\", 0.14, 0.038),\r\n            (\"1 pie LP métrico o catalán\", 0.24, 0.667),\r\n            (\"Mortero de cemento\", 0.01, 0.550),\r\n            (\"Cámara de aire sin ventilar vertical\", 0.05, 0.180),\r\n            (\"Placa de yeso laminado\", 0.015, 0.250)\r\n        ]\r\n    },\r\n    \"MURO DE CÁMARA SANITARIA\": {\r\n        \"layers\": [\r\n            (\"Betún fieltro o lámina\", 0.009, 0.230),\r\n            (\"1 pie LP métrico o catalán\", 0.24, 0.667)\r\n        ]\r\n    },\r\n    \"TABIQUE INTERIOR\": {\r\n        \"layers\": [\r\n            (\"Placa de yeso laminado\", 0.013, 0.250),\r\n            (\"MW Lana mineral\", 0.04, 0.041)\r\n        ]\r\n    },\r\n    \"FORJADO INTERIOR (ACOND-ACOND)\": {\r\n        \"layers\": [\r\n            (\"Plaqueta de gres\", 0.01, 2.300),\r\n            (\"Mortero de cemento\", 0.05, 0.550),\r\n            (\"Mortero de cemento de difusión\", 0.065, 0.550),\r\n            (\"XPS Expandido\", 0.06, 0.034),\r\n            (\"FU entrevigado cerámico\", 0.25, 0.908),\r\n            (\"Cámara de aire sin ventilar horizontal\", 0.05, 0.160)\r\n        ]\r\n    },\r\n    \"FORJADO CON CÁMARA SANITARIA\": {\r\n        \"layers\": [\r\n            (\"Forjado Entrevigado EPS mecanizado\", 0.30, 0.256),\r\n            (\"Lámina de cloruro de polivinilo (PVC)\", 0.005, 0.170)\r\n        ]\r\n    },\r\n    \"SOLERA DE CÁMARA SANITARIA\": {\r\n        \"layers\": [\r\n            (\"Hormigón en masa\", 0.08, 1.650),\r\n            (\"Lámina PVC\", 0.003, 0.170),\r\n            (\"Arena y grava\", 0.12, 2.000)\r\n        ]\r\n    },\r\n    \"CUBIERTA INCLINADA DE TEJA\": {\r\n        \"layers\": [\r\n            (\"Teja de arcilla cocida\", 0.015, 1.000),\r\n            (\"Cámara aire ventilada, flujo ascend.\", 0.05, 0.060),\r\n            (\"Betún fieltro o lámina\", 0.01, 0.230)\r\n        ]\r\n    }\r\n}\r\n\r\ndef update_material_model_param():\r\n    if not IN_REVIT: return\r\n    \r\n    TransactionManager.Instance.EnsureInTransaction(doc)\r\n    print(\"--- UPDATING MATERIAL SCHEDULE DATA ---\")\r\n    \r\n    # Track processed to avoid duplicates\r\n    processed_mats = set()\r\n    \r\n    for key, data in PDF_CONSTRUCTIONS.items():\r\n        for layer in data[\"layers\"]:\r\n            mat_name = layer[0]\r\n            k_val = layer[2]\r\n            \r\n            if mat_name in processed_mats: continue\r\n            \r\n            # Find Material\r\n            col = FilteredElementCollector(doc).OfClass(Material)\r\n            target_mat = None\r\n            for m in col:\r\n                if m.Name == mat_name:\r\n                    target_mat = m\r\n                    break\r\n            \r\n            if target_mat:\r\n                # Set 'Model' parameter to the Lambda value\r\n                try:\r\n                    # BuiltInParameter for \"Model\" property in Identity Data\r\n                    p = target_mat.get_Parameter(BuiltInParameter.ALL_MODEL_MODEL)\r\n                    if p:\r\n                        val_str = str(k_val)\r\n                        p.Set(val_str)\r\n                        print(f\"Updated {mat_name}: Model = {val_str}\")\r\n                    else:\r\n                        print(f\"Param not found for {mat_name}\")\r\n                except Exception as e:\r\n                    print(f\"Error {mat_name}: {e}\")\r\n            \r\n            processed_mats.add(mat_name)\r\n\r\n    TransactionManager.Instance.TransactionTaskDone()\r\n    print(\"\\nDone. You can now schedule 'Material: Model' as Conductivity.\")\r\n\r\nupdate_material_model_param()",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "921338fc9c7c4f6888cd33cf4dd38309",
+      "NodeType": "PythonScriptNode",
+      "Inputs": [
+        {
+          "Id": "c218ccf67cf94c36b10050a8b3e93161",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "bd472184d32847f9b65c0b8abb1237a3",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "Code": "# -*- coding: utf-8 -*-\r\nimport sys\r\nimport os\r\nimport clr\r\n\r\ntry:\r\n    clr.AddReference('RevitAPI')\r\n    from Autodesk.Revit.DB import *\r\n    from RevitServices.Persistence import DocumentManager\r\n    from RevitServices.Transactions import TransactionManager\r\n    doc = DocumentManager.Instance.CurrentDBDocument\r\n    IN_REVIT = True\r\nexcept ImportError:\r\n    IN_REVIT = False\r\n\r\n# ========================================================\r\n# CONFIGURATION\r\n# ========================================================\r\n# EXACT NAME of the schedule in your Project Browser\r\nSCHEDULE_NAME = \"Material Takeoff\" \r\n\r\n# Output path\r\nuser_home = os.environ['USERPROFILE']\r\ndesktop = os.path.join(user_home, \"Desktop\")\r\nOUTPUT_FILENAME = \"CTE_Materials_Export.csv\"\r\n\r\ndef export_schedule_to_csv():\r\n    if not IN_REVIT: return\r\n\r\n    # 1. Find the Schedule View\r\n    col = FilteredElementCollector(doc).OfClass(ViewSchedule)\r\n    target_view = None\r\n    \r\n    for v in col:\r\n        if v.Name == SCHEDULE_NAME:\r\n            target_view = v\r\n            break\r\n            \r\n    if not target_view:\r\n        print(f\"Error: Could not find a schedule named '{SCHEDULE_NAME}'\")\r\n        print(\"Available Schedules:\")\r\n        for v in col: print(f\" - {v.Name}\")\r\n        return\r\n\r\n    # 2. Configure Export Options for CSV\r\n    options = ViewScheduleExportOptions()\r\n    options.Title = True                  # Export Header/Title?\r\n    options.ColumnHeaders = FootnoteColumnHeaders.Export # Export Column Names\r\n    options.FieldDelimiter = \",\"          # COMMA for CSV\r\n    options.TextQualifier = TextQualifier.DoubleQuote\r\n    \r\n    # 3. Export\r\n    # Note: View.Export takes (Folder, Filename, Options)\r\n    try:\r\n        target_view.Export(desktop, OUTPUT_FILENAME, options)\r\n        print(f\"Success! Exported to: {os.path.join(desktop, OUTPUT_FILENAME)}\")\r\n    except Exception as e:\r\n        print(f\"Error exporting: {e}\")\r\n\r\nexport_schedule_to_csv()",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "a2ea3f42a7f7453285b2c4e1e40fb30a",
+      "NodeType": "PythonScriptNode",
+      "Inputs": [
+        {
+          "Id": "3171a39f1f094567832f7759e8eefc84",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "0fb6144bb1bd4e4b9abd4494060a0b04",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "Code": "# -*- coding: utf-8 -*-\r\nimport sys\r\nimport os\r\nimport clr\r\n\r\ntry:\r\n    clr.AddReference('RevitAPI')\r\n    from Autodesk.Revit.DB import *\r\n    from RevitServices.Persistence import DocumentManager\r\n    doc = DocumentManager.Instance.CurrentDBDocument\r\n    IN_REVIT = True\r\nexcept ImportError:\r\n    IN_REVIT = False\r\n\r\n# ========================================================\r\n# CONFIGURATION\r\n# ========================================================\r\nuser_home = os.environ['ONEDRIVE']\r\ndesktop = os.path.join(user_home, \"Desktop\")\r\nOUTPUT_FILE = os.path.join(desktop, \"CTE_Layer_Report.csv\")\r\n\r\ndef m2ft(meters): return meters * 3.28084\r\ndef ft2m(feet): return feet * 0.3048\r\n\r\ndef get_safe_mat_name(doc, mat_id):\r\n    if mat_id == ElementId.InvalidElementId: return \"No Material\"\r\n    try:\r\n        return doc.GetElement(mat_id).Name\r\n    except:\r\n        return \"Unknown Material\"\r\n\r\ndef run_layer_export():\r\n    if not IN_REVIT: return\r\n\r\n    # Categories to scan\r\n    cats = [\r\n        (WallType, \"Wall\"),\r\n        (FloorType, \"Floor\"),\r\n        (RoofType, \"Roof\")\r\n    ]\r\n    \r\n    lines = []\r\n    # Header\r\n    lines.append(\"Category,Type Name,Total Thickness (m),Layer Index,Material Name,Layer Thickness (m),Conductivity (Model Param)\")\r\n\r\n    print(\"--- SCANNING TYPES ---\")\r\n\r\n    for class_type, cat_name in cats:\r\n        col = FilteredElementCollector(doc).OfClass(class_type).WhereElementIsElementType()\r\n        \r\n        for t in col:\r\n            # 1. Get Type Name safely\r\n            try:\r\n                t_name = t.get_Parameter(BuiltInParameter.SYMBOL_NAME_PARAM).AsString()\r\n            except:\r\n                t_name = t.Name\r\n            \r\n            if not t_name: t_name = \"Unnamed Type\"\r\n\r\n            # 2. Get Compound Structure (The Layers)\r\n            try:\r\n                cs = t.GetCompoundStructure()\r\n            except:\r\n                cs = None\r\n                \r\n            if not cs: continue \r\n\r\n            # --- FIX: Use cs.GetWidth() instead of t.Width ---\r\n            # This works for Walls, Floors, and Roofs\r\n            total_width = ft2m(cs.GetWidth())\r\n            \r\n            layers = cs.GetLayers()\r\n            \r\n            print(f\"Exporting: {t_name}\")\r\n\r\n            # 3. Iterate Layers\r\n            for i, layer in enumerate(layers):\r\n                width_m = ft2m(layer.Width)\r\n                mat_name = get_safe_mat_name(doc, layer.MaterialId)\r\n                \r\n                # Try to get Lambda from the Material's \"Model\" parameter\r\n                lambda_val = \"\"\r\n                if layer.MaterialId != ElementId.InvalidElementId:\r\n                    try:\r\n                        mat = doc.GetElement(layer.MaterialId)\r\n                        p = mat.get_Parameter(BuiltInParameter.ALL_MODEL_MODEL)\r\n                        if p and p.HasValue: lambda_val = p.AsString()\r\n                    except: pass\r\n                \r\n                # CSV Format\r\n                row = f'\"{cat_name}\",\"{t_name}\",{total_width:.4f},{i+1},\"{mat_name}\",{width_m:.4f},\"{lambda_val}\"'\r\n                lines.append(row)\r\n\r\n    # WRITE TO FILE\r\n    try:\r\n        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:\r\n            f.write(\"\\n\".join(lines))\r\n        print(f\"\\nSuccess! Exported to: {OUTPUT_FILE}\")\r\n    except Exception as e:\r\n        print(f\"Error writing file: {e}\")\r\n\r\nrun_layer_export()",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "5fa9b7450b904ec0a5359656197082f1",
+      "NodeType": "PythonScriptNode",
+      "Inputs": [
+        {
+          "Id": "b1cc4935162a4ae3a3146520191c5bd0",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "b7f663e4b404422e8e1924c12e310913",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    }
+  ],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "EnableLegacyPolyCurveBehavior": null,
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "3.3",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "8.2",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "3.3.0.6316",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "_Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Id": "5b3025f8bcf24e1583d4797a45be2be2",
+        "Name": "load db",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 307.423122991662,
+        "Y": 105.72539537918749
+      },
+      {
+        "Id": "921338fc9c7c4f6888cd33cf4dd38309",
+        "Name": "update db",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 560.262195228329,
+        "Y": 93.94261236889551
+      },
+      {
+        "Id": "a2ea3f42a7f7453285b2c4e1e40fb30a",
+        "Name": "Material Takeoff",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 26.2169517416001,
+        "Y": 212.7067239543094
+      },
+      {
+        "Id": "5fa9b7450b904ec0a5359656197082f1",
+        "Name": "get CTE_Layer_Report",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 676.6667549279405,
+        "Y": 320.4595934059764
+      }
+    ],
+    "Annotations": [],
+    "X": 102.08600284812647,
+    "Y": 32.55982939820851,
+    "Zoom": 0.8476185719982269
+  }
+}
