@@ -92,7 +92,6 @@
 		<imgPlano/>
 		<MesIniPerSom>Junio</MesIniPerSom>
 		<MesFinPerSom>Septiembre</MesFinPerSom>
-		<controlAutSombrasMoviles>0</controlAutSombrasMoviles>
 		<energiaGT>true</energiaGT>
 		<directoCALENER-GT>NO</directoCALENER-GT>
 		<valMenELE>NO</valMenELE>
@@ -115,12 +114,12 @@
 		<recEFC>-1.000</recEFC>
 		<cambios>NO</cambios>
 		<cambioscalener>NO</cambioscalener>
-		<RED1>RED1      <precioEnergia>0.0</precioEnergia>
+		<RED1>RED1        <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
 		</RED1>
-		<RED2>RED2      <precioEnergia>0.0</precioEnergia>
+		<RED2>RED2        <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
@@ -216,7 +215,6 @@ CAMBIO-CALENER = NO
      IMAGE-AUTHOR            = ""
      MESINIPERSOM            = "Junio"
      MESFINPERSOM            = "Septiembre"
-     controlAutSombrasMoviles = "0"
      VISIT-DATE              = "08/03/15"
      EXTINFO                 = "SI"
      directoCALENERGT        = "NO"
@@ -688,12 +686,12 @@ $ ++++++++++++++++++++++++++++++
 $  ACRISTALAMIENTOS - VIDRIOS
 $ ++++++++++++++++++++++++++++++
 "VER_DC_4-12-6" = GLASS-TYPE
-    GROUP             = "Dobles en posición vertical"
-    TYPE              = SHADING-COEF
-    SHADING-COEF      =      0.8823529
-    GLASS-CONDUCTANCE =            2.8
-    NAME_CALENER      = ""
-    LIBRARY       =  NO
+     GROUP             = "Dobles en posición vertical"
+     TYPE              = SHADING-COEF
+     SHADING-COEF      =      0.8823529
+     GLASS-CONDUCTANCE =            2.8
+     NAME_CALENER      = ""
+     LIBRARY       =  NO
     UTIL          =  YES
     CHANGE          =  NO
     ..
@@ -893,7 +891,6 @@ $          TYPE-OPER = "Acondicionado"
            LONGITUD-DE-REFERENCIA = 0.000000
            ALTITUD = 8.000000
            EXTINFO            = "SI"
-           controlAutSombrasMoviles = 0
            ..
 "P01" = FLOOR
       POLYGON       =  "P01_Poligono001"
@@ -948,7 +945,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "Vidrio doble"
                         COEFF = ( 1.000000, 0.800000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DC_4-12-6"
                         FRAME-WIDTH   =      0.1533878
                         FRAME-CONDUCT =       5.014001
@@ -1072,7 +1068,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "Vidrio doble"
                         COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DC_4-12-6"
                         FRAME-WIDTH   =      0.1533878
                         FRAME-CONDUCT =       5.014001
@@ -1185,7 +1180,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "Vidrio doble"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DC_4-12-6"
                         FRAME-WIDTH   =      0.1533878
                         FRAME-CONDUCT =       5.014001
@@ -1298,7 +1292,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "Vidrio doble"
                         COEFF = ( 1.000000, 0.460000, 1.000000, 1.000000)
             transmisividadJulio        = 0.200000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DC_4-12-6"
                         FRAME-WIDTH   =      0.1533878
                         FRAME-CONDUCT =       5.014001
@@ -2466,12 +2459,10 @@ $ | PUENTES TÉRMICOS |
 $ +------------------+
 $
 "LONGITUDES_CALCULADAS" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 0.000000
       LONG-TOTAL = 0.000000
       DEFINICION = 1
     ..
 "FRENTE_FORJADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 0.000000
       LONG-TOTAL = 0.000000
       DEFINICION = 2
       TTL    = 0.100000
@@ -2482,7 +2473,6 @@ $
       PARTITION   = YES
     ..
 "UNION_CUBIERTA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 225.941116
       LONG-TOTAL = 225.941116
       DEFINICION = 2
       TTL    = 0.240000
@@ -2493,7 +2483,6 @@ $
       PARTITION   = BOTH
     ..
 "ESQUINA_CONVEXA_FORJADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 0.000000
       LONG-TOTAL = 0.000000
       DEFINICION = 2
       TTL    = 0.430000
@@ -2504,7 +2493,6 @@ $
       PARTITION   = BOTH
     ..
 "ESQUINA_CONCAVA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 0.000000
       LONG-TOTAL = 0.000000
       DEFINICION = 2
       TTL    = 0.150000
@@ -2515,7 +2503,6 @@ $
       PARTITION   = BOTH
     ..
 "ESQUINA_CONVEXA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 7.600000
       LONG-TOTAL = 7.600000
       DEFINICION = 2
       TTL    = -0.130000
@@ -2526,7 +2513,6 @@ $
       PARTITION   = BOTH
     ..
 "PILAR" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 63.400002
       LONG-TOTAL = 63.400002
       DEFINICION = 2
       TTL    = 0.020000
@@ -2534,7 +2520,6 @@ $
       TYPE        = PILLAR
     ..
 "HUECO_CAPIALZADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 120.000000
       LONG-TOTAL = 120.000000
       DEFINICION = 2
       TTL    = 0.050000
@@ -2542,7 +2527,6 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_JAMBA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 12.800000
       LONG-TOTAL = 12.800000
       DEFINICION = 2
       TTL    = 0.050000
@@ -2550,7 +2534,6 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_ALFEIZAR" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 120.000000
       LONG-TOTAL = 120.000000
       DEFINICION = 2
       TTL    = 0.050000
@@ -2558,7 +2541,6 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "UNION_SOLERA_PAREDEXT" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 120.000000
       LONG-TOTAL = 120.000000
       DEFINICION = 2
       TTL    = 0.280000
@@ -2579,7 +2561,6 @@ $ +-----------------------------------------------------------------+
 			<FactoresDeCorreccion/>
 			<Sistemas/>
 		</elementos>
-		<datosVentilacionTerciario/>
 	</Definicion_Sistema>
 	<Definicion_Sistema_GT>
 		<Definicion_Sistema_CALENER_GT>

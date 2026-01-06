@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2026 (x64) (https://www.altova.com) by Tomas Gonzalez (student) -->
 <CTE-HE-XML>
 	<DatosGenerales>
 		<refCatastral>ninguno</refCatastral>
@@ -41,7 +40,7 @@
 		<pisoPro>-</pisoPro>
 		<puertaPro>-</puertaPro>
 		<datosAdicPro>-</datosAdicPro>
-		<normativaEdificacion>- Seleccione de la lista -</normativaEdificacion>
+		<normativaEdificacion>CTE HE 2019</normativaEdificacion>
 		<normativaInstalaciones>RITE (2013)</normativaInstalaciones>
 		<normativaOtros>- Seleccione de la lista -</normativaOtros>
 		<normativaEdificacionOtros/>
@@ -54,7 +53,7 @@
 		<plantaSobreRasante>3</plantaSobreRasante>
 		<plantaBajoRasante>0</plantaBajoRasante>
 		<EEGeneradaAutoconsumida>0</EEGeneradaAutoconsumida>
-		<panelFotoVoltaicoAutoConsumido>590.00</panelFotoVoltaicoAutoConsumido>
+		<panelFotoVoltaicoAutoConsumido>590</panelFotoVoltaicoAutoConsumido>
 		<contribucionResACS>0.00</contribucionResACS>
 		<puertaPro>-</puertaPro>
 		<cifAut>CIF</cifAut>
@@ -84,7 +83,7 @@
 		<colegioAut>- Seleccione de la lista -</colegioAut>
 		<colegioOtrosAut>-</colegioOtrosAut>
 		<numeroColegiadoAut>-</numeroColegiadoAut>
-		<fechaVisita>03/08/15</fechaVisita>
+		<fechaVisita>13/11/19</fechaVisita>
 		<extInfo>SI</extInfo>
 		<VentNoct>SI</VentNoct>
 		<SistSus>SI</SistSus>
@@ -93,21 +92,16 @@
 		<imgPlano>Especifique imagen para el plano de situación del edificio</imgPlano>
 		<MesIniPerSom>Junio</MesIniPerSom>
 		<MesFinPerSom>Septiembre</MesFinPerSom>
-		<controlAutSombrasMoviles>0</controlAutSombrasMoviles>
 		<energiaGT>true</energiaGT>
-		<directoCALENER-GT>NO</directoCALENER-GT>
+		<directoCALENERGT>NO</directoCALENERGT>
 		<valMenELE>SI</valMenELE>
 		<valMenACS>NO</valMenACS>
 		<valoresMensualesELE>Cogeneración;Cogeneración de biomasa pellets;60.0;60.0;60.0;60.0;50.0;30.0;30.0;30.0;30.0;60.0;60.0;60.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Ninguno;Ninguno;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0</valoresMensualesELE>
 		<valoresMensualesACS>Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0;Ninguno;Ninguno;0;0;0;0;0;0;0;0;0;0;0;0</valoresMensualesACS>
-		<fpECGaPT>0.000</fpECGaPT>
-		<fpECGaPNR>0.000</fpECGaPNR>
-		<fpECGaCO2>0.000</fpECGaCO2>
 		<datoGeneralNuevo>0</datoGeneralNuevo>
-		<fechaCertificado>NO;29;10;1960</fechaCertificado>
-		<potenciaFVInstalada>1.00</potenciaFVInstalada>
+		<potenciaFVInstalada>1</potenciaFVInstalada>
 		<IrrSolDiariaMedAnu>3.54</IrrSolDiariaMedAnu>
-		<estimacionConsumoACSGT>154.00</estimacionConsumoACSGT>
+		<estimacionConsumoACSGT>0.00</estimacionConsumoACSGT>
 		<bajaPermeabilidad>SI</bajaPermeabilidad>
 		<ensayoPermeabilidad>NO</ensayoPermeabilidad>
 		<ValorN50Medido>2</ValorN50Medido>
@@ -116,12 +110,12 @@
 		<recEFC>-1.000</recEFC>
 		<cambios>NO</cambios>
 		<cambioscalener>NO</cambioscalener>
-		<RED1>RED1    <precioEnergia>0.0</precioEnergia>
+		<RED1>RED1  <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
 		</RED1>
-		<RED2>RED2    <precioEnergia>0.0</precioEnergia>
+		<RED2>RED2  <precioEnergia>0.0</precioEnergia>
 			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
 			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
 			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
@@ -175,7 +169,7 @@ CAMBIO-CALENER = NO
      FLOOR-PROJECT       	= "-"
      GATE-PROJECT        	= "-"
      EXTRAINFO-PROJECT  		= "-"
-     NORMATIVE-BUILDING        		= "- Seleccione de la lista -"
+     NORMATIVE-BUILDING        		= "CTE HE 2019"
      NORMATIVE-SYSTEM        		= "RITE (2013)"
      NORMATIVE-OTHER        			= "- Seleccione de la lista -"
      NORMATIVE-BUILDING-OTHER	= ""
@@ -217,8 +211,7 @@ CAMBIO-CALENER = NO
      IMAGE-AUTHOR            = "Especifique imagen para el plano de situación del edificio"
      MESINIPERSOM            = "Junio"
      MESFINPERSOM            = "Septiembre"
-     controlAutSombrasMoviles = "0"
-     VISIT-DATE              = "03/08/15"
+     VISIT-DATE              = "13/11/19"
      EXTINFO                 = "SI"
      directoCALENERGT        = "NO"
      VAL-MEN-ELE              = "SI"
@@ -551,22 +544,22 @@ $ ++++++++++++++++++++++++++++++
 $  ACRISTALAMIENTOS - VIDRIOS
 $ ++++++++++++++++++++++++++++++
 "VER_DB3_4-12-331" = GLASS-TYPE
-    GROUP             = "Dobles bajo emisivos <0.03 en posición vertical"
-    TYPE              = SHADING-COEF
-    SHADING-COEF      =      0.8235294
-    GLASS-CONDUCTANCE =            1.6
-    NAME_CALENER      = ""
-    LIBRARY       =  NO
+     GROUP             = "Dobles bajo emisivos <0.03 en posición vertical"
+     TYPE              = SHADING-COEF
+     SHADING-COEF      =      0.8235294
+     GLASS-CONDUCTANCE =            1.6
+     NAME_CALENER      = ""
+     LIBRARY       =  NO
     UTIL          =  YES
     CHANGE          =  NO
     ..
 "VER_DB3_4-20-6250" = GLASS-TYPE
-    GROUP             = "Dobles bajo emisivos <0.03 en posición vertical"
-    TYPE              = SHADING-COEF
-    SHADING-COEF      =      0.8235294
-    GLASS-CONDUCTANCE =            1.4
-    NAME_CALENER      = ""
-    LIBRARY       =  NO
+     GROUP             = "Dobles bajo emisivos <0.03 en posición vertical"
+     TYPE              = SHADING-COEF
+     SHADING-COEF      =      0.8235294
+     GLASS-CONDUCTANCE =            1.4
+     NAME_CALENER      = ""
+     LIBRARY       =  NO
     UTIL          =  YES
     CHANGE          =  NO
     ..
@@ -966,7 +959,6 @@ $          TYPE-OPER = "Acondicionado"
            LONGITUD-DE-REFERENCIA = 15.000000
            ALTITUD = 21.000000
            EXTINFO            = "SI"
-           controlAutSombrasMoviles = 0
            ..
 "P01" = FLOOR
       POLYGON       =  "P01_Poligono1"
@@ -1020,7 +1012,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "Puerta"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.630000
-            HayConAutDisSomMov         = "0"
                         GLASS-TYPE     = "VER_DB3_4-12-331"
                         FRAME-WIDTH   =          1.065
                         FRAME-CONDUCT =            1.8
@@ -1079,7 +1070,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "Puerta"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.630000
-            HayConAutDisSomMov         = "0"
                         GLASS-TYPE     = "VER_DB3_4-12-331"
                         FRAME-WIDTH   =          1.065
                         FRAME-CONDUCT =            1.8
@@ -1174,7 +1164,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =     0.03902278
                         FRAME-CONDUCT =          5.468
@@ -1218,7 +1207,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1247,7 +1235,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1276,7 +1263,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1305,7 +1291,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1364,7 +1349,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC2_noreste"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.450000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =     0.03902278
                         FRAME-CONDUCT =          5.468
@@ -1423,7 +1407,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "Puerta"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.630000
-            HayConAutDisSomMov         = "0"
                         GLASS-TYPE     = "VER_DB3_4-12-331"
                         FRAME-WIDTH   =            0.6
                         FRAME-CONDUCT =            1.8
@@ -1482,7 +1465,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC2_noreste"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.450000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =     0.04674833
                         FRAME-CONDUCT =          5.468
@@ -1578,7 +1560,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1607,7 +1588,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1651,7 +1631,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1680,7 +1659,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1709,7 +1687,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1738,7 +1715,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC 2"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.170000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1797,7 +1773,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC2_noreste"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.450000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -1826,7 +1801,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC2_noreste"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.450000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =     0.03902278
                         FRAME-CONDUCT =          5.468
@@ -1855,7 +1829,6 @@ $          TYPE-OPER = "Acondicionado"
                         GAP            = "PVC2_noreste"
                         COEFF = ( 1.000000, 1.000000, 1.000000, 1.000000)
             transmisividadJulio        = 0.450000
-            HayConAutDisSomMov         = "300"
                         GLASS-TYPE     = "VER_DB3_4-20-6250"
                         FRAME-WIDTH   =       0.051788
                         FRAME-CONDUCT =          5.468
@@ -2295,7 +2268,6 @@ $
     FLOW/AREA          = 0
     FAN-SCHEDULE       = "Anual-No-habitable-Func"
     SEASON-SCH         = "SSHA"
-    SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
     OUTSIDE-AIR-FLOW   = 0
     RECOV-TEMP         = 0
     RECOV-KW           = 0
@@ -2342,7 +2314,6 @@ $
     FLOW/AREA          = 0
     FAN-SCHEDULE       = "Funcionam-Residencia"
     SEASON-SCH         = "SSHA"
-    SEASON-SHADING-SCH         = "ELEMENTOS-DE-SOMBRA"
     OUTSIDE-AIR-FLOW   = 0
     RECOV-TEMP         = 0
     RECOV-KW           = 0
@@ -2372,29 +2343,6 @@ $
   MONTH = ( 5, 9, 12)
   DAY   = ( 31, 30, 31)
   WEEK-SCHEDULES = ( "SSHSI", "SSHSV", "SSHSI")
-  ..
-
-"ELEMENTOSDESOMBRADIAVER" = DAY-SCHEDULE-PD
-  TYPE  = FRACTION
-  VALUES  = ( 1)
-  ..
-"ELEMENTOSDESOMBRADIAINV" = DAY-SCHEDULE-PD
-  TYPE  = FRACTION
-  VALUES  = ( 0)
-  ..
-"ELEMENTOSDESOMBRASEMVER" = WEEK-SCHEDULE-PD
-  TYPE  = FRACTION
-  DAY-SCHEDULES = ( "ELEMENTOSDESOMBRADIAVER")
-  ..
-"ELEMENTOSDESOMBRASEMINV" = WEEK-SCHEDULE-PD
-  TYPE  = FRACTION
-  DAY-SCHEDULES = ( "ELEMENTOSDESOMBRADIAINV")
-  ..
-"ELEMENTOS-DE-SOMBRA" = SCHEDULE-PD
-  TYPE  = FRACTION
-  MONTH = ( 5, 9, 12)
-  DAY   = ( 31, 30, 31)
-  WEEK-SCHEDULES = ( "ELEMENTOSDESOMBRASEMINV", "ELEMENTOSDESOMBRASEMVER", "ELEMENTOSDESOMBRASEMINV")
   ..
 $
 $ +----------+
@@ -3244,12 +3192,10 @@ $ | PUENTES TÉRMICOS |
 $ +------------------+
 $
 "LONGITUDES_CALCULADAS" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 0.000000
       LONG-TOTAL = 0.000000
       DEFINICION = 1
     ..
 "FRENTE_FORJADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 67.999992
       LONG-TOTAL = 67.999992
       DEFINICION = 3
       TTL    = 0.000000
@@ -3264,7 +3210,6 @@ $
       PARTITION   = YES
     ..
 "UNION_CUBIERTA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 72.757210
       LONG-TOTAL = 72.757210
       DEFINICION = 3
       TTL    = 0.243333
@@ -3279,7 +3224,6 @@ $
       PARTITION   = BOTH
     ..
 "ESQUINA_CONVEXA_FORJADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 4.500000
       LONG-TOTAL = 4.500000
       DEFINICION = 3
       TTL    = 0.158500
@@ -3294,7 +3238,6 @@ $
       PARTITION   = BOTH
     ..
 "ESQUINA_CONCAVA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 8.100000
       LONG-TOTAL = 8.100000
       DEFINICION = 3
       TTL    = -0.066667
@@ -3308,7 +3251,6 @@ $
       PARTITION   = BOTH
     ..
 "ESQUINA_CONVEXA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 28.500000
       LONG-TOTAL = 28.500000
       DEFINICION = 3
       TTL    = 0.046667
@@ -3322,7 +3264,6 @@ $
       PARTITION   = BOTH
     ..
 "PILAR" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 51.480000
       LONG-TOTAL = 51.480000
       DEFINICION = 2
       TTL    = 0.010000
@@ -3330,7 +3271,6 @@ $
       TYPE        = PILLAR
     ..
 "HUECO_CAPIALZADO" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 18.700001
       LONG-TOTAL = 25.299999
       DEFINICION = 3
       TTL    = 0.026667
@@ -3342,7 +3282,6 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_JAMBA" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 58.260002
       LONG-TOTAL = 66.779999
       DEFINICION = 3
       TTL    = 0.010000
@@ -3354,7 +3293,6 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "HUECO_ALFEIZAR" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 18.700001
       LONG-TOTAL = 25.299999
       DEFINICION = 3
       TTL    = 0.080000
@@ -3366,7 +3304,6 @@ $
       TYPE        = WINDOW-FRAME
     ..
 "UNION_SOLERA_PAREDEXT" = THERMAL-BRIDGE
-      LONG-MOD-TOTAL = 39.808006
       LONG-TOTAL = 39.808006
       DEFINICION = 3
       TTL    = 0.199833
@@ -3660,236 +3597,5 @@ $ +-----------------------------------------------------------------+
 				</SIS_ClimatizacionUnizona>
 			</Sistemas>
 		</elementos>
-		<datosVentilacionTerciario/>
 	</Definicion_Sistema>
-	<CapacidadesAdicionales>
-		<CA_Genericas>
-			<CA_GEN_Datos_Caracterizacion>
-				<![CDATA[     "P01_E01_PE001" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E01_PE001_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E01_PE001_CA_GEN_MCF.CSV"
-        ..
-    "P01_E01_PE001_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E01_PE001_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E01_PE001_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E01_PE002" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E01_PE002_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E01_PE002_CA_GEN_MCF.CSV"
-        ..
-    "P01_E01_PE003" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E01_PE003_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E01_PE003_CA_GEN_MCF.CSV"
-        ..
-    "P01_E01_PE003_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E01_PE003_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E01_PE003_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE001" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE001_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE001_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE001_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE001_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE001_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V2" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V2_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V2_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V5" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V5_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V5_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V6" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V6_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V6_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE003" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE003_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE003_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE004" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE004_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE004_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE004_V2" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE004_V2_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE004_V2_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE005" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE005_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE005_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE006" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE006_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE006_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE006_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE006_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE006_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE007" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE007_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE007_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE008" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE008_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE008_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE008_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE008_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE008_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02" = SPACE
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_CA_GEN_MCF.CSV"
-		     INCREMENTED-CONDITIONS-FILE = "P01_E02_CA_GEN_MICF.CSV"
-            SPACE-VENTILATION = "P01_E02"
-        ..
-    "P01_E02_PE001" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE001_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE001_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE001_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE001_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE001_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V2" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V2_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V2_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V5" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V5_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V5_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE002_V6" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE002_V6_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE002_V6_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE003" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE003_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE003_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE004" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE004_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE004_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE004_V2" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE004_V2_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE004_V2_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE005" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE005_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE005_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE006" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE006_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE006_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE006_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE006_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE006_V1_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE007" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE007_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE007_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE008" = EXTERIOR-WALL
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE008_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE008_CA_GEN_MCF.CSV"
-        ..
-    "P01_E02_PE008_V1" = WINDOW
-        TIPOELEMENTO_CA = "Generica"
-		     INITIAL-CONDITIONS-FILE  = "P01_E02_PE008_V1_CA_GEN_ICF.CSV"
-		     MODIFIED-CONDITIONS-FILE = "P01_E02_PE008_V1_CA_GEN_MCF.CSV"
-        ..
-"P01_E02_CA_GEN" = TROZO-BDL
-$ +++++++++++++++++++++++++++++++++++++++++++++++++++++
-$    CAPACIDADES ADICIONALES GENERICAS PARA ESPACIOS
-$ +++++++++++++++++++++++++++++++++++++++++++++++++++++
-$ 
-    "P01_E02" = SPACE-VENTILATION
-	    AIR-FLOW-FROM = ( "EXTERIOR", "P01_E01" )
-		AIR-FLOW-RATE = ( "P01_E02-EXTERIOR_CA_GEN_Caudales", "P01_E02-P01_E01_CA_GEN_Caudales" )
-		AIR-FLOW-TEMP = ( "P01_E02-EXTERIOR_CA_GEN_Temperaturas", "P01_E02-P01_E01_CA_GEN_Temperaturas" )
-	..
-	    "P01_E02-EXTERIOR_CA_GEN_Caudales" = CAPACIDAD-ADICIONAL
-		    TYPE = FILE
-		    VARIABLE = FLOW
-		    VALUE = "P01_E02-EXTERIOR_CA_GEN_Caudales.CSV"
-		..
-		"P01_E02-EXTERIOR_CA_GEN_Temperaturas" = CAPACIDAD-ADICIONAL
-		    TYPE = FILE
-		    VARIABLE = TEMP
-		    VALUE = "P01_E02-EXTERIOR_CA_GEN_Temperaturas.CSV"
-		..
-		"P01_E02-P01_E01_CA_GEN_Caudales" = CAPACIDAD-ADICIONAL
-		    TYPE = FILE
-		    VARIABLE = FLOW
-		    VALUE = "P01_E02-P01_E01_CA_GEN_Caudales.CSV"
-		..
-	    "P01_E02-P01_E01_CA_GEN_Temperaturas" = CAPACIDAD-ADICIONAL
-		    TYPE = FILE
-		    VARIABLE = TEMP
-		    VALUE = "P01_E02-P01_E01_CA_GEN_Temperaturas.CSV"
-		..
-..FIN-TROZO-BDL
-]]>
-			</CA_GEN_Datos_Caracterizacion>
-		</CA_Genericas>
-	</CapacidadesAdicionales>
 </CTE-HE-XML>

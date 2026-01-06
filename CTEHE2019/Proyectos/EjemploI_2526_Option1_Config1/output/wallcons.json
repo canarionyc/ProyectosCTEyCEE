@@ -1,0 +1,66 @@
+[
+  {
+    "name": "CUB IN TEJA",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Teja de arcilla cocida\", \"cv_hor_asc\", \"XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]\", \"Betún fieltro o lámina\", \"FU Entrevigado de EPS mecanizado enrasado -Canto 250 mm\", \"Placa de yeso laminado [PYL] 750 < d < 900\"]",
+    "thickness": "[0.015, 0.05, 0.16, 0.01, 0.25, 0.015]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_Roofs"
+  },
+  {
+    "name": "FOR CAM SANIT",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Plaqueta o baldosa de gres\", \"Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250\", \"Mortero de cemento de difusion\", \"Poliestireno Expandido XPS\", \"FU Entrevigado de EPS mecanizado enrasado -Canto 300 mm\", \"Cloruro de polivinilo [PVC]\"]",
+    "thickness": "[0.01, 0.025, 0.06, 0.1, 0.3, 0.005]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_StructuralFoundation"
+  },
+  {
+    "name": "FOR INT",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Plaqueta o baldosa de gres\", \"Mortero de cemento o cal para albañilería y para revoco/enlucido 1450 < d < 1600\", \"Mortero de cemento de difusion\", \"XPS Expandido con dióxido de carbono CO2 [ 0.034 W/[mK]]\", \"FU Entrevigado cerámico -Canto 250 mm\", \"Cámara de aire sin ventilar horizontal 5 cm\", \"Placa de yeso laminado [PYL] 750 < d < 900\"]",
+    "thickness": "[0.01, 0.05, 0.065, 0.06, 0.25, 0.05, 0.015]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_Floors"
+  },
+  {
+    "name": "FOR INT AC-NH",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Plaqueta o baldosa de gres\", \"Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250\", \"Poliestireno Expandido XPS\", \"FU Entrevigado cerámico -Canto 250 mm\", \"Cámara de aire sin ventilar horizontal 5 cm\", \"Placa de yeso laminado [PYL] 750 < d < 900\"]",
+    "thickness": "[0.01, 0.055, 0.12, 0.25, 0.05, 0.015]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_Floors"
+  },
+  {
+    "name": "MURO CAM SANIT",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Betún fieltro o lámina\", \"1 pie LP métrico o catalán 40 mm< G < 60 mm\"]",
+    "thickness": "[0.009, 0.24]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_Walls"
+  },
+  {
+    "name": "MURO EXTERIOR",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250\", \"EPS Poliestireno Expandido [ 0.037 W/[mK]]\", \"1 pie LP métrico o catalán 40 mm< G < 60 mm\", \"Mortero de cemento o cal para albañilería y para revoco/enlucido 1000 < d < 1250\", \"Cámara de aire sin ventilar vertical 5 cm\", \"Placa de yeso laminado [PYL] 750 < d < 900\", \"Placa de yeso laminado [PYL] 750 < d < 900\"]",
+    "thickness": "[0.03, 0.14, 0.24, 0.01, 0.05, 0.015, 0.015]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_Walls"
+  },
+  {
+    "name": "SOL CAM SANIT",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Hormigón en masa 2000 < d < 2300\", \"Cloruro de polivinilo [PVC]\", \"Arena y grava [1700 < d < 2200]\"]",
+    "thickness": "[0.08, 0.003, 0.12]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_StructuralFoundation"
+  },
+  {
+    "name": "TAB INT",
+    "group_name": "Ejemplo1_2526",
+    "material": "[\"Placa de yeso laminado [PYL] 750 < d < 900\", \"Placa de yeso laminado [PYL] 750 < d < 900\", \"MW Lana mineral [0.04 W/[mK]]\", \"Placa de yeso laminado [PYL] 750 < d < 900\", \"Placa de yeso laminado [PYL] 750 < d < 900\"]",
+    "thickness": "[0.013, 0.013, 0.04, 0.013, 0.013]",
+    "absorptance": 0.6000000238418579,
+    "revit_category": "OST_Walls"
+  }
+]

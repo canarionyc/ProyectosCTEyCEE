@@ -136,12 +136,44 @@
       ],
       "Replication": "Disabled",
       "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "Code": "# -*- coding: utf-8 -*-\r\nimport clr\r\nimport sys\r\nimport re\r\nimport json\r\nimport os\r\n\r\n# Add Revit API References\r\nclr.AddReference('RevitAPI')\r\nclr.AddReference('RevitServices')\r\nfrom Autodesk.Revit.DB import *\r\nfrom RevitServices.Persistence import DocumentManager\r\nfrom RevitServices.Transactions import TransactionManager\r\n\r\n# Set the document\r\ndoc = DocumentManager.Instance.CurrentDBDocument\r\n\r\n# ============================================================================\r\n# CONFIGURATION\r\n# ============================================================================\r\nJSON_PATH = r\"C:\\ProyectosCTEyCEE\\CTEHE2019\\Proyectos\\EjemploI_2526_Option1_Config1\\output\\materials.json\"\r\n\r\n# ============================================================================\r\n# HELPER FUNCTIONS\r\n# ============================================================================\r\n\r\ndef clean_material_name(raw_name):\r\n    \"\"\"\r\n    Fixes encoding and applies the 'a < d < b' -> 'd entre a y b' rule.\r\n    \"\"\"\r\n    if not raw_name: return \"Material_Sin_Nombre\"\r\n    \r\n    # 1. Fix encoding/accents (Ensure we are working with unicode)\r\n    # IronPython 2.7 string handling can be tricky with JSON. \r\n    # Usually simple assignment works if the file is read correctly.\r\n    clean = raw_name\r\n    \r\n    # 2. Apply Rule: \"750 < d < 900\" becomes \"d entre 750 y 900\"\r\n    # Regex explains: Look for number, space?, <, space?, d, space?, <, space?, number\r\n    pattern = r\"(\\d+)\\s*<\\s*d\\s*<\\s*(\\d+)\"\r\n    replacement = r\"d entre \\1 y \\2\"\r\n    \r\n    clean = re.sub(pattern, replacement, clean)\r\n    \r\n    return clean\r\n\r\ndef get_or_create_material(doc, name):\r\n    \"\"\"\r\n    Finds a material by name or creates it.\r\n    Returns the Material element.\r\n    \"\"\"\r\n    # Try to find existing\r\n    collector = FilteredElementCollector(doc).OfClass(Material)\r\n    for mat in collector:\r\n        if mat.Name == name:\r\n            return mat\r\n            \r\n    # If not found, create new\r\n    new_id = Material.Create(doc, name)\r\n    return doc.GetElement(new_id)\r\n\r\ndef set_param(elem, built_in_param, value):\r\n    \"\"\"Safe parameter setter\"\"\"\r\n    p = elem.get_Parameter(built_in_param)\r\n    if p and value is not None:\r\n        # Convert numbers to string for text params\r\n        if isinstance(value, float):\r\n            p.Set(str(value))\r\n        else:\r\n            p.Set(str(value))\r\n\r\n# ============================================================================\r\n# MAIN EXECUTION\r\n# ============================================================================\r\ndef main():\r\n    if not os.path.exists(JSON_PATH):\r\n        return \"Error: File not found at {}\".format(JSON_PATH)\r\n\r\n    # Read JSON\r\n    with open(JSON_PATH, 'r') as f:\r\n        data = json.load(f)\r\n\r\n    # Start Transaction\r\n    TransactionManager.Instance.EnsureInTransaction(doc)\r\n    \r\n    report = []\r\n    \r\n    try:\r\n        for item in data:\r\n            raw_name = item.get('name', 'Unnamed')\r\n            props = item.get('properties', {})\r\n            \r\n            # 1. Clean the name\r\n            final_name = clean_material_name(raw_name)\r\n            \r\n            # 2. Get or Create (The \"Upsert\")\r\n            mat = get_or_create_material(doc, final_name)\r\n            \r\n            # 3. Update Identity Data\r\n            # Map \"group\" from JSON to Revit \"Class\"\r\n            group = item.get('group', 'General')\r\n            set_param(mat, BuiltInParameter.MATERIAL_PARAM_CLASS, group)\r\n            \r\n            # Map \"conductivity\" to \"Model\" (for Schedules)\r\n            k_val = props.get('conductivity', 0)\r\n            set_param(mat, BuiltInParameter.ALL_MODEL_MODEL, k_val)\r\n            \r\n            # Map \"density\" to \"Description\"\r\n            d_val = props.get('density', 0)\r\n            desc_str = \"Density: {} kg/m3\".format(d_val)\r\n            set_param(mat, BuiltInParameter.ALL_MODEL_DESCRIPTION, desc_str)\r\n            \r\n            # Map \"specific_heat\" to \"Comments\"\r\n            cp_val = props.get('specific_heat', 0)\r\n            comment_str = \"Cp: {} J/kgK\".format(cp_val)\r\n            set_param(mat, BuiltInParameter.ALL_MODEL_INSTANCE_COMMENTS, comment_str)\r\n\r\n            report.append(\"Processed: {}\".format(final_name))\r\n\r\n        TransactionManager.Instance.TransactionTaskDone()\r\n        return \"Success. Processed {} materials.\".format(len(report))\r\n        \r\n    except Exception as e:\r\n        TransactionManager.Instance.ForceCloseTransaction()\r\n        return \"Error: {}\".format(str(e))\r\n\r\n# Run the script\r\nif __name__ == \"__main__\":\r\n    result = main()\r\n    print(result) # Or OUT = result in Dynamo",
+      "Engine": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "4ff407d1f1264fad8cc945bb54a44e3c",
+      "NodeType": "PythonScriptNode",
+      "Inputs": [
+        {
+          "Id": "933a68b4f1a941a58a8090caddb72616",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "cbd9c017783a4d308285521cac063dd6",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
     }
   ],
   "Connectors": [],
   "Dependencies": [],
   "NodeLibraryDependencies": [],
-  "EnableLegacyPolyCurveBehavior": null,
+  "EnableLegacyPolyCurveBehavior": true,
   "Thumbnail": "",
   "GraphDocumentationURL": null,
   "ExtensionWorkspaceData": [
@@ -191,7 +223,7 @@
     "NodeViews": [
       {
         "Id": "5b3025f8bcf24e1583d4797a45be2be2",
-        "Name": "load db",
+        "Name": " load db from PDF",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
@@ -228,6 +260,16 @@
         "ShowGeometry": true,
         "X": 676.6667549279405,
         "Y": 320.4595934059764
+      },
+      {
+        "Id": "4ff407d1f1264fad8cc945bb54a44e3c",
+        "Name": " load db from JSON",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 282.5241058012841,
+        "Y": 316.0625808339569
       }
     ],
     "Annotations": [],
