@@ -191,7 +191,7 @@ $ ++++++++++++++++++++++++++++++
     IMAGE          = "Ladrillo.bmp"
     NAME_CALENER   = "Mortero de cemento de difusion"
     LIBRARY       = NO
-    UTIL          =  NO
+    UTIL          =  YES
     OBSOLETE      = NO
     ..
 "Poliestireno Expandido XPS" = MATERIAL
@@ -1222,12 +1222,12 @@ $          TYPE-OPER = "Acondicionado"
                   INT-WALL-TYPE = STANDARD  
                   NEXT-TO       = "P01_E01"  
    COMPROBAR-REQUISITOS-MINIMOS = NO
-                  CONSTRUCTION  = "I_FOR INT AC-NH"  
+                  CONSTRUCTION  = "I_FOR CAM SANIT"  
                   LOCATION      = BOTTOM  
                         ..
-                  "I_FOR INT AC-NH" =  CONSTRUCTION
+                  "I_FOR CAM SANIT" =  CONSTRUCTION
                         TYPE   = LAYERS  
-                        LAYERS = "I_FOR INT AC-NH" 
+                        LAYERS = "I_FOR CAM SANIT" 
                         ..
             "P02_E01_FI002" = INTERIOR-WALL
                   INT-WALL-TYPE = STANDARD  

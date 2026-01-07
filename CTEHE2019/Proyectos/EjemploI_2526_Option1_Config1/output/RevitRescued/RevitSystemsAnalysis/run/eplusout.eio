@@ -1,0 +1,341 @@
+Program Version,EnergyPlus, Version 23.1.0-87ed9199d4, YMD=2026.01.07 06:06
+! <Version>, Version ID
+ Version, 23.1
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  4, 15
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 25, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, Yes, Yes, Yes, Yes, No
+! <Performance Precision Tradeoffs>, Use Coil Direct Simulation, Zone Radiant Exchange Algorithm, Override Mode, Number of Timestep In Hour, Force Euler Method, Minimum Number of Warmup Days, Force Suppress All Begin Environment Resets, Minimum System Timestep, MaxZoneTempDiff, MaxAllowedDelTemp
+ Performance Precision Tradeoffs, No, ScriptF, Normal, 4, No, 1, No, 1.0, 0.300, 2.0000E-003
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 0.200, 0.200, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod,   7.62,   6.83,   8.23,  10.42,  16.16,  20.59,  23.57,  24.48,  22.93,  19.50,  14.90,  10.64
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Zaragoza AP AR ESP ISD-TMYx WMO#=081600,41.67,-1.04,1.00,263.00,98205,1.1672
+! <Site Water Mains Temperature Information>,Calculation Method{},Water Mains Temperature Schedule Name{},Annual Average Outdoor Air Temperature{C},Maximum Difference In Monthly Average Outdoor Air Temperatures{deltaC},Fixed Default Water Mains Temperature{C}
+Site Water Mains Temperature Information,Correlation,NA,0.00,10.00,NA
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,Ejemplo1_2526_Option1_Config1,0.000,Suburbs,0.10000,0.50000,FullExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,DOE-2
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Algorithm {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}, Space Heat Balance Sizing, Space Heat Balance Simulation
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference, No, No
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing and Return {AdjustMixingOnly | AdjustReturnOnly | AdjustMixingThenReturn | AdjustReturnThenMixing | None}, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.220,370.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,2,21,5
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, 2 P02 E01,0.0,0.00,0.00,0.00,4.46,3.48,1.97,1,1,1,0.25,8.75,-0.75,7.75,0.00,4.00,4.00,201.63,TARP,DOE-2,56.25,100.11,78.79,19.38,11,5,0,Yes
+ Zone Information, 3 P03_E01 (UNCONDITIONED),0.0,0.00,0.00,0.00,4.50,3.50,5.52,1,1,1,0.22,8.78,-0.78,7.78,4.00,9.18,3.27,110.47,TARP,DOE-2,72.25,0.00,0.00,0.00,5,0,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, 2 P02 E01,56.25,2.0,28.125,3.556E-002,10.764,13.993,0.000,0.000,0.000,0.000,24.757,No
+ Zone Internal Gains Nominal, 3 P03_E01 (UNCONDITIONED),72.25,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+ People Internal Gains Nominal, AIM0142_PEOPLE,COMMON OFFICE OCCUPANCY - 8 AM TO 5 PM,2 P02 E01,56.25,2.0,2.0,3.556E-002,28.125,0.300,0.700,0.556,ACTIVITY_131.8819816,No,3.8200E-008,0,2
+ People Internal Gains Nominal, AIM0353_PEOPLE,COMMON OFFICE OCCUPANCY - 8 AM TO 5 PM,3 P03_E01 (UNCONDITIONED),72.25,0.0,0.0,0.000,N/A,0.300,0.700,AutoCalculate,ACTIVITY_0.0,No,3.8200E-008,0,0
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, AIM0142_LIGHTS,OFFICE LIGHTING - 6 AM TO 11 PM,2 P02 E01,56.25,2.0,605.470,10.764,302.735,0.000,0.000,0.000,1.000,1.000,General,0.000,605.470
+ Lights Internal Gains Nominal, AIM0353_LIGHTS,OFFICE LIGHTING - 6 AM TO 11 PM,3 P03_E01 (UNCONDITIONED),72.25,0.0,0.000,0.000,N/A,0.000,0.000,0.000,1.000,1.000,General,0.000,0.000
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, AIM0142_ELEC_EQUIP,OFFICE LIGHTING - 6 AM TO 11 PM,2 P02 E01,56.25,2.0,787.111,13.993,393.555,0.000,0.000,0.000,1.000,General,0.000,787.111
+ ElectricEquipment Internal Gains Nominal, AIM0353_ELEC_EQUIP,OFFICE LIGHTING - 6 AM TO 11 PM,3 P03_E01 (UNCONDITIONED),72.25,0.0,0.000,0.000,N/A,0.000,0.000,0.000,1.000,General,0.000,0.000
+! <Shadowing/Sun Position Calculations Annual Simulations>, Shading Calculation Method, Shading Calculation Update Frequency Method, Shading Calculation Update Frequency {days}, Maximum Figures in Shadow Overlap Calculations {}, Polygon Clipping Algorithm, Pixel Counting Resolution, Sky Diffuse Modeling Algorithm, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,PolygonClipping,Periodic,20,15000,SutherlandHodgman,512,SimpleSkyDiffuseModeling,No,No,No
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s-m2},Volume Flow Rate/Exterior Surface Area {m3/s-m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, AIM0142_INFILTRATION,ALWAYS ON DISCRETE,2 P02 E01,56.25,2.0,1.932E-002,3.435E-004,1.894E-004,0.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, AIM0353_INFILTRATION,ALWAYS ON DISCRETE,3 P03_E01 (UNCONDITIONED),72.25,0.0,0.000,0.000,0.000,0.000,1.000,0.000,0.000,0.000
+! <ZoneVentilation Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s-m2},Volume Flow Rate/person Area {m3/s-person},ACH - Air Changes per Hour,Fan Type {Exhaust;Intake;Natural},Fan Pressure Rise {Pa},Fan Efficiency {},Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2},Minimum Indoor Temperature{C}/Schedule,Maximum Indoor Temperature{C}/Schedule,Delta Temperature{C}/Schedule,Minimum Outdoor Temperature{C}/Schedule,Maximum Outdoor Temperature{C}/Schedule,Maximum WindSpeed{m/s}
+ ZoneVentilation Airflow Stats Nominal, 2 P02 E01 VENTILATION PER PERSON,COMMON OFFICE OCCUPANCY - 8 AM TO 5 PM,2 P02 E01,56.25,2.0,4.719E-003,8.390E-005,2.360E-003,8.426E-002,Natural,0.000,1.0,1.000,0.000,0.000,0.000,-100.00,100.00,-100.00,-100.00,100.00,40.00
+ ZoneVentilation Airflow Stats Nominal, 2 P02 E01 VENTILATION PER FLOOR AREA,ALWAYS ON DISCRETE,2 P02 E01,56.25,2.0,1.715E-002,3.048E-004,8.573E-003,0.306,Natural,0.000,1.0,1.000,0.000,0.000,0.000,-100.00,100.00,-100.00,-100.00,100.00,40.00
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,2 P02 E01,Mixing/Well-Stirred
+RoomAir Model,3 P03_E01 (UNCONDITIONED),Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    4
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.0000    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.0000    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, 2 P02 E01, Cooling, 6600.97255, 6600.97255, 0.56041, 0.56041, ZARAGOZA AP SEPTEMBER .4% CONDNS DB=>MCWB, 9/21 15:00:00, 33.80000, 9.75932E-003, 56.25000, 2.00000, 2.18645E-002, 0.00000
+ Zone Sizing Information, 2 P02 E01, Heating, 3224.91944, 3224.91944, 0.14421, 0.14421, ZARAGOZA AP ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -2.20000, 3.24136E-003, 56.25000, 2.00000, 2.18645E-002, 0.00000
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 2 P02 E01 IDEAL LOADS AIR SYSTEM, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 2 P02 E01 IDEAL LOADS AIR SYSTEM, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values, Sky Temperature Model
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,ZARAGOZA AP ANN CLG .4% CONDNS DB=>MWB,SizingPeriod:DesignDay,08/21,08/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+! <Environment:Design Day Data>, Max Dry-Bulb Temp {C}, Temp Range {dC}, Temp Range Ind Type, Hum Ind Type, Hum Ind Value at Max Temp, Hum Ind Units, Pressure {Pa}, Wind Direction {deg CW from N}, Wind Speed {m/s}, Clearness, Rain, Snow
+! <Environment:Design Day Misc>,DayOfYear,ASHRAE A Coeff,ASHRAE B Coeff,ASHRAE C Coeff,Solar Constant-Annual Variation,Eq of Time {minutes}, Solar Declination Angle {deg}, Solar Model
+Environment:Design Day Data,36.20,13.20,DefaultMultipliers,Wetbulb,21.20,{C},98205,90,3.7,0.00,No,No
+Environment:Design Day Misc,233,1106.3,0.2000,0.1216,1.0,-3.33,12.4,ASHRAETau
+Environment:WarmupDays,  6
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,Xmlandhtml,xmlandhtml
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS DB=>MWB,2.6645352591E-015,2.6147264698E-015,Pass,Pass,2.5191158443E-002,2.0046372149E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS DB=>MWB,0.1304194678,4.3913967114E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP ANN CLG .4% CONDNS DP=>MDB,SizingPeriod:DesignDay,08/21,08/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,25.70,13.20,DefaultMultipliers,Dewpoint,19.90,{C},98205,90,3.7,0.00,No,No
+Environment:Design Day Misc,233,1106.3,0.2000,0.1216,1.0,-3.33,12.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS DP=>MDB,2.5535129566E-015,2.5997557869E-015,Pass,Pass,4.2784597521E-002,3.2888518558E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS DP=>MDB,0.1415234909,4.6084022817E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP ANN CLG .4% CONDNS ENTH=>MDB,SizingPeriod:DesignDay,08/21,08/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,32.90,13.20,DefaultMultipliers,Enthalpy,67800.00,{J/kgDryAir},98205,90,3.7,0.00,No,No
+Environment:Design Day Misc,233,1106.3,0.2000,0.1216,1.0,-3.33,12.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS ENTH=>MDB,2.4054832200E-015,2.4320952364E-015,Pass,Pass,2.8452233052E-002,2.2385532982E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS ENTH=>MDB,0.1331278001,4.4577685746E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP ANN CLG .4% CONDNS WB=>MDB,SizingPeriod:DesignDay,08/21,08/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,32.70,13.20,DefaultMultipliers,Wetbulb,22.70,{C},98205,90,3.7,0.00,No,No
+Environment:Design Day Misc,233,1106.3,0.2000,0.1216,1.0,-3.33,12.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS WB=>MDB,2.7755575616E-015,2.5227563693E-015,Pass,Pass,2.8677831008E-002,2.2549978753E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP ANN CLG .4% CONDNS WB=>MDB,0.1333088607,4.4623301922E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP ANN HTG 99.6% CONDNS DB,SizingPeriod:DesignDay,01/21,01/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,-2.20,0.00,DefaultMultipliers,Wetbulb,-2.20,{C},98205,300,2.2,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAEClearSky
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP ANN HTG 99.6% CONDNS DB,3.1086244690E-015,2.5251981408E-015,Pass,Pass,7.1206385387E-005,4.4770135697E-006,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP ANN HTG 99.6% CONDNS DB,2.9364518073E-004,1.8337094662E-005,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP ANN HTG WIND 99.6% CONDNS WS=>MCDB,SizingPeriod:DesignDay,01/21,01/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,8.20,0.00,DefaultMultipliers,Wetbulb,8.20,{C},98205,300,15.0,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAEClearSky
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP ANN HTG WIND 99.6% CONDNS WS=>MCDB,2.8865798640E-015,2.6303930358E-015,Pass,Pass,9.6396648965E-005,6.0152331136E-006,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP ANN HTG WIND 99.6% CONDNS WS=>MCDB,2.5963360350E-004,1.6000918795E-005,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP ANN HUM_N 99.6% CONDNS DP=>MCDB,SizingPeriod:DesignDay,01/21,01/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,3.90,0.00,DefaultMultipliers,Dewpoint,-8.10,{C},98205,300,2.2,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAEClearSky
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP ANN HUM_N 99.6% CONDNS DP=>MCDB,2.5535129566E-015,2.4965622126E-015,Pass,Pass,8.3192526650E-005,5.2121339275E-006,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP ANN HUM_N 99.6% CONDNS DP=>MCDB,2.7813216332E-004,1.7253821287E-005,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP APRIL .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,04/21,04/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,28.20,11.30,DefaultMultipliers,Wetbulb,16.10,{C},98205,90,5.0,0.00,No,No
+Environment:Design Day Misc,111,1135.8,0.1796,9.6924E-002,1.0,1.11,11.6,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP APRIL .4% CONDNS DB=>MCWB,2.9235872982E-015,2.5118753336E-015,Pass,Pass,3.2307539193E-002,2.6191438235E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP APRIL .4% CONDNS DB=>MCWB,0.1311854861,4.3606212254E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP APRIL .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,04/21,04/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,25.70,11.30,DefaultMultipliers,Wetbulb,16.70,{C},98205,90,5.0,0.00,No,No
+Environment:Design Day Misc,111,1135.8,0.1796,9.6924E-002,1.0,1.11,11.6,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP APRIL .4% CONDNS WB=>MCDB,2.9976021665E-015,2.6311739155E-015,Pass,Pass,3.7523409954E-002,3.0182282278E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP APRIL .4% CONDNS WB=>MCDB,0.1339974531,4.5051972341E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP AUGUST .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,08/21,08/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,38.20,13.20,DefaultMultipliers,Wetbulb,21.80,{C},98205,90,4.6,0.00,No,No
+Environment:Design Day Misc,233,1106.3,0.2000,0.1216,1.0,-3.33,12.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP AUGUST .4% CONDNS DB=>MCWB,2.2944609176E-015,2.2339742312E-015,Pass,Pass,2.3512167858E-002,1.8955720320E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP AUGUST .4% CONDNS DB=>MCWB,0.1243874519,4.1862398474E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP AUGUST .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,08/21,08/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,34.70,13.20,DefaultMultipliers,Wetbulb,24.50,{C},98205,90,4.6,0.00,No,No
+Environment:Design Day Misc,233,1106.3,0.2000,0.1216,1.0,-3.33,12.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP AUGUST .4% CONDNS WB=>MCDB,2.4424906542E-015,2.1943879425E-015,Pass,Pass,2.6455384987E-002,2.1146583022E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP AUGUST .4% CONDNS WB=>MCDB,0.1270481087,4.2434502002E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP DECEMBER .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,12/21,12/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,17.80,7.40,DefaultMultipliers,Wetbulb,12.10,{C},98205,90,4.1,0.00,No,No
+Environment:Design Day Misc,355,1232.8,0.1424,5.7719E-002,1.0,2.45,-23.5,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP DECEMBER .4% CONDNS DB=>MCWB,3.2566542056E-015,2.8856307994E-015,Pass,Pass,0.1222754797,0.1457786160,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP DECEMBER .4% CONDNS DB=>MCWB,0.1355036992,7.6486125286E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP DECEMBER .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,12/21,12/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,16.10,7.40,DefaultMultipliers,Wetbulb,12.60,{C},98205,90,4.1,0.00,No,No
+Environment:Design Day Misc,355,1232.8,0.1424,5.7719E-002,1.0,2.45,-23.5,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP DECEMBER .4% CONDNS WB=>MCDB,1.7271557716E-002,4.8221738659E-002,Pass,Pass,0.3242347349,2.3202149096,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP DECEMBER .4% CONDNS WB=>MCDB,0.1412909501,7.7678421601E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP FEBRUARY .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,02/21,02/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,19.20,9.40,DefaultMultipliers,Wetbulb,11.90,{C},98205,90,4.9,0.00,No,No
+Environment:Design Day Misc, 52,1214.6,0.1445,6.0579E-002,1.0,-13.80,-10.8,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP FEBRUARY .4% CONDNS DB=>MCWB,3.1456319031E-015,2.7552525588E-015,Pass,Pass,9.0499643112E-002,7.6868066921E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP FEBRUARY .4% CONDNS DB=>MCWB,0.1496471497,6.8299140051E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP FEBRUARY .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,02/21,02/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,18.00,9.40,DefaultMultipliers,Wetbulb,12.80,{C},98205,90,4.9,0.00,No,No
+Environment:Design Day Misc, 52,1214.6,0.1445,6.0579E-002,1.0,-13.80,-10.8,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP FEBRUARY .4% CONDNS WB=>MCDB,8.7756868147E-003,2.5979351246E-002,Pass,Pass,9.3220675992E-002,0.1612637808,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP FEBRUARY .4% CONDNS WB=>MCDB,0.1524138177,6.9958705391E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP JANUARY .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,01/21,01/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,17.20,7.50,DefaultMultipliers,Wetbulb,11.60,{C},98205,90,4.3,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP JANUARY .4% CONDNS DB=>MCWB,3.5783987779E-003,9.8110650639E-003,Pass,Pass,9.8399181905E-002,0.1650599078,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP JANUARY .4% CONDNS DB=>MCWB,0.1430696501,7.6531254078E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP JANUARY .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,01/21,01/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,16.20,7.50,DefaultMultipliers,Wetbulb,12.30,{C},98205,90,4.3,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP JANUARY .4% CONDNS WB=>MCDB,1.4279919099E-002,4.1955543587E-002,Pass,Pass,0.1044126534,0.2456770518,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP JANUARY .4% CONDNS WB=>MCDB,0.1469556652,7.7068295991E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP JULY .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,38.10,14.00,DefaultMultipliers,Wetbulb,21.80,{C},98205,90,4.9,0.00,No,No
+Environment:Design Day Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP JULY .4% CONDNS DB=>MCWB,2.3314683517E-015,2.0401134785E-015,Pass,Pass,2.2307536876E-002,1.9500929359E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP JULY .4% CONDNS DB=>MCWB,0.1197149535,3.7907070651E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP JULY .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,35.10,14.00,DefaultMultipliers,Wetbulb,23.90,{C},98205,90,4.9,0.00,No,No
+Environment:Design Day Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP JULY .4% CONDNS WB=>MCDB,2.5905203908E-015,2.5371018621E-015,Pass,Pass,2.4827255323E-002,2.1533822381E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP JULY .4% CONDNS WB=>MCDB,0.1218743806,3.8176649110E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP JUNE .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,06/21,06/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,37.20,13.30,DefaultMultipliers,Wetbulb,20.60,{C},98205,90,4.8,0.00,No,No
+Environment:Design Day Misc,172,1088.0,0.2039,0.1335,1.0,-1.34,23.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP JUNE .4% CONDNS DB=>MCWB,2.5905203908E-015,2.4312504166E-015,Pass,Pass,2.1507426020E-002,1.9595083959E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP JUNE .4% CONDNS DB=>MCWB,0.1173527734,3.7329563634E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP JUNE .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,06/21,06/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,33.70,13.30,DefaultMultipliers,Wetbulb,22.70,{C},98205,90,4.8,0.00,No,No
+Environment:Design Day Misc,172,1088.0,0.2039,0.1335,1.0,-1.34,23.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP JUNE .4% CONDNS WB=>MCDB,2.7385501274E-015,2.4312504166E-015,Pass,Pass,2.4505206154E-002,2.2086519975E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP JUNE .4% CONDNS WB=>MCDB,0.1198261135,3.7713370848E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP MARCH .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,03/21,03/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,24.10,11.10,DefaultMultipliers,Wetbulb,13.60,{C},98205,90,4.9,0.00,No,No
+Environment:Design Day Misc, 80,1184.3,0.1559,7.0716E-002,1.0,-7.51,-4.2E-002,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP MARCH .4% CONDNS DB=>MCWB,2.7755575616E-015,2.8644327788E-015,Pass,Pass,4.5158665430E-002,3.8514977995E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP MARCH .4% CONDNS DB=>MCWB,0.1451479533,5.6458237510E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP MARCH .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,03/21,03/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,22.00,11.10,DefaultMultipliers,Wetbulb,15.10,{C},98205,90,4.9,0.00,No,No
+Environment:Design Day Misc, 80,1184.3,0.1559,7.0716E-002,1.0,-7.51,-4.2E-002,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP MARCH .4% CONDNS WB=>MCDB,2.7385501274E-015,2.3205756437E-015,Pass,Pass,5.6963647187E-002,4.6416642240E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP MARCH .4% CONDNS WB=>MCDB,0.1465812296,5.7377268814E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP MAY .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,05/21,05/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,32.80,12.10,DefaultMultipliers,Wetbulb,18.70,{C},98205,90,4.6,0.00,No,No
+Environment:Design Day Misc,141,1102.7,0.1968,0.1213,1.0,3.61,20.0,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP MAY .4% CONDNS DB=>MCWB,2.5535129566E-015,2.4965622126E-015,Pass,Pass,2.5048771278E-002,2.1483846207E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP MAY .4% CONDNS DB=>MCWB,0.1221030199,3.7728692596E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP MAY .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,05/21,05/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,30.50,12.10,DefaultMultipliers,Wetbulb,19.90,{C},98205,90,4.6,0.00,No,No
+Environment:Design Day Misc,141,1102.7,0.1968,0.1213,1.0,3.61,20.0,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP MAY .4% CONDNS WB=>MCDB,2.4054832200E-015,2.3214607403E-015,Pass,Pass,2.7562487451E-002,2.3497276152E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP MAY .4% CONDNS WB=>MCDB,0.1240742013,3.7877386896E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP NOVEMBER .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,11/21,11/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,21.00,8.00,DefaultMultipliers,Wetbulb,14.00,{C},98205,90,4.4,0.00,No,No
+Environment:Design Day Misc,325,1220.2,0.1488,6.4032E-002,1.0,14.25,-19.7,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP NOVEMBER .4% CONDNS DB=>MCWB,2.9605947323E-015,2.6972301664E-015,Pass,Pass,4.8700521065E-002,4.7854185765E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP NOVEMBER .4% CONDNS DB=>MCWB,0.1379103861,7.2864105953E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP NOVEMBER .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,11/21,11/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,19.10,8.00,DefaultMultipliers,Wetbulb,15.40,{C},98205,90,4.4,0.00,No,No
+Environment:Design Day Misc,325,1220.2,0.1488,6.4032E-002,1.0,14.25,-19.7,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP NOVEMBER .4% CONDNS WB=>MCDB,2.9235872982E-015,2.5636831564E-015,Pass,Pass,6.5020456206E-002,5.5118148445E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP NOVEMBER .4% CONDNS WB=>MCDB,0.1386154215,7.3111620080E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP OCTOBER .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,10/21,10/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,28.90,9.80,DefaultMultipliers,Wetbulb,17.70,{C},98205,90,3.9,0.00,No,No
+Environment:Design Day Misc,294,1191.2,0.1597,7.3069E-002,1.0,15.18,-10.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP OCTOBER .4% CONDNS DB=>MCWB,2.5535129566E-015,2.2761828444E-015,Pass,Pass,3.2160576353E-002,3.2155454458E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP OCTOBER .4% CONDNS DB=>MCWB,0.1380505338,5.9233756464E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP OCTOBER .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,10/21,10/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,24.70,9.80,DefaultMultipliers,Wetbulb,19.50,{C},98205,90,3.9,0.00,No,No
+Environment:Design Day Misc,294,1191.2,0.1597,7.3069E-002,1.0,15.18,-10.4,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP OCTOBER .4% CONDNS WB=>MCDB,2.5535129566E-015,2.5997557869E-015,Pass,Pass,3.9835781792E-002,3.7961322977E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP OCTOBER .4% CONDNS WB=>MCDB,0.1428200686,6.1795822180E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP SEPTEMBER .4% CONDNS DB=>MCWB,SizingPeriod:DesignDay,09/21,09/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,33.80,11.40,DefaultMultipliers,Wetbulb,20.20,{C},98205,90,4.1,0.00,No,No
+Environment:Design Day Misc,264,1151.1,0.1777,9.2179E-002,1.0,6.63,1.0,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP SEPTEMBER .4% CONDNS DB=>MCWB,2.9235872982E-015,2.5118753336E-015,Pass,Pass,2.7563201948E-002,2.4372422708E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP SEPTEMBER .4% CONDNS DB=>MCWB,0.1342637061,4.7769583910E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,ZARAGOZA AP SEPTEMBER .4% CONDNS WB=>MCDB,SizingPeriod:DesignDay,09/21,09/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A,Clark and Allen
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,29.10,11.40,DefaultMultipliers,Wetbulb,21.90,{C},98205,90,4.1,0.00,No,No
+Environment:Design Day Misc,264,1151.1,0.1777,9.2179E-002,1.0,6.63,1.0,ASHRAETau
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,SizingPeriod: ZARAGOZA AP SEPTEMBER .4% CONDNS WB=>MCDB,3.1086244690E-015,2.5251981408E-015,Pass,Pass,3.2941225620E-002,2.8355092119E-002,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),SizingPeriod: ZARAGOZA AP SEPTEMBER .4% CONDNS WB=>MCDB,0.1389588403,4.9716755924E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,RUN PERIOD 1,WeatherFileRunPeriod,01/01/1997,12/31/1997,Wednesday,365,Use RunPeriod Specified Day,No,No,No,Yes,Yes,Clark and Allen
+Environment:Daylight Saving,No,RunPeriod Object
+Environment:WarmupDays,  6
+ Warmup Convergence Information,2 P02 E01,RunPeriod: RUN PERIOD 1,0.1188313485,0.3652201085,Pass,Pass,0.1639825565,0.3371302896,Pass,Pass
+ Warmup Convergence Information,3 P03_E01 (UNCONDITIONED),RunPeriod: RUN PERIOD 1,0.1251859667,8.3965418206E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data

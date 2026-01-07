@@ -219,3 +219,6 @@ __marimo__/
 
 
 *.tmp
+*.rvt
+*.htm
+*.js
