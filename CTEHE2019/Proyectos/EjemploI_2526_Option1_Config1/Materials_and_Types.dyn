@@ -136,6 +136,7 @@
       ],
       "Replication": "Disabled",
       "Description": "Runs an embedded Python script."
+<<<<<<< Updated upstream
     },
     {
       "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
@@ -168,12 +169,18 @@
       ],
       "Replication": "Disabled",
       "Description": "Runs an embedded Python script."
+=======
+>>>>>>> Stashed changes
     }
   ],
   "Connectors": [],
   "Dependencies": [],
   "NodeLibraryDependencies": [],
+<<<<<<< Updated upstream
   "EnableLegacyPolyCurveBehavior": true,
+=======
+  "EnableLegacyPolyCurveBehavior": null,
+>>>>>>> Stashed changes
   "Thumbnail": "",
   "GraphDocumentationURL": null,
   "ExtensionWorkspaceData": [
@@ -223,7 +230,11 @@
     "NodeViews": [
       {
         "Id": "5b3025f8bcf24e1583d4797a45be2be2",
+<<<<<<< Updated upstream
         "Name": " load db from PDF",
+=======
+        "Name": "load db",
+>>>>>>> Stashed changes
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
@@ -260,6 +271,7 @@
         "ShowGeometry": true,
         "X": 676.6667549279405,
         "Y": 320.4595934059764
+<<<<<<< Updated upstream
       },
       {
         "Id": "4ff407d1f1264fad8cc945bb54a44e3c",
@@ -270,6 +282,8 @@
         "ShowGeometry": true,
         "X": 282.5241058012841,
         "Y": 316.0625808339569
+=======
+>>>>>>> Stashed changes
       }
     ],
     "Annotations": [],
