@@ -1,28 +1,5 @@
 select * from wallcons;
 
-<<<<<<< Updated upstream:queries/hulc_db/hulc_data.sql
-select * from wallcons where name='MURO EXTERIOR0.60';
-
-delete  from wallcons where name='MURO EXTERIOR0.60';
-delete  from wallcons_long where name='MURO EXTERIOR0.60';
--- SOL CAM SANIT
-
-select wc.name
-     ,wc2.revit_category
-     , wc.material
-     , m.material_group
-     , round(wc.thickness,4) as thickness
-     , round(m.conductivity,4) as conductivity
-     , round(m.resistance,4) as resistance
-     , round(m.density,4) as density
-     , round(m.specificheat,4) as specificheat
-     , round(m.vapourdiffusivity,4) as vapourdiffusivity
-from wallcons_long wc, materials m, wallcons wc2
-where wc.material=m.name
-  and wc.name=wc2.name
-and wc.name in ('FOR CAM SANIT', 'SOL CAM SANIT', 'FOR INT AC-NH'
-    );
-=======
 -- SOL CAM SANIT
 
 select wc.name
@@ -35,7 +12,6 @@ select wc.name
      , round(m.specificheat,3) as specificheat
      , round(m.vapourdiffusivity,3) as vapourdiffusivity
 from wallcons_long wc, materials m  where wc.name='SOL CAM SANIT' and wc.material=m.name;
->>>>>>> Stashed changes:sql/hulc_data.sql
 
 
 select * from wallcons_long where name='SOL CAM SANIT';
