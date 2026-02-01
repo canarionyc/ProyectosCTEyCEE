@@ -1,0 +1,2539 @@
+
+Version,
+  23.1;                                   !- Version Identifier
+
+Timestep,
+  4;                                      !- Number of Timesteps per Hour
+
+LifeCycleCost:Parameters,
+  Life Cycle Cost Parameters,             !- Name
+  EndOfYear,                              !- Discounting Convention
+  ConstantDollar,                         !- Inflation Approach
+  0.03,                                   !- Real Discount Rate
+  ,                                       !- Nominal Discount Rate
+  ,                                       !- Inflation
+  ,                                       !- Base Date Month
+  2011,                                   !- Base Date Year
+  ,                                       !- Service Date Month
+  2011,                                   !- Service Date Year
+  25,                                     !- Length of Study Period in Years
+  ,                                       !- Tax rate
+  None;                                   !- Depreciation Method
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Electricity,       !- Name
+  Electricity,                            !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9838,                                 !- Year Escalation 1
+  0.9730,                                 !- Year Escalation 2
+  0.9632,                                 !- Year Escalation 3
+  0.9611,                                 !- Year Escalation 4
+  0.9571,                                 !- Year Escalation 5
+  0.9553,                                 !- Year Escalation 6
+  0.9539,                                 !- Year Escalation 7
+  0.9521,                                 !- Year Escalation 8
+  0.9546,                                 !- Year Escalation 9
+  0.9550,                                 !- Year Escalation 10
+  0.9553,                                 !- Year Escalation 11
+  0.9564,                                 !- Year Escalation 12
+  0.9575,                                 !- Year Escalation 13
+  0.9596,                                 !- Year Escalation 14
+  0.9618,                                 !- Year Escalation 15
+  0.9614,                                 !- Year Escalation 16
+  0.9618,                                 !- Year Escalation 17
+  0.9618,                                 !- Year Escalation 18
+  0.9593,                                 !- Year Escalation 19
+  0.9589,                                 !- Year Escalation 20
+  0.9607,                                 !- Year Escalation 21
+  0.9625,                                 !- Year Escalation 22
+  0.9650,                                 !- Year Escalation 23
+  0.9708,                                 !- Year Escalation 24
+  0.9751,                                 !- Year Escalation 25
+  0.9762,                                 !- Year Escalation 26
+  0.9766,                                 !- Year Escalation 27
+  0.9766,                                 !- Year Escalation 28
+  0.9769,                                 !- Year Escalation 29
+  0.9773;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Distillate Oil,    !- Name
+  FuelOilNo1,                             !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9714,                                 !- Year Escalation 1
+  0.9730,                                 !- Year Escalation 2
+  0.9942,                                 !- Year Escalation 3
+  1.0164,                                 !- Year Escalation 4
+  1.0541,                                 !- Year Escalation 5
+  1.0928,                                 !- Year Escalation 6
+  1.1267,                                 !- Year Escalation 7
+  1.1580,                                 !- Year Escalation 8
+  1.1792,                                 !- Year Escalation 9
+  1.1967,                                 !- Year Escalation 10
+  1.2200,                                 !- Year Escalation 11
+  1.2333,                                 !- Year Escalation 12
+  1.2566,                                 !- Year Escalation 13
+  1.2709,                                 !- Year Escalation 14
+  1.2826,                                 !- Year Escalation 15
+  1.2985,                                 !- Year Escalation 16
+  1.3102,                                 !- Year Escalation 17
+  1.3250,                                 !- Year Escalation 18
+  1.3261,                                 !- Year Escalation 19
+  1.3282,                                 !- Year Escalation 20
+  1.3324,                                 !- Year Escalation 21
+  1.3356,                                 !- Year Escalation 22
+  1.3431,                                 !- Year Escalation 23
+  1.3510,                                 !- Year Escalation 24
+  1.3568,                                 !- Year Escalation 25
+  1.3606,                                 !- Year Escalation 26
+  1.3637,                                 !- Year Escalation 27
+  1.3674,                                 !- Year Escalation 28
+  1.3706,                                 !- Year Escalation 29
+  1.3743;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Residual Oil,      !- Name
+  FuelOilNo2,                             !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.8469,                                 !- Year Escalation 1
+  0.8257,                                 !- Year Escalation 2
+  0.8681,                                 !- Year Escalation 3
+  0.8988,                                 !- Year Escalation 4
+  0.9289,                                 !- Year Escalation 5
+  0.9604,                                 !- Year Escalation 6
+  0.9897,                                 !- Year Escalation 7
+  1.0075,                                 !- Year Escalation 8
+  1.0314,                                 !- Year Escalation 9
+  1.0554,                                 !- Year Escalation 10
+  1.0861,                                 !- Year Escalation 11
+  1.1278,                                 !- Year Escalation 12
+  1.1497,                                 !- Year Escalation 13
+  1.1620,                                 !- Year Escalation 14
+  1.1743,                                 !- Year Escalation 15
+  1.1852,                                 !- Year Escalation 16
+  1.1948,                                 !- Year Escalation 17
+  1.2037,                                 !- Year Escalation 18
+  1.2071,                                 !- Year Escalation 19
+  1.2119,                                 !- Year Escalation 20
+  1.2139,                                 !- Year Escalation 21
+  1.2194,                                 !- Year Escalation 22
+  1.2276,                                 !- Year Escalation 23
+  1.2365,                                 !- Year Escalation 24
+  1.2420,                                 !- Year Escalation 25
+  1.2461,                                 !- Year Escalation 26
+  1.2509,                                 !- Year Escalation 27
+  1.2550,                                 !- Year Escalation 28
+  1.2591,                                 !- Year Escalation 29
+  1.2638;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Natural gas,       !- Name
+  NaturalGas,                             !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9823,                                 !- Year Escalation 1
+  0.9557,                                 !- Year Escalation 2
+  0.9279,                                 !- Year Escalation 3
+  0.9257,                                 !- Year Escalation 4
+  0.9346,                                 !- Year Escalation 5
+  0.9412,                                 !- Year Escalation 6
+  0.9512,                                 !- Year Escalation 7
+  0.9645,                                 !- Year Escalation 8
+  0.9856,                                 !- Year Escalation 9
+  1.0067,                                 !- Year Escalation 10
+  1.0222,                                 !- Year Escalation 11
+  1.0410,                                 !- Year Escalation 12
+  1.0610,                                 !- Year Escalation 13
+  1.0787,                                 !- Year Escalation 14
+  1.0942,                                 !- Year Escalation 15
+  1.1098,                                 !- Year Escalation 16
+  1.1220,                                 !- Year Escalation 17
+  1.1308,                                 !- Year Escalation 18
+  1.1386,                                 !- Year Escalation 19
+  1.1486,                                 !- Year Escalation 20
+  1.1619,                                 !- Year Escalation 21
+  1.1763,                                 !- Year Escalation 22
+  1.1918,                                 !- Year Escalation 23
+  1.2118,                                 !- Year Escalation 24
+  1.2284,                                 !- Year Escalation 25
+  1.2439,                                 !- Year Escalation 26
+  1.2605,                                 !- Year Escalation 27
+  1.2772,                                 !- Year Escalation 28
+  1.2938,                                 !- Year Escalation 29
+  1.3115;                                 !- Year Escalation 30
+
+LifeCycleCost:UsePriceEscalation,
+  U.S. Avg  Commercial-Coal,              !- Name
+  Coal,                                   !- Resource
+  2011,                                   !- Escalation Start Year
+  January,                                !- Escalation Start Month
+  0.9970,                                 !- Year Escalation 1
+  1.0089,                                 !- Year Escalation 2
+  1.0089,                                 !- Year Escalation 3
+  0.9941,                                 !- Year Escalation 4
+  0.9941,                                 !- Year Escalation 5
+  1.0000,                                 !- Year Escalation 6
+  1.0030,                                 !- Year Escalation 7
+  1.0059,                                 !- Year Escalation 8
+  1.0089,                                 !- Year Escalation 9
+  1.0119,                                 !- Year Escalation 10
+  1.0148,                                 !- Year Escalation 11
+  1.0178,                                 !- Year Escalation 12
+  1.0208,                                 !- Year Escalation 13
+  1.0267,                                 !- Year Escalation 14
+  1.0297,                                 !- Year Escalation 15
+  1.0356,                                 !- Year Escalation 16
+  1.0415,                                 !- Year Escalation 17
+  1.0534,                                 !- Year Escalation 18
+  1.0564,                                 !- Year Escalation 19
+  1.0593,                                 !- Year Escalation 20
+  1.0653,                                 !- Year Escalation 21
+  1.0712,                                 !- Year Escalation 22
+  1.0742,                                 !- Year Escalation 23
+  1.0801,                                 !- Year Escalation 24
+  1.0831,                                 !- Year Escalation 25
+  1.0831,                                 !- Year Escalation 26
+  1.0861,                                 !- Year Escalation 27
+  1.0890,                                 !- Year Escalation 28
+  1.0920,                                 !- Year Escalation 29
+  1.0950;                                 !- Year Escalation 30
+
+Building,
+  Ejemplo1_2526_Option1_Config1,          !- Name
+  ,                                       !- North Axis {deg}
+  ,                                       !- Terrain
+  0.1,                                    !- Loads Convergence Tolerance Value {W}
+  0.5,                                    !- Temperature Convergence Tolerance Value {deltaC}
+  FullExterior,                           !- Solar Distribution
+  25,                                     !- Maximum Number of Warmup Days
+  6;                                      !- Minimum Number of Warmup Days
+
+Zone,
+  2 P02 E01,                              !- Name
+  ,                                       !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  ,                                       !- Ceiling Height {m}
+  201.6283758,                            !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ,                                       !- Zone Outside Convection Algorithm
+  Yes;                                    !- Part of Total Floor Area
+
+Space,
+  aim0142,                                !- Name
+  2 P02 E01,                              !- Zone Name
+  ,                                       !- Ceiling Height {m}
+  201.6283758,                            !- Volume {m3}
+  ;                                       !- Floor Area {m2}
+
+BuildingSurface:Detailed,
+  aim0201,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.25, -0.7500059, 0,                    !- X,Y,Z Vertex 1 {m}
+  2.7, -0.7500059, 0,                     !- X,Y,Z Vertex 2 {m}
+  2.7, -0.7500059, 2.2857213,             !- X,Y,Z Vertex 3 {m}
+  8.75, -0.7500059, 2.2857213,            !- X,Y,Z Vertex 4 {m}
+  8.75, -0.7500059, 4,                    !- X,Y,Z Vertex 5 {m}
+  0.25, -0.7500059, 4;                    !- X,Y,Z Vertex 6 {m}
+
+BuildingSurface:Detailed,
+  aim0248,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  8.75, -0.1964344, 0,                    !- X,Y,Z Vertex 1 {m}
+  8.75, 3.4464227, 0,                     !- X,Y,Z Vertex 2 {m}
+  8.75, 3.4464227, 2.2857213,             !- X,Y,Z Vertex 3 {m}
+  8.75, 6.482137, 2.2857213,              !- X,Y,Z Vertex 4 {m}
+  8.75, 6.482137, 0,                      !- X,Y,Z Vertex 5 {m}
+  8.75, 7.0892799, 0,                     !- X,Y,Z Vertex 6 {m}
+  8.75, 7.0892799, 3.1428668,             !- X,Y,Z Vertex 7 {m}
+  8.75, -0.1964344, 3.1428668;            !- X,Y,Z Vertex 8 {m}
+
+BuildingSurface:Detailed,
+  aim0293,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.25, 7.7499942, 2.2857213,             !- X,Y,Z Vertex 1 {m}
+  0.25, 7.7499942, 4,                     !- X,Y,Z Vertex 2 {m}
+  8.75, 7.7499942, 4,                     !- X,Y,Z Vertex 3 {m}
+  8.75, 7.7499942, 0,                     !- X,Y,Z Vertex 4 {m}
+  4.25, 7.7499942, 0,                     !- X,Y,Z Vertex 5 {m}
+  4.25, 7.7499942, 2.2857213;             !- X,Y,Z Vertex 6 {m}
+
+BuildingSurface:Detailed,
+  aim0340,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.25, -0.2037096, 0,                    !- X,Y,Z Vertex 1 {m}
+  0.25, -0.2037096, 3.1428668,            !- X,Y,Z Vertex 2 {m}
+  0.25, 7.2036978, 3.1428668,             !- X,Y,Z Vertex 3 {m}
+  0.25, 7.2036978, 0,                     !- X,Y,Z Vertex 4 {m}
+  0.25, 3.351846, 0,                      !- X,Y,Z Vertex 5 {m}
+  0.25, 3.351846, 2.2857213,              !- X,Y,Z Vertex 6 {m}
+  0.25, 0.6851793, 2.2857213,             !- X,Y,Z Vertex 7 {m}
+  0.25, 0.6851793, 0;                     !- X,Y,Z Vertex 8 {m}
+
+BuildingSurface:Detailed,
+  aim0532,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  3.2941177, -0.5000058, 0,               !- X,Y,Z Vertex 1 {m}
+  7.7058824, -0.5000058, 0,               !- X,Y,Z Vertex 2 {m}
+  7.7058824, -0.5000058, 1.925,           !- X,Y,Z Vertex 3 {m}
+  3.2941177, -0.5000058, 1.925;           !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  aim0555,                                !- Name
+  Window,                                 !- Surface Type
+  aim0128,                                !- Construction Name
+  aim0532,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  3.31363207276141, -0.5000059, 0.013418372761405, !- X,Y,Z Vertex 1 {m}
+  7.6863680272386, -0.5000059, 0.013418372761405, !- X,Y,Z Vertex 2 {m}
+  7.6863680272386, -0.5000059, 1.9054855272386, !- X,Y,Z Vertex 3 {m}
+  3.31363207276141, -0.5000059, 1.9054855272386; !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  aim0605,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  8.5, 3.7999941, 0,                      !- X,Y,Z Vertex 1 {m}
+  8.5, 6.1999941, 0,                      !- X,Y,Z Vertex 2 {m}
+  8.5, 6.1999941, 1.925,                  !- X,Y,Z Vertex 3 {m}
+  8.5, 3.7999941, 1.925;                  !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  aim0628,                                !- Name
+  Window,                                 !- Surface Type
+  aim0128,                                !- Construction Name
+  aim0605,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  8.4999998, 3.81678233725923, 0.0106922372592316, !- X,Y,Z Vertex 1 {m}
+  8.4999998, 6.18320586274077, 0.0106922372592316, !- X,Y,Z Vertex 2 {m}
+  8.4999998, 6.18320586274077, 1.90821166274077, !- X,Y,Z Vertex 3 {m}
+  8.4999998, 3.81678233725923, 1.90821166274077; !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  aim0678,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  1.3, 7.4999941, 0,                      !- X,Y,Z Vertex 1 {m}
+  1.3, 7.4999941, 1.925,                  !- X,Y,Z Vertex 2 {m}
+  3.7, 7.4999941, 1.925,                  !- X,Y,Z Vertex 3 {m}
+  3.7, 7.4999941, 0;                      !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  aim0701,                                !- Name
+  Window,                                 !- Surface Type
+  aim0128,                                !- Construction Name
+  aim0678,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  1.31678823705996, 7.499994, 0.0106922370599614, !- X,Y,Z Vertex 1 {m}
+  1.31678823705996, 7.499994, 1.90821166294004, !- X,Y,Z Vertex 2 {m}
+  3.68321166294004, 7.499994, 1.90821166294004, !- X,Y,Z Vertex 3 {m}
+  3.68321166294004, 7.499994, 0.0106922370599614; !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  aim0751,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.5, 1.857137, 0,                       !- X,Y,Z Vertex 1 {m}
+  0.5, 1.857137, 1.925,                   !- X,Y,Z Vertex 2 {m}
+  0.5, 2.9999941, 1.925,                  !- X,Y,Z Vertex 3 {m}
+  0.5, 2.9999941, 0;                      !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  aim0774,                                !- Name
+  Window,                                 !- Surface Type
+  aim0128,                                !- Construction Name
+  aim0751,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  0.5, 1.87038118038119, 0.00714808038119297, !- X,Y,Z Vertex 1 {m}
+  0.5, 1.87038118038119, 1.91175581961881, !- X,Y,Z Vertex 2 {m}
+  0.5, 2.98675001961881, 1.91175581961881, !- X,Y,Z Vertex 3 {m}
+  0.5, 2.98675001961881, 0.00714808038119297; !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  aim0824,                                !- Name
+  Wall,                                   !- Surface Type
+  aim0014,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.5, 0.9999941, 0,                      !- X,Y,Z Vertex 1 {m}
+  0.5, 0.9999941, 2,                      !- X,Y,Z Vertex 2 {m}
+  0.5, 1.9999941, 2,                      !- X,Y,Z Vertex 3 {m}
+  0.5, 1.9999941, 0;                      !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  aim0847,                                !- Name
+  Door,                                   !- Surface Type
+  aim0075,                                !- Construction Name
+  aim0824,                                !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  0.5, 1.01272521198791, 0.00663511198790949, !- X,Y,Z Vertex 1 {m}
+  0.5, 1.01272521198791, 1.98726888801209, !- X,Y,Z Vertex 2 {m}
+  0.5, 1.98726308801209, 1.98726888801209, !- X,Y,Z Vertex 3 {m}
+  0.5, 1.98726308801209, 0.00663511198790949; !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  aim0897,                                !- Name
+  Ceiling,                                !- Surface Type
+  aim0086,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Surface,                                !- Outside Boundary Condition
+  aim0897 Reversed,                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.25, -0.7500059, 4,                    !- X,Y,Z Vertex 1 {m}
+  8.75, -0.7500059, 4,                    !- X,Y,Z Vertex 2 {m}
+  8.75, 7.7499942, 4,                     !- X,Y,Z Vertex 3 {m}
+  0.25, 7.7499942, 4;                     !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  aim0935,                                !- Name
+  Floor,                                  !- Surface Type
+  aim0101,                                !- Construction Name
+  2 P02 E01,                              !- Zone Name
+  aim0142,                                !- Space Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.9, -0.4000059, 0,                     !- X,Y,Z Vertex 1 {m}
+  0.9, 7.0999942, 0,                      !- X,Y,Z Vertex 2 {m}
+  8.4, 7.0999942, 0,                      !- X,Y,Z Vertex 3 {m}
+  8.4, -0.4000059, 0;                     !- X,Y,Z Vertex 4 {m}
+
+Lights,
+  aim0142_lights,                         !- Name
+  aim0142,                                !- Zone or ZoneList or Space or SpaceList Name
+  Office Lighting - 6 AM to 11 PM,        !- Schedule Name
+  Watts/Area,                             !- Design Level Calculation Method
+  ,                                       !- Lighting Level {W}
+  10.7639104,                             !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Return Air Fraction
+  ,                                       !- Fraction Radiant
+  ,                                       !- Fraction Visible
+  1,                                      !- Fraction Replaceable
+  General;                                !- End-Use Subcategory
+
+ScheduleTypeLimits,
+  Fractional,                             !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  Continuous;                             !- Numeric Type
+
+Schedule:Day:Interval,
+  Office Lighting - 6 AM to 11 PM aim0158, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  06:00,                                  !- Time 1 {hh:mm}
+  0,                                      !- Value Until Time 1
+  07:00,                                  !- Time 2 {hh:mm}
+  0.1,                                    !- Value Until Time 2
+  08:00,                                  !- Time 3 {hh:mm}
+  0.3,                                    !- Value Until Time 3
+  12:00,                                  !- Time 4 {hh:mm}
+  0.9,                                    !- Value Until Time 4
+  13:00,                                  !- Time 5 {hh:mm}
+  0.8,                                    !- Value Until Time 5
+  17:00,                                  !- Time 6 {hh:mm}
+  0.9,                                    !- Value Until Time 6
+  18:00,                                  !- Time 7 {hh:mm}
+  0.5,                                    !- Value Until Time 7
+  20:00,                                  !- Time 8 {hh:mm}
+  0.3,                                    !- Value Until Time 8
+  22:00,                                  !- Time 9 {hh:mm}
+  0.2,                                    !- Value Until Time 9
+  24:00,                                  !- Time 10 {hh:mm}
+  0;                                      !- Value Until Time 10
+
+Schedule:Week:Daily,
+  Office Lighting - 6 AM to 11 PM Week Rule - Jan1-Dec31, !- Name
+  Office Lighting - 6 AM to 11 PM aim0158, !- Sunday Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM aim0158, !- Monday Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM aim0158, !- Tuesday Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM aim0158, !- Wednesday Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM aim0158, !- Thursday Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM aim0158, !- Friday Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM aim0158, !- Saturday Schedule:Day Name
+  Schedule Day 1,                         !- Holiday Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Office Lighting - 6 AM to 11 PM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Schedule Day 1,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 1;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Office Lighting - 6 AM to 11 PM,        !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  Office Lighting - 6 AM to 11 PM Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  Schedule Day 1,                         !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Office Lighting - 6 AM to 11 PM Summer Design Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  1;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Office Lighting - 6 AM to 11 PM Winter Design Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+People,
+  aim0142_people,                         !- Name
+  aim0142,                                !- Zone or ZoneList or Space or SpaceList Name
+  Common Office Occupancy - 8 AM to 5 PM, !- Number of People Schedule Name
+  People,                                 !- Number of People Calculation Method
+  2,                                      !- Number of People
+  ,                                       !- People per Floor Area {person/m2}
+  ,                                       !- Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  0.555555555134304,                      !- Sensible Heat Fraction
+  activity_131.8819816;                   !- Activity Level Schedule Name
+
+Schedule:Day:Interval,
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  07:00,                                  !- Time 1 {hh:mm}
+  0,                                      !- Value Until Time 1
+  08:00,                                  !- Time 2 {hh:mm}
+  0.1,                                    !- Value Until Time 2
+  09:00,                                  !- Time 3 {hh:mm}
+  0.2,                                    !- Value Until Time 3
+  11:00,                                  !- Time 4 {hh:mm}
+  0.95,                                   !- Value Until Time 4
+  13:00,                                  !- Time 5 {hh:mm}
+  0.45,                                   !- Value Until Time 5
+  18:00,                                  !- Time 6 {hh:mm}
+  0.95,                                   !- Value Until Time 6
+  19:00,                                  !- Time 7 {hh:mm}
+  0.3,                                    !- Value Until Time 7
+  22:00,                                  !- Time 8 {hh:mm}
+  0.1,                                    !- Value Until Time 8
+  24:00,                                  !- Time 9 {hh:mm}
+  0;                                      !- Value Until Time 9
+
+Schedule:Week:Daily,
+  Common Office Occupancy - 8 AM to 5 PM Week Rule - Jan1-Dec31, !- Name
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Sunday Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Monday Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Tuesday Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Wednesday Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Thursday Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Friday Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM aim0164, !- Saturday Schedule:Day Name
+  Schedule Day 4,                         !- Holiday Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Common Office Occupancy - 8 AM to 5 PM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Schedule Day 4,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 4;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Common Office Occupancy - 8 AM to 5 PM, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  Common Office Occupancy - 8 AM to 5 PM Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  Schedule Day 4,                         !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Common Office Occupancy - 8 AM to 5 PM Summer Design Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  1;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Common Office Occupancy - 8 AM to 5 PM Winter Design Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+ScheduleTypeLimits,
+  ActivityLevel,                          !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  ,                                       !- Upper Limit Value {BasedOnField A3}
+  Continuous,                             !- Numeric Type
+  activitylevel;                          !- Unit Type
+
+Schedule:Day:Interval,
+  activity_131.8819816 Schedule Week Day, !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  131.8819816;                            !- Value Until Time 1
+
+Schedule:Week:Daily,
+  activity_131.8819816 Week Rule - Jan1-Dec31, !- Name
+  activity_131.8819816 Schedule Week Day, !- Sunday Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- Monday Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- Tuesday Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- Wednesday Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- Thursday Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- Friday Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- Saturday Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- Holiday Schedule:Day Name
+  activity_131.8819816 Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  activity_131.8819816 Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  activity_131.8819816 Schedule Week Day, !- CustomDay1 Schedule:Day Name
+  activity_131.8819816 Schedule Week Day; !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  activity_131.8819816,                   !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  activity_131.8819816 Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  activity_131.8819816 Summer Design Day, !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  131.8819816;                            !- Value Until Time 1
+
+Schedule:Day:Interval,
+  activity_131.8819816 Winter Design Day, !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+ElectricEquipment,
+  aim0142_elec_equip,                     !- Name
+  aim0142,                                !- Zone or ZoneList or Space or SpaceList Name
+  Office Lighting - 6 AM to 11 PM,        !- Schedule Name
+  Watts/Area,                             !- Design Level Calculation Method
+  ,                                       !- Design Level {W}
+  13.9930835,                             !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Fraction Latent
+  ,                                       !- Fraction Radiant
+  ,                                       !- Fraction Lost
+  General;                                !- End-Use Subcategory
+
+ZoneInfiltration:DesignFlowRate,
+  aim0142_infiltration,                   !- Name
+  aim0142,                                !- Zone or ZoneList or Space or SpaceList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/ExteriorWallArea,                  !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow Rate per Floor Area {m3/s-m2}
+  0.00019304000508,                       !- Flow Rate per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+ZoneControl:Thermostat,
+  2 P02 E01 Thermostat,                   !- Name
+  2 P02 E01,                              !- Zone or ZoneList Name
+  2 P02 E01 Thermostat Schedule,          !- Control Type Schedule Name
+  ThermostatSetpoint:DualSetpoint,        !- Control 1 Object Type
+  Thermostat Setpoint Dual Setpoint 1,    !- Control 1 Name
+  ,                                       !- Control 2 Object Type
+  ,                                       !- Control 2 Name
+  ,                                       !- Control 3 Object Type
+  ,                                       !- Control 3 Name
+  ,                                       !- Control 4 Object Type
+  ,                                       !- Control 4 Name
+  0;                                      !- Temperature Difference Between Cutout And Setpoint {deltaC}
+
+Schedule:Compact,
+  2 P02 E01 Thermostat Schedule,          !- Name
+  2 P02 E01 Thermostat Schedule Type Limits, !- Schedule Type Limits Name
+  Through: 12/31,                         !- Field 1
+  For: AllDays,                           !- Field 2
+  Until: 24:00,                           !- Field 3
+  4;                                      !- Field 4
+
+ScheduleTypeLimits,
+  2 P02 E01 Thermostat Schedule Type Limits, !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  4,                                      !- Upper Limit Value {BasedOnField A3}
+  DISCRETE;                               !- Numeric Type
+
+ThermostatSetpoint:DualSetpoint,
+  Thermostat Setpoint Dual Setpoint 1,    !- Name
+  Heating Setpoint Schedule,              !- Heating Setpoint Temperature Schedule Name
+  Cooling Setpoint Schedule;              !- Cooling Setpoint Temperature Schedule Name
+
+ScheduleTypeLimits,
+  Temperature Schedule Type Limits,       !- Name
+  ,                                       !- Lower Limit Value {BasedOnField A3}
+  ,                                       !- Upper Limit Value {BasedOnField A3}
+  Continuous,                             !- Numeric Type
+  temperature;                            !- Unit Type
+
+Schedule:Day:Interval,
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  05:30,                                  !- Time 1 {hh:mm}
+  18.3333333222222,                       !- Value Until Time 1
+  22:00,                                  !- Time 2 {hh:mm}
+  21.1111111,                             !- Value Until Time 2
+  24:00,                                  !- Time 3 {hh:mm}
+  18.3333333222222;                       !- Value Until Time 3
+
+Schedule:Week:Daily,
+  Heating Setpoint Schedule Week Rule - Jan1-Dec31, !- Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Sunday Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Monday Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Tuesday Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Wednesday Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Thursday Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Friday Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Saturday Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- Holiday Schedule:Day Name
+  Heating Setpoint Schedule Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Heating Setpoint Schedule Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule, !- CustomDay1 Schedule:Day Name
+  Heating Setpoint Schedule Heating Setpoint Default Day Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Heating Setpoint Schedule,              !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  Heating Setpoint Schedule Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  Heating Setpoint Schedule Summer Design Day, !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  21.1111111;                             !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Heating Setpoint Schedule Winter Design Day, !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  21.1111111;                             !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  05:30,                                  !- Time 1 {hh:mm}
+  26.6666666777778,                       !- Value Until Time 1
+  22:00,                                  !- Time 2 {hh:mm}
+  23.8888889,                             !- Value Until Time 2
+  24:00,                                  !- Time 3 {hh:mm}
+  26.6666666777778;                       !- Value Until Time 3
+
+Schedule:Week:Daily,
+  Cooling Setpoint Schedule Week Rule - Jan1-Dec31, !- Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Sunday Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Monday Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Tuesday Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Wednesday Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Thursday Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Friday Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Saturday Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- Holiday Schedule:Day Name
+  Cooling Setpoint Schedule Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Cooling Setpoint Schedule Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule, !- CustomDay1 Schedule:Day Name
+  Cooling Setpoint Schedule Cooling Setpoint Default Day Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Cooling Setpoint Schedule,              !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  Cooling Setpoint Schedule Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  Cooling Setpoint Schedule Summer Design Day, !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  23.8888889;                             !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Cooling Setpoint Schedule Winter Design Day, !- Name
+  Temperature Schedule Type Limits,       !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  23.8888889;                             !- Value Until Time 1
+
+ZoneControl:Humidistat,
+  Zone Control Humidistat 1,              !- Name
+  2 P02 E01,                              !- Zone Name
+  Dehumidifying Setpoint Schedule;        !- Humidifying Relative Humidity Setpoint Schedule Name
+
+ScheduleTypeLimits,
+  Percent,                                !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  100,                                    !- Upper Limit Value {BasedOnField A3}
+  Continuous,                             !- Numeric Type
+  percent;                                !- Unit Type
+
+Schedule:Day:Interval,
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Name
+  Percent,                                !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  05:30,                                  !- Time 1 {hh:mm}
+  0,                                      !- Value Until Time 1
+  22:00,                                  !- Time 2 {hh:mm}
+  70,                                     !- Value Until Time 2
+  24:00,                                  !- Time 3 {hh:mm}
+  0;                                      !- Value Until Time 3
+
+Schedule:Week:Daily,
+  Dehumidifying Setpoint Schedule Week Rule - Jan1-Dec31, !- Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Sunday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Monday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Tuesday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Wednesday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Thursday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Friday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Saturday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- Holiday Schedule:Day Name
+  Dehumidifying Setpoint Schedule Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  Dehumidifying Setpoint Schedule Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule, !- CustomDay1 Schedule:Day Name
+  Dehumidifying Setpoint Schedule Dehumidifying Setpoint Default Day Schedule; !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Dehumidifying Setpoint Schedule,        !- Name
+  Percent,                                !- Schedule Type Limits Name
+  Dehumidifying Setpoint Schedule Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  Dehumidifying Setpoint Schedule Summer Design Day, !- Name
+  Percent,                                !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  70;                                     !- Value Until Time 1
+
+Schedule:Day:Interval,
+  Dehumidifying Setpoint Schedule Winter Design Day, !- Name
+  Percent,                                !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  70;                                     !- Value Until Time 1
+
+HVACTemplate:Zone:IdealLoadsAirSystem,
+  2 P02 E01,                              !- Zone Name
+  ,                                       !- Template Thermostat Name
+  ,                                       !- System Availability Schedule Name
+  ,                                       !- Maximum Heating Supply Air Temperature {C}
+  ,                                       !- Minimum Cooling Supply Air Temperature {C}
+  ,                                       !- Maximum Heating Supply Air Humidity Ratio {kgWater/kgDryAir}
+  ,                                       !- Minimum Cooling Supply Air Humidity Ratio {kgWater/kgDryAir}
+  ,                                       !- Heating Limit
+  ,                                       !- Maximum Heating Air Flow Rate {m3/s}
+  ,                                       !- Maximum Sensible Heating Capacity {W}
+  ,                                       !- Cooling Limit
+  ,                                       !- Maximum Cooling Air Flow Rate {m3/s}
+  ,                                       !- Maximum Total Cooling Capacity {W}
+  ,                                       !- Heating Availability Schedule Name
+  ,                                       !- Cooling Availability Schedule Name
+  ,                                       !- Dehumidification Control Type
+  ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
+  ,                                       !- Dehumidification Setpoint {percent}
+  ,                                       !- Humidification Control Type
+  ,                                       !- Humidification Setpoint {percent}
+  ,                                       !- Outdoor Air Method
+  ,                                       !- Outdoor Air Flow Rate per Person {m3/s}
+  ,                                       !- Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}
+  ,                                       !- Outdoor Air Flow Rate per Zone {m3/s}
+  ,                                       !- Design Specification Outdoor Air Object Name
+  ;                                       !- Demand Controlled Ventilation Type
+
+Sizing:Zone,
+  2 P02 E01,                              !- Zone or ZoneList Name
+  SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
+  14,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  11.11,                                  !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
+  SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
+  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
+  0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+  0.005,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+  2 P02 E01 DSOA Space List,              !- Design Specification Outdoor Air Object Name
+  ,                                       !- Zone Heating Sizing Factor
+  ,                                       !- Zone Cooling Sizing Factor
+  DesignDay,                              !- Cooling Design Air Flow Method
+  0,                                      !- Cooling Design Air Flow Rate {m3/s}
+  0.000762,                               !- Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2}
+  0,                                      !- Cooling Minimum Air Flow {m3/s}
+  0,                                      !- Cooling Minimum Air Flow Fraction
+  DesignDay,                              !- Heating Design Air Flow Method
+  0,                                      !- Heating Design Air Flow Rate {m3/s}
+  0.002032,                               !- Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}
+  0.1415762,                              !- Heating Maximum Air Flow {m3/s}
+  0.3,                                    !- Heating Maximum Air Flow Fraction
+  ,                                       !- Design Specification Zone Air Distribution Object Name
+  No,                                     !- Account for Dedicated Outdoor Air System
+  ,                                       !- Dedicated Outdoor Air System Control Strategy
+  ,                                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  ,                                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  Sensible Load Only No Latent Load,      !- Zone Load Sizing Method
+  HumidityRatioDifference,                !- Zone Latent Cooling Design Supply Air Humidity Ratio Input Method
+  ,                                       !- Zone Dehumidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+  0.005,                                  !- Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+  HumidityRatioDifference,                !- Zone Latent Heating Design Supply Air Humidity Ratio Input Method
+  ,                                       !- Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir}
+  0.005;                                  !- Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir}
+
+DesignSpecification:OutdoorAir,
+  aim0142_ventilation,                    !- Name
+  Sum,                                    !- Outdoor Air Method
+  0.002359737216,                         !- Outdoor Air Flow per Person {m3/s-person}
+  0.0003048,                              !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
+  0,                                      !- Outdoor Air Flow per Zone {m3/s}
+  0;                                      !- Outdoor Air Flow Air Changes per Hour {1/hr}
+
+DesignSpecification:OutdoorAir:SpaceList,
+  2 P02 E01 DSOA Space List,              !- Name
+  aim0142,                                !- Space Name 1
+  aim0142_ventilation;                    !- Space Design Specification Outdoor Air Object Name 1
+
+ZoneVentilation:DesignFlowRate,
+  2 P02 E01 Ventilation per Person,       !- Name
+  2 P02 E01,                              !- Zone or ZoneList or Space or SpaceList Name
+  Common Office Occupancy - 8 AM to 5 PM, !- Schedule Name
+  Flow/Person,                            !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow Rate per Floor Area {m3/s-m2}
+  0.002359737216,                         !- Flow Rate per Person {m3/s-person}
+  ,                                       !- Air Changes per Hour {1/hr}
+  ,                                       !- Ventilation Type
+  ,                                       !- Fan Pressure Rise {Pa}
+  ,                                       !- Fan Total Efficiency
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+ZoneVentilation:DesignFlowRate,
+  2 P02 E01 Ventilation per Floor Area,   !- Name
+  2 P02 E01,                              !- Zone or ZoneList or Space or SpaceList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/Area,                              !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  0.0003048,                              !- Flow Rate per Floor Area {m3/s-m2}
+  ,                                       !- Flow Rate per Person {m3/s-person}
+  ,                                       !- Air Changes per Hour {1/hr}
+  ,                                       !- Ventilation Type
+  ,                                       !- Fan Pressure Rise {Pa}
+  ,                                       !- Fan Total Efficiency
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+Zone,
+  3 P03_E01 (Unconditioned),              !- Name
+  ,                                       !- Direction of Relative North {deg}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  0,                                      !- Z Origin {m}
+  ,                                       !- Type
+  1,                                      !- Multiplier
+  ,                                       !- Ceiling Height {m}
+  110.4703903,                            !- Volume {m3}
+  ,                                       !- Floor Area {m2}
+  ,                                       !- Zone Inside Convection Algorithm
+  ,                                       !- Zone Outside Convection Algorithm
+  Yes;                                    !- Part of Total Floor Area
+
+Space,
+  aim0353,                                !- Name
+  3 P03_E01 (Unconditioned),              !- Zone Name
+  ,                                       !- Ceiling Height {m}
+  110.4703903,                            !- Volume {m3}
+  ;                                       !- Floor Area {m2}
+
+BuildingSurface:Detailed,
+  aim0394,                                !- Name
+  Roof,                                   !- Surface Type
+  aim0052,                                !- Construction Name
+  3 P03_E01 (Unconditioned),              !- Zone Name
+  aim0353,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.2237758, -0.7750059, 5.3689775,       !- X,Y,Z Vertex 1 {m}
+  8.7759157, -0.7750059, 5.3689775,       !- X,Y,Z Vertex 2 {m}
+  4.4986604, 3.5092886, 9.1772392;        !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  aim0428,                                !- Name
+  Roof,                                   !- Surface Type
+  aim0052,                                !- Construction Name
+  3 P03_E01 (Unconditioned),              !- Zone Name
+  aim0353,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  4.5079396, 3.4999942, 9.1689775,        !- X,Y,Z Vertex 1 {m}
+  8.7753689, -0.7744581, 5.3694644,       !- X,Y,Z Vertex 2 {m}
+  8.7753689, 7.7744464, 5.3694644;        !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  aim0462,                                !- Name
+  Roof,                                   !- Surface Type
+  aim0052,                                !- Construction Name
+  3 P03_E01 (Unconditioned),              !- Zone Name
+  aim0353,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.2234086, 7.7753622, 5.3686503,        !- X,Y,Z Vertex 1 {m}
+  4.4986604, 3.4906997, 9.1772392,        !- X,Y,Z Vertex 2 {m}
+  8.7762831, 7.7753622, 5.3686503;        !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  aim0496,                                !- Name
+  Roof,                                   !- Surface Type
+  aim0052,                                !- Construction Name
+  3 P03_E01 (Unconditioned),              !- Zone Name
+  aim0353,                                !- Space Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.2245058, -0.7742742, 5.3696278,       !- X,Y,Z Vertex 1 {m}
+  4.4893863, 3.4999942, 9.1689775,        !- X,Y,Z Vertex 2 {m}
+  0.2245058, 7.7742625, 5.3696278;        !- X,Y,Z Vertex 3 {m}
+
+BuildingSurface:Detailed,
+  aim0897 Reversed,                       !- Name
+  Floor,                                  !- Surface Type
+  aim0086 Reversed,                       !- Construction Name
+  3 P03_E01 (Unconditioned),              !- Zone Name
+  aim0353,                                !- Space Name
+  Surface,                                !- Outside Boundary Condition
+  aim0897,                                !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0.25, 7.7499942, 4,                     !- X,Y,Z Vertex 1 {m}
+  8.75, 7.7499942, 4,                     !- X,Y,Z Vertex 2 {m}
+  8.75, -0.7500059, 4,                    !- X,Y,Z Vertex 3 {m}
+  0.25, -0.7500059, 4;                    !- X,Y,Z Vertex 4 {m}
+
+Lights,
+  aim0353_lights,                         !- Name
+  aim0353,                                !- Zone or ZoneList or Space or SpaceList Name
+  Office Lighting - 6 AM to 11 PM,        !- Schedule Name
+  Watts/Area,                             !- Design Level Calculation Method
+  ,                                       !- Lighting Level {W}
+  0,                                      !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Return Air Fraction
+  ,                                       !- Fraction Radiant
+  ,                                       !- Fraction Visible
+  1,                                      !- Fraction Replaceable
+  General;                                !- End-Use Subcategory
+
+People,
+  aim0353_people,                         !- Name
+  aim0353,                                !- Zone or ZoneList or Space or SpaceList Name
+  Common Office Occupancy - 8 AM to 5 PM, !- Number of People Schedule Name
+  People,                                 !- Number of People Calculation Method
+  0,                                      !- Number of People
+  ,                                       !- People per Floor Area {person/m2}
+  ,                                       !- Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  ,                                       !- Sensible Heat Fraction
+  activity_0.0;                           !- Activity Level Schedule Name
+
+Schedule:Day:Interval,
+  activity_0.0 Schedule Week Day,         !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+Schedule:Week:Daily,
+  activity_0.0 Week Rule - Jan1-Dec31,    !- Name
+  activity_0.0 Schedule Week Day,         !- Sunday Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- Monday Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- Tuesday Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- Wednesday Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- Thursday Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- Friday Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- Saturday Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- Holiday Schedule:Day Name
+  activity_0.0 Summer Design Day,         !- SummerDesignDay Schedule:Day Name
+  activity_0.0 Winter Design Day,         !- WinterDesignDay Schedule:Day Name
+  activity_0.0 Schedule Week Day,         !- CustomDay1 Schedule:Day Name
+  activity_0.0 Schedule Week Day;         !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  activity_0.0,                           !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  activity_0.0 Week Rule - Jan1-Dec31,    !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Day:Interval,
+  activity_0.0 Summer Design Day,         !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  activity_0.0 Winter Design Day,         !- Name
+  ActivityLevel,                          !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+ElectricEquipment,
+  aim0353_elec_equip,                     !- Name
+  aim0353,                                !- Zone or ZoneList or Space or SpaceList Name
+  Office Lighting - 6 AM to 11 PM,        !- Schedule Name
+  Watts/Area,                             !- Design Level Calculation Method
+  ,                                       !- Design Level {W}
+  0,                                      !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Fraction Latent
+  ,                                       !- Fraction Radiant
+  ,                                       !- Fraction Lost
+  General;                                !- End-Use Subcategory
+
+ZoneInfiltration:DesignFlowRate,
+  aim0353_infiltration,                   !- Name
+  aim0353,                                !- Zone or ZoneList or Space or SpaceList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/ExteriorWallArea,                  !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow Rate per Floor Area {m3/s-m2}
+  0.00019304000508,                       !- Flow Rate per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+SimulationControl,
+  Yes,                                    !- Do Zone Sizing Calculation
+  Yes,                                    !- Do System Sizing Calculation
+  Yes,                                    !- Do Plant Sizing Calculation
+  Yes,                                    !- Run Simulation for Sizing Periods
+  Yes,                                    !- Run Simulation for Weather File Run Periods
+  No,                                     !- Do HVAC Sizing Simulation for Sizing Periods
+  ;                                       !- Maximum Number of HVAC Sizing Simulation Passes
+
+ConvergenceLimits,
+  1,                                      !- Minimum System Timestep {minutes}
+  25;                                     !- Maximum HVAC Iterations
+
+RunPeriod,
+  Run Period 1,                           !- Name
+  1,                                      !- Begin Month
+  1,                                      !- Begin Day of Month
+  1997,                                   !- Begin Year
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
+  1997,                                   !- End Year
+  Wednesday,                              !- Day of Week for Start Day
+  No,                                     !- Use Weather File Holidays and Special Days
+  No,                                     !- Use Weather File Daylight Saving Period
+  No,                                     !- Apply Weekend Holiday Rule
+  Yes,                                    !- Use Weather File Rain Indicators
+  Yes;                                    !- Use Weather File Snow Indicators
+
+Sizing:Parameters,
+  1,                                      !- Heating Sizing Factor
+  1;                                      !- Cooling Sizing Factor
+
+Output:Table:SummaryReports,
+  AllSummaryAndSizingPeriod;              !- Report Name 1
+
+GlobalGeometryRules,
+  UpperLeftCorner,                        !- Starting Vertex Position
+  Counterclockwise,                       !- Vertex Entry Direction
+  Relative,                               !- Coordinate System
+  Relative,                               !- Daylighting Reference Point Coordinate System
+  Relative;                               !- Rectangular Surface Coordinate System
+
+Material,
+  aim0019,                                !- Name
+  MediumRough,                            !- Roughness
+  0.017769,                               !- Thickness {m}
+  0.11544,                                !- Conductivity {W/m-K}
+  512.64,                                 !- Density {kg/m3}
+  1256.04,                                !- Specific Heat {J/kg-K}
+  0.7,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0030,                                !- Name
+  MediumRough,                            !- Roughness
+  0.019049,                               !- Thickness {m}
+  0.11544,                                !- Conductivity {W/m-K}
+  512.64,                                 !- Density {kg/m3}
+  1381.644,                               !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0037,                                !- Name
+  MediumRough,                            !- Roughness
+  0.1016,                                 !- Thickness {m}
+  0.06227,                                !- Conductivity {W/m-K}
+  129.9,                                  !- Density {kg/m3}
+  962.3,                                  !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0044,                                !- Name
+  MediumRough,                            !- Roughness
+  0.015879,                               !- Thickness {m}
+  0.160266,                               !- Conductivity {W/m-K}
+  801,                                    !- Density {kg/m3}
+  837.36,                                 !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0057,                                !- Name
+  MediumRough,                            !- Roughness
+  0.00954,                                !- Thickness {m}
+  0.162516,                               !- Conductivity {W/m-K}
+  1121.4,                                 !- Density {kg/m3}
+  1465.38,                                !- Specific Heat {J/kg-K}
+  0.3,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0065,                                !- Name
+  MediumRough,                            !- Roughness
+  0.076196,                               !- Thickness {m}
+  0.041538,                               !- Conductivity {W/m-K}
+  240.3,                                  !- Density {kg/m3}
+  711.756,                                !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0078,                                !- Name
+  MediumRough,                            !- Roughness
+  0.0376,                                 !- Thickness {m}
+  0.15,                                   !- Conductivity {W/m-K}
+  608,                                    !- Density {kg/m3}
+  1630,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0089,                                !- Name
+  MediumRough,                            !- Roughness
+  0.0127,                                 !- Thickness {m}
+  0.06,                                   !- Conductivity {W/m-K}
+  288,                                    !- Density {kg/m3}
+  1380,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0109,                                !- Name
+  MediumRough,                            !- Roughness
+  0.204206,                               !- Thickness {m}
+  1.730735,                               !- Conductivity {W/m-K}
+  1842.3,                                 !- Density {kg/m3}
+  837.36,                                 !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  aim0116,                                !- Name
+  MediumRough,                            !- Roughness
+  0.2032,                                 !- Thickness {m}
+  1.311205,                               !- Conductivity {W/m-K}
+  2242.8,                                 !- Density {kg/m3}
+  837.36,                                 !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material:NoMass,
+  aim0026,                                !- Name
+  Smooth,                                 !- Roughness
+  0.01057,                                !- Thermal Resistance {m2-K/W}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material:NoMass,
+  aim0096,                                !- Name
+  Smooth,                                 !- Roughness
+  0.001,                                  !- Thermal Resistance {m2-K/W}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material:NoMass,
+  aim0105,                                !- Name
+  Smooth,                                 !- Roughness
+  5.28331,                                !- Thermal Resistance {m2-K/W}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material:NoMass,
+  aim0123,                                !- Name
+  Smooth,                                 !- Roughness
+  0.36631,                                !- Thermal Resistance {m2-K/W}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+WindowMaterial:SimpleGlazingSystem,
+  Window Material Simple Glazing System 1, !- Name
+  3.7642,                                 !- U-Factor {W/m2-K}
+  0.78,                                   !- Solar Heat Gain Coefficient
+  0.9;                                    !- Visible Transmittance
+
+WindowMaterial:SimpleGlazingSystem,
+  {b203072f-eceb-462b-91d5-6d1896f6d62c}, !- Name
+  2.8566,                                 !- U-Factor {W/m2-K}
+  0.76,                                   !- Solar Heat Gain Coefficient
+  0.81;                                   !- Visible Transmittance
+
+Construction,
+  aim0014,                                !- Name
+  aim0019,                                !- Layer 1
+  aim0026,                                !- Layer 2
+  aim0030,                                !- Layer 3
+  aim0037,                                !- Layer 4
+  aim0044;                                !- Layer 5
+
+Construction,
+  aim0052,                                !- Name
+  aim0057,                                !- Layer 1
+  aim0026,                                !- Layer 2
+  aim0065,                                !- Layer 3
+  aim0065,                                !- Layer 4
+  aim0030;                                !- Layer 5
+
+Construction,
+  aim0075,                                !- Name
+  aim0078;                                !- Layer 1
+
+Construction,
+  aim0086,                                !- Name
+  aim0089,                                !- Layer 1
+  aim0096;                                !- Layer 2
+
+Construction,
+  aim0086 Reversed,                       !- Name
+  aim0096,                                !- Layer 1
+  aim0089;                                !- Layer 2
+
+Construction,
+  aim0101,                                !- Name
+  aim0105,                                !- Layer 1
+  aim0109,                                !- Layer 2
+  aim0116,                                !- Layer 3
+  aim0123;                                !- Layer 4
+
+Construction,
+  aim0128,                                !- Name
+  {b203072f-eceb-462b-91d5-6d1896f6d62c}; !- Layer 1
+
+Construction,
+  Construction 1,                         !- Name
+  Window Material Simple Glazing System 1; !- Layer 1
+
+ScheduleTypeLimits,
+  OnOff,                                  !- Name
+  0,                                      !- Lower Limit Value {BasedOnField A3}
+  1,                                      !- Upper Limit Value {BasedOnField A3}
+  Discrete,                               !- Numeric Type
+  availability;                           !- Unit Type
+
+Schedule:Constant,
+  Always On Discrete,                     !- Name
+  OnOff,                                  !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
+Schedule:Day:Interval,
+  infil_bldg infil_bldg_default,          !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  1;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  infil_bldg Summer Design Day,           !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  1;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  infil_bldg Winter Design Day,           !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+Schedule:Week:Daily,
+  infil_bldg Week Rule - Jan1-Dec31,      !- Name
+  infil_bldg infil_bldg_default,          !- Sunday Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- Monday Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- Tuesday Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- Wednesday Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- Thursday Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- Friday Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- Saturday Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- Holiday Schedule:Day Name
+  infil_bldg Summer Design Day,           !- SummerDesignDay Schedule:Day Name
+  infil_bldg Winter Design Day,           !- WinterDesignDay Schedule:Day Name
+  infil_bldg infil_bldg_default,          !- CustomDay1 Schedule:Day Name
+  infil_bldg infil_bldg_default;          !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  infil_bldg,                             !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  infil_bldg Week Rule - Jan1-Dec31,      !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Constant,
+  Always Off Discrete,                    !- Name
+  ,                                       !- Schedule Type Limits Name
+  0;                                      !- Hourly Value
+
+Schedule:Constant,
+  Always On Continuous,                   !- Name
+  ,                                       !- Schedule Type Limits Name
+  1;                                      !- Hourly Value
+
+OutdoorAir:Node,
+  Model Outdoor Air Node;                 !- Name
+
+Site:Location,
+  Albarracín&#44 Spain,                  !- Name
+  40.5061722,                             !- Latitude {deg}
+  -1.555813,                              !- Longitude {deg}
+  1,                                      !- Time Zone {hr}
+  4373.3595801;                           !- Elevation {m}
+
+Site:WaterMainsTemperature,
+  Correlation,                            !- Calculation Method
+  ,                                       !- Temperature Schedule Name
+  ,                                       !- Annual Average Outdoor Air Temperature {C}
+  10;                                     !- Maximum Difference In Monthly Average Outdoor Air Temperatures {deltaC}
+
+SizingPeriod:DesignDay,
+  Zaragoza AP Ann Clg .4% Condns DB=>MWB, !- Name
+  8,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  36.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.2,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  21.2,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  3.7,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.392,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.317,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP Ann Clg .4% Condns DP=>MDB, !- Name
+  8,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  25.7,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.2,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Dewpoint,                               !- Humidity Condition Type
+  19.9,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  3.7,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.392,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.317,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP Ann Clg .4% Condns Enth=>MDB, !- Name
+  8,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  32.9,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.2,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Enthalpy,                               !- Humidity Condition Type
+  ,                                       !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  67800,                                  !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  3.7,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.392,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.317,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP Ann Clg .4% Condns WB=>MDB, !- Name
+  8,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  32.7,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.2,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  22.7,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  3.7,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.392,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.317,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP Ann Htg 99.6% Condns DB,    !- Name
+  1,                                      !- Month
+  21,                                     !- Day of Month
+  WinterDesignDay,                        !- Day Type
+  -2.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  0,                                      !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  -2.2,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  2.2,                                    !- Wind Speed {m/s}
+  300,                                    !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAEClearSky,                         !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  0,                                      !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP Ann Htg Wind 99.6% Condns WS=>MCDB, !- Name
+  1,                                      !- Month
+  21,                                     !- Day of Month
+  WinterDesignDay,                        !- Day Type
+  8.2,                                    !- Maximum Dry-Bulb Temperature {C}
+  0,                                      !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  8.2,                                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  15,                                     !- Wind Speed {m/s}
+  300,                                    !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAEClearSky,                         !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  0,                                      !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP Ann Hum_n 99.6% Condns DP=>MCDB, !- Name
+  1,                                      !- Month
+  21,                                     !- Day of Month
+  WinterDesignDay,                        !- Day Type
+  3.9,                                    !- Maximum Dry-Bulb Temperature {C}
+  0,                                      !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Dewpoint,                               !- Humidity Condition Type
+  -8.1,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  2.2,                                    !- Wind Speed {m/s}
+  300,                                    !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAEClearSky,                         !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  ,                                       !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  0,                                      !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP April .4% Condns DB=>MCWB,  !- Name
+  4,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  28.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  11.3,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  16.1,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  5,                                      !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.374,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.313,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP April .4% Condns WB=>MCDB,  !- Name
+  4,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  25.7,                                   !- Maximum Dry-Bulb Temperature {C}
+  11.3,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  16.7,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  5,                                      !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.374,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.313,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP August .4% Condns DB=>MCWB, !- Name
+  8,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  38.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.2,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  21.8,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.6,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.392,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.317,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP August .4% Condns WB=>MCDB, !- Name
+  8,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  34.7,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.2,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  24.5,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.6,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.392,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.317,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP December .4% Condns DB=>MCWB, !- Name
+  12,                                     !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  17.8,                                   !- Maximum Dry-Bulb Temperature {C}
+  7.4,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  12.1,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.1,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.298,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.499,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP December .4% Condns WB=>MCDB, !- Name
+  12,                                     !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  16.1,                                   !- Maximum Dry-Bulb Temperature {C}
+  7.4,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  12.6,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.1,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.298,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.499,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP February .4% Condns DB=>MCWB, !- Name
+  2,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  19.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  9.4,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  11.9,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.313,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.452,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP February .4% Condns WB=>MCDB, !- Name
+  2,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  18,                                     !- Maximum Dry-Bulb Temperature {C}
+  9.4,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  12.8,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.313,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.452,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP January .4% Condns DB=>MCWB, !- Name
+  1,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  17.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  7.5,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  11.6,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.3,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.298,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.492,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP January .4% Condns WB=>MCDB, !- Name
+  1,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  16.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  7.5,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  12.3,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.3,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.298,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.492,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP July .4% Condns DB=>MCWB,   !- Name
+  7,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  38.1,                                   !- Maximum Dry-Bulb Temperature {C}
+  14,                                     !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  21.8,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.387,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.328,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP July .4% Condns WB=>MCDB,   !- Name
+  7,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  35.1,                                   !- Maximum Dry-Bulb Temperature {C}
+  14,                                     !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  23.9,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.387,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.328,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP June .4% Condns DB=>MCWB,   !- Name
+  6,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  37.2,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.3,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  20.6,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.8,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.399,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.304,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP June .4% Condns WB=>MCDB,   !- Name
+  6,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  33.7,                                   !- Maximum Dry-Bulb Temperature {C}
+  13.3,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  22.7,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.8,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.399,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.304,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP March .4% Condns DB=>MCWB,  !- Name
+  3,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  24.1,                                   !- Maximum Dry-Bulb Temperature {C}
+  11.1,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  13.6,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.354,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.355,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP March .4% Condns WB=>MCDB,  !- Name
+  3,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  22,                                     !- Maximum Dry-Bulb Temperature {C}
+  11.1,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  15.1,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.354,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.355,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP May .4% Condns DB=>MCWB,    !- Name
+  5,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  32.8,                                   !- Maximum Dry-Bulb Temperature {C}
+  12.1,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  18.7,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.6,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.389,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.304,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP May .4% Condns WB=>MCDB,    !- Name
+  5,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  30.5,                                   !- Maximum Dry-Bulb Temperature {C}
+  12.1,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  19.9,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.6,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.389,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.304,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP November .4% Condns DB=>MCWB, !- Name
+  11,                                     !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  21,                                     !- Maximum Dry-Bulb Temperature {C}
+  8,                                      !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  14,                                     !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.4,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.316,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.491,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP November .4% Condns WB=>MCDB, !- Name
+  11,                                     !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  19.1,                                   !- Maximum Dry-Bulb Temperature {C}
+  8,                                      !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  15.4,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.4,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.316,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.491,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP October .4% Condns DB=>MCWB, !- Name
+  10,                                     !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  28.9,                                   !- Maximum Dry-Bulb Temperature {C}
+  9.8,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  17.7,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  3.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.349,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.445,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP October .4% Condns WB=>MCDB, !- Name
+  10,                                     !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  24.7,                                   !- Maximum Dry-Bulb Temperature {C}
+  9.8,                                    !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  19.5,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  3.9,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.349,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.445,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP September .4% Condns DB=>MCWB, !- Name
+  9,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  33.8,                                   !- Maximum Dry-Bulb Temperature {C}
+  11.4,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  20.2,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.1,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.372,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.373,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+SizingPeriod:DesignDay,
+  Zaragoza AP September .4% Condns WB=>MCDB, !- Name
+  9,                                      !- Month
+  21,                                     !- Day of Month
+  SummerDesignDay,                        !- Day Type
+  29.1,                                   !- Maximum Dry-Bulb Temperature {C}
+  11.4,                                   !- Daily Dry-Bulb Temperature Range {deltaC}
+  DefaultMultipliers,                     !- Dry-Bulb Temperature Range Modifier Type
+  ,                                       !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+  Wetbulb,                                !- Humidity Condition Type
+  21.9,                                   !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+  ,                                       !- Humidity Condition Day Schedule Name
+  ,                                       !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+  ,                                       !- Enthalpy at Maximum Dry-Bulb {J/kg}
+  ,                                       !- Daily Wet-Bulb Temperature Range {deltaC}
+  98205,                                  !- Barometric Pressure {Pa}
+  4.1,                                    !- Wind Speed {m/s}
+  90,                                     !- Wind Direction {deg}
+  No,                                     !- Rain Indicator
+  No,                                     !- Snow Indicator
+  No,                                     !- Daylight Saving Time Indicator
+  ASHRAETau,                              !- Solar Model Indicator
+  ,                                       !- Beam Solar Day Schedule Name
+  ,                                       !- Diffuse Solar Day Schedule Name
+  0.372,                                  !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+  2.373,                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+  ,                                       !- Sky Clearness
+  ,                                       !- Maximum Number Warmup Days
+  FullResetAtBeginEnvironment;            !- Begin Environment Reset Mode
+
+OutputControl:Table:Style,
+  XMLandHTML;                             !- Column Separator
+
+Output:VariableDictionary,
+  IDF,                                    !- Key Field
+  Unsorted;                               !- Sort Option
+
+Output:SQLite,
+  SimpleAndTabular,                       !- Option Type
+  None;                                   !- Unit Conversion for Tabular Data
+
+LifeCycleCost:NonrecurringCost,
+  Default Cost,                           !- Name
+  Construction,                           !- Category
+  0,                                      !- Cost
+  ServicePeriod;                          !- Start of Costs
+

@@ -1,0 +1,834 @@
+EnergyPlus Starting
+EnergyPlus, Version 23.1.0-87ed9199d4, YMD=2026.01.07 06:06
+Initializing Response Factors
+Calculating CTFs for "AIM0014"
+Calculating CTFs for "AIM0052"
+Calculating CTFs for "AIM0075"
+Calculating CTFs for "AIM0086"
+Calculating CTFs for "AIM0101"
+Initializing Window Optical Properties
+Initializing Solar Calculations
+Allocate Solar Module Arrays
+Initializing Zone and Enclosure Report Variables
+Initializing Surface (Shading) Report Variables
+Computing Interior Solar Absorption Factors
+Determining Shadowing Combinations
+Computing Window Shade Absorption Factors
+Proceeding with Initializing Solar Calculations
+Initializing Surfaces
+Initializing Outdoor environment for Surfaces
+Setting up Surface Reporting Variables
+Initializing Temperature and Flux Histories
+Initializing Window Shading
+Computing Interior Absorption Factors
+Computing Interior Diffuse Solar Absorption Factors
+Initializing Solar Heat Gains
+Initializing Internal Heat Gains
+Initializing Interior Solar Distribution
+Initializing Interior Convection Coefficients
+Gathering Information for Predefined Reporting
+Completed Initializing Surface Heat Balance
+Calculate Outside Surface Heat Balance
+Calculate Inside Surface Heat Balance
+Calculate Air Heat Balance
+Initializing HVAC
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #1 ZARAGOZA AP ANN CLG .4% CONDNS DB=>MWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #2 ZARAGOZA AP ANN CLG .4% CONDNS DP=>MDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #3 ZARAGOZA AP ANN CLG .4% CONDNS ENTH=>MDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #4 ZARAGOZA AP ANN CLG .4% CONDNS WB=>MDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #5 ZARAGOZA AP ANN HTG 99.6% CONDNS DB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #6 ZARAGOZA AP ANN HTG WIND 99.6% CONDNS WS=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #7 ZARAGOZA AP ANN HUM_N 99.6% CONDNS DP=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #8 ZARAGOZA AP APRIL .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #9 ZARAGOZA AP APRIL .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #10 ZARAGOZA AP AUGUST .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #11 ZARAGOZA AP AUGUST .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #12 ZARAGOZA AP DECEMBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #13 ZARAGOZA AP DECEMBER .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #14 ZARAGOZA AP FEBRUARY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #15 ZARAGOZA AP FEBRUARY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #16 ZARAGOZA AP JANUARY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #17 ZARAGOZA AP JANUARY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #18 ZARAGOZA AP JULY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #19 ZARAGOZA AP JULY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #20 ZARAGOZA AP JUNE .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #21 ZARAGOZA AP JUNE .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #22 ZARAGOZA AP MARCH .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #23 ZARAGOZA AP MARCH .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #24 ZARAGOZA AP MAY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #25 ZARAGOZA AP MAY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #26 ZARAGOZA AP NOVEMBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #27 ZARAGOZA AP NOVEMBER .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #28 ZARAGOZA AP OCTOBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #29 ZARAGOZA AP OCTOBER .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #30 ZARAGOZA AP SEPTEMBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation for Load Component Report
+...for Sizing Period: #31 ZARAGOZA AP SEPTEMBER .4% CONDNS WB=>MCDB
+Re-zeroing zone sizing arrays
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #1 ZARAGOZA AP ANN CLG .4% CONDNS DB=>MWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #2 ZARAGOZA AP ANN CLG .4% CONDNS DP=>MDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #3 ZARAGOZA AP ANN CLG .4% CONDNS ENTH=>MDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #4 ZARAGOZA AP ANN CLG .4% CONDNS WB=>MDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #5 ZARAGOZA AP ANN HTG 99.6% CONDNS DB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #6 ZARAGOZA AP ANN HTG WIND 99.6% CONDNS WS=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #7 ZARAGOZA AP ANN HUM_N 99.6% CONDNS DP=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #8 ZARAGOZA AP APRIL .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #9 ZARAGOZA AP APRIL .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #10 ZARAGOZA AP AUGUST .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #11 ZARAGOZA AP AUGUST .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #12 ZARAGOZA AP DECEMBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #13 ZARAGOZA AP DECEMBER .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #14 ZARAGOZA AP FEBRUARY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #15 ZARAGOZA AP FEBRUARY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #16 ZARAGOZA AP JANUARY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #17 ZARAGOZA AP JANUARY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #18 ZARAGOZA AP JULY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #19 ZARAGOZA AP JULY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #20 ZARAGOZA AP JUNE .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #21 ZARAGOZA AP JUNE .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #22 ZARAGOZA AP MARCH .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #23 ZARAGOZA AP MARCH .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #24 ZARAGOZA AP MAY .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #25 ZARAGOZA AP MAY .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #26 ZARAGOZA AP NOVEMBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #27 ZARAGOZA AP NOVEMBER .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #28 ZARAGOZA AP OCTOBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #29 ZARAGOZA AP OCTOBER .4% CONDNS WB=>MCDB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #30 ZARAGOZA AP SEPTEMBER .4% CONDNS DB=>MCWB
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #31 ZARAGOZA AP SEPTEMBER .4% CONDNS WB=>MCDB
+Adjusting Air System Sizing
+Adjusting Standard 62.1 Ventilation Sizing
+Initializing Simulation
+Reporting Surfaces
+Beginning Primary Simulation
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 08/21 for ZARAGOZA AP ANN CLG .4% CONDNS DB=>MWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 08/21 for ZARAGOZA AP ANN CLG .4% CONDNS DP=>MDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 08/21 for ZARAGOZA AP ANN CLG .4% CONDNS ENTH=>MDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 08/21 for ZARAGOZA AP ANN CLG .4% CONDNS WB=>MDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 01/21 for ZARAGOZA AP ANN HTG 99.6% CONDNS DB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 01/21 for ZARAGOZA AP ANN HTG WIND 99.6% CONDNS WS=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 01/21 for ZARAGOZA AP ANN HUM_N 99.6% CONDNS DP=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 04/21 for ZARAGOZA AP APRIL .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 04/21 for ZARAGOZA AP APRIL .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 08/21 for ZARAGOZA AP AUGUST .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 08/21 for ZARAGOZA AP AUGUST .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 12/21 for ZARAGOZA AP DECEMBER .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 12/21 for ZARAGOZA AP DECEMBER .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 02/21 for ZARAGOZA AP FEBRUARY .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 02/21 for ZARAGOZA AP FEBRUARY .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 01/21 for ZARAGOZA AP JANUARY .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 01/21 for ZARAGOZA AP JANUARY .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 07/21 for ZARAGOZA AP JULY .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 07/21 for ZARAGOZA AP JULY .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 06/21 for ZARAGOZA AP JUNE .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 06/21 for ZARAGOZA AP JUNE .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 03/21 for ZARAGOZA AP MARCH .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 03/21 for ZARAGOZA AP MARCH .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 05/21 for ZARAGOZA AP MAY .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 05/21 for ZARAGOZA AP MAY .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 11/21 for ZARAGOZA AP NOVEMBER .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 11/21 for ZARAGOZA AP NOVEMBER .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 10/21 for ZARAGOZA AP OCTOBER .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 10/21 for ZARAGOZA AP OCTOBER .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 09/21 for ZARAGOZA AP SEPTEMBER .4% CONDNS DB=>MCWB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 09/21 for ZARAGOZA AP SEPTEMBER .4% CONDNS WB=>MCDB
+Initializing New Environment Parameters
+Warming up {1}
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Starting Simulation at 01/01/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=01/21/1997
+Continuing Simulation at 01/21/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=02/10/1997
+Continuing Simulation at 02/10/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=03/02/1997
+Continuing Simulation at 03/02/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=03/22/1997
+Continuing Simulation at 03/22/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=04/11/1997
+Continuing Simulation at 04/11/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/01/1997
+Continuing Simulation at 05/01/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/21/1997
+Continuing Simulation at 05/21/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=06/10/1997
+Continuing Simulation at 06/10/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=06/30/1997
+Continuing Simulation at 06/30/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=07/20/1997
+Continuing Simulation at 07/20/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=08/09/1997
+Continuing Simulation at 08/09/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=08/29/1997
+Continuing Simulation at 08/29/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=09/18/1997
+Continuing Simulation at 09/18/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=10/08/1997
+Continuing Simulation at 10/08/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=10/28/1997
+Continuing Simulation at 10/28/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=11/17/1997
+Continuing Simulation at 11/17/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=12/07/1997
+Continuing Simulation at 12/07/1997 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=12/27/1997
+Continuing Simulation at 12/27/1997 for RUN PERIOD 1
+Writing tabular output file results using XML format.
+Writing tabular output file results using HTML format.
+Computing Life Cycle Costs and Reporting
+Writing final SQL reports
+EnergyPlus Run Time=00hr 00min  1.63sec
+EnergyPlus Completed Successfully.

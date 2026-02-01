@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2026 (x64) (https://www.altova.com) by Tomas Gonzalez (student) -->
 <CTE-HE-XML>
 	<DatosGenerales>
 		<refCatastral>ninguno</refCatastral>
@@ -84,7 +83,7 @@
 		<colegioAut>- Seleccione de la lista -</colegioAut>
 		<colegioOtrosAut>-</colegioOtrosAut>
 		<numeroColegiadoAut>-</numeroColegiadoAut>
-		<fechaVisita>03/08/15</fechaVisita>
+		<fechaVisita>24/10/15</fechaVisita>
 		<extInfo>SI</extInfo>
 		<VentNoct>SI</VentNoct>
 		<SistSus>SI</SistSus>
@@ -115,10 +114,19 @@
 		<recEFC>-1.000</recEFC>
 		<cambios>NO</cambios>
 		<cambioscalener>NO</cambioscalener>
-		<RED1>RED1    <precioEnergia>0.0</precioEnergia><conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria><conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable><conversionEmisionesCO2>1.000</conversionEmisionesCO2></RED1>
-		<RED2>RED2    <precioEnergia>0.0</precioEnergia><conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria><conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable><conversionEmisionesCO2>1.000</conversionEmisionesCO2></RED2>
+		<RED1>RED1  <precioEnergia>0.0</precioEnergia>
+			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
+			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
+			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
+		</RED1>
+		<RED2>RED2  <precioEnergia>0.0</precioEnergia>
+			<conversionEnergiaPrimaria>1.000</conversionEnergiaPrimaria>
+			<conversionEnergiaPrimariaNoRenovable>1.000</conversionEnergiaPrimariaNoRenovable>
+			<conversionEmisionesCO2>1.000</conversionEmisionesCO2>
+		</RED2>
 	</DatosGenerales>
-	<EntradaGraficaLIDER><![CDATA[$ +----------------------------------------------------+
+	<EntradaGraficaLIDER>
+		<![CDATA[$ +----------------------------------------------------+
 $ |         FICHERO GENERADO CON CTE-HE-2019           |
 $ +----------------------------------------------------+
 $
@@ -3322,7 +3330,8 @@ $
 $ +-----------------------------------------------------------------+
 $ |                        Final del fichero                        |
 $ +-----------------------------------------------------------------+
-]]></EntradaGraficaLIDER>
+]]>
+	</EntradaGraficaLIDER>
 	<Definicion_Sistema>
 		<elementos>
 			<FactoresDeCorreccion>
@@ -3632,6 +3641,5 @@ $ +-----------------------------------------------------------------+
 				</SIS_Autonomo>
 			</Sistemas>
 		</elementos>
-		<datosVentilacionTerciario/>
 	</Definicion_Sistema>
 </CTE-HE-XML>
